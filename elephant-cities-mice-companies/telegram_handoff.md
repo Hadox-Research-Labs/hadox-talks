@@ -29,11 +29,3 @@ Version narrada con los slides originales:
 https://hadox-research-labs.github.io/hadox-talks/elephant-cities-mice-companies/
 
 Que deberiamos aprender de las ciudades para disenar organizaciones mas adaptativas?
-
----
-
-Cities do not scale like companies.
-
-A 2021 talk, republished as a living archive with the original slides and an enriched public narration.
-
-https://hadox-research-labs.github.io/hadox-talks/elephant-cities-mice-companies/index-en.html

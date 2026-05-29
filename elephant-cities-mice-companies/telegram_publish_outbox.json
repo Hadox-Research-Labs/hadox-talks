@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T09:54:35+00:00",
+  "generated_at": "2026-05-29T09:57:42+00:00",
   "transport": {
     "primary": "telegram",
     "env": {
@@ -27,18 +27,6 @@
       "transport": "telegram",
       "status": "draft_not_sent",
       "text": "Hey! Las ciudades no crecen como las empresas.\n\nEstoy republicando una platica que di en 2021 sobre leyes de escala, complejidad urbana y sostenibilidad.\n\nLa pregunta sigue abierta: por que algunas ciudades se vuelven mas vivas al crecer, mientras muchas organizaciones se vuelven mas rigidas?\n\nVersion narrada con los slides originales:\n\nhttps://hadox-research-labs.github.io/hadox-talks/elephant-cities-mice-companies/\n\nQue deberiamos aprender de las ciudades para disenar organizaciones mas adaptativas?"
-    },
-    {
-      "slug": "elephant-cities-mice-companies",
-      "kind": "share_ready_photo",
-      "platform": "image_post",
-      "language": "en",
-      "transport": "telegram",
-      "status": "draft_not_sent",
-      "text": "Cities do not scale like companies.\n\nA 2021 talk, republished as a living archive with the original slides and an enriched public narration.\n\nhttps://hadox-research-labs.github.io/hadox-talks/elephant-cities-mice-companies/index-en.html",
-      "photo_url": "https://hadox-research-labs.github.io/hadox-talks/elephant-cities-mice-companies/assets/social/cover-square.png",
-      "photo_path": "/mnt/c/Users/usuario/Documents/Codex/hadox-talks-pages/elephant-cities-mice-companies/assets/social/cover-square.png",
-      "photo_caption": "Cities do not scale like companies.\n\nA 2021 talk, republished as a living archive with the original slides and an enriched public narration.\n\nhttps://hadox-research-labs.github.io/hadox-talks/elephant-cities-mice-companies/index-en.html"
     }
   ]
 }
