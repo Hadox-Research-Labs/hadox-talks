@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-05-29T17:07:45+00:00",
+  "transport": {
+    "primary": "telegram",
+    "env": {
+      "bot_token": "HADOX_EDITORIAL_TELEGRAM_BOT_TOKEN",
+      "review_chat_id": "HADOX_EDITORIAL_TELEGRAM_CHAT_ID"
+    }
+  },
+  "status": "draft_outbox_not_sent",
+  "purpose": "share_ready_social_posts_after_pages_publication",
+  "messages": [
+    {
+      "slug": "resilient-urban-ai",
+      "kind": "share_ready_text",
+      "platform": "linkedin",
+      "language": "en",
+      "transport": "telegram",
+      "status": "draft_not_sent",
+      "text": "A while ago I gave a talk about complexity, AI, and resilient urban systems.\n\nI am bringing it back as part of the Hadox Talks archive because the question has only become more relevant: how do we use AI in cities without pretending that cities are simple machines?\n\nThe deck moves from complex systems and fragility to the Anthropocene, sustainability, governance, and urban health. The useful idea for me is this: AI should not replace systems thinking. It should make it easier to see dependencies, anticipate stress, and coordinate better public decisions.\n\nhttps://hadox-research-labs.github.io/hadox-talks/resilient-urban-ai/index-en.html"
+    },
+    {
+      "slug": "resilient-urban-ai",
+      "kind": "share_ready_text",
+      "platform": "telegram",
+      "language": "es",
+      "transport": "telegram",
+      "status": "draft_not_sent",
+      "text": "Estoy recuperando esta charla como parte del archivo Hadox Talks.\n\nLa pregunta sigue abierta: como usar IA para sistemas urbanos resilientes sin reducir la ciudad a un tablero.\n\nhttps://hadox-research-labs.github.io/hadox-talks/resilient-urban-ai/"
+    }
+  ]
+}

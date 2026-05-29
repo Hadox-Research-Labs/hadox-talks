@@ -12,12 +12,14 @@ social handoff material for later distribution.
 - Archive root: [https://hadox-research-labs.github.io/hadox-talks/](https://hadox-research-labs.github.io/hadox-talks/)
 - Current talk: [Por que las ciudades son como elefantes y las empresas como ratones](https://hadox-research-labs.github.io/hadox-talks/elephant-cities-mice-companies/)
 - English narration: [https://hadox-research-labs.github.io/hadox-talks/elephant-cities-mice-companies/index-en.html](https://hadox-research-labs.github.io/hadox-talks/elephant-cities-mice-companies/index-en.html)
+- Latest talk: [Navigating Complexity: AI for Resilient Urban Systems](https://hadox-research-labs.github.io/hadox-talks/resilient-urban-ai/index-en.html)
 
 ## Current Talks
 
 | Talk | Source | Status |
 | --- | --- | --- |
 | `elephant-cities-mice-companies` | Historical Google Slides deck, 2021 | Published with original slide images, Spanish narration, English narration, speaker scripts, and social handoff package |
+| `resilient-urban-ai` | Historical Google Slides deck, 2024 | Published with original slide images, Spanish narration, English narration, speaker scripts, phone redaction on final slide, and link-only social handoff package |
 
 ## Editorial Standard
 
@@ -40,7 +42,21 @@ Hadox Talks uses a conservative archival model:
 |-- index.html
 |-- README.md
 |-- .nojekyll
-`-- elephant-cities-mice-companies/
+|-- elephant-cities-mice-companies/
+    |-- index.html
+    |-- index-en.html
+    |-- deck.js
+    |-- theme.css
+    |-- narration.js
+    |-- speaker_script.md
+    |-- speaker_script_en.md
+    |-- social_pack.json
+    |-- telegram_handoff.md
+    |-- telegram_publish_outbox.json
+    `-- assets/
+        |-- slides/
+        `-- social/
+`-- resilient-urban-ai/
     |-- index.html
     |-- index-en.html
     |-- deck.js
