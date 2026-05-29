@@ -12,12 +12,14 @@ social handoff material for later distribution.
 - Archive root: [https://hadox-research-labs.github.io/hadox-talks/](https://hadox-research-labs.github.io/hadox-talks/)
 - Current talk: [Por que las ciudades son como elefantes y las empresas como ratones](https://hadox-research-labs.github.io/hadox-talks/elephant-cities-mice-companies/)
 - English narration: [https://hadox-research-labs.github.io/hadox-talks/elephant-cities-mice-companies/index-en.html](https://hadox-research-labs.github.io/hadox-talks/elephant-cities-mice-companies/index-en.html)
+- Complexity and public policies: [https://hadox-research-labs.github.io/hadox-talks/complexity-public-policies/](https://hadox-research-labs.github.io/hadox-talks/complexity-public-policies/)
 
 ## Current Talks
 
 | Talk | Source | Status |
 | --- | --- | --- |
 | `elephant-cities-mice-companies` | Historical Google Slides deck, 2021 | Published with original slide images, Spanish narration, English narration, speaker scripts, and social handoff package |
+| `complexity-public-policies` | Historical Google Slides deck, 2022 | Built with original slide images, enriched English narration, phone redaction, social preview metadata, and share-ready Telegram copy |
 
 ## Editorial Standard
 
@@ -48,6 +50,19 @@ Hadox Talks uses a conservative archival model:
     |-- narration.js
     |-- speaker_script.md
     |-- speaker_script_en.md
+    |-- social_pack.json
+    |-- telegram_handoff.md
+    |-- telegram_publish_outbox.json
+    `-- assets/
+        |-- slides/
+        `-- social/
+`-- complexity-public-policies/
+    |-- index.html
+    |-- index-en.html
+    |-- deck.js
+    |-- theme.css
+    |-- narration.js
+    |-- speaker_script.md
     |-- social_pack.json
     |-- telegram_handoff.md
     |-- telegram_publish_outbox.json

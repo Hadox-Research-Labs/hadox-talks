@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-05-29T15:27:20+00:00",
+  "transport": {
+    "primary": "telegram",
+    "env": {
+      "bot_token": "HADOX_EDITORIAL_TELEGRAM_BOT_TOKEN",
+      "review_chat_id": "HADOX_EDITORIAL_TELEGRAM_CHAT_ID"
+    }
+  },
+  "status": "draft_outbox_not_sent",
+  "purpose": "share_ready_social_posts_after_pages_publication",
+  "messages": [
+    {
+      "slug": "complexity-public-policies",
+      "kind": "share_ready_text",
+      "platform": "linkedin",
+      "language": "en",
+      "transport": "telegram",
+      "status": "draft_not_sent",
+      "text": "Hey! Public policy does not operate inside a machine. It operates inside living systems.\n\nI am republishing a short talk I gave in 2022 about a question that still matters: how can complexity help us understand public policies?\n\nThe useful part of complexity is not jargon. It is discipline.\n\nIt pushes us to ask better questions before designing interventions:\n\nWhat agents are adapting?\nWhat feedback loops are active?\nWhat incentives will the policy change?\nWhere can coordination fail?\nHow will the policy learn when reality pushes back?\n\nMany policy failures come from treating dynamic systems as if they were linear pipelines. A rule changes behavior. A metric changes priorities. A subsidy changes markets. A governance design changes who has voice, who has capacity, and who adapts first.\n\nI rebuilt the talk as a living archive with the original slides and an enriched public narration:\n\nhttps://hadox-research-labs.github.io/hadox-talks/complexity-public-policies/\n\nThe point is not to make public policy more abstract. The point is to make it more realistic.\n\nWhat public policy area most needs a complexity lens right now?\n\n#ComplexityScience #PublicPolicy #Governance #SystemsThinking #UrbanSystems #HadoxResearchLabs"
+    },
+    {
+      "slug": "complexity-public-policies",
+      "kind": "share_ready_text",
+      "platform": "instagram_facebook_whatsapp",
+      "language": "en",
+      "transport": "telegram",
+      "status": "draft_not_sent",
+      "text": "Public policy does not operate inside a machine. It operates inside living systems.\n\nI am republishing a short 2022 talk on complexity and public policies, with the original slides and an enriched narration:\n\nhttps://hadox-research-labs.github.io/hadox-talks/complexity-public-policies/\n\nWhat policy area most needs a complexity lens right now?"
+    }
+  ]
+}
