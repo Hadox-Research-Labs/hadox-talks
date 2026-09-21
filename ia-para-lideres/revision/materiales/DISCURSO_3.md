@@ -146,6 +146,8 @@ Vamos a pedir totales, medias y una lectura ejecutiva. Después comprobaremos la
 
 Una extrapolación a trescientos casos puede ayudarnos a formular una hipótesis de valor. Hay que distinguirla de lo observado en diez casos y preguntar si las condiciones y tipos de solicitud son comparables. Ahora decidan: ¿ampliarían, corregirían o detendrían esta prueba, y con qué evidencia para volver a revisar?
 
+Revisemos también las explicaciones que acompañan la tabla. En la prueba docente, el modelo sumó bien los tiempos, pero añadió un costo de remediación de 30 a 120 minutos sin fuente. Ese rango no está en F5 y debe eliminarse. Tampoco hemos demostrado una filtración consumada: F6 dice que el borrador no salió. Una tabla correcta puede convivir con una interpretación incorrecta; ésa es una parte central de nuestra revisión.
+
 ### Conducción
 
 0–5 min: inspeccionar columnas y origen simulado.

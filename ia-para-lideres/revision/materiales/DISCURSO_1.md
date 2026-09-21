@@ -250,6 +250,8 @@ Una distribución de estados puede orientar preguntas distintas: documentación,
 
 Miren el antes y el después. El producto no tiene que cambiar por completo; una pregunta mejor formulada ya puede mejorar la reunión. En su práctica conservarán una evidencia concreta del campo visual y del efecto que tuvo en su recomendación.
 
+Una cita automática tampoco garantiza que la fuente sostenga la frase. En nuestra prueba, el modelo citó la imagen junto a datos históricos que venían de F1. Comprobaremos el dato y el documento: V1 describe el cierre de una semana, mientras F1 contiene la serie. Si una hipótesis sobre falta de personal aparece como certeza, la devolveremos a una pregunta por investigar.
+
 ### Conducción
 
 0–3 min: explicar multimodalidad y mostrar cómo adjuntar un PNG.
