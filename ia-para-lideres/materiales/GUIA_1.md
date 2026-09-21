@@ -15,9 +15,9 @@ Comprender qué es un modelo fundacional, distinguir modelo de aplicación y usa
 
 ## Recorrido
 
-18:00–18:40: situación del comité, historia, mapa de desarrolladores y casos globales y regionales.
+18:00–18:44: situación del comité, historia, mapa de machine learning, desarrolladores y casos globales y regionales.
 
-18:40–19:15: explicación del modelo, preparación de Gemini y demostración del mismo encargo sin expediente y con F1/F2/F3.
+18:44–19:15: explicación del modelo, preparación de Gemini y demostración del mismo encargo sin expediente y con F1/F2/F3.
 
 19:15–19:25: descanso de diez minutos.
 
@@ -59,4 +59,4 @@ Termina sólo las correcciones que hayan quedado pendientes y conserva A para la
 
 ## Lectura sugerida
 
-Revisa las fuentes enlazadas en las láminas 2–6. Elige un caso institucional y anota qué función cambió, qué evidencia publicó la organización y qué no podemos inferir de ese relato. No se pide memorizar marcas ni porcentajes.
+Revisa las fuentes enlazadas en las láminas 2–7. Elige un caso institucional y anota qué función cambió, qué evidencia publicó la organización y qué no podemos inferir de ese relato. No se pide memorizar marcas ni porcentajes.

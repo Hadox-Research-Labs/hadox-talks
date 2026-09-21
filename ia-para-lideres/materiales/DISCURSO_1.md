@@ -1,6 +1,6 @@
 # Clase 1 · Preparar una decisión con IA
 
-Guion del expositor · Hadox Talks · Historia, contexto y participación
+Guion del expositor · Hadox Talks
 
 ## 1. IA para líderes
 
@@ -44,7 +44,7 @@ Tercera escena: en 2021, investigadores de Stanford describieron los modelos fun
 
 Hagamos una comparación rápida: ¿qué es más fácil dejar en una regla, calcular un descuento o explicar por qué crecen las quejas? Escuchemos una respuesta. El descuento tiene condiciones que podemos definir; explicar las quejas necesita contexto y evidencia. Un modelo puede ayudar a preparar esa explicación, pero también puede proponer una causa que nadie ha demostrado.
 
-Éste es el cambio que nos toca como líderes: podemos expresar un encargo en lenguaje cotidiano, aportar documentos y revisar un resultado. La capacidad cambia; el criterio sigue siendo nuestro. Ahora veremos quién construye esas capacidades y en qué aplicaciones las utilizamos.
+Éste es el cambio que nos toca como líderes: podemos expresar un encargo en lenguaje cotidiano, aportar documentos y revisar un resultado. La capacidad cambia; el criterio sigue siendo nuestro. Antes de conocer a los desarrolladores, vamos a recorrer el mapa de capacidades del aprendizaje automático.
 
 ### Cómo conducirla
 
@@ -56,7 +56,7 @@ Hagamos una comparación rápida: ¿qué es más fácil dejar en una regla, calc
 
 5–6 min: escuchar una respuesta a descuento frente a quejas; no abrir Gemini todavía.
 
-6–7 min: rematar con criterio humano y pasar al mapa de desarrolladores.
+6–7 min: rematar con criterio humano y pasar al mapa del machine learning.
 
 Para ampliar: parámetros son valores aprendidos; entrenamiento los ajusta. Inferencia usa el modelo entrenado. Estos hitos no son una historia exhaustiva ni significan que todas las tecnologías sigan una sola línea evolutiva.
 
@@ -70,9 +70,69 @@ Para ampliar: parámetros son valores aprendidos; entrenamiento los ajusta. Infe
 
 - [Dartmouth · Our Story](https://ai.dartmouth.edu/our-story): Propuesta de 1955 y encuentro de 1956. Contexto histórico de la investigación en IA.
 
-## 3. Quién desarrolla y dónde trabajamos
+## 3. El mapa del machine learning
 
-18:12–18:20 · 8 minutos
+18:12–18:24 · 12 minutos
+
+Pregunta: ¿Qué capacidad de IA necesita realmente el problema de tu organización?
+
+### Discurso
+
+Miren este mapa antes de pensar en una marca. Cuando una empresa dice «necesito inteligencia artificial», todavía falta entender qué trabajo quiere resolver. Aquí hay sistemas que descubren grupos, otros que estiman cantidades y otros que aprenden a actuar. Vamos a recorrer el dibujo del centro hacia afuera. Conserven una pregunta: ¿en qué parte de este mapa está un problema de su organización?
+
+En el centro está machine learning: aprender patrones a partir de datos o experiencia. La prueba importante es qué ocurre con casos diferentes de los usados para aprender. Memorizar el historial de una empresa no garantiza que el sistema responda bien mañana. Las tres familias muestran distintas formas de aprovechar esa experiencia. Son una orientación para pensar, no departamentos aislados: una solución real puede combinar técnicas.
+
+Empecemos por la izquierda, en azul. Aprendizaje no supervisado: tenemos datos, pero no entregamos una respuesta correcta para cada registro. Imaginen una tabla con cientos de variables sobre miles de clientes. La reducción de dimensionalidad intenta construir una representación más pequeña que conserve información relevante. Meaningful compression es esa compresión útil: resumir sin perder lo que importa para la tarea. Structure Discovery busca estructuras y relaciones que no habíamos advertido. Feature Elicitation habla de obtener características aprovechables: transformar muchas mediciones en señales con las que trabajar. Big data Visualisation permite llevar datos de muchas dimensiones a una representación que podamos explorar. Al proyectar perdemos información; dos puntos cercanos en el dibujo no prueban que dos clientes sean iguales en todo.
+
+Bajemos a clustering, agrupación por similitud. Customer Segmentation encuentra grupos con comportamientos parecidos. Targeted Marketing utiliza esos grupos para plantear propuestas distintas. Recommender Systems puede aprovechar semejanzas entre personas o productos para sugerir algo relevante. Son trabajos conectados, pero diferentes: descubrir un grupo, decidir cómo tratarlo y recomendarle algo. Los recomendadores también usan otras técnicas. Encontrar un segmento por sí solo no demuestra que una campaña vaya a funcionar. Como líderes tenemos que preguntar qué variables produjeron el grupo y qué decisión justifica.
+
+Ahora la derecha, en terracota. Aprendizaje supervisado: proporcionamos ejemplos con resultados conocidos. Clasificación responde a una categoría o a su probabilidad. Fraud Detection busca operaciones sospechosas: si se equivoca puede dejar pasar fraude o molestar a un cliente legítimo. Image Classification permite reconocer, por ejemplo, una imagen de una pieza defectuosa. Customer Retention suele empezar por estimar quién podría abandonar el servicio; después hay que probar qué intervención realmente ayuda a conservarlo. Diagnostics puede clasificar posibles fallos de una máquina a partir de sus señales. Señalen conmigo las cuatro aplicaciones: el tipo de dato cambia, pero estamos aprendiendo a distinguir categorías. Fraude también puede abordarse como detección de anomalías; el mapa ilustra posibilidades, no exclusividades.
+
+La otra rama supervisada es regresión: estimamos un valor numérico. Forecasting lleva eso al futuro, como demanda de la próxima semana. Predictions es más amplio: también podemos estimar el coste de algo que todavía no conocemos. Process Optimization usa predicciones para comparar decisiones, pero necesita además un objetivo y restricciones: saber cuánto tarda una operación no decide automáticamente cómo reorganizarla. New Insights representa información que obtenemos sobre relaciones entre variables. Si dos cosas se mueven juntas, eso todavía no demuestra que una cause la otra. Piensen en la diferencia entre preguntar «¿este cliente abandonará?» y «¿cuántas solicitudes llegarán?»: la formulación cambia el problema técnico y la manera de evaluar el resultado.
+
+Vayamos abajo, al aprendizaje por refuerzo, en ocre. Aquí un agente actúa en un entorno y aprende una política mediante recompensas. La decisión de ahora modifica lo que podrá hacer después. Real-Time Decisions abre el problema de actuar a tiempo mientras cambia el entorno. Una respuesta rápida no implica que el sistema esté aprendiendo en ese instante: puede usar una política entrenada previamente.
+
+Game AI merece detenernos. Imaginen StarCraft: no ven todo lo que hace el rival, tienen recursos limitados y deben decidir entre invertir, explorar o atacar. Una ventaja inmediata puede arruinar su posición posterior. AlphaStar, de DeepMind, combinó aprendizaje a partir de partidas humanas con aprendizaje por refuerzo. Los juegos permiten investigar decisiones encadenadas y evaluar estrategias en un entorno definido. La analogía con dirección resulta interesante por la incertidumbre y la asignación de recursos; trasladar una técnica a una empresa exige otro trabajo de validación. La IA de los videojuegos también incluye reglas y búsqueda.
+
+Robot Navigation lleva esas decisiones al espacio físico: llegar a un destino, evitar obstáculos y responder a lo que detectan los sensores. Skill Acquisition consiste en aprender habilidades reutilizables, como caminar, girar o agarrar un objeto. Learning Tasks es una etiqueta más amplia para aprender a resolver una tarea con un objetivo: recoger y colocar objetos puede exigir varias habilidades. Por eso conservamos las cinco etiquetas. Estrategia de juego, navegación, habilidad y tarea abren preguntas diferentes sobre lo que queremos que un sistema aprenda y cómo comprobarlo.
+
+Ahora ubiquemos lo que haremos hoy. Los modelos fundacionales y generativos amplían este panorama. Este mapa clásico no dibuja por separado el aprendizaje autosupervisado: en muchos modelos de lenguaje, el propio texto proporciona la señal para aprender a predecir tokens. En su desarrollo también pueden intervenir ajuste supervisado y métodos de refuerzo. Deep learning describe una familia de modelos basada en redes neuronales, no una cuarta rama paralela a estas tres. Un mismo modelo puede participar en tareas distintas.
+
+En esta clase utilizaremos un modelo ya entrenado para trabajar con texto y una imagen. Cuando agreguemos documentos a Gemini, estaremos aportando contexto para la respuesta; no estaremos entrenando desde cero un clasificador o un robot. ¿Qué capacidad de este mapa les serviría en su organización, y qué dato necesitarían para comprobarla? Escuchemos una respuesta breve. Con esa distinción ahora sí tiene sentido conocer quién desarrolla los modelos y en qué aplicaciones podemos utilizarlos.
+
+### Cómo conducirla
+
+0–1 min: mostrar el mapa completo; señalar centro, familias y aplicaciones. No abrir Gemini.
+
+1–4 min: recorrer la rama azul: reducción de dimensionalidad, sus cuatro aplicaciones y las tres de clustering.
+
+4–7 min: recorrer clasificación y regresión; explicar sus ocho aplicaciones y distinguir categoría de cantidad.
+
+7–10 min: recorrer las cinco aplicaciones de refuerzo. Detenerse en StarCraft, estrategia y consecuencias diferidas.
+
+10–11 min: ubicar aprendizaje autosupervisado, deep learning y modelos fundacionales sin presentarlos como ramas equivalentes.
+
+11–12 min: escuchar una oportunidad del grupo y enlazar con desarrolladores y aplicaciones.
+
+Señala las ramas mientras hablas. Los colores organizan familias; las aplicaciones pueden combinar métodos. El gráfico es un mapa clásico orientativo, no una taxonomía exhaustiva de toda la IA.
+
+### Referencias
+
+- [Google · Introducción al aprendizaje automático](https://developers.google.com/machine-learning/intro-to-ml/what-is-ml): Tipos de aprendizaje y formulación de tareas.
+
+- [Scikit-learn · Descomposición y reducción de dimensiones](https://scikit-learn.org/stable/modules/decomposition.html): Representaciones compactas, extracción de características y límites.
+
+- [Scikit-learn · Clustering](https://scikit-learn.org/stable/modules/clustering.html): Agrupación por similitud y supuestos de los métodos.
+
+- [DeepMind · AlphaStar en StarCraft II](https://deepmind.google/blog/alphastar-mastering-the-real-time-strategy-game-starcraft-ii/): Información incompleta, estrategia y combinación de aprendizaje supervisado y por refuerzo.
+
+- [DeepMind · From motor control to embodied intelligence](https://deepmind.google/blog/from-motor-control-to-embodied-intelligence): Habilidades motoras y tareas en entornos físicos.
+
+- [Stanford CRFM · On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258): Modelos fundacionales y relación con aprendizaje autosupervisado.
+
+## 4. Quién desarrolla y dónde trabajamos
+
+18:24–18:32 · 8 minutos
 
 Pregunta: ¿Qué estamos eligiendo: empresa, modelo o aplicación?
 
@@ -106,9 +166,9 @@ Los nombres y funciones cambian. La documentación enlazada sirve para revisar d
 
 - [Google · Subir y analizar archivos en Gemini](https://support.google.com/gemini/answer/14903178?hl=es): Carga de documentos e imágenes; disponibilidad y límites según cuenta.
 
-## 4. ¿Qué conectan Uber, Airbnb y Visa?
+## 5. ¿Qué conectan Uber, Airbnb y Visa?
 
-18:20–18:30 · 10 minutos
+18:32–18:38 · 6 minutos
 
 Pregunta: ¿Qué trabajo de coordinación podríamos preparar mejor con IA?
 
@@ -130,15 +190,13 @@ En ambos conviene mirar cuatro cosas: necesidad, información, resultado y respo
 
 ### Cómo conducirla
 
-0–1 min: dejar diez segundos de observación y escuchar dos respuestas sobre qué conectan las tres empresas.
+0–1 min: observar las conexiones y escuchar una respuesta.
 
-1–4 min: narrar el viaje a una ciudad y explicar coordinación, información y reglas.
+1–3 min: explicar coordinación, información y reglas con Uber, Airbnb y Visa.
 
-4–6 min: conectar con IA para preparar trabajo; distinguir plataformas de modelos generativos.
+3–5 min: enlazar con los usos documentados de BBVA y Mercedes-Benz.
 
-6–8 min: recuperar BBVA y Mercedes-Benz como dos usos documentados, sin atribuir resultados no medidos.
-
-8–10 min: escuchar dos fricciones de coordinación y pasar al contexto regional.
+5–6 min: recoger una fricción organizacional y pasar al contexto regional.
 
 ### Referencias
 
@@ -152,9 +210,9 @@ En ambos conviene mirar cuatro cosas: necesidad, información, resultado y respo
 
 - [Visa · VisaNet](https://corporate.visa.com/en/about-visa/visanet.html): Red de pagos y conexión con instituciones y participantes. Base para la analogía de coordinación.
 
-## 5. La región también está experimentando
+## 6. La región también está experimentando
 
-18:30–18:40 · 10 minutos
+18:38–18:44 · 6 minutos
 
 Pregunta: ¿Qué podemos aprender de experiencias cercanas sin suponer que son iguales?
 
@@ -172,13 +230,13 @@ Para aterrizarlo, piensen en la última vez que un cliente tuvo que contar su pr
 
 ### Cómo conducirla
 
-0–2 min: pasar del panorama global a una fricción reconocible en la región.
+0–1 min: pasar del panorama global a una fricción reconocible.
 
-2–6 min: contrastar Banrural y TEC/CCSS; separar implementación reportada de prototipado.
+1–4 min: contrastar Banrural y TEC/CCSS; distinguir implementación de prototipado.
 
-6–8 min: escuchar un ejemplo de pérdida de información entre áreas, sin datos privados.
+4–5 min: escuchar un ejemplo de información perdida entre áreas.
 
-8–10 min: enlazar con Nexo y la información que necesitará el modelo.
+5–6 min: conectar con Nexo y el contexto que necesita el modelo.
 
 El estudio de UNIS es lectura opcional sobre ejecutivos; su muestra no representa estadísticamente a todas las empresas de Guatemala. El ejemplo regional Nexo es una construcción docente, no un caso atribuido.
 
@@ -190,9 +248,9 @@ El estudio de UNIS es lectura opcional sobre ejecutivos; su muestra no represent
 
 - [UNIS Business School · Estudio empresarial de IA 2025](https://unisbs.edu.gt/wp-content/uploads/sites/3/2025/09/UBS_CIHE_ESTUDIOAI_2025.pdf): Encuesta a ejecutivos; muestra no representativa de todas las empresas de Guatemala.
 
-## 6. Qué hace el modelo con nuestro encargo
+## 7. Qué hace el modelo con nuestro encargo
 
-18:40–18:50 · 10 minutos
+18:44–18:50 · 6 minutos
 
 Pregunta: ¿Qué cambia cuando aportamos los documentos correctos?
 
@@ -208,11 +266,11 @@ Después del descanso descargaremos V1 y la adjuntaremos como imagen. Por ahora 
 
 ### Cómo conducirla
 
-0–4 min: explicar entrenamiento, inferencia y contexto con el diagrama.
+0–2 min: explicar entrenamiento, inferencia, tokens y contexto.
 
-4–7 min: mostrar chat nuevo, selector de modelo y campo de texto.
+2–4 min: mostrar chat nuevo y selector de modelo.
 
-7–10 min: ubicar los botones completos de la mesa de trabajo; confirmar que todos saben dónde encontrarla.
+4–6 min: ubicar los encargos completos y preparar la demostración.
 
 ### Referencias
 
@@ -224,7 +282,7 @@ Después del descanso descargaremos V1 y la adjuntaremos como imagen. Por ahora 
 
 - [Google · Subir y analizar archivos en Gemini](https://support.google.com/gemini/answer/14903178?hl=es): Carga de documentos e imágenes; disponibilidad y límites según cuenta.
 
-## 7. Mañana hay comité
+## 8. Mañana hay comité
 
 18:50–19:15 · 25 minutos
 
@@ -262,7 +320,7 @@ Pidamos una mejora breve del informe y conservemos las dos versiones. Ustedes ha
 
 Si no hay acceso, usar la respuesta docente de referencia identificada como ejemplo, o analizar la demostración observada. No atribuirla a una ejecución real del alumno. No hace falta que la primera respuesta falle.
 
-## 8. Descanso
+## 9. Descanso
 
 19:15–19:25 · 10 minutos
 
@@ -276,7 +334,7 @@ Tenemos diez minutos de descanso. Regresamos a las siete veinticinco. Conserven 
 
 Descanso completo de 19:15 a 19:25. No añadir una tarea durante la pausa.
 
-## 9. Una imagen puede cambiar la pregunta
+## 10. Una imagen puede cambiar la pregunta
 
 19:25–19:40 · 15 minutos
 
@@ -318,7 +376,7 @@ Volvamos a lo que dijeron al mirar la imagen. ¿Cambió la prioridad, apareció 
 
 - [Google · Subir y analizar archivos en Gemini](https://support.google.com/gemini/answer/14903178?hl=es): Carga de documentos e imágenes; disponibilidad y límites según cuenta.
 
-## 10. Un expediente, distintas decisiones
+## 11. Un expediente, distintas decisiones
 
 19:40–20:10 · 30 minutos
 
@@ -348,7 +406,7 @@ Quienes terminen antes pueden probar qué ocurre al cambiar una condición o ped
 
 Profundización opcional: pedir la salida en una tabla de hallazgo/fuente/hipótesis/acción, o modificar una entrada en una tercera prueba y documentar qué cambió. No suma puntos por complejidad.
 
-## 11. Tu decisión tiene que poder explicarse
+## 12. Tu decisión tiene que poder explicarse
 
 20:10–20:25 · 15 minutos
 
@@ -370,7 +428,7 @@ Una conclusión distinta de la mía puede estar mejor sustentada. Lo que necesit
 
 10–15 min: escuchar dos recomendaciones y una pregunta pendiente de cada una.
 
-## 12. Lo que llevarías a la siguiente reunión
+## 13. Lo que llevarías a la siguiente reunión
 
 20:25–20:30 · 5 minutos
 

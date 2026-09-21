@@ -32,13 +32,13 @@
         "tipo": "EXPLICACIÓN",
         "horario": "18:05–18:12",
         "question": "¿Qué cambió para que podamos encargar trabajo en lenguaje cotidiano?",
-        "narration": "Antes de abrir un chat, quiero que miremos algo extraño: hoy podemos pedirle un informe a una máquina usando la misma lengua con la que pedimos un café. ¿Cómo llegamos hasta aquí? Miren las tres escenas. Son una ilustración conceptual, no fotografías históricas ni etapas que se hayan sustituido por completo.\n\nPrimera escena: Dartmouth. En 1955, John McCarthy y sus colegas propusieron un encuentro para el verano de 1956 con una pregunta enorme: ¿podemos describir aspectos de la inteligencia de manera suficientemente precisa para que una máquina los simule? Imaginen plantear esa ambición cuando trabajar con computadoras era algo muy distinto de abrir una aplicación. La aspiración era grande; construir sistemas útiles llevaría décadas de investigación, avances y límites.\n\nPensemos en una instrucción: si una compra supera cierta cantidad, pide autorización. Podemos escribir esa regla. Pero ahora intenten escribir todas las reglas para reconocer una queja, distinguir una fotografía o interpretar una frase ambigua. La lista empieza a crecer. Aprender patrones a partir de ejemplos ofrece otro camino. Estos enfoques conviven: en una empresa seguimos necesitando reglas explícitas junto a modelos aprendidos.\n\nSegunda escena: en 2017, el trabajo del Transformer presentó una arquitectura basada en atención. Aprender patrones no nació ese año. El hito fue una forma de relacionar información que resultó muy influyente. Atención aquí significa un mecanismo matemático; no que la máquina tenga conciencia o interés por nuestro negocio.\n\nTercera escena: en 2021, investigadores de Stanford describieron los modelos fundacionales como bases entrenadas ampliamente que pueden adaptarse a diferentes tareas. Tampoco nacieron todos los chats ese año. La idea que nos interesa es que una misma base puede ayudarnos con varios trabajos: resumir, comparar, redactar o relacionar información, según sus capacidades.\n\nHagamos una comparación rápida: ¿qué es más fácil dejar en una regla, calcular un descuento o explicar por qué crecen las quejas? Escuchemos una respuesta. El descuento tiene condiciones que podemos definir; explicar las quejas necesita contexto y evidencia. Un modelo puede ayudar a preparar esa explicación, pero también puede proponer una causa que nadie ha demostrado.\n\nÉste es el cambio que nos toca como líderes: podemos expresar un encargo en lenguaje cotidiano, aportar documentos y revisar un resultado. La capacidad cambia; el criterio sigue siendo nuestro. Ahora veremos quién construye esas capacidades y en qué aplicaciones las utilizamos.",
+        "narration": "Antes de abrir un chat, quiero que miremos algo extraño: hoy podemos pedirle un informe a una máquina usando la misma lengua con la que pedimos un café. ¿Cómo llegamos hasta aquí? Miren las tres escenas. Son una ilustración conceptual, no fotografías históricas ni etapas que se hayan sustituido por completo.\n\nPrimera escena: Dartmouth. En 1955, John McCarthy y sus colegas propusieron un encuentro para el verano de 1956 con una pregunta enorme: ¿podemos describir aspectos de la inteligencia de manera suficientemente precisa para que una máquina los simule? Imaginen plantear esa ambición cuando trabajar con computadoras era algo muy distinto de abrir una aplicación. La aspiración era grande; construir sistemas útiles llevaría décadas de investigación, avances y límites.\n\nPensemos en una instrucción: si una compra supera cierta cantidad, pide autorización. Podemos escribir esa regla. Pero ahora intenten escribir todas las reglas para reconocer una queja, distinguir una fotografía o interpretar una frase ambigua. La lista empieza a crecer. Aprender patrones a partir de ejemplos ofrece otro camino. Estos enfoques conviven: en una empresa seguimos necesitando reglas explícitas junto a modelos aprendidos.\n\nSegunda escena: en 2017, el trabajo del Transformer presentó una arquitectura basada en atención. Aprender patrones no nació ese año. El hito fue una forma de relacionar información que resultó muy influyente. Atención aquí significa un mecanismo matemático; no que la máquina tenga conciencia o interés por nuestro negocio.\n\nTercera escena: en 2021, investigadores de Stanford describieron los modelos fundacionales como bases entrenadas ampliamente que pueden adaptarse a diferentes tareas. Tampoco nacieron todos los chats ese año. La idea que nos interesa es que una misma base puede ayudarnos con varios trabajos: resumir, comparar, redactar o relacionar información, según sus capacidades.\n\nHagamos una comparación rápida: ¿qué es más fácil dejar en una regla, calcular un descuento o explicar por qué crecen las quejas? Escuchemos una respuesta. El descuento tiene condiciones que podemos definir; explicar las quejas necesita contexto y evidencia. Un modelo puede ayudar a preparar esa explicación, pero también puede proponer una causa que nadie ha demostrado.\n\nÉste es el cambio que nos toca como líderes: podemos expresar un encargo en lenguaje cotidiano, aportar documentos y revisar un resultado. La capacidad cambia; el criterio sigue siendo nuestro. Antes de conocer a los desarrolladores, vamos a recorrer el mapa de capacidades del aprendizaje automático.",
         "steps": [
           "0–1 min: mostrar la imagen completa y plantear cómo llegamos a conversar con una máquina.",
           "1–3 min: contar Dartmouth y contrastar una regla de autorización con aprender de ejemplos.",
           "3–5 min: explicar Transformer y modelos fundacionales; aclarar que son hitos, no fechas de nacimiento de cada capacidad.",
           "5–6 min: escuchar una respuesta a descuento frente a quejas; no abrir Gemini todavía.",
-          "6–7 min: rematar con criterio humano y pasar al mapa de desarrolladores."
+          "6–7 min: rematar con criterio humano y pasar al mapa del machine learning."
         ],
         "sources": [
           {
@@ -73,10 +73,72 @@
       },
       {
         "numero": 3,
+        "titulo": "El mapa del machine learning",
+        "minutes": 12,
+        "tipo": "EXPLICACIÓN",
+        "horario": "18:12–18:24",
+        "question": "¿Qué capacidad de IA necesita realmente el problema de tu organización?",
+        "narration": "Miren este mapa antes de pensar en una marca. Cuando una empresa dice «necesito inteligencia artificial», todavía falta entender qué trabajo quiere resolver. Aquí hay sistemas que descubren grupos, otros que estiman cantidades y otros que aprenden a actuar. Vamos a recorrer el dibujo del centro hacia afuera. Conserven una pregunta: ¿en qué parte de este mapa está un problema de su organización?\n\nEn el centro está machine learning: aprender patrones a partir de datos o experiencia. La prueba importante es qué ocurre con casos diferentes de los usados para aprender. Memorizar el historial de una empresa no garantiza que el sistema responda bien mañana. Las tres familias muestran distintas formas de aprovechar esa experiencia. Son una orientación para pensar, no departamentos aislados: una solución real puede combinar técnicas.\n\nEmpecemos por la izquierda, en azul. Aprendizaje no supervisado: tenemos datos, pero no entregamos una respuesta correcta para cada registro. Imaginen una tabla con cientos de variables sobre miles de clientes. La reducción de dimensionalidad intenta construir una representación más pequeña que conserve información relevante. Meaningful compression es esa compresión útil: resumir sin perder lo que importa para la tarea. Structure Discovery busca estructuras y relaciones que no habíamos advertido. Feature Elicitation habla de obtener características aprovechables: transformar muchas mediciones en señales con las que trabajar. Big data Visualisation permite llevar datos de muchas dimensiones a una representación que podamos explorar. Al proyectar perdemos información; dos puntos cercanos en el dibujo no prueban que dos clientes sean iguales en todo.\n\nBajemos a clustering, agrupación por similitud. Customer Segmentation encuentra grupos con comportamientos parecidos. Targeted Marketing utiliza esos grupos para plantear propuestas distintas. Recommender Systems puede aprovechar semejanzas entre personas o productos para sugerir algo relevante. Son trabajos conectados, pero diferentes: descubrir un grupo, decidir cómo tratarlo y recomendarle algo. Los recomendadores también usan otras técnicas. Encontrar un segmento por sí solo no demuestra que una campaña vaya a funcionar. Como líderes tenemos que preguntar qué variables produjeron el grupo y qué decisión justifica.\n\nAhora la derecha, en terracota. Aprendizaje supervisado: proporcionamos ejemplos con resultados conocidos. Clasificación responde a una categoría o a su probabilidad. Fraud Detection busca operaciones sospechosas: si se equivoca puede dejar pasar fraude o molestar a un cliente legítimo. Image Classification permite reconocer, por ejemplo, una imagen de una pieza defectuosa. Customer Retention suele empezar por estimar quién podría abandonar el servicio; después hay que probar qué intervención realmente ayuda a conservarlo. Diagnostics puede clasificar posibles fallos de una máquina a partir de sus señales. Señalen conmigo las cuatro aplicaciones: el tipo de dato cambia, pero estamos aprendiendo a distinguir categorías. Fraude también puede abordarse como detección de anomalías; el mapa ilustra posibilidades, no exclusividades.\n\nLa otra rama supervisada es regresión: estimamos un valor numérico. Forecasting lleva eso al futuro, como demanda de la próxima semana. Predictions es más amplio: también podemos estimar el coste de algo que todavía no conocemos. Process Optimization usa predicciones para comparar decisiones, pero necesita además un objetivo y restricciones: saber cuánto tarda una operación no decide automáticamente cómo reorganizarla. New Insights representa información que obtenemos sobre relaciones entre variables. Si dos cosas se mueven juntas, eso todavía no demuestra que una cause la otra. Piensen en la diferencia entre preguntar «¿este cliente abandonará?» y «¿cuántas solicitudes llegarán?»: la formulación cambia el problema técnico y la manera de evaluar el resultado.\n\nVayamos abajo, al aprendizaje por refuerzo, en ocre. Aquí un agente actúa en un entorno y aprende una política mediante recompensas. La decisión de ahora modifica lo que podrá hacer después. Real-Time Decisions abre el problema de actuar a tiempo mientras cambia el entorno. Una respuesta rápida no implica que el sistema esté aprendiendo en ese instante: puede usar una política entrenada previamente.\n\nGame AI merece detenernos. Imaginen StarCraft: no ven todo lo que hace el rival, tienen recursos limitados y deben decidir entre invertir, explorar o atacar. Una ventaja inmediata puede arruinar su posición posterior. AlphaStar, de DeepMind, combinó aprendizaje a partir de partidas humanas con aprendizaje por refuerzo. Los juegos permiten investigar decisiones encadenadas y evaluar estrategias en un entorno definido. La analogía con dirección resulta interesante por la incertidumbre y la asignación de recursos; trasladar una técnica a una empresa exige otro trabajo de validación. La IA de los videojuegos también incluye reglas y búsqueda.\n\nRobot Navigation lleva esas decisiones al espacio físico: llegar a un destino, evitar obstáculos y responder a lo que detectan los sensores. Skill Acquisition consiste en aprender habilidades reutilizables, como caminar, girar o agarrar un objeto. Learning Tasks es una etiqueta más amplia para aprender a resolver una tarea con un objetivo: recoger y colocar objetos puede exigir varias habilidades. Por eso conservamos las cinco etiquetas. Estrategia de juego, navegación, habilidad y tarea abren preguntas diferentes sobre lo que queremos que un sistema aprenda y cómo comprobarlo.\n\nAhora ubiquemos lo que haremos hoy. Los modelos fundacionales y generativos amplían este panorama. Este mapa clásico no dibuja por separado el aprendizaje autosupervisado: en muchos modelos de lenguaje, el propio texto proporciona la señal para aprender a predecir tokens. En su desarrollo también pueden intervenir ajuste supervisado y métodos de refuerzo. Deep learning describe una familia de modelos basada en redes neuronales, no una cuarta rama paralela a estas tres. Un mismo modelo puede participar en tareas distintas.\n\nEn esta clase utilizaremos un modelo ya entrenado para trabajar con texto y una imagen. Cuando agreguemos documentos a Gemini, estaremos aportando contexto para la respuesta; no estaremos entrenando desde cero un clasificador o un robot. ¿Qué capacidad de este mapa les serviría en su organización, y qué dato necesitarían para comprobarla? Escuchemos una respuesta breve. Con esa distinción ahora sí tiene sentido conocer quién desarrolla los modelos y en qué aplicaciones podemos utilizarlos.",
+        "steps": [
+          "0–1 min: mostrar el mapa completo; señalar centro, familias y aplicaciones. No abrir Gemini.",
+          "1–4 min: recorrer la rama azul: reducción de dimensionalidad, sus cuatro aplicaciones y las tres de clustering.",
+          "4–7 min: recorrer clasificación y regresión; explicar sus ocho aplicaciones y distinguir categoría de cantidad.",
+          "7–10 min: recorrer las cinco aplicaciones de refuerzo. Detenerse en StarCraft, estrategia y consecuencias diferidas.",
+          "10–11 min: ubicar aprendizaje autosupervisado, deep learning y modelos fundacionales sin presentarlos como ramas equivalentes.",
+          "11–12 min: escuchar una oportunidad del grupo y enlazar con desarrolladores y aplicaciones."
+        ],
+        "sources": [
+          {
+            "id": "ml-intro",
+            "title": "Google · Introducción al aprendizaje automático",
+            "url": "https://developers.google.com/machine-learning/intro-to-ml/what-is-ml",
+            "focus": "Tipos de aprendizaje y formulación de tareas."
+          },
+          {
+            "id": "decomposition",
+            "title": "Scikit-learn · Descomposición y reducción de dimensiones",
+            "url": "https://scikit-learn.org/stable/modules/decomposition.html",
+            "focus": "Representaciones compactas, extracción de características y límites."
+          },
+          {
+            "id": "clustering",
+            "title": "Scikit-learn · Clustering",
+            "url": "https://scikit-learn.org/stable/modules/clustering.html",
+            "focus": "Agrupación por similitud y supuestos de los métodos."
+          },
+          {
+            "id": "alphastar",
+            "title": "DeepMind · AlphaStar en StarCraft II",
+            "url": "https://deepmind.google/blog/alphastar-mastering-the-real-time-strategy-game-starcraft-ii/",
+            "focus": "Información incompleta, estrategia y combinación de aprendizaje supervisado y por refuerzo."
+          },
+          {
+            "id": "embodied",
+            "title": "DeepMind · From motor control to embodied intelligence",
+            "url": "https://deepmind.google/blog/from-motor-control-to-embodied-intelligence",
+            "focus": "Habilidades motoras y tareas en entornos físicos."
+          },
+          {
+            "id": "foundation-map",
+            "title": "Stanford CRFM · On the Opportunities and Risks of Foundation Models",
+            "url": "https://arxiv.org/abs/2108.07258",
+            "focus": "Modelos fundacionales y relación con aprendizaje autosupervisado."
+          }
+        ],
+        "work": [],
+        "materials": [
+          "MAPA_MACHINE_LEARNING.pdf",
+          "LECTURA_MAPA_ML.md"
+        ],
+        "extra": "Señala las ramas mientras hablas. Los colores organizan familias; las aplicaciones pueden combinar métodos. El gráfico es un mapa clásico orientativo, no una taxonomía exhaustiva de toda la IA.",
+        "image": "assets/c1-03-mapa-ml.png"
+      },
+      {
+        "numero": 4,
         "titulo": "Quién desarrolla y dónde trabajamos",
         "minutes": 8,
         "tipo": "EXPLICACIÓN",
-        "horario": "18:12–18:20",
+        "horario": "18:24–18:32",
         "question": "¿Qué estamos eligiendo: empresa, modelo o aplicación?",
         "narration": "Separaremos tres nombres que suelen mezclarse. OpenAI desarrolla modelos de la familia GPT y ofrece ChatGPT como aplicación. Google desarrolla Gemini, nombre que también utiliza su aplicación. Anthropic desarrolla Claude y utiliza ese nombre en sus productos. No hace falta memorizar versiones para comprender la distinción.\n\nEl modelo aporta capacidades; la aplicación ofrece una interfaz, archivos, herramientas y condiciones de acceso. Por eso dos productos que utilizan una familia similar pueden permitir trabajos diferentes. Una licencia de aplicación tampoco es automáticamente acceso a una API para integrar software.\n\nPara nuestro ejercicio usaremos Gemini. Revisaremos el nombre del modelo que muestra la cuenta y lo mantendremos en la comparación. Flash es la opción con la que estamos ensayando; si una cuenta muestra otra opción, hay que registrar cuál se usó y comparar bajo las mismas condiciones. No estamos haciendo un ranking entre proveedores.\n\nAntes de contratar una solución, las preguntas útiles son: qué tarea resuelve, qué información admite, cómo se comprueba la salida y qué acceso permite la organización. Veamos ahora por qué empresas distintas eligen usos distintos.",
         "steps": [
@@ -116,19 +178,18 @@
         "image": "assets/c1-03.png"
       },
       {
-        "numero": 4,
+        "numero": 5,
         "titulo": "¿Qué conectan Uber, Airbnb y Visa?",
-        "minutes": 10,
+        "minutes": 6,
         "tipo": "EXPLICACIÓN",
-        "horario": "18:20–18:30",
+        "horario": "18:32–18:38",
         "question": "¿Qué trabajo de coordinación podríamos preparar mejor con IA?",
         "narration": "Miren estos tres nombres: Uber, Airbnb y Visa. A primera vista hablamos de viajes, estancias y pagos. ¿Qué tienen en común? Les doy diez segundos. Escuchemos dos ideas antes de explicar la imagen.\n\nImaginen que llegan a una ciudad que no conocen: necesitan trasladarse, encontrar dónde quedarse y pagar. Detrás de esos actos cotidianos hay personas que deben encontrarse, información que debe circular y reglas que permiten coordinar el servicio. Esa coordinación es la idea común que quiero que observemos; cada empresa tiene un negocio y una tecnología diferentes.\n\nUber describe el emparejamiento entre pasajeros y conductores como una parte central de su plataforma. Importan la disponibilidad y las condiciones del viaje. Airbnb conecta anfitriones y huéspedes; disponibilidad, condiciones y mecanismos de confianza ayudan a que una estancia pueda acordarse. Visa opera una red de pagos que conecta a participantes como comercios e instituciones financieras. Una tarjeta visible es sólo una parte de lo que permite una transacción.\n\nEn mis charlas de transformación digital utilizaba esta pregunta para mirar más allá de la aplicación que vemos. Aquí nos sirve para preguntar algo muy concreto: ¿qué información y qué coordinación hacen posible el servicio de ustedes? No estamos diciendo que esos tres negocios sean modelos generativos, ni que todas sus funciones dependan de un chat.\n\nAhora añadamos una capacidad: una herramienta que puede preparar un resumen, clasificar una solicitud o redactar un borrador a partir de información disponible. Eso abre posibilidades para el trabajo entre esas conexiones. Es una analogía de negocio que vamos a probar en pequeño, no una promesa de que copiar una aplicación reproduce una plataforma.\n\nVeamos dos casos de IA que ya tenemos documentados en las referencias. BBVA describe usos de ChatGPT en trabajo interno, como preparar documentos y apoyar distintas funciones. Mercedes-Benz anunció capacidades conversacionales para navegación y puntos de interés con Gemini sobre Vertex AI. Uno nos acerca al trabajo del equipo; el otro, a una interacción con el cliente. El segundo caso no significa que el modelo conduzca el vehículo.\n\nEn ambos conviene mirar cuatro cosas: necesidad, información, resultado y responsable. Nexo, nuestro caso ficticio, empieza en algo más cercano: varias áreas tienen piezas de información y alguien necesita preparar una decisión. ¿En qué parte de su organización ocurre eso cada semana? Escuchemos dos ejemplos breves. Con esa pregunta pasamos del panorama global a nuestra región.",
         "steps": [
-          "0–1 min: dejar diez segundos de observación y escuchar dos respuestas sobre qué conectan las tres empresas.",
-          "1–4 min: narrar el viaje a una ciudad y explicar coordinación, información y reglas.",
-          "4–6 min: conectar con IA para preparar trabajo; distinguir plataformas de modelos generativos.",
-          "6–8 min: recuperar BBVA y Mercedes-Benz como dos usos documentados, sin atribuir resultados no medidos.",
-          "8–10 min: escuchar dos fricciones de coordinación y pasar al contexto regional."
+          "0–1 min: observar las conexiones y escuchar una respuesta.",
+          "1–3 min: explicar coordinación, información y reglas con Uber, Airbnb y Visa.",
+          "3–5 min: enlazar con los usos documentados de BBVA y Mercedes-Benz.",
+          "5–6 min: recoger una fricción organizacional y pasar al contexto regional."
         ],
         "sources": [
           {
@@ -168,18 +229,18 @@
         "image": "assets/c1-04-conexiones.png"
       },
       {
-        "numero": 5,
+        "numero": 6,
         "titulo": "La región también está experimentando",
-        "minutes": 10,
+        "minutes": 6,
         "tipo": "EXPLICACIÓN",
-        "horario": "18:30–18:40",
+        "horario": "18:38–18:44",
         "question": "¿Qué podemos aprender de experiencias cercanas sin suponer que son iguales?",
         "narration": "Acerquemos el mapa. Es fácil escuchar un caso de una empresa global y pensar: eso requiere un presupuesto que aquí no tenemos. Por eso quiero que observemos usos de nuestra región y distingamos exactamente qué está documentado.\n\nEl contexto regional permite hacer preguntas más cercanas. En Guatemala, Banrural reporta en su memoria 2025 un asistente generativo en WhatsApp y Messenger, apoyado en conocimiento de sus productos y servicios. En Costa Rica, TEC y CCSS documentan formación y desarrollo de prototipos para retos de salud pública. Son estados diferentes: una implementación reportada y una experiencia de formación y prototipado.\n\nLa diferencia importa al evaluar un caso. Una demostración enseña posibilidad; una implementación requiere operación; un resultado medido necesita condiciones y datos que podamos revisar. No vamos a atribuir a las personas del grupo participación en proyectos por el nombre de su empresa.\n\nNuestro expediente representa un servicio regional ficticio con operaciones en Guatemala, El Salvador y Costa Rica. No trae datos separados por país: no podremos comparar su desempeño nacional. Sí podremos trabajar necesidades compartidas, como solicitudes incompletas, claridad de información y coordinación.\n\nPara aterrizarlo, piensen en la última vez que un cliente tuvo que contar su problema dos veces porque cambió de área. ¿Qué información se perdió en ese paso? Escuchemos un ejemplo breve y nombremos el documento o la pregunta que atraviesa esas áreas. No necesitan revelar datos internos. Ese tipo de fricción explica por qué el mismo caso puede tener lecturas desde operaciones, finanzas, tecnología, salud administrativa o formación.",
         "steps": [
-          "0–2 min: pasar del panorama global a una fricción reconocible en la región.",
-          "2–6 min: contrastar Banrural y TEC/CCSS; separar implementación reportada de prototipado.",
-          "6–8 min: escuchar un ejemplo de pérdida de información entre áreas, sin datos privados.",
-          "8–10 min: enlazar con Nexo y la información que necesitará el modelo."
+          "0–1 min: pasar del panorama global a una fricción reconocible.",
+          "1–4 min: contrastar Banrural y TEC/CCSS; distinguir implementación de prototipado.",
+          "4–5 min: escuchar un ejemplo de información perdida entre áreas.",
+          "5–6 min: conectar con Nexo y el contexto que necesita el modelo."
         ],
         "sources": [
           {
@@ -207,17 +268,17 @@
         "image": "assets/c1-05.png"
       },
       {
-        "numero": 6,
+        "numero": 7,
         "titulo": "Qué hace el modelo con nuestro encargo",
-        "minutes": 10,
+        "minutes": 6,
         "tipo": "EXPLICACIÓN",
-        "horario": "18:40–18:50",
+        "horario": "18:44–18:50",
         "question": "¿Qué cambia cuando aportamos los documentos correctos?",
         "narration": "El esquema distingue entrenamiento e inferencia. Entrenar modifica parámetros aprendidos; usar el modelo para producir una respuesta es inferencia. Al aportar un reporte a una conversación damos contexto. Ese acto, por sí solo, no demuestra que hayamos reentrenado el modelo.\n\nLos modelos de lenguaje trabajan con tokens, unidades que pueden ser palabras, partes de palabras o signos. La atención calcula relaciones entre representaciones. Para nuestro trabajo interesa una consecuencia: el encargo y la información disponible influyen en lo que puede preparar la respuesta. Una solicitud de tono profesional no sustituye un dato que falta.\n\nAhora miren mi pantalla. Abro Gemini, verifico el modelo seleccionado y empiezo una conversación nueva. El primer botón de la mesa de trabajo copia un encargo completo sin documentos. El segundo repite exactamente ese encargo y agrega F1, F2 y el catálogo F3. Se pega en otra conversación con el mismo modelo. No necesitan reconstruir el prompt por partes.\n\nDespués del descanso descargaremos V1 y la adjuntaremos como imagen. Por ahora no cargamos el ZIP ni la imagen. Vamos a observar qué producto podemos preparar con la solicitud sola y qué mejora al incorporar el expediente.",
         "steps": [
-          "0–4 min: explicar entrenamiento, inferencia y contexto con el diagrama.",
-          "4–7 min: mostrar chat nuevo, selector de modelo y campo de texto.",
-          "7–10 min: ubicar los botones completos de la mesa de trabajo; confirmar que todos saben dónde encontrarla."
+          "0–2 min: explicar entrenamiento, inferencia, tokens y contexto.",
+          "2–4 min: mostrar chat nuevo y selector de modelo.",
+          "4–6 min: ubicar los encargos completos y preparar la demostración."
         ],
         "sources": [
           {
@@ -251,7 +312,7 @@
         "image": "assets/c1-06.png"
       },
       {
-        "numero": 7,
+        "numero": 8,
         "titulo": "Mañana hay comité",
         "minutes": 25,
         "tipo": "DEMOSTRACIÓN",
@@ -279,7 +340,7 @@
         "image": "assets/c1-07.png"
       },
       {
-        "numero": 8,
+        "numero": 9,
         "titulo": "Descanso",
         "minutes": 10,
         "tipo": "DESCANSO",
@@ -296,7 +357,7 @@
         "image": "assets/c1-08.png"
       },
       {
-        "numero": 9,
+        "numero": 10,
         "titulo": "Una imagen puede cambiar la pregunta",
         "minutes": 15,
         "tipo": "DEMOSTRACIÓN",
@@ -336,7 +397,7 @@
         "image": "assets/c1-09.png"
       },
       {
-        "numero": 10,
+        "numero": 11,
         "titulo": "Un expediente, distintas decisiones",
         "minutes": 30,
         "tipo": "PRÁCTICA",
@@ -366,7 +427,7 @@
         "image": "assets/c1-10.png"
       },
       {
-        "numero": 11,
+        "numero": 12,
         "titulo": "Tu decisión tiene que poder explicarse",
         "minutes": 15,
         "tipo": "ENTREGA",
@@ -387,7 +448,7 @@
         "image": "assets/c1-11.png"
       },
       {
-        "numero": 12,
+        "numero": 13,
         "titulo": "Lo que llevarías a la siguiente reunión",
         "minutes": 5,
         "tipo": "CIERRE",
