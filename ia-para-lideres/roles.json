@@ -1,0 +1,18 @@
+{
+  "direccion": [
+    "Dirección",
+    "Prioriza dos alternativas y explica qué información falta para elegir. Termina con una recomendación provisional y una pregunta para el comité."
+  ],
+  "operaciones": [
+    "Operaciones",
+    "Identifica un punto del flujo a investigar y dos acciones de prueba. Asigna responsables por función e indicadores de servicio, sin prometer mejoras no medidas."
+  ],
+  "finanzas": [
+    "Finanzas y control",
+    "Identifica recursos a estimar y evidencia necesaria para financiar una prueba. Separa observaciones, costos desconocidos y supuestos; no inventes ahorro ni ROI."
+  ],
+  "tecnologia": [
+    "Tecnología y conocimiento",
+    "Propón qué información, acceso y función de asistencia harían falta. Puedes enfocar el resultado en datos, desarrollo, seguridad, infraestructura, documentación o capacitación. Explica quién validaría la fuente y quién usaría el resultado."
+  ]
+}

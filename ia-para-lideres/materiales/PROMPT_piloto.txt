@@ -1,0 +1,13 @@
+Analiza F5, un piloto docente simulado. Calcula totales y medias de manual, preparación y revisión; diferencia neta de tiempo, cantidad aceptable y fallos críticos. No confundas estos datos con pruebas reales del asistente ni con evidencia de producción. El tiempo no incluye remediar fallos críticos. Explica qué se puede concluir y qué bloquea una ampliación. Separa una posible extrapolación a 300 casos de lo observado.
+
+id,manual_min,preparacion_min,revision_min,aceptable,observacion
+P01,8,4,1,sí,sin fallo crítico
+P02,9,4,2,sí,sin fallo crítico
+P03,7,3,1,sí,sin fallo crítico
+P04,8,4,1,no,promesa de resolución no autorizada
+P05,10,5,2,sí,sin fallo crítico
+P06,8,4,1,sí,sin fallo crítico
+P07,7,3,1,sí,sin fallo crítico
+P08,9,5,2,no,referencia a otro expediente
+P09,8,4,1,sí,sin fallo crítico
+P10,6,4,2,sí,sin fallo crítico

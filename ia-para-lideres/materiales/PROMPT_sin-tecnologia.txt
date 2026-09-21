@@ -1,0 +1,10 @@
+Actúa como asistente de preparación de una reunión de dirección. Caso completamente ficticio: Nexo, servicio regional de soporte administrativo y técnico.
+
+ENCARGO: Están llegando más solicitudes y escuchamos quejas por demoras. Mañana hay comité. Prepara un informe ejecutivo de una página (máximo 450 palabras): qué sabemos, qué explicaciones investigar y qué dos acciones podríamos probar durante dos semanas.
+
+PERSPECTIVA: Propón qué información, acceso y función de asistencia harían falta. Puedes enfocar el resultado en datos, desarrollo, seguridad, infraestructura, documentación o capacitación. Explica quién validaría la fuente y quién usaría el resultado.
+
+SALIDA: 1) tres hallazgos o vacíos de información; 2) dos hipótesis, distinguidas de hechos; 3) dos alternativas con ventajas, inconvenientes y condición para probarlas; 4) recomendación provisional y tres preguntas al comité. Cita la fuente de cada hallazgo. Si faltan datos, formula las preguntas necesarias y avanza con lo que sí hay. No inventes cifras, causas, políticas ni resultados. No ejecutes acciones.
+
+FUENTES DISPONIBLES:
+Ninguna adicional. Sólo cuentas con el encargo anterior.
