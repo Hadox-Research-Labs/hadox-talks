@@ -13,7 +13,7 @@
         "tipo": "APERTURA",
         "horario": "18:00–18:05",
         "question": "¿Qué necesitas saber antes de decidir?",
-        "narration": "Empieza en «Qué hago ahora». El primer paso es la bienvenida: mantén la portada en pantalla. Para estudiar a solas, abre un documento y responde las preguntas allí.\n\nImaginen que mañana tienen comité. Llegan más solicitudes y aumentan las quejas. Una persona pide contratar, otra propone automatizar y otra exige más datos. Ustedes deben preparar una decisión. Ésa será nuestra situación de trabajo.\n\nSoy Edgar Valdés. Hoy vamos a recorrer una historia: cómo llegamos a hablar con una máquina, qué podemos aprender de empresas que coordinan viajes, estancias y pagos, y cómo aterrizar eso en una decisión de nuestra organización. Verán una demostración completa en Gemini antes de hacer su práctica. Primero construiremos un informe con texto; después incorporaremos una imagen que permite mirar el problema de otra forma.\n\nAl terminar, cada persona tendrá un informe de una página desde su función y podrá explicar qué aportó la IA y qué decidió ella. En las siguientes clases convertiremos una parte del trabajo en un asistente y evaluaremos un piloto. Todo el expediente es ficticio. Para empezar, ¿qué información pedirían antes de recomendar contratar o automatizar? Escuchemos dos respuestas y conservémoslas para el cierre.",
+        "narration": "En «Qué hago aquí»: Conoce el problema que vamos a resolver y qué haremos hoy. Aquí todavía no tienes que abrir Gemini ni entregar nada.\n\nImaginen que mañana tienen comité. Llegan más solicitudes y aumentan las quejas. Una persona pide contratar, otra propone automatizar y otra exige más datos. Ustedes deben preparar una decisión. Ésa será nuestra situación de trabajo.\n\nSoy Edgar Valdés. Hoy vamos a recorrer una historia: cómo llegamos a hablar con una máquina, qué podemos aprender de empresas que coordinan viajes, estancias y pagos, y cómo aterrizar eso en una decisión de nuestra organización. Verán una demostración completa en Gemini antes de hacer su práctica. Primero construiremos un informe con texto; después incorporaremos una imagen que permite mirar el problema de otra forma.\n\nAl terminar, cada persona tendrá un informe de una página desde su función y podrá explicar qué aportó la IA y qué decidió ella. En las siguientes clases convertiremos una parte del trabajo en un asistente y evaluaremos un piloto. Todo el expediente es ficticio. Para empezar, ¿qué información pedirían antes de recomendar contratar o automatizar? Escuchemos dos respuestas y conservémoslas para el cierre.",
         "steps": [
           "0–2 min: bienvenida, situación del comité y resultado de las tres clases.",
           "2–4 min: escuchar dos necesidades de información; anotarlas sin abrir una actividad.",
@@ -25,86 +25,19 @@
         "extra": "",
         "image": "assets/c1-01.png",
         "runbook": {
-          "goal": "Entender el problema del comité y qué vas a producir hoy.",
-          "intro": "Empieza en «Qué hago ahora». El primer paso es la bienvenida: mantén la portada en pantalla. Para estudiar a solas, abre un documento y responde las preguntas allí.",
-          "steps": [
+          "title": "Escucha la bienvenida",
+          "text": "Conoce el problema que vamos a resolver y qué haremos hoy. Aquí todavía no tienes que abrir Gemini ni entregar nada.",
+          "actions": [
             {
-              "title": "Muestra la portada y plantea el problema",
-              "do": [
-                "Pulsa Proyectar. Da la bienvenida y presenta la situación del comité.",
-                "No abras Gemini todavía."
-              ],
-              "solo": [
-                "Mira la portada y lee o escucha la bienvenida en «Qué digo».",
-                "Abre un documento donde guardarás tus respuestas y notas."
-              ],
-              "say": "Mañana hay comité: crecen las solicitudes y las quejas. ¿Qué necesitaríamos saber antes de contratar o automatizar?",
-              "check": "Puedes explicar en una frase qué decisión se quiere preparar.",
-              "actions": [
-                {
-                  "kind": "project",
-                  "label": "Proyectar esta lámina"
-                },
-                {
-                  "kind": "speech",
-                  "label": "Leer o escuchar qué decir"
-                },
-                {
-                  "kind": "link",
-                  "label": "Crear documento (sólo una vez)",
-                  "url": "https://docs.google.com/document/create"
-                }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
+              "kind": "listen",
+              "label": "Escuchar explicación"
             },
             {
-              "title": "Recoge dos preguntas del grupo",
-              "do": [
-                "Haz la pregunta de la portada. Escucha dos respuestas.",
-                "Anota esas dos necesidades de información para retomarlas al cierre."
-              ],
-              "solo": [
-                "Escribe dos datos que pedirías antes de recomendar una acción."
-              ],
-              "say": "Primero pidamos la información que nos permitiría decidir.",
-              "check": "Tienes dos necesidades de información anotadas.",
-              "actions": [
-                {
-                  "kind": "link",
-                  "label": "Crear documento (sólo una vez)",
-                  "url": "https://docs.google.com/document/create"
-                }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Dos personas responden brevemente; el resto escucha.",
-              "help": ""
-            },
-            {
-              "title": "Explica qué haremos hoy",
-              "do": [
-                "Di que primero habrá contexto, luego una demostración y después práctica individual.",
-                "Presenta el resultado: informe de una página y bitácora de comprobaciones."
-              ],
-              "solo": [
-                "Lee la guía y localiza el producto esperado y sus 20 puntos.",
-                "Conserva tus dos preguntas y avanza a la historia."
-              ],
-              "say": "Van a preparar un informe y explicar qué aportó la IA y qué comprobaron ustedes.",
-              "check": "Sabes qué vas a entregar y que observarás una demostración antes de practicar.",
-              "actions": [
-                {
-                  "kind": "file",
-                  "label": "Leer guía y criterios",
-                  "file": "GUIA_1.md"
-                }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
+              "kind": "speech",
+              "label": "Leer explicación"
             }
-          ]
+          ],
+          "intro": "En «Qué hago aquí»: Conoce el problema que vamos a resolver y qué haremos hoy. Aquí todavía no tienes que abrir Gemini ni entregar nada."
         }
       },
       {
@@ -114,7 +47,7 @@
         "tipo": "EXPLICACIÓN",
         "horario": "18:05–18:12",
         "question": "¿Qué cambió para que podamos encargar trabajo en lenguaje cotidiano?",
-        "narration": "En «Qué hago ahora» recorre las escenas de esta lámina. Aquí seguimos con la explicación: todavía no hace falta abrir una herramienta de IA.\n\nAntes de abrir un chat, quiero que miremos algo extraño: hoy podemos pedirle un informe a una máquina usando la misma lengua con la que pedimos un café. ¿Cómo llegamos hasta aquí? Miren las tres escenas. Son una ilustración conceptual, no fotografías históricas ni etapas que se hayan sustituido por completo.\n\nPrimera escena: Dartmouth. En 1955, John McCarthy y sus colegas propusieron un encuentro para el verano de 1956 con una pregunta enorme: ¿podemos describir aspectos de la inteligencia de manera suficientemente precisa para que una máquina los simule? Imaginen plantear esa ambición cuando trabajar con computadoras era algo muy distinto de abrir una aplicación. La aspiración era grande; construir sistemas útiles llevaría décadas de investigación, avances y límites.\n\nPensemos en una instrucción: si una compra supera cierta cantidad, pide autorización. Podemos escribir esa regla. Pero ahora intenten escribir todas las reglas para reconocer una queja, distinguir una fotografía o interpretar una frase ambigua. La lista empieza a crecer. Aprender patrones a partir de ejemplos ofrece otro camino. Estos enfoques conviven: en una empresa seguimos necesitando reglas explícitas junto a modelos aprendidos.\n\nSegunda escena: en 2017, el trabajo del Transformer presentó una arquitectura basada en atención. Aprender patrones no nació ese año. El hito fue una forma de relacionar información que resultó muy influyente. Atención aquí significa un mecanismo matemático; no que la máquina tenga conciencia o interés por nuestro negocio.\n\nTercera escena: en 2021, investigadores de Stanford describieron los modelos fundacionales como bases entrenadas ampliamente que pueden adaptarse a diferentes tareas. Tampoco nacieron todos los chats ese año. La idea que nos interesa es que una misma base puede ayudarnos con varios trabajos: resumir, comparar, redactar o relacionar información, según sus capacidades.\n\nHagamos una comparación rápida: ¿qué es más fácil dejar en una regla, calcular un descuento o explicar por qué crecen las quejas? Escuchemos una respuesta. El descuento tiene condiciones que podemos definir; explicar las quejas necesita contexto y evidencia. Un modelo puede ayudar a preparar esa explicación, pero también puede proponer una causa que nadie ha demostrado.\n\nÉste es el cambio que nos toca como líderes: podemos expresar un encargo en lenguaje cotidiano, aportar documentos y revisar un resultado. La capacidad cambia; el criterio sigue siendo nuestro. Antes de conocer a los desarrolladores, vamos a recorrer el mapa de capacidades del aprendizaje automático.",
+        "narration": "En «Qué hago aquí»: Sigue cómo pasamos de programar reglas a trabajar con modelos que aprenden de datos. Observa los hitos de la lámina.\n\nAntes de abrir un chat, quiero que miremos algo extraño: hoy podemos pedirle un informe a una máquina usando la misma lengua con la que pedimos un café. ¿Cómo llegamos hasta aquí? Miren las tres escenas. Son una ilustración conceptual, no fotografías históricas ni etapas que se hayan sustituido por completo.\n\nPrimera escena: Dartmouth. En 1955, John McCarthy y sus colegas propusieron un encuentro para el verano de 1956 con una pregunta enorme: ¿podemos describir aspectos de la inteligencia de manera suficientemente precisa para que una máquina los simule? Imaginen plantear esa ambición cuando trabajar con computadoras era algo muy distinto de abrir una aplicación. La aspiración era grande; construir sistemas útiles llevaría décadas de investigación, avances y límites.\n\nPensemos en una instrucción: si una compra supera cierta cantidad, pide autorización. Podemos escribir esa regla. Pero ahora intenten escribir todas las reglas para reconocer una queja, distinguir una fotografía o interpretar una frase ambigua. La lista empieza a crecer. Aprender patrones a partir de ejemplos ofrece otro camino. Estos enfoques conviven: en una empresa seguimos necesitando reglas explícitas junto a modelos aprendidos.\n\nSegunda escena: en 2017, el trabajo del Transformer presentó una arquitectura basada en atención. Aprender patrones no nació ese año. El hito fue una forma de relacionar información que resultó muy influyente. Atención aquí significa un mecanismo matemático; no que la máquina tenga conciencia o interés por nuestro negocio.\n\nTercera escena: en 2021, investigadores de Stanford describieron los modelos fundacionales como bases entrenadas ampliamente que pueden adaptarse a diferentes tareas. Tampoco nacieron todos los chats ese año. La idea que nos interesa es que una misma base puede ayudarnos con varios trabajos: resumir, comparar, redactar o relacionar información, según sus capacidades.\n\nHagamos una comparación rápida: ¿qué es más fácil dejar en una regla, calcular un descuento o explicar por qué crecen las quejas? Escuchemos una respuesta. El descuento tiene condiciones que podemos definir; explicar las quejas necesita contexto y evidencia. Un modelo puede ayudar a preparar esa explicación, pero también puede proponer una causa que nadie ha demostrado.\n\nÉste es el cambio que nos toca como líderes: podemos expresar un encargo en lenguaje cotidiano, aportar documentos y revisar un resultado. La capacidad cambia; el criterio sigue siendo nuestro. Antes de conocer a los desarrolladores, vamos a recorrer el mapa de capacidades del aprendizaje automático.",
         "steps": [
           "0–1 min: mostrar la imagen completa y plantear cómo llegamos a conversar con una máquina.",
           "1–3 min: contar Dartmouth y contrastar una regla de autorización con aprender de ejemplos.",
@@ -153,74 +86,19 @@
         "extra": "Para ampliar: parámetros son valores aprendidos; entrenamiento los ajusta. Inferencia usa el modelo entrenado. Estos hitos no son una historia exhaustiva ni significan que todas las tecnologías sigan una sola línea evolutiva.",
         "image": "assets/c1-02-historia.png",
         "runbook": {
-          "goal": "Relacionar la historia de la IA con la posibilidad de trabajar mediante lenguaje.",
-          "intro": "En «Qué hago ahora» recorre las escenas de esta lámina. Aquí seguimos con la explicación: todavía no hace falta abrir una herramienta de IA.",
-          "steps": [
+          "title": "Escucha la historia",
+          "text": "Sigue cómo pasamos de programar reglas a trabajar con modelos que aprenden de datos. Observa los hitos de la lámina.",
+          "actions": [
             {
-              "title": "Cuenta la primera escena",
-              "do": [
-                "Proyecta la lámina y señala Dartmouth.",
-                "Contrasta escribir una regla con aprender de ejemplos; usa el guion de apoyo."
-              ],
-              "solo": [
-                "Lee o escucha la primera parte de «Qué digo».",
-                "Anota la diferencia entre una regla de autorización y aprender a reconocer una queja."
-              ],
-              "say": "Una regla de descuento puede escribirse; reconocer todas las formas de una queja requiere otro enfoque.",
-              "check": "Puedes dar un ejemplo de regla y uno de aprendizaje.",
-              "actions": [
-                {
-                  "kind": "project",
-                  "label": "Proyectar esta lámina"
-                },
-                {
-                  "kind": "speech",
-                  "label": "Leer o escuchar qué decir"
-                }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
+              "kind": "listen",
+              "label": "Escuchar explicación"
             },
             {
-              "title": "Conecta Transformer y modelos fundacionales",
-              "do": [
-                "Señala 2017 y después los modelos fundacionales.",
-                "Explica que son hitos y conceptos diferentes, no el nacimiento de toda la IA."
-              ],
-              "solo": [
-                "Lee o escucha el resto del guion.",
-                "Escribe qué aporta una arquitectura y qué significa una base adaptable a varias tareas."
-              ],
-              "say": "Una misma base puede ayudar con varios trabajos, según sus capacidades y el contexto.",
-              "check": "No confundes atención matemática con conciencia.",
-              "actions": [
-                {
-                  "kind": "speech",
-                  "label": "Leer o escuchar qué decir"
-                }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
-            },
-            {
-              "title": "Comprueba la idea y pasa al mapa",
-              "do": [
-                "Pregunta qué es más fácil definir con reglas: un descuento o las causas de las quejas.",
-                "Escucha una respuesta y abre la siguiente lámina."
-              ],
-              "solo": [
-                "Responde esa comparación en tu documento y después avanza."
-              ],
-              "say": "Ahora vamos a ubicar las capacidades que podemos pedirle a un sistema.",
-              "check": "Puedes explicar por qué las quejas requieren contexto y evidencia.",
-              "actions": [],
-              "screen": "Lámina de la clase",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
+              "kind": "speech",
+              "label": "Leer explicación"
             }
-          ]
+          ],
+          "intro": "En «Qué hago aquí»: Sigue cómo pasamos de programar reglas a trabajar con modelos que aprenden de datos. Observa los hitos de la lámina."
         }
       },
       {
@@ -230,7 +108,7 @@
         "tipo": "EXPLICACIÓN",
         "horario": "18:12–18:24",
         "question": "¿Qué negocio o mejora empresarial puede construirse con cada capacidad?",
-        "narration": "Abre «Qué hago ahora» y sigue las ramas del mapa. Encontrarás el banco de casos junto al paso que lo utiliza; las ampliaciones son opcionales.\n\nAquí tienen su maestría de inteligencia artificial, cortesía del Dr. Valdés. Tómenle una foto, porque este mapa les va a ayudar a entender qué les están vendiendo cuando alguien llega a su empresa diciendo que trae inteligencia artificial. Vamos a recorrerlo con una pregunta: ¿qué problema resuelve cada cosa y dónde podría estar el negocio?\n\nEn el centro está machine learning: sistemas que aprenden patrones a partir de datos o experiencia. Alrededor hay distintas maneras de aprender. Miren las ramas como un portafolio de capacidades. Una empresa puede necesitar varias a la vez, y también puede vender un servicio construido sobre una de ellas. Empecemos por la izquierda, en azul.\n\nAprendizaje no supervisado significa explorar estructura sin entregar una respuesta correcta para cada registro. En reducción de dimensionalidad, Meaningful compression consiste en conservar lo útil de muchos datos en una representación más pequeña. Imaginen una fábrica con cientos de señales: una oportunidad sería ofrecer monitoreo que reduzca esa complejidad y ayude a detectar cuándo cambia la operación. Structure Discovery busca relaciones que no estaban claras. Una consultora podría explorar patrones de devoluciones por producto, canal y temporada, para formular mejores preguntas sobre lo que está ocurriendo.\n\nFeature Elicitation obtiene características que otro análisis pueda aprovechar. Una empresa que recibe registros de maquinaria podría convertirlos en señales útiles para modelos de mantenimiento. Big data Visualisation permite explorar muchas variables mediante una representación visible: un servicio de inteligencia comercial podría mostrar qué sucursales o productos se parecen y cuáles merecen investigación. Estas cuatro aplicaciones ayudan a representar y explorar información. Una proyección atractiva o un patrón curioso todavía necesita validación antes de convertirse en una decisión.\n\nBajemos a clustering. Customer Segmentation identifica grupos de comportamiento: una distribuidora puede descubrir que atender a todos sus compradores de la misma manera desperdicia oportunidades. Targeted Marketing utiliza esas diferencias para diseñar y probar campañas; ahí puede existir una agencia especializada que cobre por operar experimentos comerciales y medir su resultado. Recommender Systems ayuda a seleccionar productos o contenidos relevantes. Una tienda podría contratar recomendaciones como servicio. Netflix es un caso documentado de personalización, aunque su sistema combina métodos y no se explica sólo por clustering. El negocio propuesto sería facilitar una elección útil; habría que demostrar su efecto sobre compras, permanencia o satisfacción.\n\nPasemos a la derecha, en terracota. En aprendizaje supervisado tenemos ejemplos con resultados conocidos. Clasificación estima categorías o sus probabilidades. Fraud Detection identifica operaciones sospechosas: Stripe Radar es un ejemplo comercial documentado. Aquí se puede vender prevención de pérdidas, pero hay que medir también cuántos clientes legítimos estamos rechazando. Image Classification reconoce categorías en imágenes. Piensen en inspección de calidad como servicio: una cámara ayuda a identificar piezas que requieren revisión, con datos de defectos y condiciones reales de iluminación.\n\nCustomer Retention empieza por estimar riesgo de abandono. Una empresa de suscripción podría priorizar a quién contactar; un proveedor podría ofrecer ese análisis conectado a su CRM. Después debe probar qué intervención conserva clientes, porque predecir abandono no basta. Diagnostics permite clasificar posibles fallos: una empresa de mantenimiento podría ofrecer alertas sobre maquinaria usando síntomas y sensores. En ambos casos se necesita seguimiento de lo que ocurrió realmente para saber si el modelo acertó y si la acción valió la pena.\n\nLa siguiente rama es regresión: estimamos cantidades. Forecasting mira hacia adelante; una cadena comercial puede estimar demanda por tienda y producto para preparar compras. Podría contratar un servicio de planeación de inventario. Predictions es más amplio: una empresa de logística podría estimar duración o coste de un servicio antes de comprometerse. Uber ha documentado una plataforma para operar modelos de clasificación, regresión y pronóstico: detrás de una experiencia sencilla existe infraestructura para mantener predicciones en funcionamiento.\n\nProcess Optimization conecta esas estimaciones con decisiones: qué producir, cuándo y con qué recursos. Una consultora podría vender planeación operativa, combinando un pronóstico con un optimizador sujeto a restricciones. New Insights abre un servicio de análisis sobre qué variables se relacionan con retrasos, desperdicio o margen. Esa relación genera hipótesis; para afirmar que una intervención produce una mejora necesitamos evidencia adicional. Noten el cambio de conversación: ya podemos pedir una capacidad concreta, los datos que necesita y una medida de resultado.\n\nAbajo, en ocre, está el aprendizaje por refuerzo. Un agente actúa en un entorno y aprende una política mediante recompensas. Real-Time Decisions nos lleva a actuar mientras cambian las condiciones. Piensen en un posible servicio de control energético: ajustar equipos manteniendo límites de operación. Hay experiencias documentadas de DeepMind con refrigeración; no significa que cualquier edificio pueda copiar el resultado. Tiempo real tampoco equivale automáticamente a refuerzo: muchas decisiones rápidas usan reglas u otros modelos.\n\nGame AI es una puerta excelente para entender estrategia. Imaginen StarCraft: recursos limitados, un rival que no ven por completo y decisiones que darán resultado después. AlphaStar combinó aprendizaje a partir de partidas humanas y por refuerzo. Como oportunidad de negocio podemos imaginar oponentes de entrenamiento o simuladores para probar decisiones. La transferencia a una empresa necesita su propio diseño y validación. Un chatbot que representa un personaje no es automáticamente un agente entrenado por refuerzo.\n\nRobot Navigation lleva el problema al mundo físico: un robot de almacén debe llegar a destino evitando obstáculos. Ahí puede haber un negocio de integración de flotas y soporte operativo. Skill Acquisition aprende habilidades reutilizables, como agarrar una pieza; un integrador puede especializarse en adaptar una célula robótica a diferentes productos. Learning Tasks reúne habilidades para resolver una tarea, como recoger, trasladar y colocar. Un proveedor podría vender una operación robótica por servicio. Son posibilidades empresariales, no una promesa de que baste descargar un modelo: necesitan sensores, integración, pruebas y mantenimiento.\n\nAhora ubiquemos lo que haremos hoy. Este mapa clásico no dibuja por separado el aprendizaje autosupervisado. En muchos modelos de lenguaje, el propio texto proporciona una señal para aprender a predecir tokens. Deep learning se refiere a modelos basados en redes neuronales profundas y puede aparecer en distintas familias. Los modelos fundacionales pueden servir de base para múltiples tareas. Al poner documentos en Gemini aportamos contexto a un modelo ya entrenado; no estamos construyendo desde cero todos los sistemas de este mapa.\n\nMiren ahora las relaciones de la barra lateral. Segmentar puede ayudarnos a entender diferencias entre clientes y recomendar puede convertir ese conocimiento en una oferta. Detectar una señal y diagnosticar un posible problema puede orientar una revisión que evite pérdidas. Predecir demanda cobra valor cuando usamos esa estimación para optimizar inventario o capacidad. Aprender a actuar abre posibilidades de control, simulación y robótica. Son combinaciones posibles: los resultados hay que comprobarlos. La pregunta de abajo nos devuelve al negocio: ¿qué resultado compraría su empresa?\n\nQuédense con una aplicación que podría tener sentido en su organización. Si yo les pidiera defenderla ante dirección, ¿qué problema resolvería, qué datos tendrían y cómo comprobarían que mejora algo? Escuchemos una respuesta. Con este mapa en mente, ahora sí veamos quién desarrolla los modelos y dónde podemos empezar a utilizarlos.",
+        "narration": "En «Qué hago aquí»: Escucha qué hace cada familia de machine learning y cómo se conecta con un negocio. Recorre el gráfico con la explicación; no hace falta memorizarlo.\n\nAquí tienen su maestría de inteligencia artificial, cortesía del Dr. Valdés. Tómenle una foto, porque este mapa les va a ayudar a entender qué les están vendiendo cuando alguien llega a su empresa diciendo que trae inteligencia artificial. Vamos a recorrerlo con una pregunta: ¿qué problema resuelve cada cosa y dónde podría estar el negocio?\n\nEn el centro está machine learning: sistemas que aprenden patrones a partir de datos o experiencia. Alrededor hay distintas maneras de aprender. Miren las ramas como un portafolio de capacidades. Una empresa puede necesitar varias a la vez, y también puede vender un servicio construido sobre una de ellas. Empecemos por la izquierda, en azul.\n\nAprendizaje no supervisado significa explorar estructura sin entregar una respuesta correcta para cada registro. En reducción de dimensionalidad, Meaningful compression consiste en conservar lo útil de muchos datos en una representación más pequeña. Imaginen una fábrica con cientos de señales: una oportunidad sería ofrecer monitoreo que reduzca esa complejidad y ayude a detectar cuándo cambia la operación. Structure Discovery busca relaciones que no estaban claras. Una consultora podría explorar patrones de devoluciones por producto, canal y temporada, para formular mejores preguntas sobre lo que está ocurriendo.\n\nFeature Elicitation obtiene características que otro análisis pueda aprovechar. Una empresa que recibe registros de maquinaria podría convertirlos en señales útiles para modelos de mantenimiento. Big data Visualisation permite explorar muchas variables mediante una representación visible: un servicio de inteligencia comercial podría mostrar qué sucursales o productos se parecen y cuáles merecen investigación. Estas cuatro aplicaciones ayudan a representar y explorar información. Una proyección atractiva o un patrón curioso todavía necesita validación antes de convertirse en una decisión.\n\nBajemos a clustering. Customer Segmentation identifica grupos de comportamiento: una distribuidora puede descubrir que atender a todos sus compradores de la misma manera desperdicia oportunidades. Targeted Marketing utiliza esas diferencias para diseñar y probar campañas; ahí puede existir una agencia especializada que cobre por operar experimentos comerciales y medir su resultado. Recommender Systems ayuda a seleccionar productos o contenidos relevantes. Una tienda podría contratar recomendaciones como servicio. Netflix es un caso documentado de personalización, aunque su sistema combina métodos y no se explica sólo por clustering. El negocio propuesto sería facilitar una elección útil; habría que demostrar su efecto sobre compras, permanencia o satisfacción.\n\nPasemos a la derecha, en terracota. En aprendizaje supervisado tenemos ejemplos con resultados conocidos. Clasificación estima categorías o sus probabilidades. Fraud Detection identifica operaciones sospechosas: Stripe Radar es un ejemplo comercial documentado. Aquí se puede vender prevención de pérdidas, pero hay que medir también cuántos clientes legítimos estamos rechazando. Image Classification reconoce categorías en imágenes. Piensen en inspección de calidad como servicio: una cámara ayuda a identificar piezas que requieren revisión, con datos de defectos y condiciones reales de iluminación.\n\nCustomer Retention empieza por estimar riesgo de abandono. Una empresa de suscripción podría priorizar a quién contactar; un proveedor podría ofrecer ese análisis conectado a su CRM. Después debe probar qué intervención conserva clientes, porque predecir abandono no basta. Diagnostics permite clasificar posibles fallos: una empresa de mantenimiento podría ofrecer alertas sobre maquinaria usando síntomas y sensores. En ambos casos se necesita seguimiento de lo que ocurrió realmente para saber si el modelo acertó y si la acción valió la pena.\n\nLa siguiente rama es regresión: estimamos cantidades. Forecasting mira hacia adelante; una cadena comercial puede estimar demanda por tienda y producto para preparar compras. Podría contratar un servicio de planeación de inventario. Predictions es más amplio: una empresa de logística podría estimar duración o coste de un servicio antes de comprometerse. Uber ha documentado una plataforma para operar modelos de clasificación, regresión y pronóstico: detrás de una experiencia sencilla existe infraestructura para mantener predicciones en funcionamiento.\n\nProcess Optimization conecta esas estimaciones con decisiones: qué producir, cuándo y con qué recursos. Una consultora podría vender planeación operativa, combinando un pronóstico con un optimizador sujeto a restricciones. New Insights abre un servicio de análisis sobre qué variables se relacionan con retrasos, desperdicio o margen. Esa relación genera hipótesis; para afirmar que una intervención produce una mejora necesitamos evidencia adicional. Noten el cambio de conversación: ya podemos pedir una capacidad concreta, los datos que necesita y una medida de resultado.\n\nAbajo, en ocre, está el aprendizaje por refuerzo. Un agente actúa en un entorno y aprende una política mediante recompensas. Real-Time Decisions nos lleva a actuar mientras cambian las condiciones. Piensen en un posible servicio de control energético: ajustar equipos manteniendo límites de operación. Hay experiencias documentadas de DeepMind con refrigeración; no significa que cualquier edificio pueda copiar el resultado. Tiempo real tampoco equivale automáticamente a refuerzo: muchas decisiones rápidas usan reglas u otros modelos.\n\nGame AI es una puerta excelente para entender estrategia. Imaginen StarCraft: recursos limitados, un rival que no ven por completo y decisiones que darán resultado después. AlphaStar combinó aprendizaje a partir de partidas humanas y por refuerzo. Como oportunidad de negocio podemos imaginar oponentes de entrenamiento o simuladores para probar decisiones. La transferencia a una empresa necesita su propio diseño y validación. Un chatbot que representa un personaje no es automáticamente un agente entrenado por refuerzo.\n\nRobot Navigation lleva el problema al mundo físico: un robot de almacén debe llegar a destino evitando obstáculos. Ahí puede haber un negocio de integración de flotas y soporte operativo. Skill Acquisition aprende habilidades reutilizables, como agarrar una pieza; un integrador puede especializarse en adaptar una célula robótica a diferentes productos. Learning Tasks reúne habilidades para resolver una tarea, como recoger, trasladar y colocar. Un proveedor podría vender una operación robótica por servicio. Son posibilidades empresariales, no una promesa de que baste descargar un modelo: necesitan sensores, integración, pruebas y mantenimiento.\n\nAhora ubiquemos lo que haremos hoy. Este mapa clásico no dibuja por separado el aprendizaje autosupervisado. En muchos modelos de lenguaje, el propio texto proporciona una señal para aprender a predecir tokens. Deep learning se refiere a modelos basados en redes neuronales profundas y puede aparecer en distintas familias. Los modelos fundacionales pueden servir de base para múltiples tareas. Al poner documentos en Gemini aportamos contexto a un modelo ya entrenado; no estamos construyendo desde cero todos los sistemas de este mapa.\n\nMiren ahora las relaciones de la barra lateral. Segmentar puede ayudarnos a entender diferencias entre clientes y recomendar puede convertir ese conocimiento en una oferta. Detectar una señal y diagnosticar un posible problema puede orientar una revisión que evite pérdidas. Predecir demanda cobra valor cuando usamos esa estimación para optimizar inventario o capacidad. Aprender a actuar abre posibilidades de control, simulación y robótica. Son combinaciones posibles: los resultados hay que comprobarlos. La pregunta de abajo nos devuelve al negocio: ¿qué resultado compraría su empresa?\n\nQuédense con una aplicación que podría tener sentido en su organización. Si yo les pidiera defenderla ante dirección, ¿qué problema resolvería, qué datos tendrían y cómo comprobarían que mejora algo? Escuchemos una respuesta. Con este mapa en mente, ahora sí veamos quién desarrolla los modelos y dónde podemos empezar a utilizarlos.",
         "steps": [
           "0–1 min: abrir con «Aquí tienen su maestría de inteligencia artificial, cortesía del Dr. Valdés». Invitar a tomar una foto del mapa.",
           "1–4 min: recorrer las siete aplicaciones de la rama azul y conectar cada una con una oportunidad de negocio.",
@@ -827,123 +705,19 @@
           }
         ],
         "runbook": {
-          "goal": "Ubicar capacidades de IA y oportunidades de negocio en el mapa.",
-          "intro": "Abre «Qué hago ahora» y sigue las ramas del mapa. Encontrarás el banco de casos junto al paso que lo utiliza; las ampliaciones son opcionales.",
-          "steps": [
+          "title": "Observa el mapa",
+          "text": "Escucha qué hace cada familia de machine learning y cómo se conecta con un negocio. Recorre el gráfico con la explicación; no hace falta memorizarlo.",
+          "actions": [
             {
-              "title": "Abre tu maestría exprés",
-              "do": [
-                "Proyecta el mapa y usa tu frase de entrada.",
-                "Invita a tomarle una foto; señala las tres familias sin explicar todo todavía."
-              ],
-              "solo": [
-                "Abre el mapa y localiza las tres familias.",
-                "Lee o escucha la entrada y elige una rama que te interese."
-              ],
-              "say": "Aquí tienen su maestría de inteligencia artificial, cortesía del Dr. Valdés.",
-              "check": "Ubicas las tres familias y el centro del mapa.",
-              "actions": [
-                {
-                  "kind": "project",
-                  "label": "Proyectar esta lámina"
-                },
-                {
-                  "kind": "speech",
-                  "label": "Leer o escuchar qué decir"
-                }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
+              "kind": "listen",
+              "label": "Escuchar explicación"
             },
             {
-              "title": "Recorre la rama azul",
-              "do": [
-                "Explica reducción de dimensionalidad y clustering.",
-                "Conecta sus siete aplicaciones con los negocios del guion."
-              ],
-              "solo": [
-                "Lee la rama azul en «Qué digo».",
-                "Abre un caso del banco y escribe qué dato necesitaría ese negocio."
-              ],
-              "say": "Podemos descubrir grupos y representar información para decidir qué investigar.",
-              "check": "Puedes relacionar una aplicación azul con un negocio y sus datos.",
-              "actions": [
-                {
-                  "kind": "reserve",
-                  "label": "Ver casos y ampliaciones"
-                }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
-            },
-            {
-              "title": "Recorre clasificación y regresión",
-              "do": [
-                "Señala la rama terracota y distingue categorías de cantidades.",
-                "Utiliza los casos de fraude, calidad, retención, mantenimiento, demanda y planeación."
-              ],
-              "solo": [
-                "Compara clasificación y regresión en el guion.",
-                "Elige una de sus aplicaciones y anota qué resultado medirías."
-              ],
-              "say": "No es la misma pregunta quién podría abandonar que cuántas solicitudes llegarán.",
-              "check": "Distingues una categoría de una estimación numérica.",
-              "actions": [
-                {
-                  "kind": "reserve",
-                  "label": "Ver casos y ampliaciones"
-                }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
-            },
-            {
-              "title": "Explica refuerzo con decisiones encadenadas",
-              "do": [
-                "Recorre las cinco aplicaciones de la rama ocre.",
-                "Detente en StarCraft y conecta con decisiones, recursos y consecuencias."
-              ],
-              "solo": [
-                "Lee la sección de refuerzo y el caso de Game AI.",
-                "Anota por qué decidir varias acciones requiere pensar en consecuencias posteriores."
-              ],
-              "say": "Una decisión de ahora cambia lo que podremos hacer después.",
-              "check": "Distingues Game AI, navegación, habilidades y tareas.",
-              "actions": [
-                {
-                  "kind": "reserve",
-                  "label": "Ver casos y ampliaciones"
-                }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
-            },
-            {
-              "title": "Usa la barra lateral para volver al negocio",
-              "do": [
-                "Señala las cuatro relaciones de la derecha.",
-                "Escucha una oportunidad del grupo y pregunta cómo mediría su resultado."
-              ],
-              "solo": [
-                "Elige una relación lateral y escribe un problema, los datos necesarios y una medida de resultado."
-              ],
-              "say": "¿Qué resultado compraría su empresa?",
-              "check": "Tienes una oportunidad concreta, no sólo el nombre de una tecnología.",
-              "actions": [
-                {
-                  "kind": "reserve",
-                  "label": "Ver casos y ampliaciones"
-                }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
+              "kind": "speech",
+              "label": "Leer explicación"
             }
-          ]
+          ],
+          "intro": "En «Qué hago aquí»: Escucha qué hace cada familia de machine learning y cómo se conecta con un negocio. Recorre el gráfico con la explicación; no hace falta memorizarlo."
         }
       },
       {
@@ -953,7 +727,7 @@
         "tipo": "EXPLICACIÓN",
         "horario": "18:24–18:32",
         "question": "¿Qué estamos eligiendo: empresa, modelo o aplicación?",
-        "narration": "Sigue los pasos de «Qué hago ahora» para ubicar los nombres. Abriremos Gemini en la lámina de preparación, después de los casos.\n\nSepararemos tres nombres que suelen mezclarse. OpenAI desarrolla modelos de la familia GPT y ofrece ChatGPT como aplicación. Google desarrolla Gemini, nombre que también utiliza su aplicación. Anthropic desarrolla Claude y utiliza ese nombre en sus productos. No hace falta memorizar versiones para comprender la distinción.\n\nEl modelo aporta capacidades; la aplicación ofrece una interfaz, archivos, herramientas y condiciones de acceso. Por eso dos productos que utilizan una familia similar pueden permitir trabajos diferentes. Una licencia de aplicación tampoco es automáticamente acceso a una API para integrar software.\n\nPara nuestro ejercicio usaremos Gemini. Revisaremos el nombre del modelo que muestra la cuenta y lo mantendremos en la comparación. Flash es la opción con la que estamos ensayando; si una cuenta muestra otra opción, hay que registrar cuál se usó y comparar bajo las mismas condiciones. No estamos haciendo un ranking entre proveedores.\n\nAntes de contratar una solución, las preguntas útiles son: qué tarea resuelve, qué información admite, cómo se comprueba la salida y qué acceso permite la organización. Veamos ahora por qué empresas distintas eligen usos distintos.",
+        "narration": "En «Qué hago aquí»: Distingue la empresa, el modelo y la aplicación. Ubica dónde está Gemini, la herramienta que usaremos después.\n\nSepararemos tres nombres que suelen mezclarse. OpenAI desarrolla modelos de la familia GPT y ofrece ChatGPT como aplicación. Google desarrolla Gemini, nombre que también utiliza su aplicación. Anthropic desarrolla Claude y utiliza ese nombre en sus productos. No hace falta memorizar versiones para comprender la distinción.\n\nEl modelo aporta capacidades; la aplicación ofrece una interfaz, archivos, herramientas y condiciones de acceso. Por eso dos productos que utilizan una familia similar pueden permitir trabajos diferentes. Una licencia de aplicación tampoco es automáticamente acceso a una API para integrar software.\n\nPara nuestro ejercicio usaremos Gemini. Revisaremos el nombre del modelo que muestra la cuenta y lo mantendremos en la comparación. Flash es la opción con la que estamos ensayando; si una cuenta muestra otra opción, hay que registrar cuál se usó y comparar bajo las mismas condiciones. No estamos haciendo un ranking entre proveedores.\n\nAntes de contratar una solución, las preguntas útiles son: qué tarea resuelve, qué información admite, cómo se comprueba la salida y qué acceso permite la organización. Veamos ahora por qué empresas distintas eligen usos distintos.",
         "steps": [
           "0–3 min: explicar las tres columnas del mapa.",
           "3–5 min: pedir un ejemplo de aplicación conocida y ubicarlo.",
@@ -990,66 +764,19 @@
         "extra": "Los nombres y funciones cambian. La documentación enlazada sirve para revisar disponibilidad; no inferir el modelo activo en una cuenta a partir del catálogo API.",
         "image": "assets/c1-03.png",
         "runbook": {
-          "goal": "Distinguir desarrollador, modelo y aplicación antes de abrir Gemini.",
-          "intro": "Sigue los pasos de «Qué hago ahora» para ubicar los nombres. Abriremos Gemini en la lámina de preparación, después de los casos.",
-          "steps": [
+          "title": "Escucha quién es quién",
+          "text": "Distingue la empresa, el modelo y la aplicación. Ubica dónde está Gemini, la herramienta que usaremos después.",
+          "actions": [
             {
-              "title": "Distingue los nombres",
-              "do": [
-                "Proyecta la lámina. Explica desarrollador, familia de modelos y aplicación."
-              ],
-              "solo": [
-                "Lee o escucha el guion y escribe un ejemplo de cada nivel."
-              ],
-              "say": "La aplicación ofrece una interfaz y herramientas; el modelo aporta capacidades.",
-              "check": "Puedes distinguir empresa, modelo y aplicación.",
-              "actions": [
-                {
-                  "kind": "project",
-                  "label": "Proyectar esta lámina"
-                },
-                {
-                  "kind": "speech",
-                  "label": "Leer o escuchar qué decir"
-                }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
+              "kind": "listen",
+              "label": "Escuchar explicación"
             },
             {
-              "title": "Aclara qué vamos a usar",
-              "do": [
-                "Di que la práctica será en Gemini y que se anotará el modelo visible en cada cuenta.",
-                "Mantendremos el mismo modelo en ambas comparaciones."
-              ],
-              "solo": [
-                "Anota Gemini como aplicación de práctica.",
-                "Cuando la abras en la preparación, registrarás el modelo disponible."
-              ],
-              "say": "Lo importante es comparar bajo las mismas condiciones.",
-              "check": "Sabes qué aplicación se usará y por qué conservar el mismo modelo.",
-              "actions": [],
-              "screen": "Lámina de la clase",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
-            },
-            {
-              "title": "Formula una pregunta de selección",
-              "do": [
-                "Pregunta qué información admitiría una herramienta y cómo comprobaríamos su salida."
-              ],
-              "solo": [
-                "Escribe una condición que exigirías antes de usar una herramienta en tu organización."
-              ],
-              "say": "Antes de contratar, definamos la tarea y cómo comprobaremos el resultado.",
-              "check": "Tienes un criterio de selección asociado con una tarea.",
-              "actions": [],
-              "screen": "Lámina de la clase",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
+              "kind": "speech",
+              "label": "Leer explicación"
             }
-          ]
+          ],
+          "intro": "En «Qué hago aquí»: Distingue la empresa, el modelo y la aplicación. Ubica dónde está Gemini, la herramienta que usaremos después."
         }
       },
       {
@@ -1059,7 +786,7 @@
         "tipo": "EXPLICACIÓN",
         "horario": "18:32–18:38",
         "question": "¿Qué trabajo de coordinación podríamos preparar mejor con IA?",
-        "narration": "En «Qué hago ahora» tienes la pregunta y el orden de los ejemplos. Esta lámina es para observar y conversar; no hay un encargo que pegar.\n\nMiren estos tres nombres: Uber, Airbnb y Visa. A primera vista hablamos de viajes, estancias y pagos. ¿Qué tienen en común? Les doy diez segundos. Escuchemos dos ideas antes de explicar la imagen.\n\nImaginen que llegan a una ciudad que no conocen: necesitan trasladarse, encontrar dónde quedarse y pagar. Detrás de esos actos cotidianos hay personas que deben encontrarse, información que debe circular y reglas que permiten coordinar el servicio. Esa coordinación es la idea común que quiero que observemos; cada empresa tiene un negocio y una tecnología diferentes.\n\nUber describe el emparejamiento entre pasajeros y conductores como una parte central de su plataforma. Importan la disponibilidad y las condiciones del viaje. Airbnb conecta anfitriones y huéspedes; disponibilidad, condiciones y mecanismos de confianza ayudan a que una estancia pueda acordarse. Visa opera una red de pagos que conecta a participantes como comercios e instituciones financieras. Una tarjeta visible es sólo una parte de lo que permite una transacción.\n\nEn mis charlas de transformación digital utilizaba esta pregunta para mirar más allá de la aplicación que vemos. Aquí nos sirve para preguntar algo muy concreto: ¿qué información y qué coordinación hacen posible el servicio de ustedes? No estamos diciendo que esos tres negocios sean modelos generativos, ni que todas sus funciones dependan de un chat.\n\nAhora añadamos una capacidad: una herramienta que puede preparar un resumen, clasificar una solicitud o redactar un borrador a partir de información disponible. Eso abre posibilidades para el trabajo entre esas conexiones. Es una analogía de negocio que vamos a probar en pequeño, no una promesa de que copiar una aplicación reproduce una plataforma.\n\nVeamos dos casos de IA que ya tenemos documentados en las referencias. BBVA describe usos de ChatGPT en trabajo interno, como preparar documentos y apoyar distintas funciones. Mercedes-Benz anunció capacidades conversacionales para navegación y puntos de interés con Gemini sobre Vertex AI. Uno nos acerca al trabajo del equipo; el otro, a una interacción con el cliente. El segundo caso no significa que el modelo conduzca el vehículo.\n\nEn ambos conviene mirar cuatro cosas: necesidad, información, resultado y responsable. Nexo, nuestro caso ficticio, empieza en algo más cercano: varias áreas tienen piezas de información y alguien necesita preparar una decisión. ¿En qué parte de su organización ocurre eso cada semana? Escuchemos dos ejemplos breves. Con esa pregunta pasamos del panorama global a nuestra región.",
+        "narration": "En «Qué hago aquí»: Observa cómo las plataformas conectan personas, información y decisiones, y cómo se relaciona esto con los usos de IA que estamos viendo.\n\nMiren estos tres nombres: Uber, Airbnb y Visa. A primera vista hablamos de viajes, estancias y pagos. ¿Qué tienen en común? Les doy diez segundos. Escuchemos dos ideas antes de explicar la imagen.\n\nImaginen que llegan a una ciudad que no conocen: necesitan trasladarse, encontrar dónde quedarse y pagar. Detrás de esos actos cotidianos hay personas que deben encontrarse, información que debe circular y reglas que permiten coordinar el servicio. Esa coordinación es la idea común que quiero que observemos; cada empresa tiene un negocio y una tecnología diferentes.\n\nUber describe el emparejamiento entre pasajeros y conductores como una parte central de su plataforma. Importan la disponibilidad y las condiciones del viaje. Airbnb conecta anfitriones y huéspedes; disponibilidad, condiciones y mecanismos de confianza ayudan a que una estancia pueda acordarse. Visa opera una red de pagos que conecta a participantes como comercios e instituciones financieras. Una tarjeta visible es sólo una parte de lo que permite una transacción.\n\nEn mis charlas de transformación digital utilizaba esta pregunta para mirar más allá de la aplicación que vemos. Aquí nos sirve para preguntar algo muy concreto: ¿qué información y qué coordinación hacen posible el servicio de ustedes? No estamos diciendo que esos tres negocios sean modelos generativos, ni que todas sus funciones dependan de un chat.\n\nAhora añadamos una capacidad: una herramienta que puede preparar un resumen, clasificar una solicitud o redactar un borrador a partir de información disponible. Eso abre posibilidades para el trabajo entre esas conexiones. Es una analogía de negocio que vamos a probar en pequeño, no una promesa de que copiar una aplicación reproduce una plataforma.\n\nVeamos dos casos de IA que ya tenemos documentados en las referencias. BBVA describe usos de ChatGPT en trabajo interno, como preparar documentos y apoyar distintas funciones. Mercedes-Benz anunció capacidades conversacionales para navegación y puntos de interés con Gemini sobre Vertex AI. Uno nos acerca al trabajo del equipo; el otro, a una interacción con el cliente. El segundo caso no significa que el modelo conduzca el vehículo.\n\nEn ambos conviene mirar cuatro cosas: necesidad, información, resultado y responsable. Nexo, nuestro caso ficticio, empieza en algo más cercano: varias áreas tienen piezas de información y alguien necesita preparar una decisión. ¿En qué parte de su organización ocurre eso cada semana? Escuchemos dos ejemplos breves. Con esa pregunta pasamos del panorama global a nuestra región.",
         "steps": [
           "0–1 min: observar las conexiones y escuchar una respuesta.",
           "1–3 min: explicar coordinación, información y reglas con Uber, Airbnb y Visa.",
@@ -1103,72 +830,19 @@
         "extra": "",
         "image": "assets/c1-04-conexiones.png",
         "runbook": {
-          "goal": "Reconocer el trabajo de coordinación detrás de una plataforma.",
-          "intro": "En «Qué hago ahora» tienes la pregunta y el orden de los ejemplos. Esta lámina es para observar y conversar; no hay un encargo que pegar.",
-          "steps": [
+          "title": "Escucha los casos",
+          "text": "Observa cómo las plataformas conectan personas, información y decisiones, y cómo se relaciona esto con los usos de IA que estamos viendo.",
+          "actions": [
             {
-              "title": "Da diez segundos para observar",
-              "do": [
-                "Proyecta la lámina y pregunta qué conectan las tres empresas.",
-                "Espera diez segundos y escucha dos ideas."
-              ],
-              "solo": [
-                "Mira los tres nombres y escribe qué personas o información conecta cada negocio."
-              ],
-              "say": "¿Qué tienen en común Uber, Airbnb y Visa?",
-              "check": "Has identificado al menos una relación de coordinación.",
-              "actions": [
-                {
-                  "kind": "project",
-                  "label": "Proyectar esta lámina"
-                }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
+              "kind": "listen",
+              "label": "Escuchar explicación"
             },
             {
-              "title": "Cuenta la conexión con IA",
-              "do": [
-                "Usa el guion para explicar plataformas y después los casos de BBVA y Mercedes-Benz.",
-                "Distingue la analogía de negocio de los usos documentados de IA."
-              ],
-              "solo": [
-                "Lee los ejemplos en «Qué digo».",
-                "Si quieres profundizar, abre sus enlaces en Fuentes."
-              ],
-              "say": "Una experiencia sencilla depende de información, reglas y coordinación.",
-              "check": "Puedes explicar un caso sin afirmar que un chat opera toda la empresa.",
-              "actions": [
-                {
-                  "kind": "speech",
-                  "label": "Leer o escuchar qué decir"
-                },
-                {
-                  "kind": "sources",
-                  "label": "Ver fuentes de los casos"
-                }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
-            },
-            {
-              "title": "Aterrízalo en una organización",
-              "do": [
-                "Pide un ejemplo de información que tenga que cruzar varias áreas."
-              ],
-              "solo": [
-                "Escribe un proceso donde se pierda información al pasar de un área a otra."
-              ],
-              "say": "¿Dónde ocurre esto cada semana en su organización?",
-              "check": "Tienes una fricción concreta de coordinación.",
-              "actions": [],
-              "screen": "Lámina de la clase",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
+              "kind": "speech",
+              "label": "Leer explicación"
             }
-          ]
+          ],
+          "intro": "En «Qué hago aquí»: Observa cómo las plataformas conectan personas, información y decisiones, y cómo se relaciona esto con los usos de IA que estamos viendo."
         }
       },
       {
@@ -1178,7 +852,7 @@
         "tipo": "EXPLICACIÓN",
         "horario": "18:38–18:44",
         "question": "¿Qué podemos aprender de experiencias cercanas sin suponer que son iguales?",
-        "narration": "En «Qué hago ahora» están los dos casos regionales y la pregunta de cierre. Lee las fuentes si quieres profundizar; todavía no empezamos la práctica.\n\nAcerquemos el mapa. Es fácil escuchar un caso de una empresa global y pensar: eso requiere un presupuesto que aquí no tenemos. Por eso quiero que observemos usos de nuestra región y distingamos exactamente qué está documentado.\n\nEl contexto regional permite hacer preguntas más cercanas. En Guatemala, Banrural reporta en su memoria 2025 un asistente generativo en WhatsApp y Messenger, apoyado en conocimiento de sus productos y servicios. En Costa Rica, TEC y CCSS documentan formación y desarrollo de prototipos para retos de salud pública. Son estados diferentes: una implementación reportada y una experiencia de formación y prototipado.\n\nLa diferencia importa al evaluar un caso. Una demostración enseña posibilidad; una implementación requiere operación; un resultado medido necesita condiciones y datos que podamos revisar. No vamos a atribuir a las personas del grupo participación en proyectos por el nombre de su empresa.\n\nNuestro expediente representa un servicio regional ficticio con operaciones en Guatemala, El Salvador y Costa Rica. No trae datos separados por país: no podremos comparar su desempeño nacional. Sí podremos trabajar necesidades compartidas, como solicitudes incompletas, claridad de información y coordinación.\n\nPara aterrizarlo, piensen en la última vez que un cliente tuvo que contar su problema dos veces porque cambió de área. ¿Qué información se perdió en ese paso? Escuchemos un ejemplo breve y nombremos el documento o la pregunta que atraviesa esas áreas. No necesitan revelar datos internos. Ese tipo de fricción explica por qué el mismo caso puede tener lecturas desde operaciones, finanzas, tecnología, salud administrativa o formación.",
+        "narration": "En «Qué hago aquí»: Conoce los ejemplos de Banrural y TEC/CCSS. Fíjate en qué se implementó, qué se probó y qué resultados se pueden afirmar.\n\nAcerquemos el mapa. Es fácil escuchar un caso de una empresa global y pensar: eso requiere un presupuesto que aquí no tenemos. Por eso quiero que observemos usos de nuestra región y distingamos exactamente qué está documentado.\n\nEl contexto regional permite hacer preguntas más cercanas. En Guatemala, Banrural reporta en su memoria 2025 un asistente generativo en WhatsApp y Messenger, apoyado en conocimiento de sus productos y servicios. En Costa Rica, TEC y CCSS documentan formación y desarrollo de prototipos para retos de salud pública. Son estados diferentes: una implementación reportada y una experiencia de formación y prototipado.\n\nLa diferencia importa al evaluar un caso. Una demostración enseña posibilidad; una implementación requiere operación; un resultado medido necesita condiciones y datos que podamos revisar. No vamos a atribuir a las personas del grupo participación en proyectos por el nombre de su empresa.\n\nNuestro expediente representa un servicio regional ficticio con operaciones en Guatemala, El Salvador y Costa Rica. No trae datos separados por país: no podremos comparar su desempeño nacional. Sí podremos trabajar necesidades compartidas, como solicitudes incompletas, claridad de información y coordinación.\n\nPara aterrizarlo, piensen en la última vez que un cliente tuvo que contar su problema dos veces porque cambió de área. ¿Qué información se perdió en ese paso? Escuchemos un ejemplo breve y nombremos el documento o la pregunta que atraviesa esas áreas. No necesitan revelar datos internos. Ese tipo de fricción explica por qué el mismo caso puede tener lecturas desde operaciones, finanzas, tecnología, salud administrativa o formación.",
         "steps": [
           "0–1 min: pasar del panorama global a una fricción reconocible.",
           "1–4 min: contrastar Banrural y TEC/CCSS; distinguir implementación de prototipado.",
@@ -1210,76 +884,19 @@
         "extra": "El estudio de UNIS es lectura opcional sobre ejecutivos; su muestra no representa estadísticamente a todas las empresas de Guatemala. El ejemplo regional Nexo es una construcción docente, no un caso atribuido.",
         "image": "assets/c1-05.png",
         "runbook": {
-          "goal": "Distinguir un uso reportado, un prototipo y un resultado medido.",
-          "intro": "En «Qué hago ahora» están los dos casos regionales y la pregunta de cierre. Lee las fuentes si quieres profundizar; todavía no empezamos la práctica.",
-          "steps": [
+          "title": "Escucha los casos de la región",
+          "text": "Conoce los ejemplos de Banrural y TEC/CCSS. Fíjate en qué se implementó, qué se probó y qué resultados se pueden afirmar.",
+          "actions": [
             {
-              "title": "Presenta los dos casos regionales",
-              "do": [
-                "Muestra la lámina. Explica Banrural y la experiencia TEC/CCSS con el guion."
-              ],
-              "solo": [
-                "Lee los dos casos y señala cuál describe una implementación reportada y cuál prototipado."
-              ],
-              "say": "Una demostración, una implementación y un resultado medido nos dicen cosas distintas.",
-              "check": "Distingues el alcance de la evidencia de cada caso.",
-              "actions": [
-                {
-                  "kind": "project",
-                  "label": "Proyectar esta lámina"
-                },
-                {
-                  "kind": "speech",
-                  "label": "Leer o escuchar qué decir"
-                },
-                {
-                  "kind": "sources",
-                  "label": "Abrir fuentes regionales"
-                }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
+              "kind": "listen",
+              "label": "Escuchar explicación"
             },
             {
-              "title": "Conecta con el servicio ficticio Nexo",
-              "do": [
-                "Explica que Nexo representa un servicio regional y usa datos ficticios.",
-                "No atribuyas su información a empresas de los participantes."
-              ],
-              "solo": [
-                "Lee la introducción del expediente y reconoce que es ficticio."
-              ],
-              "say": "Vamos a investigar un servicio donde varias áreas tienen piezas de la información.",
-              "check": "Sabes que el caso no usa datos privados del grupo.",
-              "actions": [
-                {
-                  "kind": "file",
-                  "label": "Leer expediente Nexo",
-                  "file": "CASO_NEXO.md"
-                }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
-            },
-            {
-              "title": "Recoge una fricción y prepara la demostración",
-              "do": [
-                "Pregunta cuándo un cliente tuvo que contar su problema dos veces.",
-                "Escucha un ejemplo breve y pasa a la preparación de Gemini."
-              ],
-              "solo": [
-                "Anota una fricción parecida sin nombres ni datos privados."
-              ],
-              "say": "Veamos qué cambia cuando el modelo recibe el contexto adecuado.",
-              "check": "Tienes una pregunta para observar durante la demostración.",
-              "actions": [],
-              "screen": "Lámina de la clase",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
+              "kind": "speech",
+              "label": "Leer explicación"
             }
-          ]
+          ],
+          "intro": "En «Qué hago aquí»: Conoce los ejemplos de Banrural y TEC/CCSS. Fíjate en qué se implementó, qué se probó y qué resultados se pueden afirmar."
         }
       },
       {
@@ -1289,7 +906,7 @@
         "tipo": "EXPLICACIÓN",
         "horario": "18:44–18:50",
         "question": "¿Qué cambia cuando aportamos los documentos correctos?",
-        "narration": "Ahora sí: abre «Qué hago ahora». Ahí tienes el enlace a Gemini y la preparación exacta. En esta lámina abrimos y verificamos la herramienta; el primer encargo se envía en la siguiente.\n\nEl esquema distingue entrenamiento e inferencia. Entrenar modifica parámetros aprendidos; usar el modelo para producir una respuesta es inferencia. Al aportar un reporte a una conversación damos contexto. Ese acto, por sí solo, no demuestra que hayamos reentrenado el modelo.\n\nLos modelos de lenguaje trabajan con tokens, unidades que pueden ser palabras, partes de palabras o signos. La atención calcula relaciones entre representaciones. Para nuestro trabajo interesa una consecuencia: el encargo y la información disponible influyen en lo que puede preparar la respuesta. Una solicitud de tono profesional no sustituye un dato que falta.\n\nAhora miren mi pantalla. Abro Gemini, verifico el modelo seleccionado y empiezo una conversación nueva. El primer botón de la mesa de trabajo copia un encargo completo sin documentos. El segundo repite exactamente ese encargo y agrega F1, F2 y el catálogo F3. Se pega en otra conversación con el mismo modelo. No necesitan reconstruir el prompt por partes.\n\nDespués del descanso descargaremos V1 y la adjuntaremos como imagen. Por ahora no cargamos el ZIP ni la imagen. Vamos a observar qué producto podemos preparar con la solicitud sola y qué mejora al incorporar el expediente.",
+        "narration": "En «Qué hago aquí»: Primero escucha cómo utiliza el modelo el contexto. Después deja lista la herramienta para la demostración.\n\nEl esquema distingue entrenamiento e inferencia. Entrenar modifica parámetros aprendidos; usar el modelo para producir una respuesta es inferencia. Al aportar un reporte a una conversación damos contexto. Ese acto, por sí solo, no demuestra que hayamos reentrenado el modelo.\n\nLos modelos de lenguaje trabajan con tokens, unidades que pueden ser palabras, partes de palabras o signos. La atención calcula relaciones entre representaciones. Para nuestro trabajo interesa una consecuencia: el encargo y la información disponible influyen en lo que puede preparar la respuesta. Una solicitud de tono profesional no sustituye un dato que falta.\n\nAhora miren mi pantalla. Abro Gemini, verifico el modelo seleccionado y empiezo una conversación nueva. El primer botón de la mesa de trabajo copia un encargo completo sin documentos. El segundo repite exactamente ese encargo y agrega F1, F2 y el catálogo F3. Se pega en otra conversación con el mismo modelo. No necesitan reconstruir el prompt por partes.\n\nDespués del descanso descargaremos V1 y la adjuntaremos como imagen. Por ahora no cargamos el ZIP ni la imagen. Vamos a observar qué producto podemos preparar con la solicitud sola y qué mejora al incorporar el expediente.",
         "steps": [
           "0–2 min: explicar entrenamiento, inferencia, tokens y contexto.",
           "2–4 min: mostrar chat nuevo y selector de modelo.",
@@ -1326,107 +943,35 @@
         "extra": "",
         "image": "assets/c1-06.png",
         "runbook": {
-          "goal": "Dejar Gemini y un documento listos antes de ejecutar el caso.",
-          "intro": "Ahora sí: abre «Qué hago ahora». Ahí tienes el enlace a Gemini y la preparación exacta. En esta lámina abrimos y verificamos la herramienta; el primer encargo se envía en la siguiente.",
-          "steps": [
+          "title": "Escucha y prepara Gemini",
+          "text": "Primero escucha cómo utiliza el modelo el contexto. Después deja lista la herramienta para la demostración.",
+          "actions": [
             {
-              "title": "Explica qué cambia al dar contexto",
-              "do": [
-                "Proyecta el esquema y distingue entrenamiento, inferencia y contexto."
-              ],
-              "solo": [
-                "Lee o escucha el primer bloque del guion."
-              ],
-              "say": "Pegar un expediente aporta contexto; por sí solo no demuestra reentrenamiento.",
-              "check": "Puedes explicar esa diferencia.",
-              "actions": [
-                {
-                  "kind": "project",
-                  "label": "Proyectar esta lámina"
-                },
-                {
-                  "kind": "speech",
-                  "label": "Leer o escuchar qué decir"
-                }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
+              "kind": "listen",
+              "label": "Escuchar explicación"
             },
             {
-              "title": "Abre Gemini y verifica la cuenta",
-              "do": [
-                "Pulsa Abrir Gemini. Completa el acceso si tu cuenta lo pide.",
-                "Crea una conversación nueva y localiza el nombre del modelo. Aún no envíes un encargo."
-              ],
-              "solo": [
-                "Abre Gemini con tu cuenta y crea una conversación nueva.",
-                "Localiza el modelo disponible; no hace falta contratar un plan para este ejercicio."
-              ],
-              "say": "Voy a mostrar primero la herramienta; en el siguiente bloque veremos el resultado.",
-              "check": "Puedes escribir en un chat y sabes qué modelo aparece.",
+              "kind": "speech",
+              "label": "Leer explicación"
+            }
+          ],
+          "items": [
+            {
+              "text": "Abre Gemini, entra con tu cuenta y crea un chat nuevo. Aún no envíes nada.",
               "actions": [
                 {
                   "kind": "link",
                   "label": "Abrir Gemini",
                   "url": "https://gemini.google.com/app"
                 }
-              ],
-              "screen": "Gemini, conversación nueva",
-              "group": "Observan; quien necesite preparar su acceso puede hacerlo.",
-              "help": "Si no tienes acceso, sigue la demostración y deja constancia de que la observaste. En estudio autónomo, lee las fuentes y la referencia; retoma la comparación cuando tengas una herramienta disponible, sin inventar una ejecución."
+              ]
             },
             {
-              "title": "Anota modelo y prepara dónde guardar resultados",
-              "do": [
-                "Si Flash está disponible, úsalo como en el ensayo. Si aparece otra opción, anota cuál es.",
-                "Abre un documento y copia la plantilla A. Registra modelo y fecha."
-              ],
-              "solo": [
-                "Usa Flash si lo tienes; si no, registra la opción que usarás y mantenla igual en los dos chats.",
-                "Copia la plantilla A a un documento editable y escribe modelo y fecha."
-              ],
-              "say": "Guardaremos las respuestas para compararlas, no sólo para leerlas en pantalla.",
-              "check": "Tienes un documento editable y un modelo identificado.",
-              "actions": [
-                {
-                  "kind": "copyFile",
-                  "label": "Copiar plantilla de entrega A",
-                  "file": "PLANTILLA_A.md"
-                },
-                {
-                  "kind": "link",
-                  "label": "Crear documento (sólo una vez)",
-                  "url": "https://docs.google.com/document/create"
-                },
-                {
-                  "kind": "file",
-                  "label": "Ver plantilla de entrega A",
-                  "file": "PLANTILLA_A.md"
-                }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
-            },
-            {
-              "title": "Deja todo listo sin cargar archivos",
-              "do": [
-                "Vuelve a la clase. Explica que los botones siguientes copian el encargo completo.",
-                "No subas el ZIP ni V1 todavía. Pasa a Mañana hay comité."
-              ],
-              "solo": [
-                "Vuelve a esta pestaña y avanza.",
-                "Los documentos de texto vendrán dentro del encargo; V1 se adjunta después del descanso."
-              ],
-              "say": "Primero compararemos dos mensajes completos; después incorporaremos una imagen.",
-              "check": "Gemini está abierto y sabes dónde guardar las dos respuestas.",
-              "actions": [],
-              "screen": "Lámina de la clase",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
+              "text": "Identifica el modelo que aparece. Usa Flash si está disponible y conserva el mismo modelo durante la comparación.",
+              "actions": []
             }
-          ]
+          ],
+          "intro": "En «Qué hago aquí»: Primero escucha cómo utiliza el modelo el contexto. Después deja lista la herramienta para la demostración."
         }
       },
       {
@@ -1436,7 +981,7 @@
         "tipo": "DEMOSTRACIÓN",
         "horario": "18:50–19:15",
         "question": "¿Qué aporta el expediente a la recomendación inicial?",
-        "narration": "Ve a «Qué hago ahora». Abre Gemini desde el paso indicado y copia cada encargo con su botón. No reconstruyas mensajes por partes: el segundo ya incluye F1, F2 y F3.\n\nAhora ustedes son el comité. Yo voy a pedirle una recomendación a Gemini. Antes de verla, piensen: ¿qué tendría que mostrarles para que ustedes la aceptaran? No necesitan abrir nada todavía; primero observamos juntos.\n\nNexo recibe más solicitudes y escucha quejas por demoras. Una persona quiere contratar; otra quiere automatizar. Voy a copiar el encargo completo sin expediente y enviarlo en un chat nuevo. Hagan una predicción: ¿nos dará una recomendación, pedirá datos o hará ambas cosas?\n\nMiremos la respuesta que realmente produjo. ¿La llevarían así al comité? Levanten la mano si sí; ahora quienes pedirían más información. Escuchemos una razón de cada lado. Si la respuesta es prudente y pregunta por los datos, reconozcámoslo: detectar lo que falta también es útil. Si propone acciones, elijamos una frase y preguntemos qué la sostiene. No necesitamos que el modelo falle para aprender.\n\nAhora viene la comparación. Abriré otra conversación con el mismo modelo y pegaré el mismo encargo con F1, F2 y F3. El botón ya incluye los documentos. Lo que cambiamos es el contexto disponible; todavía no hemos demostrado ningún reentrenamiento. Mientras responde, observen conmigo las entradas, los cierres y las solicitudes que siguen abiertas. Una solicitud cerrada puede haber llegado en una semana anterior.\n\nBusquemos el momento en que la respuesta deja de ser una recomendación general y empieza a hablar de este expediente. ¿Qué frase mejoró gracias a una fuente? ¿Qué sigue siendo sólo una hipótesis? Comparemos un hallazgo, una hipótesis y una alternativa. El objetivo es preparar una conversación de dirección con mejor fundamento.\n\nVamos a comprobar un dato con su fuente y una operación con calculadora. Si afirma que una medida no cuesta nada, preguntaremos dónde está ese costo documentado. Si la información no permite elegir una causa, dejaremos una pregunta pendiente. Una redacción elegante puede ayudar a comunicar; la evidencia es lo que permite defender lo que estamos diciendo.\n\nPidamos una mejora breve del informe y conservemos las dos versiones. Ustedes han visto síntesis, comparación y redacción, pero también revisión humana. Antes del descanso, elijan una conclusión provisional. Al regresar aparecerá una fuente visual adicional: veremos si fortalece su recomendación o les obliga a cambiar la pregunta.",
+        "narration": "En «Qué hago aquí»: El expositor hará el mismo encargo sin documentos y con documentos. Escucha y compara: ¿qué cambia en la respuesta cuando la IA tiene fuentes?\n\nAhora ustedes son el comité. Yo voy a pedirle una recomendación a Gemini. Antes de verla, piensen: ¿qué tendría que mostrarles para que ustedes la aceptaran? No necesitan abrir nada todavía; primero observamos juntos.\n\nNexo recibe más solicitudes y escucha quejas por demoras. Una persona quiere contratar; otra quiere automatizar. Voy a copiar el encargo completo sin expediente y enviarlo en un chat nuevo. Hagan una predicción: ¿nos dará una recomendación, pedirá datos o hará ambas cosas?\n\nMiremos la respuesta que realmente produjo. ¿La llevarían así al comité? Levanten la mano si sí; ahora quienes pedirían más información. Escuchemos una razón de cada lado. Si la respuesta es prudente y pregunta por los datos, reconozcámoslo: detectar lo que falta también es útil. Si propone acciones, elijamos una frase y preguntemos qué la sostiene. No necesitamos que el modelo falle para aprender.\n\nAhora viene la comparación. Abriré otra conversación con el mismo modelo y pegaré el mismo encargo con F1, F2 y F3. El botón ya incluye los documentos. Lo que cambiamos es el contexto disponible; todavía no hemos demostrado ningún reentrenamiento. Mientras responde, observen conmigo las entradas, los cierres y las solicitudes que siguen abiertas. Una solicitud cerrada puede haber llegado en una semana anterior.\n\nBusquemos el momento en que la respuesta deja de ser una recomendación general y empieza a hablar de este expediente. ¿Qué frase mejoró gracias a una fuente? ¿Qué sigue siendo sólo una hipótesis? Comparemos un hallazgo, una hipótesis y una alternativa. El objetivo es preparar una conversación de dirección con mejor fundamento.\n\nVamos a comprobar un dato con su fuente y una operación con calculadora. Si afirma que una medida no cuesta nada, preguntaremos dónde está ese costo documentado. Si la información no permite elegir una causa, dejaremos una pregunta pendiente. Una redacción elegante puede ayudar a comunicar; la evidencia es lo que permite defender lo que estamos diciendo.\n\nPidamos una mejora breve del informe y conservemos las dos versiones. Ustedes han visto síntesis, comparación y redacción, pero también revisión humana. Antes del descanso, elijan una conclusión provisional. Al regresar aparecerá una fuente visual adicional: veremos si fortalece su recomendación o les obliga a cambiar la pregunta.",
         "steps": [
           "0–3 min: asignar al grupo el papel de comité y escuchar una predicción; el docente controla Gemini.",
           "3–7 min: ejecutar sin expediente; votación a mano alzada y dos razones. Una respuesta prudente también cuenta.",
@@ -1458,44 +1003,23 @@
         "extra": "Si no hay acceso, usar la respuesta docente de referencia identificada como ejemplo, o analizar la demostración observada. No atribuirla a una ejecución real del alumno. No hace falta que la primera respuesta falle.",
         "image": "assets/c1-07.png",
         "runbook": {
-          "goal": "Comparar el mismo encargo sin fuentes y con F1, F2 y F3.",
-          "intro": "Ve a «Qué hago ahora». Abre Gemini desde el paso indicado y copia cada encargo con su botón. No reconstruyas mensajes por partes: el segundo ya incluye F1, F2 y F3.",
-          "steps": [
+          "title": "Observa la demostración",
+          "text": "El expositor hará el mismo encargo sin documentos y con documentos. Escucha y compara: ¿qué cambia en la respuesta cuando la IA tiene fuentes?",
+          "actions": [
             {
-              "title": "Plantea el comité antes de enviar nada",
-              "do": [
-                "Deja la lámina visible. Explica que tú controlarás Gemini y usarás la perspectiva Dirección.",
-                "Pide una predicción sobre la respuesta que dará sin datos."
-              ],
-              "solo": [
-                "Usarás Dirección para recorrer esta demostración.",
-                "Anota qué esperas que haga el modelo sin el expediente."
-              ],
-              "say": "¿Nos dará una recomendación, nos pedirá datos o hará ambas cosas?",
-              "check": "Tienes una predicción; todavía no has enviado el primer encargo.",
-              "actions": [
-                {
-                  "kind": "project",
-                  "label": "Proyectar esta lámina"
-                }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Observan y predicen; todavía no hacen la práctica individual.",
-              "help": ""
+              "kind": "listen",
+              "label": "Escuchar explicación"
             },
             {
-              "title": "Envía el encargo SIN expediente",
-              "do": [
-                "Pulsa Abrir Gemini y crea un chat nuevo. Conserva el modelo elegido.",
-                "Pulsa Copiar encargo sin expediente. Pégalo completo en Gemini y envíalo.",
-                "Espera a que termine y copia la respuesta a tu documento como SIN FUENTES."
-              ],
-              "solo": [
-                "Crea un chat nuevo con el modelo anotado. Copia el encargo, pégalo completo y envíalo.",
-                "Guarda la respuesta original en tu documento con el título SIN FUENTES."
-              ],
-              "say": "Este primer mensaje sólo tiene la solicitud; todavía no tiene los documentos.",
-              "check": "Tienes una respuesta completa guardada sin editar.",
+              "kind": "speech",
+              "label": "Leer explicación"
+            }
+          ],
+          "moreTitle": "Ver cómo hacerlo en Gemini",
+          "moreIntro": "Para exponerlo o reproducirlo por tu cuenta:",
+          "items": [
+            {
+              "text": "Abre un chat nuevo. Copia el encargo sin fuentes, envíalo y guarda la respuesta en tu documento.",
               "actions": [
                 {
                   "kind": "link",
@@ -1504,154 +1028,42 @@
                 },
                 {
                   "kind": "prompt",
-                  "label": "Copiar encargo sin expediente",
+                  "label": "Copiar encargo sin fuentes",
                   "key": "sin-direccion"
-                },
-                {
-                  "kind": "link",
-                  "label": "Crear documento (sólo una vez)",
-                  "url": "https://docs.google.com/document/create"
                 }
-              ],
-              "screen": "Gemini, primer chat",
-              "group": "Observan la respuesta que aparece.",
-              "help": "Si pide datos, conserva esa respuesta: detectar el vacío también es útil. No le des el expediente en este chat; la comparación con fuentes irá en otro."
+              ]
             },
             {
-              "title": "Examina la primera respuesta",
-              "do": [
-                "Muestra una afirmación o una pregunta de la respuesta.",
-                "Pregunta si la llevarían al comité y escucha dos razones."
-              ],
-              "solo": [
-                "Marca una afirmación que no tiene soporte o una pregunta útil que detecta información faltante."
-              ],
-              "say": "¿Qué frase aceptarían y qué necesitarían comprobar?",
-              "check": "Has señalado algo concreto de la salida, aunque la respuesta sea prudente.",
-              "actions": [],
-              "screen": "Respuesta SIN FUENTES en Gemini o en tu documento",
-              "group": "Votan y explican una razón. No buscamos forzar un fallo del modelo.",
-              "help": ""
-            },
-            {
-              "title": "Envía el encargo CON expediente en OTRO chat",
-              "do": [
-                "Crea otra conversación nueva, con el mismo modelo.",
-                "Copia el encargo con F1/F2/F3 y envíalo completo. No adjuntes archivos ni el ZIP.",
-                "Guarda la respuesta como CON FUENTES, junto a la primera."
-              ],
-              "solo": [
-                "Abre otro chat nuevo con el mismo modelo.",
-                "Copia el segundo encargo: ya contiene todas las fuentes de texto. Envía y guarda la respuesta como CON FUENTES."
-              ],
-              "say": "El encargo y la perspectiva son los mismos. Ahora agregamos el expediente.",
-              "check": "Tienes dos respuestas en chats separados y sabes cuál contiene las fuentes.",
+              "text": "Abre otro chat con el mismo modelo. Copia el encargo con fuentes: ya incluye F1, F2 y F3. Envía y guarda la segunda respuesta.",
               "actions": [
                 {
-                  "kind": "link",
-                  "label": "Abrir Gemini",
-                  "url": "https://gemini.google.com/app"
-                },
-                {
                   "kind": "prompt",
-                  "label": "Copiar encargo con F1/F2/F3",
+                  "label": "Copiar encargo con fuentes",
                   "key": "con-direccion"
                 },
                 {
                   "kind": "file",
-                  "label": "Leer expediente Nexo",
+                  "label": "Ver expediente",
                   "file": "CASO_NEXO.md"
-                },
-                {
-                  "kind": "link",
-                  "label": "Crear documento (sólo una vez)",
-                  "url": "https://docs.google.com/document/create"
                 }
-              ],
-              "screen": "Gemini, segundo chat",
-              "group": "Observan y buscan qué información nueva aparece.",
-              "help": "Si el modelo dice que faltan F1/F2/F3, verifica que pegaste todo el mensaje: abre «Ver encargo» y revisa hasta el final antes de repetirlo."
+              ]
             },
             {
-              "title": "Comprueba un dato y un cálculo",
-              "do": [
-                "Abre el expediente aquí y compara una afirmación con su fuente.",
-                "Con calculadora verifica 40 + 552 − 504 = 88. Distingue hallazgo, hipótesis y propuesta."
-              ],
-              "solo": [
-                "Lee F1 y comprueba con calculadora: entradas 552, cierres 504 y cola final 88.",
-                "Escribe dos diferencias concretas entre las respuestas."
-              ],
-              "say": "Que la cola crezca no demuestra por sí solo que falte personal.",
-              "check": "Tienes un cálculo comprobado y dos cambios entre respuestas.",
-              "actions": [
-                {
-                  "kind": "file",
-                  "label": "Leer expediente Nexo",
-                  "file": "CASO_NEXO.md"
-                },
-                {
-                  "kind": "file",
-                  "label": "Ver comprobaciones de referencia",
-                  "file": "REFERENCIA_DOCENTE.md"
-                }
-              ],
-              "screen": "Tu documento y las fuentes; calculadora para la operación",
-              "group": "Ayudan a localizar soporte y separar hipótesis.",
-              "help": ""
+              "text": "Compara las respuestas. Comprueba en F1 que 40 + 552 − 504 = 88 y distingue lo que sabemos de lo que sólo suponemos.",
+              "actions": []
             },
             {
-              "title": "Pide una mejora en el chat CON fuentes",
-              "do": [
-                "Regresa al segundo chat. Copia la instrucción de revisión y envíala.",
-                "Conserva también la respuesta anterior; guarda la nueva como REVISADA."
-              ],
-              "solo": [
-                "En el chat CON FUENTES pega la instrucción de revisión.",
-                "Guarda ambas versiones y anota qué corrigió o qué sigue faltando."
-              ],
-              "say": "Vamos a mejorar el informe sin inventar evidencia nueva.",
-              "check": "Has guardado una revisión y puedes explicar qué cambió.",
+              "text": "En el chat con fuentes, pide una revisión. Conserva ambas versiones y deja ese chat abierto para después del descanso.",
               "actions": [
-                {
-                  "kind": "link",
-                  "label": "Abrir Gemini",
-                  "url": "https://gemini.google.com/app"
-                },
                 {
                   "kind": "prompt",
                   "label": "Copiar instrucción de revisión",
                   "key": "revision-clase1"
                 }
-              ],
-              "screen": "Gemini, el mismo segundo chat",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
-            },
-            {
-              "title": "Cierra con una conclusión provisional",
-              "do": [
-                "Pide una conclusión que pueda defenderse y una pregunta pendiente.",
-                "Anuncia diez minutos de descanso. Conserva abierto el chat CON FUENTES para volver."
-              ],
-              "solo": [
-                "Escribe tu conclusión provisional y una pregunta sin respuesta.",
-                "Conserva el segundo chat y el documento. Avanza al descanso."
-              ],
-              "say": "Después veremos una imagen y comprobaremos si cambia nuestra recomendación.",
-              "check": "La conclusión es provisional y el segundo chat está identificado.",
-              "actions": [
-                {
-                  "kind": "link",
-                  "label": "Crear documento (sólo una vez)",
-                  "url": "https://docs.google.com/document/create"
-                }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
+              ]
             }
-          ]
+          ],
+          "intro": "En «Qué hago aquí»: El expositor hará el mismo encargo sin documentos y con documentos. Escucha y compara: ¿qué cambia en la respuesta cuando la IA tiene fuentes?"
         }
       },
       {
@@ -1661,7 +1073,7 @@
         "tipo": "DESCANSO",
         "horario": "19:15–19:25",
         "question": "¿Qué podría aportar una imagen?",
-        "narration": "Éste es el descanso. En «Qué hago ahora» sólo tienes la indicación para regresar; no hay una actividad durante la pausa.\n\nTenemos diez minutos de descanso. Regresamos a las siete veinticinco. Conserven las respuestas. Después incorporaremos una fuente visual para revisar la recomendación que acabamos de preparar.",
+        "narration": "En «Qué hago aquí»: Volvemos a las 19:25, horario del curso. Deja abierto el chat con fuentes; lo retomaremos con una imagen.\n\nTenemos diez minutos de descanso. Regresamos a las siete veinticinco. Conserven las respuestas. Después incorporaremos una fuente visual para revisar la recomendación que acabamos de preparar.",
         "steps": [
           "Descanso completo de 19:15 a 19:25. No añadir una tarea durante la pausa."
         ],
@@ -1671,32 +1083,10 @@
         "extra": "",
         "image": "assets/c1-08.png",
         "runbook": {
-          "goal": "Hacer una pausa de diez minutos y conservar el punto de regreso.",
-          "intro": "Éste es el descanso. En «Qué hago ahora» sólo tienes la indicación para regresar; no hay una actividad durante la pausa.",
-          "steps": [
-            {
-              "title": "Haz la pausa completa",
-              "do": [
-                "Proyecta el descanso e indica el regreso a las 19:25, horario del curso.",
-                "Pon un temporizador de diez minutos. Conserva abiertos Gemini y tu documento."
-              ],
-              "solo": [
-                "Pon un temporizador de diez minutos.",
-                "Al regresar, conserva a mano el chat CON FUENTES y tu documento."
-              ],
-              "say": "Nos vemos en diez minutos; retomaremos con una imagen.",
-              "check": "Terminó la pausa y sabes cuál es el chat CON FUENTES.",
-              "actions": [
-                {
-                  "kind": "project",
-                  "label": "Proyectar esta lámina"
-                }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Descansan; no hay tarea en estos diez minutos.",
-              "help": ""
-            }
-          ]
+          "title": "Descansa diez minutos",
+          "text": "Volvemos a las 19:25, horario del curso. Deja abierto el chat con fuentes; lo retomaremos con una imagen.",
+          "actions": [],
+          "intro": "En «Qué hago aquí»: Volvemos a las 19:25, horario del curso. Deja abierto el chat con fuentes; lo retomaremos con una imagen."
         }
       },
       {
@@ -1706,7 +1096,7 @@
         "tipo": "DEMOSTRACIÓN",
         "horario": "19:25–19:40",
         "question": "¿Qué cambia al conocer cómo se distribuye la cola?",
-        "narration": "En «Qué hago ahora» abre la imagen V1, descárgala y adjúntala al chat CON FUENTES. Encontrarás un encargo para leerla y otro para revisar la recomendación, en ese orden.\n\nAntes de volver a Gemini, abran conmigo la imagen V1 de la mesa de trabajo. Tienen diez segundos para observarla: si tuvieran que intervenir en una parte del proceso, ¿dónde empezarían? Todavía no consulten al modelo. Escuchemos dos respuestas y el dato que cada persona utilizó.\n\nEl reporte escrito mostraba cuántas solicitudes quedaron abiertas. La imagen añade cómo se distribuyen en ese corte. Multimodalidad significa trabajar con distintos tipos de información; aquí relacionaremos texto e imagen. OCR reconoce caracteres y un modelo multimodal puede relacionar información visual con el encargo.\n\nDescargo V1, adjunto el PNG a la conversación con expediente y pego el prompt visual. No le escribiré los números que quiero que lea. Primero observaremos qué campos extrajo y después comprobaremos la suma y su relación con F1.\n\nUna distribución de estados puede orientar preguntas distintas: documentación, clasificación, revisión especializada o dependencia de un proveedor. No identifica por sí sola la causa de una demora. Quiero que vean qué alternativa gana fundamento, cuál necesita más información y qué parte del informe sigue siendo útil.\n\nMiren el antes y el después. El producto no tiene que cambiar por completo; una pregunta mejor formulada ya puede mejorar la reunión. En su práctica conservarán una evidencia concreta del campo visual y del efecto que tuvo en su recomendación.\n\nUna cita automática tampoco garantiza que la fuente sostenga la frase. En nuestra prueba, el modelo citó la imagen junto a datos históricos que venían de F1. Comprobaremos el dato y el documento: V1 describe el cierre de una semana, mientras F1 contiene la serie. Si una hipótesis sobre falta de personal aparece como certeza, la devolveremos a una pregunta por investigar.\n\nVolvamos a lo que dijeron al mirar la imagen. ¿Cambió la prioridad, apareció una duda o sólo se confirmó lo que pensaban? Cualquiera de las tres cosas puede ser un resultado útil. El momento importante es poder explicar qué dato cambió su juicio. Ahora ya pueden repetir el recorrido desde su propia función.",
+        "narration": "En «Qué hago aquí»: Mira V1 y escucha la demostración. Primero comprobamos lo que dice la imagen; después revisamos si cambia la recomendación.\n\nAntes de volver a Gemini, abran conmigo la imagen V1 de la mesa de trabajo. Tienen diez segundos para observarla: si tuvieran que intervenir en una parte del proceso, ¿dónde empezarían? Todavía no consulten al modelo. Escuchemos dos respuestas y el dato que cada persona utilizó.\n\nEl reporte escrito mostraba cuántas solicitudes quedaron abiertas. La imagen añade cómo se distribuyen en ese corte. Multimodalidad significa trabajar con distintos tipos de información; aquí relacionaremos texto e imagen. OCR reconoce caracteres y un modelo multimodal puede relacionar información visual con el encargo.\n\nDescargo V1, adjunto el PNG a la conversación con expediente y pego el prompt visual. No le escribiré los números que quiero que lea. Primero observaremos qué campos extrajo y después comprobaremos la suma y su relación con F1.\n\nUna distribución de estados puede orientar preguntas distintas: documentación, clasificación, revisión especializada o dependencia de un proveedor. No identifica por sí sola la causa de una demora. Quiero que vean qué alternativa gana fundamento, cuál necesita más información y qué parte del informe sigue siendo útil.\n\nMiren el antes y el después. El producto no tiene que cambiar por completo; una pregunta mejor formulada ya puede mejorar la reunión. En su práctica conservarán una evidencia concreta del campo visual y del efecto que tuvo en su recomendación.\n\nUna cita automática tampoco garantiza que la fuente sostenga la frase. En nuestra prueba, el modelo citó la imagen junto a datos históricos que venían de F1. Comprobaremos el dato y el documento: V1 describe el cierre de una semana, mientras F1 contiene la serie. Si una hipótesis sobre falta de personal aparece como certeza, la devolveremos a una pregunta por investigar.\n\nVolvamos a lo que dijeron al mirar la imagen. ¿Cambió la prioridad, apareció una duda o sólo se confirmó lo que pensaban? Cualquiera de las tres cosas puede ser un resultado útil. El momento importante es poder explicar qué dato cambió su juicio. Ahora ya pueden repetir el recorrido desde su propia función.",
         "steps": [
           "0–2 min: abrir V1, dar diez segundos de observación y escuchar dos lecturas con su dato.",
           "2–4 min: explicar multimodalidad y distinguir leer campos de inferir causas.",
@@ -1739,49 +1129,28 @@
         "extra": " Primero adjunta V1 y pide una lectura simple. Si la carga falla, vuelve a adjuntarla en ese mismo mensaje. Sólo después de verificar los números solicita la revisión del informe. Si la herramienta sigue sin verla, usa la transcripción explícita como contingencia y registra que no se completó la prueba multimodal.",
         "image": "assets/c1-09.png",
         "runbook": {
-          "goal": "Leer V1, verificarla y revisar el informe usando texto e imagen.",
-          "intro": "En «Qué hago ahora» abre la imagen V1, descárgala y adjúntala al chat CON FUENTES. Encontrarás un encargo para leerla y otro para revisar la recomendación, en ese orden.",
-          "steps": [
+          "title": "Observa cómo leemos una imagen",
+          "text": "Mira V1 y escucha la demostración. Primero comprobamos lo que dice la imagen; después revisamos si cambia la recomendación.",
+          "actions": [
             {
-              "title": "Muestra V1 antes de consultar al modelo",
-              "do": [
-                "Pulsa Abrir imagen V1. Da diez segundos de observación.",
-                "Escucha dos lecturas y el dato que utilizó cada persona."
-              ],
-              "solo": [
-                "Abre V1 y observa sin preguntar todavía a Gemini.",
-                "Anota dónde investigarías primero y qué número utilizaste."
-              ],
-              "say": "¿En qué parte del proceso empezarían a investigar?",
-              "check": "Tienes una lectura propia de un dato visible.",
-              "actions": [
-                {
-                  "kind": "image",
-                  "label": "Abrir imagen V1",
-                  "file": "NEXO_V1.png"
-                }
-              ],
-              "screen": "La imagen V1 a tamaño completo",
-              "group": "Observan y responden con un dato, no sólo una impresión.",
-              "help": ""
+              "kind": "image",
+              "label": "Ver imagen V1",
+              "file": "NEXO_V1.png"
             },
             {
-              "title": "Adjunta V1 y pide su lectura",
-              "do": [
-                "Descarga V1. Vuelve al chat CON FUENTES.",
-                "Usa adjuntar archivo en Gemini, selecciona NEXO_V1.png y espera a ver su miniatura.",
-                "Copia el encargo de lectura y envíalo junto con la imagen."
-              ],
-              "solo": [
-                "Descarga V1 y adjúntala al segundo chat, el que ya contiene F1/F2/F3.",
-                "Espera a que se cargue. Copia el encargo de lectura y envíalo."
-              ],
-              "say": "Primero leeremos la imagen; después revisaremos la recomendación.",
-              "check": "La imagen aparece adjunta y tienes una lectura del modelo.",
+              "kind": "listen",
+              "label": "Escuchar explicación"
+            }
+          ],
+          "moreTitle": "Ver cómo hacerlo en Gemini",
+          "moreIntro": "Usa el mismo chat que ya contiene F1, F2 y F3:",
+          "items": [
+            {
+              "text": "Descarga V1 y adjúntala en Gemini. Espera a ver la miniatura, pega el encargo de lectura y envíalo.",
               "actions": [
                 {
                   "kind": "download",
-                  "label": "Descargar V1 para adjuntarla",
+                  "label": "Descargar V1",
                   "file": "NEXO_V1.png"
                 },
                 {
@@ -1791,99 +1160,27 @@
                 },
                 {
                   "kind": "prompt",
-                  "label": "Copiar encargo de lectura de V1",
+                  "label": "Copiar encargo de lectura",
                   "key": "lectura"
                 }
-              ],
-              "screen": "Gemini, chat CON FUENTES con V1 adjunta",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": "Si tu cuenta no puede procesar imágenes, transcribe los campos en ese chat y declara que usaste texto. No lo presentes como una lectura multimodal."
+              ]
             },
             {
-              "title": "Comprueba la lectura antes de continuar",
-              "do": [
-                "Compara el resultado con V1. Verifica 36 + 28 + 16 + 8 = 88.",
-                "Aclara que son solicitudes abiertas y que una categoría no demuestra una causa."
-              ],
-              "solo": [
-                "Contrasta cada cifra de la salida con la imagen.",
-                "Comprueba la suma y corrige cualquier error antes de pedir otra recomendación."
-              ],
-              "say": "La imagen muestra dónde está la cola; todavía no demuestra por qué se produjo.",
-              "check": "La lectura coincide con la imagen y distingues descripción de causalidad.",
-              "actions": [
-                {
-                  "kind": "image",
-                  "label": "Abrir imagen V1",
-                  "file": "NEXO_V1.png"
-                },
-                {
-                  "kind": "file",
-                  "label": "Ver comprobaciones de referencia",
-                  "file": "REFERENCIA_DOCENTE.md"
-                }
-              ],
-              "screen": "V1 y la respuesta del modelo",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
+              "text": "Comprueba los números con la imagen: 36 + 28 + 16 + 8 = 88. Son solicitudes abiertas; eso no demuestra por sí solo la causa de la demora.",
+              "actions": []
             },
             {
-              "title": "Pide revisar el informe con la imagen",
-              "do": [
-                "En el mismo chat, vuelve a adjuntar V1 como indica el encargo.",
-                "Copia el mensaje de revisión visual y envíalo. Conserva el nuevo informe."
-              ],
-              "solo": [
-                "En el chat CON FUENTES vuelve a adjuntar V1 y pega el encargo de revisión.",
-                "Guarda el resultado y señala qué cambió respecto al informe anterior."
-              ],
-              "say": "Ahora revisemos nuestra recomendación con esta fuente adicional.",
-              "check": "Tienes una revisión y un dato de V1 que puedes citar.",
+              "text": "Vuelve a adjuntar V1 en ese chat y envía el encargo de revisión. Guarda el informe y señala qué cambió.",
               "actions": [
-                {
-                  "kind": "download",
-                  "label": "Descargar V1 para adjuntarla",
-                  "file": "NEXO_V1.png"
-                },
-                {
-                  "kind": "link",
-                  "label": "Abrir Gemini",
-                  "url": "https://gemini.google.com/app"
-                },
                 {
                   "kind": "prompt",
-                  "label": "Copiar encargo de revisión del informe",
+                  "label": "Copiar encargo de revisión",
                   "key": "visual"
                 }
-              ],
-              "screen": "Gemini, mismo chat CON FUENTES",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
-            },
-            {
-              "title": "Compara con tu primera lectura",
-              "do": [
-                "Vuelve a las dos respuestas que escuchaste antes de usar IA.",
-                "Pregunta qué cambió y da paso a la práctica."
-              ],
-              "solo": [
-                "Vuelve a tu anotación inicial.",
-                "Escribe si la imagen cambió tu recomendación, reforzó algo o abrió una pregunta."
-              ],
-              "say": "¿Qué dato cambió su juicio?",
-              "check": "Puedes explicar el efecto de V1 con evidencia.",
-              "actions": [
-                {
-                  "kind": "file",
-                  "label": "Ver plantilla de entrega A",
-                  "file": "PLANTILLA_A.md"
-                }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
+              ]
             }
-          ]
+          ],
+          "intro": "En «Qué hago aquí»: Mira V1 y escucha la demostración. Primero comprobamos lo que dice la imagen; después revisamos si cambia la recomendación."
         }
       },
       {
@@ -1893,7 +1190,7 @@
         "tipo": "PRÁCTICA",
         "horario": "19:40–20:10",
         "question": "¿Qué necesita tu función para llevar una propuesta al comité?",
-        "narration": "Abre «Qué hago ahora» y elige tu perspectiva. Los botones de los encargos cambiarán con esa elección. Sigue los chats separados y guarda las respuestas en la plantilla A.\n\nAhora trabajan ustedes. Elijan una perspectiva en la mesa de trabajo: dirección, operaciones, finanzas y control, o tecnología y conocimiento. Dentro de esta última pueden enfocar documentación, formación, datos o seguridad. Son formas de mirar el mismo expediente; pueden elegir por interés, sin quedar asignados por su cargo.\n\nEl botón sin fuentes ya incluye el encargo de esa perspectiva. Péguenlo en una conversación nueva. Guarden la salida. En otra conversación con el mismo modelo, peguen el botón con expediente. Comparen qué cambió. Después adjunten V1 a esa segunda conversación y utilicen el prompt visual.\n\nEl producto es un informe de una página para una decisión propia de su función. Anoten una capacidad que ayudó, un fragmento que mejoró con fuentes y un campo comprobado de la imagen. Si trabajan juntos, cada persona debe explicar su propia conclusión.\n\nQuienes terminen antes pueden probar qué ocurre al cambiar una condición o pedir una salida estructurada, sin mezclar esa extensión con la comparación principal. Yo voy a acompañar dudas sobre las fuentes y la interpretación; no buscamos una respuesta idéntica a la del profesor.",
+        "narration": "En «Qué hago aquí»: Ahora te toca. Elige tu perspectiva y prepara tu informe con la plantilla A. Si ya hiciste la demostración con esa misma perspectiva y modelo, usa tus respuestas guardadas.\n\nAhora trabajan ustedes. Elijan una perspectiva en la mesa de trabajo: dirección, operaciones, finanzas y control, o tecnología y conocimiento. Dentro de esta última pueden enfocar documentación, formación, datos o seguridad. Son formas de mirar el mismo expediente; pueden elegir por interés, sin quedar asignados por su cargo.\n\nEl botón sin fuentes ya incluye el encargo de esa perspectiva. Péguenlo en una conversación nueva. Guarden la salida. En otra conversación con el mismo modelo, peguen el botón con expediente. Comparen qué cambió. Después adjunten V1 a esa segunda conversación y utilicen el prompt visual.\n\nEl producto es un informe de una página para una decisión propia de su función. Anoten una capacidad que ayudó, un fragmento que mejoró con fuentes y un campo comprobado de la imagen. Si trabajan juntos, cada persona debe explicar su propia conclusión.\n\nQuienes terminen antes pueden probar qué ocurre al cambiar una condición o pedir una salida estructurada, sin mezclar esa extensión con la comparación principal. Yo voy a acompañar dudas sobre las fuentes y la interpretación; no buscamos una respuesta idéntica a la del profesor.",
         "steps": [
           "0–3 min: elegir perspectiva y ubicar los tres botones.",
           "3–10 min: ejecutar sin y con fuentes en chats separados; conservar ambas respuestas.",
@@ -1916,55 +1213,28 @@
         "extra": "Profundización opcional: pedir la salida en una tabla de hallazgo/fuente/hipótesis/acción, o modificar una entrada en una tercera prueba y documentar qué cambió. No suma puntos por complejidad.",
         "image": "assets/c1-10.png",
         "runbook": {
-          "goal": "Realizar la práctica desde una perspectiva y guardar evidencia individual.",
-          "intro": "Abre «Qué hago ahora» y elige tu perspectiva. Los botones de los encargos cambiarán con esa elección. Sigue los chats separados y guarda las respuestas en la plantilla A.",
+          "title": "Practica en Gemini",
+          "text": "Ahora te toca. Elige tu perspectiva y prepara tu informe con la plantilla A. Si ya hiciste la demostración con esa misma perspectiva y modelo, usa tus respuestas guardadas.",
+          "actions": [],
           "roleSelection": true,
-          "steps": [
+          "items": [
             {
-              "title": "Elige una perspectiva y prepara la entrega",
-              "do": [
-                "Indica que ahora trabaja cada persona. Pídeles elegir perspectiva en esta guía.",
-                "Deben mantenerla igual en los dos encargos y guardar su evidencia."
-              ],
-              "solo": [
-                "Elige arriba Dirección, Operaciones, Finanzas o Tecnología y conocimiento.",
-                "Prepara la plantilla A en un documento editable. Si ya la tienes, úsala."
-              ],
-              "say": "El expediente es común; la decisión que preparamos cambia según nuestra función.",
-              "check": "Hay una perspectiva elegida y un documento donde guardar el trabajo.",
+              "text": "Copia la plantilla en tu documento de trabajo. Si aún no tienes uno, créalo; usarás el mismo para toda la práctica.",
               "actions": [
                 {
                   "kind": "copyFile",
-                  "label": "Copiar plantilla de entrega A",
+                  "label": "Copiar plantilla A",
                   "file": "PLANTILLA_A.md"
                 },
                 {
                   "kind": "link",
-                  "label": "Crear documento (sólo una vez)",
+                  "label": "Crear documento",
                   "url": "https://docs.google.com/document/create"
-                },
-                {
-                  "kind": "file",
-                  "label": "Ver plantilla de entrega A",
-                  "file": "PLANTILLA_A.md"
                 }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Eligen perspectiva y preparan su documento.",
-              "help": ""
+              ]
             },
             {
-              "title": "Ejecuta SIN fuentes desde tu perspectiva",
-              "do": [
-                "Acompaña a quienes necesitan abrir un chat nuevo o copiar el primer mensaje.",
-                "Comprueba que no añadan los documentos a este primer chat."
-              ],
-              "solo": [
-                "En un chat nuevo, copia el encargo SIN fuentes de tu perspectiva y envíalo.",
-                "Guarda la respuesta. Si hiciste antes exactamente esta perspectiva y modelo, puedes reutilizar tu salida identificada."
-              ],
-              "say": "Conserven la primera respuesta tal como salió.",
-              "check": "Cada persona tiene su salida SIN FUENTES identificada.",
+              "text": "En un chat nuevo, envía el encargo sin fuentes y guarda la respuesta.",
               "actions": [
                 {
                   "kind": "link",
@@ -1976,28 +1246,11 @@
                   "label": "Copiar encargo sin fuentes",
                   "key": "sin"
                 }
-              ],
-              "screen": "Cada persona trabaja en su Gemini",
-              "group": "Ejecutan y guardan su respuesta.",
-              "help": ""
+              ]
             },
             {
-              "title": "Ejecuta CON fuentes en otro chat",
-              "do": [
-                "Comprueba que abran otra conversación y conserven el mismo modelo y perspectiva."
-              ],
-              "solo": [
-                "Crea otro chat y pega el encargo CON fuentes. Ya incluye F1/F2/F3.",
-                "Guarda la salida; puedes reutilizar la ejecución previa sólo si coinciden perspectiva y modelo."
-              ],
-              "say": "Aquí cambia el contexto disponible, no el encargo que queremos comparar.",
-              "check": "Tienes ambas salidas y puedes encontrar sus chats.",
+              "text": "En otro chat y con el mismo modelo, envía el encargo con fuentes. Guarda la respuesta y señala dos diferencias.",
               "actions": [
-                {
-                  "kind": "link",
-                  "label": "Abrir Gemini",
-                  "url": "https://gemini.google.com/app"
-                },
                 {
                   "kind": "prompt",
                   "label": "Copiar encargo con fuentes",
@@ -2005,135 +1258,48 @@
                 },
                 {
                   "kind": "file",
-                  "label": "Leer expediente Nexo",
+                  "label": "Ver expediente",
                   "file": "CASO_NEXO.md"
                 }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Ejecutan y comparan.",
-              "help": ""
+              ]
             },
             {
-              "title": "Incorpora y comprueba V1",
-              "do": [
-                "Recuerda el orden: adjuntar, leer, comprobar, revisar.",
-                "Ayuda a quien tenga una lectura equivocada de la imagen."
-              ],
-              "solo": [
-                "Descarga y adjunta V1 en el chat CON FUENTES. Copia el encargo de lectura.",
-                "Comprueba 36 + 28 + 16 + 8 = 88 antes de avanzar. Si ya lo hiciste en ese chat, conserva esa evidencia."
-              ],
-              "say": "Primero aseguremos la lectura del dato.",
-              "check": "Tienes un campo visual comprobado.",
+              "text": "En el chat con fuentes, adjunta V1 y envía el encargo de lectura. Comprueba sus cifras; después adjunta V1 otra vez y envía el de revisión.",
               "actions": [
                 {
                   "kind": "download",
-                  "label": "Descargar V1 para adjuntarla",
+                  "label": "Descargar V1",
                   "file": "NEXO_V1.png"
                 },
                 {
                   "kind": "image",
-                  "label": "Abrir imagen V1",
+                  "label": "Ver imagen V1",
                   "file": "NEXO_V1.png"
-                },
-                {
-                  "kind": "link",
-                  "label": "Abrir Gemini",
-                  "url": "https://gemini.google.com/app"
                 },
                 {
                   "kind": "prompt",
                   "label": "Copiar encargo de lectura",
                   "key": "lectura"
-                }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Adjuntan y verifican.",
-              "help": ""
-            },
-            {
-              "title": "Revisa el informe con V1",
-              "do": [
-                "Pide que conserven la versión previa y expliquen por qué cambia o no la recomendación."
-              ],
-              "solo": [
-                "En el mismo chat vuelve a adjuntar V1 y envía el encargo de revisión del informe.",
-                "Guarda el resultado y anota un cambio o una duda que permanezca."
-              ],
-              "say": "La recomendación final la defienden ustedes.",
-              "check": "Puedes relacionar la revisión con un dato concreto.",
-              "actions": [
-                {
-                  "kind": "link",
-                  "label": "Abrir Gemini",
-                  "url": "https://gemini.google.com/app"
                 },
                 {
                   "kind": "prompt",
-                  "label": "Copiar encargo de revisión visual",
+                  "label": "Copiar encargo de revisión",
                   "key": "visual"
                 }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Revisan su informe.",
-              "help": ""
+              ]
             },
             {
-              "title": "Completa informe y bitácora",
-              "do": [
-                "Acompaña la revisión de un cálculo y la separación de hechos e hipótesis.",
-                "Pide que completen la plantilla con sus propias decisiones."
-              ],
-              "solo": [
-                "Completa la plantilla A: informe de una página y bitácora.",
-                "Anota dos diferencias entre salidas, un dato visual, un cálculo y una afirmación corregida."
-              ],
-              "say": "Guarden fragmentos que permitan revisar lo que están diciendo.",
-              "check": "La plantilla contiene evidencia, no sólo el texto final del modelo.",
+              "text": "Completa el informe y la bitácora con tus conclusiones, un dato de V1 y un cálculo comprobado. Guarda tu documento.",
               "actions": [
                 {
                   "kind": "file",
-                  "label": "Ver plantilla de entrega A",
+                  "label": "Ver plantilla A",
                   "file": "PLANTILLA_A.md"
-                },
-                {
-                  "kind": "file",
-                  "label": "Leer expediente Nexo",
-                  "file": "CASO_NEXO.md"
-                },
-                {
-                  "kind": "file",
-                  "label": "Ver comprobaciones de referencia",
-                  "file": "REFERENCIA_DOCENTE.md"
                 }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Escriben su entrega individual.",
-              "help": ""
-            },
-            {
-              "title": "Comparte un hallazgo y pasa a revisión",
-              "do": [
-                "Escucha uno o dos hallazgos breves y una pregunta pendiente.",
-                "Pasa a la lámina de criterios."
-              ],
-              "solo": [
-                "Explica en voz alta, o escribe, un hallazgo con su fuente y una duda pendiente."
-              ],
-              "say": "¿Qué pueden defender ahora que no podían defender al inicio?",
-              "check": "Puedes explicar un hallazgo sin leer toda la salida del modelo.",
-              "actions": [
-                {
-                  "kind": "file",
-                  "label": "Leer guía y criterios",
-                  "file": "GUIA_1.md"
-                }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Comparten y se preparan para revisar su entrega.",
-              "help": ""
+              ]
             }
-          ]
+          ],
+          "intro": "En «Qué hago aquí»: Ahora te toca. Elige tu perspectiva y prepara tu informe con la plantilla A. Si ya hiciste la demostración con esa misma perspectiva y modelo, usa tus respuestas guardadas."
         }
       },
       {
@@ -2143,7 +1309,7 @@
         "tipo": "ENTREGA",
         "horario": "20:10–20:25",
         "question": "¿Otra persona puede reconstruir tu razonamiento?",
-        "narration": "En «Qué hago ahora» abre la plantilla y los criterios. Aquí revisas tu trabajo; no necesitas producir otra respuesta en Gemini.\n\nVamos a organizar lo que ya hicieron. Entrega A conserva veinte puntos y cuatro criterios: relacionar necesidad con capacidad; comparar las respuestas; integrar fuentes; y comprobar el resultado y sus límites.\n\nRegistren cinco cosas: perspectiva y decisión buscada; encargo, modelo y condiciones; comparación sin y con fuentes; campo visual y su efecto; decisión propia y siguiente paso. Pueden acompañar el informe de una página con una bitácora breve y fragmentos de las salidas. No vuelvan a producir el trabajo desde cero.\n\nUna conclusión distinta de la mía puede estar mejor sustentada. Lo que necesitamos ver es cómo llegaron a ella. Revisen especialmente si una causa está demostrada o es una hipótesis, y si un recurso que proponen tiene un costo conocido o pendiente. Escucharemos dos propuestas para comparar qué información necesita cada función.",
+        "narration": "En «Qué hago aquí»: Abre tu informe y su bitácora. Comprueba que explican qué cambió con las fuentes, qué aportó la imagen y qué verificaste tú.\n\nVamos a organizar lo que ya hicieron. Entrega A conserva veinte puntos y cuatro criterios: relacionar necesidad con capacidad; comparar las respuestas; integrar fuentes; y comprobar el resultado y sus límites.\n\nRegistren cinco cosas: perspectiva y decisión buscada; encargo, modelo y condiciones; comparación sin y con fuentes; campo visual y su efecto; decisión propia y siguiente paso. Pueden acompañar el informe de una página con una bitácora breve y fragmentos de las salidas. No vuelvan a producir el trabajo desde cero.\n\nUna conclusión distinta de la mía puede estar mejor sustentada. Lo que necesitamos ver es cómo llegaron a ella. Revisen especialmente si una causa está demostrada o es una hipótesis, y si un recurso que proponen tiene un costo conocido o pendiente. Escucharemos dos propuestas para comparar qué información necesita cada función.",
         "steps": [
           "0–5 min: completar los cinco campos con evidencia recogida.",
           "5–10 min: revisar los cuatro criterios de A, cinco puntos cada uno.",
@@ -2157,96 +1323,31 @@
         "extra": "",
         "image": "assets/c1-11.png",
         "runbook": {
-          "goal": "Revisar la entrega A contra sus cuatro criterios, de 5 puntos cada uno.",
-          "intro": "En «Qué hago ahora» abre la plantilla y los criterios. Aquí revisas tu trabajo; no necesitas producir otra respuesta en Gemini.",
-          "steps": [
+          "title": "Revisa y guarda tu entrega",
+          "text": "Abre tu informe y su bitácora. Comprueba que explican qué cambió con las fuentes, qué aportó la imagen y qué verificaste tú.",
+          "actions": [
             {
-              "title": "Comprueba que exista la entrega completa",
-              "do": [
-                "Pide abrir el documento individual.",
-                "Comprueba que tenga informe, bitácora, modelo y fecha."
-              ],
-              "solo": [
-                "Abre tu documento y compara su estructura con la plantilla.",
-                "Completa los apartados que falten."
-              ],
-              "say": "El informe debe poder entenderse y la bitácora debe mostrar cómo llegamos a él.",
-              "check": "Tienes informe y bitácora identificados.",
-              "actions": [
-                {
-                  "kind": "file",
-                  "label": "Ver plantilla de entrega A",
-                  "file": "PLANTILLA_A.md"
-                }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
+              "kind": "file",
+              "label": "Ver plantilla A",
+              "file": "PLANTILLA_A.md"
             },
             {
-              "title": "Revisa los 20 puntos",
-              "do": [
-                "Abre la guía y recorre los cuatro criterios de A.",
-                "No se califica coincidir con tu recomendación: se valora el razonamiento y la evidencia."
-              ],
-              "solo": [
-                "Lee la sección Entrega A de la guía.",
-                "Marca evidencia para necesidad/capacidad, comparación, texto/imagen y comprobación/límites: 5 puntos cada criterio."
-              ],
-              "say": "Cada criterio vale cinco puntos. Muestren dónde se ve en su trabajo.",
-              "check": "Puedes localizar evidencia para los cuatro criterios.",
-              "actions": [
-                {
-                  "kind": "file",
-                  "label": "Leer guía y criterios",
-                  "file": "GUIA_1.md"
-                }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
-            },
-            {
-              "title": "Escucha y corrige una recomendación",
-              "do": [
-                "Escucha dos recomendaciones y una pregunta pendiente de cada una.",
-                "Señala una fortaleza y una comprobación pendiente."
-              ],
-              "solo": [
-                "Lee tu recomendación en voz alta.",
-                "Comprueba una fuente y corrige una afirmación que no puedas sostener."
-              ],
-              "say": "¿Cuál es la evidencia y cuál es la hipótesis?",
-              "check": "La recomendación incluye límites y una pregunta que falta resolver.",
-              "actions": [
-                {
-                  "kind": "file",
-                  "label": "Ver comprobaciones de referencia",
-                  "file": "REFERENCIA_DOCENTE.md"
-                }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
-            },
-            {
-              "title": "Guarda y conserva para la siguiente clase",
-              "do": [
-                "Pide guardar el documento con nombre y perspectiva.",
-                "Indica que el canal y fecha de entrega formal son los del aula institucional."
-              ],
-              "solo": [
-                "Guarda tu documento. Si cursas en PBS, consulta la tarea y fecha indicadas en tu aula.",
-                "Si estudias por tu cuenta, conserva el archivo como tu entrega A. Esta página no envía ni califica documentos."
-              ],
-              "say": "Conserven esta evidencia: la retomaremos en la siguiente sesión.",
-              "check": "La entrega está guardada y sabes que no se ha enviado automáticamente.",
-              "actions": [],
-              "screen": "Lámina de la clase",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
+              "kind": "file",
+              "label": "Ver criterios",
+              "file": "GUIA_1.md"
             }
-          ]
+          ],
+          "items": [
+            {
+              "text": "Revisa los cuatro criterios: necesidad y capacidad, comparación, texto e imagen, comprobación y límites. Cada uno vale 5 puntos; total: 20.",
+              "actions": []
+            },
+            {
+              "text": "Corrige lo que falte y guarda el archivo con tu nombre y perspectiva. Si cursas en PBS, entrégalo por el canal y en la fecha del aula. Si estudias por tu cuenta, consérvalo.",
+              "actions": []
+            }
+          ],
+          "intro": "En «Qué hago aquí»: Abre tu informe y su bitácora. Comprueba que explican qué cambió con las fuentes, qué aportó la imagen y qué verificaste tú."
         }
       },
       {
@@ -2256,7 +1357,7 @@
         "tipo": "CIERRE",
         "horario": "20:25–20:30",
         "question": "¿Cómo convertimos una capacidad de IA en un asistente dentro de un proceso?",
-        "narration": "Vuelve a «Qué hago ahora» para el cierre. Usa la barra de la derecha para enlazar lo aprendido con la siguiente clase; las historias adicionales siguen disponibles si tienes tiempo.\n\n¿Se acuerdan de su maestría de inteligencia artificial, cortesía del Dr. Valdés? Volvamos al mismo mapa. Al principio lo miramos para descubrir capacidades y oportunidades de negocio. Ahora vamos a ver la IA desde otra perspectiva: cómo una capacidad llega a formar parte del trabajo de una organización.\n\nHoy ustedes prepararon una decisión con un modelo ya entrenado. Le dieron contexto, incorporaron una imagen y comprobaron el resultado. ¿Qué parte de ese trabajo conservarían si tuvieran que repetirlo mañana? Escuchemos dos respuestas. Una puede ser organizar información, otra preparar un borrador o revisar si falta algo. Cada respuesta empieza a dibujar un proceso.\n\nMiren las aplicaciones del mapa. Detectar riesgo de abandono sirve cuando alguien sabe qué hacer con esa señal. Un pronóstico sirve cuando influye en una compra o una programación. Una recomendación sirve cuando llega a la persona correcta y podemos evaluar su efecto. Entre la capacidad técnica y el valor de negocio hacen falta datos, responsables, reglas de actuación y seguimiento. Ésa será nuestra siguiente perspectiva.\n\nLa barra lateral ahora organiza otro tipo de relaciones. Datos más contexto: qué necesita saber el sistema. Modelo más herramientas: qué puede preparar y, cuando exista una integración autorizada, qué puede ejecutar. Reglas más personas: qué decisiones necesitan revisión y quién responde por ellas. Pruebas más seguimiento: cómo comprobamos que funciona y detectamos si empieza a fallar. Estas capas se combinan con distintas capacidades del mapa; no corresponden una a una con los colores del aprendizaje.\n\nEn la próxima clase pasaremos de obtener un resultado a diseñar una forma de repetir trabajo con un asistente: qué recibe, qué instrucciones conserva, qué herramientas necesita, qué puede hacer por sí mismo y cuándo debe pedir revisión. Probaremos su comportamiento con ejemplos. Llamarlo agente no significa que lo entrenemos por refuerzo; muchas soluciones combinan modelos existentes, instrucciones y flujos definidos.\n\nAntes de cerrar: cuando agregamos el expediente, ¿aportamos contexto o demostramos entrenamiento? Y con la imagen, ¿qué dato pudimos observar y qué explicación seguía siendo una hipótesis? Recuperemos esas dos distinciones. Conserven su entrega y elijan un paso repetible de su trabajo. Hoy aprendimos a preparar una decisión; la próxima vez diseñaremos cómo apoyar ese paso de forma consistente. Ahora el mapa también les sirve para conversar con quienes van a construirlo.",
+        "narration": "En «Qué hago aquí»: Vuelve al mapa y conecta lo que aprendimos con un proceso de trabajo. Ése es el puente hacia la siguiente clase. Conserva tu entrega A.\n\n¿Se acuerdan de su maestría de inteligencia artificial, cortesía del Dr. Valdés? Volvamos al mismo mapa. Al principio lo miramos para descubrir capacidades y oportunidades de negocio. Ahora vamos a ver la IA desde otra perspectiva: cómo una capacidad llega a formar parte del trabajo de una organización.\n\nHoy ustedes prepararon una decisión con un modelo ya entrenado. Le dieron contexto, incorporaron una imagen y comprobaron el resultado. ¿Qué parte de ese trabajo conservarían si tuvieran que repetirlo mañana? Escuchemos dos respuestas. Una puede ser organizar información, otra preparar un borrador o revisar si falta algo. Cada respuesta empieza a dibujar un proceso.\n\nMiren las aplicaciones del mapa. Detectar riesgo de abandono sirve cuando alguien sabe qué hacer con esa señal. Un pronóstico sirve cuando influye en una compra o una programación. Una recomendación sirve cuando llega a la persona correcta y podemos evaluar su efecto. Entre la capacidad técnica y el valor de negocio hacen falta datos, responsables, reglas de actuación y seguimiento. Ésa será nuestra siguiente perspectiva.\n\nLa barra lateral ahora organiza otro tipo de relaciones. Datos más contexto: qué necesita saber el sistema. Modelo más herramientas: qué puede preparar y, cuando exista una integración autorizada, qué puede ejecutar. Reglas más personas: qué decisiones necesitan revisión y quién responde por ellas. Pruebas más seguimiento: cómo comprobamos que funciona y detectamos si empieza a fallar. Estas capas se combinan con distintas capacidades del mapa; no corresponden una a una con los colores del aprendizaje.\n\nEn la próxima clase pasaremos de obtener un resultado a diseñar una forma de repetir trabajo con un asistente: qué recibe, qué instrucciones conserva, qué herramientas necesita, qué puede hacer por sí mismo y cuándo debe pedir revisión. Probaremos su comportamiento con ejemplos. Llamarlo agente no significa que lo entrenemos por refuerzo; muchas soluciones combinan modelos existentes, instrucciones y flujos definidos.\n\nAntes de cerrar: cuando agregamos el expediente, ¿aportamos contexto o demostramos entrenamiento? Y con la imagen, ¿qué dato pudimos observar y qué explicación seguía siendo una hipótesis? Recuperemos esas dos distinciones. Conserven su entrega y elijan un paso repetible de su trabajo. Hoy aprendimos a preparar una decisión; la próxima vez diseñaremos cómo apoyar ese paso de forma consistente. Ahora el mapa también les sirve para conversar con quienes van a construirlo.",
         "steps": [
           "0–1 min: recuperar la frase de la maestría y mostrar el mismo mapa desde la perspectiva del proceso.",
           "1–2 min: escuchar dos partes del trabajo que el grupo querría repetir mañana.",
@@ -2833,83 +1934,19 @@
           }
         ],
         "runbook": {
-          "goal": "Volver al mapa para conectar capacidades con procesos y asistentes.",
-          "intro": "Vuelve a «Qué hago ahora» para el cierre. Usa la barra de la derecha para enlazar lo aprendido con la siguiente clase; las historias adicionales siguen disponibles si tienes tiempo.",
-          "steps": [
+          "title": "Escucha el cierre",
+          "text": "Vuelve al mapa y conecta lo que aprendimos con un proceso de trabajo. Ése es el puente hacia la siguiente clase. Conserva tu entrega A.",
+          "actions": [
             {
-              "title": "Recupera el mapa con otra pregunta",
-              "do": [
-                "Proyecta la lámina y recupera tu frase de la maestría.",
-                "Pregunta qué parte del trabajo de hoy querrían repetir mañana."
-              ],
-              "solo": [
-                "Mira el mapa otra vez y elige un paso de tu trabajo que valga la pena repetir."
-              ],
-              "say": "Ahora vamos a ver la IA desde otra perspectiva: cómo entra en el trabajo de una organización.",
-              "check": "Tienes un paso repetible identificado.",
-              "actions": [
-                {
-                  "kind": "project",
-                  "label": "Proyectar esta lámina"
-                },
-                {
-                  "kind": "speech",
-                  "label": "Leer o escuchar qué decir"
-                }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
+              "kind": "listen",
+              "label": "Escuchar explicación"
             },
             {
-              "title": "Recorre las cuatro relaciones del proceso",
-              "do": [
-                "Señala datos/contexto, modelo/herramientas, reglas/personas y pruebas/seguimiento.",
-                "Usa el guion para explicar el puente a asistentes."
-              ],
-              "solo": [
-                "Para tu paso repetible, escribe qué recibe, qué produce, quién revisa y cómo comprobarías su resultado."
-              ],
-              "say": "Una capacidad necesita datos, reglas y personas para convertirse en parte del proceso.",
-              "check": "Puedes describir entradas, resultado y revisión del futuro asistente.",
-              "actions": [
-                {
-                  "kind": "speech",
-                  "label": "Leer o escuchar qué decir"
-                },
-                {
-                  "kind": "reserve",
-                  "label": "Ver casos y ampliaciones"
-                }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
-            },
-            {
-              "title": "Cierra y conserva la evidencia",
-              "do": [
-                "Recupera contexto frente a entrenamiento y dato visual frente a hipótesis.",
-                "Pide conservar A y anuncia la siguiente clase."
-              ],
-              "solo": [
-                "Responde: ¿qué cambió al aportar fuentes?, ¿qué comprobé en la imagen?",
-                "Conserva A y la idea del paso repetible para continuar."
-              ],
-              "say": "La próxima clase diseñaremos cómo apoyar ese paso de forma consistente.",
-              "check": "Puedes explicar lo aprendido y tienes la entrega A guardada.",
-              "actions": [
-                {
-                  "kind": "file",
-                  "label": "Leer guía y criterios",
-                  "file": "GUIA_1.md"
-                }
-              ],
-              "screen": "Lámina de la clase",
-              "group": "Escuchan y participan cuando lo indiques.",
-              "help": ""
+              "kind": "speech",
+              "label": "Leer explicación"
             }
-          ]
+          ],
+          "intro": "En «Qué hago aquí»: Vuelve al mapa y conecta lo que aprendimos con un proceso de trabajo. Ése es el puente hacia la siguiente clase. Conserva tu entrega A."
         }
       }
     ]

@@ -64,4 +64,4 @@ Revisa las fuentes enlazadas en las láminas 2–7. Elige un caso institucional 
 
 ## Instrucciones junto a cada lámina
 
-En la página abre «Qué hago ahora» y elige «La estoy tomando por mi cuenta». Cada paso incluye sus botones y materiales. También puedes [descargar el recorrido completo](GUIA_PASO_A_PASO_1.md).
+En cada lámina, «Qué hago aquí» indica si toca escuchar, observar o practicar. Los botones y materiales están junto a las actividades. También puedes [descargar la guía](GUIA_PASO_A_PASO_1.md).
