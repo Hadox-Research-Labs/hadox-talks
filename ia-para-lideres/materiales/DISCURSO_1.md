@@ -104,6 +104,8 @@ Robot Navigation lleva el problema al mundo físico: un robot de almacén debe l
 
 Ahora ubiquemos lo que haremos hoy. Este mapa clásico no dibuja por separado el aprendizaje autosupervisado. En muchos modelos de lenguaje, el propio texto proporciona una señal para aprender a predecir tokens. Deep learning se refiere a modelos basados en redes neuronales profundas y puede aparecer en distintas familias. Los modelos fundacionales pueden servir de base para múltiples tareas. Al poner documentos en Gemini aportamos contexto a un modelo ya entrenado; no estamos construyendo desde cero todos los sistemas de este mapa.
 
+Miren ahora las relaciones de la barra lateral. Segmentar puede ayudarnos a entender diferencias entre clientes y recomendar puede convertir ese conocimiento en una oferta. Detectar una señal y diagnosticar un posible problema puede orientar una revisión que evite pérdidas. Predecir demanda cobra valor cuando usamos esa estimación para optimizar inventario o capacidad. Aprender a actuar abre posibilidades de control, simulación y robótica. Son combinaciones posibles: los resultados hay que comprobarlos. La pregunta de abajo nos devuelve al negocio: ¿qué resultado compraría su empresa?
+
 Quédense con una aplicación que podría tener sentido en su organización. Si yo les pidiera defenderla ante dirección, ¿qué problema resolvería, qué datos tendrían y cómo comprobarían que mejora algo? Escuchemos una respuesta. Con este mapa en mente, ahora sí veamos quién desarrolla los modelos y dónde podemos empezar a utilizarlos.
 
 ### Cómo conducirla
@@ -116,7 +118,7 @@ Quédense con una aplicación que podría tener sentido en su organización. Si 
 
 7–10 min: recorrer las cinco aplicaciones de refuerzo, con una pausa breve en Game AI y estrategia.
 
-10–11 min: ubicar los modelos fundacionales y la práctica de hoy dentro de este panorama.
+10–11 min: señalar las cuatro relaciones de la barra «Del modelo al negocio» y ubicar la práctica con modelos fundacionales.
 
 11–12 min: recoger una oportunidad del grupo y pasar a quién desarrolla los modelos. Las ampliaciones son opcionales.
 
@@ -484,6 +486,8 @@ Hoy ustedes prepararon una decisión con un modelo ya entrenado. Le dieron conte
 
 Miren las aplicaciones del mapa. Detectar riesgo de abandono sirve cuando alguien sabe qué hacer con esa señal. Un pronóstico sirve cuando influye en una compra o una programación. Una recomendación sirve cuando llega a la persona correcta y podemos evaluar su efecto. Entre la capacidad técnica y el valor de negocio hacen falta datos, responsables, reglas de actuación y seguimiento. Ésa será nuestra siguiente perspectiva.
 
+La barra lateral ahora organiza otro tipo de relaciones. Datos más contexto: qué necesita saber el sistema. Modelo más herramientas: qué puede preparar y, cuando exista una integración autorizada, qué puede ejecutar. Reglas más personas: qué decisiones necesitan revisión y quién responde por ellas. Pruebas más seguimiento: cómo comprobamos que funciona y detectamos si empieza a fallar. Estas capas se combinan con distintas capacidades del mapa; no corresponden una a una con los colores del aprendizaje.
+
 En la próxima clase pasaremos de obtener un resultado a diseñar una forma de repetir trabajo con un asistente: qué recibe, qué instrucciones conserva, qué herramientas necesita, qué puede hacer por sí mismo y cuándo debe pedir revisión. Probaremos su comportamiento con ejemplos. Llamarlo agente no significa que lo entrenemos por refuerzo; muchas soluciones combinan modelos existentes, instrucciones y flujos definidos.
 
 Antes de cerrar: cuando agregamos el expediente, ¿aportamos contexto o demostramos entrenamiento? Y con la imagen, ¿qué dato pudimos observar y qué explicación seguía siendo una hipótesis? Recuperemos esas dos distinciones. Conserven su entrega y elijan un paso repetible de su trabajo. Hoy aprendimos a preparar una decisión; la próxima vez diseñaremos cómo apoyar ese paso de forma consistente. Ahora el mapa también les sirve para conversar con quienes van a construirlo.
@@ -494,7 +498,7 @@ Antes de cerrar: cuando agregamos el expediente, ¿aportamos contexto o demostra
 
 1–2 min: escuchar dos partes del trabajo que el grupo querría repetir mañana.
 
-2–3 min: conectar capacidad con datos, responsabilidades, reglas y seguimiento.
+2–3 min: recorrer la barra «De la capacidad al proceso»: datos/contexto, modelo/herramientas, reglas/personas y pruebas/seguimiento.
 
 3–4 min: explicar el puente a asistentes, herramientas, límites y pruebas de la siguiente clase.
 
