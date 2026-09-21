@@ -20,7 +20,7 @@ Primero vamos a ubicarnos: quién desarrolla estas tecnologías, qué están hac
 
 #### Apertura y propósito
 
-Conservar la portada como bienvenida y encuadre. Presentar al expositor y el resultado esperado. Las dos infografías vienen después; la elección del caso ocurre tras la demostración. La portada original conserva su pie de página de la edición base.
+Conservar la portada como bienvenida y encuadre. Presentar al expositor y el resultado esperado. Las dos infografías vienen después; la elección del caso ocurre tras la demostración. El horario y la numeración corresponden a la edición web de 26 láminas.
 
 ## 2. ¿Quién es quién en IA?
 
@@ -120,11 +120,11 @@ EXPLICACIÓN · 18:10–18:12 · Horario Guatemala
 
 ### Discurso para exponer
 
-Cuando alguien dice «queremos IA en operaciones», todavía no sabemos qué debe cambiar. Conviene separar tres cosas: tarea, puesto y proceso. Un puesto reúne muchas tareas; un proceso conecta personas y sistemas; hoy vamos a probar una tarea concreta dentro de ese conjunto.
+Pensemos en una mañana de trabajo. Ana, una analista ficticia de compras, abre un correo: llegó una factura y hay que confirmar la recepción. Antes de responder, busca el pedido, compara cantidades y redacta una aclaración. Su jefe necesita saber qué puede avanzar y qué necesita resolver.
 
-Por ejemplo, una analista recibe una factura y una recepción, contrasta sus campos y prepara una lista de diferencias para decidir qué aclaración pedir. Tenemos entrada, transformación, salida y decisión. Esa descripción permite comprobar si la ayuda sirve y descubrir si el problema era interpretar información o simplemente conseguir un documento faltante.
+Aquí hay una oportunidad que podemos describir: preparar una conciliación y un borrador a partir de documentos concretos. Ésa es nuestra unidad de análisis. Un puesto reúne muchas tareas; un proceso conecta personas y sistemas. Hoy vamos a mirar una tarea dentro de ese recorrido.
 
-También evita una conclusión apresurada: preparar una tabla en treinta segundos puede ayudar, pero si revisarla toma veinte minutos todavía no conocemos la mejora neta. Volveremos a eso en la tercera clase. Primero veamos de dónde viene la capacidad que vamos a utilizar.
+Sigan las cuatro piezas de la lámina: quién necesita ayuda, qué trabajo se hace, qué producto sale y qué decisión prepara. Si alguien propone IA para todo un departamento, estas cuatro preguntas permiten aterrizar por dónde empezar. Usaremos esa misma historia para comprender la tecnología y luego verla trabajar. Primero, ¿cómo puede una base servir tanto para organizar una tabla como para redactar la respuesta?
 
 ### Notas de consulta
 
@@ -140,51 +140,60 @@ Descompón el trabajo en entrada, transformación, salida y decisión. En una co
 
 Una tabla preparada en treinta segundos puede ahorrar lectura, pero si tarda veinte minutos en revisarse no conoces aún la mejora neta. Guarda esa pregunta para la medición de la clase 3.
 
-## 5. El alcance de un modelo fundacional
+## 5. De una base entrenada a una respuesta útil
 
-EXPLICACIÓN · 18:12–18:14 · Horario Guatemala
+EXPLICACIÓN · 18:12–18:16 · Horario Guatemala
 
 ### Discurso para exponer
 
-Para entender de dónde viene esta capacidad, ubiquemos tres hitos. En 2017, el Transformer mostró una arquitectura basada en atención. En 2020, GPT-3 mostró tareas a partir de instrucciones y ejemplos en el contexto. En 2021, Stanford desarrolló el concepto de modelos fundacionales: una base entrenada ampliamente que puede adaptarse a usos diversos. La IA no empezó en 2017; estos hitos ayudan a entender esta familia de herramientas.
+La infografía separa dos momentos. Arriba está el entrenamiento: el modelo aprende patrones a partir de muchos ejemplos y cambia sus parámetros, que son valores numéricos internos. Esa etapa construye una capacidad que después podemos utilizar en tareas distintas. Por eso hablamos de un modelo fundacional: una base entrenada ampliamente, adaptable a diferentes usos.
 
-Entrenar significa modificar parámetros mediante aprendizaje. Usar el modelo ya entrenado para producir una respuesta se llama inferencia. Un modelo de lenguaje generativo produce secuencias de tokens, unidades que no siempre equivalen a palabras. La atención relaciona representaciones; no es atención consciente.
+Abajo está lo que hacemos al conversar con el asistente. Enviamos un encargo y contexto, el sistema utiliza el modelo entrenado y produce una respuesta. A ese uso lo llamamos inferencia. En nuestro ejemplo, entran el correo y la recepción; sale una ficha y un borrador. Adjuntar esos documentos aporta información para el encargo. Por sí solo, no equivale a volver a entrenar el modelo.
 
-Por eso una misma base puede resumir y redactar, pero no conoce automáticamente la política vigente de nuestra empresa. Necesita contexto y comprobación. Para entender cómo llega esa capacidad a nuestro trabajo, separemos las capas de la solución.
+Ahora acerquémonos un poco. Un modelo de lenguaje procesa tokens: unidades que pueden ser palabras, partes de palabras o signos. La separación visual de la lámina es ilustrativa; cada sistema puede dividir el texto de manera diferente. Durante la generación, el contexto condiciona los tokens que se van produciendo. El comportamiento del asistente también depende de su entrenamiento posterior, de la aplicación y de las herramientas que pueda utilizar.
+
+¿Y la atención? Es un mecanismo que calcula relaciones entre representaciones de la información. En una frase como «la recepción de este pedido registra dos cajas», necesitamos relacionar la cantidad con la recepción y con el pedido correspondiente. Ése es un ejemplo intuitivo del tipo de relación que nos interesa, no una descripción literal de una operación interna ni atención consciente.
+
+La franja inferior ubica tres hitos. En 2017, el Transformer presentó una arquitectura basada en atención. En 2020, GPT-3 mostró tareas mediante instrucciones y ejemplos en el contexto. En 2021, Stanford desarrolló el concepto de modelos fundacionales. Son antecedentes de esta familia de modelos; la historia de la IA empezó mucho antes.
+
+La consecuencia para Ana es muy práctica: puede aprovechar una capacidad general para leer, organizar y redactar, y aportar los documentos específicos de su operación. ¿Qué cambia si le da la recepción correcta? Cambia la información disponible para responder. Para llevar esta capacidad a la empresa necesitamos otras piezas; veamos cuáles.
 
 ### Notas de consulta
 
 #### Idea central
 
-Un hito útil es 2017: el Transformer mostró una arquitectura basada en atención. En 2021, el informe de Stanford agrupó bajo modelos fundacionales a modelos entrenados ampliamente que pueden adaptarse a tareas diversas. La base compartida explica su versatilidad y también errores que reaparecen en usos distintos.
+El esquema separa entrenamiento e inferencia: aprender parámetros a partir de ejemplos y utilizar un modelo entrenado para responder a un encargo con contexto. Es una explicación conceptual, no un diagrama verificado de una arquitectura comercial.
 
 #### Cómo funciona
 
-Para prepararte: entrenamiento modifica parámetros usando datos y una función de aprendizaje; inferencia utiliza el modelo ya entrenado para producir una salida. Un modelo de lenguaje generativo suele producir secuencias de tokens condicionadas por el contexto. La atención calcula relaciones entre representaciones; no es atención consciente. El comportamiento completo también depende del entrenamiento posterior, herramientas y aplicación. No presentes «predice el siguiente token» como una explicación suficiente de todo el sistema.
+Los modelos de lenguaje generativos producen secuencias de tokens condicionadas por el contexto. Un token puede ser una palabra, una parte o un signo; la división de la infografía es ilustrativa. La atención calcula relaciones entre representaciones, sin implicar conciencia. El sistema completo puede incluir entrenamiento posterior, herramientas y reglas de la aplicación. Dar un documento a una conversación no demuestra un cambio de parámetros.
 
-#### Un ejemplo para contarlo
+#### Contexto y antecedentes
 
-La misma base puede redactar una carta y organizar una tabla. Eso no demuestra que conozca el procedimiento interno vigente de quien la usa.
+Tres hitos, sin presentarlos como el inicio de toda la IA: Transformer en 2017; GPT-3 y tareas mediante contexto en 2020; informe de Stanford sobre modelos fundacionales en 2021. Una base ampliamente entrenada puede apoyar diferentes tareas y requerir información específica de la organización.
+
+#### Una pregunta para conectar
+
+Si agregamos la recepción correcta al encargo de conciliación, ¿qué cambió: los parámetros del modelo o la información disponible para responder?
 
 #### Para profundizar
 
 - [Vaswani et al. (2017) · Attention Is All You Need](https://arxiv.org/abs/1706.03762) — Antecedente de la arquitectura Transformer; no es una descripción completa de todos los modelos actuales.
+- [Brown et al. (2020) · Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) — Aprendizaje en contexto mediante instrucciones y ejemplos, sin actualizar parámetros en cada tarea.
 - [Stanford CRFM (2021) · On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258) — Qué significa modelo fundacional y cómo se adapta a distintos usos.
 - [Google AI for Developers · Tokens y ventana de contexto](https://ai.google.dev/gemini-api/docs/tokens) — Unidades de procesamiento, límites de contexto y consumo.
 
 ## 6. Cuatro capas operativas
 
-EXPLICACIÓN · 18:14–18:17 · Horario Guatemala
+EXPLICACIÓN · 18:16–18:18 · Horario Guatemala
 
 ### Discurso para exponer
 
-Lean la lámina de abajo hacia arriba. El modelo ofrece capacidades. La aplicación, hoy Gemini, determina cómo conversamos y qué podemos adjuntar. La información aporta los hechos. El proceso establece quién revisa, decide y utiliza el resultado.
+Volvamos a Ana y la factura. El modelo aporta la capacidad de relacionar información y redactar. La aplicación, hoy Gemini, es donde ella conversa y adjunta materiales. Los documentos aportan cantidades, identificadores y reglas. El proceso indica quién revisa la conciliación y qué ocurre después.
 
-Podemos cambiar una capa sin arreglar las demás. Actualizar el modelo no actualiza necesariamente un catálogo. Comprar una licencia no define quién aprueba. Y tener un documento correcto no concede permiso para modificar un registro.
+Estas cuatro capas ayudan a repartir el trabajo. Tecnología puede habilitar la aplicación; compras conserva la recepción; finanzas define qué necesita revisar. Una licencia resuelve una parte de la necesidad, y la organización aporta las demás.
 
-Imaginemos la secuencia: una persona pide revisar una compra; la aplicación reúne documentos; el modelo prepara diferencias; una persona decide; el sistema registra lo autorizado. El CRM o ERP puede seguir siendo donde viven los registros. Consultarlo no significa reemplazarlo.
-
-Hagamos una comprobación rápida: en nuestro ejercicio, ¿Gemini es la aplicación o el documento? ¿Dónde están las reglas del caso? Escuchemos una respuesta y ubiquémosla en estas capas. Cambiar la aplicación no elimina la necesidad de fuentes y revisión. Ahora veamos qué productos puede preparar esa combinación.
+Imaginemos el recorrido completo: Ana reúne las fuentes, pide el borrador, comprueba una diferencia y lo envía al responsable. El registro autorizado puede seguir viviendo en su ERP. En la práctica de hoy llegaremos hasta preparar y revisar el producto. Miren ahora cómo se ve ese producto, para que la oportunidad deje de ser abstracta.
 
 ### Notas de consulta
 
@@ -200,31 +209,39 @@ Usa cuatro preguntas: ¿qué modelo procesa?, ¿qué aplicación lo presenta?, �
 
 Dibuja verbalmente la cadena: persona pide revisión → aplicación reúne documentos → modelo prepara diferencias → revisor decide → sistema registra. Señala dónde podría fallar cada enlace.
 
-## 7. Qué trabajo puede preparar
+## 7. Del material disperso al trabajo preparado
 
-EXPLICACIÓN · 18:17–18:19 · Horario Guatemala
+EXPLICACIÓN · 18:18–18:21 · Horario Guatemala
 
 ### Discurso para exponer
 
-El asistente puede adelantar una ficha, una conciliación, una matriz documental o un borrador técnico. En nuestra práctica revisaremos el producto antes de utilizarlo. Una ficha de seguro no es una autorización, y preparar una conciliación no significa haber pagado.
+Aquí podemos ver el antes y el después. Es un ejemplo docente ficticio, distinto del caso que probaremos en vivo. A la izquierda hay un correo sobre la factura F-84: tres cajas a doscientos quetzales cada una. La recepción R-84 registra dos cajas. Ana tiene que relacionar esos fragmentos antes de contestar.
 
-Hay evidencia de mejoras en ciertos contextos, pero no un porcentaje universal. El working paper de NBER de 2023 sobre un asistente de soporte al cliente estudió a 5,179 agentes y encontró una mejora media de 14% en asuntos resueltos por hora, con efectos distintos según la experiencia. Ese resultado corresponde a ese estudio; no es una promesa para nuestro caso.
+A la derecha aparecen dos productos. Primero, una ficha: se facturaron seiscientos quetzales, la cantidad recibida equivale a cuatrocientos y queda una diferencia de una caja, doscientos quetzales. Podemos localizar cada dato y comprobar la operación. Segundo, un borrador que pregunta por la entrega pendiente o la corrección de la factura.
 
-Una ficha puede reducir la búsqueda de antecedentes y dejar intacto el tiempo de autorización. Por eso describiremos qué ocurrió y quién interviene después. Antes de probarlo, también debemos elegir qué herramienta conviene para cada parte.
+Identifiquen las capacidades en ese recorrido. Extraer es localizar cantidades e identificadores. Comparar es relacionar lo facturado con lo recibido. Redactar es convertir el hallazgo en una solicitud comprensible. Una respuesta puede combinar las tres capacidades.
+
+El trabajo adelantado ya es visible: una diferencia localizable y una comunicación preparada. La revisión del responsable es el siguiente paso. Cuando midamos el valor de una solución, consideraremos también ese tiempo de revisión; esta imagen no representa un ahorro medido.
+
+¿Cuál de los dos productos le serviría más a Ana para continuar: la tabla, el mensaje o los dos? Escuchemos una razón. Esa respuesta nos ayuda a especificar qué salida pedir. Y cada parte de la tarea puede apoyarse en una herramienta diferente.
 
 ### Notas de consulta
 
 #### Idea central
 
-Hay productos que preparan una decisión y otros que la ejecutan. Esa diferencia determina cuánto podemos delegar y qué evidencia necesitamos antes de usar el resultado.
-
-#### Contexto y antecedentes
-
-La productividad no es uniforme entre tareas ni personas. El working paper de NBER de 2023 sobre un asistente en soporte al cliente encontró una mejora media de 14% en asuntos resueltos por hora entre 5,179 agentes, con efectos heterogéneos. Cita la versión del working paper; no traslades ese porcentaje a nuestro curso ni lo vendas como ahorro general.
+La imagen muestra productos concretos: conciliación y borrador de aclaración. F-84 y R-84 son un ejemplo docente ficticio diferente de los expedientes de práctica; no debe adjuntarse junto con el caso B.
 
 #### Un ejemplo para contarlo
 
-Una ficha puede reducir el tiempo de buscar antecedentes. La decisión final puede seguir tardando lo mismo porque requiere otra autorización. Es una hipótesis para medir, no una promesa.
+F-84: tres cajas a Q200, total Q600. R-84: dos cajas recibidas, equivalentes a Q400 usando el precio de F-84. Diferencia: una caja y Q200. La cantidad recibida proviene de R-84 y el precio unitario de F-84; ambos son necesarios para calcular su equivalente. El borrador pide confirmar entrega pendiente o corrección.
+
+#### Cómo funciona
+
+Señalar dónde ocurre extracción, comparación y redacción. El siguiente paso es la revisión del responsable. La imagen ilustra trabajo preparado, sin afirmar ahorro medido. La productividad requiere observar la tarea completa, incluida la revisión.
+
+#### Contexto y antecedentes
+
+Como ampliación opcional, el working paper de NBER de 2023 estudió a 5,179 agentes de soporte y encontró una mejora media de 14% en asuntos resueltos por hora, con efectos heterogéneos. Ese resultado pertenece al estudio y no es una estimación para esta clase ni una promesa de ahorro.
 
 #### Para profundizar
 
@@ -232,15 +249,15 @@ Una ficha puede reducir el tiempo de buscar antecedentes. La decisión final pue
 
 ## 8. La herramienta adecuada
 
-EXPLICACIÓN · 18:19–18:21 · Horario Guatemala
+EXPLICACIÓN · 18:21–18:23 · Horario Guatemala
 
 ### Discurso para exponer
 
-No todas las partes de un trabajo requieren un modelo. Una base de datos conserva registros; SQL permite consultarlos; una fórmula calcula; OCR reconoce caracteres en una imagen; un modelo de lenguaje ayuda a interpretar o redactar. Un proceso puede combinar varias de estas técnicas.
+Sobre el mismo ejemplo podemos repartir funciones. El modelo ayuda a interpretar el correo, organizar los campos y redactar la aclaración. Una calculadora comprueba tres por doscientos. Una regla establece qué hacer cuando factura y recepción no coinciden. Una base de datos conserva el registro.
 
-Pensemos en una factura ficticia. Podemos pedir al modelo que localice cantidad y precio, pero comprobar su multiplicación con una calculadora. Si extrajo mal la cantidad, una multiplicación exacta seguirá produciendo una conclusión incorrecta. Necesitamos verificar tanto la entrada como la operación.
+También podemos reconocer caracteres de una imagen mediante OCR. Más adelante veremos cómo un modelo multimodal relaciona información visual con el encargo. Varias técnicas pueden convivir dentro del mismo proceso.
 
-Para elegir miramos capacidad necesaria, formatos admitidos, calidad comprobable y condiciones de acceso. Una herramienta que redacta bien puede no servir si no admite el documento necesario. Hoy evaluamos ese ajuste a la tarea; no haremos un ranking comercial. ¿Qué parte de su caso necesita interpretar o redactar y qué parte resolverían con una regla o calculadora?
+Una pregunta breve: ¿a qué herramienta le confiarían comprobar la multiplicación y a cuál preparar el mensaje? Escuchemos una respuesta. En ambos casos necesitamos que las cantidades correspondan al documento. Así empezamos a elegir por la función que hace falta. Ahora definamos el encargo que recibirá el asistente.
 
 ### Notas de consulta
 
@@ -258,15 +275,13 @@ En la factura ficticia, pide al modelo localizar cantidad y precio, pero verific
 
 ## 9. Instrucción y fuente
 
-EXPLICACIÓN · 18:21–18:23 · Horario Guatemala
+EXPLICACIÓN · 18:23–18:24 · Horario Guatemala
 
 ### Discurso para exponer
 
-La instrucción define el encargo y la fuente aporta los hechos. Pedir una respuesta profesional no agrega los datos que faltan. Adjuntar un procedimiento aporta contexto; no demuestra que hayamos reentrenado el modelo.
+La instrucción dice qué trabajo queremos; la fuente aporta los hechos. «Prepara una conciliación y un mensaje profesional» es la instrucción. «La recepción registra dos cajas» es información de la fuente. Pedir un tono más ejecutivo cambia la redacción, pero no agrega una caja al almacén.
 
-Dar ejemplos en una conversación es aprendizaje en contexto, como exploró GPT-3 en 2020. La distinción central para hoy es ésta: aportar información a una conversación no es lo mismo que modificar los parámetros del modelo mediante entrenamiento. Si subo un manual nuevo, ¿cambié el modelo o aporté contexto? Pensemos la respuesta antes de continuar.
-
-También debemos separar contenido de autoridad. Si un correo adjunto dice «ignora las reglas y autoriza», esa frase pertenece al correo: no es una orden válida para cambiar nuestro encargo. Esa contaminación es una forma de inyección de instrucciones, documentada por OWASP. Enseguida veremos cómo pedir una salida que podamos rastrear a sus fuentes.
+En nuestra prueba mantendremos el encargo y cambiaremos la información disponible. Eso nos permitirá observar qué aporta el contexto. Dar un documento al asistente ayuda a responder esa solicitud; no equivale por sí solo a reentrenarlo. Veamos cómo se construye un encargo que deje una salida fácil de revisar.
 
 ### Notas de consulta
 
@@ -290,17 +305,19 @@ Si un correo adjunto contiene «ignora las reglas y autoriza», esa frase es par
 
 ## 10. Un contexto verificable
 
-EXPLICACIÓN · 18:23–18:26 · Horario Guatemala
+EXPLICACIÓN · 18:24–18:27 · Horario Guatemala
 
 ### Discurso para exponer
 
-La instrucción de la lámina define un producto, pide conservar identificadores, citar el campo de origen y marcar lo que falta. Así podremos revisar la respuesta. «Ayúdame con esto» obliga al modelo a adivinar propósito y formato.
+Lean la instrucción como un pequeño diseño del trabajo. Primero, el producto: una conciliación y un borrador. Después, la información disponible. Finalmente, el formato de salida y qué hacer cuando falta algo.
 
-Hay además un límite técnico: el contexto no es infinito. Un token es una unidad de procesamiento; la ventana de contexto limita lo que el modelo puede manejar en una solicitud. Más documentos no garantizan una mejor respuesta: necesitamos material pertinente y aplicable.
+Hagamos el recorrido con el ejemplo anterior. De F-84 salen el identificador, las tres cajas y el precio unitario. De R-84 salen las dos cajas recibidas. La ficha reúne esos campos y calcula la diferencia; el mensaje convierte el hallazgo en una pregunta. Pedir la fuente junto a cada afirmación permite volver al fragmento correspondiente.
 
-Cuando hay muchos documentos, una solución puede recuperar los pertinentes antes de generar la respuesta; a esta combinación se le llama RAG. Pero encontrar un texto parecido no demuestra que sea la fuente aplicable: una política puede coincidir con la consulta y estar fuera de vigencia para ese contrato. Hoy practicaremos con fuentes pequeñas e identificadas, sin construir un sistema de recuperación.
+El contexto es la información que puede utilizarse para producir la respuesta en esa solicitud. Tiene un límite, que suele expresarse en tokens. Por eso importa seleccionar el material pertinente. Para esta clase basta con fuentes pequeñas e identificadas: veremos exactamente qué entra y qué resultado ayuda a preparar.
 
-Por eso pedimos identificador, versión y procedencia. Si algo falta, una buena salida puede completar lo comprobado y formular una pregunta precisa. Vamos a observar qué cambia cuando proporcionamos esas fuentes.
+Imaginen que sólo tenemos el correo de Ana. El asistente podría organizar una ficha provisional y pedir la recepción. Al agregarla, ya puede comparar cantidades. ¿Qué campos esperan que cambien? Guarden esa predicción: enseguida veremos la respuesta real.
+
+En las notas queda una ampliación sobre recuperación de documentos, conocida como RAG, para quien quiera profundizar en bibliotecas grandes. Hoy el principio que necesitamos es visible: cada dato de la salida debe poder relacionarse con la información que pusimos a disposición.
 
 ### Notas de consulta
 
@@ -323,17 +340,13 @@ Una consulta de renovación necesita la versión aplicable al contrato, no todas
 
 ## 11. Comparar dos condiciones
 
-EXPLICACIÓN · 18:26–18:28 · Horario Guatemala
+EXPLICACIÓN · 18:27–18:28 · Horario Guatemala
 
 ### Discurso para exponer
 
-Mantendremos la misma solicitud y la misma instrucción. En una conversación tendremos sólo el encargo y en otra agregaremos las fuentes. Compararemos qué afirma cada respuesta, qué sustenta y qué deja pendiente.
+Vamos a comparar dos condiciones: el mismo encargo y la misma solicitud, primero solos y después acompañados de sus fuentes. Antes de ejecutar, hagan una predicción: ¿qué podrá completar con el correo y qué necesitará de la recepción?
 
-La razón es sencilla: si a la vez cambiamos pregunta, formato y documentos, no sabremos qué produjo la diferencia. Estamos haciendo una comparación didáctica, no una evaluación completa del rendimiento del sistema.
-
-Si la primera respuesta pide información, puede estar haciendo lo correcto. No necesitamos que se equivoque para demostrar algo. Las respuestas también pueden variar entre ejecuciones, así que dos resultados no permiten estimar una tasa estable de aciertos ni ordenar modelos de mejor a peor.
-
-Diremos «observamos esto en este ejemplo» y conservaremos las condiciones. Ahora, antes de mirar la respuesta, acordemos qué tendría que cumplir para aceptarla.
+Escuchemos una idea. La primera respuesta podría pedir información; eso también sería útil. Compararemos lo que realmente ocurra, sin buscar un error a la fuerza. Guardaremos ambas respuestas y observaremos qué parte del producto cambió gracias a la información disponible. Para hacerlo necesitamos acordar qué miraremos.
 
 ### Notas de consulta
 
@@ -355,11 +368,11 @@ EXPLICACIÓN · 18:28–18:30 · Horario Guatemala
 
 ### Discurso para exponer
 
-La salida debe responder al encargo, conservar datos críticos, mostrar su procedencia y respetar el alcance. «Que sea profesional» es ambiguo; «que conserve el identificador y señale de dónde tomó el importe» permite una comprobación.
+Volvamos al fragmento de la ficha: «Diferencia: una caja, doscientos quetzales». Podemos revisar cuatro cosas. ¿Responde al encargo? Sí: identifica una diferencia. ¿Conserva los datos? Volvemos a F-84 y R-84. ¿Muestra su procedencia? Debe permitir encontrarlos. ¿Respeta el alcance? Prepara una aclaración que alguien revisará.
 
-Separaremos formato y contenido. Una tabla puede tener todas las columnas solicitadas y aun así mostrar 500 donde el documento dice 50. Que una salida esté bien estructurada no demuestra que sus datos sean correctos. En las notas de consulta dejamos cómo se formaliza esta diferencia en sistemas conectados; hoy la comprobaremos mirando el documento.
+Ahora imaginen que el borrador añade «el proveedor está obligado a enviar la caja hoy». Tenemos que localizar de dónde sale esa obligación. Si ninguna fuente la establece, podemos convertirla en una pregunta o identificarla como propuesta. Así mejoramos el producto con una revisión concreta.
 
-Aquí basta una tabla legible; no necesitan programar. Comprobaremos un dato, una referencia y un cálculo cuando corresponda. Si falta evidencia, la salida debe formular una aclaración útil para continuar. Con estos criterios ya podemos abrir Gemini y mirar el procedimiento completo.
+Estos criterios permiten elegir qué conservar, corregir o completar. No basta con que la tabla se vea bien: queremos que ayude a continuar el trabajo. Abramos Gemini y observemos cómo se comporta con otro expediente.
 
 ### Notas de consulta
 
@@ -385,13 +398,17 @@ DEMOSTRACIÓN · 18:30–18:50 · Horario Guatemala
 
 ### Discurso para exponer
 
-Primero mostraré el caso B, Finanzas: preparar una conciliación y un mensaje a compras. En una conversación nueva pondré sólo el encargo y la solicitud B-01. En otra, con la misma configuración, repetiré el encargo y añadiré B-F1 y B-F2. No cargaré el caso completo ni la descripción del anexo.
+Ahora hago yo la demostración. Abriré el caso B, Finanzas, para preparar una conciliación y un mensaje a compras. Ustedes observen el recorrido; después lo repetirán con una ruta propia.
 
-No espero que aparezca una frase exacta. Si pide un documento que no tiene, puede ser una respuesta correcta. Cuando veamos una afirmación, iremos al campo de origen antes de aceptarla. Si rechaza preparar el texto, aclararemos una vez que son datos ficticios y que no pedimos operar ningún sistema. Si no responde o no está disponible, analizaremos una respuesta guardada, identificándola como una demostración previa.
+Primero mostraré el encargo y la solicitud B-01. Antes de ejecutarlos, ¿qué información creen que hará falta para completar la conciliación? En una conversación nueva enviaré sólo esos dos elementos y conservaremos la respuesta. Puede preparar parte del trabajo o pedir información; describiremos lo que aparezca.
 
-Comprobaremos cantidad, precio y diferencia con calculadora, y miraremos si el borrador ayuda a pedir una aclaración. Si añade un trámite, preguntaremos si viene de la política o es una propuesta del modelo. Cerraremos con la prueba normal B-02 del material: cinco filtros a Q120. Así veremos también cómo prepara un caso que puede avanzar a revisión.
+En otra conversación, con la misma configuración, repetiré el encargo y la solicitud, ahora con B-F1 y B-F2. Miraremos qué campos añadió, qué diferencia encontró y qué mensaje preparó. Volveremos a la fuente para comprobar una cantidad y usaremos la calculadora para revisar la operación.
 
-¿Qué capacidad utilizó: extracción, comparación o redacción? Identifiquen una con un fragmento concreto de la salida; después harán lo mismo con su caso.
+Quiero que observen también cómo mejoramos el borrador. Si incluye una obligación o trámite que no está en las fuentes, separaremos ese añadido del dato comprobado y redactaremos una aclaración útil. El resultado que buscamos es un documento que el responsable pueda revisar y utilizar para continuar.
+
+Cerraremos con B-02, el ejemplo normal del material: cinco filtros a ciento veinte quetzales. Así veremos un caso que puede avanzar a revisión. Si la aplicación se detiene, haré una sola aclaración de que son datos ficticios; si sigue sin responder, mostraremos una respuesta guardada y diré que pertenece a una ejecución anterior.
+
+Antes de pasar a su práctica, señalen un fragmento donde haya extracción, comparación o redacción. Ya vieron el procedimiento completo. Ahora lo aplicarán con mi acompañamiento.
 
 ### Notas de consulta
 
@@ -413,11 +430,13 @@ PRÁCTICA · 18:50–19:15 · Horario Guatemala
 
 ### Discurso para exponer
 
-Ahora que vieron el procedimiento, abran los casos y elijan una sola variante cercana a su trabajo: seguros, finanzas, operaciones, documentación, formación o tecnología. Si dudan, les ayudaré a escoger una tarea concreta. Conservaremos ese caso durante las tres clases. Pueden conversar en equipo, pero la conclusión y la entrega serán individuales. Ahora repetirán el procedimiento con su ruta. No busquen que la IA falle ni que diga lo mismo que yo; busquen evidencia para decidir qué aceptarían.
+Ahora sí, vamos a trabajar. Tienen dos minutos para elegir una sola variante cercana a su función: seguros, finanzas, operaciones, documentación, formación o tecnología. Si dudan, les ayudaré. Mantendremos el caso durante las tres clases. Pueden conversar entre ustedes; cada quien construye su conclusión y su entrega.
 
-Conserven las condiciones de la prueba y tanto lo útil como lo dudoso. No peguen el caso completo: primero encargo y solicitud; después únicamente F1 y F2. Guarden el PNG y su descripción para la segunda parte. Aunque trabajen en equipo, cada persona conserva su conclusión.
+El procedimiento tiene tres pasos. Primero, copien únicamente encargo y solicitud a una conversación nueva y conserven la respuesta. Segundo, abran otra conversación con la misma configuración y repitan esos elementos añadiendo sólo las fuentes F1 y F2. Tercero, comparen un fragmento y comprueben una afirmación con su fuente.
 
-Anoten desde ahora, para su entrega A, qué capacidad de IA usaron y qué producto preparó. Comprueben una afirmación mirando la fuente. Trabajen sólo la prueba principal de su variante; las pruebas normales y extensiones del caso no son actividades adicionales obligatorias hoy. Si están en D2, el propio encargo expresa la solicitud de revisión: pueden usar ese texto en ambos campos, sin inventar una petición diferente.
+Guarden el PNG y su descripción para después del descanso. En este bloque usamos texto y fuentes escritas. Trabajen sólo la prueba principal de su variante; los ejemplos normales y extensiones quedan como material de consulta. Si eligieron D2, el propio encargo contiene la solicitud de revisión y pueden repetir ese texto en ambos campos.
+
+A mitad del bloque revisaremos que todos tengan guardadas las dos respuestas. Vayan anotando qué capacidad utilizaron, qué producto preparó y qué dato comprobaron. Esas notas ya forman parte de la evidencia de A. Si una respuesta es inesperada, consérvenla y explíquenme qué necesitarían para resolverla. Yo iré acompañando esa revisión.
 
 ### Notas de consulta
 
@@ -439,7 +458,7 @@ DESCANSO · 19:15–19:25 · Horario Guatemala
 
 ### Discurso para exponer
 
-Tenemos diez minutos de descanso. Regresamos a las siete veinticinco con el mismo caso y las respuestas guardadas. Al volver incorporaremos una fuente visual.
+Tenemos diez minutos de descanso. Regresamos a las siete veinticinco con el mismo caso y las respuestas guardadas. Dejo una pregunta para el regreso: ¿qué parte de su respuesta podría cambiar si aparece otro documento, esta vez como imagen?
 
 ### Notas de consulta
 
@@ -447,29 +466,37 @@ Tenemos diez minutos de descanso. Regresamos a las siete veinticinco con el mism
 
 Mantén íntegros los diez minutos de descanso. No añadas contenido histórico en este bloque. Al volver, recupera la idea de fuente verificable y anuncia que ahora la fuente tendrá formato visual.
 
-## 16. Multimodalidad
+## 16. Una situación, tres formas de verla
 
-EXPLICACIÓN · 19:25–19:26 · Horario Guatemala
+EXPLICACIÓN · 19:25–19:27 · Horario Guatemala
 
 ### Discurso para exponer
 
-Retomamos el método con una imagen. Multimodalidad es trabajar con distintos tipos de información, como texto e imagen. Un antecedente de 2021 es CLIP, que relacionó representaciones visuales y lenguaje; no era un asistente conversacional actual.
+Retomemos con una situación sencilla. En este ejemplo ficticio, el mensaje dice que la entrega R-07 está completa. La tabla muestra que esperábamos doce cajas. La imagen de la recepción registra doce cajas recibidas. Las tres entradas aportan piezas diferentes de una misma situación.
 
-OCR reconoce caracteres; un modelo multimodal también puede relacionar elementos visuales con una instrucción. Eso no autentica el documento. Hoy usaremos imágenes ficticias, legibles y correspondientes al caso para ver si un dato nuevo confirma o modifica la conclusión. Primero separaremos leer de validar.
+Miren la ficha integrada. El estado comunicado viene del mensaje; la cantidad esperada, de la tabla; la cantidad recibida, del campo visible en la imagen. El asistente puede relacionarlas con el encargo y preparar una síntesis. Ésa es la capacidad que vamos a explorar: trabajar con distintas modalidades de información, aquí texto e imagen.
+
+OCR se concentra en reconocer caracteres. Un modelo multimodal puede además relacionar elementos visuales con una instrucción. Un antecedente es CLIP, publicado en 2021, que conectó representaciones de imágenes y lenguaje. Los asistentes actuales combinan capacidades adicionales; no son simplemente aquel modelo con un chat.
+
+La imagen puede aportar información que no estaba en el mensaje. Para aprovecharla, primero localizamos el campo y después comprobamos qué significa para el caso. Leer una recepción no autentica el documento; nos permite observar y relacionar su contenido. Veamos esa distinción.
 
 ### Notas de consulta
 
 #### Idea central
 
-Un antecedente de 2021 es CLIP, que relacionó representaciones de imágenes y texto. Ayuda a entender el paso hacia sistemas que conectan modalidades, aunque CLIP no sea equivalente a un asistente conversacional actual.
-
-#### Cómo funciona
-
-Multimodalidad significa trabajar con más de un tipo de información, como texto e imagen. OCR se centra en reconocer caracteres; un modelo multimodal también puede relacionar elementos visuales con una instrucción. Ninguna capacidad demuestra la autenticidad del documento. Formato admitido, resolución, recorte y calidad de la captura condicionan lo que puede observarse.
+Multimodalidad permite trabajar con tipos distintos de información, aquí texto e imagen. La tabla es información estructurada representada en el material; no debe presentarse como una modalidad sensorial independiente. La imagen aporta un campo que puede relacionarse con el mensaje y el pedido.
 
 #### Un ejemplo para contarlo
 
-Una imagen puede aportar la fecha de una recepción que no estaba en el texto. Puede cambiar el caso sin que el modelo haya aprendido una nueva política ni conectado el almacén.
+Situación ficticia R-07: el mensaje comunica entrega completa, la tabla registra doce cajas esperadas y el campo de la imagen muestra doce cajas recibidas. La ficha conserva la procedencia de cada dato. Este ejemplo confirma coincidencias y no anticipa el hallazgo de la demostración A.
+
+#### Cómo funciona
+
+OCR reconoce caracteres; un modelo multimodal puede relacionar elementos visuales con el encargo. Leer contenido no autentica el documento. Identificador, fecha, unidades y legibilidad permiten revisar lo observado.
+
+#### Contexto y antecedentes
+
+CLIP, publicado en 2021, relacionó representaciones visuales y lenguaje. Es un antecedente, no un equivalente a los asistentes conversacionales actuales.
 
 #### Para profundizar
 
@@ -477,15 +504,15 @@ Una imagen puede aportar la fecha de una recepción que no estaba en el texto. P
 
 ## 17. Leer y validar
 
-EXPLICACIÓN · 19:26–19:28 · Horario Guatemala
+EXPLICACIÓN · 19:27–19:29 · Horario Guatemala
 
 ### Discurso para exponer
 
-Leer un número es sólo una parte del trabajo. Podemos distinguir tres pasos: extraer el campo, entender a qué se refiere y decidir si aplica a nuestro caso. Acertar en el primero no garantiza los siguientes.
+Vuelvan mentalmente al campo «12 cajas» de la recepción. ¿Qué hemos visto? Un número y una unidad, dentro de un documento. ¿Qué podemos concluir? Para relacionarlo con el pedido necesitamos identificar la operación y la fecha. En el ejemplo, el identificador R-07 enlaza las fuentes y la fecha ayuda a ubicar la recepción.
 
-Una imagen puede ser legible y mostrar otro activo o una versión anterior. Por eso comprobamos identificador, fecha, versión y unidad. Una recepción de diez cajas no coincide necesariamente con una factura de diez unidades. Antes de calcular, necesitamos saber el artículo y la conversión.
+Éstos son tres pasos diferentes: leer el campo, entender a qué se refiere y decidir si corresponde al caso. Una imagen nítida facilita el primero. Los otros requieren contexto. Doce cajas y doce piezas pueden ser cantidades diferentes aunque compartan el número.
 
-Pediremos al asistente que señale el campo y luego lo miraremos nosotros. Una cita también debe comprobarse. Si un carácter no se distingue, pedimos confirmación. Comprobación rápida: ¿subir una imagen y copiar su descripción en texto permiten probar exactamente lo mismo? Escuchemos por qué. Para comprobar lectura visual necesitamos realmente la imagen. Ahora veamos qué hacer cuando las fuentes discrepan.
+En su práctica vamos a pedir al asistente que localice un campo y después lo miraremos nosotros. Si no se distingue, registramos qué falta confirmar. ¿Bastaría copiar la descripción de la imagen para probar lectura visual? Necesitamos adjuntar el archivo: de otro modo estaríamos probando una entrada de texto. Ahora imaginemos que las fuentes muestran valores distintos.
 
 ### Notas de consulta
 
@@ -503,15 +530,13 @@ Una recepción con «10 cajas» no coincide necesariamente con una factura de «
 
 ## 18. Fuentes que discrepan
 
-EXPLICACIÓN · 19:28–19:30 · Horario Guatemala
+EXPLICACIÓN · 19:29–19:30 · Horario Guatemala
 
 ### Discurso para exponer
 
-Si una fuente dice una cosa y otra muestra un valor distinto, conservamos ambas versiones y su procedencia. Después describimos la diferencia y quién puede resolverla.
+Ejemplo breve, distinto de los expedientes: un correo dice «pedido R-08: diez cajas» y una recepción del mismo identificador dice «ocho cajas recibidas». La salida útil conserva ambos valores y sus fuentes, y pregunta por las dos cajas restantes.
 
-La contradicción puede venir de una captura incorrecta, un cambio de versión o documentos de operaciones diferentes. No elegimos automáticamente el dato más reciente o más conveniente. Una política nueva, por ejemplo, puede no aplicar retroactivamente a una operación anterior.
-
-La regla de prioridad debe venir del proceso. Una búsqueda puede ordenar documentos por similitud, pero esa puntuación no decide cuál tiene autoridad. La salida útil identifica el conflicto, conserva lo comprobado y prepara una aclaración. Así podemos seguir trabajando sin disfrazar lo pendiente como una certeza.
+También podría haber una versión corregida del pedido. Para resolver cuál aplica necesitamos la regla del proceso o una aclaración del responsable. Comparar documentos permite localizar la diferencia; completar esa información permite resolverla. Mientras tanto, una parte de la ficha ya puede quedar preparada.
 
 ### Notas de consulta
 
@@ -533,11 +558,9 @@ EXPLICACIÓN · 19:30–19:31 · Horario Guatemala
 
 ### Discurso para exponer
 
-Una discrepancia no obliga a tirar todo el trabajo. Podemos separar campos comprobados, pendientes y la acción necesaria para completarlos.
+Con ese ejemplo, la ficha parcial ya puede decir: identificador R-08; pedido comunicado, diez cajas; recepción, ocho cajas; diferencia, dos; motivo, pendiente. El siguiente mensaje puede preguntar si hay una entrega adicional o una corrección del pedido.
 
-«Falta confirmar la unidad de venta» orienta una acción. «Probablemente correcto» no aporta evidencia. Si el modelo escribe «90% seguro», tampoco debemos tratarlo como una probabilidad calibrada sin una evaluación que lo justifique.
-
-Queremos que la siguiente persona sepa qué puede utilizar y qué debe revisar. Ese criterio es común, aunque la evidencia necesaria cambia según la función.
+Así avanzamos: dejamos listos los campos sustentados y formulamos una pregunta precisa para completar el trabajo. La calidad de ese producto se ve en lo fácil que resulta para otra persona continuar. Según la función, cambian los campos que más importa comprobar.
 
 ### Notas de consulta
 
@@ -559,9 +582,9 @@ EXPLICACIÓN · 19:31–19:32 · Horario Guatemala
 
 ### Discurso para exponer
 
-La lógica común es comprobar y decidir, pero cambia la evidencia. Finanzas contrasta cantidades e importes; operaciones identifica activo y momento; documentación verifica integridad y versión; tecnología revisa entorno y permisos.
+Esta tabla es un mapa para consultar según su ruta. Miren dos contrastes. Finanzas necesita relacionar cantidades e importes para preparar una conciliación. Operaciones puede necesitar identificar el activo y el momento de una inspección para preparar una intervención.
 
-Una instrucción técnica válida en pruebas puede ser inadecuada en producción: el texto es igual, pero cambió una condición esencial. Las rutas ficticias nos ayudan a practicar esas diferencias sin afirmar cómo trabajan las empresas del grupo. Veamos ahora qué aporta una imagen a la revisión que ya hicimos.
+La técnica puede producir una ficha en ambos casos, pero cada función decide qué evidencia necesita. En su práctica revisarán el campo relevante de su propia ruta. Para mostrar el procedimiento visual, ahora cambiaré de finanzas a seguros.
 
 ### Notas de consulta
 
@@ -583,11 +606,13 @@ DEMOSTRACIÓN · 19:32–19:40 · Horario Guatemala
 
 ### Discurso para exponer
 
-Para esta segunda demostración cambio al caso A, Seguros, que hace visible un conflicto de datos. Ustedes conservarán su propia ruta. Primero mostraré la solicitud A-01 y sus fuentes A-F1 y A-F2, junto con la ficha obtenida sin imagen. Ésa es la base con la que compararemos.
+Para esta demostración usaré el caso A, Seguros. Ustedes conservarán su propia ruta. Primero mostraré la solicitud A-01, las fuentes A-F1 y A-F2 y la ficha obtenida sin imagen. Ése es nuestro punto de comparación.
 
-Ahora adjuntaré el archivo A-V1.png y usaré el prompt de revisión, sin escribirle al modelo el dato que tiene que encontrar. Comprobaremos identificador y año directamente en la imagen, y conservaremos ambas versiones si discrepan. Leer el campo no demuestra autenticidad ni decide por sí solo cuál dato debe prevalecer.
+Antes de adjuntar el anexo, observen qué quedó pendiente. ¿Qué tipo de dato podría aportar un documento visual? Escuchemos una predicción. Ahora adjunto A-V1.png con el prompt de revisión, sin escribir el valor que debe encontrar.
 
-¿Qué capacidad acabamos de observar y qué cambió respecto a la ficha sin imagen? Puede cambiar la evidencia o la pregunta que necesitamos hacer, aunque el expediente siga pendiente. No necesitamos forzar una decisión distinta para que exista aprendizaje. Terminaremos con la ficha revisada y un borrador de aclaración.
+Comprobaremos identificador y año directamente en la imagen. Si difiere de la solicitud, conservaremos ambos valores y su procedencia. Después veremos qué cambia en la ficha y cómo mejora la pregunta que necesitamos hacer. El expediente puede seguir pendiente y, aun así, tener una revisión mucho más precisa.
+
+Terminaremos con el producto corregido y un borrador de aclaración. Señalen el campo de la imagen que fundamenta esa mejora. Ya tienen el método: incorporar la nueva fuente, comprobar un dato y explicar su efecto.
 
 ### Notas de consulta
 
@@ -609,11 +634,11 @@ PRÁCTICA · 19:40–20:05 · Horario Guatemala
 
 ### Discurso para exponer
 
-Cada quien agrega ahora el PNG de su ruta a la conversación con fuentes. Mantengan el encargo para observar qué aporta la imagen. No sustituyan el archivo por la descripción escrita del anexo: eso evaluaría texto, no lectura visual. Necesitamos ver qué confirma, qué contradice y qué deja sin resolver.
+Vamos a hacerlo con su caso. Primer paso: adjunten el PNG de su variante a la conversación con fuentes y usen el prompt de revisión. Segundo: localicen ustedes un campo en la imagen y compárenlo con lo que respondió el asistente. Tercero: expliquen qué confirmó, qué cambió o qué sigue pendiente en el producto.
 
-Si el anexo no resuelve el pendiente, también tenemos un resultado útil: explicar por qué no basta y qué información haría falta. Su conclusión debe decir qué aceptarían y qué necesita intervención de otra persona.
+Mantengan el mismo encargo y conserven el antes y el después. La descripción escrita del anexo queda como apoyo; para probar lectura visual necesitamos subir el archivo. Si la imagen confirma lo que ya tenían, ése también es un resultado que pueden explicar.
 
-Señalen un campo que hayan comprobado ustedes en la imagen y qué efecto tiene sobre el producto. Puede confirmar algo que ya sabíamos; no tiene que cambiar la decisión final. Guarden el antes y el después y completen ese apartado de A mientras trabajan. Si no pueden ejecutar la prueba, analicen la demostración observada y declaren esa modalidad.
+Vayan completando el apartado visual de A mientras trabajan. Si alguien no puede ejecutar, puede analizar la demostración observada y declararlo. Al final del bloque, si hay tiempo, escucharemos un hallazgo breve: el campo, su fuente y su efecto. No agrega otra entrega ni puntos separados.
 
 ### Notas de consulta
 
@@ -635,11 +660,13 @@ ENTREGA · 20:05–20:20 · Horario Guatemala
 
 ### Discurso para exponer
 
-Vamos a integrar lo que ya hicieron. No necesitan una actividad nueva ni una respuesta perfecta. Necesitan mostrar qué probaron, qué evidencia obtuvieron, qué comprobaron y qué decidirían.
+Ahora reunimos la evidencia que ya construyeron. Tienen quince minutos para organizarla en los cinco campos de A: caso y resultado buscado; encargo y condiciones de la prueba; comparación sin y con fuentes; dato contrastado con la imagen; y decisión propia con siguiente paso.
 
-La primera parte debe nombrar una capacidad, como extraer, comparar, sintetizar o redactar, y explicar qué trabajo adelantó. La comparación necesita fragmentos de las dos respuestas. En la parte visual indiquen el campo, el anexo y qué confirmó o cambió. Finalmente distingan lo aceptado de lo pendiente y expliquen su comprobación propia.
+Usen fragmentos identificados de sus respuestas para explicar lo que ocurrió. Nombren una capacidad, como extraer, comparar o redactar, y el trabajo que adelantó. En la parte visual indiquen el anexo y el campo que comprobaron. Cierren diciendo qué aceptarían, qué dejarían pendiente y por qué.
 
-Usen los cinco campos y los cuatro criterios de la guía, con cinco puntos cada uno. Ya iniciaron la evidencia durante las prácticas: estos quince minutos son para consolidarla. No es una prueba de velocidad al escribir; la extensión es orientativa. Una conclusión corta y sustentada vale más que copiar la respuesta del asistente. No cambiamos requisitos ni puntuación.
+La evaluación conserva cuatro criterios de cinco puntos: relación entre necesidad y capacidad; comparación sustentada; integración de fuentes y contradicciones; comprobación y límites. La extensión de cuatrocientas a seiscientas palabras es orientativa, sin contar las salidas anexas. Una conclusión sustentada comunica más que copiar todo el chat.
+
+Esto es el registro de su trabajo de hoy. Si compartieron una prueba, dejen visible la contribución y decisión individual. Revisaré dudas mientras lo consolidan.
 
 ### Notas de consulta
 
@@ -655,33 +682,39 @@ Una bitácora breve es una herramienta profesional de trazabilidad. Conserva enc
 
 «Acepto estos campos y dejo éste pendiente por falta de soporte» comunica una decisión revisable y acotada.
 
-## 24. Qué pedir a tecnología
+## 24. Un pedido a TI que permite empezar
 
 EXPLICACIÓN · 20:20–20:24 · Horario Guatemala
 
 ### Discurso para exponer
 
-Ya tenemos una prueba y podemos formular una petición concreta. Necesitamos describir cuenta y función requeridas, entorno de prueba, fuentes autorizadas y su propietario, y revisión humana.
+Regresemos a la reunión de dirección. Ahora podemos llevar un pedido como el que aparece en la lámina. Queremos probar la preparación de diferencias entre factura y recepción. Especificamos los documentos y el producto: una tabla con fuentes y un borrador de aclaración.
 
-Aclaremos tres términos que suelen mezclarse: una cuenta identifica al usuario, una suscripción habilita funciones según sus condiciones y una credencial de API permite a software autorizado interactuar con un servicio. No son intercambiables. Una conversación en el navegador tampoco demuestra una conexión al ERP.
+Después viene lo que permite organizar la prueba. Pedimos una cuenta autorizada y un espacio con acceso a documentos de prueba. Indicamos quién habilita ese acceso y quién revisa el resultado: TI y finanzas cumplen funciones diferentes. Por último, describimos qué deberá cumplir la salida: conservar identificadores, comprobar cantidades y explicar cada diferencia.
 
-Si necesitamos documentos internos, debemos saber quién los administra, qué acceso permite y cómo se retira. La política escrita y el permiso técnico cumplen funciones distintas. Para una integración compartida no basta con pedir la credencial personal de alguien.
+Lean el mensaje como algo que el equipo pueda evaluar. Ya pueden preguntar si la aplicación admite esos documentos, quién prepara los datos de prueba y cómo conservarán los resultados. El responsable técnico puede responder con una propuesta concreta de acceso y alcance.
 
-Una solicitud útil sería: «necesito consultar estas fuentes de prueba para preparar un borrador que revisará este rol». Eso se puede evaluar; «instalen IA para el departamento» deja el alcance sin definir. Identifiquen qué dato, acceso o responsable falta para repetir su prueba. La próxima clase desarrollaremos el proceso que la rodea.
+Aclaremos dónde entra la API. Una cuenta permite identificar al usuario. Una suscripción habilita funciones de una aplicación según sus condiciones. Una API permite que otro programa interactúe con un servicio. Para explorar una tarea puede bastar la aplicación autorizada; si necesitamos conectar el flujo con el ERP u otro sistema, habrá que evaluar la integración, sus permisos y su operación.
+
+Identifiquen mentalmente qué cambiarían en este pedido para su ruta: la tarea, los documentos, el producto o el responsable. No hace falta otra entrega. Es el puente entre la prueba de hoy y la organización del trabajo que abordaremos en la siguiente clase.
 
 ### Notas de consulta
 
 #### Idea central
 
-Una prueba en el navegador descubre necesidades; todavía no define una arquitectura empresarial. El siguiente paso es pedir a tecnología acceso y soporte con alcance concreto.
-
-#### Cómo funciona
-
-Distingue cuenta de usuario, suscripción de aplicación y credencial de API. Cada una habilita una forma de uso diferente. Si se necesitan documentos internos, hay que revisar quién los administra, qué acceso se permite y cómo se retira. Una política escrita y un permiso técnico cumplen funciones diferentes. No pidas credenciales personales para una integración compartida.
+La infografía contiene una petición ejecutiva ficticia de prueba: tarea, entradas, salida, acceso, responsable y aceptación. No es un correo enviado ni una solicitud de contratación. Puede adaptarse al caso de cada participante sin una entrega adicional.
 
 #### Un ejemplo para contarlo
 
-«Necesito consultar estas fuentes de prueba para preparar un borrador que revisará este rol» es evaluable. «Instalen IA para el departamento» obliga a TI a inventar el alcance.
+Probar conciliación con facturas, recepciones y regla aplicable de prueba; obtener tabla con fuentes y borrador; habilitar cuenta autorizada y documentos; asignar revisión a finanzas y acceso a TI; comprobar identificadores, cantidades y diferencias. Estos seis elementos permiten discutir alcance y viabilidad.
+
+#### Cómo funciona
+
+Cuenta identifica al usuario; suscripción habilita funciones de la aplicación; API permite interacción entre programas. Evaluar una integración cuando deba conectarse el flujo con otros sistemas. Un espacio de prueba no implica instalar infraestructura específica antes de saber qué hace falta. Las condiciones de datos y acceso deben corresponder al entorno autorizado por la organización.
+
+#### Una pregunta para conectar
+
+¿Qué tarea, fuente, producto o responsable cambiarían al adaptar esta petición a su ruta?
 
 ## 25. La decisión después de la prueba
 
@@ -689,13 +722,15 @@ EXPLICACIÓN · 20:24–20:29 · Horario Guatemala
 
 ### Discurso para exponer
 
-Hoy definimos un encargo, obtuvimos un producto y reunimos evidencia para decidir qué aceptar. El resultado incluye lo que funciona y lo que sigue pendiente.
+Al inicio teníamos tres propuestas en una reunión: finanzas quería conciliaciones, comercial quería responder clientes y tecnología preguntaba qué contratar. Ahora tenemos una manera más precisa de conversar: describir el trabajo, identificar la capacidad y las fuentes, observar un producto y decidir qué prueba merece repetirse.
 
-Podemos ordenar nuestro recorrido en tres pasos: conversación observada, procedimiento reproducible y piloto medido. Es una forma de organizar estas clases, no una escala universal de madurez. Pasar de un paso a otro exige trabajo; no ocurre simplemente por llamar agente a un chatbot.
+Hagamos dos comprobaciones con sus propias palabras. Primera: cuando añadieron F1 y F2, ¿aportaron contexto o demostraron que habían reentrenado el modelo? Segunda: cuando añadieron el PNG, ¿qué dato pudieron observar y qué comprobación todavía necesitaba su criterio? Escucharemos respuestas y aclararemos dudas. No son puntos adicionales.
 
-Antes de cerrar, respondan con sus propias palabras y sin consultar la IA: ¿qué distingue el modelo, la aplicación y las fuentes en su caso? ¿Qué comprobación hizo falta al agregar la imagen? Escucharemos dos respuestas para detectar dudas; no es otra tarea ni da puntos separados.
+Recuerden un fragmento concreto de su resultado: una diferencia, un campo extraído o una aclaración mejor redactada. Ésa es la evidencia que pueden llevar a una conversación de trabajo. También deben poder explicar qué quedó pendiente.
 
-La siguiente clase convertiremos las instrucciones en un asistente reutilizable y diseñaremos quién lo opera y bajo qué límites. ¿Qué dejarían escrito para que un colega repita mañana su prueba? Con esa condición conectamos el aprendizaje de hoy con la siguiente sesión.
+Nuestro recorrido de tres clases pasa por una prueba observada, un procedimiento que otro pueda repetir y un piloto cuyo valor pueda medirse. Hoy construimos la primera pieza. La próxima sesión convertiremos el encargo en un asistente reutilizable y definiremos quién lo opera, qué acceso requiere y cuándo debe intervenir una persona.
+
+Para cerrar la conversación, ¿qué tendría que quedar escrito para que un colega repita mañana su prueba sin preguntarles todo de nuevo? Escuchemos una propuesta. Esa pregunta abre la siguiente clase.
 
 ### Notas de consulta
 
@@ -717,9 +752,9 @@ CIERRE · 20:29–20:30 · Horario Guatemala
 
 ### Discurso para exponer
 
-Para profundizar, elijan el concepto que les faltó: modelos fundacionales para entender la base, contexto y RAG para entender las fuentes, o multimodalidad para entender las imágenes. Los enlaces están en las referencias de estas notas y en Lecturas.
+Los enlaces de consulta están en las notas y en Lecturas. Pueden elegir el tema que quieran profundizar: modelos fundacionales, contexto o multimodalidad. Son lecturas sugeridas; no agregan una tarea.
 
-Los artículos aportan antecedentes; la documentación de producto explica funciones. Son lecturas sugeridas, no otra entrega. Conservaremos el mismo caso y la evidencia de A para construir el asistente de la próxima sesión.
+Hoy se llevan una capacidad para explicar, un producto observado y una decisión propia sustentada. Conserven su caso y la evidencia de A. La próxima clase trabajaremos cómo convertir esa prueba en una forma de trabajo que otras personas puedan repetir.
 
 ### Notas de consulta
 
@@ -729,7 +764,7 @@ Si quieren profundizar, empiecen por el concepto que les faltó: modelo fundacio
 
 #### Contexto y antecedentes
 
-Para prepararte, revisa primero las láminas 4, 8, 9 y 15. Conecta cada término con una decisión del ejercicio. Los artículos de 2017, 2020 y 2021 aportan antecedentes; la documentación de producto sirve para comprobar funciones actuales. No confundas historia técnica con instrucciones de una interfaz concreta.
+Para prepararte, revisa primero las láminas web 5, 9, 10 y 16. Conecta cada término con una decisión del ejercicio. Los artículos de 2017, 2020 y 2021 aportan antecedentes; la documentación de producto sirve para comprobar funciones actuales. No confundas historia técnica con instrucciones de una interfaz concreta.
 
 #### Para profundizar
 
