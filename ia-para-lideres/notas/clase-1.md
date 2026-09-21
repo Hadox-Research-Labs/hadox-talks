@@ -2,67 +2,101 @@
 
 Edición abierta · Hadox Talks · Edgar Valdés
 
-Discurso integrado por lámina: contexto, técnica, ejemplos y transiciones dentro del texto para decir en voz alta. Es el mismo texto que lee la narración de la página. Las notas de consulta permiten profundizar; no es necesario leerlas de nuevo durante la exposición. Los ejemplos adicionales son ficticios. Estas notas son públicas y no cambian actividades, entregas ni puntuaciones.
+Discurso integrado por lámina: contexto, técnica, ejemplos y transiciones dentro del texto para decir en voz alta. Es el mismo texto que lee la narración de la página. Las notas de consulta permiten profundizar; no es necesario leerlas de nuevo durante la exposición. Los ejercicios del curso son ficticios; los casos empresariales citados se identifican con sus fuentes. Estas notas son públicas y no cambian actividades, entregas ni puntuaciones.
 
-Las fuentes respaldan los conceptos indicados, no los resultados de los casos del curso. Consulta y revisión de referencias: 20 de septiembre de 2026.
+Las fuentes respaldan los conceptos indicados, no los resultados de los casos del curso. Consulta y revisión de referencias: 21 de septiembre de 2026.
 
-## 1. Apertura
+## 1. ¿Quién es quién en IA?
 
-APERTURA · 18:00–18:02 · Horario Guatemala
+APERTURA · 18:00–18:06 · Horario Guatemala
 
 ### Discurso para exponer
 
-Hoy estudiaremos dos temas: modelos fundacionales y multimodalidad. Vamos a entender qué capacidades ofrece un modelo, qué aporta la aplicación y qué cambia cuando combinamos texto, tablas e imágenes. Lo aplicaremos a una tarea profesional: preparar un resultado, comprobarlo y decidir cómo utilizarlo. Trabajaremos con casos ficticios; no necesitan información de su empresa ni una licencia de pago.
+Imaginen que mañana llegan a una reunión de dirección y escuchan tres propuestas. Finanzas quiere que una IA prepare conciliaciones. Comercial quiere que ayude a responder a clientes. Tecnología pregunta qué plataforma van a contratar. Las tres propuestas parecen hablar de lo mismo, pero requieren decisiones diferentes. ¿Por dónde empezarían ustedes?
 
-La novedad que nos interesa es poder encargar en lenguaje cotidiano trabajos que antes exigían interfaces o desarrollos especializados. Pero obtener una respuesta convincente es apenas el comienzo. Pensemos en incorporar a alguien a un equipo: necesita un encargo, documentos, revisión y responsabilidades. La comparación sirve para entender el proceso; no significa que un modelo piense como una persona.
+Dejen esa pregunta abierta un momento. Como líderes, van a tener que decidir qué trabajo vale la pena mejorar, qué información puede utilizarse y con qué evidencia aceptar un resultado. Para tomar esas decisiones, primero necesitamos entender qué tenemos enfrente. Ése es el propósito de esta clase.
 
-Durante estas tres clases recorreremos esa distancia: primero comprobar un resultado, después organizar cómo se repite y finalmente decidir si conviene invertir. Hoy empezamos con un ejemplo juntos y después cada quien trabaja su ruta.
+La IA lleva décadas en las empresas: clasificación, recomendaciones, pronósticos. Con la IA generativa se amplía la posibilidad de encargar trabajo mediante lenguaje cotidiano: preparar un borrador, sintetizar documentos, interpretar una imagen o ayudar a escribir código. Una misma base puede apoyar muchas tareas. A esa base entrenada ampliamente y adaptable a distintos usos la llamamos modelo fundacional. Enseguida veremos cómo funciona; primero ubiquemos a los actores.
+
+Miren las tres columnas. A la izquierda está la organización que desarrolla la tecnología. En el centro, la familia de modelos. A la derecha, algunas formas de utilizarla. OpenAI desarrolla la familia GPT; ChatGPT es una aplicación para trabajar con esas capacidades. Google desarrolla Gemini y ofrece aplicaciones como Gemini y Gemini Notebook, que antes conocíamos como NotebookLM. Anthropic desarrolla Claude; también encontramos ese nombre en su asistente y en Claude Code. Por eso es fácil confundir empresa, modelo y producto: a veces comparten nombre.
+
+Meta tiene Llama, con modelos que pueden incorporarse a soluciones propias bajo sus condiciones de licencia. Mistral y DeepSeek ofrecen otras familias y formas de acceso. Este mapa es una selección para orientarnos, no una clasificación del mejor al peor. Tampoco significa que todas las opciones lean los mismos archivos o tengan las mismas condiciones.
+
+Ahora miren Microsoft 365 Copilot. Es una aplicación que puede incorporar modelos de distintos proveedores. El nombre que compramos y el modelo que produce la respuesta pueden ser diferentes. Esto importa al preguntar qué datos utiliza una solución, con qué herramientas se conecta y quién administra el acceso.
+
+No necesitan memorizar todos los nombres. Quiero que puedan distinguir tres cosas: quién desarrolla la tecnología, qué capacidad ofrece el modelo y qué permite hacer la aplicación. Con ese mapa ya podemos mirar cómo lo están usando organizaciones reales y qué decisiones de liderazgo aparecen detrás.
 
 ### Notas de consulta
 
 #### Idea central
 
-La novedad empresarial es poder encargar en lenguaje cotidiano trabajos que antes requerían interfaces y desarrollos especializados. Pero una conversación convincente todavía no es un proceso confiable. Durante el curso vamos a recorrer precisamente esa distancia.
+La escena de la reunión de dirección es hipotética. Dejar una pausa breve tras la pregunta inicial; no pedir que abran archivos ni que elijan una ruta. El objetivo es presentar la decisión que debe tomar un líder y ofrecer un mapa comprensible antes de profundizar en la teoría.
 
 #### Contexto y antecedentes
 
-Puedes abrir con tres hitos, sin convertir la introducción en una cronología larga: Transformer en 2017, GPT-3 y sus ejemplos en contexto en 2020, y la discusión sobre modelos fundacionales en 2021. Son piezas diferentes: arquitectura, capacidad demostrada y concepto organizador. No significan que la IA empezara en 2017 ni que esos trabajos resolvieran todos los problemas actuales.
+Mapa selectivo de familias, no ranking de rendimiento ni lista exhaustiva. Una familia contiene modelos y versiones; una aplicación puede cambiar el modelo que utiliza según función, plan o configuración. La API es una vía de integración, no otra familia. Llama permite implementaciones sujetas a licencia; «integración propia» no significa que sea gratuita, inmediata o privada por defecto. Las rutas de acceso mostradas son ejemplos, no exclusivas.
+
+#### Cómo funciona
+
+Consulta del 21 de septiembre de 2026: el catálogo de OpenAI incluye GPT-6 Astra y GPT-5.6; Google enumera Gemini 3.8 Flash como estable y Gemini 3.1 Pro como preview; Anthropic registra Claude Sonnet 5, Opus 5 y tarjetas de Fable/Mythos 5.1. Son ejemplos de nombres y estados de catálogo, no equivalencias de rendimiento ni una afirmación de acceso para todos los usuarios. No atribuir automáticamente una versión de API al selector Flash de la aplicación usada en clase. Los números de versión se consultan en la fuente; la infografía conserva familias para orientar sin convertir la apertura en una lista de lanzamientos.
 
 #### Un ejemplo para contarlo
 
-Compara pedir un informe a una persona nueva con integrarla a un equipo: primero necesita un encargo y documentos; después reglas, revisión y responsabilidades. La analogía sirve para hablar del proceso, no para atribuir comprensión humana al modelo.
+En Microsoft 365 Copilot, el nombre de la aplicación no identifica por sí solo un modelo. Su documentación describe selección y enrutamiento de modelos, con condiciones de licencia y administración. Google anunció el cambio de nombre de NotebookLM a Gemini Notebook el 16 de julio de 2026; Mistral presenta Vibe como el producto que antes se llamaba Le Chat. Las ilustraciones y símbolos del mapa son recursos docentes, no una arquitectura técnica del proveedor.
 
 #### Para profundizar
 
-- [Vaswani et al. (2017) · Attention Is All You Need](https://arxiv.org/abs/1706.03762) — Antecedente de la arquitectura Transformer; no es una descripción completa de todos los modelos actuales.
-- [Brown et al. (2020) · Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) — Aprendizaje en contexto mediante instrucciones y ejemplos, sin actualizar parámetros en cada tarea.
+- [OpenAI · Catálogo de modelos](https://developers.openai.com/api/docs/models) — Familia GPT y nombres de modelos; API y aplicación no son equivalentes.
+- [Google · Catálogo de modelos Gemini](https://ai.google.dev/gemini-api/docs/models) — Modelos y estados estable/preview; no identifica por sí solo el modelo activo en una cuenta.
+- [Anthropic · Model system cards](https://www.anthropic.com/system-cards) — Familia Claude y documentación por versión; no implica acceso universal.
+- [Meta · Repositorio oficial Llama Models](https://github.com/meta-llama/llama-models) — Modelos Llama, integración y condiciones de licencia.
+- [Mistral AI · Vibe](https://mistral.ai/products/vibe/) — Producto de trabajo y código antes llamado Le Chat.
+- [DeepSeek · Sitio oficial](https://www.deepseek.com/) — Familia de modelos y acceso mediante chat o API.
+- [Microsoft · Descripción de Microsoft 365 Copilot](https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-overview) — Selección y enrutamiento de modelos en una aplicación de trabajo.
+- [Google · NotebookLM is now Gemini Notebook](https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/) — Anuncio del 16 de julio de 2026: nombre del producto y relación con Gemini.
 - [Stanford CRFM (2021) · On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258) — Qué significa modelo fundacional y cómo se adapta a distintos usos.
 
-## 2. Diagnóstico y elección de caso
+## 2. ¿Qué están haciendo las empresas con IA?
 
-INICIO · 18:02–18:10 · Horario Guatemala
+EXPLICACIÓN · 18:06–18:10 · Horario Guatemala
 
 ### Discurso para exponer
 
-Vamos a elegir un problema que podamos practicar sin compartir información privada. Mantendremos el mismo caso durante las tres clases. Si una ruta reúne a varias personas, pueden discutir juntos; la conclusión y la entrega son individuales.
+Veamos tres usos distintos. BBVA ha utilizado ChatGPT Enterprise para el trabajo de sus empleados. En diciembre de 2025 informó que su fase inicial ya alcanzaba a once mil personas y anunció que extendería el acceso a más de ciento veinte mil. La cifra grande era el alcance anunciado de la expansión; no significa que todos ya lo utilizaran. Para nosotros, la pregunta es cómo conseguir que el acceso se convierta en trabajo útil: con formación, tareas concretas y seguimiento de la adopción.
 
-Para elegir, busquen una tarea cuyo resultado puedan describir y revisar. «Mejorar finanzas» es demasiado amplio. «Comparar una factura con una recepción para preparar una aclaración» ya nos dice qué documentos entran y qué debe salir. La especialización viene de esos datos y criterios, no de poner un cargo sofisticado en la instrucción.
+Sanofi aporta otro ejemplo. En un testimonio publicado por Anthropic, describe el uso de Claude junto con bibliotecas internas de conocimiento en su aplicación Concierge. Aquí aparece una pieza esencial: el modelo se combina con información de la organización. Como líderes, eso nos lleva a preguntar quién mantiene esas fuentes, quién puede consultarlas y quién responde cuando están incompletas. Esas preguntas son nuestra lectura del caso, no una auditoría de cómo opera Sanofi.
 
-Revisen las rutas disponibles y díganme qué producto concreto quieren preparar. Con esa elección vamos a delimitar el trabajo.
+El tercer ejemplo es Mercedes-Benz. Google Cloud documenta el uso de Gemini en su asistente MBUX para conversaciones relacionadas con navegación y puntos de interés. La IA pasa a formar parte de una experiencia que recibe el cliente. Estamos hablando de asistencia conversacional; ese ejemplo no demuestra conducción autónoma. La decisión empresarial incluye integrar la capacidad y comprobar la calidad de la experiencia.
+
+Tenemos así tres posibilidades: ayudar al trabajo cotidiano, consultar conocimiento interno e incorporar una capacidad al producto. Los casos muestran usos reportados por las empresas y sus proveedores; no nos permiten prometer el mismo resultado en otra organización.
+
+Éste será nuestro recorrido de hoy. Primero entenderemos los modelos fundacionales: qué pueden hacer y por qué necesitan contexto. Después me verán preparar y comprobar un resultado en Gemini. Cuando ya hayan visto el procedimiento, elegirán un caso y lo probarán con mi acompañamiento. Tras un descanso de diez minutos, incorporaremos una imagen para entender la multimodalidad. Cerraremos con una decisión propia: qué parte del resultado utilizarían, qué comprobaron y qué sigue pendiente.
+
+La evidencia la iremos construyendo durante la clase. Al final la organizaremos en la entrega A, de veinte puntos. Van a salir con una prueba que puedan explicar y revisar. Para empezar esa explicación, aterricemos la oportunidad en algo concreto: ¿qué trabajo queremos que la IA nos ayude a preparar?
 
 ### Notas de consulta
 
 #### Idea central
 
-Una buena elección es una tarea que hoy podamos describir y revisar. Si elegimos algo demasiado grande, no sabremos si aprendimos a usar la herramienta o simplemente recibimos un texto agradable.
+Los tres casos muestran categorías diferentes: productividad del empleado, consulta de conocimiento interno y experiencia del cliente. Los diagramas simplifican esas categorías; no son capturas de los sistemas reales ni diagramas verificados de sus procesos internos. Las preguntas de liderazgo son interpretación docente y se distinguen de los hechos reportados.
 
 #### Contexto y antecedentes
 
-Esta actividad fija la unidad de trabajo para las tres sesiones. Ayuda a pasar de nombres de departamentos a productos observables: una ficha, una comparación o un borrador. No hace falta que el caso represente toda la empresa. La especialización viene de las entradas y criterios de aceptación, no de escribir un cargo sofisticado en el prompt.
+BBVA comunicó el 12 de diciembre de 2025 una expansión anunciada de ChatGPT Enterprise a más de 120.000 empleados después de una fase con 11.000. No convertir el alcance anunciado en uso efectivo de toda la plantilla. Sanofi describe Claude junto con bibliotecas internas en Concierge en un testimonio publicado por Anthropic. Google Cloud documenta Gemini en MBUX para conversación, navegación y puntos de interés; no se afirma conducción autónoma ni uso exclusivo de un proveedor por Mercedes-Benz.
 
 #### Un ejemplo para contarlo
 
-Si alguien dice «quiero mejorar finanzas», reconduce con «¿qué documento recibe una persona, qué prepara y quién lo utiliza?». Es acompañamiento del caso ya previsto, no una actividad nueva.
+Preguntar mentalmente por el tipo de decisión: acceso y formación en la primera categoría; fuentes y permisos en la segunda; integración y calidad del servicio en la tercera. No presentar estas preguntas como hallazgos de una auditoría de esas empresas. No extrapolar ahorro, retorno ni impacto clínico a los participantes.
+
+#### Una pregunta para conectar
+
+¿Qué aprenderemos hoy y en qué orden? La apertura ocupa 18:00–18:10. Luego siguen teoría con ejemplos hasta 18:30, demostración hasta 18:50 y práctica acompañada hasta 19:15. La elección de ruta ocurre al iniciar esa práctica, después de observar el método. Descanso 19:15–19:25; teoría y demostración visual hasta 19:40; práctica visual hasta 20:05; integración de A hasta 20:20 y cierre hasta 20:30. La clase conserva 25 láminas y 20 puntos para A.
+
+#### Para profundizar
+
+- [BBVA · Alianza con OpenAI, diciembre de 2025](https://www.bbva.com/es/innovacion/bbva-y-openai-sellan-una-alianza-estrategica-para-redefinir-la-banca-con-inteligencia-artificial/) — Distinguir fase de 11.000 empleados de expansión anunciada a más de 120.000.
+- [Anthropic · Claude for Life Sciences](https://www.anthropic.com/news/claude-for-life-sciences) — Testimonio de Sanofi sobre Claude, bibliotecas internas y Concierge; no evidencia de impacto clínico.
+- [Google Cloud · Casos empresariales de IA generativa](https://cloud.google.com/transform/101-real-world-generative-ai-use-cases-from-industry-leaders) — Apartado Mercedes-Benz: Gemini y MBUX para conversación, navegación y puntos de interés.
 
 ## 3. La unidad de análisis es el trabajo
 
@@ -363,7 +397,7 @@ PRÁCTICA · 18:50–19:15 · Horario Guatemala
 
 ### Discurso para exponer
 
-Ahora repetirán el procedimiento con su ruta. No busquen que la IA falle ni que diga lo mismo que yo; busquen evidencia para decidir qué aceptarían.
+Ahora que vieron el procedimiento, abran los casos y elijan una sola variante cercana a su trabajo: seguros, finanzas, operaciones, documentación, formación o tecnología. Si dudan, les ayudaré a escoger una tarea concreta. Conservaremos ese caso durante las tres clases. Pueden conversar en equipo, pero la conclusión y la entrega serán individuales. Ahora repetirán el procedimiento con su ruta. No busquen que la IA falle ni que diga lo mismo que yo; busquen evidencia para decidir qué aceptarían.
 
 Conserven las condiciones de la prueba y tanto lo útil como lo dudoso. No peguen el caso completo: primero encargo y solicitud; después únicamente F1 y F2. Guarden el PNG y su descripción para la segunda parte. Aunque trabajen en equipo, cada persona conserva su conclusión.
 
