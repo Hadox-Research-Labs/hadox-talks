@@ -1,0 +1,5 @@
+## F6 · Incidente de mesa
+
+En la fila P08, un borrador incluyó una referencia a otro expediente ficticio antes de enviarse. No se ha enviado ni se ha demostrado una filtración real. Define quién detiene el envío, quién investiga alcance, qué evidencia conserva, cómo se corrige y qué pruebas debe pasar antes de reanudar. Una primera medida es impedir mezcla de contexto entre solicitudes; justificar si hace falta aislar conversaciones o fuentes. No borrar evidencia para hacer desaparecer el incidente.
+
+Propón una respuesta al incidente con responsable, contención, investigación, corrección y prueba para reanudar. Identifica lo que todavía no sabemos.

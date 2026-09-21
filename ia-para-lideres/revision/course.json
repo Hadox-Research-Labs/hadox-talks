@@ -1,0 +1,989 @@
+[
+  {
+    "id": 1,
+    "title": "Preparar una decisión con IA",
+    "question": "¿Cómo convertimos información dispersa en una decisión mejor preparada?",
+    "topics": "Modelos fundacionales · Multimodalidad",
+    "date": "21 septiembre",
+    "slides": [
+      {
+        "numero": 1,
+        "titulo": "IA para líderes",
+        "minutes": 5,
+        "tipo": "APERTURA",
+        "horario": "18:00–18:05",
+        "question": "¿Qué necesitas saber antes de decidir?",
+        "narration": "Imaginen que mañana tienen comité. Llegan más solicitudes y aumentan las quejas. Una persona pide contratar, otra propone automatizar y otra exige más datos. Ustedes deben preparar una decisión. Ésa será nuestra situación de trabajo.\n\nSoy Edgar Valdés. Hoy vamos a entender de dónde vienen estas capacidades, quién las está utilizando y cómo podemos trabajar con ellas. Verán una demostración completa en Gemini antes de hacer su práctica. Primero construiremos un informe con texto; después incorporaremos una imagen que permite mirar el problema de otra forma.\n\nAl terminar, cada persona tendrá un informe de una página desde su función y podrá explicar qué aportó la IA y qué decidió ella. En las siguientes clases convertiremos una parte del trabajo en un asistente y evaluaremos un piloto. Todo el expediente es ficticio. Para empezar, ¿qué información pedirían antes de recomendar contratar o automatizar? Escuchemos dos respuestas y conservémoslas para el cierre.",
+        "steps": [
+          "0–2 min: bienvenida, situación del comité y resultado de las tres clases.",
+          "2–4 min: escuchar dos necesidades de información; anotarlas sin abrir una actividad.",
+          "4–5 min: presentar el recorrido y conectar con la historia."
+        ],
+        "sources": [],
+        "work": [],
+        "materials": [],
+        "extra": "",
+        "image": "assets/c1-01.png"
+      },
+      {
+        "numero": 2,
+        "titulo": "Cómo llegamos aquí",
+        "minutes": 7,
+        "tipo": "EXPLICACIÓN",
+        "horario": "18:05–18:12",
+        "question": "¿Por qué esta ola de IA cambia quién puede encargar trabajo?",
+        "narration": "La IA tiene una historia más larga que los chats que usamos hoy. La propuesta de Dartmouth de 1955, para un encuentro en 1956, ayudó a nombrar un campo de investigación. Durante décadas convivieron enfoques distintos: reglas que alguien escribe y métodos que aprenden patrones a partir de datos. Esa convivencia sigue siendo útil: una regla, una calculadora y un modelo pueden trabajar juntos.\n\nEn 2017, el Transformer presentó una arquitectura basada en atención. Es un mecanismo para relacionar representaciones de información, no atención consciente. En 2021, el informe de Stanford sobre modelos fundacionales describió bases entrenadas ampliamente que pueden adaptarse a muchos usos. La misma capacidad puede ayudar a redactar, sintetizar o interpretar una entrada, con resultados que dependen de la tarea y el contexto.\n\nEl cambio para un líder también está en la interfaz: puede expresar una necesidad con lenguaje cotidiano, aportar documentos y revisar un producto. Antes de decidir qué adoptar, necesitamos comprender qué parte hace la tecnología y qué parte aporta la organización. Piensen en una regla fija para calcular un descuento y en un encargo para explicar una situación a un comité. ¿Qué necesita cada uno? Esa comparación nos permite entrar al mapa actual sin convertirlo en una lista de marcas.",
+        "steps": [
+          "0–3 min: recorrer los hitos y separar reglas de aprendizaje.",
+          "3–5 min: contraste verbal entre calcular un descuento y redactar una explicación.",
+          "5–7 min: recoger una respuesta y conectar la base compartida con aplicaciones distintas."
+        ],
+        "sources": [
+          {
+            "id": "dartmouth",
+            "title": "Dartmouth · Propuesta de 1955 para el encuentro de 1956",
+            "url": "https://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html",
+            "focus": "Origen del nombre y del programa de investigación; no inicio de toda la computación inteligente."
+          },
+          {
+            "id": "transformer",
+            "title": "Vaswani et al. (2017) · Attention Is All You Need",
+            "url": "https://arxiv.org/abs/1706.03762",
+            "focus": "Antecedente de la arquitectura Transformer; no es una descripción completa de todos los modelos actuales."
+          },
+          {
+            "id": "foundation",
+            "title": "Stanford CRFM (2021) · On the Opportunities and Risks of Foundation Models",
+            "url": "https://arxiv.org/abs/2108.07258",
+            "focus": "Qué significa modelo fundacional y cómo se adapta a distintos usos."
+          }
+        ],
+        "work": [],
+        "materials": [],
+        "extra": "Para ampliar: parámetros son valores aprendidos; entrenamiento los ajusta. Inferencia usa el modelo entrenado. Estos hitos no son una historia exhaustiva ni significan que todas las tecnologías sigan una sola línea evolutiva.",
+        "image": "assets/c1-02.png"
+      },
+      {
+        "numero": 3,
+        "titulo": "Quién desarrolla y dónde trabajamos",
+        "minutes": 8,
+        "tipo": "EXPLICACIÓN",
+        "horario": "18:12–18:20",
+        "question": "¿Qué estamos eligiendo: empresa, modelo o aplicación?",
+        "narration": "Separaremos tres nombres que suelen mezclarse. OpenAI desarrolla modelos de la familia GPT y ofrece ChatGPT como aplicación. Google desarrolla Gemini, nombre que también utiliza su aplicación. Anthropic desarrolla Claude y utiliza ese nombre en sus productos. No hace falta memorizar versiones para comprender la distinción.\n\nEl modelo aporta capacidades; la aplicación ofrece una interfaz, archivos, herramientas y condiciones de acceso. Por eso dos productos que utilizan una familia similar pueden permitir trabajos diferentes. Una licencia de aplicación tampoco es automáticamente acceso a una API para integrar software.\n\nPara nuestro ejercicio usaremos Gemini. Revisaremos el nombre del modelo que muestra la cuenta y lo mantendremos en la comparación. Flash es la opción con la que estamos ensayando; si una cuenta muestra otra opción, hay que registrar cuál se usó y comparar bajo las mismas condiciones. No estamos haciendo un ranking entre proveedores.\n\nAntes de contratar una solución, las preguntas útiles son: qué tarea resuelve, qué información admite, cómo se comprueba la salida y qué acceso permite la organización. Veamos ahora por qué empresas distintas eligen usos distintos.",
+        "steps": [
+          "0–3 min: explicar las tres columnas del mapa.",
+          "3–5 min: pedir un ejemplo de aplicación conocida y ubicarlo.",
+          "5–8 min: explicar los criterios de selección y anticipar la configuración visible de Gemini."
+        ],
+        "sources": [
+          {
+            "id": "openai_models",
+            "title": "OpenAI · Catálogo de modelos",
+            "url": "https://developers.openai.com/api/docs/models",
+            "focus": "Familia GPT y nombres de modelos; API y aplicación no son equivalentes."
+          },
+          {
+            "id": "gemini_models",
+            "title": "Google · Catálogo de modelos Gemini",
+            "url": "https://ai.google.dev/gemini-api/docs/models",
+            "focus": "Modelos y estados estable/preview; no identifica por sí solo el modelo activo en una cuenta."
+          },
+          {
+            "id": "claude_cards",
+            "title": "Anthropic · Model system cards",
+            "url": "https://www.anthropic.com/system-cards",
+            "focus": "Familia Claude y documentación por versión; no implica acceso universal."
+          },
+          {
+            "id": "gemini_files",
+            "title": "Google · Subir y analizar archivos en Gemini",
+            "url": "https://support.google.com/gemini/answer/14903178?hl=es",
+            "focus": "Carga de documentos e imágenes; disponibilidad y límites según cuenta."
+          }
+        ],
+        "work": [],
+        "materials": [],
+        "extra": "Los nombres y funciones cambian. La documentación enlazada sirve para revisar disponibilidad; no inferir el modelo activo en una cuenta a partir del catálogo API.",
+        "image": "assets/c1-03.png"
+      },
+      {
+        "numero": 4,
+        "titulo": "La IA cambia el trabajo y los productos",
+        "minutes": 10,
+        "tipo": "EXPLICACIÓN",
+        "horario": "18:20–18:30",
+        "question": "¿Qué cambia para el empleado y qué cambia para el cliente?",
+        "narration": "Miremos dos usos públicos y luego nuestro ejercicio. BBVA describe aplicaciones de ChatGPT en trabajo interno, como localizar información, preparar documentos y apoyar marketing. Lo interesante para esta clase es el trabajo que se prepara y cómo se incorpora a una función; una cifra de licencias por sí sola no explica ese cambio.\n\nMercedes-Benz anunció capacidades de conversación sobre navegación y puntos de interés con Gemini sobre Vertex AI. Aquí la capacidad forma parte de la experiencia del cliente. Ese uso no demuestra conducción autónoma. Los dos ejemplos corresponden a descripciones de las organizaciones, no a resultados que podamos trasladar automáticamente a nuestra empresa.\n\nEn cada caso podemos preguntar: qué necesidad había, qué información utiliza la solución, qué producto entrega y quién responde por su uso. Ésas serán nuestras cuatro preguntas de lectura. En Nexo construiremos una versión pequeña de trabajo interno: un informe para dirección. No reproduciremos la infraestructura de un banco ni la de un vehículo.\n\nPiensen en su función. ¿Les interesa preparar mejor un trabajo interno o incorporar una capacidad al servicio que recibe su usuario? Escuchemos dos ejemplos y señalemos qué cambia en los datos, responsables y producto esperado.",
+        "steps": [
+          "0–4 min: contar el caso de trabajo interno; señalar problema, herramienta y producto.",
+          "4–7 min: contrastar con experiencia de cliente.",
+          "7–10 min: dos intervenciones del grupo y síntesis de la decisión empresarial."
+        ],
+        "sources": [
+          {
+            "id": "bbva_work",
+            "title": "BBVA · Usos internos de ChatGPT, enero de 2025",
+            "url": "https://www.bbva.com/es/innovacion/bbva-ya-incorpora-chatgpt-para-agilizar-consultas-legales-y-los-procesos-de-marketing/",
+            "focus": "Casos reportados por la empresa: documentación, consultas y marketing. No promesa de resultados para Nexo."
+          },
+          {
+            "id": "mercedes",
+            "title": "Mercedes-Benz · Conversación y navegación con Gemini",
+            "url": "https://group.mercedes-benz.com/technology/innovation/collaboration/ai-powered-conversational-search.html",
+            "focus": "Anuncio de enero de 2025: Gemini sobre Vertex AI en el asistente MBUX. No conducción autónoma."
+          }
+        ],
+        "work": [],
+        "materials": [],
+        "extra": "",
+        "image": "assets/c1-04.png"
+      },
+      {
+        "numero": 5,
+        "titulo": "La región también está experimentando",
+        "minutes": 10,
+        "tipo": "EXPLICACIÓN",
+        "horario": "18:30–18:40",
+        "question": "¿Qué podemos aprender de experiencias cercanas sin suponer que son iguales?",
+        "narration": "El contexto regional permite hacer preguntas más cercanas. En Guatemala, Banrural reporta en su memoria 2025 un asistente generativo en WhatsApp y Messenger, apoyado en conocimiento de sus productos y servicios. En Costa Rica, TEC y CCSS documentan formación y desarrollo de prototipos para retos de salud pública. Son estados diferentes: una implementación reportada y una experiencia de formación y prototipado.\n\nLa diferencia importa al evaluar un caso. Una demostración enseña posibilidad; una implementación requiere operación; un resultado medido necesita condiciones y datos que podamos revisar. No vamos a atribuir a las personas del grupo participación en proyectos por el nombre de su empresa.\n\nNuestro expediente representa un servicio regional ficticio con operaciones en Guatemala, El Salvador y Costa Rica. No trae datos separados por país: no podremos comparar su desempeño nacional. Sí podremos trabajar necesidades compartidas, como solicitudes incompletas, claridad de información y coordinación.\n\nPara aterrizarlo, nombren un documento o pregunta que atraviesa varias áreas de su organización. No necesitan revelar datos internos. Ese tipo de fricción explica por qué el mismo caso puede tener lecturas desde operaciones, finanzas, tecnología, salud administrativa o formación.",
+        "steps": [
+          "0–4 min: casos de Guatemala y Costa Rica, distinguiendo alcance de evidencia.",
+          "4–7 min: escuchar fricciones de coordinación sin datos reservados.",
+          "7–10 min: conectar con las cuatro perspectivas del expediente."
+        ],
+        "sources": [
+          {
+            "id": "banrural",
+            "title": "Banrural · Memoria de labores 2025",
+            "url": "https://www.banrural.com.gt/memoria2025",
+            "focus": "Implementación reportada de asistente generativo en WhatsApp y Messenger."
+          },
+          {
+            "id": "ccss",
+            "title": "TEC y CCSS · Formación y prototipos, diciembre de 2025",
+            "url": "https://www.tec.ac.cr/tec-ccss-impulsan-uso-inteligencia-artificial-resolver-retos-salud-publica",
+            "focus": "Trabajo institucional de formación y prototipos; no afirmar despliegue clínico generalizado."
+          },
+          {
+            "id": "guatemala",
+            "title": "UNIS Business School · Estudio empresarial de IA 2025",
+            "url": "https://unisbs.edu.gt/wp-content/uploads/sites/3/2025/09/UBS_CIHE_ESTUDIOAI_2025.pdf",
+            "focus": "Encuesta a ejecutivos; muestra no representativa de todas las empresas de Guatemala."
+          }
+        ],
+        "work": [],
+        "materials": [],
+        "extra": "El estudio de UNIS es lectura opcional sobre ejecutivos; su muestra no representa estadísticamente a todas las empresas de Guatemala. El ejemplo regional Nexo es una construcción docente, no un caso atribuido.",
+        "image": "assets/c1-05.png"
+      },
+      {
+        "numero": 6,
+        "titulo": "Qué hace el modelo con nuestro encargo",
+        "minutes": 10,
+        "tipo": "EXPLICACIÓN",
+        "horario": "18:40–18:50",
+        "question": "¿Qué cambia cuando aportamos los documentos correctos?",
+        "narration": "El esquema distingue entrenamiento e inferencia. Entrenar modifica parámetros aprendidos; usar el modelo para producir una respuesta es inferencia. Al aportar un reporte a una conversación damos contexto. Ese acto, por sí solo, no demuestra que hayamos reentrenado el modelo.\n\nLos modelos de lenguaje trabajan con tokens, unidades que pueden ser palabras, partes de palabras o signos. La atención calcula relaciones entre representaciones. Para nuestro trabajo interesa una consecuencia: el encargo y la información disponible influyen en lo que puede preparar la respuesta. Una solicitud de tono profesional no sustituye un dato que falta.\n\nAhora miren mi pantalla. Abro Gemini, verifico el modelo seleccionado y empiezo una conversación nueva. El primer botón de la mesa de trabajo copia un encargo completo sin documentos. El segundo repite exactamente ese encargo y agrega F1, F2 y el catálogo F3. Se pega en otra conversación con el mismo modelo. No necesitan reconstruir el prompt por partes.\n\nDespués del descanso descargaremos V1 y la adjuntaremos como imagen. Por ahora no cargamos el ZIP ni la imagen. Vamos a observar qué producto podemos preparar con la solicitud sola y qué mejora al incorporar el expediente.",
+        "steps": [
+          "0–4 min: explicar entrenamiento, inferencia y contexto con el diagrama.",
+          "4–7 min: mostrar chat nuevo, selector de modelo y campo de texto.",
+          "7–10 min: ubicar los botones completos de la mesa de trabajo; confirmar que todos saben dónde encontrarla."
+        ],
+        "sources": [
+          {
+            "id": "foundation",
+            "title": "Stanford CRFM (2021) · On the Opportunities and Risks of Foundation Models",
+            "url": "https://arxiv.org/abs/2108.07258",
+            "focus": "Qué significa modelo fundacional y cómo se adapta a distintos usos."
+          },
+          {
+            "id": "tokens",
+            "title": "Google AI for Developers · Tokens y ventana de contexto",
+            "url": "https://ai.google.dev/gemini-api/docs/tokens",
+            "focus": "Unidades de procesamiento, límites de contexto y consumo."
+          },
+          {
+            "id": "gpt3",
+            "title": "Brown et al. (2020) · Language Models are Few-Shot Learners",
+            "url": "https://arxiv.org/abs/2005.14165",
+            "focus": "Aprendizaje en contexto mediante instrucciones y ejemplos, sin actualizar parámetros en cada tarea."
+          },
+          {
+            "id": "gemini_files",
+            "title": "Google · Subir y analizar archivos en Gemini",
+            "url": "https://support.google.com/gemini/answer/14903178?hl=es",
+            "focus": "Carga de documentos e imágenes; disponibilidad y límites según cuenta."
+          }
+        ],
+        "work": [],
+        "materials": [],
+        "extra": "",
+        "image": "assets/c1-06.png"
+      },
+      {
+        "numero": 7,
+        "titulo": "Mañana hay comité",
+        "minutes": 25,
+        "tipo": "DEMOSTRACIÓN",
+        "horario": "18:50–19:15",
+        "question": "¿Qué aporta el expediente a la recomendación inicial?",
+        "narration": "Vamos a preparar una reunión. Nexo recibe más solicitudes y escucha quejas por demoras. Copiaré el encargo completo sin fuentes. Antes de enviarlo, hagan una predicción: ¿podrá recomendar algo y qué tendría que preguntar? Guardaremos la respuesta, incluso si pide información.\n\nAhora abriré otra conversación con el mismo modelo y usaré el botón con expediente. Incluye el reporte operativo, ocho comentarios seleccionados y el catálogo del servicio. Mientras responde, miraremos los documentos: cada semana entran y salen solicitudes, y la cola es lo que sigue abierto. Una solicitud cerrada puede haber entrado antes.\n\nCompararemos un hallazgo, una hipótesis y una alternativa. La IA puede preparar una estructura útil para discutir, pero nosotros elegimos qué fundamento aceptar. Si escribe que algo no tiene costo, preguntaremos qué evidencia lo demuestra. Si propone cambiar la clasificación, evaluaremos qué necesita para probarlo.\n\nEl resultado es un informe para continuar una conversación de dirección. Antes de corregir estilo, comprobaré con ustedes un dato y la relación con su fuente. Después pediremos una mejora breve del texto. Identifiquen dónde hubo síntesis, comparación y redacción. Conserven esa observación para su propia prueba.",
+        "steps": [
+          "0–4 min: leer el encargo y recoger una predicción.",
+          "4–9 min: ejecutar SIN fuentes; guardar salida.",
+          "9–15 min: chat nuevo, mismo modelo, ejecutar CON expediente; guardar salida.",
+          "15–20 min: comparar un hallazgo, una hipótesis y una alternativa; comprobar la cola final.",
+          "20–25 min: mejorar una frase del informe y explicar el trabajo adelantado."
+        ],
+        "sources": [],
+        "work": [
+          "sin",
+          "con"
+        ],
+        "materials": [
+          "CASO_NEXO.md",
+          "PLANTILLA_A.md"
+        ],
+        "extra": "Si no hay acceso, usar la respuesta docente de referencia identificada como ejemplo, o analizar la demostración observada. No atribuirla a una ejecución real del alumno. No hace falta que la primera respuesta falle.",
+        "image": "assets/c1-07.png"
+      },
+      {
+        "numero": 8,
+        "titulo": "Descanso",
+        "minutes": 10,
+        "tipo": "DESCANSO",
+        "horario": "19:15–19:25",
+        "question": "¿Qué podría aportar una imagen?",
+        "narration": "Tenemos diez minutos de descanso. Regresamos a las siete veinticinco. Conserven las respuestas. Después incorporaremos una fuente visual para revisar la recomendación que acabamos de preparar.",
+        "steps": [
+          "Descanso completo de 19:15 a 19:25. No añadir una tarea durante la pausa."
+        ],
+        "sources": [],
+        "work": [],
+        "materials": [],
+        "extra": "",
+        "image": "assets/c1-08.png"
+      },
+      {
+        "numero": 9,
+        "titulo": "Una imagen puede cambiar la pregunta",
+        "minutes": 15,
+        "tipo": "DEMOSTRACIÓN",
+        "horario": "19:25–19:40",
+        "question": "¿Qué cambia al conocer cómo se distribuye la cola?",
+        "narration": "El reporte escrito mostraba cuántas solicitudes quedaron abiertas. La imagen añade cómo se distribuyen en ese corte. Multimodalidad significa trabajar con distintos tipos de información; aquí relacionaremos texto e imagen. OCR reconoce caracteres y un modelo multimodal puede relacionar información visual con el encargo.\n\nDescargo V1, adjunto el PNG a la conversación con expediente y pego el prompt visual. No le escribiré los números que quiero que lea. Primero observaremos qué campos extrajo y después comprobaremos la suma y su relación con F1.\n\nUna distribución de estados puede orientar preguntas distintas: documentación, clasificación, revisión especializada o dependencia de un proveedor. No identifica por sí sola la causa de una demora. Quiero que vean qué alternativa gana fundamento, cuál necesita más información y qué parte del informe sigue siendo útil.\n\nMiren el antes y el después. El producto no tiene que cambiar por completo; una pregunta mejor formulada ya puede mejorar la reunión. En su práctica conservarán una evidencia concreta del campo visual y del efecto que tuvo en su recomendación.",
+        "steps": [
+          "0–3 min: explicar multimodalidad y mostrar cómo adjuntar un PNG.",
+          "3–7 min: adjuntar V1 y ejecutar revisión en el chat con expediente.",
+          "7–11 min: localizar categorías y suma; relacionarlas con la cola de F1.",
+          "11–15 min: comparar recomendaciones y guardar la versión revisada."
+        ],
+        "sources": [
+          {
+            "id": "clip",
+            "title": "Radford et al. (2021) · CLIP",
+            "url": "https://arxiv.org/abs/2103.00020",
+            "focus": "Antecedente de representaciones que relacionan imágenes y lenguaje."
+          },
+          {
+            "id": "gemini_files",
+            "title": "Google · Subir y analizar archivos en Gemini",
+            "url": "https://support.google.com/gemini/answer/14903178?hl=es",
+            "focus": "Carga de documentos e imágenes; disponibilidad y límites según cuenta."
+          }
+        ],
+        "work": [
+          "lectura",
+          "visual"
+        ],
+        "materials": [
+          "NEXO_V1.png",
+          "PLANTILLA_A.md"
+        ],
+        "extra": " Primero adjunta V1 y pide una lectura simple. Si la carga falla, vuelve a adjuntarla en ese mismo mensaje. Sólo después de verificar los números solicita la revisión del informe. Si la herramienta sigue sin verla, usa la transcripción explícita como contingencia y registra que no se completó la prueba multimodal.",
+        "image": "assets/c1-09.png"
+      },
+      {
+        "numero": 10,
+        "titulo": "Un expediente, distintas decisiones",
+        "minutes": 30,
+        "tipo": "PRÁCTICA",
+        "horario": "19:40–20:10",
+        "question": "¿Qué necesita tu función para llevar una propuesta al comité?",
+        "narration": "Ahora trabajan ustedes. Elijan una perspectiva en la mesa de trabajo: dirección, operaciones, finanzas y control, o tecnología y conocimiento. Dentro de esta última pueden enfocar documentación, formación, datos o seguridad. Son formas de mirar el mismo expediente; pueden elegir por interés, sin quedar asignados por su cargo.\n\nEl botón sin fuentes ya incluye el encargo de esa perspectiva. Péguenlo en una conversación nueva. Guarden la salida. En otra conversación con el mismo modelo, peguen el botón con expediente. Comparen qué cambió. Después adjunten V1 a esa segunda conversación y utilicen el prompt visual.\n\nEl producto es un informe de una página para una decisión propia de su función. Anoten una capacidad que ayudó, un fragmento que mejoró con fuentes y un campo comprobado de la imagen. Si trabajan juntos, cada persona debe explicar su propia conclusión.\n\nQuienes terminen antes pueden probar qué ocurre al cambiar una condición o pedir una salida estructurada, sin mezclar esa extensión con la comparación principal. Yo voy a acompañar dudas sobre las fuentes y la interpretación; no buscamos una respuesta idéntica a la del profesor.",
+        "steps": [
+          "0–3 min: elegir perspectiva y ubicar los tres botones.",
+          "3–10 min: ejecutar sin y con fuentes en chats separados; conservar ambas respuestas.",
+          "10–18 min: adjuntar V1, comprobar un campo y revisar informe.",
+          "18–25 min: decidir qué aceptar y qué falta investigar.",
+          "25–30 min: compartir un hallazgo breve y completar evidencia individual."
+        ],
+        "sources": [],
+        "work": [
+          "sin",
+          "con",
+          "visual"
+        ],
+        "materials": [
+          "CASO_NEXO.md",
+          "NEXO_V1.png",
+          "PLANTILLA_A.md"
+        ],
+        "extra": "Profundización opcional: pedir la salida en una tabla de hallazgo/fuente/hipótesis/acción, o modificar una entrada en una tercera prueba y documentar qué cambió. No suma puntos por complejidad.",
+        "image": "assets/c1-10.png"
+      },
+      {
+        "numero": 11,
+        "titulo": "Tu decisión tiene que poder explicarse",
+        "minutes": 15,
+        "tipo": "ENTREGA",
+        "horario": "20:10–20:25",
+        "question": "¿Otra persona puede reconstruir tu razonamiento?",
+        "narration": "Vamos a organizar lo que ya hicieron. Entrega A conserva veinte puntos y cuatro criterios: relacionar necesidad con capacidad; comparar las respuestas; integrar fuentes; y comprobar el resultado y sus límites.\n\nRegistren cinco cosas: perspectiva y decisión buscada; encargo, modelo y condiciones; comparación sin y con fuentes; campo visual y su efecto; decisión propia y siguiente paso. Pueden acompañar el informe de una página con una bitácora breve y fragmentos de las salidas. No vuelvan a producir el trabajo desde cero.\n\nUna conclusión distinta de la mía puede estar mejor sustentada. Lo que necesitamos ver es cómo llegaron a ella. Revisen especialmente si una causa está demostrada o es una hipótesis, y si un recurso que proponen tiene un costo conocido o pendiente. Escucharemos dos propuestas para comparar qué información necesita cada función.",
+        "steps": [
+          "0–5 min: completar los cinco campos con evidencia recogida.",
+          "5–10 min: revisar los cuatro criterios de A, cinco puntos cada uno.",
+          "10–15 min: escuchar dos recomendaciones y una pregunta pendiente de cada una."
+        ],
+        "sources": [],
+        "work": [],
+        "materials": [
+          "GUIA_1.md"
+        ],
+        "extra": "",
+        "image": "assets/c1-11.png"
+      },
+      {
+        "numero": 12,
+        "titulo": "Lo que llevarías a la siguiente reunión",
+        "minutes": 5,
+        "tipo": "CIERRE",
+        "horario": "20:25–20:30",
+        "question": "¿Qué parte del trabajo querrías repetir con un asistente?",
+        "narration": "Volvamos a la pregunta inicial. Ahora podemos llevar un hallazgo sustentado, una alternativa razonada y una pregunta que falta resolver. La IA ayudó a organizar y producir trabajo; su decisión depende de cómo interpretan y comprueban ese producto.\n\nDos preguntas finales: al aportar el expediente, ¿cambiamos el contexto o demostramos entrenamiento? Al agregar la imagen, ¿qué dato observamos y qué conclusión todavía necesita investigación? Escuchemos respuestas y aclaremos lo que haga falta.\n\nLa próxima clase tomaremos una parte concreta del proceso: preparar respuestas de servicio con instrucciones reutilizables, un catálogo y pruebas. Conservamos Nexo y la perspectiva elegida. Primero aprendimos a preparar una decisión; ahora diseñaremos cómo repetir una parte del trabajo.",
+        "steps": [
+          "0–2 min: recuperar dos preguntas del inicio.",
+          "2–4 min: comprobación oral de contexto y multimodalidad.",
+          "4–5 min: continuidad hacia el asistente de clase 2."
+        ],
+        "sources": [
+          {
+            "id": "foundation",
+            "title": "Stanford CRFM (2021) · On the Opportunities and Risks of Foundation Models",
+            "url": "https://arxiv.org/abs/2108.07258",
+            "focus": "Qué significa modelo fundacional y cómo se adapta a distintos usos."
+          },
+          {
+            "id": "clip",
+            "title": "Radford et al. (2021) · CLIP",
+            "url": "https://arxiv.org/abs/2103.00020",
+            "focus": "Antecedente de representaciones que relacionan imágenes y lenguaje."
+          }
+        ],
+        "work": [],
+        "materials": [],
+        "extra": "",
+        "image": "assets/c1-12.png"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Diseñar un asistente y su operación",
+    "question": "¿Qué podemos delegar, con qué acceso y quién responde?",
+    "topics": "Copilots y agentes · Automatización",
+    "date": "28 septiembre",
+    "slides": [
+      {
+        "numero": 1,
+        "titulo": "Del resultado al asistente",
+        "minutes": 5,
+        "tipo": "APERTURA",
+        "horario": "18:00–18:05",
+        "question": "¿Qué parte del informe puede convertirse en trabajo repetible?",
+        "narration": "La clase pasada preparamos una decisión. Hoy escogeremos una pieza del trabajo de Nexo: clasificar una solicitud y preparar una respuesta con el catálogo. El responsable seguirá revisando la comunicación. El objetivo es que el comportamiento pueda describirse, probarse y discutirse con TI.\n\nVamos a distinguir copilot, flujo y agente; configurar o simular un asistente; revisar diez solicitudes; y terminar con un encargo de implementación. La salida de hoy alimentará el piloto de la siguiente clase. Recuperen una acción propuesta en su informe: ¿qué entrada recibiría y qué producto tendría que entregar?",
+        "steps": [
+          "0–2 min: recuperar A y definir continuidad.",
+          "2–5 min: dos ejemplos de entrada y salida; fijar la tarea común."
+        ],
+        "sources": [],
+        "work": [],
+        "materials": [],
+        "extra": "",
+        "image": "assets/c2-01.png"
+      },
+      {
+        "numero": 2,
+        "titulo": "Tres formas de delegar",
+        "minutes": 10,
+        "tipo": "EXPLICACIÓN",
+        "horario": "18:05–18:15",
+        "question": "¿Quién elige los pasos y quién ejecuta las acciones?",
+        "narration": "Usaremos tres distinciones prácticas. Un copilot apoya a una persona que conduce el trabajo. Un flujo sigue pasos definidos: recibir, clasificar, preparar y revisar. En un sistema con agentes, el modelo puede seleccionar pasos y herramientas según el objetivo y lo que encuentra. Los nombres comerciales no bastan para saber qué hace un producto.\n\nLa autonomía se observa en acciones y permisos. Un asistente puede redactar una solicitud de cambio sin tener permiso para ejecutarla. Otro sistema puede consultar información mediante herramientas y necesitar aprobación antes de escribir en un registro.\n\nPensemos en Nexo. Preparar un borrador desde un catálogo puede resolverse con instrucciones y contexto. Consultar un estado vivo requiere una conexión. Actualizarlo requiere además autoridad. ¿Qué nivel necesitamos para la primera prueba y cuál añade costo o complejidad? Ésa es una decisión de diseño que el negocio debe compartir con TI.",
+        "steps": [
+          "0–4 min: explicar los tres mecanismos.",
+          "4–7 min: ubicar lectura, propuesta y escritura en Nexo.",
+          "7–10 min: pedir una elección de alcance y su razón."
+        ],
+        "sources": [
+          {
+            "id": "agents",
+            "title": "Anthropic (2024) · Building effective agents",
+            "url": "https://www.anthropic.com/engineering/building-effective-agents",
+            "focus": "Diferencia entre flujos predefinidos y selección dinámica de pasos por el modelo."
+          },
+          {
+            "id": "tools",
+            "title": "Google AI for Developers · Function calling",
+            "url": "https://ai.google.dev/gemini-api/docs/function-calling",
+            "focus": "El modelo propone una llamada y la aplicación ejecuta la función autorizada."
+          }
+        ],
+        "work": [],
+        "materials": [],
+        "extra": "La distinción de flujos y agentes sigue el marco práctico de Anthropic de 2024. El artículo avisa que las herramientas han evolucionado; usamos la distinción conceptual, no sus versiones de producto como receta actual.",
+        "image": "assets/c2-02.png"
+      },
+      {
+        "numero": 3,
+        "titulo": "Dónde entra el asistente",
+        "minutes": 10,
+        "tipo": "EXPLICACIÓN",
+        "horario": "18:15–18:25",
+        "question": "¿Qué cambia en el proceso y qué sigue haciendo una persona?",
+        "narration": "Dibujemos el recorrido de una solicitud: llega, se clasifica, se prepara una respuesta, alguien la revisa y finalmente se registra lo autorizado. El asistente de hoy trabajará en clasificación y preparación. Esa frontera permite medir si realmente ayuda.\n\nNecesitamos especificar la entrada mínima, el producto y el siguiente responsable. Si la solicitud no tiene ID, pedirlo es parte del trabajo. Si exige una compensación, hay que llevar la decisión al responsable. Un procedimiento puede mejorar incluso sin IA, por ejemplo aclarando un formulario o manteniendo un catálogo actualizado.\n\nDesde su perspectiva, señalen dónde se pierde información o se repite una actividad. Tecnología puede necesitar campos y accesos; operación necesita reglas para derivar; formación necesita que las personas entiendan el nuevo procedimiento. Esa conversación define la función del asistente antes de elegir la integración.",
+        "steps": [
+          "0–4 min: recorrer el proceso y marcar alcance del asistente.",
+          "4–7 min: cada perspectiva identifica una necesidad.",
+          "7–10 min: separar mejora de proceso y capacidad de IA."
+        ],
+        "sources": [],
+        "work": [],
+        "materials": [],
+        "extra": "",
+        "image": "assets/c2-03.png"
+      },
+      {
+        "numero": 4,
+        "titulo": "Un encargo que puede reutilizarse",
+        "minutes": 10,
+        "tipo": "EXPLICACIÓN",
+        "horario": "18:25–18:35",
+        "question": "¿Qué instrucción debe permanecer aunque cambie la solicitud?",
+        "narration": "Una configuración reutilizable tiene un propósito, fuentes autorizadas, formato de salida y una conducta cuando falta información. El catálogo de Nexo distingue consultas de estado, revisión documental y consultas técnicas. No necesitamos inventar un departamento nuevo para definir esta primera pieza.\n\nLe pediremos conservar el ID, identificar la regla aplicada y preparar un borrador breve. Si falta catálogo o un dato necesario, debe pedirlo. Si hay contradicción o una petición fuera de autoridad, debe escalar. Estas instrucciones permanecen mientras cambian las solicitudes.\n\nUn Gem, cuando la cuenta lo permite, puede guardar instrucciones reutilizables. También podemos probar la lógica en una conversación nueva pegando la configuración completa. Esa alternativa demuestra comportamiento conversacional; no demuestra persistencia empresarial ni una conexión a sistemas. Primero comprobaremos la función y después discutiremos la forma de operarla.",
+        "steps": [
+          "0–4 min: explicar las cuatro partes de la configuración.",
+          "4–7 min: leer dos reglas de F3 y su efecto en una salida.",
+          "7–10 min: mostrar la alternativa de Gem o chat de configuración."
+        ],
+        "sources": [
+          {
+            "id": "gems",
+            "title": "Google · Cómo usar Gems",
+            "url": "https://support.google.com/gemini/answer/15236405?hl=en",
+            "focus": "Instrucciones reutilizables; confirmar disponibilidad en la cuenta usada."
+          },
+          {
+            "id": "gemsfiles",
+            "title": "Google · Crear y gestionar Gems",
+            "url": "https://support.google.com/gemini/answer/15146780?hl=en-IN",
+            "focus": "Configuración, vista previa y archivos de conocimiento."
+          }
+        ],
+        "work": [],
+        "materials": [
+          "ASISTENTE_NEXO.md"
+        ],
+        "extra": "",
+        "image": "assets/c2-04.png"
+      },
+      {
+        "numero": 5,
+        "titulo": "Construimos el asistente Nexo",
+        "minutes": 20,
+        "tipo": "DEMOSTRACIÓN",
+        "horario": "18:35–18:55",
+        "question": "¿La configuración produce el comportamiento que necesitamos?",
+        "narration": "Voy a abrir una conversación nueva y pegar la configuración completa, incluido el catálogo. Si usamos un Gem, estas instrucciones van en su configuración y las fuentes en el lugar que habilite la cuenta. En ambos casos registraré cómo lo hice.\n\nPrimero enviaré T01, una solicitud de estado con ID y fuente disponible. Miraremos si prepara el borrador sin inventar acceso al sistema. Después T02, donde falta el ID. Compararemos qué conserva y qué pide. La capacidad útil está en preparar el siguiente paso adecuado para cada entrada.\n\nSi el asistente se sale del alcance, ajustaremos una instrucción concreta y conservaremos qué cambió. Una mejora en dos ejemplos no demuestra funcionamiento general. Por eso viene una batería pequeña de diez solicitudes con condiciones diferentes. Ustedes podrán configurar el asistente o analizar la ejecución observada y dejarlo declarado.",
+        "steps": [
+          "0–5 min: chat nuevo o Gem, configuración completa y catálogo.",
+          "5–10 min: ejecutar T01; revisar ID, estado y borrador.",
+          "10–15 min: ejecutar T02; comprobar petición de ID.",
+          "15–20 min: explicar una corrección si hace falta y registrar configuración usada."
+        ],
+        "sources": [
+          {
+            "id": "gemsfiles",
+            "title": "Google · Crear y gestionar Gems",
+            "url": "https://support.google.com/gemini/answer/15146780?hl=en-IN",
+            "focus": "Configuración, vista previa y archivos de conocimiento."
+          }
+        ],
+        "work": [
+          "asistente"
+        ],
+        "materials": [
+          "ASISTENTE_NEXO.md",
+          "DIEZ_PRUEBAS.md",
+          "PLANTILLA_B.md"
+        ],
+        "extra": "",
+        "image": "assets/c2-05.png"
+      },
+      {
+        "numero": 6,
+        "titulo": "Diez solicitudes, una prueba visible",
+        "minutes": 20,
+        "tipo": "PRÁCTICA",
+        "horario": "18:55–19:15",
+        "question": "¿Qué pasa cuando la entrada cambia?",
+        "narration": "La mesa de trabajo contiene diez solicitudes. Hay entradas normales, incompletas, contradictorias y fuera de alcance. Pueden enviarlas como lote para practicar la lectura comparada, conservando una fila por ID. En una solución real también habría que comprobar aislamiento entre conversaciones y repetir pruebas.\n\nRevisen el resultado frente a la referencia. Marquen cumple, corregir o escalar, y señalen el fragmento que justifica su evaluación. No basta con que la salida use la palabra escalar: importa que no revele otro expediente ni prometa una resolución que no puede asegurar.\n\nCada persona conserva la tabla de diez pruebas y elige dos para explicar con detalle, una normal y otra excepcional. Si la cuenta limita la ejecución, pueden analizar las respuestas observadas en la demostración, indicándolo. Después del descanso veremos qué cambiaría al conectar herramientas y asignar permisos.",
+        "steps": [
+          "0–3 min: revisar entradas y referencia de evaluación.",
+          "3–10 min: ejecutar o analizar las diez solicitudes.",
+          "10–17 min: marcar resultados y seleccionar dos ejemplos explicados.",
+          "17–20 min: recoger un fallo o duda y conservar evidencia."
+        ],
+        "sources": [],
+        "work": [
+          "pruebas",
+          "corregir"
+        ],
+        "materials": [
+          "DIEZ_PRUEBAS.md",
+          "PLANTILLA_B.md"
+        ],
+        "extra": "Profundización: ejecutar T05 y T08 en conversaciones aisladas y comparar. El conjunto de diez casos no certifica seguridad ni permite estimar una tasa de error estable. En la prueba docente de Flash del 21/09 se observó que pidió el catálogo interno al cliente y afirmó una canalización no ejecutada. Úsalos como ejemplos de revisión, no como fallos que necesariamente aparecerán en cada cuenta. El botón de corrección permite repetir cinco solicitudes.",
+        "image": "assets/c2-06.png"
+      },
+      {
+        "numero": 7,
+        "titulo": "Descanso",
+        "minutes": 10,
+        "tipo": "DESCANSO",
+        "horario": "19:15–19:25",
+        "question": "¿Qué le permitirías hacer sin aprobación?",
+        "narration": "Tenemos diez minutos de descanso. Regresamos a las siete veinticinco. Conserven configuración y resultados. Al volver conectaremos la prueba con accesos, herramientas y responsabilidades.",
+        "steps": [
+          "Descanso de 19:15 a 19:25."
+        ],
+        "sources": [],
+        "work": [],
+        "materials": [],
+        "extra": "",
+        "image": "assets/c2-07.png"
+      },
+      {
+        "numero": 8,
+        "titulo": "Conectar también es dar autoridad",
+        "minutes": 15,
+        "tipo": "EXPLICACIÓN",
+        "horario": "19:25–19:40",
+        "question": "¿Qué cambia entre consultar, proponer y ejecutar?",
+        "narration": "Una API permite que programas interactúen. El modelo puede proponer una llamada a una herramienta; la aplicación valida y ejecuta lo permitido, y devuelve el resultado. Esas piezas necesitan identidad, permisos, manejo de fallos y registros. Escribir en el chat «ya lo registré» no prueba que haya ocurrido.\n\nEn Nexo podemos diseñar tres niveles: consultar estado, proponer una actualización y ejecutar un cambio autorizado. Hoy simularemos el registro en una tabla; no conectaremos sistemas reales. Eso deja visible dónde hace falta aprobación.\n\nSi una herramienta falla, la salida debe explicar qué quedó sin ejecutar. Si falta permiso, el flujo debe detener esa acción. La pregunta ejecutiva es concreta: ¿qué acción tiene valor suficiente para justificar una conexión y cómo sabemos que se realizó? Comparen una solución en navegador con un flujo conectado y nombren una condición adicional de operación.",
+        "steps": [
+          "0–5 min: explicar el ciclo de llamada y ejecución.",
+          "5–10 min: simular una propuesta de actualización y su aprobación en una tabla.",
+          "10–15 min: discutir fallo de herramienta y permiso de escritura."
+        ],
+        "sources": [
+          {
+            "id": "tools",
+            "title": "Google AI for Developers · Function calling",
+            "url": "https://ai.google.dev/gemini-api/docs/function-calling",
+            "focus": "El modelo propone una llamada y la aplicación ejecuta la función autorizada."
+          },
+          {
+            "id": "mcp",
+            "title": "Model Context Protocol · Arquitectura",
+            "url": "https://modelcontextprotocol.io/docs/learn/architecture",
+            "focus": "Host, cliente y servidor para conectar aplicaciones con herramientas y recursos."
+          }
+        ],
+        "work": [],
+        "materials": [],
+        "extra": "MCP es una forma de conectar aplicaciones con herramientas y recursos; no sustituye autorización ni concede acceso automáticamente. Es lectura opcional para perfiles técnicos.",
+        "image": "assets/c2-08.png"
+      },
+      {
+        "numero": 9,
+        "titulo": "Quién se hace cargo",
+        "minutes": 15,
+        "tipo": "EXPLICACIÓN",
+        "horario": "19:40–19:55",
+        "question": "¿Qué funciones deben existir aunque todavía no haya un departamento de IA?",
+        "narration": "Antes de crear puestos, asignemos responsabilidades. Negocio define el resultado y decide si sirve. Operación revisa las salidas y resuelve excepciones. TI habilita acceso e integración. Quienes administran datos y seguridad definen fuentes, permisos y condiciones de uso. Una persona puede asumir varias funciones en una organización pequeña.\n\nPara crecer, puede convenir una coordinación compartida que mantenga estándares y apoye a las áreas, con responsables de cada proceso. La estructura se justifica por necesidades y volumen; hoy no tenemos datos para recomendar un organigrama universal.\n\nEn nuestro caso, escriban quién mantiene el catálogo, quién aprueba el borrador y quién responde si aparece otro expediente. Después identifiquen qué capacitación necesita el usuario para interpretar la salida. Esa asignación convierte una demostración en una propuesta operativa discutible.",
+        "steps": [
+          "0–5 min: explicar responsabilidades y posibles acumulaciones de roles.",
+          "5–10 min: asignarlas por función en Nexo.",
+          "10–15 min: discutir mantenimiento del catálogo y capacitación."
+        ],
+        "sources": [
+          {
+            "id": "rmf",
+            "title": "NIST · AI Risk Management Framework",
+            "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+            "focus": "Marco voluntario de gestión de riesgos; no es una certificación del curso."
+          }
+        ],
+        "work": [],
+        "materials": [],
+        "extra": "",
+        "image": "assets/c2-09.png"
+      },
+      {
+        "numero": 10,
+        "titulo": "Diseña la operación de tu asistente",
+        "minutes": 20,
+        "tipo": "PRÁCTICA",
+        "horario": "19:55–20:15",
+        "question": "¿Configurar, comprar o desarrollar, y por qué?",
+        "narration": "Ahora preparen el diseño desde su perspectiva. Mantengan la tarea que probamos: clasificar y preparar una respuesta. Describan entrada, salida, acción permitida, excepción, responsable y prueba para aceptar el producto. Pueden señalar qué parte adaptarían a su trabajo, sin cambiar silenciosamente los resultados de las diez pruebas.\n\nComparen tres caminos: configurar una aplicación disponible, adquirir una solución para el proceso o desarrollar una integración. La elección depende de requisitos, sistemas existentes, datos y capacidad de mantenerla. Registren qué costo o función necesitan investigar antes de comprometerse.\n\nEl resultado es un encargo de implementación de una página. Una persona de TI debería poder responder qué puede habilitar, qué falta definir y qué debe probar. Quienes tengan más experiencia pueden añadir un esquema de campos y un ejemplo de fallo de conexión.",
+        "steps": [
+          "0–5 min: describir el proceso y su autoridad.",
+          "5–12 min: comparar tres caminos y justificar una elección provisional.",
+          "12–17 min: definir accesos, responsables y prueba de aceptación.",
+          "17–20 min: revisar si un colega entiende el encargo."
+        ],
+        "sources": [],
+        "work": [],
+        "materials": [
+          "GUIA_2.md"
+        ],
+        "extra": "",
+        "image": "assets/c2-10.png"
+      },
+      {
+        "numero": 11,
+        "titulo": "El pedido que TI puede evaluar",
+        "minutes": 10,
+        "tipo": "ENTREGA",
+        "horario": "20:15–20:25",
+        "question": "¿Tu propuesta une proceso, pruebas, tecnología y responsables?",
+        "narration": "Entrega B reúne el proceso diseñado, la tabla de diez pruebas y el encargo a TI. Conserva cuatro criterios de cinco puntos: proceso y autoridad, pruebas, decisión tecnológica y responsables con encargo. Identifiquen si configuraron, ejecutaron u observaron la demostración.\n\nRevisen que la elección tecnológica responda a una necesidad concreta. Si sólo hace falta preparar un borrador, expliquen por qué proponen una integración o por qué prefieren posponerla. Si hubo un fallo, dejarlo documentado con una medida y otra prueba es más útil que ocultarlo.\n\nEl encargo debe permitir decidir el siguiente paso y quién lo llevará a cabo. En la próxima sesión usaremos datos ficticios de costos y un piloto simulado para revisar si conviene avanzar.",
+        "steps": [
+          "0–5 min: completar B con configuración, pruebas y encargo.",
+          "5–10 min: revisar los cuatro criterios y una decisión tecnológica."
+        ],
+        "sources": [],
+        "work": [],
+        "materials": [
+          "GUIA_2.md"
+        ],
+        "extra": "",
+        "image": "assets/c2-11.png"
+      },
+      {
+        "numero": 12,
+        "titulo": "Repetir una prueba no demuestra retorno",
+        "minutes": 5,
+        "tipo": "CIERRE",
+        "horario": "20:25–20:30",
+        "question": "¿Qué tendríamos que medir para decidir si vale la pena?",
+        "narration": "Hoy definimos una forma de trabajo, probamos condiciones distintas y asignamos responsabilidades. Todavía necesitamos observar cuánto tiempo requiere, qué calidad produce y cuánto cuesta mantenerlo.\n\nLa siguiente clase comparará una mejora de proceso sin IA, asistencia en navegador e integración. Conservamos los resultados de B como evidencia de comportamiento. Los datos del piloto docente serán un conjunto separado y claramente identificado. Antes de salir, nombren un indicador de valor y una condición que impediría ampliar el uso.",
+        "steps": [
+          "0–3 min: escuchar un indicador de valor y una condición de detención.",
+          "3–5 min: explicar continuidad hacia C y el memo final."
+        ],
+        "sources": [],
+        "work": [],
+        "materials": [],
+        "extra": "",
+        "image": "assets/c2-12.png"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Defender una inversión con evidencia",
+    "question": "¿Qué merece avanzar y bajo qué condiciones?",
+    "topics": "Analítica aumentada · Límites, riesgos y oportunidades",
+    "date": "5 octubre",
+    "slides": [
+      {
+        "numero": 1,
+        "titulo": "Qué inversión merece avanzar",
+        "minutes": 5,
+        "tipo": "APERTURA",
+        "horario": "18:00–18:05",
+        "question": "¿Qué autorizarías con la evidencia que tenemos?",
+        "narration": "Llegamos a la decisión de inversión. Tenemos un informe y una prueba de asistente. Hoy compararemos alternativas con números explícitos, revisaremos un piloto docente y resolveremos un incidente de mesa. El objetivo es argumentar si conviene avanzar, rediseñar o detenerse.\n\nLos costos y mediciones del expediente son ficticios. No son precios comerciales ni resultados de nuestras conversaciones. Mantendremos separadas esas fuentes y utilizaremos la IA para organizar análisis que podamos comprobar. Al cierre tendrán C y un memo de hasta dos páginas que integra el trabajo de las tres clases.",
+        "steps": [
+          "0–2 min: recuperar A y B.",
+          "2–5 min: presentar alternativas y distinguir datos simulados de pruebas propias."
+        ],
+        "sources": [],
+        "work": [],
+        "materials": [],
+        "extra": "",
+        "image": "assets/c3-01.png"
+      },
+      {
+        "numero": 2,
+        "titulo": "Tiempo, valor y dinero no son lo mismo",
+        "minutes": 15,
+        "tipo": "EXPLICACIÓN",
+        "horario": "18:05–18:20",
+        "question": "¿Qué beneficio estamos midiendo realmente?",
+        "narration": "Una tarea puede requerir menos preparación y más revisión. Por eso calculamos tiempo neto: el tiempo manual menos preparación y revisión asistidas. Si queda capacidad disponible, debemos decidir cómo se utilizará.\n\nValorar una hora interna ayuda a comparar recursos. No convierte esa hora automáticamente en dinero que deja de salir de caja. Si la nómina continúa igual, no tenemos un ahorro de nómina demostrado. También podemos tener un servicio mensual que sí representa pago incremental.\n\nEn Nexo usamos Q80 por hora como supuesto docente de valoración. El tiempo de preparación inicial lo realiza personal existente: cuenta como costo de oportunidad y se distingue de una factura adicional. Si aparece ingreso o margen, necesitaríamos datos y una relación defendible para atribuirlo al cambio.\n\nAntes de abrir Gemini, indiquen en F4 qué conceptos son tiempo, cuáles son valoración y cuáles salida de caja. Esa separación evita tomar una decisión apoyada en cifras que parecen comparables y significan cosas diferentes.",
+        "steps": [
+          "0–5 min: tiempo bruto frente a tiempo neto.",
+          "5–10 min: clasificar capacidad, valor y caja en F4.",
+          "10–15 min: comprobar un ejemplo y discutir uso de capacidad liberada."
+        ],
+        "sources": [],
+        "work": [],
+        "materials": [
+          "F4_F5_F6_PILOTO.md"
+        ],
+        "extra": "",
+        "image": "assets/c3-02.png"
+      },
+      {
+        "numero": 3,
+        "titulo": "Tres alternativas para Nexo",
+        "minutes": 20,
+        "tipo": "EXPLICACIÓN",
+        "horario": "18:20–18:40",
+        "question": "¿Qué opción resuelve la necesidad con una exigencia razonable?",
+        "narration": "La alternativa A mejora el proceso sin IA. La B utiliza asistencia en navegador. La C integra sistemas. Comparten un volumen supuesto de trescientas solicitudes al mes y una línea base de ocho minutos por solicitud. Compararemos preparación, revisión, servicio mensual y preparación inicial.\n\nLos tiempos propuestos son hipótesis que el piloto tendría que contrastar. Una solución más integrada puede ahorrar más preparación y exigir más costo y mantenimiento. Una mejora de proceso puede tener menor complejidad y seguir siendo valiosa.\n\nAntes de calcular, formulen qué tendría que ser cierto para preferir cada alternativa. Después miren si contamos con ese dato o sólo con un supuesto. El objetivo no es elegir siempre IA ni siempre la opción más barata; es reconocer qué resultado esperamos y qué exige conseguirlo.\n\nCada perspectiva puede poner énfasis en algo distinto: servicio, capacidad, presupuesto, acceso o mantenimiento. La comparación será común y la recomendación deberá explicar qué criterio utiliza.",
+        "steps": [
+          "0–5 min: leer A/B/C y definir unidades.",
+          "5–10 min: cada alternativa recibe una condición para tener sentido.",
+          "10–15 min: distinguir supuestos de observaciones.",
+          "15–20 min: anticipar la comparación y verificar que no falta un costo clave."
+        ],
+        "sources": [],
+        "work": [],
+        "materials": [
+          "F4_F5_F6_PILOTO.md"
+        ],
+        "extra": "",
+        "image": "assets/c3-03.png"
+      },
+      {
+        "numero": 4,
+        "titulo": "Que el análisis deje ver sus cuentas",
+        "minutes": 20,
+        "tipo": "DEMOSTRACIÓN",
+        "horario": "18:40–19:00",
+        "question": "¿Puedes reconstruir el cálculo sin confiar en la redacción?",
+        "narration": "Abrimos el prompt completo de análisis. Para B, el tiempo total supuesto es cinco minutos de preparación y uno de revisión: seis frente a ocho manuales. Dos minutos netos por trescientos casos equivalen a diez horas al mes. Valoradas a Q80, representan Q800 de capacidad.\n\nRestar Q450 del servicio deja Q350 de balance económico recurrente bajo los supuestos. El mes uno también considera seis horas de preparación inicial, valoradas en Q480. La caja incremental del servicio y la valoración del tiempo se muestran por separado.\n\nVamos a pedir las tres alternativas y comprobar una fila con calculadora. Si el análisis vuelve a restar la revisión después de descontarla del tiempo ahorrado, estaría contándola dos veces. Si llama ahorro de caja a toda la capacidad valorada, cambia el significado del resultado.\n\nTerminen señalando cuál alternativa parece atractiva bajo estos supuestos y qué cambio podría hacerles elegir otra. Enseguida moveremos una condición para observar esa sensibilidad.",
+        "steps": [
+          "0–4 min: abrir F4 y ejecutar prompt de análisis.",
+          "4–10 min: comprobar B con calculadora y revisar fórmula de A/C.",
+          "10–15 min: separar balance recurrente, mes 1 y caja.",
+          "15–20 min: formular una recomendación provisional y su condición."
+        ],
+        "sources": [],
+        "work": [
+          "analisis"
+        ],
+        "materials": [
+          "F4_F5_F6_PILOTO.md",
+          "PLANTILLA_C.md"
+        ],
+        "extra": "",
+        "image": "assets/c3-04.png"
+      },
+      {
+        "numero": 5,
+        "titulo": "Qué tendría que cambiar para decidir",
+        "minutes": 15,
+        "tipo": "PRÁCTICA",
+        "horario": "19:00–19:15",
+        "question": "¿En qué condición deja de convenir tu alternativa?",
+        "narration": "Ahora cambien una sola condición. Pueden reducir el volumen a ciento cincuenta solicitudes, aumentar dos minutos la revisión de B o duplicar su servicio mensual. Mantengan las demás variables para ver qué explica la diferencia.\n\nEscriban el supuesto original, el nuevo cálculo y el efecto en la recomendación. La sensibilidad no predice qué va a pasar: muestra a qué depende nuestra decisión. También ayuda a elegir qué medir primero en un piloto.\n\nQuien avance más puede calcular el volumen al que la capacidad valorada igualaría el costo mensual del servicio, aclarando que ese punto de equilibrio económico no significa ahorro de caja. Compartamos dos resultados distintos y observemos por qué pueden llevar a prioridades diferentes.",
+        "steps": [
+          "0–3 min: elegir una condición.",
+          "3–10 min: recalcular con IA y comprobar una operación.",
+          "10–15 min: explicar efecto sobre la decisión."
+        ],
+        "sources": [],
+        "work": [],
+        "materials": [
+          "F4_F5_F6_PILOTO.md"
+        ],
+        "extra": "",
+        "image": "assets/c3-05.png"
+      },
+      {
+        "numero": 6,
+        "titulo": "Descanso",
+        "minutes": 10,
+        "tipo": "DESCANSO",
+        "horario": "19:15–19:25",
+        "question": "¿Qué resultado del piloto cambiaría tu opinión?",
+        "narration": "Pausa de diez minutos. Regresamos a las siete veinticinco con su alternativa y el supuesto que más cambia la decisión. Después compararemos expectativas con un piloto simulado.",
+        "steps": [
+          "Descanso de 19:15 a 19:25."
+        ],
+        "sources": [],
+        "work": [],
+        "materials": [],
+        "extra": "",
+        "image": "assets/c3-06.png"
+      },
+      {
+        "numero": 7,
+        "titulo": "La evidencia del piloto",
+        "minutes": 20,
+        "tipo": "DEMOSTRACIÓN",
+        "horario": "19:25–19:45",
+        "question": "¿Menor tiempo basta para ampliar el uso?",
+        "narration": "F5 es un piloto docente simulado de diez casos. La columna manual suma ochenta minutos. Preparación asistida y revisión se suman antes de comparar. La misma tabla incluye dos fallos críticos. Son observaciones del conjunto simulado, no resultados de nuestras pruebas de Gemini.\n\nVamos a pedir totales, medias y una lectura ejecutiva. Después comprobaremos la suma y miraremos las filas no aceptables. El tiempo medido no incluye remediar esos fallos: no representa el costo completo de una operación que ya podamos dar por buena.\n\nUna extrapolación a trescientos casos puede ayudarnos a formular una hipótesis de valor. Hay que distinguirla de lo observado en diez casos y preguntar si las condiciones y tipos de solicitud son comparables. Ahora decidan: ¿ampliarían, corregirían o detendrían esta prueba, y con qué evidencia para volver a revisar?",
+        "steps": [
+          "0–5 min: inspeccionar columnas y origen simulado.",
+          "5–10 min: ejecutar análisis y comprobar totales.",
+          "10–15 min: revisar fallos y costo de remediación no incluido.",
+          "15–20 min: comparar decisión del grupo con la recomendación de la IA."
+        ],
+        "sources": [],
+        "work": [
+          "piloto"
+        ],
+        "materials": [
+          "PILOTO.csv",
+          "F4_F5_F6_PILOTO.md",
+          "PLANTILLA_C.md"
+        ],
+        "extra": "",
+        "image": "assets/c3-07.png"
+      },
+      {
+        "numero": 8,
+        "titulo": "Una respuesta cruzó el límite",
+        "minutes": 15,
+        "tipo": "SIMULACIÓN",
+        "horario": "19:45–20:00",
+        "question": "¿Quién contiene, investiga y autoriza volver a operar?",
+        "narration": "En el incidente ficticio P08, un borrador incluyó una referencia a otro expediente antes de enviarse. No se ha enviado ni hemos demostrado una filtración real. Tenemos que definir una respuesta proporcional a lo observado y averiguar el alcance.\n\nPrimero alguien detiene el envío y conserva evidencia. Después se investiga cómo se mezcló la información, qué otras salidas pueden estar afectadas y qué acceso tenía el sistema. La corrección puede incluir aislar contexto y fuentes, además de volver a probar.\n\nDividamos la conversación por funciones: operación contiene, TI investiga, el responsable de datos revisa alcance y negocio decide condiciones de reanudación con esas evidencias. Una persona puede cubrir más de una función. El producto es un plan breve con acción, responsable, evidencia y condición para reabrir la prueba.",
+        "steps": [
+          "0–3 min: leer F6 y separar hechos de incógnitas.",
+          "3–10 min: respuesta de mesa por funciones.",
+          "10–15 min: acordar corrección y prueba para reanudar."
+        ],
+        "sources": [
+          {
+            "id": "rmf",
+            "title": "NIST · AI Risk Management Framework",
+            "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+            "focus": "Marco voluntario de gestión de riesgos; no es una certificación del curso."
+          },
+          {
+            "id": "genairisk",
+            "title": "NIST (2024) · Generative AI Profile, AI 600-1",
+            "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+            "focus": "Riesgos de IA generativa, incluida la confabulación."
+          }
+        ],
+        "work": [
+          "incidente"
+        ],
+        "materials": [
+          "F4_F5_F6_PILOTO.md",
+          "PLANTILLA_C.md"
+        ],
+        "extra": "",
+        "image": "assets/c3-08.png"
+      },
+      {
+        "numero": 9,
+        "titulo": "La oportunidad cambia con la industria",
+        "minutes": 10,
+        "tipo": "EXPLICACIÓN",
+        "horario": "20:00–20:10",
+        "question": "¿Qué cambia al trasladar una capacidad a otro entorno?",
+        "narration": "Una capacidad de síntesis y respuesta puede apoyar pedidos en distribución, conocimiento en atención o información de navegación en movilidad. El parecido técnico no hace iguales las decisiones ni la evidencia que requieren.\n\nRecordemos los casos públicos del inicio: trabajo interno y experiencia del cliente. Ahora tenemos más preguntas para evaluarlos: qué tarea está integrada, qué fuente se mantiene, quién responde y cómo se mide. Las tres escenas de esta lámina son escenarios de aplicación, no afirmaciones sobre una empresa concreta.\n\nDesde su función, propongan una oportunidad y nombren una condición que cambiaría al trasladarla a su industria. Para salud o registros, pueden trabajar apoyo administrativo y documental; para operaciones, evidencia de activos o servicio. La recomendación debe reconocer esos requisitos específicos.",
+        "steps": [
+          "0–4 min: comparar distribución, atención y movilidad.",
+          "4–8 min: dos oportunidades del grupo con requisito sectorial.",
+          "8–10 min: preparar el apartado de oportunidad de C."
+        ],
+        "sources": [
+          {
+            "id": "mercedes",
+            "title": "Mercedes-Benz · Conversación y navegación con Gemini",
+            "url": "https://group.mercedes-benz.com/technology/innovation/collaboration/ai-powered-conversational-search.html",
+            "focus": "Anuncio de enero de 2025: Gemini sobre Vertex AI en el asistente MBUX. No conducción autónoma."
+          },
+          {
+            "id": "banrural",
+            "title": "Banrural · Memoria de labores 2025",
+            "url": "https://www.banrural.com.gt/memoria2025",
+            "focus": "Implementación reportada de asistente generativo en WhatsApp y Messenger."
+          }
+        ],
+        "work": [],
+        "materials": [],
+        "extra": "",
+        "image": "assets/c3-09.png"
+      },
+      {
+        "numero": 10,
+        "titulo": "Defiende una oportunidad concreta",
+        "minutes": 20,
+        "tipo": "ENTREGA",
+        "horario": "20:10–20:30",
+        "question": "¿Qué propones y qué evidencia te haría cambiar de opinión?",
+        "narration": "Entrega C conserva cuatro criterios de cinco puntos: cálculos, límites y riesgos, oportunidad sectorial y condiciones de ejecución. Usen la comparación A/B/C, la lectura del piloto y la respuesta al incidente.\n\nExpresen una decisión provisional: avanzar con una prueba acotada, rediseñar o detenerse. Incluyan el cálculo que más pesa, un supuesto sensible y una condición de calidad o riesgo. La oportunidad sectorial debe explicar qué cambia al llevar la capacidad a su función.\n\nPueden usar la IA para ordenar el texto, pero deben comprobar las operaciones y distinguir sus pruebas reales de los datos docentes. Antes de pasar al memo, revisen si otra persona puede identificar qué autorizan, quién sería responsable y cuándo volverían a evaluar.",
+        "steps": [
+          "0–8 min: completar C con cálculos y decisión.",
+          "8–14 min: integrar límite, riesgo y oportunidad sectorial.",
+          "14–20 min: comprobar criterios y preparar evidencia para el memo."
+        ],
+        "sources": [],
+        "work": [],
+        "materials": [
+          "GUIA_3.md"
+        ],
+        "extra": "",
+        "image": "assets/c3-10.png"
+      },
+      {
+        "numero": 11,
+        "titulo": "El memo que llega al comité",
+        "minutes": 20,
+        "tipo": "ENTREGA",
+        "horario": "20:30–20:50",
+        "question": "¿Puedes sostener la decisión en dos páginas?",
+        "narration": "El memo final reúne el recorrido de las tres clases. A muestra qué capacidad ayudó y con qué información. B muestra cómo repetir el trabajo, sus pruebas y responsables. C muestra el análisis de valor, los riesgos y las condiciones para avanzar.\n\nOrganícenlo en cuatro partes: decisión y alternativa; evidencia con sus límites; recursos y ejecución; y condiciones para revisar. Hasta dos páginas. Cada parte vale diez puntos. El texto debe permitir a un comité entender qué se le está pidiendo autorizar ahora.\n\nSi utilizan el prompt de edición, primero aporten su evidencia. El asistente debe señalar los huecos, no inventar una prueba exitosa ni datos de su empresa. La defensa será suya: preparen una explicación de un minuto y una respuesta a la objeción más fuerte.",
+        "steps": [
+          "0–3 min: recuperar A/B/C y estructura del memo.",
+          "3–15 min: redactar o editar hasta dos páginas.",
+          "15–20 min: revisar coherencia entre decisión, evidencia y recursos."
+        ],
+        "sources": [],
+        "work": [
+          "memo"
+        ],
+        "materials": [
+          "GUIA_3.md",
+          "PLANTILLA_C.md"
+        ],
+        "extra": "",
+        "image": "assets/c3-11.png"
+      },
+      {
+        "numero": 12,
+        "titulo": "Una decisión con condiciones",
+        "minutes": 10,
+        "tipo": "CIERRE",
+        "horario": "20:50–21:00",
+        "question": "¿Qué autorizamos ahora y qué todavía necesita evidencia?",
+        "narration": "Escuchemos algunas decisiones. Cada persona que intervenga tiene un minuto: qué propone, cuál evidencia pesa más y en qué condición cambiaría de opinión. El grupo puede hacer una pregunta sobre un supuesto o un riesgo. La discusión es formativa; la entrega individual conserva sus criterios.\n\nDurante el curso pasamos de observar una capacidad a diseñar una operación y defender una decisión. Vimos historia, usos globales y regionales, trabajamos con texto e imagen, distinguimos formas de delegar y comprobamos análisis.\n\nConserven el caso como referencia de un método: definir un trabajo, aportar información, observar el producto, probar condiciones y decidir qué siguiente paso merece recursos. En su organización, ese recorrido necesitará sus fuentes, responsables y evidencia propia.",
+        "steps": [
+          "0–7 min: tres defensas breves y preguntas.",
+          "7–9 min: aclarar un supuesto o riesgo recurrente.",
+          "9–10 min: cierre y organización de entregas."
+        ],
+        "sources": [],
+        "work": [],
+        "materials": [],
+        "extra": "",
+        "image": "assets/c3-12.png"
+      }
+    ]
+  }
+]

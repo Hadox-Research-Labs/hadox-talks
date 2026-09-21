@@ -1,0 +1,13 @@
+Prepara una comparación ejecutiva de las alternativas A/B/C usando F4. Para cada una muestra: horas mensuales manuales, horas asistidas o del proceso mejorado, capacidad neta liberada, valor de esa capacidad, servicio mensual, preparación inicial valorada, balance recurrente y balance del mes 1. Explica fórmulas y unidades. Separa capacidad valorada de caja incremental. Indica que todos los beneficios son supuestos y qué datos podrían cambiar la decisión. No recomiendes por el mayor ahorro bruto únicamente.
+
+# F4 · Alternativas del piloto · Supuestos docentes
+
+Datos ficticios para aprender a comparar, no precios de proveedores ni pronósticos. Volumen comparable: 300 solicitudes al mes. Línea base: 8 minutos por solicitud. Valor de referencia del tiempo interno: Q80/h. No hay reducción de nómina, venta adicional ni ahorro de caja comprometido. Preparación inicial se realiza con personal existente; valorar su tiempo como costo de oportunidad, no salida incremental de caja.
+
+| Alternativa | Preparación por caso | Revisión adicional por caso | Servicio mensual | Preparación inicial |
+|---|---:|---:|---:|---:|
+| A · Mejorar proceso sin IA | 7 min | 0 min | Q0 | 4 h |
+| B · Asistencia en navegador | 5 min | 1 min | Q450 | 6 h |
+| C · Integración con sistemas | 3 min | 1 min | Q1,200 | 30 h |
+
+Todos los tiempos de A/B/C son supuestos a contrastar, no observaciones. El servicio mensual es salida incremental de caja. Valor del tiempo neto menos servicio = balance económico recurrente bajo esos supuestos, no ahorro de caja. El mes 1 resta además el valor de preparación inicial. No volver a restar la revisión si ya se descontó del tiempo ahorrado.
