@@ -17,6 +17,7 @@
   $('guide-link').href=`materiales/0${course.id}_GUIA_CLASE_${course.id}.pdf`;
   $('pdf-link').href=`materiales/EXPOSICION_${course.id}.pdf`;
   $('assignment-link').href=`materiales/0${course.id}_GUIA_CLASE_${course.id}.pdf`;
+  $('notes-link').href=course.notes;
   
   $('slide-select').innerHTML=course.slides.map((s,i)=>`<option value="${i}">${i+1} / ${course.slides.length} · ${esc(s.titulo)}</option>`).join('');
   $('slide-outline').innerHTML=course.slides.map((s,i)=>`<li><button data-index="${i}">${i+1}. ${esc(s.titulo)}<span>${esc(s.tipo)} · ${s.horario}</span></button></li>`).join('');
@@ -32,6 +33,11 @@
   function render(){
     const s=course.slides[index];$('slide-image').src=s.image;$('slide-image').alt=`Lámina ${index+1}. ${s.titulo}`;
     $('slide-type').textContent=s.tipo;$('slide-time').textContent=s.horario;$('narration-text').textContent=s.narration;
+    const prep=s.preparation;
+    $('preparation-label').textContent=`Preparar la lámina ${index+1} · ${s.titulo}`;
+    $('preparation-content').innerHTML=prep.sections.map(section=>`<section class="note-section${section.kind==='Ampliación'?' note-spoken':''}"><h3>${esc(section.label)}</h3><p>${esc(section.text)}</p></section>`).join('');
+    $('preparation-sources').hidden=!prep.sources.length;
+    $('source-list').innerHTML=prep.sources.map(ref=>`<li><a href="${esc(ref.url)}" target="_blank" rel="noopener noreferrer">${esc(ref.title)} <span aria-hidden="true">↗</span></a><p>${esc(ref.focus)}</p></li>`).join('');
     $('fullscreen-caption').textContent=`${index+1}/${course.slides.length} · ${s.titulo} · ← → cambiar · Esc salir`;
     $('slide-select').value=String(index);$('previous').disabled=index===0;$('next').disabled=index===course.slides.length-1;
     $('progress').max=course.slides.length;$('progress').value=index+1;
