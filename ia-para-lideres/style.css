@@ -4,3 +4,6 @@
 #exitFull{display:none}#screen:fullscreen #exitFull{display:block}
 
 #exitFull{display:none}#screen:fullscreen #exitFull{display:block}
+
+/* Optional presenter notes: quiet expandable text under the spoken script. */
+.speaker-reserve{border-top:2px solid var(--ink);margin-top:40px;padding-top:24px;font-size:16px;line-height:1.65}.speaker-reserve h3{font-size:24px}.reserve-intro{color:var(--muted)}.speaker-reserve summary{padding:14px 0;min-height:48px;font-size:16px;font-weight:600;line-height:1.5}.resource-group{border-top:1px solid var(--line);margin-top:18px}.business-case,.speaker-extension{border-top:1px solid var(--line);margin:0 0 0 14px;padding:0 0 4px}.speaker-reserve summary span{display:block;font-weight:400;font-size:14px;color:var(--muted);padding-left:20px}.speaker-reserve dl{margin:10px 0 20px}.speaker-reserve dt{font-weight:700;font-size:14px;margin-top:12px}.speaker-reserve dd{margin:2px 0 0}.resource-label,.resource-cue{color:var(--muted);font-size:14px}.resource-links{font-size:14px;overflow-wrap:anywhere}.resource-download{margin-top:24px;font-size:14px}@media(max-width:600px){.business-case,.speaker-extension{margin-left:5px}.speaker-reserve summary{font-size:15px}.speaker-reserve h3{font-size:21px}}

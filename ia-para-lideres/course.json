@@ -73,19 +73,19 @@
       },
       {
         "numero": 3,
-        "titulo": "El mapa del machine learning",
+        "titulo": "Tu maestría de IA: capacidades y negocios",
         "minutes": 12,
         "tipo": "EXPLICACIÓN",
         "horario": "18:12–18:24",
-        "question": "¿Qué capacidad de IA necesita realmente el problema de tu organización?",
-        "narration": "Miren este mapa antes de pensar en una marca. Cuando una empresa dice «necesito inteligencia artificial», todavía falta entender qué trabajo quiere resolver. Aquí hay sistemas que descubren grupos, otros que estiman cantidades y otros que aprenden a actuar. Vamos a recorrer el dibujo del centro hacia afuera. Conserven una pregunta: ¿en qué parte de este mapa está un problema de su organización?\n\nEn el centro está machine learning: aprender patrones a partir de datos o experiencia. La prueba importante es qué ocurre con casos diferentes de los usados para aprender. Memorizar el historial de una empresa no garantiza que el sistema responda bien mañana. Las tres familias muestran distintas formas de aprovechar esa experiencia. Son una orientación para pensar, no departamentos aislados: una solución real puede combinar técnicas.\n\nEmpecemos por la izquierda, en azul. Aprendizaje no supervisado: tenemos datos, pero no entregamos una respuesta correcta para cada registro. Imaginen una tabla con cientos de variables sobre miles de clientes. La reducción de dimensionalidad intenta construir una representación más pequeña que conserve información relevante. Meaningful compression es esa compresión útil: resumir sin perder lo que importa para la tarea. Structure Discovery busca estructuras y relaciones que no habíamos advertido. Feature Elicitation habla de obtener características aprovechables: transformar muchas mediciones en señales con las que trabajar. Big data Visualisation permite llevar datos de muchas dimensiones a una representación que podamos explorar. Al proyectar perdemos información; dos puntos cercanos en el dibujo no prueban que dos clientes sean iguales en todo.\n\nBajemos a clustering, agrupación por similitud. Customer Segmentation encuentra grupos con comportamientos parecidos. Targeted Marketing utiliza esos grupos para plantear propuestas distintas. Recommender Systems puede aprovechar semejanzas entre personas o productos para sugerir algo relevante. Son trabajos conectados, pero diferentes: descubrir un grupo, decidir cómo tratarlo y recomendarle algo. Los recomendadores también usan otras técnicas. Encontrar un segmento por sí solo no demuestra que una campaña vaya a funcionar. Como líderes tenemos que preguntar qué variables produjeron el grupo y qué decisión justifica.\n\nAhora la derecha, en terracota. Aprendizaje supervisado: proporcionamos ejemplos con resultados conocidos. Clasificación responde a una categoría o a su probabilidad. Fraud Detection busca operaciones sospechosas: si se equivoca puede dejar pasar fraude o molestar a un cliente legítimo. Image Classification permite reconocer, por ejemplo, una imagen de una pieza defectuosa. Customer Retention suele empezar por estimar quién podría abandonar el servicio; después hay que probar qué intervención realmente ayuda a conservarlo. Diagnostics puede clasificar posibles fallos de una máquina a partir de sus señales. Señalen conmigo las cuatro aplicaciones: el tipo de dato cambia, pero estamos aprendiendo a distinguir categorías. Fraude también puede abordarse como detección de anomalías; el mapa ilustra posibilidades, no exclusividades.\n\nLa otra rama supervisada es regresión: estimamos un valor numérico. Forecasting lleva eso al futuro, como demanda de la próxima semana. Predictions es más amplio: también podemos estimar el coste de algo que todavía no conocemos. Process Optimization usa predicciones para comparar decisiones, pero necesita además un objetivo y restricciones: saber cuánto tarda una operación no decide automáticamente cómo reorganizarla. New Insights representa información que obtenemos sobre relaciones entre variables. Si dos cosas se mueven juntas, eso todavía no demuestra que una cause la otra. Piensen en la diferencia entre preguntar «¿este cliente abandonará?» y «¿cuántas solicitudes llegarán?»: la formulación cambia el problema técnico y la manera de evaluar el resultado.\n\nVayamos abajo, al aprendizaje por refuerzo, en ocre. Aquí un agente actúa en un entorno y aprende una política mediante recompensas. La decisión de ahora modifica lo que podrá hacer después. Real-Time Decisions abre el problema de actuar a tiempo mientras cambia el entorno. Una respuesta rápida no implica que el sistema esté aprendiendo en ese instante: puede usar una política entrenada previamente.\n\nGame AI merece detenernos. Imaginen StarCraft: no ven todo lo que hace el rival, tienen recursos limitados y deben decidir entre invertir, explorar o atacar. Una ventaja inmediata puede arruinar su posición posterior. AlphaStar, de DeepMind, combinó aprendizaje a partir de partidas humanas con aprendizaje por refuerzo. Los juegos permiten investigar decisiones encadenadas y evaluar estrategias en un entorno definido. La analogía con dirección resulta interesante por la incertidumbre y la asignación de recursos; trasladar una técnica a una empresa exige otro trabajo de validación. La IA de los videojuegos también incluye reglas y búsqueda.\n\nRobot Navigation lleva esas decisiones al espacio físico: llegar a un destino, evitar obstáculos y responder a lo que detectan los sensores. Skill Acquisition consiste en aprender habilidades reutilizables, como caminar, girar o agarrar un objeto. Learning Tasks es una etiqueta más amplia para aprender a resolver una tarea con un objetivo: recoger y colocar objetos puede exigir varias habilidades. Por eso conservamos las cinco etiquetas. Estrategia de juego, navegación, habilidad y tarea abren preguntas diferentes sobre lo que queremos que un sistema aprenda y cómo comprobarlo.\n\nAhora ubiquemos lo que haremos hoy. Los modelos fundacionales y generativos amplían este panorama. Este mapa clásico no dibuja por separado el aprendizaje autosupervisado: en muchos modelos de lenguaje, el propio texto proporciona la señal para aprender a predecir tokens. En su desarrollo también pueden intervenir ajuste supervisado y métodos de refuerzo. Deep learning describe una familia de modelos basada en redes neuronales, no una cuarta rama paralela a estas tres. Un mismo modelo puede participar en tareas distintas.\n\nEn esta clase utilizaremos un modelo ya entrenado para trabajar con texto y una imagen. Cuando agreguemos documentos a Gemini, estaremos aportando contexto para la respuesta; no estaremos entrenando desde cero un clasificador o un robot. ¿Qué capacidad de este mapa les serviría en su organización, y qué dato necesitarían para comprobarla? Escuchemos una respuesta breve. Con esa distinción ahora sí tiene sentido conocer quién desarrolla los modelos y en qué aplicaciones podemos utilizarlos.",
+        "question": "¿Qué negocio o mejora empresarial puede construirse con cada capacidad?",
+        "narration": "Aquí tienen su maestría de inteligencia artificial, cortesía del Dr. Valdés. Tómenle una foto, porque este mapa les va a ayudar a entender qué les están vendiendo cuando alguien llega a su empresa diciendo que trae inteligencia artificial. Vamos a recorrerlo con una pregunta: ¿qué problema resuelve cada cosa y dónde podría estar el negocio?\n\nEn el centro está machine learning: sistemas que aprenden patrones a partir de datos o experiencia. Alrededor hay distintas maneras de aprender. Miren las ramas como un portafolio de capacidades. Una empresa puede necesitar varias a la vez, y también puede vender un servicio construido sobre una de ellas. Empecemos por la izquierda, en azul.\n\nAprendizaje no supervisado significa explorar estructura sin entregar una respuesta correcta para cada registro. En reducción de dimensionalidad, Meaningful compression consiste en conservar lo útil de muchos datos en una representación más pequeña. Imaginen una fábrica con cientos de señales: una oportunidad sería ofrecer monitoreo que reduzca esa complejidad y ayude a detectar cuándo cambia la operación. Structure Discovery busca relaciones que no estaban claras. Una consultora podría explorar patrones de devoluciones por producto, canal y temporada, para formular mejores preguntas sobre lo que está ocurriendo.\n\nFeature Elicitation obtiene características que otro análisis pueda aprovechar. Una empresa que recibe registros de maquinaria podría convertirlos en señales útiles para modelos de mantenimiento. Big data Visualisation permite explorar muchas variables mediante una representación visible: un servicio de inteligencia comercial podría mostrar qué sucursales o productos se parecen y cuáles merecen investigación. Estas cuatro aplicaciones ayudan a representar y explorar información. Una proyección atractiva o un patrón curioso todavía necesita validación antes de convertirse en una decisión.\n\nBajemos a clustering. Customer Segmentation identifica grupos de comportamiento: una distribuidora puede descubrir que atender a todos sus compradores de la misma manera desperdicia oportunidades. Targeted Marketing utiliza esas diferencias para diseñar y probar campañas; ahí puede existir una agencia especializada que cobre por operar experimentos comerciales y medir su resultado. Recommender Systems ayuda a seleccionar productos o contenidos relevantes. Una tienda podría contratar recomendaciones como servicio. Netflix es un caso documentado de personalización, aunque su sistema combina métodos y no se explica sólo por clustering. El negocio propuesto sería facilitar una elección útil; habría que demostrar su efecto sobre compras, permanencia o satisfacción.\n\nPasemos a la derecha, en terracota. En aprendizaje supervisado tenemos ejemplos con resultados conocidos. Clasificación estima categorías o sus probabilidades. Fraud Detection identifica operaciones sospechosas: Stripe Radar es un ejemplo comercial documentado. Aquí se puede vender prevención de pérdidas, pero hay que medir también cuántos clientes legítimos estamos rechazando. Image Classification reconoce categorías en imágenes. Piensen en inspección de calidad como servicio: una cámara ayuda a identificar piezas que requieren revisión, con datos de defectos y condiciones reales de iluminación.\n\nCustomer Retention empieza por estimar riesgo de abandono. Una empresa de suscripción podría priorizar a quién contactar; un proveedor podría ofrecer ese análisis conectado a su CRM. Después debe probar qué intervención conserva clientes, porque predecir abandono no basta. Diagnostics permite clasificar posibles fallos: una empresa de mantenimiento podría ofrecer alertas sobre maquinaria usando síntomas y sensores. En ambos casos se necesita seguimiento de lo que ocurrió realmente para saber si el modelo acertó y si la acción valió la pena.\n\nLa siguiente rama es regresión: estimamos cantidades. Forecasting mira hacia adelante; una cadena comercial puede estimar demanda por tienda y producto para preparar compras. Podría contratar un servicio de planeación de inventario. Predictions es más amplio: una empresa de logística podría estimar duración o coste de un servicio antes de comprometerse. Uber ha documentado una plataforma para operar modelos de clasificación, regresión y pronóstico: detrás de una experiencia sencilla existe infraestructura para mantener predicciones en funcionamiento.\n\nProcess Optimization conecta esas estimaciones con decisiones: qué producir, cuándo y con qué recursos. Una consultora podría vender planeación operativa, combinando un pronóstico con un optimizador sujeto a restricciones. New Insights abre un servicio de análisis sobre qué variables se relacionan con retrasos, desperdicio o margen. Esa relación genera hipótesis; para afirmar que una intervención produce una mejora necesitamos evidencia adicional. Noten el cambio de conversación: ya podemos pedir una capacidad concreta, los datos que necesita y una medida de resultado.\n\nAbajo, en ocre, está el aprendizaje por refuerzo. Un agente actúa en un entorno y aprende una política mediante recompensas. Real-Time Decisions nos lleva a actuar mientras cambian las condiciones. Piensen en un posible servicio de control energético: ajustar equipos manteniendo límites de operación. Hay experiencias documentadas de DeepMind con refrigeración; no significa que cualquier edificio pueda copiar el resultado. Tiempo real tampoco equivale automáticamente a refuerzo: muchas decisiones rápidas usan reglas u otros modelos.\n\nGame AI es una puerta excelente para entender estrategia. Imaginen StarCraft: recursos limitados, un rival que no ven por completo y decisiones que darán resultado después. AlphaStar combinó aprendizaje a partir de partidas humanas y por refuerzo. Como oportunidad de negocio podemos imaginar oponentes de entrenamiento o simuladores para probar decisiones. La transferencia a una empresa necesita su propio diseño y validación. Un chatbot que representa un personaje no es automáticamente un agente entrenado por refuerzo.\n\nRobot Navigation lleva el problema al mundo físico: un robot de almacén debe llegar a destino evitando obstáculos. Ahí puede haber un negocio de integración de flotas y soporte operativo. Skill Acquisition aprende habilidades reutilizables, como agarrar una pieza; un integrador puede especializarse en adaptar una célula robótica a diferentes productos. Learning Tasks reúne habilidades para resolver una tarea, como recoger, trasladar y colocar. Un proveedor podría vender una operación robótica por servicio. Son posibilidades empresariales, no una promesa de que baste descargar un modelo: necesitan sensores, integración, pruebas y mantenimiento.\n\nAhora ubiquemos lo que haremos hoy. Este mapa clásico no dibuja por separado el aprendizaje autosupervisado. En muchos modelos de lenguaje, el propio texto proporciona una señal para aprender a predecir tokens. Deep learning se refiere a modelos basados en redes neuronales profundas y puede aparecer en distintas familias. Los modelos fundacionales pueden servir de base para múltiples tareas. Al poner documentos en Gemini aportamos contexto a un modelo ya entrenado; no estamos construyendo desde cero todos los sistemas de este mapa.\n\nQuédense con una aplicación que podría tener sentido en su organización. Si yo les pidiera defenderla ante dirección, ¿qué problema resolvería, qué datos tendrían y cómo comprobarían que mejora algo? Escuchemos una respuesta. Con este mapa en mente, ahora sí veamos quién desarrolla los modelos y dónde podemos empezar a utilizarlos.",
         "steps": [
-          "0–1 min: mostrar el mapa completo; señalar centro, familias y aplicaciones. No abrir Gemini.",
-          "1–4 min: recorrer la rama azul: reducción de dimensionalidad, sus cuatro aplicaciones y las tres de clustering.",
-          "4–7 min: recorrer clasificación y regresión; explicar sus ocho aplicaciones y distinguir categoría de cantidad.",
-          "7–10 min: recorrer las cinco aplicaciones de refuerzo. Detenerse en StarCraft, estrategia y consecuencias diferidas.",
-          "10–11 min: ubicar aprendizaje autosupervisado, deep learning y modelos fundacionales sin presentarlos como ramas equivalentes.",
-          "11–12 min: escuchar una oportunidad del grupo y enlazar con desarrolladores y aplicaciones."
+          "0–1 min: abrir con «Aquí tienen su maestría de inteligencia artificial, cortesía del Dr. Valdés». Invitar a tomar una foto del mapa.",
+          "1–4 min: recorrer las siete aplicaciones de la rama azul y conectar cada una con una oportunidad de negocio.",
+          "4–7 min: recorrer las ocho aplicaciones de clasificación y regresión; distinguir ejemplo documentado de oportunidad propuesta.",
+          "7–10 min: recorrer las cinco aplicaciones de refuerzo, con una pausa breve en Game AI y estrategia.",
+          "10–11 min: ubicar los modelos fundacionales y la práctica de hoy dentro de este panorama.",
+          "11–12 min: recoger una oportunidad del grupo y pasar a quién desarrolla los modelos. Las ampliaciones son opcionales."
         ],
         "sources": [
           {
@@ -123,15 +123,557 @@
             "title": "Stanford CRFM · On the Opportunities and Risks of Foundation Models",
             "url": "https://arxiv.org/abs/2108.07258",
             "focus": "Modelos fundacionales y relación con aprendizaje autosupervisado."
+          },
+          {
+            "id": "ml-business-orange",
+            "title": "Orange · Exploración visual y modelos",
+            "url": "https://orangedatamining.com/widget-catalog/",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-sklearn",
+            "title": "Scikit-learn · Guía de métodos",
+            "url": "https://scikit-learn.org/stable/user_guide",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-torch",
+            "title": "PyTorch · Transfer learning para imágenes",
+            "url": "https://docs.pytorch.org/tutorials/beginner/transfer_learning_tutorial.html",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-netflix",
+            "title": "Netflix · Cómo funcionan las recomendaciones",
+            "url": "https://help.netflix.com/en/node/100639",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-stripe",
+            "title": "Stripe · Guía técnica de Radar",
+            "url": "https://stripe.com/guides/primer-on-machine-learning-for-fraud-protection",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-uber",
+            "title": "Uber · Michelangelo",
+            "url": "https://www.uber.com/us/en/blog/michelangelo-machine-learning-platform/",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-amazon",
+            "title": "Amazon Science · Inspección visual",
+            "url": "https://www.amazon.science/blog/making-automated-visual-inspection-systems-practical",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-cooling",
+            "title": "DeepMind · Refrigeración de centros de datos, 2016",
+            "url": "https://deepmind.google/blog/deepmind-ai-reduces-google-data-centre-cooling-bill-by-40/",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-alphastar2",
+            "title": "DeepMind · AlphaStar, octubre de 2019",
+            "url": "https://deepmind.google/blog/alphastar-grandmaster-level-in-starcraft-ii-using-multi-agent-reinforcement-learning/",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-gym",
+            "title": "Gymnasium · Entornos de aprendizaje por refuerzo",
+            "url": "https://gymnasium.farama.org/",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-sb3",
+            "title": "Stable-Baselines3 · Algoritmos de refuerzo",
+            "url": "https://stable-baselines3.readthedocs.io/en/master/",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-isaac",
+            "title": "NVIDIA Isaac Sim · Simulación robótica",
+            "url": "https://developer.nvidia.com/isaac/sim",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-ortools",
+            "title": "Google OR-Tools · Optimización",
+            "url": "https://developers.google.com/optimization",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-dartmouth",
+            "title": "McCarthy et al. · Propuesta de Dartmouth, 1955",
+            "url": "https://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-imagenet",
+            "title": "Krizhevsky, Sutskever y Hinton · ImageNet, 2012",
+            "url": "https://www.cs.toronto.edu/~hinton/absps/imagenet.pdf",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-transformer",
+            "title": "Vaswani et al. · Attention Is All You Need, 2017",
+            "url": "https://arxiv.org/abs/1706.03762",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-alphago",
+            "title": "DeepMind · AlphaGo",
+            "url": "https://deepmind.google/research/alphago/",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
           }
         ],
         "work": [],
         "materials": [
           "MAPA_MACHINE_LEARNING.pdf",
-          "LECTURA_MAPA_ML.md"
+          "LECTURA_MAPA_ML.md",
+          "NEGOCIOS_Y_RESERVA_ML.md"
         ],
-        "extra": "Señala las ramas mientras hablas. Los colores organizan familias; las aplicaciones pueden combinar métodos. El gráfico es un mapa clásico orientativo, no una taxonomía exhaustiva de toda la IA.",
-        "image": "assets/c1-03-mapa-ml.png"
+        "extra": "Los negocios propuestos son ejemplos didácticos. Los casos empresariales documentados tienen referencias. Si sobra tiempo, elige una ampliación del banco bajo el discurso; sus minutos se añaden sólo si los tienes disponibles.",
+        "image": "assets/c1-03-mapa-ml.png",
+        "businessCases": [
+          {
+            "concept": "Meaningful compression",
+            "branch": "Reducción de dimensionalidad",
+            "business": "Monitoreo industrial",
+            "offer": "Servicio que resume muchas señales para facilitar la detección de cambios operativos.",
+            "data": "Series de sensores, condiciones de operación y eventos conocidos.",
+            "technique": "PCA; autoencoders según el problema.",
+            "tool": "Orange para explorar PCA; scikit-learn para un prototipo.",
+            "metric": "Información relevante conservada y utilidad en una tarea posterior.",
+            "caution": "Reducir variables puede borrar una señal rara importante.",
+            "source": {
+              "title": "Scikit-learn · Guía de métodos",
+              "url": "https://scikit-learn.org/stable/user_guide"
+            }
+          },
+          {
+            "concept": "Structure Discovery",
+            "branch": "Reducción de dimensionalidad",
+            "business": "Análisis de devoluciones",
+            "offer": "Diagnóstico comercial por proyecto para formular hipótesis sobre patrones de devoluciones.",
+            "data": "Producto, canal, fecha, devolución y contexto de venta.",
+            "technique": "Exploración de representaciones y relaciones.",
+            "tool": "Orange: PCA, distancias y proyecciones.",
+            "metric": "Hipótesis verificables identificadas y luego contrastadas.",
+            "caution": "Un patrón encontrado no demuestra la causa de las devoluciones.",
+            "source": {
+              "title": "Orange · Exploración visual y modelos",
+              "url": "https://orangedatamining.com/widget-catalog/"
+            }
+          },
+          {
+            "concept": "Feature Elicitation",
+            "branch": "Reducción de dimensionalidad",
+            "business": "Preparación de datos industriales",
+            "offer": "Servicio que transforma registros en características reutilizables para modelos de mantenimiento.",
+            "data": "Señales originales y eventos con tiempos consistentes.",
+            "technique": "Extracción de características; PCA o representaciones aprendidas.",
+            "tool": "Scikit-learn: transformadores y pipelines.",
+            "metric": "Mejora fuera de muestra frente a usar las variables originales.",
+            "caution": "Evitar usar datos del futuro al construir una característica.",
+            "source": {
+              "title": "Scikit-learn · Guía de métodos",
+              "url": "https://scikit-learn.org/stable/user_guide"
+            }
+          },
+          {
+            "concept": "Big data Visualisation",
+            "branch": "Reducción de dimensionalidad",
+            "business": "Inteligencia comercial",
+            "offer": "Explorador de similitudes entre sucursales o productos vendido como herramienta de análisis.",
+            "data": "Variables comparables y datos de contexto de cada sucursal.",
+            "technique": "PCA, MDS o t-SNE para exploración.",
+            "tool": "Orange: widgets de proyección y gráficos.",
+            "metric": "Tiempo para investigar anomalías y validar interpretaciones.",
+            "caution": "La proyección puede distorsionar distancias; no decide por sí sola.",
+            "source": {
+              "title": "Orange · Exploración visual y modelos",
+              "url": "https://orangedatamining.com/widget-catalog/"
+            }
+          },
+          {
+            "concept": "Recommender Systems",
+            "branch": "Clustering",
+            "business": "Comercio electrónico y contenidos",
+            "offer": "Recomendaciones integradas al catálogo, con operación y evaluación continuas.",
+            "data": "Catálogo, interacciones y señales de preferencia con uso autorizado.",
+            "technique": "Vecinos, filtrado colaborativo y ranking; clustering es una posible pieza.",
+            "tool": "Prototipo de similitud con scikit-learn; servicio de ranking al crecer.",
+            "metric": "Conversión o satisfacción mediante comparación controlada.",
+            "caution": "No atribuir toda la personalización de Netflix a clustering.",
+            "source": {
+              "title": "Netflix · Cómo funcionan las recomendaciones",
+              "url": "https://help.netflix.com/en/node/100639"
+            }
+          },
+          {
+            "concept": "Targeted Marketing",
+            "branch": "Clustering",
+            "business": "Agencia de experimentación comercial",
+            "offer": "Servicio de campañas por segmento que mide respuesta incremental.",
+            "data": "Segmentos, campañas, costes y resultados, con grupo de comparación.",
+            "technique": "Clustering para explorar grupos y experimentos para evaluar campañas.",
+            "tool": "Orange para segmentar; CRM existente para operar las campañas.",
+            "metric": "Margen incremental y coste por resultado frente al grupo de comparación.",
+            "caution": "Un segmento prometedor no garantiza que una campaña genere ventas.",
+            "source": {
+              "title": "Orange · Exploración visual y modelos",
+              "url": "https://orangedatamining.com/widget-catalog/"
+            }
+          },
+          {
+            "concept": "Customer Segmentation",
+            "branch": "Clustering",
+            "business": "Distribución y servicio al cliente",
+            "offer": "Consultoría para proponer niveles de servicio por patrones de compra.",
+            "data": "Frecuencia, variedad de compra y variables pertinentes del servicio.",
+            "technique": "K-means o clustering jerárquico, tras preparar las variables.",
+            "tool": "Orange o scikit-learn.",
+            "metric": "Estabilidad e interpretabilidad de grupos y efecto de la acción posterior.",
+            "caution": "Los grupos son construcciones analíticas; no categorías naturales definitivas.",
+            "source": {
+              "title": "Scikit-learn · Guía de métodos",
+              "url": "https://scikit-learn.org/stable/user_guide"
+            }
+          },
+          {
+            "concept": "Fraud Detection",
+            "branch": "Clasificación",
+            "business": "Prevención de pérdidas en pagos",
+            "offer": "Producto que prioriza operaciones para revisión y permite ajustar reglas.",
+            "data": "Transacciones y resultados posteriores de fraude, con controles de acceso.",
+            "technique": "Clasificación probabilística y reglas; anomalías como complemento.",
+            "tool": "Stripe Radar como producto existente; scikit-learn para enseñanza con datos ficticios.",
+            "metric": "Pérdidas, falsos rechazos y coste de revisión.",
+            "caution": "Una precisión global alta puede ocultar que casi nunca detecta fraude.",
+            "source": {
+              "title": "Stripe · Guía técnica de Radar",
+              "url": "https://stripe.com/guides/primer-on-machine-learning-for-fraud-protection"
+            }
+          },
+          {
+            "concept": "Image Classification",
+            "branch": "Clasificación",
+            "business": "Inspección de calidad",
+            "offer": "Integración de cámara, modelo y cola de revisión para una línea de producción.",
+            "data": "Imágenes representativas de condiciones y defectos reales.",
+            "technique": "Clasificación de imágenes con transfer learning.",
+            "tool": "PyTorch para adaptar un modelo; evaluar también métodos de anomalías.",
+            "metric": "Defectos omitidos, falsas alarmas y tiempo de inspección.",
+            "caution": "Clasificar, localizar un defecto y detectar una anomalía son tareas distintas.",
+            "source": {
+              "title": "PyTorch · Transfer learning para imágenes",
+              "url": "https://docs.pytorch.org/tutorials/beginner/transfer_learning_tutorial.html"
+            }
+          },
+          {
+            "concept": "Customer Retention",
+            "branch": "Clasificación",
+            "business": "Servicios por suscripción",
+            "offer": "Sistema de priorización de seguimiento integrado al CRM.",
+            "data": "Historial de uso y resultados de renovación dentro de un periodo definido.",
+            "technique": "Clasificación de riesgo; experimentos para evaluar intervenciones.",
+            "tool": "Scikit-learn; CRM de la empresa para registrar acciones.",
+            "metric": "Retención incremental y coste de contacto, además de calidad predictiva.",
+            "caution": "Riesgo de abandono no equivale a probabilidad de responder a una oferta.",
+            "source": {
+              "title": "Scikit-learn · Guía de métodos",
+              "url": "https://scikit-learn.org/stable/user_guide"
+            }
+          },
+          {
+            "concept": "Diagnostics",
+            "branch": "Clasificación",
+            "business": "Mantenimiento de maquinaria",
+            "offer": "Servicio de alertas y revisión de posibles fallos por equipo.",
+            "data": "Sensores, síntomas, fallos confirmados y mantenimiento realizado.",
+            "technique": "Clasificación de estados o fallos; anomalías como alternativa.",
+            "tool": "Scikit-learn para un prototipo sobre registros tabulares.",
+            "metric": "Fallos omitidos, falsas alarmas y tiempo de anticipación.",
+            "caution": "Se requieren datos de las condiciones reales y revisión técnica.",
+            "source": {
+              "title": "Scikit-learn · Guía de métodos",
+              "url": "https://scikit-learn.org/stable/user_guide"
+            }
+          },
+          {
+            "concept": "Forecasting",
+            "branch": "Regresión",
+            "business": "Planeación de inventarios",
+            "offer": "Servicio recurrente de pronósticos por tienda y producto.",
+            "data": "Demanda histórica, calendario, disponibilidad y promociones conocidas.",
+            "technique": "Modelos de series temporales o regresión con variables rezagadas.",
+            "tool": "Scikit-learn para regresión; comparar con un pronóstico estacional sencillo.",
+            "metric": "Error en periodos posteriores y efecto en faltantes y excedentes.",
+            "caution": "Separar por tiempo y reconocer ventas limitadas por falta de inventario.",
+            "source": {
+              "title": "Uber · Michelangelo",
+              "url": "https://www.uber.com/us/en/blog/michelangelo-machine-learning-platform/"
+            }
+          },
+          {
+            "concept": "Predictions",
+            "branch": "Regresión",
+            "business": "Cotización y promesa de servicio",
+            "offer": "Estimador de duración o coste para apoyar cotizaciones.",
+            "data": "Servicios anteriores, contexto e importe o duración observada.",
+            "technique": "Regresión lineal, árboles o ensembles.",
+            "tool": "Scikit-learn.",
+            "metric": "Error de estimación por tipo de servicio y desviaciones costosas.",
+            "caution": "Mostrar incertidumbre y revisar casos fuera de experiencia.",
+            "source": {
+              "title": "Scikit-learn · Guía de métodos",
+              "url": "https://scikit-learn.org/stable/user_guide"
+            }
+          },
+          {
+            "concept": "Process Optimization",
+            "branch": "Regresión",
+            "business": "Planeación de producción",
+            "offer": "Servicio que combina estimaciones con una programación sujeta a capacidades.",
+            "data": "Duraciones estimadas, recursos, plazos y restricciones verificadas.",
+            "technique": "Predicción más optimización matemática; no confundir sus funciones.",
+            "tool": "Modelo predictivo más Google OR-Tools.",
+            "metric": "Cumplimiento, coste y factibilidad de los planes.",
+            "caution": "OR-Tools optimiza; no es en sí un modelo de machine learning.",
+            "source": {
+              "title": "Google OR-Tools · Optimización",
+              "url": "https://developers.google.com/optimization"
+            }
+          },
+          {
+            "concept": "New Insights",
+            "branch": "Regresión",
+            "business": "Analítica de operaciones",
+            "offer": "Estudio de factores asociados con retrasos o desperdicio.",
+            "data": "Resultados, condiciones operativas y calidad del registro.",
+            "technique": "Regresión e interpretación; diseño causal si se quieren medir intervenciones.",
+            "tool": "Scikit-learn y visualización exploratoria.",
+            "metric": "Hipótesis útiles contrastadas, no cantidad de gráficos generados.",
+            "caution": "Asociación estadística no establece causalidad.",
+            "source": {
+              "title": "Scikit-learn · Guía de métodos",
+              "url": "https://scikit-learn.org/stable/user_guide"
+            }
+          },
+          {
+            "concept": "Real-Time Decisions",
+            "branch": "Refuerzo",
+            "business": "Control energético",
+            "offer": "Posible servicio de control que ajusta equipos dentro de restricciones.",
+            "data": "Estado del sistema, acciones, consumo y restricciones operativas.",
+            "technique": "Políticas de control; refuerzo cuando resulte adecuado.",
+            "tool": "Gymnasium y Stable-Baselines3 para investigar en simulación.",
+            "metric": "Consumo junto con estabilidad y cumplimiento de restricciones.",
+            "caution": "Tiempo real no significa aprendizaje en línea. El caso de refrigeración no garantiza ahorro en otro edificio.",
+            "source": {
+              "title": "DeepMind · Refrigeración de centros de datos, 2016",
+              "url": "https://deepmind.google/blog/deepmind-ai-reduces-google-data-centre-cooling-bill-by-40/"
+            }
+          },
+          {
+            "concept": "Game AI",
+            "branch": "Refuerzo",
+            "business": "Videojuegos y simulación",
+            "offer": "Oponentes de entrenamiento o simuladores para probar estrategias.",
+            "data": "Estado, acciones, recompensas y reglas del entorno.",
+            "technique": "Refuerzo, autojuego, imitación, búsqueda o reglas según objetivo.",
+            "tool": "Gymnasium y Stable-Baselines3 para un prototipo acotado.",
+            "metric": "Desempeño frente a oponentes nuevos y diversidad de estrategias.",
+            "caution": "AlphaStar es investigación específica; no una solución lista para cualquier negocio.",
+            "source": {
+              "title": "DeepMind · AlphaStar, enero de 2019",
+              "url": "https://deepmind.google/blog/alphastar-mastering-the-real-time-strategy-game-starcraft-ii/"
+            }
+          },
+          {
+            "concept": "Robot Navigation",
+            "branch": "Refuerzo",
+            "business": "Logística interna",
+            "offer": "Integración y soporte de robots móviles para mover materiales.",
+            "data": "Mapas, sensores, trayectorias y condiciones físicas.",
+            "technique": "Planificación y control; refuerzo como una opción dentro de la arquitectura.",
+            "tool": "NVIDIA Isaac Sim para pruebas de simulación.",
+            "metric": "Llegadas correctas, colisiones, bloqueos e intervenciones humanas.",
+            "caution": "Simular no sustituye la validación en el entorno físico.",
+            "source": {
+              "title": "NVIDIA Isaac Sim · Simulación robótica",
+              "url": "https://developer.nvidia.com/isaac/sim"
+            }
+          },
+          {
+            "concept": "Skill Acquisition",
+            "branch": "Refuerzo",
+            "business": "Integración de células robóticas",
+            "offer": "Adaptación de habilidades de manipulación a nuevas piezas.",
+            "data": "Demostraciones, interacción, sensores y criterios de éxito.",
+            "technique": "Imitación y/o refuerzo para habilidades específicas.",
+            "tool": "Isaac Sim para simular; Stable-Baselines3 en entornos compatibles.",
+            "metric": "Éxito con variaciones de piezas y condiciones nuevas.",
+            "caution": "La habilidad aprendida requiere evaluar transferencia a hardware real.",
+            "source": {
+              "title": "NVIDIA Isaac Sim · Simulación robótica",
+              "url": "https://developer.nvidia.com/isaac/sim"
+            }
+          },
+          {
+            "concept": "Learning Tasks",
+            "branch": "Refuerzo",
+            "business": "Operación robótica por servicio",
+            "offer": "Servicio de recoger, transportar y colocar objetos con seguimiento del resultado.",
+            "data": "Objetivo, estados, acciones, fallos y criterios de terminación.",
+            "technique": "Coordinación de habilidades, planificación y aprendizaje según la tarea.",
+            "tool": "Gymnasium para definir un entorno; herramientas robóticas para la ejecución.",
+            "metric": "Tareas completas correctas y coste de recuperación de fallos.",
+            "caution": "Etiqueta amplia del gráfico: no identifica por sí sola un algoritmo diferente.",
+            "source": {
+              "title": "Gymnasium · Entornos de aprendizaje por refuerzo",
+              "url": "https://gymnasium.farama.org/"
+            }
+          }
+        ],
+        "extensions": [
+          {
+            "title": "Historia · La ambición ya estaba escrita en 1955",
+            "minutes": 2,
+            "cue": "Si preguntan cuándo empezó la IA o por qué parece nueva.",
+            "body": "En 1955, McCarthy, Minsky, Rochester y Shannon propusieron reunirse en Dartmouth en el verano siguiente para estudiar inteligencia artificial. El documento ya hablaba de lenguaje, abstracciones, redes neuronales y mejora de los sistemas. Es interesante compararlo con lo que hoy le pedimos a una aplicación. La ambición precede por décadas a las herramientas que tenemos a mano.\n\nPregunta al grupo: si una idea lleva tanto tiempo planteada, ¿qué tiene que cambiar para que pueda convertirse en un negocio? Escucha dos respuestas y enlaza con datos disponibles, capacidad de cómputo e integración. Esa conexión empresarial es nuestra interpretación, no una promesa que hiciera aquel documento.",
+            "sources": [
+              {
+                "title": "McCarthy et al. · Propuesta de Dartmouth, 1955",
+                "url": "https://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html"
+              }
+            ]
+          },
+          {
+            "title": "Historia y técnica · ImageNet y el salto de la visión",
+            "minutes": 3,
+            "cue": "Si el grupo se interesa por inspección, imágenes o deep learning.",
+            "body": "En el trabajo de ImageNet de 2012, Krizhevsky, Sutskever y Hinton entrenaron una red convolucional profunda para clasificar imágenes a gran escala, utilizando GPU. El caso permite explicar una combinación concreta de datos, arquitectura y cómputo. Deep learning tiene una historia anterior; este trabajo es un hito influyente.\n\nPara una fábrica, el siguiente desafío es mucho más específico: reconocer defectos de sus piezas bajo sus condiciones. Pregunta: ¿cuál sería más difícil, conseguir fotografías o conseguir fotografías correctamente etiquetadas que representen las excepciones? Escucha ejemplos. Cierra: una demostración visual convincente todavía necesita pruebas con datos distintos y condiciones reales.",
+            "sources": [
+              {
+                "title": "Krizhevsky, Sutskever y Hinton · ImageNet, 2012",
+                "url": "https://www.cs.toronto.edu/~hinton/absps/imagenet.pdf"
+              },
+              {
+                "title": "Amazon Science · Inspección visual",
+                "url": "https://www.amazon.science/blog/making-automated-visual-inspection-systems-practical"
+              }
+            ]
+          },
+          {
+            "title": "Historia y estrategia · De AlphaGo a StarCraft",
+            "minutes": 3,
+            "cue": "Si quieres profundizar en Game AI y decisiones encadenadas.",
+            "body": "En 2016 AlphaGo venció a Lee Sedol en Go. En 2019 AlphaStar llevó la conversación a StarCraft II, con decisiones en tiempo real e información incompleta. Son problemas diferentes, con entornos y evaluaciones específicos.\n\nPregunta: ¿qué harían en una empresa si no pudieran ver todas las acciones de sus competidores y tuvieran que elegir entre invertir ahora o conservar recursos? Escucha dos posturas. Usa la analogía para hablar de horizontes y consecuencias, sin presentar ganar un videojuego como prueba de capacidad para dirigir una empresa. Para investigar una estrategia necesitamos definir estado, acciones y qué resultado vamos a valorar.",
+            "sources": [
+              {
+                "title": "DeepMind · AlphaGo",
+                "url": "https://deepmind.google/research/alphago/"
+              },
+              {
+                "title": "DeepMind · AlphaStar, octubre de 2019",
+                "url": "https://deepmind.google/blog/alphastar-grandmaster-level-in-starcraft-ii-using-multi-agent-reinforcement-learning/"
+              }
+            ]
+          },
+          {
+            "title": "Caso · Netflix vende una experiencia de elección",
+            "minutes": 2,
+            "cue": "Si el grupo está pensando en clientes, catálogos o ventas.",
+            "body": "Netflix describe recomendaciones basadas, entre otras señales, en interacciones, preferencias de miembros similares e información de los títulos. Utilízalo para mostrar una aplicación documentada, sin afirmar que todo ocurre mediante clustering.\n\nPropuesta para conversar: imaginemos un distribuidor con miles de productos. ¿Le conviene mostrar lo que más se vende, lo que deja más margen o lo más relevante para ese comprador? Escucha dos respuestas. Ahí aparece una decisión empresarial que el algoritmo no resuelve por nosotros. Un piloto tendría que comparar la experiencia propuesta con la actual y medir resultados. Este ejemplo del distribuidor es hipotético.",
+            "sources": [
+              {
+                "title": "Netflix · Cómo funcionan las recomendaciones",
+                "url": "https://help.netflix.com/en/node/100639"
+              }
+            ]
+          },
+          {
+            "title": "Caso · Cuando una predicción equivocada cuesta dinero",
+            "minutes": 3,
+            "cue": "Si hay interés en finanzas, controles o calidad del modelo.",
+            "body": "Stripe explica Radar como un sistema que combina aprendizaje automático y herramientas para prevenir fraude. Una transacción legítima rechazada también tiene coste.\n\nEjemplo ficticio: hay cien mil operaciones y sólo cien son fraudulentas. Un sistema que siempre responde «legítima» acierta el 99.9 % de las veces y detecta cero fraudes. Deja que el grupo haga esa cuenta. Pregunta: ¿comprarían ese sistema por su porcentaje de aciertos? Ahora distingue pérdidas por fraude, rechazos legítimos y esfuerzo de revisión. Es una forma de pasar de una métrica vistosa a una decisión de negocio.",
+            "sources": [
+              {
+                "title": "Stripe · Guía técnica de Radar",
+                "url": "https://stripe.com/guides/primer-on-machine-learning-for-fraud-protection"
+              }
+            ]
+          },
+          {
+            "title": "Caso · Refrigeración y ahorro medido",
+            "minutes": 2,
+            "cue": "Si preguntan por operaciones, energía o retorno de inversión.",
+            "body": "DeepMind reportó en 2016 una reducción de hasta 40 % en la energía destinada a refrigeración en su experiencia con centros de datos de Google. Conserva el alcance: refrigeración, no toda la factura eléctrica de cualquier organización.\n\nPregunta qué habría que conocer antes de ofrecer algo parecido a una planta local: consumo de referencia, límites operativos, instrumentos y quién puede autorizar un ajuste. La oportunidad propuesta sería un servicio que combine medición, predicción y control. El resultado publicado sirve como caso; el cliente nuevo necesita su propia evaluación.",
+            "sources": [
+              {
+                "title": "DeepMind · Refrigeración de centros de datos, 2016",
+                "url": "https://deepmind.google/blog/deepmind-ai-reduces-google-data-centre-cooling-bill-by-40/"
+              }
+            ]
+          },
+          {
+            "title": "Herramientas · Qué pedirle realmente a un equipo técnico",
+            "minutes": 4,
+            "cue": "Si piden nombres concretos o qué instalar para explorar.",
+            "body": "Para explorar datos de forma visual, Orange ofrece flujos con widgets de análisis, agrupación y proyección. Para desarrollar modelos tabulares, scikit-learn reúne métodos de clasificación, regresión y transformación. PyTorch permite trabajar con redes neuronales; un tutorial de transfer learning ayuda a explicar por qué no siempre entrenamos desde cero.\n\nPara investigar decisiones por refuerzo, Gymnasium define entornos y Stable-Baselines3 aporta implementaciones de algoritmos. En robótica, Isaac Sim ayuda con simulación. Para asignar recursos con restricciones, OR-Tools es un optimizador, que puede trabajar junto a predicciones. Son rutas técnicas distintas, no una lista de instalaciones obligatorias para esta clase.\n\nPregunta: si queremos prever demanda y programar producción, ¿qué herramienta cubre cada parte? Pide identificar primero datos, predicción, decisión y medición. Hoy mantenemos la práctica con Gemini; estas referencias sirven para conversar con un equipo especialista.",
+            "sources": [
+              {
+                "title": "Orange · Exploración visual y modelos",
+                "url": "https://orangedatamining.com/widget-catalog/"
+              },
+              {
+                "title": "Scikit-learn · Guía de métodos",
+                "url": "https://scikit-learn.org/stable/user_guide"
+              },
+              {
+                "title": "PyTorch · Transfer learning para imágenes",
+                "url": "https://docs.pytorch.org/tutorials/beginner/transfer_learning_tutorial.html"
+              },
+              {
+                "title": "Gymnasium · Entornos de aprendizaje por refuerzo",
+                "url": "https://gymnasium.farama.org/"
+              },
+              {
+                "title": "Stable-Baselines3 · Algoritmos de refuerzo",
+                "url": "https://stable-baselines3.readthedocs.io/en/master/"
+              },
+              {
+                "title": "NVIDIA Isaac Sim · Simulación robótica",
+                "url": "https://developer.nvidia.com/isaac/sim"
+              },
+              {
+                "title": "Google OR-Tools · Optimización",
+                "url": "https://developers.google.com/optimization"
+              }
+            ]
+          },
+          {
+            "title": "Técnica · Un Transformer no es todo el mapa",
+            "minutes": 2,
+            "cue": "Si confunden modelos generativos, deep learning y tipos de aprendizaje.",
+            "body": "El artículo Attention Is All You Need, de 2017, presentó la arquitectura Transformer basada en atención. Una arquitectura indica cómo organiza el modelo sus operaciones. Aprendizaje supervisado, no supervisado y por refuerzo describen formas de aprender; son dimensiones diferentes.\n\nPodemos utilizar redes profundas para imágenes o para políticas de acción, y un modelo de lenguaje puede pasar por varias etapas de entrenamiento. Pregunta: cuando pegamos un expediente en el chat, ¿cambiamos los parámetros del modelo o el contexto de esa respuesta? Recupera la comparación que hicieron en clase. Esta distinción evita llamar entrenamiento a cualquier interacción.",
+            "sources": [
+              {
+                "title": "Vaswani et al. · Attention Is All You Need, 2017",
+                "url": "https://arxiv.org/abs/1706.03762"
+              }
+            ]
+          },
+          {
+            "title": "Puente · De una capacidad a un asistente en un proceso",
+            "minutes": 3,
+            "cue": "Para ampliar el cierre y preparar la siguiente clase.",
+            "body": "Propuesta ficticia: un servicio recibe consultas y prepara respuestas. Describamos quién entrega la información, qué puede consultar el asistente, qué borrador debe producir y quién lo aprueba. Si falta una fuente, debe pedirla o señalar el vacío. Si el caso rebasa su alcance, debe escalarlo.\n\nPide al grupo elegir una excepción que quieran probar. Después pregunta qué guardarían para comprobar el resultado: entrada, fuentes, salida, revisión y acción realizada. Éste es el puente al diseño del asistente. Podemos combinar varias capacidades del mapa dentro del proceso. Llamarlo agente no significa que use aprendizaje por refuerzo ni que tenga autorización ilimitada.",
+            "sources": []
+          }
+        ]
       },
       {
         "numero": 4,
@@ -449,16 +991,18 @@
       },
       {
         "numero": 13,
-        "titulo": "Lo que llevarías a la siguiente reunión",
+        "titulo": "El mismo mapa, otra perspectiva",
         "minutes": 5,
         "tipo": "CIERRE",
         "horario": "20:25–20:30",
-        "question": "¿Qué parte del trabajo querrías repetir con un asistente?",
-        "narration": "Volvamos a las tres escenas de la historia y a las conexiones entre personas. Hoy ustedes aportaron contexto, revisaron evidencia y tomaron una posición. Volvamos también a la pregunta inicial. Ahora podemos llevar un hallazgo sustentado, una alternativa razonada y una pregunta que falta resolver. La IA ayudó a organizar y producir trabajo; su decisión depende de cómo interpretan y comprueban ese producto.\n\nDos preguntas finales: al aportar el expediente, ¿cambiamos el contexto o demostramos entrenamiento? Al agregar la imagen, ¿qué dato observamos y qué conclusión todavía necesita investigación? Escuchemos respuestas y aclaremos lo que haga falta.\n\nLa próxima clase tomaremos una parte concreta del proceso: preparar respuestas de servicio con instrucciones reutilizables, un catálogo y pruebas. Conservamos Nexo y la perspectiva elegida. Primero aprendimos a preparar una decisión; ahora diseñaremos cómo repetir una parte del trabajo.",
+        "question": "¿Cómo convertimos una capacidad de IA en un asistente dentro de un proceso?",
+        "narration": "¿Se acuerdan de su maestría de inteligencia artificial, cortesía del Dr. Valdés? Volvamos al mismo mapa. Al principio lo miramos para descubrir capacidades y oportunidades de negocio. Ahora vamos a ver la IA desde otra perspectiva: cómo una capacidad llega a formar parte del trabajo de una organización.\n\nHoy ustedes prepararon una decisión con un modelo ya entrenado. Le dieron contexto, incorporaron una imagen y comprobaron el resultado. ¿Qué parte de ese trabajo conservarían si tuvieran que repetirlo mañana? Escuchemos dos respuestas. Una puede ser organizar información, otra preparar un borrador o revisar si falta algo. Cada respuesta empieza a dibujar un proceso.\n\nMiren las aplicaciones del mapa. Detectar riesgo de abandono sirve cuando alguien sabe qué hacer con esa señal. Un pronóstico sirve cuando influye en una compra o una programación. Una recomendación sirve cuando llega a la persona correcta y podemos evaluar su efecto. Entre la capacidad técnica y el valor de negocio hacen falta datos, responsables, reglas de actuación y seguimiento. Ésa será nuestra siguiente perspectiva.\n\nEn la próxima clase pasaremos de obtener un resultado a diseñar una forma de repetir trabajo con un asistente: qué recibe, qué instrucciones conserva, qué herramientas necesita, qué puede hacer por sí mismo y cuándo debe pedir revisión. Probaremos su comportamiento con ejemplos. Llamarlo agente no significa que lo entrenemos por refuerzo; muchas soluciones combinan modelos existentes, instrucciones y flujos definidos.\n\nAntes de cerrar: cuando agregamos el expediente, ¿aportamos contexto o demostramos entrenamiento? Y con la imagen, ¿qué dato pudimos observar y qué explicación seguía siendo una hipótesis? Recuperemos esas dos distinciones. Conserven su entrega y elijan un paso repetible de su trabajo. Hoy aprendimos a preparar una decisión; la próxima vez diseñaremos cómo apoyar ese paso de forma consistente. Ahora el mapa también les sirve para conversar con quienes van a construirlo.",
         "steps": [
-          "0–2 min: recuperar dos preguntas del inicio.",
-          "2–4 min: comprobación oral de contexto y multimodalidad.",
-          "4–5 min: continuidad hacia el asistente de clase 2."
+          "0–1 min: recuperar la frase de la maestría y mostrar el mismo mapa desde la perspectiva del proceso.",
+          "1–2 min: escuchar dos partes del trabajo que el grupo querría repetir mañana.",
+          "2–3 min: conectar capacidad con datos, responsabilidades, reglas y seguimiento.",
+          "3–4 min: explicar el puente a asistentes, herramientas, límites y pruebas de la siguiente clase.",
+          "4–5 min: comprobar contexto frente a entrenamiento y dato visual frente a hipótesis; pedir conservar la entrega."
         ],
         "sources": [
           {
@@ -472,12 +1016,562 @@
             "title": "Radford et al. (2021) · CLIP",
             "url": "https://arxiv.org/abs/2103.00020",
             "focus": "Antecedente de representaciones que relacionan imágenes y lenguaje."
+          },
+          {
+            "id": "ml-business-orange",
+            "title": "Orange · Exploración visual y modelos",
+            "url": "https://orangedatamining.com/widget-catalog/",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-sklearn",
+            "title": "Scikit-learn · Guía de métodos",
+            "url": "https://scikit-learn.org/stable/user_guide",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-torch",
+            "title": "PyTorch · Transfer learning para imágenes",
+            "url": "https://docs.pytorch.org/tutorials/beginner/transfer_learning_tutorial.html",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-netflix",
+            "title": "Netflix · Cómo funcionan las recomendaciones",
+            "url": "https://help.netflix.com/en/node/100639",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-stripe",
+            "title": "Stripe · Guía técnica de Radar",
+            "url": "https://stripe.com/guides/primer-on-machine-learning-for-fraud-protection",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-uber",
+            "title": "Uber · Michelangelo",
+            "url": "https://www.uber.com/us/en/blog/michelangelo-machine-learning-platform/",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-amazon",
+            "title": "Amazon Science · Inspección visual",
+            "url": "https://www.amazon.science/blog/making-automated-visual-inspection-systems-practical",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-cooling",
+            "title": "DeepMind · Refrigeración de centros de datos, 2016",
+            "url": "https://deepmind.google/blog/deepmind-ai-reduces-google-data-centre-cooling-bill-by-40/",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-alphastar",
+            "title": "DeepMind · AlphaStar, enero de 2019",
+            "url": "https://deepmind.google/blog/alphastar-mastering-the-real-time-strategy-game-starcraft-ii/",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-alphastar2",
+            "title": "DeepMind · AlphaStar, octubre de 2019",
+            "url": "https://deepmind.google/blog/alphastar-grandmaster-level-in-starcraft-ii-using-multi-agent-reinforcement-learning/",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-gym",
+            "title": "Gymnasium · Entornos de aprendizaje por refuerzo",
+            "url": "https://gymnasium.farama.org/",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-sb3",
+            "title": "Stable-Baselines3 · Algoritmos de refuerzo",
+            "url": "https://stable-baselines3.readthedocs.io/en/master/",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-isaac",
+            "title": "NVIDIA Isaac Sim · Simulación robótica",
+            "url": "https://developer.nvidia.com/isaac/sim",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-ortools",
+            "title": "Google OR-Tools · Optimización",
+            "url": "https://developers.google.com/optimization",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-dartmouth",
+            "title": "McCarthy et al. · Propuesta de Dartmouth, 1955",
+            "url": "https://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-imagenet",
+            "title": "Krizhevsky, Sutskever y Hinton · ImageNet, 2012",
+            "url": "https://www.cs.toronto.edu/~hinton/absps/imagenet.pdf",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-transformer",
+            "title": "Vaswani et al. · Attention Is All You Need, 2017",
+            "url": "https://arxiv.org/abs/1706.03762",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
+          },
+          {
+            "id": "ml-business-alphago",
+            "title": "DeepMind · AlphaGo",
+            "url": "https://deepmind.google/research/alphago/",
+            "focus": "Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos."
           }
         ],
         "work": [],
-        "materials": [],
-        "extra": "",
-        "image": "assets/c1-12.png"
+        "materials": [
+          "MAPA_MACHINE_LEARNING.pdf",
+          "NEGOCIOS_Y_RESERVA_ML.md"
+        ],
+        "extra": "Reaparición deliberada de la lámina 3. No repetir la explicación completa: cerrar con otra pregunta. Si hay minutos disponibles, abrir una historia o caso de la reserva. Mantener el cierre dentro de las 20:30.",
+        "image": "assets/c1-03-mapa-ml.png",
+        "businessCases": [
+          {
+            "concept": "Meaningful compression",
+            "branch": "Reducción de dimensionalidad",
+            "business": "Monitoreo industrial",
+            "offer": "Servicio que resume muchas señales para facilitar la detección de cambios operativos.",
+            "data": "Series de sensores, condiciones de operación y eventos conocidos.",
+            "technique": "PCA; autoencoders según el problema.",
+            "tool": "Orange para explorar PCA; scikit-learn para un prototipo.",
+            "metric": "Información relevante conservada y utilidad en una tarea posterior.",
+            "caution": "Reducir variables puede borrar una señal rara importante.",
+            "source": {
+              "title": "Scikit-learn · Guía de métodos",
+              "url": "https://scikit-learn.org/stable/user_guide"
+            }
+          },
+          {
+            "concept": "Structure Discovery",
+            "branch": "Reducción de dimensionalidad",
+            "business": "Análisis de devoluciones",
+            "offer": "Diagnóstico comercial por proyecto para formular hipótesis sobre patrones de devoluciones.",
+            "data": "Producto, canal, fecha, devolución y contexto de venta.",
+            "technique": "Exploración de representaciones y relaciones.",
+            "tool": "Orange: PCA, distancias y proyecciones.",
+            "metric": "Hipótesis verificables identificadas y luego contrastadas.",
+            "caution": "Un patrón encontrado no demuestra la causa de las devoluciones.",
+            "source": {
+              "title": "Orange · Exploración visual y modelos",
+              "url": "https://orangedatamining.com/widget-catalog/"
+            }
+          },
+          {
+            "concept": "Feature Elicitation",
+            "branch": "Reducción de dimensionalidad",
+            "business": "Preparación de datos industriales",
+            "offer": "Servicio que transforma registros en características reutilizables para modelos de mantenimiento.",
+            "data": "Señales originales y eventos con tiempos consistentes.",
+            "technique": "Extracción de características; PCA o representaciones aprendidas.",
+            "tool": "Scikit-learn: transformadores y pipelines.",
+            "metric": "Mejora fuera de muestra frente a usar las variables originales.",
+            "caution": "Evitar usar datos del futuro al construir una característica.",
+            "source": {
+              "title": "Scikit-learn · Guía de métodos",
+              "url": "https://scikit-learn.org/stable/user_guide"
+            }
+          },
+          {
+            "concept": "Big data Visualisation",
+            "branch": "Reducción de dimensionalidad",
+            "business": "Inteligencia comercial",
+            "offer": "Explorador de similitudes entre sucursales o productos vendido como herramienta de análisis.",
+            "data": "Variables comparables y datos de contexto de cada sucursal.",
+            "technique": "PCA, MDS o t-SNE para exploración.",
+            "tool": "Orange: widgets de proyección y gráficos.",
+            "metric": "Tiempo para investigar anomalías y validar interpretaciones.",
+            "caution": "La proyección puede distorsionar distancias; no decide por sí sola.",
+            "source": {
+              "title": "Orange · Exploración visual y modelos",
+              "url": "https://orangedatamining.com/widget-catalog/"
+            }
+          },
+          {
+            "concept": "Recommender Systems",
+            "branch": "Clustering",
+            "business": "Comercio electrónico y contenidos",
+            "offer": "Recomendaciones integradas al catálogo, con operación y evaluación continuas.",
+            "data": "Catálogo, interacciones y señales de preferencia con uso autorizado.",
+            "technique": "Vecinos, filtrado colaborativo y ranking; clustering es una posible pieza.",
+            "tool": "Prototipo de similitud con scikit-learn; servicio de ranking al crecer.",
+            "metric": "Conversión o satisfacción mediante comparación controlada.",
+            "caution": "No atribuir toda la personalización de Netflix a clustering.",
+            "source": {
+              "title": "Netflix · Cómo funcionan las recomendaciones",
+              "url": "https://help.netflix.com/en/node/100639"
+            }
+          },
+          {
+            "concept": "Targeted Marketing",
+            "branch": "Clustering",
+            "business": "Agencia de experimentación comercial",
+            "offer": "Servicio de campañas por segmento que mide respuesta incremental.",
+            "data": "Segmentos, campañas, costes y resultados, con grupo de comparación.",
+            "technique": "Clustering para explorar grupos y experimentos para evaluar campañas.",
+            "tool": "Orange para segmentar; CRM existente para operar las campañas.",
+            "metric": "Margen incremental y coste por resultado frente al grupo de comparación.",
+            "caution": "Un segmento prometedor no garantiza que una campaña genere ventas.",
+            "source": {
+              "title": "Orange · Exploración visual y modelos",
+              "url": "https://orangedatamining.com/widget-catalog/"
+            }
+          },
+          {
+            "concept": "Customer Segmentation",
+            "branch": "Clustering",
+            "business": "Distribución y servicio al cliente",
+            "offer": "Consultoría para proponer niveles de servicio por patrones de compra.",
+            "data": "Frecuencia, variedad de compra y variables pertinentes del servicio.",
+            "technique": "K-means o clustering jerárquico, tras preparar las variables.",
+            "tool": "Orange o scikit-learn.",
+            "metric": "Estabilidad e interpretabilidad de grupos y efecto de la acción posterior.",
+            "caution": "Los grupos son construcciones analíticas; no categorías naturales definitivas.",
+            "source": {
+              "title": "Scikit-learn · Guía de métodos",
+              "url": "https://scikit-learn.org/stable/user_guide"
+            }
+          },
+          {
+            "concept": "Fraud Detection",
+            "branch": "Clasificación",
+            "business": "Prevención de pérdidas en pagos",
+            "offer": "Producto que prioriza operaciones para revisión y permite ajustar reglas.",
+            "data": "Transacciones y resultados posteriores de fraude, con controles de acceso.",
+            "technique": "Clasificación probabilística y reglas; anomalías como complemento.",
+            "tool": "Stripe Radar como producto existente; scikit-learn para enseñanza con datos ficticios.",
+            "metric": "Pérdidas, falsos rechazos y coste de revisión.",
+            "caution": "Una precisión global alta puede ocultar que casi nunca detecta fraude.",
+            "source": {
+              "title": "Stripe · Guía técnica de Radar",
+              "url": "https://stripe.com/guides/primer-on-machine-learning-for-fraud-protection"
+            }
+          },
+          {
+            "concept": "Image Classification",
+            "branch": "Clasificación",
+            "business": "Inspección de calidad",
+            "offer": "Integración de cámara, modelo y cola de revisión para una línea de producción.",
+            "data": "Imágenes representativas de condiciones y defectos reales.",
+            "technique": "Clasificación de imágenes con transfer learning.",
+            "tool": "PyTorch para adaptar un modelo; evaluar también métodos de anomalías.",
+            "metric": "Defectos omitidos, falsas alarmas y tiempo de inspección.",
+            "caution": "Clasificar, localizar un defecto y detectar una anomalía son tareas distintas.",
+            "source": {
+              "title": "PyTorch · Transfer learning para imágenes",
+              "url": "https://docs.pytorch.org/tutorials/beginner/transfer_learning_tutorial.html"
+            }
+          },
+          {
+            "concept": "Customer Retention",
+            "branch": "Clasificación",
+            "business": "Servicios por suscripción",
+            "offer": "Sistema de priorización de seguimiento integrado al CRM.",
+            "data": "Historial de uso y resultados de renovación dentro de un periodo definido.",
+            "technique": "Clasificación de riesgo; experimentos para evaluar intervenciones.",
+            "tool": "Scikit-learn; CRM de la empresa para registrar acciones.",
+            "metric": "Retención incremental y coste de contacto, además de calidad predictiva.",
+            "caution": "Riesgo de abandono no equivale a probabilidad de responder a una oferta.",
+            "source": {
+              "title": "Scikit-learn · Guía de métodos",
+              "url": "https://scikit-learn.org/stable/user_guide"
+            }
+          },
+          {
+            "concept": "Diagnostics",
+            "branch": "Clasificación",
+            "business": "Mantenimiento de maquinaria",
+            "offer": "Servicio de alertas y revisión de posibles fallos por equipo.",
+            "data": "Sensores, síntomas, fallos confirmados y mantenimiento realizado.",
+            "technique": "Clasificación de estados o fallos; anomalías como alternativa.",
+            "tool": "Scikit-learn para un prototipo sobre registros tabulares.",
+            "metric": "Fallos omitidos, falsas alarmas y tiempo de anticipación.",
+            "caution": "Se requieren datos de las condiciones reales y revisión técnica.",
+            "source": {
+              "title": "Scikit-learn · Guía de métodos",
+              "url": "https://scikit-learn.org/stable/user_guide"
+            }
+          },
+          {
+            "concept": "Forecasting",
+            "branch": "Regresión",
+            "business": "Planeación de inventarios",
+            "offer": "Servicio recurrente de pronósticos por tienda y producto.",
+            "data": "Demanda histórica, calendario, disponibilidad y promociones conocidas.",
+            "technique": "Modelos de series temporales o regresión con variables rezagadas.",
+            "tool": "Scikit-learn para regresión; comparar con un pronóstico estacional sencillo.",
+            "metric": "Error en periodos posteriores y efecto en faltantes y excedentes.",
+            "caution": "Separar por tiempo y reconocer ventas limitadas por falta de inventario.",
+            "source": {
+              "title": "Uber · Michelangelo",
+              "url": "https://www.uber.com/us/en/blog/michelangelo-machine-learning-platform/"
+            }
+          },
+          {
+            "concept": "Predictions",
+            "branch": "Regresión",
+            "business": "Cotización y promesa de servicio",
+            "offer": "Estimador de duración o coste para apoyar cotizaciones.",
+            "data": "Servicios anteriores, contexto e importe o duración observada.",
+            "technique": "Regresión lineal, árboles o ensembles.",
+            "tool": "Scikit-learn.",
+            "metric": "Error de estimación por tipo de servicio y desviaciones costosas.",
+            "caution": "Mostrar incertidumbre y revisar casos fuera de experiencia.",
+            "source": {
+              "title": "Scikit-learn · Guía de métodos",
+              "url": "https://scikit-learn.org/stable/user_guide"
+            }
+          },
+          {
+            "concept": "Process Optimization",
+            "branch": "Regresión",
+            "business": "Planeación de producción",
+            "offer": "Servicio que combina estimaciones con una programación sujeta a capacidades.",
+            "data": "Duraciones estimadas, recursos, plazos y restricciones verificadas.",
+            "technique": "Predicción más optimización matemática; no confundir sus funciones.",
+            "tool": "Modelo predictivo más Google OR-Tools.",
+            "metric": "Cumplimiento, coste y factibilidad de los planes.",
+            "caution": "OR-Tools optimiza; no es en sí un modelo de machine learning.",
+            "source": {
+              "title": "Google OR-Tools · Optimización",
+              "url": "https://developers.google.com/optimization"
+            }
+          },
+          {
+            "concept": "New Insights",
+            "branch": "Regresión",
+            "business": "Analítica de operaciones",
+            "offer": "Estudio de factores asociados con retrasos o desperdicio.",
+            "data": "Resultados, condiciones operativas y calidad del registro.",
+            "technique": "Regresión e interpretación; diseño causal si se quieren medir intervenciones.",
+            "tool": "Scikit-learn y visualización exploratoria.",
+            "metric": "Hipótesis útiles contrastadas, no cantidad de gráficos generados.",
+            "caution": "Asociación estadística no establece causalidad.",
+            "source": {
+              "title": "Scikit-learn · Guía de métodos",
+              "url": "https://scikit-learn.org/stable/user_guide"
+            }
+          },
+          {
+            "concept": "Real-Time Decisions",
+            "branch": "Refuerzo",
+            "business": "Control energético",
+            "offer": "Posible servicio de control que ajusta equipos dentro de restricciones.",
+            "data": "Estado del sistema, acciones, consumo y restricciones operativas.",
+            "technique": "Políticas de control; refuerzo cuando resulte adecuado.",
+            "tool": "Gymnasium y Stable-Baselines3 para investigar en simulación.",
+            "metric": "Consumo junto con estabilidad y cumplimiento de restricciones.",
+            "caution": "Tiempo real no significa aprendizaje en línea. El caso de refrigeración no garantiza ahorro en otro edificio.",
+            "source": {
+              "title": "DeepMind · Refrigeración de centros de datos, 2016",
+              "url": "https://deepmind.google/blog/deepmind-ai-reduces-google-data-centre-cooling-bill-by-40/"
+            }
+          },
+          {
+            "concept": "Game AI",
+            "branch": "Refuerzo",
+            "business": "Videojuegos y simulación",
+            "offer": "Oponentes de entrenamiento o simuladores para probar estrategias.",
+            "data": "Estado, acciones, recompensas y reglas del entorno.",
+            "technique": "Refuerzo, autojuego, imitación, búsqueda o reglas según objetivo.",
+            "tool": "Gymnasium y Stable-Baselines3 para un prototipo acotado.",
+            "metric": "Desempeño frente a oponentes nuevos y diversidad de estrategias.",
+            "caution": "AlphaStar es investigación específica; no una solución lista para cualquier negocio.",
+            "source": {
+              "title": "DeepMind · AlphaStar, enero de 2019",
+              "url": "https://deepmind.google/blog/alphastar-mastering-the-real-time-strategy-game-starcraft-ii/"
+            }
+          },
+          {
+            "concept": "Robot Navigation",
+            "branch": "Refuerzo",
+            "business": "Logística interna",
+            "offer": "Integración y soporte de robots móviles para mover materiales.",
+            "data": "Mapas, sensores, trayectorias y condiciones físicas.",
+            "technique": "Planificación y control; refuerzo como una opción dentro de la arquitectura.",
+            "tool": "NVIDIA Isaac Sim para pruebas de simulación.",
+            "metric": "Llegadas correctas, colisiones, bloqueos e intervenciones humanas.",
+            "caution": "Simular no sustituye la validación en el entorno físico.",
+            "source": {
+              "title": "NVIDIA Isaac Sim · Simulación robótica",
+              "url": "https://developer.nvidia.com/isaac/sim"
+            }
+          },
+          {
+            "concept": "Skill Acquisition",
+            "branch": "Refuerzo",
+            "business": "Integración de células robóticas",
+            "offer": "Adaptación de habilidades de manipulación a nuevas piezas.",
+            "data": "Demostraciones, interacción, sensores y criterios de éxito.",
+            "technique": "Imitación y/o refuerzo para habilidades específicas.",
+            "tool": "Isaac Sim para simular; Stable-Baselines3 en entornos compatibles.",
+            "metric": "Éxito con variaciones de piezas y condiciones nuevas.",
+            "caution": "La habilidad aprendida requiere evaluar transferencia a hardware real.",
+            "source": {
+              "title": "NVIDIA Isaac Sim · Simulación robótica",
+              "url": "https://developer.nvidia.com/isaac/sim"
+            }
+          },
+          {
+            "concept": "Learning Tasks",
+            "branch": "Refuerzo",
+            "business": "Operación robótica por servicio",
+            "offer": "Servicio de recoger, transportar y colocar objetos con seguimiento del resultado.",
+            "data": "Objetivo, estados, acciones, fallos y criterios de terminación.",
+            "technique": "Coordinación de habilidades, planificación y aprendizaje según la tarea.",
+            "tool": "Gymnasium para definir un entorno; herramientas robóticas para la ejecución.",
+            "metric": "Tareas completas correctas y coste de recuperación de fallos.",
+            "caution": "Etiqueta amplia del gráfico: no identifica por sí sola un algoritmo diferente.",
+            "source": {
+              "title": "Gymnasium · Entornos de aprendizaje por refuerzo",
+              "url": "https://gymnasium.farama.org/"
+            }
+          }
+        ],
+        "extensions": [
+          {
+            "title": "Historia · La ambición ya estaba escrita en 1955",
+            "minutes": 2,
+            "cue": "Si preguntan cuándo empezó la IA o por qué parece nueva.",
+            "body": "En 1955, McCarthy, Minsky, Rochester y Shannon propusieron reunirse en Dartmouth en el verano siguiente para estudiar inteligencia artificial. El documento ya hablaba de lenguaje, abstracciones, redes neuronales y mejora de los sistemas. Es interesante compararlo con lo que hoy le pedimos a una aplicación. La ambición precede por décadas a las herramientas que tenemos a mano.\n\nPregunta al grupo: si una idea lleva tanto tiempo planteada, ¿qué tiene que cambiar para que pueda convertirse en un negocio? Escucha dos respuestas y enlaza con datos disponibles, capacidad de cómputo e integración. Esa conexión empresarial es nuestra interpretación, no una promesa que hiciera aquel documento.",
+            "sources": [
+              {
+                "title": "McCarthy et al. · Propuesta de Dartmouth, 1955",
+                "url": "https://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html"
+              }
+            ]
+          },
+          {
+            "title": "Historia y técnica · ImageNet y el salto de la visión",
+            "minutes": 3,
+            "cue": "Si el grupo se interesa por inspección, imágenes o deep learning.",
+            "body": "En el trabajo de ImageNet de 2012, Krizhevsky, Sutskever y Hinton entrenaron una red convolucional profunda para clasificar imágenes a gran escala, utilizando GPU. El caso permite explicar una combinación concreta de datos, arquitectura y cómputo. Deep learning tiene una historia anterior; este trabajo es un hito influyente.\n\nPara una fábrica, el siguiente desafío es mucho más específico: reconocer defectos de sus piezas bajo sus condiciones. Pregunta: ¿cuál sería más difícil, conseguir fotografías o conseguir fotografías correctamente etiquetadas que representen las excepciones? Escucha ejemplos. Cierra: una demostración visual convincente todavía necesita pruebas con datos distintos y condiciones reales.",
+            "sources": [
+              {
+                "title": "Krizhevsky, Sutskever y Hinton · ImageNet, 2012",
+                "url": "https://www.cs.toronto.edu/~hinton/absps/imagenet.pdf"
+              },
+              {
+                "title": "Amazon Science · Inspección visual",
+                "url": "https://www.amazon.science/blog/making-automated-visual-inspection-systems-practical"
+              }
+            ]
+          },
+          {
+            "title": "Historia y estrategia · De AlphaGo a StarCraft",
+            "minutes": 3,
+            "cue": "Si quieres profundizar en Game AI y decisiones encadenadas.",
+            "body": "En 2016 AlphaGo venció a Lee Sedol en Go. En 2019 AlphaStar llevó la conversación a StarCraft II, con decisiones en tiempo real e información incompleta. Son problemas diferentes, con entornos y evaluaciones específicos.\n\nPregunta: ¿qué harían en una empresa si no pudieran ver todas las acciones de sus competidores y tuvieran que elegir entre invertir ahora o conservar recursos? Escucha dos posturas. Usa la analogía para hablar de horizontes y consecuencias, sin presentar ganar un videojuego como prueba de capacidad para dirigir una empresa. Para investigar una estrategia necesitamos definir estado, acciones y qué resultado vamos a valorar.",
+            "sources": [
+              {
+                "title": "DeepMind · AlphaGo",
+                "url": "https://deepmind.google/research/alphago/"
+              },
+              {
+                "title": "DeepMind · AlphaStar, octubre de 2019",
+                "url": "https://deepmind.google/blog/alphastar-grandmaster-level-in-starcraft-ii-using-multi-agent-reinforcement-learning/"
+              }
+            ]
+          },
+          {
+            "title": "Caso · Netflix vende una experiencia de elección",
+            "minutes": 2,
+            "cue": "Si el grupo está pensando en clientes, catálogos o ventas.",
+            "body": "Netflix describe recomendaciones basadas, entre otras señales, en interacciones, preferencias de miembros similares e información de los títulos. Utilízalo para mostrar una aplicación documentada, sin afirmar que todo ocurre mediante clustering.\n\nPropuesta para conversar: imaginemos un distribuidor con miles de productos. ¿Le conviene mostrar lo que más se vende, lo que deja más margen o lo más relevante para ese comprador? Escucha dos respuestas. Ahí aparece una decisión empresarial que el algoritmo no resuelve por nosotros. Un piloto tendría que comparar la experiencia propuesta con la actual y medir resultados. Este ejemplo del distribuidor es hipotético.",
+            "sources": [
+              {
+                "title": "Netflix · Cómo funcionan las recomendaciones",
+                "url": "https://help.netflix.com/en/node/100639"
+              }
+            ]
+          },
+          {
+            "title": "Caso · Cuando una predicción equivocada cuesta dinero",
+            "minutes": 3,
+            "cue": "Si hay interés en finanzas, controles o calidad del modelo.",
+            "body": "Stripe explica Radar como un sistema que combina aprendizaje automático y herramientas para prevenir fraude. Una transacción legítima rechazada también tiene coste.\n\nEjemplo ficticio: hay cien mil operaciones y sólo cien son fraudulentas. Un sistema que siempre responde «legítima» acierta el 99.9 % de las veces y detecta cero fraudes. Deja que el grupo haga esa cuenta. Pregunta: ¿comprarían ese sistema por su porcentaje de aciertos? Ahora distingue pérdidas por fraude, rechazos legítimos y esfuerzo de revisión. Es una forma de pasar de una métrica vistosa a una decisión de negocio.",
+            "sources": [
+              {
+                "title": "Stripe · Guía técnica de Radar",
+                "url": "https://stripe.com/guides/primer-on-machine-learning-for-fraud-protection"
+              }
+            ]
+          },
+          {
+            "title": "Caso · Refrigeración y ahorro medido",
+            "minutes": 2,
+            "cue": "Si preguntan por operaciones, energía o retorno de inversión.",
+            "body": "DeepMind reportó en 2016 una reducción de hasta 40 % en la energía destinada a refrigeración en su experiencia con centros de datos de Google. Conserva el alcance: refrigeración, no toda la factura eléctrica de cualquier organización.\n\nPregunta qué habría que conocer antes de ofrecer algo parecido a una planta local: consumo de referencia, límites operativos, instrumentos y quién puede autorizar un ajuste. La oportunidad propuesta sería un servicio que combine medición, predicción y control. El resultado publicado sirve como caso; el cliente nuevo necesita su propia evaluación.",
+            "sources": [
+              {
+                "title": "DeepMind · Refrigeración de centros de datos, 2016",
+                "url": "https://deepmind.google/blog/deepmind-ai-reduces-google-data-centre-cooling-bill-by-40/"
+              }
+            ]
+          },
+          {
+            "title": "Herramientas · Qué pedirle realmente a un equipo técnico",
+            "minutes": 4,
+            "cue": "Si piden nombres concretos o qué instalar para explorar.",
+            "body": "Para explorar datos de forma visual, Orange ofrece flujos con widgets de análisis, agrupación y proyección. Para desarrollar modelos tabulares, scikit-learn reúne métodos de clasificación, regresión y transformación. PyTorch permite trabajar con redes neuronales; un tutorial de transfer learning ayuda a explicar por qué no siempre entrenamos desde cero.\n\nPara investigar decisiones por refuerzo, Gymnasium define entornos y Stable-Baselines3 aporta implementaciones de algoritmos. En robótica, Isaac Sim ayuda con simulación. Para asignar recursos con restricciones, OR-Tools es un optimizador, que puede trabajar junto a predicciones. Son rutas técnicas distintas, no una lista de instalaciones obligatorias para esta clase.\n\nPregunta: si queremos prever demanda y programar producción, ¿qué herramienta cubre cada parte? Pide identificar primero datos, predicción, decisión y medición. Hoy mantenemos la práctica con Gemini; estas referencias sirven para conversar con un equipo especialista.",
+            "sources": [
+              {
+                "title": "Orange · Exploración visual y modelos",
+                "url": "https://orangedatamining.com/widget-catalog/"
+              },
+              {
+                "title": "Scikit-learn · Guía de métodos",
+                "url": "https://scikit-learn.org/stable/user_guide"
+              },
+              {
+                "title": "PyTorch · Transfer learning para imágenes",
+                "url": "https://docs.pytorch.org/tutorials/beginner/transfer_learning_tutorial.html"
+              },
+              {
+                "title": "Gymnasium · Entornos de aprendizaje por refuerzo",
+                "url": "https://gymnasium.farama.org/"
+              },
+              {
+                "title": "Stable-Baselines3 · Algoritmos de refuerzo",
+                "url": "https://stable-baselines3.readthedocs.io/en/master/"
+              },
+              {
+                "title": "NVIDIA Isaac Sim · Simulación robótica",
+                "url": "https://developer.nvidia.com/isaac/sim"
+              },
+              {
+                "title": "Google OR-Tools · Optimización",
+                "url": "https://developers.google.com/optimization"
+              }
+            ]
+          },
+          {
+            "title": "Técnica · Un Transformer no es todo el mapa",
+            "minutes": 2,
+            "cue": "Si confunden modelos generativos, deep learning y tipos de aprendizaje.",
+            "body": "El artículo Attention Is All You Need, de 2017, presentó la arquitectura Transformer basada en atención. Una arquitectura indica cómo organiza el modelo sus operaciones. Aprendizaje supervisado, no supervisado y por refuerzo describen formas de aprender; son dimensiones diferentes.\n\nPodemos utilizar redes profundas para imágenes o para políticas de acción, y un modelo de lenguaje puede pasar por varias etapas de entrenamiento. Pregunta: cuando pegamos un expediente en el chat, ¿cambiamos los parámetros del modelo o el contexto de esa respuesta? Recupera la comparación que hicieron en clase. Esta distinción evita llamar entrenamiento a cualquier interacción.",
+            "sources": [
+              {
+                "title": "Vaswani et al. · Attention Is All You Need, 2017",
+                "url": "https://arxiv.org/abs/1706.03762"
+              }
+            ]
+          },
+          {
+            "title": "Puente · De una capacidad a un asistente en un proceso",
+            "minutes": 3,
+            "cue": "Para ampliar el cierre y preparar la siguiente clase.",
+            "body": "Propuesta ficticia: un servicio recibe consultas y prepara respuestas. Describamos quién entrega la información, qué puede consultar el asistente, qué borrador debe producir y quién lo aprueba. Si falta una fuente, debe pedirla o señalar el vacío. Si el caso rebasa su alcance, debe escalarlo.\n\nPide al grupo elegir una excepción que quieran probar. Después pregunta qué guardarían para comprobar el resultado: entrada, fuentes, salida, revisión y acción realizada. Éste es el puente al diseño del asistente. Podemos combinar varias capacidades del mapa dentro del proceso. Llamarlo agente no significa que use aprendizaje por refuerzo ni que tenga autorización ilimitada.",
+            "sources": []
+          }
+        ]
       }
     ]
   },

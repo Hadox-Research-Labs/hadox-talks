@@ -70,51 +70,59 @@ Para ampliar: parámetros son valores aprendidos; entrenamiento los ajusta. Infe
 
 - [Dartmouth · Our Story](https://ai.dartmouth.edu/our-story): Propuesta de 1955 y encuentro de 1956. Contexto histórico de la investigación en IA.
 
-## 3. El mapa del machine learning
+## 3. Tu maestría de IA: capacidades y negocios
 
 18:12–18:24 · 12 minutos
 
-Pregunta: ¿Qué capacidad de IA necesita realmente el problema de tu organización?
+Pregunta: ¿Qué negocio o mejora empresarial puede construirse con cada capacidad?
 
 ### Discurso
 
-Miren este mapa antes de pensar en una marca. Cuando una empresa dice «necesito inteligencia artificial», todavía falta entender qué trabajo quiere resolver. Aquí hay sistemas que descubren grupos, otros que estiman cantidades y otros que aprenden a actuar. Vamos a recorrer el dibujo del centro hacia afuera. Conserven una pregunta: ¿en qué parte de este mapa está un problema de su organización?
+Aquí tienen su maestría de inteligencia artificial, cortesía del Dr. Valdés. Tómenle una foto, porque este mapa les va a ayudar a entender qué les están vendiendo cuando alguien llega a su empresa diciendo que trae inteligencia artificial. Vamos a recorrerlo con una pregunta: ¿qué problema resuelve cada cosa y dónde podría estar el negocio?
 
-En el centro está machine learning: aprender patrones a partir de datos o experiencia. La prueba importante es qué ocurre con casos diferentes de los usados para aprender. Memorizar el historial de una empresa no garantiza que el sistema responda bien mañana. Las tres familias muestran distintas formas de aprovechar esa experiencia. Son una orientación para pensar, no departamentos aislados: una solución real puede combinar técnicas.
+En el centro está machine learning: sistemas que aprenden patrones a partir de datos o experiencia. Alrededor hay distintas maneras de aprender. Miren las ramas como un portafolio de capacidades. Una empresa puede necesitar varias a la vez, y también puede vender un servicio construido sobre una de ellas. Empecemos por la izquierda, en azul.
 
-Empecemos por la izquierda, en azul. Aprendizaje no supervisado: tenemos datos, pero no entregamos una respuesta correcta para cada registro. Imaginen una tabla con cientos de variables sobre miles de clientes. La reducción de dimensionalidad intenta construir una representación más pequeña que conserve información relevante. Meaningful compression es esa compresión útil: resumir sin perder lo que importa para la tarea. Structure Discovery busca estructuras y relaciones que no habíamos advertido. Feature Elicitation habla de obtener características aprovechables: transformar muchas mediciones en señales con las que trabajar. Big data Visualisation permite llevar datos de muchas dimensiones a una representación que podamos explorar. Al proyectar perdemos información; dos puntos cercanos en el dibujo no prueban que dos clientes sean iguales en todo.
+Aprendizaje no supervisado significa explorar estructura sin entregar una respuesta correcta para cada registro. En reducción de dimensionalidad, Meaningful compression consiste en conservar lo útil de muchos datos en una representación más pequeña. Imaginen una fábrica con cientos de señales: una oportunidad sería ofrecer monitoreo que reduzca esa complejidad y ayude a detectar cuándo cambia la operación. Structure Discovery busca relaciones que no estaban claras. Una consultora podría explorar patrones de devoluciones por producto, canal y temporada, para formular mejores preguntas sobre lo que está ocurriendo.
 
-Bajemos a clustering, agrupación por similitud. Customer Segmentation encuentra grupos con comportamientos parecidos. Targeted Marketing utiliza esos grupos para plantear propuestas distintas. Recommender Systems puede aprovechar semejanzas entre personas o productos para sugerir algo relevante. Son trabajos conectados, pero diferentes: descubrir un grupo, decidir cómo tratarlo y recomendarle algo. Los recomendadores también usan otras técnicas. Encontrar un segmento por sí solo no demuestra que una campaña vaya a funcionar. Como líderes tenemos que preguntar qué variables produjeron el grupo y qué decisión justifica.
+Feature Elicitation obtiene características que otro análisis pueda aprovechar. Una empresa que recibe registros de maquinaria podría convertirlos en señales útiles para modelos de mantenimiento. Big data Visualisation permite explorar muchas variables mediante una representación visible: un servicio de inteligencia comercial podría mostrar qué sucursales o productos se parecen y cuáles merecen investigación. Estas cuatro aplicaciones ayudan a representar y explorar información. Una proyección atractiva o un patrón curioso todavía necesita validación antes de convertirse en una decisión.
 
-Ahora la derecha, en terracota. Aprendizaje supervisado: proporcionamos ejemplos con resultados conocidos. Clasificación responde a una categoría o a su probabilidad. Fraud Detection busca operaciones sospechosas: si se equivoca puede dejar pasar fraude o molestar a un cliente legítimo. Image Classification permite reconocer, por ejemplo, una imagen de una pieza defectuosa. Customer Retention suele empezar por estimar quién podría abandonar el servicio; después hay que probar qué intervención realmente ayuda a conservarlo. Diagnostics puede clasificar posibles fallos de una máquina a partir de sus señales. Señalen conmigo las cuatro aplicaciones: el tipo de dato cambia, pero estamos aprendiendo a distinguir categorías. Fraude también puede abordarse como detección de anomalías; el mapa ilustra posibilidades, no exclusividades.
+Bajemos a clustering. Customer Segmentation identifica grupos de comportamiento: una distribuidora puede descubrir que atender a todos sus compradores de la misma manera desperdicia oportunidades. Targeted Marketing utiliza esas diferencias para diseñar y probar campañas; ahí puede existir una agencia especializada que cobre por operar experimentos comerciales y medir su resultado. Recommender Systems ayuda a seleccionar productos o contenidos relevantes. Una tienda podría contratar recomendaciones como servicio. Netflix es un caso documentado de personalización, aunque su sistema combina métodos y no se explica sólo por clustering. El negocio propuesto sería facilitar una elección útil; habría que demostrar su efecto sobre compras, permanencia o satisfacción.
 
-La otra rama supervisada es regresión: estimamos un valor numérico. Forecasting lleva eso al futuro, como demanda de la próxima semana. Predictions es más amplio: también podemos estimar el coste de algo que todavía no conocemos. Process Optimization usa predicciones para comparar decisiones, pero necesita además un objetivo y restricciones: saber cuánto tarda una operación no decide automáticamente cómo reorganizarla. New Insights representa información que obtenemos sobre relaciones entre variables. Si dos cosas se mueven juntas, eso todavía no demuestra que una cause la otra. Piensen en la diferencia entre preguntar «¿este cliente abandonará?» y «¿cuántas solicitudes llegarán?»: la formulación cambia el problema técnico y la manera de evaluar el resultado.
+Pasemos a la derecha, en terracota. En aprendizaje supervisado tenemos ejemplos con resultados conocidos. Clasificación estima categorías o sus probabilidades. Fraud Detection identifica operaciones sospechosas: Stripe Radar es un ejemplo comercial documentado. Aquí se puede vender prevención de pérdidas, pero hay que medir también cuántos clientes legítimos estamos rechazando. Image Classification reconoce categorías en imágenes. Piensen en inspección de calidad como servicio: una cámara ayuda a identificar piezas que requieren revisión, con datos de defectos y condiciones reales de iluminación.
 
-Vayamos abajo, al aprendizaje por refuerzo, en ocre. Aquí un agente actúa en un entorno y aprende una política mediante recompensas. La decisión de ahora modifica lo que podrá hacer después. Real-Time Decisions abre el problema de actuar a tiempo mientras cambia el entorno. Una respuesta rápida no implica que el sistema esté aprendiendo en ese instante: puede usar una política entrenada previamente.
+Customer Retention empieza por estimar riesgo de abandono. Una empresa de suscripción podría priorizar a quién contactar; un proveedor podría ofrecer ese análisis conectado a su CRM. Después debe probar qué intervención conserva clientes, porque predecir abandono no basta. Diagnostics permite clasificar posibles fallos: una empresa de mantenimiento podría ofrecer alertas sobre maquinaria usando síntomas y sensores. En ambos casos se necesita seguimiento de lo que ocurrió realmente para saber si el modelo acertó y si la acción valió la pena.
 
-Game AI merece detenernos. Imaginen StarCraft: no ven todo lo que hace el rival, tienen recursos limitados y deben decidir entre invertir, explorar o atacar. Una ventaja inmediata puede arruinar su posición posterior. AlphaStar, de DeepMind, combinó aprendizaje a partir de partidas humanas con aprendizaje por refuerzo. Los juegos permiten investigar decisiones encadenadas y evaluar estrategias en un entorno definido. La analogía con dirección resulta interesante por la incertidumbre y la asignación de recursos; trasladar una técnica a una empresa exige otro trabajo de validación. La IA de los videojuegos también incluye reglas y búsqueda.
+La siguiente rama es regresión: estimamos cantidades. Forecasting mira hacia adelante; una cadena comercial puede estimar demanda por tienda y producto para preparar compras. Podría contratar un servicio de planeación de inventario. Predictions es más amplio: una empresa de logística podría estimar duración o coste de un servicio antes de comprometerse. Uber ha documentado una plataforma para operar modelos de clasificación, regresión y pronóstico: detrás de una experiencia sencilla existe infraestructura para mantener predicciones en funcionamiento.
 
-Robot Navigation lleva esas decisiones al espacio físico: llegar a un destino, evitar obstáculos y responder a lo que detectan los sensores. Skill Acquisition consiste en aprender habilidades reutilizables, como caminar, girar o agarrar un objeto. Learning Tasks es una etiqueta más amplia para aprender a resolver una tarea con un objetivo: recoger y colocar objetos puede exigir varias habilidades. Por eso conservamos las cinco etiquetas. Estrategia de juego, navegación, habilidad y tarea abren preguntas diferentes sobre lo que queremos que un sistema aprenda y cómo comprobarlo.
+Process Optimization conecta esas estimaciones con decisiones: qué producir, cuándo y con qué recursos. Una consultora podría vender planeación operativa, combinando un pronóstico con un optimizador sujeto a restricciones. New Insights abre un servicio de análisis sobre qué variables se relacionan con retrasos, desperdicio o margen. Esa relación genera hipótesis; para afirmar que una intervención produce una mejora necesitamos evidencia adicional. Noten el cambio de conversación: ya podemos pedir una capacidad concreta, los datos que necesita y una medida de resultado.
 
-Ahora ubiquemos lo que haremos hoy. Los modelos fundacionales y generativos amplían este panorama. Este mapa clásico no dibuja por separado el aprendizaje autosupervisado: en muchos modelos de lenguaje, el propio texto proporciona la señal para aprender a predecir tokens. En su desarrollo también pueden intervenir ajuste supervisado y métodos de refuerzo. Deep learning describe una familia de modelos basada en redes neuronales, no una cuarta rama paralela a estas tres. Un mismo modelo puede participar en tareas distintas.
+Abajo, en ocre, está el aprendizaje por refuerzo. Un agente actúa en un entorno y aprende una política mediante recompensas. Real-Time Decisions nos lleva a actuar mientras cambian las condiciones. Piensen en un posible servicio de control energético: ajustar equipos manteniendo límites de operación. Hay experiencias documentadas de DeepMind con refrigeración; no significa que cualquier edificio pueda copiar el resultado. Tiempo real tampoco equivale automáticamente a refuerzo: muchas decisiones rápidas usan reglas u otros modelos.
 
-En esta clase utilizaremos un modelo ya entrenado para trabajar con texto y una imagen. Cuando agreguemos documentos a Gemini, estaremos aportando contexto para la respuesta; no estaremos entrenando desde cero un clasificador o un robot. ¿Qué capacidad de este mapa les serviría en su organización, y qué dato necesitarían para comprobarla? Escuchemos una respuesta breve. Con esa distinción ahora sí tiene sentido conocer quién desarrolla los modelos y en qué aplicaciones podemos utilizarlos.
+Game AI es una puerta excelente para entender estrategia. Imaginen StarCraft: recursos limitados, un rival que no ven por completo y decisiones que darán resultado después. AlphaStar combinó aprendizaje a partir de partidas humanas y por refuerzo. Como oportunidad de negocio podemos imaginar oponentes de entrenamiento o simuladores para probar decisiones. La transferencia a una empresa necesita su propio diseño y validación. Un chatbot que representa un personaje no es automáticamente un agente entrenado por refuerzo.
+
+Robot Navigation lleva el problema al mundo físico: un robot de almacén debe llegar a destino evitando obstáculos. Ahí puede haber un negocio de integración de flotas y soporte operativo. Skill Acquisition aprende habilidades reutilizables, como agarrar una pieza; un integrador puede especializarse en adaptar una célula robótica a diferentes productos. Learning Tasks reúne habilidades para resolver una tarea, como recoger, trasladar y colocar. Un proveedor podría vender una operación robótica por servicio. Son posibilidades empresariales, no una promesa de que baste descargar un modelo: necesitan sensores, integración, pruebas y mantenimiento.
+
+Ahora ubiquemos lo que haremos hoy. Este mapa clásico no dibuja por separado el aprendizaje autosupervisado. En muchos modelos de lenguaje, el propio texto proporciona una señal para aprender a predecir tokens. Deep learning se refiere a modelos basados en redes neuronales profundas y puede aparecer en distintas familias. Los modelos fundacionales pueden servir de base para múltiples tareas. Al poner documentos en Gemini aportamos contexto a un modelo ya entrenado; no estamos construyendo desde cero todos los sistemas de este mapa.
+
+Quédense con una aplicación que podría tener sentido en su organización. Si yo les pidiera defenderla ante dirección, ¿qué problema resolvería, qué datos tendrían y cómo comprobarían que mejora algo? Escuchemos una respuesta. Con este mapa en mente, ahora sí veamos quién desarrolla los modelos y dónde podemos empezar a utilizarlos.
 
 ### Cómo conducirla
 
-0–1 min: mostrar el mapa completo; señalar centro, familias y aplicaciones. No abrir Gemini.
+0–1 min: abrir con «Aquí tienen su maestría de inteligencia artificial, cortesía del Dr. Valdés». Invitar a tomar una foto del mapa.
 
-1–4 min: recorrer la rama azul: reducción de dimensionalidad, sus cuatro aplicaciones y las tres de clustering.
+1–4 min: recorrer las siete aplicaciones de la rama azul y conectar cada una con una oportunidad de negocio.
 
-4–7 min: recorrer clasificación y regresión; explicar sus ocho aplicaciones y distinguir categoría de cantidad.
+4–7 min: recorrer las ocho aplicaciones de clasificación y regresión; distinguir ejemplo documentado de oportunidad propuesta.
 
-7–10 min: recorrer las cinco aplicaciones de refuerzo. Detenerse en StarCraft, estrategia y consecuencias diferidas.
+7–10 min: recorrer las cinco aplicaciones de refuerzo, con una pausa breve en Game AI y estrategia.
 
-10–11 min: ubicar aprendizaje autosupervisado, deep learning y modelos fundacionales sin presentarlos como ramas equivalentes.
+10–11 min: ubicar los modelos fundacionales y la práctica de hoy dentro de este panorama.
 
-11–12 min: escuchar una oportunidad del grupo y enlazar con desarrolladores y aplicaciones.
+11–12 min: recoger una oportunidad del grupo y pasar a quién desarrolla los modelos. Las ampliaciones son opcionales.
 
-Señala las ramas mientras hablas. Los colores organizan familias; las aplicaciones pueden combinar métodos. El gráfico es un mapa clásico orientativo, no una taxonomía exhaustiva de toda la IA.
+Los negocios propuestos son ejemplos didácticos. Los casos empresariales documentados tienen referencias. Si sobra tiempo, elige una ampliación del banco bajo el discurso; sus minutos se añaden sólo si los tienes disponibles.
+
+Banco de negocios y ampliaciones: [NEGOCIOS_Y_RESERVA_ML.md](NEGOCIOS_Y_RESERVA_ML.md). En la web aparece desplegable bajo el discurso de esta lámina.
 
 ### Referencias
 
@@ -129,6 +137,40 @@ Señala las ramas mientras hablas. Los colores organizan familias; las aplicacio
 - [DeepMind · From motor control to embodied intelligence](https://deepmind.google/blog/from-motor-control-to-embodied-intelligence): Habilidades motoras y tareas en entornos físicos.
 
 - [Stanford CRFM · On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258): Modelos fundacionales y relación con aprendizaje autosupervisado.
+
+- [Orange · Exploración visual y modelos](https://orangedatamining.com/widget-catalog/): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [Scikit-learn · Guía de métodos](https://scikit-learn.org/stable/user_guide): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [PyTorch · Transfer learning para imágenes](https://docs.pytorch.org/tutorials/beginner/transfer_learning_tutorial.html): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [Netflix · Cómo funcionan las recomendaciones](https://help.netflix.com/en/node/100639): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [Stripe · Guía técnica de Radar](https://stripe.com/guides/primer-on-machine-learning-for-fraud-protection): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [Uber · Michelangelo](https://www.uber.com/us/en/blog/michelangelo-machine-learning-platform/): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [Amazon Science · Inspección visual](https://www.amazon.science/blog/making-automated-visual-inspection-systems-practical): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [DeepMind · Refrigeración de centros de datos, 2016](https://deepmind.google/blog/deepmind-ai-reduces-google-data-centre-cooling-bill-by-40/): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [DeepMind · AlphaStar, octubre de 2019](https://deepmind.google/blog/alphastar-grandmaster-level-in-starcraft-ii-using-multi-agent-reinforcement-learning/): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [Gymnasium · Entornos de aprendizaje por refuerzo](https://gymnasium.farama.org/): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [Stable-Baselines3 · Algoritmos de refuerzo](https://stable-baselines3.readthedocs.io/en/master/): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [NVIDIA Isaac Sim · Simulación robótica](https://developer.nvidia.com/isaac/sim): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [Google OR-Tools · Optimización](https://developers.google.com/optimization): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [McCarthy et al. · Propuesta de Dartmouth, 1955](https://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [Krizhevsky, Sutskever y Hinton · ImageNet, 2012](https://www.cs.toronto.edu/~hinton/absps/imagenet.pdf): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [Vaswani et al. · Attention Is All You Need, 2017](https://arxiv.org/abs/1706.03762): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [DeepMind · AlphaGo](https://deepmind.google/research/alphago/): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
 
 ## 4. Quién desarrolla y dónde trabajamos
 
@@ -428,30 +470,78 @@ Una conclusión distinta de la mía puede estar mejor sustentada. Lo que necesit
 
 10–15 min: escuchar dos recomendaciones y una pregunta pendiente de cada una.
 
-## 13. Lo que llevarías a la siguiente reunión
+## 13. El mismo mapa, otra perspectiva
 
 20:25–20:30 · 5 minutos
 
-Pregunta: ¿Qué parte del trabajo querrías repetir con un asistente?
+Pregunta: ¿Cómo convertimos una capacidad de IA en un asistente dentro de un proceso?
 
 ### Discurso
 
-Volvamos a las tres escenas de la historia y a las conexiones entre personas. Hoy ustedes aportaron contexto, revisaron evidencia y tomaron una posición. Volvamos también a la pregunta inicial. Ahora podemos llevar un hallazgo sustentado, una alternativa razonada y una pregunta que falta resolver. La IA ayudó a organizar y producir trabajo; su decisión depende de cómo interpretan y comprueban ese producto.
+¿Se acuerdan de su maestría de inteligencia artificial, cortesía del Dr. Valdés? Volvamos al mismo mapa. Al principio lo miramos para descubrir capacidades y oportunidades de negocio. Ahora vamos a ver la IA desde otra perspectiva: cómo una capacidad llega a formar parte del trabajo de una organización.
 
-Dos preguntas finales: al aportar el expediente, ¿cambiamos el contexto o demostramos entrenamiento? Al agregar la imagen, ¿qué dato observamos y qué conclusión todavía necesita investigación? Escuchemos respuestas y aclaremos lo que haga falta.
+Hoy ustedes prepararon una decisión con un modelo ya entrenado. Le dieron contexto, incorporaron una imagen y comprobaron el resultado. ¿Qué parte de ese trabajo conservarían si tuvieran que repetirlo mañana? Escuchemos dos respuestas. Una puede ser organizar información, otra preparar un borrador o revisar si falta algo. Cada respuesta empieza a dibujar un proceso.
 
-La próxima clase tomaremos una parte concreta del proceso: preparar respuestas de servicio con instrucciones reutilizables, un catálogo y pruebas. Conservamos Nexo y la perspectiva elegida. Primero aprendimos a preparar una decisión; ahora diseñaremos cómo repetir una parte del trabajo.
+Miren las aplicaciones del mapa. Detectar riesgo de abandono sirve cuando alguien sabe qué hacer con esa señal. Un pronóstico sirve cuando influye en una compra o una programación. Una recomendación sirve cuando llega a la persona correcta y podemos evaluar su efecto. Entre la capacidad técnica y el valor de negocio hacen falta datos, responsables, reglas de actuación y seguimiento. Ésa será nuestra siguiente perspectiva.
+
+En la próxima clase pasaremos de obtener un resultado a diseñar una forma de repetir trabajo con un asistente: qué recibe, qué instrucciones conserva, qué herramientas necesita, qué puede hacer por sí mismo y cuándo debe pedir revisión. Probaremos su comportamiento con ejemplos. Llamarlo agente no significa que lo entrenemos por refuerzo; muchas soluciones combinan modelos existentes, instrucciones y flujos definidos.
+
+Antes de cerrar: cuando agregamos el expediente, ¿aportamos contexto o demostramos entrenamiento? Y con la imagen, ¿qué dato pudimos observar y qué explicación seguía siendo una hipótesis? Recuperemos esas dos distinciones. Conserven su entrega y elijan un paso repetible de su trabajo. Hoy aprendimos a preparar una decisión; la próxima vez diseñaremos cómo apoyar ese paso de forma consistente. Ahora el mapa también les sirve para conversar con quienes van a construirlo.
 
 ### Cómo conducirla
 
-0–2 min: recuperar dos preguntas del inicio.
+0–1 min: recuperar la frase de la maestría y mostrar el mismo mapa desde la perspectiva del proceso.
 
-2–4 min: comprobación oral de contexto y multimodalidad.
+1–2 min: escuchar dos partes del trabajo que el grupo querría repetir mañana.
 
-4–5 min: continuidad hacia el asistente de clase 2.
+2–3 min: conectar capacidad con datos, responsabilidades, reglas y seguimiento.
+
+3–4 min: explicar el puente a asistentes, herramientas, límites y pruebas de la siguiente clase.
+
+4–5 min: comprobar contexto frente a entrenamiento y dato visual frente a hipótesis; pedir conservar la entrega.
+
+Reaparición deliberada de la lámina 3. No repetir la explicación completa: cerrar con otra pregunta. Si hay minutos disponibles, abrir una historia o caso de la reserva. Mantener el cierre dentro de las 20:30.
+
+Banco de negocios y ampliaciones: [NEGOCIOS_Y_RESERVA_ML.md](NEGOCIOS_Y_RESERVA_ML.md). En la web aparece desplegable bajo el discurso de esta lámina.
 
 ### Referencias
 
 - [Stanford CRFM (2021) · On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258): Qué significa modelo fundacional y cómo se adapta a distintos usos.
 
 - [Radford et al. (2021) · CLIP](https://arxiv.org/abs/2103.00020): Antecedente de representaciones que relacionan imágenes y lenguaje.
+
+- [Orange · Exploración visual y modelos](https://orangedatamining.com/widget-catalog/): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [Scikit-learn · Guía de métodos](https://scikit-learn.org/stable/user_guide): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [PyTorch · Transfer learning para imágenes](https://docs.pytorch.org/tutorials/beginner/transfer_learning_tutorial.html): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [Netflix · Cómo funcionan las recomendaciones](https://help.netflix.com/en/node/100639): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [Stripe · Guía técnica de Radar](https://stripe.com/guides/primer-on-machine-learning-for-fraud-protection): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [Uber · Michelangelo](https://www.uber.com/us/en/blog/michelangelo-machine-learning-platform/): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [Amazon Science · Inspección visual](https://www.amazon.science/blog/making-automated-visual-inspection-systems-practical): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [DeepMind · Refrigeración de centros de datos, 2016](https://deepmind.google/blog/deepmind-ai-reduces-google-data-centre-cooling-bill-by-40/): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [DeepMind · AlphaStar, enero de 2019](https://deepmind.google/blog/alphastar-mastering-the-real-time-strategy-game-starcraft-ii/): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [DeepMind · AlphaStar, octubre de 2019](https://deepmind.google/blog/alphastar-grandmaster-level-in-starcraft-ii-using-multi-agent-reinforcement-learning/): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [Gymnasium · Entornos de aprendizaje por refuerzo](https://gymnasium.farama.org/): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [Stable-Baselines3 · Algoritmos de refuerzo](https://stable-baselines3.readthedocs.io/en/master/): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [NVIDIA Isaac Sim · Simulación robótica](https://developer.nvidia.com/isaac/sim): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [Google OR-Tools · Optimización](https://developers.google.com/optimization): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [McCarthy et al. · Propuesta de Dartmouth, 1955](https://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [Krizhevsky, Sutskever y Hinton · ImageNet, 2012](https://www.cs.toronto.edu/~hinton/absps/imagenet.pdf): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [Vaswani et al. · Attention Is All You Need, 2017](https://arxiv.org/abs/1706.03762): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+
+- [DeepMind · AlphaGo](https://deepmind.google/research/alphago/): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
