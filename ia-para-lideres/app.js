@@ -3,9 +3,13 @@
   const $=id=>document.getElementById(id);
   const courses=window.COURSES;
   const esc=s=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  $('course-list').innerHTML=courses.map(c=>`<article class="course-row"><span class="course-number">0${c.id}</span><div><p class="meta">${c.date} · ${c.duration} · ${c.slides.length} láminas</p><h3>${esc(c.title)}</h3><p>${esc(c.topics)}</p><p>${esc(c.question)}</p><div class="course-actions"><a href="?clase=${c.id}#lamina-1">Abrir clase ${c.id} ↗</a><a href="materiales/0${c.id}_GUIA_CLASE_${c.id}.pdf">Guía PDF ↗</a></div></div><a href="?clase=${c.id}#lamina-1" aria-label="Ver presentación de la clase ${c.id}"><img src="${c.slides[0].image}" alt="Portada de la clase ${c.id}: ${esc(c.title)}" loading="lazy" width="1280" height="720"></a></article>`).join('');
+  $('course-list').innerHTML=courses.map(c=>`<article class="course-row">
+    <a class="course-preview" href="?clase=${c.id}#lamina-1" aria-label="Ver presentación de la clase ${c.id}"><img src="${c.slides[0].image}" alt="Portada de la clase ${c.id}: ${esc(c.title)}" loading="lazy" width="1280" height="720"><span>Explorar ${c.slides.length} láminas <b aria-hidden="true">↗</b></span></a>
+    <div class="course-copy"><p class="meta"><span class="class-tag">Clase 0${c.id}</span> ${c.date} · ${c.duration}</p><h3>${esc(c.title)}</h3><p class="course-topics">${esc(c.topics)}</p><p class="course-question">${esc(c.question)}</p><div class="course-actions"><a class="class-link" href="?clase=${c.id}#lamina-1">Abrir clase ${c.id} <span aria-hidden="true">↗</span></a><a class="quiet-link" href="materiales/0${c.id}_GUIA_CLASE_${c.id}.pdf">Guía de trabajo · PDF ↓</a></div></div>
+  </article>`).join('');
   const course=courses.find(c=>c.id===Number(new URLSearchParams(location.search).get('clase')));
   if(!course)return;
+  document.body.classList.add('is-viewer');
   $('contenido').hidden=true;$('viewer').hidden=false;
   document.querySelector('.skip').href='#viewer';
   $('class-label').textContent=`Clase ${course.id} · ${course.date} · Horario Guatemala`;
