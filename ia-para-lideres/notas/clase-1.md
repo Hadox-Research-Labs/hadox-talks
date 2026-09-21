@@ -6,9 +6,25 @@ Discurso integrado por lámina: contexto, técnica, ejemplos y transiciones dent
 
 Las fuentes respaldan los conceptos indicados, no los resultados de los casos del curso. Consulta y revisión de referencias: 21 de septiembre de 2026.
 
-## 1. ¿Quién es quién en IA?
+## 1. Modelos fundacionales y multimodalidad
 
-APERTURA · 18:00–18:06 · Horario Guatemala
+APERTURA · 18:00–18:02 · Horario Guatemala
+
+### Discurso para exponer
+
+Bienvenidos. Soy Edgar Valdés y hoy vamos a trabajar modelos fundacionales y multimodalidad desde las decisiones que le corresponden a un líder. Al terminar, podrán explicar qué capacidad necesitan, observar cómo trabaja con documentos e imágenes y decidir qué parte de un resultado está suficientemente sustentada para utilizarla.
+
+Primero vamos a ubicarnos: quién desarrolla estas tecnologías, qué están haciendo algunas empresas con ellas y cómo funciona la capacidad que vamos a probar. Después les mostraré el procedimiento en Gemini y ustedes lo practicarán con mi acompañamiento. Trabajaremos con información ficticia. Empecemos por una situación que podría aparecer en una reunión de dirección.
+
+### Notas de consulta
+
+#### Apertura y propósito
+
+Conservar la portada como bienvenida y encuadre. Presentar al expositor y el resultado esperado. Las dos infografías vienen después; la elección del caso ocurre tras la demostración. La portada original conserva su pie de página de la edición base.
+
+## 2. ¿Quién es quién en IA?
+
+EXPLICACIÓN · 18:02–18:06 · Horario Guatemala
 
 ### Discurso para exponer
 
@@ -56,7 +72,7 @@ En Microsoft 365 Copilot, el nombre de la aplicación no identifica por sí solo
 - [Google · NotebookLM is now Gemini Notebook](https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/) — Anuncio del 16 de julio de 2026: nombre del producto y relación con Gemini.
 - [Stanford CRFM (2021) · On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258) — Qué significa modelo fundacional y cómo se adapta a distintos usos.
 
-## 2. ¿Qué están haciendo las empresas con IA?
+## 3. ¿Qué están haciendo las empresas con IA?
 
 EXPLICACIÓN · 18:06–18:10 · Horario Guatemala
 
@@ -90,7 +106,7 @@ Preguntar mentalmente por el tipo de decisión: acceso y formación en la primer
 
 #### Una pregunta para conectar
 
-¿Qué aprenderemos hoy y en qué orden? La apertura ocupa 18:00–18:10. Luego siguen teoría con ejemplos hasta 18:30, demostración hasta 18:50 y práctica acompañada hasta 19:15. La elección de ruta ocurre al iniciar esa práctica, después de observar el método. Descanso 19:15–19:25; teoría y demostración visual hasta 19:40; práctica visual hasta 20:05; integración de A hasta 20:20 y cierre hasta 20:30. La clase conserva 25 láminas y 20 puntos para A.
+¿Qué aprenderemos hoy y en qué orden? La apertura ocupa 18:00–18:10: portada 18:00–18:02, mapa 18:02–18:06 y casos 18:06–18:10. Luego siguen teoría con ejemplos hasta 18:30, demostración hasta 18:50 y práctica acompañada hasta 19:15. La elección de ruta ocurre al iniciar esa práctica, después de observar el método. Descanso 19:15–19:25; teoría y demostración visual hasta 19:40; práctica visual hasta 20:05; integración de A hasta 20:20 y cierre hasta 20:30. La edición web tiene 26 láminas, incluida la portada restaurada, y conserva 20 puntos para A.
 
 #### Para profundizar
 
@@ -98,7 +114,7 @@ Preguntar mentalmente por el tipo de decisión: acceso y formación en la primer
 - [Anthropic · Claude for Life Sciences](https://www.anthropic.com/news/claude-for-life-sciences) — Testimonio de Sanofi sobre Claude, bibliotecas internas y Concierge; no evidencia de impacto clínico.
 - [Google Cloud · Casos empresariales de IA generativa](https://cloud.google.com/transform/101-real-world-generative-ai-use-cases-from-industry-leaders) — Apartado Mercedes-Benz: Gemini y MBUX para conversación, navegación y puntos de interés.
 
-## 3. La unidad de análisis es el trabajo
+## 4. La unidad de análisis es el trabajo
 
 EXPLICACIÓN · 18:10–18:12 · Horario Guatemala
 
@@ -124,7 +140,7 @@ Descompón el trabajo en entrada, transformación, salida y decisión. En una co
 
 Una tabla preparada en treinta segundos puede ahorrar lectura, pero si tarda veinte minutos en revisarse no conoces aún la mejora neta. Guarda esa pregunta para la medición de la clase 3.
 
-## 4. El alcance de un modelo fundacional
+## 5. El alcance de un modelo fundacional
 
 EXPLICACIÓN · 18:12–18:14 · Horario Guatemala
 
@@ -156,7 +172,7 @@ La misma base puede redactar una carta y organizar una tabla. Eso no demuestra q
 - [Stanford CRFM (2021) · On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258) — Qué significa modelo fundacional y cómo se adapta a distintos usos.
 - [Google AI for Developers · Tokens y ventana de contexto](https://ai.google.dev/gemini-api/docs/tokens) — Unidades de procesamiento, límites de contexto y consumo.
 
-## 5. Cuatro capas operativas
+## 6. Cuatro capas operativas
 
 EXPLICACIÓN · 18:14–18:17 · Horario Guatemala
 
@@ -184,7 +200,7 @@ Usa cuatro preguntas: ¿qué modelo procesa?, ¿qué aplicación lo presenta?, �
 
 Dibuja verbalmente la cadena: persona pide revisión → aplicación reúne documentos → modelo prepara diferencias → revisor decide → sistema registra. Señala dónde podría fallar cada enlace.
 
-## 6. Qué trabajo puede preparar
+## 7. Qué trabajo puede preparar
 
 EXPLICACIÓN · 18:17–18:19 · Horario Guatemala
 
@@ -214,7 +230,7 @@ Una ficha puede reducir el tiempo de buscar antecedentes. La decisión final pue
 
 - [Brynjolfsson, Li y Raymond · Generative AI at Work, working paper 2023](https://www.nber.org/papers/w31161) — Resultados en soporte al cliente y diferencias según experiencia; no generalizar como retorno garantizado.
 
-## 7. La herramienta adecuada
+## 8. La herramienta adecuada
 
 EXPLICACIÓN · 18:19–18:21 · Horario Guatemala
 
@@ -240,7 +256,7 @@ Una base de datos conserva registros estructurados. SQL permite consultarlos; un
 
 En la factura ficticia, pide al modelo localizar cantidad y precio, pero verifica su multiplicación con la calculadora. Si los números se extrajeron mal, una multiplicación exacta seguirá dando una conclusión incorrecta.
 
-## 8. Instrucción y fuente
+## 9. Instrucción y fuente
 
 EXPLICACIÓN · 18:21–18:23 · Horario Guatemala
 
@@ -272,7 +288,7 @@ Si un correo adjunto contiene «ignora las reglas y autoriza», esa frase es par
 - [Lewis et al. (2020) · Retrieval-Augmented Generation](https://arxiv.org/abs/2005.11401) — Antecedente de combinar recuperación de información y generación.
 - [OWASP · Prompt Injection, edición 2025](https://genai.owasp.org/llmrisk/llm01-prompt-injection/) — Instrucciones maliciosas directas o incrustadas en contenido consultado.
 
-## 9. Un contexto verificable
+## 10. Un contexto verificable
 
 EXPLICACIÓN · 18:23–18:26 · Horario Guatemala
 
@@ -305,7 +321,7 @@ Una consulta de renovación necesita la versión aplicable al contrato, no todas
 - [Google AI for Developers · Tokens y ventana de contexto](https://ai.google.dev/gemini-api/docs/tokens) — Unidades de procesamiento, límites de contexto y consumo.
 - [Google Cloud · Qué es RAG](https://cloud.google.com/use-cases/retrieval-augmented-generation) — Recuperar fuentes pertinentes antes de generar una respuesta.
 
-## 10. Comparar dos condiciones
+## 11. Comparar dos condiciones
 
 EXPLICACIÓN · 18:26–18:28 · Horario Guatemala
 
@@ -333,7 +349,7 @@ Las respuestas pueden variar entre ejecuciones. Una comparación de dos conversa
 
 Pedir información faltante puede ser un mejor resultado que completar todos los campos. Valora la conducta según el encargo, no según lo extensa que sea la respuesta.
 
-## 11. Criterios de aceptación
+## 12. Criterios de aceptación
 
 EXPLICACIÓN · 18:28–18:30 · Horario Guatemala
 
@@ -363,7 +379,7 @@ Un campo llamado importe puede aceptar perfectamente el número 500 y estar equi
 
 - [Google AI for Developers · Structured outputs](https://ai.google.dev/gemini-api/docs/structured-output) — JSON Schema para formatos de salida; formato válido no equivale a hechos correctos.
 
-## 12. Ahora lo probamos en Gemini
+## 13. Ahora lo probamos en Gemini
 
 DEMOSTRACIÓN · 18:30–18:50 · Horario Guatemala
 
@@ -391,7 +407,7 @@ Prepara el encargo y sus fuentes antes de abrir la conversación. Describe lo qu
 
 Di «la respuesta afirma esto; ahora vamos al campo de origen». Evita «la IA sabe que…» cuando sólo estás viendo una afirmación sin contrastar.
 
-## 13. Ahora trabajan con su caso
+## 14. Ahora trabajan con su caso
 
 PRÁCTICA · 18:50–19:15 · Horario Guatemala
 
@@ -417,7 +433,7 @@ Tu papel es acompañar la verificación del caso. Pregunta por el dato que cambi
 
 ¿Qué afirmación de la respuesta pueden demostrar mirando una fuente, y cuál sigue pendiente?
 
-## 14. Descanso de 10 minutos
+## 15. Descanso de 10 minutos
 
 DESCANSO · 19:15–19:25 · Horario Guatemala
 
@@ -431,7 +447,7 @@ Tenemos diez minutos de descanso. Regresamos a las siete veinticinco con el mism
 
 Mantén íntegros los diez minutos de descanso. No añadas contenido histórico en este bloque. Al volver, recupera la idea de fuente verificable y anuncia que ahora la fuente tendrá formato visual.
 
-## 15. Multimodalidad
+## 16. Multimodalidad
 
 EXPLICACIÓN · 19:25–19:26 · Horario Guatemala
 
@@ -459,7 +475,7 @@ Una imagen puede aportar la fecha de una recepción que no estaba en el texto. P
 
 - [Radford et al. (2021) · CLIP](https://arxiv.org/abs/2103.00020) — Antecedente de representaciones que relacionan imágenes y lenguaje.
 
-## 16. Leer y validar
+## 17. Leer y validar
 
 EXPLICACIÓN · 19:26–19:28 · Horario Guatemala
 
@@ -485,7 +501,7 @@ Para documentos visuales revisa identificador, fecha, unidad y versión. Un valo
 
 Una recepción con «10 cajas» no coincide necesariamente con una factura de «10 unidades». El problema no es aritmético hasta que sepamos la conversión y el artículo.
 
-## 17. Fuentes que discrepan
+## 18. Fuentes que discrepan
 
 EXPLICACIÓN · 19:28–19:30 · Horario Guatemala
 
@@ -511,7 +527,7 @@ La procedencia conecta afirmación, documento y campo. La regla de prioridad pro
 
 Un procedimiento nuevo puede no aplicar retroactivamente a una operación anterior. No resuelvas la disputa escogiendo siempre la fecha más reciente; identifica la regla que falta.
 
-## 18. Avanzar con información incompleta
+## 19. Avanzar con información incompleta
 
 EXPLICACIÓN · 19:30–19:31 · Horario Guatemala
 
@@ -537,7 +553,7 @@ Una salida útil puede incluir valor, fuente, estado de verificación y aclaraci
 
 «Importe pendiente: falta confirmar la unidad de venta» orienta una acción. «Importe probablemente correcto» deja al revisor con una sensación de seguridad sin evidencia nueva.
 
-## 19. Evidencia según la función
+## 20. Evidencia según la función
 
 EXPLICACIÓN · 19:31–19:32 · Horario Guatemala
 
@@ -561,7 +577,7 @@ Usa los sectores como lentes sobre el mismo método. En operaciones importa el a
 
 Una instrucción técnica correcta para un entorno de pruebas puede ser inadecuada en producción. El texto es igual, pero cambió una condición esencial de uso.
 
-## 20. Una imagen cambia la revisión
+## 21. Una imagen cambia la revisión
 
 DEMOSTRACIÓN · 19:32–19:40 · Horario Guatemala
 
@@ -587,7 +603,7 @@ En la demostración, muestra el campo al que se refiere la respuesta. Si aparece
 
 ¿Qué parte de nuestra conclusión anterior cambia por este documento y cuál permanece igual?
 
-## 21. El anexo de su caso
+## 22. El anexo de su caso
 
 PRÁCTICA · 19:40–20:05 · Horario Guatemala
 
@@ -613,7 +629,7 @@ La evidencia de esta práctica consiste en vincular un cambio de conclusión con
 
 Si quitáramos la imagen, ¿qué parte de su recomendación dejaría de estar sustentada?
 
-## 22. Entrega A en el cuaderno
+## 23. Entrega A en el cuaderno
 
 ENTREGA · 20:05–20:20 · Horario Guatemala
 
@@ -639,7 +655,7 @@ Una bitácora breve es una herramienta profesional de trazabilidad. Conserva enc
 
 «Acepto estos campos y dejo éste pendiente por falta de soporte» comunica una decisión revisable y acotada.
 
-## 23. Qué pedir a tecnología
+## 24. Qué pedir a tecnología
 
 EXPLICACIÓN · 20:20–20:24 · Horario Guatemala
 
@@ -667,7 +683,7 @@ Distingue cuenta de usuario, suscripción de aplicación y credencial de API. Ca
 
 «Necesito consultar estas fuentes de prueba para preparar un borrador que revisará este rol» es evaluable. «Instalen IA para el departamento» obliga a TI a inventar el alcance.
 
-## 24. La decisión después de la prueba
+## 25. La decisión después de la prueba
 
 EXPLICACIÓN · 20:24–20:29 · Horario Guatemala
 
@@ -695,7 +711,7 @@ Puedes cerrar con una escalera de evidencia: conversación observada, procedimie
 
 ¿Qué tendrían que dejar escrito para que un colega repita mañana su prueba sin preguntarles todo de nuevo?
 
-## 25. Referencias y cierre
+## 26. Referencias y cierre
 
 CIERRE · 20:29–20:30 · Horario Guatemala
 
