@@ -1,6 +1,15 @@
 <!doctype html>
 <html lang="es">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#102a3a"><title>IA para líderes · Edgar Valdés</title><meta name="description" content="Tres clases conectadas: comprobar resultados, diseñar asistentes y defender decisiones de inversión en inteligencia artificial."><link rel="icon" href="data:,"><link rel="stylesheet" href="style.css?v=speech1"></head>
+<head><script id="class-one-current-edition">
+// Keep existing links to class 1 pointed at its current presentation.
+const courseEntry = new URLSearchParams(location.search);
+if (courseEntry.get('edicion') !== 'anterior' && (!courseEntry.has('clase') || courseEntry.get('clase') === '1')) {
+  const currentClass = new URL('revision/', location.href);
+  currentClass.search = '?clase=1';
+  currentClass.hash = location.hash.startsWith('#lamina-') ? location.hash : '#lamina-1';
+  location.replace(currentClass.href);
+}
+</script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#102a3a"><title>IA para líderes · Edgar Valdés</title><meta name="description" content="Tres clases conectadas: comprobar resultados, diseñar asistentes y defender decisiones de inversión en inteligencia artificial."><link rel="icon" href="data:,"><link rel="stylesheet" href="style.css?v=speech1"></head>
 <body>
 <div style="padding:14px 5%;background:#10323f;color:white;font:15px/1.5 Arial,sans-serif;text-align:center"><strong>Nueva edición completa:</strong> presentaciones, caso Nexo y prácticas renovadas. <a style="color:#fff;text-decoration:underline" href="revision/?clase=1#lamina-1">Abrir para evaluar →</a></div>
 <a class="skip" href="#contenido">Saltar al contenido</a>
