@@ -10,6 +10,8 @@ Pregunta: ¿Qué necesitas saber antes de decidir?
 
 ### Discurso
 
+Empieza en «Qué hago ahora». El primer paso es la bienvenida: mantén la portada en pantalla. Para estudiar a solas, abre un documento y responde las preguntas allí.
+
 Imaginen que mañana tienen comité. Llegan más solicitudes y aumentan las quejas. Una persona pide contratar, otra propone automatizar y otra exige más datos. Ustedes deben preparar una decisión. Ésa será nuestra situación de trabajo.
 
 Soy Edgar Valdés. Hoy vamos a recorrer una historia: cómo llegamos a hablar con una máquina, qué podemos aprender de empresas que coordinan viajes, estancias y pagos, y cómo aterrizar eso en una decisión de nuestra organización. Verán una demostración completa en Gemini antes de hacer su práctica. Primero construiremos un informe con texto; después incorporaremos una imagen que permite mirar el problema de otra forma.
@@ -31,6 +33,8 @@ Al terminar, cada persona tendrá un informe de una página desde su función y 
 Pregunta: ¿Qué cambió para que podamos encargar trabajo en lenguaje cotidiano?
 
 ### Discurso
+
+En «Qué hago ahora» recorre las escenas de esta lámina. Aquí seguimos con la explicación: todavía no hace falta abrir una herramienta de IA.
 
 Antes de abrir un chat, quiero que miremos algo extraño: hoy podemos pedirle un informe a una máquina usando la misma lengua con la que pedimos un café. ¿Cómo llegamos hasta aquí? Miren las tres escenas. Son una ilustración conceptual, no fotografías históricas ni etapas que se hayan sustituido por completo.
 
@@ -77,6 +81,8 @@ Para ampliar: parámetros son valores aprendidos; entrenamiento los ajusta. Infe
 Pregunta: ¿Qué negocio o mejora empresarial puede construirse con cada capacidad?
 
 ### Discurso
+
+Abre «Qué hago ahora» y sigue las ramas del mapa. Encontrarás el banco de casos junto al paso que lo utiliza; las ampliaciones son opcionales.
 
 Aquí tienen su maestría de inteligencia artificial, cortesía del Dr. Valdés. Tómenle una foto, porque este mapa les va a ayudar a entender qué les están vendiendo cuando alguien llega a su empresa diciendo que trae inteligencia artificial. Vamos a recorrerlo con una pregunta: ¿qué problema resuelve cada cosa y dónde podría estar el negocio?
 
@@ -182,6 +188,8 @@ Pregunta: ¿Qué estamos eligiendo: empresa, modelo o aplicación?
 
 ### Discurso
 
+Sigue los pasos de «Qué hago ahora» para ubicar los nombres. Abriremos Gemini en la lámina de preparación, después de los casos.
+
 Separaremos tres nombres que suelen mezclarse. OpenAI desarrolla modelos de la familia GPT y ofrece ChatGPT como aplicación. Google desarrolla Gemini, nombre que también utiliza su aplicación. Anthropic desarrolla Claude y utiliza ese nombre en sus productos. No hace falta memorizar versiones para comprender la distinción.
 
 El modelo aporta capacidades; la aplicación ofrece una interfaz, archivos, herramientas y condiciones de acceso. Por eso dos productos que utilizan una familia similar pueden permitir trabajos diferentes. Una licencia de aplicación tampoco es automáticamente acceso a una API para integrar software.
@@ -217,6 +225,8 @@ Los nombres y funciones cambian. La documentación enlazada sirve para revisar d
 Pregunta: ¿Qué trabajo de coordinación podríamos preparar mejor con IA?
 
 ### Discurso
+
+En «Qué hago ahora» tienes la pregunta y el orden de los ejemplos. Esta lámina es para observar y conversar; no hay un encargo que pegar.
 
 Miren estos tres nombres: Uber, Airbnb y Visa. A primera vista hablamos de viajes, estancias y pagos. ¿Qué tienen en común? Les doy diez segundos. Escuchemos dos ideas antes de explicar la imagen.
 
@@ -262,6 +272,8 @@ Pregunta: ¿Qué podemos aprender de experiencias cercanas sin suponer que son i
 
 ### Discurso
 
+En «Qué hago ahora» están los dos casos regionales y la pregunta de cierre. Lee las fuentes si quieres profundizar; todavía no empezamos la práctica.
+
 Acerquemos el mapa. Es fácil escuchar un caso de una empresa global y pensar: eso requiere un presupuesto que aquí no tenemos. Por eso quiero que observemos usos de nuestra región y distingamos exactamente qué está documentado.
 
 El contexto regional permite hacer preguntas más cercanas. En Guatemala, Banrural reporta en su memoria 2025 un asistente generativo en WhatsApp y Messenger, apoyado en conocimiento de sus productos y servicios. En Costa Rica, TEC y CCSS documentan formación y desarrollo de prototipos para retos de salud pública. Son estados diferentes: una implementación reportada y una experiencia de formación y prototipado.
@@ -300,6 +312,8 @@ Pregunta: ¿Qué cambia cuando aportamos los documentos correctos?
 
 ### Discurso
 
+Ahora sí: abre «Qué hago ahora». Ahí tienes el enlace a Gemini y la preparación exacta. En esta lámina abrimos y verificamos la herramienta; el primer encargo se envía en la siguiente.
+
 El esquema distingue entrenamiento e inferencia. Entrenar modifica parámetros aprendidos; usar el modelo para producir una respuesta es inferencia. Al aportar un reporte a una conversación damos contexto. Ese acto, por sí solo, no demuestra que hayamos reentrenado el modelo.
 
 Los modelos de lenguaje trabajan con tokens, unidades que pueden ser palabras, partes de palabras o signos. La atención calcula relaciones entre representaciones. Para nuestro trabajo interesa una consecuencia: el encargo y la información disponible influyen en lo que puede preparar la respuesta. Una solicitud de tono profesional no sustituye un dato que falta.
@@ -333,6 +347,8 @@ Después del descanso descargaremos V1 y la adjuntaremos como imagen. Por ahora 
 Pregunta: ¿Qué aporta el expediente a la recomendación inicial?
 
 ### Discurso
+
+Ve a «Qué hago ahora». Abre Gemini desde el paso indicado y copia cada encargo con su botón. No reconstruyas mensajes por partes: el segundo ya incluye F1, F2 y F3.
 
 Ahora ustedes son el comité. Yo voy a pedirle una recomendación a Gemini. Antes de verla, piensen: ¿qué tendría que mostrarles para que ustedes la aceptaran? No necesitan abrir nada todavía; primero observamos juntos.
 
@@ -372,6 +388,8 @@ Pregunta: ¿Qué podría aportar una imagen?
 
 ### Discurso
 
+Éste es el descanso. En «Qué hago ahora» sólo tienes la indicación para regresar; no hay una actividad durante la pausa.
+
 Tenemos diez minutos de descanso. Regresamos a las siete veinticinco. Conserven las respuestas. Después incorporaremos una fuente visual para revisar la recomendación que acabamos de preparar.
 
 ### Cómo conducirla
@@ -385,6 +403,8 @@ Descanso completo de 19:15 a 19:25. No añadir una tarea durante la pausa.
 Pregunta: ¿Qué cambia al conocer cómo se distribuye la cola?
 
 ### Discurso
+
+En «Qué hago ahora» abre la imagen V1, descárgala y adjúntala al chat CON FUENTES. Encontrarás un encargo para leerla y otro para revisar la recomendación, en ese orden.
 
 Antes de volver a Gemini, abran conmigo la imagen V1 de la mesa de trabajo. Tienen diez segundos para observarla: si tuvieran que intervenir en una parte del proceso, ¿dónde empezarían? Todavía no consulten al modelo. Escuchemos dos respuestas y el dato que cada persona utilizó.
 
@@ -428,6 +448,8 @@ Pregunta: ¿Qué necesita tu función para llevar una propuesta al comité?
 
 ### Discurso
 
+Abre «Qué hago ahora» y elige tu perspectiva. Los botones de los encargos cambiarán con esa elección. Sigue los chats separados y guarda las respuestas en la plantilla A.
+
 Ahora trabajan ustedes. Elijan una perspectiva en la mesa de trabajo: dirección, operaciones, finanzas y control, o tecnología y conocimiento. Dentro de esta última pueden enfocar documentación, formación, datos o seguridad. Son formas de mirar el mismo expediente; pueden elegir por interés, sin quedar asignados por su cargo.
 
 El botón sin fuentes ya incluye el encargo de esa perspectiva. Péguenlo en una conversación nueva. Guarden la salida. En otra conversación con el mismo modelo, peguen el botón con expediente. Comparen qué cambió. Después adjunten V1 a esa segunda conversación y utilicen el prompt visual.
@@ -458,6 +480,8 @@ Pregunta: ¿Otra persona puede reconstruir tu razonamiento?
 
 ### Discurso
 
+En «Qué hago ahora» abre la plantilla y los criterios. Aquí revisas tu trabajo; no necesitas producir otra respuesta en Gemini.
+
 Vamos a organizar lo que ya hicieron. Entrega A conserva veinte puntos y cuatro criterios: relacionar necesidad con capacidad; comparar las respuestas; integrar fuentes; y comprobar el resultado y sus límites.
 
 Registren cinco cosas: perspectiva y decisión buscada; encargo, modelo y condiciones; comparación sin y con fuentes; campo visual y su efecto; decisión propia y siguiente paso. Pueden acompañar el informe de una página con una bitácora breve y fragmentos de las salidas. No vuelvan a producir el trabajo desde cero.
@@ -479,6 +503,8 @@ Una conclusión distinta de la mía puede estar mejor sustentada. Lo que necesit
 Pregunta: ¿Cómo convertimos una capacidad de IA en un asistente dentro de un proceso?
 
 ### Discurso
+
+Vuelve a «Qué hago ahora» para el cierre. Usa la barra de la derecha para enlazar lo aprendido con la siguiente clase; las historias adicionales siguen disponibles si tienes tiempo.
 
 ¿Se acuerdan de su maestría de inteligencia artificial, cortesía del Dr. Valdés? Volvamos al mismo mapa. Al principio lo miramos para descubrir capacidades y oportunidades de negocio. Ahora vamos a ver la IA desde otra perspectiva: cómo una capacidad llega a formar parte del trabajo de una organización.
 

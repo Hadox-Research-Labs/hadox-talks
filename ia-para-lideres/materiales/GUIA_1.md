@@ -37,7 +37,7 @@ Comprender qué es un modelo fundacional, distinguir modelo de aplicación y usa
 
 4. Compara dos diferencias concretas. Busca un hallazgo que ahora tenga una fuente y una hipótesis que todavía no pueda darse por cierta. Revisa un cálculo con calculadora. La cola crece, pero eso no demuestra por sí solo falta de personal.
 
-5. Descarga NEXO_V1.png. En el segundo chat, usa adjuntar archivo, espera a que aparezca la miniatura y pega el encargo «Incorporar la imagen V1». Verifica tú mismo los números y el título. Si la lectura de la imagen no está disponible, transcribe los campos y declara que hiciste una entrada de texto; no la presentes como prueba multimodal.
+5. Descarga NEXO_V1.png. En el segundo chat, usa adjuntar archivo, espera a que aparezca la miniatura y pega el encargo «Lectura de V1». Verifica tú mismo los números y el título. Después, en ese mismo chat, vuelve a adjuntar V1 y usa «Revisión del informe con V1» para incorporar la imagen a tu recomendación. Si la lectura de la imagen no está disponible, transcribe los campos y declara que hiciste una entrada de texto; no la presentes como prueba multimodal.
 
 6. Corrige el informe final con tus palabras. Incluye tres hallazgos o vacíos, dos hipótesis, dos alternativas, recomendación provisional y preguntas. La referencia de extensión es una página; el encargo pide un máximo de 450 palabras para que puedas discutirlo en comité.
 
@@ -60,3 +60,8 @@ Termina sólo las correcciones que hayan quedado pendientes y conserva A para la
 ## Lectura sugerida
 
 Revisa las fuentes enlazadas en las láminas 2–7. Elige un caso institucional y anota qué función cambió, qué evidencia publicó la organización y qué no podemos inferir de ese relato. No se pide memorizar marcas ni porcentajes.
+
+
+## Instrucciones junto a cada lámina
+
+En la página abre «Qué hago ahora» y elige «La estoy tomando por mi cuenta». Cada paso incluye sus botones y materiales. También puedes [descargar el recorrido completo](GUIA_PASO_A_PASO_1.md).
