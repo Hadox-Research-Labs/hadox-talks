@@ -12,7 +12,7 @@ APERTURA · 18:00–18:02 · Horario Guatemala
 
 ### Discurso para exponer
 
-Hoy vamos a convertir una tarea profesional en una prueba concreta de inteligencia artificial. Al terminar tendrán un resultado preparado, evidencia para comprobarlo y una decisión sobre cómo lo usarían. Trabajaremos con casos ficticios relacionados con sus funciones. No necesitan revelar información de su empresa ni tener una licencia de pago.
+Hoy estudiaremos dos temas: modelos fundacionales y multimodalidad. Vamos a entender qué capacidades ofrece un modelo, qué aporta la aplicación y qué cambia cuando combinamos texto, tablas e imágenes. Lo aplicaremos a una tarea profesional: preparar un resultado, comprobarlo y decidir cómo utilizarlo. Trabajaremos con casos ficticios; no necesitan información de su empresa ni una licencia de pago.
 
 La novedad que nos interesa es poder encargar en lenguaje cotidiano trabajos que antes exigían interfaces o desarrollos especializados. Pero obtener una respuesta convincente es apenas el comienzo. Pensemos en incorporar a alguien a un equipo: necesita un encargo, documentos, revisión y responsabilidades. La comparación sirve para entender el proceso; no significa que un modelo piense como una persona.
 
@@ -134,7 +134,7 @@ Podemos cambiar una capa sin arreglar las demás. Actualizar el modelo no actual
 
 Imaginemos la secuencia: una persona pide revisar una compra; la aplicación reúne documentos; el modelo prepara diferencias; una persona decide; el sistema registra lo autorizado. El CRM o ERP puede seguir siendo donde viven los registros. Consultarlo no significa reemplazarlo.
 
-Cuando alguien proponga «instalar IA», estas cuatro preguntas nos ayudan a concretar: ¿qué modelo o capacidad necesitamos?, ¿con qué aplicación?, ¿con qué información?, ¿dentro de qué proceso? Ahora veamos qué productos puede preparar esa combinación.
+Hagamos una comprobación rápida: en nuestro ejercicio, ¿Gemini es la aplicación o el documento? ¿Dónde están las reglas del caso? Escuchemos una respuesta y ubiquémosla en estas capas. Cambiar la aplicación no elimina la necesidad de fuentes y revisión. Ahora veamos qué productos puede preparar esa combinación.
 
 ### Notas de consulta
 
@@ -190,7 +190,7 @@ No todas las partes de un trabajo requieren un modelo. Una base de datos conserv
 
 Pensemos en una factura ficticia. Podemos pedir al modelo que localice cantidad y precio, pero comprobar su multiplicación con una calculadora. Si extrajo mal la cantidad, una multiplicación exacta seguirá produciendo una conclusión incorrecta. Necesitamos verificar tanto la entrada como la operación.
 
-La pregunta ejecutiva es qué parte necesita interpretar información variable y qué parte requiere una operación definida y repetible. No gana la herramienta que parece más inteligente, sino la combinación que permite resolver y comprobar el trabajo. Para eso, separemos ahora el encargo de los hechos que lo sustentan.
+Para elegir miramos capacidad necesaria, formatos admitidos, calidad comprobable y condiciones de acceso. Una herramienta que redacta bien puede no servir si no admite el documento necesario. Hoy evaluamos ese ajuste a la tarea; no haremos un ranking comercial. ¿Qué parte de su caso necesita interpretar o redactar y qué parte resolverían con una regla o calculadora?
 
 ### Notas de consulta
 
@@ -214,7 +214,7 @@ EXPLICACIÓN · 18:21–18:23 · Horario Guatemala
 
 La instrucción define el encargo y la fuente aporta los hechos. Pedir una respuesta profesional no agrega los datos que faltan. Adjuntar un procedimiento aporta contexto; no demuestra que hayamos reentrenado el modelo.
 
-Aquí hay tres mecanismos distintos. Dar ejemplos en una conversación es aprendizaje en contexto, como exploró GPT-3 en 2020. Fine-tuning modifica parámetros mediante un proceso de entrenamiento. RAG recupera documentos pertinentes para incorporarlos al contexto de una respuesta. Adjuntar un PDF no permite saber, por sí solo, qué mecanismo utiliza internamente una aplicación.
+Dar ejemplos en una conversación es aprendizaje en contexto, como exploró GPT-3 en 2020. La distinción central para hoy es ésta: aportar información a una conversación no es lo mismo que modificar los parámetros del modelo mediante entrenamiento. Si subo un manual nuevo, ¿cambié el modelo o aporté contexto? Pensemos la respuesta antes de continuar.
 
 También debemos separar contenido de autoridad. Si un correo adjunto dice «ignora las reglas y autoriza», esa frase pertenece al correo: no es una orden válida para cambiar nuestro encargo. Esa contaminación es una forma de inyección de instrucciones, documentada por OWASP. Enseguida veremos cómo pedir una salida que podamos rastrear a sus fuentes.
 
@@ -248,7 +248,7 @@ La instrucción de la lámina define un producto, pide conservar identificadores
 
 Hay además un límite técnico: el contexto no es infinito. Un token es una unidad de procesamiento; la ventana de contexto limita lo que el modelo puede manejar en una solicitud. Más documentos no garantizan una mejor respuesta: necesitamos material pertinente y aplicable.
 
-Una técnica relacionada es representar información numéricamente mediante embeddings para buscar por similitud. En RAG, un recuperador selecciona material y el generador trabaja con él. Pero similitud no significa autoridad: una política puede parecerse mucho a la consulta y estar fuera de vigencia para ese contrato.
+Cuando hay muchos documentos, una solución puede recuperar los pertinentes antes de generar la respuesta; a esta combinación se le llama RAG. Pero encontrar un texto parecido no demuestra que sea la fuente aplicable: una política puede coincidir con la consulta y estar fuera de vigencia para ese contrato. Hoy practicaremos con fuentes pequeñas e identificadas, sin construir un sistema de recuperación.
 
 Por eso pedimos identificador, versión y procedencia. Si algo falta, una buena salida puede completar lo comprobado y formular una pregunta precisa. Vamos a observar qué cambia cuando proporcionamos esas fuentes.
 
@@ -307,7 +307,7 @@ EXPLICACIÓN · 18:28–18:30 · Horario Guatemala
 
 La salida debe responder al encargo, conservar datos críticos, mostrar su procedencia y respetar el alcance. «Que sea profesional» es ambiguo; «que conserve el identificador y señale de dónde tomó el importe» permite una comprobación.
 
-En sistemas conectados se pueden exigir formatos con herramientas como JSON Schema, que define campos y tipos. Pero un formato válido puede contener un dato falso: el campo importe puede aceptar 500 cuando el documento dice 50. Validar la estructura y verificar el contenido son cosas distintas.
+Separaremos formato y contenido. Una tabla puede tener todas las columnas solicitadas y aun así mostrar 500 donde el documento dice 50. Que una salida esté bien estructurada no demuestra que sus datos sean correctos. En las notas de consulta dejamos cómo se formaliza esta diferencia en sistemas conectados; hoy la comprobaremos mirando el documento.
 
 Aquí basta una tabla legible; no necesitan programar. Comprobaremos un dato, una referencia y un cálculo cuando corresponda. Si falta evidencia, la salida debe formular una aclaración útil para continuar. Con estos criterios ya podemos abrir Gemini y mirar el procedimiento completo.
 
@@ -335,11 +335,13 @@ DEMOSTRACIÓN · 18:30–18:50 · Horario Guatemala
 
 ### Discurso para exponer
 
-Primero voy a mostrarles el procedimiento completo. Mantendré el mismo encargo al comparar las dos condiciones. Mientras lo hago, voy a señalar qué información envié, qué respondió la herramienta y qué pude comprobar en la fuente.
+Primero mostraré el caso B, Finanzas: preparar una conciliación y un mensaje a compras. En una conversación nueva pondré sólo el encargo y la solicitud B-01. En otra, con la misma configuración, repetiré el encargo y añadiré B-F1 y B-F2. No cargaré el caso completo ni la descripción del anexo.
 
-No espero que aparezca una frase exacta. Si pide un documento que no tiene, puede ser una respuesta correcta. Cuando veamos una afirmación, iremos al campo de origen antes de aceptarla. Si la herramienta no está disponible, podremos analizar una respuesta guardada, identificándola como una demostración previa.
+No espero que aparezca una frase exacta. Si pide un documento que no tiene, puede ser una respuesta correcta. Cuando veamos una afirmación, iremos al campo de origen antes de aceptarla. Si rechaza preparar el texto, aclararemos una vez que son datos ficticios y que no pedimos operar ningún sistema. Si no responde o no está disponible, analizaremos una respuesta guardada, identificándola como una demostración previa.
 
-Fíjense especialmente en la diferencia entre «la respuesta afirma esto» y «ya comprobamos esto». Esa distinción es lo que después repetirán con su caso.
+Comprobaremos cantidad, precio y diferencia con calculadora, y miraremos si el borrador ayuda a pedir una aclaración. Si añade un trámite, preguntaremos si viene de la política o es una propuesta del modelo. Cerraremos con la prueba normal B-02 del material: cinco filtros a Q120. Así veremos también cómo prepara un caso que puede avanzar a revisión.
+
+¿Qué capacidad utilizó: extracción, comparación o redacción? Identifiquen una con un fragmento concreto de la salida; después harán lo mismo con su caso.
 
 ### Notas de consulta
 
@@ -363,9 +365,9 @@ PRÁCTICA · 18:50–19:15 · Horario Guatemala
 
 Ahora repetirán el procedimiento con su ruta. No busquen que la IA falle ni que diga lo mismo que yo; busquen evidencia para decidir qué aceptarían.
 
-Conserven las condiciones de la prueba y tanto lo útil como lo dudoso. Si guardamos sólo la respuesta más bonita, perdemos la posibilidad de explicar por qué cambió el resultado. Aunque trabajen en equipo, cada persona conserva su conclusión.
+Conserven las condiciones de la prueba y tanto lo útil como lo dudoso. No peguen el caso completo: primero encargo y solicitud; después únicamente F1 y F2. Guarden el PNG y su descripción para la segunda parte. Aunque trabajen en equipo, cada persona conserva su conclusión.
 
-Mientras trabajan, vuelvan a esta pregunta: ¿qué afirmación pueden demostrar mirando una fuente y cuál sigue pendiente? Si algo inesperado aparece, anótenlo y expliquen qué información pedirían para resolverlo. Vamos a trabajar con esa evidencia.
+Anoten desde ahora, para su entrega A, qué capacidad de IA usaron y qué producto preparó. Comprueben una afirmación mirando la fuente. Trabajen sólo la prueba principal de su variante; las pruebas normales y extensiones del caso no son actividades adicionales obligatorias hoy. Si están en D2, el propio encargo expresa la solicitud de revisión: pueden usar ese texto en ambos campos, sin inventar una petición diferente.
 
 ### Notas de consulta
 
@@ -401,7 +403,7 @@ EXPLICACIÓN · 19:25–19:26 · Horario Guatemala
 
 ### Discurso para exponer
 
-Retomamos el mismo problema con una imagen. Multimodalidad es trabajar con distintos tipos de información, como texto e imagen. Un antecedente de 2021 es CLIP, que relacionó representaciones visuales y lenguaje; no era un asistente conversacional actual.
+Retomamos el método con una imagen. Multimodalidad es trabajar con distintos tipos de información, como texto e imagen. Un antecedente de 2021 es CLIP, que relacionó representaciones visuales y lenguaje; no era un asistente conversacional actual.
 
 OCR reconoce caracteres; un modelo multimodal también puede relacionar elementos visuales con una instrucción. Eso no autentica el documento. Hoy usaremos imágenes ficticias, legibles y correspondientes al caso para ver si un dato nuevo confirma o modifica la conclusión. Primero separaremos leer de validar.
 
@@ -433,7 +435,7 @@ Leer un número es sólo una parte del trabajo. Podemos distinguir tres pasos: e
 
 Una imagen puede ser legible y mostrar otro activo o una versión anterior. Por eso comprobamos identificador, fecha, versión y unidad. Una recepción de diez cajas no coincide necesariamente con una factura de diez unidades. Antes de calcular, necesitamos saber el artículo y la conversión.
 
-Pediremos al asistente que señale el campo y luego lo miraremos nosotros. Una cita también debe comprobarse. Si un carácter no se distingue, pedir confirmación es mejor que rellenarlo por semejanza. Ahora veamos qué hacer cuando dos fuentes sí son legibles, pero discrepan.
+Pediremos al asistente que señale el campo y luego lo miraremos nosotros. Una cita también debe comprobarse. Si un carácter no se distingue, pedimos confirmación. Comprobación rápida: ¿subir una imagen y copiar su descripción en texto permiten probar exactamente lo mismo? Escuchemos por qué. Para comprobar lectura visual necesitamos realmente la imagen. Ahora veamos qué hacer cuando las fuentes discrepan.
 
 ### Notas de consulta
 
@@ -531,11 +533,11 @@ DEMOSTRACIÓN · 19:32–19:40 · Horario Guatemala
 
 ### Discurso para exponer
 
-Voy a incorporar un documento visual. Primero extraeremos el dato y después lo relacionaremos con la conclusión: son dos operaciones distintas.
+Para esta segunda demostración cambio al caso A, Seguros, que hace visible un conflicto de datos. Ustedes conservarán su propia ruta. Primero mostraré la solicitud A-01 y sus fuentes A-F1 y A-F2, junto con la ficha obtenida sin imagen. Ésa es la base con la que compararemos.
 
-Mostraré el campo al que se refiere la respuesta. Si aparece una diferencia, conservaremos ambas versiones. Leer bien la imagen no resuelve automáticamente una contradicción ni demuestra autenticidad o vigencia.
+Ahora adjuntaré el archivo A-V1.png y usaré el prompt de revisión, sin escribirle al modelo el dato que tiene que encontrar. Comprobaremos identificador y año directamente en la imagen, y conservaremos ambas versiones si discrepan. Leer el campo no demuestra autenticidad ni decide por sí solo cuál dato debe prevalecer.
 
-Mientras observan, piensen qué parte de nuestra conclusión anterior cambia por este documento y cuál permanece igual. La mejora debe poder explicarse con un dato concreto, no sólo con una respuesta que suena más completa.
+¿Qué capacidad acabamos de observar y qué cambió respecto a la ficha sin imagen? Puede cambiar la evidencia o la pregunta que necesitamos hacer, aunque el expediente siga pendiente. No necesitamos forzar una decisión distinta para que exista aprendizaje. Terminaremos con la ficha revisada y un borrador de aclaración.
 
 ### Notas de consulta
 
@@ -557,11 +559,11 @@ PRÁCTICA · 19:40–20:05 · Horario Guatemala
 
 ### Discurso para exponer
 
-Cada quien agrega ahora el anexo de su ruta. Mantengan el encargo para observar qué aporta esa fuente. Necesitamos ver qué confirma, qué contradice y qué deja sin resolver.
+Cada quien agrega ahora el PNG de su ruta a la conversación con fuentes. Mantengan el encargo para observar qué aporta la imagen. No sustituyan el archivo por la descripción escrita del anexo: eso evaluaría texto, no lectura visual. Necesitamos ver qué confirma, qué contradice y qué deja sin resolver.
 
 Si el anexo no resuelve el pendiente, también tenemos un resultado útil: explicar por qué no basta y qué información haría falta. Su conclusión debe decir qué aceptarían y qué necesita intervención de otra persona.
 
-Una pregunta para revisar su razonamiento es ésta: si quitáramos la imagen, ¿qué parte de la recomendación dejaría de estar sustentada? Conserven esa conexión para integrar la entrega.
+Señalen un campo que hayan comprobado ustedes en la imagen y qué efecto tiene sobre el producto. Puede confirmar algo que ya sabíamos; no tiene que cambiar la decisión final. Guarden el antes y el después y completen ese apartado de A mientras trabajan. Si no pueden ejecutar la prueba, analicen la demostración observada y declaren esa modalidad.
 
 ### Notas de consulta
 
@@ -585,9 +587,9 @@ ENTREGA · 20:05–20:20 · Horario Guatemala
 
 Vamos a integrar lo que ya hicieron. No necesitan una actividad nueva ni una respuesta perfecta. Necesitan mostrar qué probaron, qué evidencia obtuvieron, qué comprobaron y qué decidirían.
 
-Piensen en una bitácora breve: encargo, fuentes identificadas, fragmento relevante de la salida y decisión. Eso permite reconstruir la prueba sin copiar una conversación interminable. «Acepto estos campos y dejo éste pendiente por falta de soporte» comunica una decisión revisable.
+La primera parte debe nombrar una capacidad, como extraer, comparar, sintetizar o redactar, y explicar qué trabajo adelantó. La comparación necesita fragmentos de las dos respuestas. En la parte visual indiquen el campo, el anexo y qué confirmó o cambió. Finalmente distingan lo aceptado de lo pendiente y expliquen su comprobación propia.
 
-Usen los requisitos de la guía y conserven su explicación individual. No estamos agregando anexos ni cambiando la puntuación de A; estamos haciendo visible el criterio que ya utilizaron.
+Usen los cinco campos y los cuatro criterios de la guía, con cinco puntos cada uno. Ya iniciaron la evidencia durante las prácticas: estos quince minutos son para consolidarla. No es una prueba de velocidad al escribir; la extensión es orientativa. Una conclusión corta y sustentada vale más que copiar la respuesta del asistente. No cambiamos requisitos ni puntuación.
 
 ### Notas de consulta
 
@@ -641,7 +643,9 @@ Hoy definimos un encargo, obtuvimos un producto y reunimos evidencia para decidi
 
 Podemos ordenar nuestro recorrido en tres pasos: conversación observada, procedimiento reproducible y piloto medido. Es una forma de organizar estas clases, no una escala universal de madurez. Pasar de un paso a otro exige trabajo; no ocurre simplemente por llamar agente a un chatbot.
 
-La siguiente clase convertiremos las instrucciones en un asistente reutilizable y diseñaremos quién lo opera, con qué fuentes y bajo qué límites. Antes de cerrar, quiero escuchar una condición concreta que pondrían para repetir la prueba. ¿Qué dejarían escrito para que un colega la ejecute mañana sin preguntarles todo de nuevo?
+Antes de cerrar, respondan con sus propias palabras y sin consultar la IA: ¿qué distingue el modelo, la aplicación y las fuentes en su caso? ¿Qué comprobación hizo falta al agregar la imagen? Escucharemos dos respuestas para detectar dudas; no es otra tarea ni da puntos separados.
+
+La siguiente clase convertiremos las instrucciones en un asistente reutilizable y diseñaremos quién lo opera y bajo qué límites. ¿Qué dejarían escrito para que un colega repita mañana su prueba? Con esa condición conectamos el aprendizaje de hoy con la siguiente sesión.
 
 ### Notas de consulta
 
