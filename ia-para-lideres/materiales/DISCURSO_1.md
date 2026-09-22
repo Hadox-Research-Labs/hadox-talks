@@ -1,10 +1,10 @@
 ## 1. IA para líderes
 
-En «Qué hago aquí»: Escucha la bienvenida. La actividad vigente se abre desde el enlace Comité NotebookLM.
+En «Qué hago aquí»: Escucha la bienvenida. La actividad vigente es el comité Nexo en NotebookLM.
 
-Soy Edgar Valdés. Recorreremos la historia y las capacidades de la IA, ejemplos empresariales y la importancia del contexto. En la sesión mostré Claude, Gemini y ChatGPT usando preguntas sobre mi identidad y trabajo previo. Después trabajé con NotebookLM para investigar a Juan José y preparar una posible propuesta con Polisplexity.
+Soy Edgar Valdés. Recorremos la historia y capacidades de la IA, ejemplos empresariales y la importancia del contexto. La demostración con distintos asistentes mostró cómo cambia una respuesta según la información disponible. El ejemplo de investigación en NotebookLM mostró cómo reunir documentos y preparar materiales.
 
-La actividad individual retoma esa experiencia: reunir fuentes, contrastarlas, compartir con compañeros y producir una recomendación que podamos defender. No necesitamos que la máquina adivine; necesitamos saber qué información tiene, qué afirma y cómo lo comprobamos. La guía de la actividad A contiene los pasos y mantiene los veinte puntos.
+Ahora aplicaremos ese método a Nexo, nuestra empresa ficticia. Seremos su comité: cada persona investigará el expediente, contrastará la respuesta inicial con otra mejor informada, compartirá hallazgos y preparará una recomendación propia. El reto no es producir más documentos, sino defender una mejor decisión con evidencia.
 
 ## 2. ¿Cómo llegamos a hablar con una máquina?
 
@@ -118,23 +118,23 @@ El docente mostró Claude, Gemini y ChatGPT preguntando por su nombre y lo que h
 
 Tenemos diez minutos de descanso. Al regresar retomamos las fuentes y el caso del comité en NotebookLM.
 
-## 10. De las fuentes a la propuesta
+## 10. El expediente de Nexo
 
-En «Qué hago aquí»: Abre la guía. Empieza con las dos fuentes iniciales y conserva la primera respuesta.
+En «Qué hago aquí»: Abre la guía del comité Nexo. Comienza sólo con el perfil de empresa y el encargo de Dirección.
 
-El docente mostró cómo investigar y reunir fuentes sobre Juan José y Polisplexity. Ahora la actividad propone una posible reunión: necesitamos una oportunidad concreta, evidencia y preguntas. Antes de generar un producto, verifica que cada fuente se importó y que realmente sustenta las afirmaciones. La tabla documental te permite contrastar estados y evitar confundir una propuesta con un proyecto entregado.
+Nexo presta soporte administrativo y técnico. Crecen los pendientes y Dirección necesita una recomendación de mejora. Primero trabajamos con el perfil y el encargo; luego ampliamos con reportes, testimonios, catálogo y nota de Tecnología. Guardamos ambas respuestas para explicar qué cambió. Después contrastamos la imagen de la cola con el reporte operativo: un estado no demuestra una causa.
 
-## 11. Cooperar para proponer mejor
+## 11. Un comité, muchas miradas
 
-En «Qué hago aquí»: Sigue los pasos 1 a 4 de la actividad; registra las fuentes y las contribuciones.
+En «Qué hago aquí»: Investiga Nexo, comparte con dos compañeros y mejora tu propia recomendación.
 
-Cada persona construye su propio cuaderno, amplía las fuentes y repite el mismo encargo. Compara dos cambios y comprueba un dato de una tabla, gráfico o imagen. Comparte con dos compañeros: aporta una fuente y una objeción útil a cada uno. Puedes adoptar lo que otro encontró si reconoces el aporte. El objetivo es mejorar el razonamiento y conservar una decisión propia.
+Elige una mirada: Dirección, Operaciones, Finanzas o Tecnología. Todos usan el mismo expediente ficticio. Añade documentos, repite el encargo y comprueba las afirmaciones. Comparte tu cuaderno como lector con dos compañeros. Aporta una fuente o hallazgo y una objeción razonada a cada propuesta. Se puede copiar una idea con crédito; cada quien conserva su juicio y entrega.
 
-## 12. Una entrega, veinte puntos
+## 12. Una decisión para Nexo
 
-En «Qué hago aquí»: Revisa los pasos 5 y 6 y entrega en Moodle con la plantilla nueva.
+En «Qué hago aquí»: Entrega tu cuaderno, un producto final y las comprobaciones. Total: 20 puntos.
 
-Elige un producto: reporte, deck, infografía o video. Los cuatro comunican oportunidad, evidencia, propuesta, límites y siguiente paso. Entrega el enlace de tu cuaderno, el producto final y la nota breve con tus comprobaciones. Se mantienen cuatro criterios de cinco puntos. No se premia pagar una licencia ni ganar la competencia. Todos pueden obtener veinte con evidencia suficiente.
+Prepara un reporte, deck, infografía o video para el comité Nexo. Muestra la decisión, dos alternativas, la evidencia, la prueba propuesta, sus límites y el siguiente paso. La nota de entrega conserva el antes y después, el contraste visual, dos afirmaciones y un cálculo comprobados, y los aportes de compañeros. Se mantienen los cuatro criterios de cinco puntos.
 
 ## 13. El mismo mapa, otra perspectiva
 
@@ -151,5 +151,3 @@ La barra lateral ahora organiza otro tipo de relaciones. Datos más contexto: qu
 En la próxima clase pasaremos de obtener un resultado a diseñar una forma de repetir trabajo con un asistente: qué recibe, qué instrucciones conserva, qué herramientas necesita, qué puede hacer por sí mismo y cuándo debe pedir revisión. Probaremos su comportamiento con ejemplos. Llamarlo agente no significa que lo entrenemos por refuerzo; muchas soluciones combinan modelos existentes, instrucciones y flujos definidos.
 
 Antes de cerrar: cuando agregamos el expediente, ¿aportamos contexto o demostramos entrenamiento? Al contrastar fuentes, ¿qué dato podemos comprobar y qué explicación sigue siendo una hipótesis? Recuperemos esas dos distinciones. Conserven su entrega y elijan un paso repetible de su trabajo. Hoy aprendimos a preparar una decisión; la próxima vez diseñaremos cómo apoyar ese paso de forma consistente. Ahora el mapa también les sirve para conversar con quienes van a construirlo.
-
-Reserva del expositor: NEGOCIOS_Y_RESERVA_ML.md. Conserva las historias, casos y extensiones del mapa de IA.

@@ -1,73 +1,62 @@
-# Actividad A · El comité en NotebookLM
+# Actividad A · Comité Nexo en NotebookLM
 
-**20 puntos · Entrega individual · Colaboración entre compañeros**
+**20 puntos · Entrega individual · Trabajo cooperativo**
 
-Somos el comité que prepara una posible reunión con Juan José Gutiérrez Mayorga. ¿Qué oportunidad concreta proponemos entre Polisplexity y su entorno empresarial, con qué evidencia y qué falta preguntar? Es una simulación académica, no una reunión confirmada.
+Somos el comité de Nexo. ¿Qué mejora probaremos primero durante dos semanas para atender mejor las solicitudes y reducir pendientes sin comprometer la calidad?
 
-La demostración de Claude, Gemini y ChatGPT fue realizada por el docente. No necesitas repetirla ni afirmar que ejecutaste una práctica que sólo observaste. Esta actividad sustituye el ejercicio anterior de Nexo de la clase 1.
+La demostración del docente con diferentes asistentes y su ejemplo de investigación ilustraron el método. El ejercicio evaluado utiliza exclusivamente el expediente ficticio de Nexo. No debes repetir la demostración ni entregar un trabajo sobre una persona o empresa ajena al caso.
 
-## 1. Abre tu cuaderno
+## 01. Conoce Nexo y prepara tu primera respuesta
 
-En NotebookLM crea un cuaderno llamado «Comité · tu nombre · tu propuesta». Descarga y añade los dos textos iniciales. Abre cada fuente y comprueba que tiene contenido. Selecciona sólo esas dos fuentes para la primera consulta. Copia el encargo, ejecútalo y guarda la respuesta inicial en una nota o documento. Las síntesis son un punto de partida: conservan el enlace al original.
+Crea un cuaderno «Comité Nexo · tu nombre». Descomprime el paquete inicial y carga sólo los documentos 01 y 02: empresa y encargo de Dirección. Abre cada fuente para comprobar que se importó. Copia el encargo de abajo en el chat, ejecútalo y guarda la primera respuesta. Todavía no cargues el expediente ampliado.
 
-## 2. Investiga y vuelve a preguntar
+## 02. Investiga la empresa con sus documentos
 
-Añade al menos dos fuentes pertinentes: pueden ser originales del directorio o una investigación propia. Si una web falla, abre el original y pega sólo el fragmento necesario con título, URL y fecha. Un error de importación no cuenta como fuente. Repite exactamente el encargo inicial con el conjunto ampliado y registra las fuentes seleccionadas. Guarda la nueva respuesta y explica dos cambios concretos; si no mejora, explica por qué.
+Elige una mirada: Dirección, Operaciones, Finanzas o Tecnología. Del expediente ampliado, añade al menos dos documentos entre 03 y 06. Abre y lee cada fuente; no basta que aparezca su nombre. Repite exactamente el encargo inicial, con la misma cuenta y configuración, y registra las fuentes seleccionadas. Guarda la respuesta y explica dos cambios concretos. Si no mejoró, dilo con evidencia. No necesitas buscar información de empresas reales llamadas Nexo.
 
-## 3. Comprueba lo que estás leyendo
+## 03. Comprueba texto, datos e imagen
 
-Incorpora la tabla documental incluida o un gráfico/imagen de una fuente pública pertinente. Contrasta un dato con el texto original. Anota si confirma, contradice o limita la propuesta. Una infografía generada como producto final no sustituye esta comprobación de una fuente de entrada. Verifica además dos afirmaciones del resultado abriendo sus citas.
+Añade la imagen 07_NEXO_COLA_VISUAL.png y el reporte operativo 03 si aún no lo has cargado. Pide el contraste con el encargo de abajo. Mira tú la imagen, comprueba un dato frente a la tabla y realiza un cálculo con calculadora u hoja de cálculo. Explica qué cambia en tu recomendación y qué sigue siendo hipótesis. La infografía que generes al final no sustituye esta lectura de una fuente visual.
 
-## 4. Comparte, cuestiona y mejora
+## 04. Comparte tu cuaderno y mejora con otros
 
-Coordínate con dos compañeros del curso. En Compartir, invítalos por el correo que te indiquen como lectores y permite copiar el cuaderno si la opción está disponible. Envía el enlace por el canal del grupo usado en clase. Cada persona revisa dos cuadernos y devuelve una fuente útil y una objeción razonada por cuaderno. Pueden reutilizar fuentes y enfoques con crédito. Cada quien conserva su propia recomendación y entrega. Las copias no sustituyen el registro de chats y notas: guarda los extractos por separado.
+Coordínate con dos compañeros. Invítalos como lectores por el correo que te indiquen y permite copiar tu cuaderno si aparece la opción. Revisa sus propuestas y aporta a cada una un documento o hallazgo útil del expediente y una objeción razonada. Puedes copiar fuentes o enfoques con crédito; tu decisión y entrega son individuales. Conserva los extractos del chat por separado. Incorpora una contribución recibida o justifica descartarla.
 
-## 5. Produce una recomendación que se pueda defender
+## 05. Prepara el producto para el comité
 
-Incorpora una contribución recibida, o explica por qué la descartas con evidencia. Revisa el contenido antes de usar Studio. Elige UN producto: reporte de hasta 2 páginas, deck de 5 láminas, una infografía o video de hasta 3 minutos. Todos deben mostrar oportunidad, evidencia, propuesta, límites y siguiente paso. Corrige fuentes, nombres y cifras en el producto final. No se requiere comprar una cuenta; si Studio no ofrece un formato, entrega el reporte preparado desde el chat.
+Elige UN producto: reporte de hasta 2 páginas, deck de 5 láminas, una infografía o video de hasta 3 minutos. Debe presentar decisión, evidencia, dos alternativas, propuesta de prueba, límites y siguiente paso. Revisa el contenido antes de generar con Studio; verifica después nombres, cifras y referencias al expediente. Si tu cuenta no ofrece el formato, prepara el reporte desde el chat. No necesitas pagar.
 
-## 6. Entrega tu trabajo individual
+## 06. Entrega una recomendación defendible
 
-En Moodle entrega el enlace de tu cuaderno, un producto final y la nota breve de la plantilla (con extractos inicial/final, comprobaciones y colaboración). Comparte el cuaderno con el correo del docente indicado en el aula y comprueba el permiso de lector. Puedes adjuntar hasta tres archivos; para un video grande usa un enlace restringido accesible al docente. El vencimiento será el que comunique PBS; esta guía no inventa una nueva fecha.
+Entrega en Moodle el enlace de tu cuaderno, un producto final y tu nota de la plantilla: comparación inicial/ampliada, verificación visual, dos afirmaciones comprobadas, cálculo y colaboración. Comparte como lector con el correo docente indicado en Moodle. Para un video grande usa un enlace accesible al docente. La fecha es la que comunique PBS; no se establece un vencimiento nuevo aquí.
 
-## Encargo para las dos consultas
+## Encargo para ambas consultas
 
-Actúa como analista de un comité que prepara una posible reunión con Juan José Gutiérrez Mayorga. Con las fuentes seleccionadas, propone UNA oportunidad concreta de colaboración entre Polisplexity y su entorno empresarial. Es una simulación académica: no existe una reunión o relación comercial confirmada en el caso.
-Entrega: 1) oportunidad y decisión que buscamos preparar; 2) tres hechos relevantes con citas verificables; 3) propuesta y capacidad técnica que haría falta; 4) hipótesis, límites y riesgos; 5) tres preguntas que debemos hacer antes de avanzar; 6) siguiente paso acotado y cómo evaluar su utilidad.
-Distingue hechos, afirmaciones de las organizaciones e hipótesis propias. No inventes necesidades, contratos, cifras, funciones del producto ni retornos. Si falta evidencia, dilo. No confundas CMI Alimentos con CMI Capital. Extensión máxima: 500 palabras.
+Somos el comité de Nexo, una empresa ficticia de soporte administrativo y técnico. Con las fuentes seleccionadas, prepara una recomendación sobre qué mejora deberíamos probar primero durante dos semanas para atender mejor las solicitudes y reducir pendientes sin comprometer calidad ni autoridad humana.
+Entrega: 1) decisión propuesta; 2) tres hechos o vacíos relevantes con citas a los documentos del expediente; 3) comparación de dos alternativas (considera una mejora de proceso sin IA); 4) alternativa elegida, papel de la IA y revisión humana; 5) fuentes, accesos y responsables necesarios; 6) cómo evaluar la prueba, cuándo detenerla y qué falta preguntar.
+Separa hechos, hipótesis y propuestas. No inventes causas, costos, ahorro, integraciones, permisos ni resultados. Si aún no hay evidencia para elegir, explica qué falta y formula una recomendación provisional. No conviertas una meta de servicio en cumplimiento observado. Extensión máxima: 500 palabras.
 
 ## Evaluación
 
-| Criterio | Qué demostrar | Puntos |
+| Criterio | Evidencia | Puntos |
 | --- | --- | --- |
-| Relación necesidad–capacidad de IA | La oportunidad y la decisión son concretas; explicas qué hizo la IA y qué decidiste tú. | 5 |
-| Comparación sustentada y criterio de elección | Muestras fragmentos inicial/final, dos cambios vinculados con fuentes y tu juicio sobre la mejora. | 5 |
-| Integración de fuentes y contradicciones | Relacionas texto con una tabla, gráfico o imagen; verificas un dato y explicas una coincidencia, discrepancia o límite. | 5 |
-| Comprobación y límites | Compruebas dos afirmaciones en sus fuentes; corriges supuestos y explicitas vacíos y siguiente paso. | 5 |
-
-Para cada criterio: 5 = concreto, correcto y sustentado; 3 = evidencia incompleta u omisión material; 1 = genérico o principalmente afirmaciones; 0 = ausente o incompatible con los datos. Los valores 2 y 4 requieren justificación. Total: 20 puntos. Una propuesta distinta de la del docente puede obtener el máximo. No se puntúa el gasto, la estética, el número de herramientas o ganar la competencia.
-
-## Cooperar y competir
-
-El comité puede reconocer la propuesta mejor sustentada, la comprobación más útil y la colaboración más generosa. El reconocimiento es cualitativo; no resta puntos a otros. La calificación sigue siendo individual y todos pueden obtener 20.
+| Necesidad y capacidad | Decisión concreta para Nexo, dos alternativas y función de la IA frente a tu propio juicio. | 5 |
+| Comparación sustentada | Extractos inicial/ampliado, dos cambios relacionados con documentos y límites de la comparación. | 5 |
+| Integración de fuentes | Dato leído de la imagen y contrastado con el reporte; efecto sobre la propuesta sin confundir estado y causa. | 5 |
+| Comprobación y límites | Dos afirmaciones y un cálculo verificados; supuestos, autoridad humana y siguiente paso explícitos. | 5 |
 
 ## Si algo se bloquea
 
-- Cuenta restringida para compartir/copiar: comparte un documento exportado y las referencias por el canal del curso; conserva tu cuaderno individual y registra la limitación. No cambies políticas de tu organización.
-- No recibes respuesta: documenta tus dos aportaciones/solicitudes y realiza una revisión adversarial propia. No se penaliza depender de un compañero que no responde.
-- No hay generación de video, infografía o deck: usa el reporte. No necesitas pagar.
-- No puedes acceder a NotebookLM: avisa al docente; prepara el mismo reporte y contraste manual con las fuentes entregadas, identifica la limitación y no inventes una ejecución. Se aplica la misma rúbrica a la evidencia disponible.
-- Mantén restringidos los cuadernos a compañeros y docente. Usa sólo información pública para este caso; no cargues documentos internos de tu empresa. No hay que contactar a Juan José ni a sus organizaciones.
+- La cuenta no deja compartir/copiar: intercambia un documento exportado y las referencias por el canal del curso; conserva tu cuaderno y registra la limitación.
+- Un compañero no responde: documenta tus dos aportaciones/solicitudes y realiza una revisión adversarial propia. No se penaliza la falta de respuesta ajena.
+- La herramienta no lee la imagen: comprueba tú el original, registra la limitación y distingue tu lectura de lo que produjo la IA. Puedes incorporar una transcripción propia identificada como tal; no afirmes que el modelo leyó la imagen.
+- Studio no ofrece el formato o agotó el límite: entrega un reporte desde el chat. No necesitas pagar.
+- No puedes entrar a NotebookLM: informa al docente y realiza el contraste manual con el expediente. Declara qué hiciste y qué no; no inventes una ejecución.
 
-## Antes de enviar
+## Comité, cooperación y evaluación
 
-¿Abre el enlace con el permiso del docente? ¿Adjunté un solo producto final? ¿Conservé los extractos inicial/final? ¿Comprobé las citas? ¿Identifiqué el aporte ajeno y mi decisión? Si respondes sí, entrega en Moodle.
+La clase puede reconocer la propuesta mejor sustentada, la mejor comprobación y el aporte más útil a otro compañero. Son reconocimientos cualitativos: no alteran los puntos. Todos pueden obtener 20. No se puntúa pagar una licencia, la estética o ser quien más formatos genere.
 
-## Directorio de fuentes
+Para cada criterio: 5 = concreto, correcto y sustentado; 3 = evidencia incompleta u omisión material; 1 = genérico o principalmente afirmaciones; 0 = ausente o incompatible con los datos. Valores 2 y 4 requieren justificación. La recomendación puede diferir de la del docente.
 
-- [Juan José Gutiérrez Mayorga · Biografía oficial](https://juanjosegutierrez.com/biografia/). Identidad, trayectoria y ámbito de CMI Alimentos. Verifica la fecha de cada dato; no mezcles CMI Alimentos con CMI Capital.
-- [Polisplexity · Proyectos y estado público](https://polisplexity.tech/). Distingue entregado, propuesta presentada y exploración. Una descripción del proveedor no demuestra impacto independiente.
-- [CMI · Canales digitales (24 julio 2024)](https://somoscmi.com/es/blog/cmi-impulsa-la-transformacion-digital-para-mejorar-el-servicio-al-cliente/). Para ampliar: identifica iniciativas ya anunciadas. Digitalización no prueba por sí sola uso de IA.
-- [CMI · Cifras corporativas](https://somoscmi.com/es/somos-cmi/cmi-en-numeros/). Para ampliar: elige un gráfico o tabla, conserva su fecha y contrasta una cifra. No combines cifras de cortes distintos.
-- [Open Local Digital Twin · Producto](https://polisplexity.tech/products/open-local-digital-twin). Para ampliar: examina capacidades y madurez; formula como hipótesis cualquier aplicación al entorno de CMI.
-- [NotebookLM · Compartir y copiar cuadernos](https://support.google.com/gemininotebook/answer/16206563?hl=es). Ayuda de la herramienta; no es evidencia comercial para la propuesta.
+Nexo y su expediente son ficticios. Usa los materiales del caso; no cargues documentos internos de tu empresa ni investigues a personas reales para esta actividad. Comparte tu cuaderno sólo con compañeros y docente.

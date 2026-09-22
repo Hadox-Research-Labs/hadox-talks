@@ -13,7 +13,7 @@
         "tipo": "APERTURA",
         "horario": "18:00–18:05",
         "question": "¿Qué necesitas saber antes de decidir?",
-        "narration": "En «Qué hago aquí»: Escucha la bienvenida. La actividad vigente se abre desde el enlace Comité NotebookLM.\n\nSoy Edgar Valdés. Recorreremos la historia y las capacidades de la IA, ejemplos empresariales y la importancia del contexto. En la sesión mostré Claude, Gemini y ChatGPT usando preguntas sobre mi identidad y trabajo previo. Después trabajé con NotebookLM para investigar a Juan José y preparar una posible propuesta con Polisplexity.\n\nLa actividad individual retoma esa experiencia: reunir fuentes, contrastarlas, compartir con compañeros y producir una recomendación que podamos defender. No necesitamos que la máquina adivine; necesitamos saber qué información tiene, qué afirma y cómo lo comprobamos. La guía de la actividad A contiene los pasos y mantiene los veinte puntos.",
+        "narration": "En «Qué hago aquí»: Escucha la bienvenida. La actividad vigente es el comité Nexo en NotebookLM.\n\nSoy Edgar Valdés. Recorremos la historia y capacidades de la IA, ejemplos empresariales y la importancia del contexto. La demostración con distintos asistentes mostró cómo cambia una respuesta según la información disponible. El ejemplo de investigación en NotebookLM mostró cómo reunir documentos y preparar materiales.\n\nAhora aplicaremos ese método a Nexo, nuestra empresa ficticia. Seremos su comité: cada persona investigará el expediente, contrastará la respuesta inicial con otra mejor informada, compartirá hallazgos y preparará una recomendación propia. El reto no es producir más documentos, sino defender una mejor decisión con evidencia.",
         "steps": [
           "0–2 min: bienvenida, situación del comité y resultado de las tres clases.",
           "2–4 min: escuchar dos necesidades de información; anotarlas sin abrir una actividad.",
@@ -26,7 +26,7 @@
         "image": "assets/c1-01.png",
         "runbook": {
           "title": "Escucha la bienvenida",
-          "text": "Escucha la bienvenida y conoce la actividad vigente: el comité en NotebookLM.",
+          "text": "Escucha la bienvenida y conoce la actividad vigente: el comité Nexo en NotebookLM.",
           "actions": [
             {
               "kind": "listen",
@@ -42,7 +42,7 @@
               "url": "comite/"
             }
           ],
-          "intro": "Escucha la bienvenida y conoce la actividad vigente: el comité en NotebookLM."
+          "intro": "Escucha la bienvenida y conoce la actividad vigente: el comité Nexo en NotebookLM."
         }
       },
       {
@@ -976,23 +976,7 @@
         "steps": [
           "Observa y distingue qué información tenía cada asistente."
         ],
-        "sources": [
-          {
-            "title": "Juan José Gutiérrez Mayorga · Biografía oficial",
-            "url": "https://juanjosegutierrez.com/biografia/",
-            "focus": "Identidad, trayectoria y ámbito de CMI Alimentos. Verifica la fecha de cada dato; no mezcles CMI Alimentos con CMI Capital."
-          },
-          {
-            "title": "Polisplexity · Proyectos y estado público",
-            "url": "https://polisplexity.tech/",
-            "focus": "Distingue entregado, propuesta presentada y exploración. Una descripción del proveedor no demuestra impacto independiente."
-          },
-          {
-            "title": "CMI · Canales digitales (24 julio 2024)",
-            "url": "https://somoscmi.com/es/blog/cmi-impulsa-la-transformacion-digital-para-mejorar-el-servicio-al-cliente/",
-            "focus": "Para ampliar: identifica iniciativas ya anunciadas. Digitalización no prueba por sí sola uso de IA."
-          }
-        ],
+        "sources": [],
         "work": [],
         "materials": [],
         "extra": "La actividad vigente está en la guía Comité NotebookLM.",
@@ -1036,30 +1020,20 @@
       },
       {
         "numero": 10,
-        "titulo": "De las fuentes a la propuesta",
+        "titulo": "El expediente de Nexo",
         "minutes": 15,
         "tipo": "NotebookLM",
         "horario": "19:25–19:40",
-        "question": "Abre la guía. Empieza con las dos fuentes iniciales y conserva la primera respuesta.",
-        "narration": "En «Qué hago aquí»: Abre la guía. Empieza con las dos fuentes iniciales y conserva la primera respuesta.\n\nEl docente mostró cómo investigar y reunir fuentes sobre Juan José y Polisplexity. Ahora la actividad propone una posible reunión: necesitamos una oportunidad concreta, evidencia y preguntas. Antes de generar un producto, verifica que cada fuente se importó y que realmente sustenta las afirmaciones. La tabla documental te permite contrastar estados y evitar confundir una propuesta con un proyecto entregado.",
+        "question": "Abre la guía del comité Nexo. Comienza sólo con el perfil de empresa y el encargo de Dirección.",
+        "narration": "En «Qué hago aquí»: Abre la guía del comité Nexo. Comienza sólo con el perfil de empresa y el encargo de Dirección.\n\nNexo presta soporte administrativo y técnico. Crecen los pendientes y Dirección necesita una recomendación de mejora. Primero trabajamos con el perfil y el encargo; luego ampliamos con reportes, testimonios, catálogo y nota de Tecnología. Guardamos ambas respuestas para explicar qué cambió. Después contrastamos la imagen de la cola con el reporte operativo: un estado no demuestra una causa.",
         "steps": [
-          "Abre la guía. Empieza con las dos fuentes iniciales y conserva la primera respuesta."
+          "Abre la guía del comité Nexo. Comienza sólo con el perfil de empresa y el encargo de Dirección."
         ],
         "sources": [
           {
-            "title": "Juan José Gutiérrez Mayorga · Biografía oficial",
-            "url": "https://juanjosegutierrez.com/biografia/",
-            "focus": "Identidad, trayectoria y ámbito de CMI Alimentos. Verifica la fecha de cada dato; no mezcles CMI Alimentos con CMI Capital."
-          },
-          {
-            "title": "Polisplexity · Proyectos y estado público",
-            "url": "https://polisplexity.tech/",
-            "focus": "Distingue entregado, propuesta presentada y exploración. Una descripción del proveedor no demuestra impacto independiente."
-          },
-          {
-            "title": "CMI · Canales digitales (24 julio 2024)",
-            "url": "https://somoscmi.com/es/blog/cmi-impulsa-la-transformacion-digital-para-mejorar-el-servicio-al-cliente/",
-            "focus": "Para ampliar: identifica iniciativas ya anunciadas. Digitalización no prueba por sí sola uso de IA."
+            "title": "Expediente ficticio de Nexo",
+            "url": "comite/#expediente",
+            "focus": "Perfil, encargo, reporte, testimonios, reglas, nota técnica e imagen."
           }
         ],
         "work": [],
@@ -1067,45 +1041,35 @@
         "extra": "La actividad vigente está en la guía Comité NotebookLM.",
         "image": "assets/comite-lamina-10.svg",
         "runbook": {
-          "title": "De las fuentes a la propuesta",
-          "text": "Abre la guía. Empieza con las dos fuentes iniciales y conserva la primera respuesta.",
+          "title": "El expediente de Nexo",
+          "text": "Abre la guía del comité Nexo. Comienza sólo con el perfil de empresa y el encargo de Dirección.",
           "actions": [
             {
               "kind": "link",
-              "label": "Abrir actividad A · Comité NotebookLM",
+              "label": "Abrir comité Nexo · pasos y materiales",
               "url": "comite/"
             }
           ],
           "items": [],
-          "intro": "Abre la guía. Empieza con las dos fuentes iniciales y conserva la primera respuesta."
+          "intro": "Abre la guía del comité Nexo. Comienza sólo con el perfil de empresa y el encargo de Dirección."
         }
       },
       {
         "numero": 11,
-        "titulo": "Cooperar para proponer mejor",
+        "titulo": "Un comité, muchas miradas",
         "minutes": 30,
         "tipo": "Actividad A",
         "horario": "19:40–20:10",
-        "question": "Sigue los pasos 1 a 4 de la actividad; registra las fuentes y las contribuciones.",
-        "narration": "En «Qué hago aquí»: Sigue los pasos 1 a 4 de la actividad; registra las fuentes y las contribuciones.\n\nCada persona construye su propio cuaderno, amplía las fuentes y repite el mismo encargo. Compara dos cambios y comprueba un dato de una tabla, gráfico o imagen. Comparte con dos compañeros: aporta una fuente y una objeción útil a cada uno. Puedes adoptar lo que otro encontró si reconoces el aporte. El objetivo es mejorar el razonamiento y conservar una decisión propia.",
+        "question": "Investiga Nexo, comparte con dos compañeros y mejora tu propia recomendación.",
+        "narration": "En «Qué hago aquí»: Investiga Nexo, comparte con dos compañeros y mejora tu propia recomendación.\n\nElige una mirada: Dirección, Operaciones, Finanzas o Tecnología. Todos usan el mismo expediente ficticio. Añade documentos, repite el encargo y comprueba las afirmaciones. Comparte tu cuaderno como lector con dos compañeros. Aporta una fuente o hallazgo y una objeción razonada a cada propuesta. Se puede copiar una idea con crédito; cada quien conserva su juicio y entrega.",
         "steps": [
-          "Sigue los pasos 1 a 4 de la actividad; registra las fuentes y las contribuciones."
+          "Investiga Nexo, comparte con dos compañeros y mejora tu propia recomendación."
         ],
         "sources": [
           {
-            "title": "Juan José Gutiérrez Mayorga · Biografía oficial",
-            "url": "https://juanjosegutierrez.com/biografia/",
-            "focus": "Identidad, trayectoria y ámbito de CMI Alimentos. Verifica la fecha de cada dato; no mezcles CMI Alimentos con CMI Capital."
-          },
-          {
-            "title": "Polisplexity · Proyectos y estado público",
-            "url": "https://polisplexity.tech/",
-            "focus": "Distingue entregado, propuesta presentada y exploración. Una descripción del proveedor no demuestra impacto independiente."
-          },
-          {
-            "title": "CMI · Canales digitales (24 julio 2024)",
-            "url": "https://somoscmi.com/es/blog/cmi-impulsa-la-transformacion-digital-para-mejorar-el-servicio-al-cliente/",
-            "focus": "Para ampliar: identifica iniciativas ya anunciadas. Digitalización no prueba por sí sola uso de IA."
+            "title": "Expediente ficticio de Nexo",
+            "url": "comite/#expediente",
+            "focus": "Perfil, encargo, reporte, testimonios, reglas, nota técnica e imagen."
           }
         ],
         "work": [],
@@ -1113,45 +1077,35 @@
         "extra": "La actividad vigente está en la guía Comité NotebookLM.",
         "image": "assets/comite-lamina-11.svg",
         "runbook": {
-          "title": "Cooperar para proponer mejor",
-          "text": "Sigue los pasos 1 a 4 de la actividad; registra las fuentes y las contribuciones.",
+          "title": "Un comité, muchas miradas",
+          "text": "Investiga Nexo, comparte con dos compañeros y mejora tu propia recomendación.",
           "actions": [
             {
               "kind": "link",
-              "label": "Abrir actividad A · Comité NotebookLM",
+              "label": "Abrir comité Nexo · pasos y materiales",
               "url": "comite/"
             }
           ],
           "items": [],
-          "intro": "Sigue los pasos 1 a 4 de la actividad; registra las fuentes y las contribuciones."
+          "intro": "Investiga Nexo, comparte con dos compañeros y mejora tu propia recomendación."
         }
       },
       {
         "numero": 12,
-        "titulo": "Una entrega, veinte puntos",
+        "titulo": "Una decisión para Nexo",
         "minutes": 15,
         "tipo": "Entrega individual",
         "horario": "20:10–20:25",
-        "question": "Revisa los pasos 5 y 6 y entrega en Moodle con la plantilla nueva.",
-        "narration": "En «Qué hago aquí»: Revisa los pasos 5 y 6 y entrega en Moodle con la plantilla nueva.\n\nElige un producto: reporte, deck, infografía o video. Los cuatro comunican oportunidad, evidencia, propuesta, límites y siguiente paso. Entrega el enlace de tu cuaderno, el producto final y la nota breve con tus comprobaciones. Se mantienen cuatro criterios de cinco puntos. No se premia pagar una licencia ni ganar la competencia. Todos pueden obtener veinte con evidencia suficiente.",
+        "question": "Entrega tu cuaderno, un producto final y las comprobaciones. Total: 20 puntos.",
+        "narration": "En «Qué hago aquí»: Entrega tu cuaderno, un producto final y las comprobaciones. Total: 20 puntos.\n\nPrepara un reporte, deck, infografía o video para el comité Nexo. Muestra la decisión, dos alternativas, la evidencia, la prueba propuesta, sus límites y el siguiente paso. La nota de entrega conserva el antes y después, el contraste visual, dos afirmaciones y un cálculo comprobados, y los aportes de compañeros. Se mantienen los cuatro criterios de cinco puntos.",
         "steps": [
-          "Revisa los pasos 5 y 6 y entrega en Moodle con la plantilla nueva."
+          "Entrega tu cuaderno, un producto final y las comprobaciones. Total: 20 puntos."
         ],
         "sources": [
           {
-            "title": "Juan José Gutiérrez Mayorga · Biografía oficial",
-            "url": "https://juanjosegutierrez.com/biografia/",
-            "focus": "Identidad, trayectoria y ámbito de CMI Alimentos. Verifica la fecha de cada dato; no mezcles CMI Alimentos con CMI Capital."
-          },
-          {
-            "title": "Polisplexity · Proyectos y estado público",
-            "url": "https://polisplexity.tech/",
-            "focus": "Distingue entregado, propuesta presentada y exploración. Una descripción del proveedor no demuestra impacto independiente."
-          },
-          {
-            "title": "CMI · Canales digitales (24 julio 2024)",
-            "url": "https://somoscmi.com/es/blog/cmi-impulsa-la-transformacion-digital-para-mejorar-el-servicio-al-cliente/",
-            "focus": "Para ampliar: identifica iniciativas ya anunciadas. Digitalización no prueba por sí sola uso de IA."
+            "title": "Expediente ficticio de Nexo",
+            "url": "comite/#expediente",
+            "focus": "Perfil, encargo, reporte, testimonios, reglas, nota técnica e imagen."
           }
         ],
         "work": [],
@@ -1159,17 +1113,17 @@
         "extra": "La actividad vigente está en la guía Comité NotebookLM.",
         "image": "assets/comite-lamina-12.svg",
         "runbook": {
-          "title": "Una entrega, veinte puntos",
-          "text": "Revisa los pasos 5 y 6 y entrega en Moodle con la plantilla nueva.",
+          "title": "Una decisión para Nexo",
+          "text": "Entrega tu cuaderno, un producto final y las comprobaciones. Total: 20 puntos.",
           "actions": [
             {
               "kind": "link",
-              "label": "Abrir actividad A · Comité NotebookLM",
+              "label": "Abrir comité Nexo · pasos y materiales",
               "url": "comite/"
             }
           ],
           "items": [],
-          "intro": "Revisa los pasos 5 y 6 y entrega en Moodle con la plantilla nueva."
+          "intro": "Entrega tu cuaderno, un producto final y las comprobaciones. Total: 20 puntos."
         }
       },
       {
