@@ -1,0 +1,7 @@
+FUENTE INICIAL 2 · Polisplexity
+Síntesis docente, consultada el 21 de septiembre de 2026. Comprueba el original:
+https://polisplexity.tech/
+
+Polisplexity presenta herramientas para relacionar información territorial y apoyar decisiones con evidencia. Su sitio distingue un trabajo entregado en Biobío, propuestas presentadas en Tallinn y Gaziantep y exploraciones relacionadas con INFONAVIT/SEDATU. Esos estados no son equivalentes: una propuesta o exploración no acredita contrato ni despliegue.
+
+El producto Open Local Digital Twin se presenta como candidato técnico de lanzamiento. La descripción pública permite formular hipótesis sobre usos territoriales; no acredita que ya resuelva operaciones de CMI. Cualquier propuesta necesita comprobar datos disponibles, integración, responsables y resultados. La información procede del propio proveedor, no de una evaluación independiente.

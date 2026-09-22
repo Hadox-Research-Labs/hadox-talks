@@ -1,38 +1,12 @@
-# Clase 1 · Preparar una decisión con IA
-
-Guion del expositor · Hadox Talks
-
 ## 1. IA para líderes
 
-18:00–18:05 · 5 minutos
+En «Qué hago aquí»: Escucha la bienvenida. La actividad vigente se abre desde el enlace Comité NotebookLM.
 
-Pregunta: ¿Qué necesitas saber antes de decidir?
+Soy Edgar Valdés. Recorreremos la historia y las capacidades de la IA, ejemplos empresariales y la importancia del contexto. En la sesión mostré Claude, Gemini y ChatGPT usando preguntas sobre mi identidad y trabajo previo. Después trabajé con NotebookLM para investigar a Juan José y preparar una posible propuesta con Polisplexity.
 
-### Discurso
-
-En «Qué hago aquí»: Conoce el problema que vamos a resolver y qué haremos hoy. Aquí todavía no tienes que abrir Gemini ni entregar nada.
-
-Imaginen que mañana tienen comité. Llegan más solicitudes y aumentan las quejas. Una persona pide contratar, otra propone automatizar y otra exige más datos. Ustedes deben preparar una decisión. Ésa será nuestra situación de trabajo.
-
-Soy Edgar Valdés. Hoy vamos a recorrer una historia: cómo llegamos a hablar con una máquina, qué podemos aprender de empresas que coordinan viajes, estancias y pagos, y cómo aterrizar eso en una decisión de nuestra organización. Verán una demostración completa en Gemini antes de hacer su práctica. Primero construiremos un informe con texto; después incorporaremos una imagen que permite mirar el problema de otra forma.
-
-Al terminar, cada persona tendrá un informe de una página desde su función y podrá explicar qué aportó la IA y qué decidió ella. En las siguientes clases convertiremos una parte del trabajo en un asistente y evaluaremos un piloto. Todo el expediente es ficticio. Para empezar, ¿qué información pedirían antes de recomendar contratar o automatizar? Escuchemos dos respuestas y conservémoslas para el cierre.
-
-### Cómo conducirla
-
-0–2 min: bienvenida, situación del comité y resultado de las tres clases.
-
-2–4 min: escuchar dos necesidades de información; anotarlas sin abrir una actividad.
-
-4–5 min: presentar el recorrido y conectar con la historia.
+La actividad individual retoma esa experiencia: reunir fuentes, contrastarlas, compartir con compañeros y producir una recomendación que podamos defender. No necesitamos que la máquina adivine; necesitamos saber qué información tiene, qué afirma y cómo lo comprobamos. La guía de la actividad A contiene los pasos y mantiene los veinte puntos.
 
 ## 2. ¿Cómo llegamos a hablar con una máquina?
-
-18:05–18:12 · 7 minutos
-
-Pregunta: ¿Qué cambió para que podamos encargar trabajo en lenguaje cotidiano?
-
-### Discurso
 
 En «Qué hago aquí»: Sigue cómo pasamos de programar reglas a trabajar con modelos que aprenden de datos. Observa los hitos de la lámina.
 
@@ -50,37 +24,7 @@ Hagamos una comparación rápida: ¿qué es más fácil dejar en una regla, calc
 
 Éste es el cambio que nos toca como líderes: podemos expresar un encargo en lenguaje cotidiano, aportar documentos y revisar un resultado. La capacidad cambia; el criterio sigue siendo nuestro. Antes de conocer a los desarrolladores, vamos a recorrer el mapa de capacidades del aprendizaje automático.
 
-### Cómo conducirla
-
-0–1 min: mostrar la imagen completa y plantear cómo llegamos a conversar con una máquina.
-
-1–3 min: contar Dartmouth y contrastar una regla de autorización con aprender de ejemplos.
-
-3–5 min: explicar Transformer y modelos fundacionales; aclarar que son hitos, no fechas de nacimiento de cada capacidad.
-
-5–6 min: escuchar una respuesta a descuento frente a quejas; no abrir Gemini todavía.
-
-6–7 min: rematar con criterio humano y pasar al mapa del machine learning.
-
-Para ampliar: parámetros son valores aprendidos; entrenamiento los ajusta. Inferencia usa el modelo entrenado. Estos hitos no son una historia exhaustiva ni significan que todas las tecnologías sigan una sola línea evolutiva.
-
-### Referencias
-
-- [Dartmouth · Propuesta de 1955 para el encuentro de 1956](https://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html): Origen del nombre y del programa de investigación; no inicio de toda la computación inteligente.
-
-- [Vaswani et al. (2017) · Attention Is All You Need](https://arxiv.org/abs/1706.03762): Antecedente de la arquitectura Transformer; no es una descripción completa de todos los modelos actuales.
-
-- [Stanford CRFM (2021) · On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258): Qué significa modelo fundacional y cómo se adapta a distintos usos.
-
-- [Dartmouth · Our Story](https://ai.dartmouth.edu/our-story): Propuesta de 1955 y encuentro de 1956. Contexto histórico de la investigación en IA.
-
 ## 3. Tu maestría de IA: capacidades y negocios
-
-18:12–18:24 · 12 minutos
-
-Pregunta: ¿Qué negocio o mejora empresarial puede construirse con cada capacidad?
-
-### Discurso
 
 En «Qué hago aquí»: Escucha qué hace cada familia de machine learning y cómo se conecta con un negocio. Recorre el gráfico con la explicación; no hace falta memorizarlo.
 
@@ -114,117 +58,15 @@ Miren ahora las relaciones de la barra lateral. Segmentar puede ayudarnos a ente
 
 Quédense con una aplicación que podría tener sentido en su organización. Si yo les pidiera defenderla ante dirección, ¿qué problema resolvería, qué datos tendrían y cómo comprobarían que mejora algo? Escuchemos una respuesta. Con este mapa en mente, ahora sí veamos quién desarrolla los modelos y dónde podemos empezar a utilizarlos.
 
-### Cómo conducirla
-
-0–1 min: abrir con «Aquí tienen su maestría de inteligencia artificial, cortesía del Dr. Valdés». Invitar a tomar una foto del mapa.
-
-1–4 min: recorrer las siete aplicaciones de la rama azul y conectar cada una con una oportunidad de negocio.
-
-4–7 min: recorrer las ocho aplicaciones de clasificación y regresión; distinguir ejemplo documentado de oportunidad propuesta.
-
-7–10 min: recorrer las cinco aplicaciones de refuerzo, con una pausa breve en Game AI y estrategia.
-
-10–11 min: señalar las cuatro relaciones de la barra «Del modelo al negocio» y ubicar la práctica con modelos fundacionales.
-
-11–12 min: recoger una oportunidad del grupo y pasar a quién desarrolla los modelos. Las ampliaciones son opcionales.
-
-Los negocios propuestos son ejemplos didácticos. Los casos empresariales documentados tienen referencias. Si sobra tiempo, elige una ampliación del banco bajo el discurso; sus minutos se añaden sólo si los tienes disponibles.
-
-Banco de negocios y ampliaciones: [NEGOCIOS_Y_RESERVA_ML.md](NEGOCIOS_Y_RESERVA_ML.md). En la web aparece desplegable bajo el discurso de esta lámina.
-
-### Referencias
-
-- [Google · Introducción al aprendizaje automático](https://developers.google.com/machine-learning/intro-to-ml/what-is-ml): Tipos de aprendizaje y formulación de tareas.
-
-- [Scikit-learn · Descomposición y reducción de dimensiones](https://scikit-learn.org/stable/modules/decomposition.html): Representaciones compactas, extracción de características y límites.
-
-- [Scikit-learn · Clustering](https://scikit-learn.org/stable/modules/clustering.html): Agrupación por similitud y supuestos de los métodos.
-
-- [DeepMind · AlphaStar en StarCraft II](https://deepmind.google/blog/alphastar-mastering-the-real-time-strategy-game-starcraft-ii/): Información incompleta, estrategia y combinación de aprendizaje supervisado y por refuerzo.
-
-- [DeepMind · From motor control to embodied intelligence](https://deepmind.google/blog/from-motor-control-to-embodied-intelligence): Habilidades motoras y tareas en entornos físicos.
-
-- [Stanford CRFM · On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258): Modelos fundacionales y relación con aprendizaje autosupervisado.
-
-- [Orange · Exploración visual y modelos](https://orangedatamining.com/widget-catalog/): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [Scikit-learn · Guía de métodos](https://scikit-learn.org/stable/user_guide): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [PyTorch · Transfer learning para imágenes](https://docs.pytorch.org/tutorials/beginner/transfer_learning_tutorial.html): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [Netflix · Cómo funcionan las recomendaciones](https://help.netflix.com/en/node/100639): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [Stripe · Guía técnica de Radar](https://stripe.com/guides/primer-on-machine-learning-for-fraud-protection): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [Uber · Michelangelo](https://www.uber.com/us/en/blog/michelangelo-machine-learning-platform/): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [Amazon Science · Inspección visual](https://www.amazon.science/blog/making-automated-visual-inspection-systems-practical): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [DeepMind · Refrigeración de centros de datos, 2016](https://deepmind.google/blog/deepmind-ai-reduces-google-data-centre-cooling-bill-by-40/): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [DeepMind · AlphaStar, octubre de 2019](https://deepmind.google/blog/alphastar-grandmaster-level-in-starcraft-ii-using-multi-agent-reinforcement-learning/): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [Gymnasium · Entornos de aprendizaje por refuerzo](https://gymnasium.farama.org/): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [Stable-Baselines3 · Algoritmos de refuerzo](https://stable-baselines3.readthedocs.io/en/master/): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [NVIDIA Isaac Sim · Simulación robótica](https://developer.nvidia.com/isaac/sim): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [Google OR-Tools · Optimización](https://developers.google.com/optimization): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [McCarthy et al. · Propuesta de Dartmouth, 1955](https://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [Krizhevsky, Sutskever y Hinton · ImageNet, 2012](https://www.cs.toronto.edu/~hinton/absps/imagenet.pdf): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [Vaswani et al. · Attention Is All You Need, 2017](https://arxiv.org/abs/1706.03762): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [DeepMind · AlphaGo](https://deepmind.google/research/alphago/): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
 ## 4. Quién desarrolla y dónde trabajamos
 
-18:24–18:32 · 8 minutos
+En «Qué hago aquí»: Distingue empresa, modelo y aplicación.
 
-Pregunta: ¿Qué estamos eligiendo: empresa, modelo o aplicación?
+OpenAI ofrece ChatGPT; Google desarrolla Gemini; Anthropic desarrolla Claude. Una aplicación añade herramientas, archivos e historial a las capacidades del modelo. Lo que recuerda una cuenta no demuestra superioridad general de un modelo.
 
-### Discurso
-
-En «Qué hago aquí»: Distingue la empresa, el modelo y la aplicación. Ubica dónde está Gemini, la herramienta que usaremos después.
-
-Separaremos tres nombres que suelen mezclarse. OpenAI desarrolla modelos de la familia GPT y ofrece ChatGPT como aplicación. Google desarrolla Gemini, nombre que también utiliza su aplicación. Anthropic desarrolla Claude y utiliza ese nombre en sus productos. No hace falta memorizar versiones para comprender la distinción.
-
-El modelo aporta capacidades; la aplicación ofrece una interfaz, archivos, herramientas y condiciones de acceso. Por eso dos productos que utilizan una familia similar pueden permitir trabajos diferentes. Una licencia de aplicación tampoco es automáticamente acceso a una API para integrar software.
-
-Para nuestro ejercicio usaremos Gemini. Revisaremos el nombre del modelo que muestra la cuenta y lo mantendremos en la comparación. Flash es la opción con la que estamos ensayando; si una cuenta muestra otra opción, hay que registrar cuál se usó y comparar bajo las mismas condiciones. No estamos haciendo un ranking entre proveedores.
-
-Antes de contratar una solución, las preguntas útiles son: qué tarea resuelve, qué información admite, cómo se comprueba la salida y qué acceso permite la organización. Veamos ahora por qué empresas distintas eligen usos distintos.
-
-### Cómo conducirla
-
-0–3 min: explicar las tres columnas del mapa.
-
-3–5 min: pedir un ejemplo de aplicación conocida y ubicarlo.
-
-5–8 min: explicar los criterios de selección y anticipar la configuración visible de Gemini.
-
-Los nombres y funciones cambian. La documentación enlazada sirve para revisar disponibilidad; no inferir el modelo activo en una cuenta a partir del catálogo API.
-
-### Referencias
-
-- [OpenAI · Catálogo de modelos](https://developers.openai.com/api/docs/models): Familia GPT y nombres de modelos; API y aplicación no son equivalentes.
-
-- [Google · Catálogo de modelos Gemini](https://ai.google.dev/gemini-api/docs/models): Modelos y estados estable/preview; no identifica por sí solo el modelo activo en una cuenta.
-
-- [Anthropic · Model system cards](https://www.anthropic.com/system-cards): Familia Claude y documentación por versión; no implica acceso universal.
-
-- [Google · Subir y analizar archivos en Gemini](https://support.google.com/gemini/answer/14903178?hl=es): Carga de documentos e imágenes; disponibilidad y límites según cuenta.
+En clase comparamos respuestas sobre el profesor con distinto contexto disponible. La actividad A utiliza NotebookLM para organizar y consultar fuentes; registra las opciones visibles de tu cuenta. Cargar documentos aporta contexto: no equivale a entrenar un modelo desde cero. Verifica que la fuente realmente se importó y que la cita respalda la respuesta.
 
 ## 5. ¿Qué conectan Uber, Airbnb y Visa?
-
-18:32–18:38 · 6 minutos
-
-Pregunta: ¿Qué trabajo de coordinación podríamos preparar mejor con IA?
-
-### Discurso
 
 En «Qué hago aquí»: Observa cómo las plataformas conectan personas, información y decisiones, y cómo se relaciona esto con los usos de IA que estamos viendo.
 
@@ -240,37 +82,9 @@ Ahora añadamos una capacidad: una herramienta que puede preparar un resumen, cl
 
 Veamos dos casos de IA que ya tenemos documentados en las referencias. BBVA describe usos de ChatGPT en trabajo interno, como preparar documentos y apoyar distintas funciones. Mercedes-Benz anunció capacidades conversacionales para navegación y puntos de interés con Gemini sobre Vertex AI. Uno nos acerca al trabajo del equipo; el otro, a una interacción con el cliente. El segundo caso no significa que el modelo conduzca el vehículo.
 
-En ambos conviene mirar cuatro cosas: necesidad, información, resultado y responsable. Nexo, nuestro caso ficticio, empieza en algo más cercano: varias áreas tienen piezas de información y alguien necesita preparar una decisión. ¿En qué parte de su organización ocurre eso cada semana? Escuchemos dos ejemplos breves. Con esa pregunta pasamos del panorama global a nuestra región.
-
-### Cómo conducirla
-
-0–1 min: observar las conexiones y escuchar una respuesta.
-
-1–3 min: explicar coordinación, información y reglas con Uber, Airbnb y Visa.
-
-3–5 min: enlazar con los usos documentados de BBVA y Mercedes-Benz.
-
-5–6 min: recoger una fricción organizacional y pasar al contexto regional.
-
-### Referencias
-
-- [BBVA · Usos internos de ChatGPT, enero de 2025](https://www.bbva.com/es/innovacion/bbva-ya-incorpora-chatgpt-para-agilizar-consultas-legales-y-los-procesos-de-marketing/): Casos reportados por la empresa: documentación, consultas y marketing. No promesa de resultados para Nexo.
-
-- [Mercedes-Benz · Conversación y navegación con Gemini](https://group.mercedes-benz.com/technology/innovation/collaboration/ai-powered-conversational-search.html): Anuncio de enero de 2025: Gemini sobre Vertex AI en el asistente MBUX. No conducción autónoma.
-
-- [Uber · Marketplace Matching](https://www.uber.com/us/en/marketplace/matching/): Cómo la plataforma empareja pasajeros y conductores. Ejemplo de coordinación, no demostración de IA generativa.
-
-- [Airbnb · A People-to-People Marketplace](https://news.airbnb.com/en-au/airbnb-a-people-to-people-marketplace): Descripción del mercado que conecta anfitriones y huéspedes. Fuente histórica sobre su funcionamiento, no cifras actuales.
-
-- [Visa · VisaNet](https://corporate.visa.com/en/about-visa/visanet.html): Red de pagos y conexión con instituciones y participantes. Base para la analogía de coordinación.
+En ambos conviene mirar cuatro cosas: necesidad, información, resultado y responsable. El comité de nuestra actividad empieza en algo cercano: varias áreas tienen piezas de información y alguien necesita preparar una decisión. ¿En qué parte de su organización ocurre eso cada semana? Escuchemos dos ejemplos breves. Con esa pregunta pasamos del panorama global a nuestra región.
 
 ## 6. La región también está experimentando
-
-18:38–18:44 · 6 minutos
-
-Pregunta: ¿Qué podemos aprender de experiencias cercanas sin suponer que son iguales?
-
-### Discurso
 
 En «Qué hago aquí»: Conoce los ejemplos de Banrural y TEC/CCSS. Fíjate en qué se implementó, qué se probó y qué resultados se pueden afirmar.
 
@@ -284,231 +98,51 @@ Nuestro expediente representa un servicio regional ficticio con operaciones en G
 
 Para aterrizarlo, piensen en la última vez que un cliente tuvo que contar su problema dos veces porque cambió de área. ¿Qué información se perdió en ese paso? Escuchemos un ejemplo breve y nombremos el documento o la pregunta que atraviesa esas áreas. No necesitan revelar datos internos. Ese tipo de fricción explica por qué el mismo caso puede tener lecturas desde operaciones, finanzas, tecnología, salud administrativa o formación.
 
-### Cómo conducirla
-
-0–1 min: pasar del panorama global a una fricción reconocible.
-
-1–4 min: contrastar Banrural y TEC/CCSS; distinguir implementación de prototipado.
-
-4–5 min: escuchar un ejemplo de información perdida entre áreas.
-
-5–6 min: conectar con Nexo y el contexto que necesita el modelo.
-
-El estudio de UNIS es lectura opcional sobre ejecutivos; su muestra no representa estadísticamente a todas las empresas de Guatemala. El ejemplo regional Nexo es una construcción docente, no un caso atribuido.
-
-### Referencias
-
-- [Banrural · Memoria de labores 2025](https://www.banrural.com.gt/memoria2025): Implementación reportada de asistente generativo en WhatsApp y Messenger.
-
-- [TEC y CCSS · Formación y prototipos, diciembre de 2025](https://www.tec.ac.cr/tec-ccss-impulsan-uso-inteligencia-artificial-resolver-retos-salud-publica): Trabajo institucional de formación y prototipos; no afirmar despliegue clínico generalizado.
-
-- [UNIS Business School · Estudio empresarial de IA 2025](https://unisbs.edu.gt/wp-content/uploads/sites/3/2025/09/UBS_CIHE_ESTUDIOAI_2025.pdf): Encuesta a ejecutivos; muestra no representativa de todas las empresas de Guatemala.
-
 ## 7. Qué hace el modelo con nuestro encargo
 
-18:44–18:50 · 6 minutos
+En «Qué hago aquí»: Escucha cómo utiliza el modelo el contexto.
 
-Pregunta: ¿Qué cambia cuando aportamos los documentos correctos?
+Entrenar modifica parámetros aprendidos; usar un modelo para producir una respuesta es inferencia. Aportar un reporte da contexto. No demuestra por sí solo que estemos reentrenando el modelo.
 
-### Discurso
+Los modelos de lenguaje trabajan con tokens, unidades que pueden ser palabras, partes de palabras o signos. La atención calcula relaciones entre representaciones. El encargo y la información disponible influyen en la respuesta; pedir tono profesional no sustituye un dato que falta.
 
-En «Qué hago aquí»: Primero escucha cómo utiliza el modelo el contexto. Después deja lista la herramienta para la demostración.
+En la demostración del docente observamos respuestas de Claude, Gemini y ChatGPT con diferente contexto. En la actividad A podremos examinar el efecto de ampliar las fuentes dentro de NotebookLM, conservando el mismo encargo. Comparar dos respuestas no prueba causalidad de manera aislada: también hay variación en la generación. Por eso debemos señalar qué cambios están realmente sustentados por las nuevas fuentes.
 
-El esquema distingue entrenamiento e inferencia. Entrenar modifica parámetros aprendidos; usar el modelo para producir una respuesta es inferencia. Al aportar un reporte a una conversación damos contexto. Ese acto, por sí solo, no demuestra que hayamos reentrenado el modelo.
+## 8. El contexto cambia la respuesta
 
-Los modelos de lenguaje trabajan con tokens, unidades que pueden ser palabras, partes de palabras o signos. La atención calcula relaciones entre representaciones. Para nuestro trabajo interesa una consecuencia: el encargo y la información disponible influyen en lo que puede preparar la respuesta. Una solicitud de tono profesional no sustituye un dato que falta.
+En «Qué hago aquí»: Observa y distingue qué información tenía cada asistente.
 
-Ahora miren mi pantalla. Abro Gemini, verifico el modelo seleccionado y empiezo una conversación nueva. El primer botón de la mesa de trabajo copia un encargo completo sin documentos. El segundo repite exactamente ese encargo y agrega F1, F2 y el catálogo F3. Se pega en otra conversación con el mismo modelo. No necesitan reconstruir el prompt por partes.
-
-Después del descanso descargaremos V1 y la adjuntaremos como imagen. Por ahora no cargamos el ZIP ni la imagen. Vamos a observar qué producto podemos preparar con la solicitud sola y qué mejora al incorporar el expediente.
-
-### Cómo conducirla
-
-0–2 min: explicar entrenamiento, inferencia, tokens y contexto.
-
-2–4 min: mostrar chat nuevo y selector de modelo.
-
-4–6 min: ubicar los encargos completos y preparar la demostración.
-
-### Referencias
-
-- [Stanford CRFM (2021) · On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258): Qué significa modelo fundacional y cómo se adapta a distintos usos.
-
-- [Google AI for Developers · Tokens y ventana de contexto](https://ai.google.dev/gemini-api/docs/tokens): Unidades de procesamiento, límites de contexto y consumo.
-
-- [Brown et al. (2020) · Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165): Aprendizaje en contexto mediante instrucciones y ejemplos, sin actualizar parámetros en cada tarea.
-
-- [Google · Subir y analizar archivos en Gemini](https://support.google.com/gemini/answer/14903178?hl=es): Carga de documentos e imágenes; disponibilidad y límites según cuenta.
-
-## 8. Mañana hay comité
-
-18:50–19:15 · 25 minutos
-
-Pregunta: ¿Qué aporta el expediente a la recomendación inicial?
-
-### Discurso
-
-En «Qué hago aquí»: El expositor hará el mismo encargo sin documentos y con documentos. Escucha y compara: ¿qué cambia en la respuesta cuando la IA tiene fuentes?
-
-Ahora ustedes son el comité. Yo voy a pedirle una recomendación a Gemini. Antes de verla, piensen: ¿qué tendría que mostrarles para que ustedes la aceptaran? No necesitan abrir nada todavía; primero observamos juntos.
-
-Nexo recibe más solicitudes y escucha quejas por demoras. Una persona quiere contratar; otra quiere automatizar. Voy a copiar el encargo completo sin expediente y enviarlo en un chat nuevo. Hagan una predicción: ¿nos dará una recomendación, pedirá datos o hará ambas cosas?
-
-Miremos la respuesta que realmente produjo. ¿La llevarían así al comité? Levanten la mano si sí; ahora quienes pedirían más información. Escuchemos una razón de cada lado. Si la respuesta es prudente y pregunta por los datos, reconozcámoslo: detectar lo que falta también es útil. Si propone acciones, elijamos una frase y preguntemos qué la sostiene. No necesitamos que el modelo falle para aprender.
-
-Ahora viene la comparación. Abriré otra conversación con el mismo modelo y pegaré el mismo encargo con F1, F2 y F3. El botón ya incluye los documentos. Lo que cambiamos es el contexto disponible; todavía no hemos demostrado ningún reentrenamiento. Mientras responde, observen conmigo las entradas, los cierres y las solicitudes que siguen abiertas. Una solicitud cerrada puede haber llegado en una semana anterior.
-
-Busquemos el momento en que la respuesta deja de ser una recomendación general y empieza a hablar de este expediente. ¿Qué frase mejoró gracias a una fuente? ¿Qué sigue siendo sólo una hipótesis? Comparemos un hallazgo, una hipótesis y una alternativa. El objetivo es preparar una conversación de dirección con mejor fundamento.
-
-Vamos a comprobar un dato con su fuente y una operación con calculadora. Si afirma que una medida no cuesta nada, preguntaremos dónde está ese costo documentado. Si la información no permite elegir una causa, dejaremos una pregunta pendiente. Una redacción elegante puede ayudar a comunicar; la evidencia es lo que permite defender lo que estamos diciendo.
-
-Pidamos una mejora breve del informe y conservemos las dos versiones. Ustedes han visto síntesis, comparación y redacción, pero también revisión humana. Antes del descanso, elijan una conclusión provisional. Al regresar aparecerá una fuente visual adicional: veremos si fortalece su recomendación o les obliga a cambiar la pregunta.
-
-### Cómo conducirla
-
-0–3 min: asignar al grupo el papel de comité y escuchar una predicción; el docente controla Gemini.
-
-3–7 min: ejecutar sin expediente; votación a mano alzada y dos razones. Una respuesta prudente también cuenta.
-
-7–13 min: abrir otro chat con el mismo modelo y ejecutar con expediente; leer las fuentes durante la generación.
-
-13–20 min: comparar hallazgo, hipótesis y alternativa; comprobar un dato y un cálculo.
-
-20–23 min: pedir una mejora y conservar ambas versiones.
-
-23–25 min: fijar una conclusión provisional y anunciar la revelación visual tras el descanso.
-
-Si no hay acceso, usar la respuesta docente de referencia identificada como ejemplo, o analizar la demostración observada. No atribuirla a una ejecución real del alumno. No hace falta que la primera respuesta falle.
+El docente mostró Claude, Gemini y ChatGPT preguntando por su nombre y lo que había trabajado con cada asistente. Observa cómo cambia la respuesta según el contexto disponible. No es una prueba controlada para clasificar modelos: cambian cuenta, historial, memoria y fuentes. No tienes que repetirla para obtener los 20 puntos.
 
 ## 9. Descanso
 
-19:15–19:25 · 10 minutos
+Tenemos diez minutos de descanso. Al regresar retomamos las fuentes y el caso del comité en NotebookLM.
 
-Pregunta: ¿Qué podría aportar una imagen?
+## 10. De las fuentes a la propuesta
 
-### Discurso
+En «Qué hago aquí»: Abre la guía. Empieza con las dos fuentes iniciales y conserva la primera respuesta.
 
-En «Qué hago aquí»: Volvemos a las 19:25, horario del curso. Deja abierto el chat con fuentes; lo retomaremos con una imagen.
+El docente mostró cómo investigar y reunir fuentes sobre Juan José y Polisplexity. Ahora la actividad propone una posible reunión: necesitamos una oportunidad concreta, evidencia y preguntas. Antes de generar un producto, verifica que cada fuente se importó y que realmente sustenta las afirmaciones. La tabla documental te permite contrastar estados y evitar confundir una propuesta con un proyecto entregado.
 
-Tenemos diez minutos de descanso. Regresamos a las siete veinticinco. Conserven las respuestas. Después incorporaremos una fuente visual para revisar la recomendación que acabamos de preparar.
+## 11. Cooperar para proponer mejor
 
-### Cómo conducirla
+En «Qué hago aquí»: Sigue los pasos 1 a 4 de la actividad; registra las fuentes y las contribuciones.
 
-Descanso completo de 19:15 a 19:25. No añadir una tarea durante la pausa.
+Cada persona construye su propio cuaderno, amplía las fuentes y repite el mismo encargo. Compara dos cambios y comprueba un dato de una tabla, gráfico o imagen. Comparte con dos compañeros: aporta una fuente y una objeción útil a cada uno. Puedes adoptar lo que otro encontró si reconoces el aporte. El objetivo es mejorar el razonamiento y conservar una decisión propia.
 
-## 10. Una imagen puede cambiar la pregunta
+## 12. Una entrega, veinte puntos
 
-19:25–19:40 · 15 minutos
+En «Qué hago aquí»: Revisa los pasos 5 y 6 y entrega en Moodle con la plantilla nueva.
 
-Pregunta: ¿Qué cambia al conocer cómo se distribuye la cola?
-
-### Discurso
-
-En «Qué hago aquí»: Mira V1 y escucha la demostración. Primero comprobamos lo que dice la imagen; después revisamos si cambia la recomendación.
-
-Antes de volver a Gemini, abran conmigo la imagen V1 de la mesa de trabajo. Tienen diez segundos para observarla: si tuvieran que intervenir en una parte del proceso, ¿dónde empezarían? Todavía no consulten al modelo. Escuchemos dos respuestas y el dato que cada persona utilizó.
-
-El reporte escrito mostraba cuántas solicitudes quedaron abiertas. La imagen añade cómo se distribuyen en ese corte. Multimodalidad significa trabajar con distintos tipos de información; aquí relacionaremos texto e imagen. OCR reconoce caracteres y un modelo multimodal puede relacionar información visual con el encargo.
-
-Descargo V1, adjunto el PNG a la conversación con expediente y pego el prompt visual. No le escribiré los números que quiero que lea. Primero observaremos qué campos extrajo y después comprobaremos la suma y su relación con F1.
-
-Una distribución de estados puede orientar preguntas distintas: documentación, clasificación, revisión especializada o dependencia de un proveedor. No identifica por sí sola la causa de una demora. Quiero que vean qué alternativa gana fundamento, cuál necesita más información y qué parte del informe sigue siendo útil.
-
-Miren el antes y el después. El producto no tiene que cambiar por completo; una pregunta mejor formulada ya puede mejorar la reunión. En su práctica conservarán una evidencia concreta del campo visual y del efecto que tuvo en su recomendación.
-
-Una cita automática tampoco garantiza que la fuente sostenga la frase. En nuestra prueba, el modelo citó la imagen junto a datos históricos que venían de F1. Comprobaremos el dato y el documento: V1 describe el cierre de una semana, mientras F1 contiene la serie. Si una hipótesis sobre falta de personal aparece como certeza, la devolveremos a una pregunta por investigar.
-
-Volvamos a lo que dijeron al mirar la imagen. ¿Cambió la prioridad, apareció una duda o sólo se confirmó lo que pensaban? Cualquiera de las tres cosas puede ser un resultado útil. El momento importante es poder explicar qué dato cambió su juicio. Ahora ya pueden repetir el recorrido desde su propia función.
-
-### Cómo conducirla
-
-0–2 min: abrir V1, dar diez segundos de observación y escuchar dos lecturas con su dato.
-
-2–4 min: explicar multimodalidad y distinguir leer campos de inferir causas.
-
-4–9 min: adjuntar V1 y ejecutar lectura; comprobar 88 = 36 + 28 + 16 + 8 antes de revisar la recomendación.
-
-9–13 min: ejecutar revisión del informe, contrastar fuentes y corregir atribuciones.
-
-13–15 min: volver a las respuestas iniciales y explicar qué cambió; dar paso a la práctica.
-
- Primero adjunta V1 y pide una lectura simple. Si la carga falla, vuelve a adjuntarla en ese mismo mensaje. Sólo después de verificar los números solicita la revisión del informe. Si la herramienta sigue sin verla, usa la transcripción explícita como contingencia y registra que no se completó la prueba multimodal.
-
-### Referencias
-
-- [Radford et al. (2021) · CLIP](https://arxiv.org/abs/2103.00020): Antecedente de representaciones que relacionan imágenes y lenguaje.
-
-- [Google · Subir y analizar archivos en Gemini](https://support.google.com/gemini/answer/14903178?hl=es): Carga de documentos e imágenes; disponibilidad y límites según cuenta.
-
-## 11. Un expediente, distintas decisiones
-
-19:40–20:10 · 30 minutos
-
-Pregunta: ¿Qué necesita tu función para llevar una propuesta al comité?
-
-### Discurso
-
-En «Qué hago aquí»: Ahora te toca. Elige tu perspectiva y prepara tu informe con la plantilla A. Si ya hiciste la demostración con esa misma perspectiva y modelo, usa tus respuestas guardadas.
-
-Ahora trabajan ustedes. Elijan una perspectiva en la mesa de trabajo: dirección, operaciones, finanzas y control, o tecnología y conocimiento. Dentro de esta última pueden enfocar documentación, formación, datos o seguridad. Son formas de mirar el mismo expediente; pueden elegir por interés, sin quedar asignados por su cargo.
-
-El botón sin fuentes ya incluye el encargo de esa perspectiva. Péguenlo en una conversación nueva. Guarden la salida. En otra conversación con el mismo modelo, peguen el botón con expediente. Comparen qué cambió. Después adjunten V1 a esa segunda conversación y utilicen el prompt visual.
-
-El producto es un informe de una página para una decisión propia de su función. Anoten una capacidad que ayudó, un fragmento que mejoró con fuentes y un campo comprobado de la imagen. Si trabajan juntos, cada persona debe explicar su propia conclusión.
-
-Quienes terminen antes pueden probar qué ocurre al cambiar una condición o pedir una salida estructurada, sin mezclar esa extensión con la comparación principal. Yo voy a acompañar dudas sobre las fuentes y la interpretación; no buscamos una respuesta idéntica a la del profesor.
-
-### Cómo conducirla
-
-0–3 min: elegir perspectiva y ubicar los tres botones.
-
-3–10 min: ejecutar sin y con fuentes en chats separados; conservar ambas respuestas.
-
-10–18 min: adjuntar V1, comprobar un campo y revisar informe.
-
-18–25 min: decidir qué aceptar y qué falta investigar.
-
-25–30 min: compartir un hallazgo breve y completar evidencia individual.
-
-Profundización opcional: pedir la salida en una tabla de hallazgo/fuente/hipótesis/acción, o modificar una entrada en una tercera prueba y documentar qué cambió. No suma puntos por complejidad.
-
-## 12. Tu decisión tiene que poder explicarse
-
-20:10–20:25 · 15 minutos
-
-Pregunta: ¿Otra persona puede reconstruir tu razonamiento?
-
-### Discurso
-
-En «Qué hago aquí»: Abre tu informe y su bitácora. Comprueba que explican qué cambió con las fuentes, qué aportó la imagen y qué verificaste tú.
-
-Vamos a organizar lo que ya hicieron. Entrega A conserva veinte puntos y cuatro criterios: relacionar necesidad con capacidad; comparar las respuestas; integrar fuentes; y comprobar el resultado y sus límites.
-
-Registren cinco cosas: perspectiva y decisión buscada; encargo, modelo y condiciones; comparación sin y con fuentes; campo visual y su efecto; decisión propia y siguiente paso. Pueden acompañar el informe de una página con una bitácora breve y fragmentos de las salidas. No vuelvan a producir el trabajo desde cero.
-
-Una conclusión distinta de la mía puede estar mejor sustentada. Lo que necesitamos ver es cómo llegaron a ella. Revisen especialmente si una causa está demostrada o es una hipótesis, y si un recurso que proponen tiene un costo conocido o pendiente. Escucharemos dos propuestas para comparar qué información necesita cada función.
-
-### Cómo conducirla
-
-0–5 min: completar los cinco campos con evidencia recogida.
-
-5–10 min: revisar los cuatro criterios de A, cinco puntos cada uno.
-
-10–15 min: escuchar dos recomendaciones y una pregunta pendiente de cada una.
+Elige un producto: reporte, deck, infografía o video. Los cuatro comunican oportunidad, evidencia, propuesta, límites y siguiente paso. Entrega el enlace de tu cuaderno, el producto final y la nota breve con tus comprobaciones. Se mantienen cuatro criterios de cinco puntos. No se premia pagar una licencia ni ganar la competencia. Todos pueden obtener veinte con evidencia suficiente.
 
 ## 13. El mismo mapa, otra perspectiva
-
-20:25–20:30 · 5 minutos
-
-Pregunta: ¿Cómo convertimos una capacidad de IA en un asistente dentro de un proceso?
-
-### Discurso
 
 En «Qué hago aquí»: Vuelve al mapa y conecta lo que aprendimos con un proceso de trabajo. Ése es el puente hacia la siguiente clase. Conserva tu entrega A.
 
 ¿Se acuerdan de su maestría de inteligencia artificial, cortesía del Dr. Valdés? Volvamos al mismo mapa. Al principio lo miramos para descubrir capacidades y oportunidades de negocio. Ahora vamos a ver la IA desde otra perspectiva: cómo una capacidad llega a formar parte del trabajo de una organización.
 
-Hoy ustedes prepararon una decisión con un modelo ya entrenado. Le dieron contexto, incorporaron una imagen y comprobaron el resultado. ¿Qué parte de ese trabajo conservarían si tuvieran que repetirlo mañana? Escuchemos dos respuestas. Una puede ser organizar información, otra preparar un borrador o revisar si falta algo. Cada respuesta empieza a dibujar un proceso.
+Hoy observamos cómo cambia una respuesta con el contexto. La actividad A permite practicarlo individualmente: aportar fuentes, contrastar información y preparar una propuesta. ¿Qué parte de ese trabajo conservarían si tuvieran que repetirlo mañana? Escuchemos dos respuestas. Una puede ser organizar información, otra preparar un borrador o revisar si falta algo. Cada respuesta empieza a dibujar un proceso.
 
 Miren las aplicaciones del mapa. Detectar riesgo de abandono sirve cuando alguien sabe qué hacer con esa señal. Un pronóstico sirve cuando influye en una compra o una programación. Una recomendación sirve cuando llega a la persona correcta y podemos evaluar su efecto. Entre la capacidad técnica y el valor de negocio hacen falta datos, responsables, reglas de actuación y seguimiento. Ésa será nuestra siguiente perspectiva.
 
@@ -516,62 +150,6 @@ La barra lateral ahora organiza otro tipo de relaciones. Datos más contexto: qu
 
 En la próxima clase pasaremos de obtener un resultado a diseñar una forma de repetir trabajo con un asistente: qué recibe, qué instrucciones conserva, qué herramientas necesita, qué puede hacer por sí mismo y cuándo debe pedir revisión. Probaremos su comportamiento con ejemplos. Llamarlo agente no significa que lo entrenemos por refuerzo; muchas soluciones combinan modelos existentes, instrucciones y flujos definidos.
 
-Antes de cerrar: cuando agregamos el expediente, ¿aportamos contexto o demostramos entrenamiento? Y con la imagen, ¿qué dato pudimos observar y qué explicación seguía siendo una hipótesis? Recuperemos esas dos distinciones. Conserven su entrega y elijan un paso repetible de su trabajo. Hoy aprendimos a preparar una decisión; la próxima vez diseñaremos cómo apoyar ese paso de forma consistente. Ahora el mapa también les sirve para conversar con quienes van a construirlo.
+Antes de cerrar: cuando agregamos el expediente, ¿aportamos contexto o demostramos entrenamiento? Al contrastar fuentes, ¿qué dato podemos comprobar y qué explicación sigue siendo una hipótesis? Recuperemos esas dos distinciones. Conserven su entrega y elijan un paso repetible de su trabajo. Hoy aprendimos a preparar una decisión; la próxima vez diseñaremos cómo apoyar ese paso de forma consistente. Ahora el mapa también les sirve para conversar con quienes van a construirlo.
 
-### Cómo conducirla
-
-0–1 min: recuperar la frase de la maestría y mostrar el mismo mapa desde la perspectiva del proceso.
-
-1–2 min: escuchar dos partes del trabajo que el grupo querría repetir mañana.
-
-2–3 min: recorrer la barra «De la capacidad al proceso»: datos/contexto, modelo/herramientas, reglas/personas y pruebas/seguimiento.
-
-3–4 min: explicar el puente a asistentes, herramientas, límites y pruebas de la siguiente clase.
-
-4–5 min: comprobar contexto frente a entrenamiento y dato visual frente a hipótesis; pedir conservar la entrega.
-
-Reaparición deliberada de la lámina 3. No repetir la explicación completa: cerrar con otra pregunta. Si hay minutos disponibles, abrir una historia o caso de la reserva. Mantener el cierre dentro de las 20:30.
-
-Banco de negocios y ampliaciones: [NEGOCIOS_Y_RESERVA_ML.md](NEGOCIOS_Y_RESERVA_ML.md). En la web aparece desplegable bajo el discurso de esta lámina.
-
-### Referencias
-
-- [Stanford CRFM (2021) · On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258): Qué significa modelo fundacional y cómo se adapta a distintos usos.
-
-- [Radford et al. (2021) · CLIP](https://arxiv.org/abs/2103.00020): Antecedente de representaciones que relacionan imágenes y lenguaje.
-
-- [Orange · Exploración visual y modelos](https://orangedatamining.com/widget-catalog/): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [Scikit-learn · Guía de métodos](https://scikit-learn.org/stable/user_guide): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [PyTorch · Transfer learning para imágenes](https://docs.pytorch.org/tutorials/beginner/transfer_learning_tutorial.html): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [Netflix · Cómo funcionan las recomendaciones](https://help.netflix.com/en/node/100639): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [Stripe · Guía técnica de Radar](https://stripe.com/guides/primer-on-machine-learning-for-fraud-protection): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [Uber · Michelangelo](https://www.uber.com/us/en/blog/michelangelo-machine-learning-platform/): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [Amazon Science · Inspección visual](https://www.amazon.science/blog/making-automated-visual-inspection-systems-practical): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [DeepMind · Refrigeración de centros de datos, 2016](https://deepmind.google/blog/deepmind-ai-reduces-google-data-centre-cooling-bill-by-40/): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [DeepMind · AlphaStar, enero de 2019](https://deepmind.google/blog/alphastar-mastering-the-real-time-strategy-game-starcraft-ii/): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [DeepMind · AlphaStar, octubre de 2019](https://deepmind.google/blog/alphastar-grandmaster-level-in-starcraft-ii-using-multi-agent-reinforcement-learning/): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [Gymnasium · Entornos de aprendizaje por refuerzo](https://gymnasium.farama.org/): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [Stable-Baselines3 · Algoritmos de refuerzo](https://stable-baselines3.readthedocs.io/en/master/): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [NVIDIA Isaac Sim · Simulación robótica](https://developer.nvidia.com/isaac/sim): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [Google OR-Tools · Optimización](https://developers.google.com/optimization): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [McCarthy et al. · Propuesta de Dartmouth, 1955](https://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [Krizhevsky, Sutskever y Hinton · ImageNet, 2012](https://www.cs.toronto.edu/~hinton/absps/imagenet.pdf): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [Vaswani et al. · Attention Is All You Need, 2017](https://arxiv.org/abs/1706.03762): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
-
-- [DeepMind · AlphaGo](https://deepmind.google/research/alphago/): Referencia para los casos, técnicas o ampliaciones del mapa. Las oportunidades comerciales propuestas son ejemplos didácticos.
+Reserva del expositor: NEGOCIOS_Y_RESERVA_ML.md. Conserva las historias, casos y extensiones del mapa de IA.

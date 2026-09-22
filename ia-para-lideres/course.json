@@ -13,7 +13,7 @@
         "tipo": "APERTURA",
         "horario": "18:00–18:05",
         "question": "¿Qué necesitas saber antes de decidir?",
-        "narration": "En «Qué hago aquí»: Conoce el problema que vamos a resolver y qué haremos hoy. Aquí todavía no tienes que abrir Gemini ni entregar nada.\n\nImaginen que mañana tienen comité. Llegan más solicitudes y aumentan las quejas. Una persona pide contratar, otra propone automatizar y otra exige más datos. Ustedes deben preparar una decisión. Ésa será nuestra situación de trabajo.\n\nSoy Edgar Valdés. Hoy vamos a recorrer una historia: cómo llegamos a hablar con una máquina, qué podemos aprender de empresas que coordinan viajes, estancias y pagos, y cómo aterrizar eso en una decisión de nuestra organización. Verán una demostración completa en Gemini antes de hacer su práctica. Primero construiremos un informe con texto; después incorporaremos una imagen que permite mirar el problema de otra forma.\n\nAl terminar, cada persona tendrá un informe de una página desde su función y podrá explicar qué aportó la IA y qué decidió ella. En las siguientes clases convertiremos una parte del trabajo en un asistente y evaluaremos un piloto. Todo el expediente es ficticio. Para empezar, ¿qué información pedirían antes de recomendar contratar o automatizar? Escuchemos dos respuestas y conservémoslas para el cierre.",
+        "narration": "En «Qué hago aquí»: Escucha la bienvenida. La actividad vigente se abre desde el enlace Comité NotebookLM.\n\nSoy Edgar Valdés. Recorreremos la historia y las capacidades de la IA, ejemplos empresariales y la importancia del contexto. En la sesión mostré Claude, Gemini y ChatGPT usando preguntas sobre mi identidad y trabajo previo. Después trabajé con NotebookLM para investigar a Juan José y preparar una posible propuesta con Polisplexity.\n\nLa actividad individual retoma esa experiencia: reunir fuentes, contrastarlas, compartir con compañeros y producir una recomendación que podamos defender. No necesitamos que la máquina adivine; necesitamos saber qué información tiene, qué afirma y cómo lo comprobamos. La guía de la actividad A contiene los pasos y mantiene los veinte puntos.",
         "steps": [
           "0–2 min: bienvenida, situación del comité y resultado de las tres clases.",
           "2–4 min: escuchar dos necesidades de información; anotarlas sin abrir una actividad.",
@@ -26,7 +26,7 @@
         "image": "assets/c1-01.png",
         "runbook": {
           "title": "Escucha la bienvenida",
-          "text": "Conoce el problema que vamos a resolver y qué haremos hoy. Aquí todavía no tienes que abrir Gemini ni entregar nada.",
+          "text": "Escucha la bienvenida y conoce la actividad vigente: el comité en NotebookLM.",
           "actions": [
             {
               "kind": "listen",
@@ -35,9 +35,14 @@
             {
               "kind": "speech",
               "label": "Leer explicación"
+            },
+            {
+              "kind": "link",
+              "label": "Abrir actividad A · Comité NotebookLM",
+              "url": "comite/"
             }
           ],
-          "intro": "En «Qué hago aquí»: Conoce el problema que vamos a resolver y qué haremos hoy. Aquí todavía no tienes que abrir Gemini ni entregar nada."
+          "intro": "Escucha la bienvenida y conoce la actividad vigente: el comité en NotebookLM."
         }
       },
       {
@@ -98,7 +103,7 @@
               "label": "Leer explicación"
             }
           ],
-          "intro": "En «Qué hago aquí»: Sigue cómo pasamos de programar reglas a trabajar con modelos que aprenden de datos. Observa los hitos de la lámina."
+          "intro": "Sigue cómo pasamos de programar reglas a trabajar con modelos que aprenden de datos. Observa los hitos de la lámina."
         }
       },
       {
@@ -717,7 +722,7 @@
               "label": "Leer explicación"
             }
           ],
-          "intro": "En «Qué hago aquí»: Escucha qué hace cada familia de machine learning y cómo se conecta con un negocio. Recorre el gráfico con la explicación; no hace falta memorizarlo."
+          "intro": "Escucha qué hace cada familia de machine learning y cómo se conecta con un negocio. Recorre el gráfico con la explicación; no hace falta memorizarlo."
         }
       },
       {
@@ -727,7 +732,7 @@
         "tipo": "EXPLICACIÓN",
         "horario": "18:24–18:32",
         "question": "¿Qué estamos eligiendo: empresa, modelo o aplicación?",
-        "narration": "En «Qué hago aquí»: Distingue la empresa, el modelo y la aplicación. Ubica dónde está Gemini, la herramienta que usaremos después.\n\nSepararemos tres nombres que suelen mezclarse. OpenAI desarrolla modelos de la familia GPT y ofrece ChatGPT como aplicación. Google desarrolla Gemini, nombre que también utiliza su aplicación. Anthropic desarrolla Claude y utiliza ese nombre en sus productos. No hace falta memorizar versiones para comprender la distinción.\n\nEl modelo aporta capacidades; la aplicación ofrece una interfaz, archivos, herramientas y condiciones de acceso. Por eso dos productos que utilizan una familia similar pueden permitir trabajos diferentes. Una licencia de aplicación tampoco es automáticamente acceso a una API para integrar software.\n\nPara nuestro ejercicio usaremos Gemini. Revisaremos el nombre del modelo que muestra la cuenta y lo mantendremos en la comparación. Flash es la opción con la que estamos ensayando; si una cuenta muestra otra opción, hay que registrar cuál se usó y comparar bajo las mismas condiciones. No estamos haciendo un ranking entre proveedores.\n\nAntes de contratar una solución, las preguntas útiles son: qué tarea resuelve, qué información admite, cómo se comprueba la salida y qué acceso permite la organización. Veamos ahora por qué empresas distintas eligen usos distintos.",
+        "narration": "En «Qué hago aquí»: Distingue empresa, modelo y aplicación.\n\nOpenAI ofrece ChatGPT; Google desarrolla Gemini; Anthropic desarrolla Claude. Una aplicación añade herramientas, archivos e historial a las capacidades del modelo. Lo que recuerda una cuenta no demuestra superioridad general de un modelo.\n\nEn clase comparamos respuestas sobre el profesor con distinto contexto disponible. La actividad A utiliza NotebookLM para organizar y consultar fuentes; registra las opciones visibles de tu cuenta. Cargar documentos aporta contexto: no equivale a entrenar un modelo desde cero. Verifica que la fuente realmente se importó y que la cita respalda la respuesta.",
         "steps": [
           "0–3 min: explicar las tres columnas del mapa.",
           "3–5 min: pedir un ejemplo de aplicación conocida y ubicarlo.",
@@ -765,7 +770,7 @@
         "image": "assets/c1-03.png",
         "runbook": {
           "title": "Escucha quién es quién",
-          "text": "Distingue la empresa, el modelo y la aplicación. Ubica dónde está Gemini, la herramienta que usaremos después.",
+          "text": "Escucha quién desarrolla los modelos y cómo las aplicaciones aportan contexto. La actividad A se realiza en NotebookLM.",
           "actions": [
             {
               "kind": "listen",
@@ -776,7 +781,7 @@
               "label": "Leer explicación"
             }
           ],
-          "intro": "En «Qué hago aquí»: Distingue la empresa, el modelo y la aplicación. Ubica dónde está Gemini, la herramienta que usaremos después."
+          "intro": "Escucha quién desarrolla los modelos y cómo las aplicaciones aportan contexto. La actividad A se realiza en NotebookLM."
         }
       },
       {
@@ -786,7 +791,7 @@
         "tipo": "EXPLICACIÓN",
         "horario": "18:32–18:38",
         "question": "¿Qué trabajo de coordinación podríamos preparar mejor con IA?",
-        "narration": "En «Qué hago aquí»: Observa cómo las plataformas conectan personas, información y decisiones, y cómo se relaciona esto con los usos de IA que estamos viendo.\n\nMiren estos tres nombres: Uber, Airbnb y Visa. A primera vista hablamos de viajes, estancias y pagos. ¿Qué tienen en común? Les doy diez segundos. Escuchemos dos ideas antes de explicar la imagen.\n\nImaginen que llegan a una ciudad que no conocen: necesitan trasladarse, encontrar dónde quedarse y pagar. Detrás de esos actos cotidianos hay personas que deben encontrarse, información que debe circular y reglas que permiten coordinar el servicio. Esa coordinación es la idea común que quiero que observemos; cada empresa tiene un negocio y una tecnología diferentes.\n\nUber describe el emparejamiento entre pasajeros y conductores como una parte central de su plataforma. Importan la disponibilidad y las condiciones del viaje. Airbnb conecta anfitriones y huéspedes; disponibilidad, condiciones y mecanismos de confianza ayudan a que una estancia pueda acordarse. Visa opera una red de pagos que conecta a participantes como comercios e instituciones financieras. Una tarjeta visible es sólo una parte de lo que permite una transacción.\n\nEn mis charlas de transformación digital utilizaba esta pregunta para mirar más allá de la aplicación que vemos. Aquí nos sirve para preguntar algo muy concreto: ¿qué información y qué coordinación hacen posible el servicio de ustedes? No estamos diciendo que esos tres negocios sean modelos generativos, ni que todas sus funciones dependan de un chat.\n\nAhora añadamos una capacidad: una herramienta que puede preparar un resumen, clasificar una solicitud o redactar un borrador a partir de información disponible. Eso abre posibilidades para el trabajo entre esas conexiones. Es una analogía de negocio que vamos a probar en pequeño, no una promesa de que copiar una aplicación reproduce una plataforma.\n\nVeamos dos casos de IA que ya tenemos documentados en las referencias. BBVA describe usos de ChatGPT en trabajo interno, como preparar documentos y apoyar distintas funciones. Mercedes-Benz anunció capacidades conversacionales para navegación y puntos de interés con Gemini sobre Vertex AI. Uno nos acerca al trabajo del equipo; el otro, a una interacción con el cliente. El segundo caso no significa que el modelo conduzca el vehículo.\n\nEn ambos conviene mirar cuatro cosas: necesidad, información, resultado y responsable. Nexo, nuestro caso ficticio, empieza en algo más cercano: varias áreas tienen piezas de información y alguien necesita preparar una decisión. ¿En qué parte de su organización ocurre eso cada semana? Escuchemos dos ejemplos breves. Con esa pregunta pasamos del panorama global a nuestra región.",
+        "narration": "En «Qué hago aquí»: Observa cómo las plataformas conectan personas, información y decisiones, y cómo se relaciona esto con los usos de IA que estamos viendo.\n\nMiren estos tres nombres: Uber, Airbnb y Visa. A primera vista hablamos de viajes, estancias y pagos. ¿Qué tienen en común? Les doy diez segundos. Escuchemos dos ideas antes de explicar la imagen.\n\nImaginen que llegan a una ciudad que no conocen: necesitan trasladarse, encontrar dónde quedarse y pagar. Detrás de esos actos cotidianos hay personas que deben encontrarse, información que debe circular y reglas que permiten coordinar el servicio. Esa coordinación es la idea común que quiero que observemos; cada empresa tiene un negocio y una tecnología diferentes.\n\nUber describe el emparejamiento entre pasajeros y conductores como una parte central de su plataforma. Importan la disponibilidad y las condiciones del viaje. Airbnb conecta anfitriones y huéspedes; disponibilidad, condiciones y mecanismos de confianza ayudan a que una estancia pueda acordarse. Visa opera una red de pagos que conecta a participantes como comercios e instituciones financieras. Una tarjeta visible es sólo una parte de lo que permite una transacción.\n\nEn mis charlas de transformación digital utilizaba esta pregunta para mirar más allá de la aplicación que vemos. Aquí nos sirve para preguntar algo muy concreto: ¿qué información y qué coordinación hacen posible el servicio de ustedes? No estamos diciendo que esos tres negocios sean modelos generativos, ni que todas sus funciones dependan de un chat.\n\nAhora añadamos una capacidad: una herramienta que puede preparar un resumen, clasificar una solicitud o redactar un borrador a partir de información disponible. Eso abre posibilidades para el trabajo entre esas conexiones. Es una analogía de negocio que vamos a probar en pequeño, no una promesa de que copiar una aplicación reproduce una plataforma.\n\nVeamos dos casos de IA que ya tenemos documentados en las referencias. BBVA describe usos de ChatGPT en trabajo interno, como preparar documentos y apoyar distintas funciones. Mercedes-Benz anunció capacidades conversacionales para navegación y puntos de interés con Gemini sobre Vertex AI. Uno nos acerca al trabajo del equipo; el otro, a una interacción con el cliente. El segundo caso no significa que el modelo conduzca el vehículo.\n\nEn ambos conviene mirar cuatro cosas: necesidad, información, resultado y responsable. El comité de nuestra actividad empieza en algo cercano: varias áreas tienen piezas de información y alguien necesita preparar una decisión. ¿En qué parte de su organización ocurre eso cada semana? Escuchemos dos ejemplos breves. Con esa pregunta pasamos del panorama global a nuestra región.",
         "steps": [
           "0–1 min: observar las conexiones y escuchar una respuesta.",
           "1–3 min: explicar coordinación, información y reglas con Uber, Airbnb y Visa.",
@@ -842,7 +847,7 @@
               "label": "Leer explicación"
             }
           ],
-          "intro": "En «Qué hago aquí»: Observa cómo las plataformas conectan personas, información y decisiones, y cómo se relaciona esto con los usos de IA que estamos viendo."
+          "intro": "Observa cómo las plataformas conectan personas, información y decisiones, y cómo se relaciona esto con los usos de IA que estamos viendo."
         }
       },
       {
@@ -896,7 +901,7 @@
               "label": "Leer explicación"
             }
           ],
-          "intro": "En «Qué hago aquí»: Conoce los ejemplos de Banrural y TEC/CCSS. Fíjate en qué se implementó, qué se probó y qué resultados se pueden afirmar."
+          "intro": "Conoce los ejemplos de Banrural y TEC/CCSS. Fíjate en qué se implementó, qué se probó y qué resultados se pueden afirmar."
         }
       },
       {
@@ -906,7 +911,7 @@
         "tipo": "EXPLICACIÓN",
         "horario": "18:44–18:50",
         "question": "¿Qué cambia cuando aportamos los documentos correctos?",
-        "narration": "En «Qué hago aquí»: Primero escucha cómo utiliza el modelo el contexto. Después deja lista la herramienta para la demostración.\n\nEl esquema distingue entrenamiento e inferencia. Entrenar modifica parámetros aprendidos; usar el modelo para producir una respuesta es inferencia. Al aportar un reporte a una conversación damos contexto. Ese acto, por sí solo, no demuestra que hayamos reentrenado el modelo.\n\nLos modelos de lenguaje trabajan con tokens, unidades que pueden ser palabras, partes de palabras o signos. La atención calcula relaciones entre representaciones. Para nuestro trabajo interesa una consecuencia: el encargo y la información disponible influyen en lo que puede preparar la respuesta. Una solicitud de tono profesional no sustituye un dato que falta.\n\nAhora miren mi pantalla. Abro Gemini, verifico el modelo seleccionado y empiezo una conversación nueva. El primer botón de la mesa de trabajo copia un encargo completo sin documentos. El segundo repite exactamente ese encargo y agrega F1, F2 y el catálogo F3. Se pega en otra conversación con el mismo modelo. No necesitan reconstruir el prompt por partes.\n\nDespués del descanso descargaremos V1 y la adjuntaremos como imagen. Por ahora no cargamos el ZIP ni la imagen. Vamos a observar qué producto podemos preparar con la solicitud sola y qué mejora al incorporar el expediente.",
+        "narration": "En «Qué hago aquí»: Escucha cómo utiliza el modelo el contexto.\n\nEntrenar modifica parámetros aprendidos; usar un modelo para producir una respuesta es inferencia. Aportar un reporte da contexto. No demuestra por sí solo que estemos reentrenando el modelo.\n\nLos modelos de lenguaje trabajan con tokens, unidades que pueden ser palabras, partes de palabras o signos. La atención calcula relaciones entre representaciones. El encargo y la información disponible influyen en la respuesta; pedir tono profesional no sustituye un dato que falta.\n\nEn la demostración del docente observamos respuestas de Claude, Gemini y ChatGPT con diferente contexto. En la actividad A podremos examinar el efecto de ampliar las fuentes dentro de NotebookLM, conservando el mismo encargo. Comparar dos respuestas no prueba causalidad de manera aislada: también hay variación en la generación. Por eso debemos señalar qué cambios están realmente sustentados por las nuevas fuentes.",
         "steps": [
           "0–2 min: explicar entrenamiento, inferencia, tokens y contexto.",
           "2–4 min: mostrar chat nuevo y selector de modelo.",
@@ -943,127 +948,67 @@
         "extra": "",
         "image": "assets/c1-06.png",
         "runbook": {
-          "title": "Escucha y prepara Gemini",
-          "text": "Primero escucha cómo utiliza el modelo el contexto. Después deja lista la herramienta para la demostración.",
+          "title": "Escucha qué aporta el contexto",
+          "text": "Distingue entrenamiento, inferencia y contexto. La actividad A usará fuentes en NotebookLM.",
           "actions": [
             {
               "kind": "listen",
               "label": "Escuchar explicación"
             },
             {
-              "kind": "speech",
-              "label": "Leer explicación"
+              "kind": "link",
+              "label": "Abrir actividad A",
+              "url": "comite/"
             }
           ],
-          "items": [
-            {
-              "text": "Abre Gemini, entra con tu cuenta y crea un chat nuevo. Aún no envíes nada.",
-              "actions": [
-                {
-                  "kind": "link",
-                  "label": "Abrir Gemini",
-                  "url": "https://gemini.google.com/app"
-                }
-              ]
-            },
-            {
-              "text": "Identifica el modelo que aparece. Usa Flash si está disponible y conserva el mismo modelo durante la comparación.",
-              "actions": []
-            }
-          ],
-          "intro": "En «Qué hago aquí»: Primero escucha cómo utiliza el modelo el contexto. Después deja lista la herramienta para la demostración."
+          "items": [],
+          "intro": "Distingue entrenamiento, inferencia y contexto. La actividad A usará fuentes en NotebookLM."
         }
       },
       {
         "numero": 8,
-        "titulo": "Mañana hay comité",
+        "titulo": "El contexto cambia la respuesta",
         "minutes": 25,
-        "tipo": "DEMOSTRACIÓN",
+        "tipo": "Demostración del docente",
         "horario": "18:50–19:15",
-        "question": "¿Qué aporta el expediente a la recomendación inicial?",
-        "narration": "En «Qué hago aquí»: El expositor hará el mismo encargo sin documentos y con documentos. Escucha y compara: ¿qué cambia en la respuesta cuando la IA tiene fuentes?\n\nAhora ustedes son el comité. Yo voy a pedirle una recomendación a Gemini. Antes de verla, piensen: ¿qué tendría que mostrarles para que ustedes la aceptaran? No necesitan abrir nada todavía; primero observamos juntos.\n\nNexo recibe más solicitudes y escucha quejas por demoras. Una persona quiere contratar; otra quiere automatizar. Voy a copiar el encargo completo sin expediente y enviarlo en un chat nuevo. Hagan una predicción: ¿nos dará una recomendación, pedirá datos o hará ambas cosas?\n\nMiremos la respuesta que realmente produjo. ¿La llevarían así al comité? Levanten la mano si sí; ahora quienes pedirían más información. Escuchemos una razón de cada lado. Si la respuesta es prudente y pregunta por los datos, reconozcámoslo: detectar lo que falta también es útil. Si propone acciones, elijamos una frase y preguntemos qué la sostiene. No necesitamos que el modelo falle para aprender.\n\nAhora viene la comparación. Abriré otra conversación con el mismo modelo y pegaré el mismo encargo con F1, F2 y F3. El botón ya incluye los documentos. Lo que cambiamos es el contexto disponible; todavía no hemos demostrado ningún reentrenamiento. Mientras responde, observen conmigo las entradas, los cierres y las solicitudes que siguen abiertas. Una solicitud cerrada puede haber llegado en una semana anterior.\n\nBusquemos el momento en que la respuesta deja de ser una recomendación general y empieza a hablar de este expediente. ¿Qué frase mejoró gracias a una fuente? ¿Qué sigue siendo sólo una hipótesis? Comparemos un hallazgo, una hipótesis y una alternativa. El objetivo es preparar una conversación de dirección con mejor fundamento.\n\nVamos a comprobar un dato con su fuente y una operación con calculadora. Si afirma que una medida no cuesta nada, preguntaremos dónde está ese costo documentado. Si la información no permite elegir una causa, dejaremos una pregunta pendiente. Una redacción elegante puede ayudar a comunicar; la evidencia es lo que permite defender lo que estamos diciendo.\n\nPidamos una mejora breve del informe y conservemos las dos versiones. Ustedes han visto síntesis, comparación y redacción, pero también revisión humana. Antes del descanso, elijan una conclusión provisional. Al regresar aparecerá una fuente visual adicional: veremos si fortalece su recomendación o les obliga a cambiar la pregunta.",
+        "question": "Observa y distingue qué información tenía cada asistente.",
+        "narration": "En «Qué hago aquí»: Observa y distingue qué información tenía cada asistente.\n\nEl docente mostró Claude, Gemini y ChatGPT preguntando por su nombre y lo que había trabajado con cada asistente. Observa cómo cambia la respuesta según el contexto disponible. No es una prueba controlada para clasificar modelos: cambian cuenta, historial, memoria y fuentes. No tienes que repetirla para obtener los 20 puntos.",
         "steps": [
-          "0–3 min: asignar al grupo el papel de comité y escuchar una predicción; el docente controla Gemini.",
-          "3–7 min: ejecutar sin expediente; votación a mano alzada y dos razones. Una respuesta prudente también cuenta.",
-          "7–13 min: abrir otro chat con el mismo modelo y ejecutar con expediente; leer las fuentes durante la generación.",
-          "13–20 min: comparar hallazgo, hipótesis y alternativa; comprobar un dato y un cálculo.",
-          "20–23 min: pedir una mejora y conservar ambas versiones.",
-          "23–25 min: fijar una conclusión provisional y anunciar la revelación visual tras el descanso."
+          "Observa y distingue qué información tenía cada asistente."
         ],
-        "sources": [],
-        "work": [
-          "sin",
-          "con",
-          "revision-clase1"
+        "sources": [
+          {
+            "title": "Juan José Gutiérrez Mayorga · Biografía oficial",
+            "url": "https://juanjosegutierrez.com/biografia/",
+            "focus": "Identidad, trayectoria y ámbito de CMI Alimentos. Verifica la fecha de cada dato; no mezcles CMI Alimentos con CMI Capital."
+          },
+          {
+            "title": "Polisplexity · Proyectos y estado público",
+            "url": "https://polisplexity.tech/",
+            "focus": "Distingue entregado, propuesta presentada y exploración. Una descripción del proveedor no demuestra impacto independiente."
+          },
+          {
+            "title": "CMI · Canales digitales (24 julio 2024)",
+            "url": "https://somoscmi.com/es/blog/cmi-impulsa-la-transformacion-digital-para-mejorar-el-servicio-al-cliente/",
+            "focus": "Para ampliar: identifica iniciativas ya anunciadas. Digitalización no prueba por sí sola uso de IA."
+          }
         ],
-        "materials": [
-          "CASO_NEXO.md",
-          "PLANTILLA_A.md"
-        ],
-        "extra": "Si no hay acceso, usar la respuesta docente de referencia identificada como ejemplo, o analizar la demostración observada. No atribuirla a una ejecución real del alumno. No hace falta que la primera respuesta falle.",
-        "image": "assets/c1-07.png",
+        "work": [],
+        "materials": [],
+        "extra": "La actividad vigente está en la guía Comité NotebookLM.",
+        "image": "assets/comite-lamina-8.svg",
         "runbook": {
-          "title": "Observa la demostración",
-          "text": "El expositor hará el mismo encargo sin documentos y con documentos. Escucha y compara: ¿qué cambia en la respuesta cuando la IA tiene fuentes?",
+          "title": "El contexto cambia la respuesta",
+          "text": "Observa y distingue qué información tenía cada asistente.",
           "actions": [
             {
-              "kind": "listen",
-              "label": "Escuchar explicación"
-            },
-            {
-              "kind": "speech",
-              "label": "Leer explicación"
+              "kind": "link",
+              "label": "Abrir actividad A · Comité NotebookLM",
+              "url": "comite/"
             }
           ],
-          "moreTitle": "Ver cómo hacerlo en Gemini",
-          "moreIntro": "Para exponerlo o reproducirlo por tu cuenta:",
-          "items": [
-            {
-              "text": "Abre un chat nuevo. Copia el encargo sin fuentes, envíalo y guarda la respuesta en tu documento.",
-              "actions": [
-                {
-                  "kind": "link",
-                  "label": "Abrir Gemini",
-                  "url": "https://gemini.google.com/app"
-                },
-                {
-                  "kind": "prompt",
-                  "label": "Copiar encargo sin fuentes",
-                  "key": "sin-direccion"
-                }
-              ]
-            },
-            {
-              "text": "Abre otro chat con el mismo modelo. Copia el encargo con fuentes: ya incluye F1, F2 y F3. Envía y guarda la segunda respuesta.",
-              "actions": [
-                {
-                  "kind": "prompt",
-                  "label": "Copiar encargo con fuentes",
-                  "key": "con-direccion"
-                },
-                {
-                  "kind": "file",
-                  "label": "Ver expediente",
-                  "file": "CASO_NEXO.md"
-                }
-              ]
-            },
-            {
-              "text": "Compara las respuestas. Comprueba en F1 que 40 + 552 − 504 = 88 y distingue lo que sabemos de lo que sólo suponemos.",
-              "actions": []
-            },
-            {
-              "text": "En el chat con fuentes, pide una revisión. Conserva ambas versiones y deja ese chat abierto para después del descanso.",
-              "actions": [
-                {
-                  "kind": "prompt",
-                  "label": "Copiar instrucción de revisión",
-                  "key": "revision-clase1"
-                }
-              ]
-            }
-          ],
-          "intro": "En «Qué hago aquí»: El expositor hará el mismo encargo sin documentos y con documentos. Escucha y compara: ¿qué cambia en la respuesta cuando la IA tiene fuentes?"
+          "items": [],
+          "intro": "Observa y distingue qué información tenía cada asistente."
         }
       },
       {
@@ -1073,7 +1018,7 @@
         "tipo": "DESCANSO",
         "horario": "19:15–19:25",
         "question": "¿Qué podría aportar una imagen?",
-        "narration": "En «Qué hago aquí»: Volvemos a las 19:25, horario del curso. Deja abierto el chat con fuentes; lo retomaremos con una imagen.\n\nTenemos diez minutos de descanso. Regresamos a las siete veinticinco. Conserven las respuestas. Después incorporaremos una fuente visual para revisar la recomendación que acabamos de preparar.",
+        "narration": "Tenemos diez minutos de descanso. Al regresar retomamos las fuentes y el caso del comité en NotebookLM.",
         "steps": [
           "Descanso completo de 19:15 a 19:25. No añadir una tarea durante la pausa."
         ],
@@ -1084,270 +1029,147 @@
         "image": "assets/c1-08.png",
         "runbook": {
           "title": "Descansa diez minutos",
-          "text": "Volvemos a las 19:25, horario del curso. Deja abierto el chat con fuentes; lo retomaremos con una imagen.",
+          "text": "Descansa diez minutos. Después retomamos las fuentes y la propuesta del comité.",
           "actions": [],
-          "intro": "En «Qué hago aquí»: Volvemos a las 19:25, horario del curso. Deja abierto el chat con fuentes; lo retomaremos con una imagen."
+          "intro": "Descansa diez minutos. Después retomamos las fuentes y la propuesta del comité."
         }
       },
       {
         "numero": 10,
-        "titulo": "Una imagen puede cambiar la pregunta",
+        "titulo": "De las fuentes a la propuesta",
         "minutes": 15,
-        "tipo": "DEMOSTRACIÓN",
+        "tipo": "NotebookLM",
         "horario": "19:25–19:40",
-        "question": "¿Qué cambia al conocer cómo se distribuye la cola?",
-        "narration": "En «Qué hago aquí»: Mira V1 y escucha la demostración. Primero comprobamos lo que dice la imagen; después revisamos si cambia la recomendación.\n\nAntes de volver a Gemini, abran conmigo la imagen V1 de la mesa de trabajo. Tienen diez segundos para observarla: si tuvieran que intervenir en una parte del proceso, ¿dónde empezarían? Todavía no consulten al modelo. Escuchemos dos respuestas y el dato que cada persona utilizó.\n\nEl reporte escrito mostraba cuántas solicitudes quedaron abiertas. La imagen añade cómo se distribuyen en ese corte. Multimodalidad significa trabajar con distintos tipos de información; aquí relacionaremos texto e imagen. OCR reconoce caracteres y un modelo multimodal puede relacionar información visual con el encargo.\n\nDescargo V1, adjunto el PNG a la conversación con expediente y pego el prompt visual. No le escribiré los números que quiero que lea. Primero observaremos qué campos extrajo y después comprobaremos la suma y su relación con F1.\n\nUna distribución de estados puede orientar preguntas distintas: documentación, clasificación, revisión especializada o dependencia de un proveedor. No identifica por sí sola la causa de una demora. Quiero que vean qué alternativa gana fundamento, cuál necesita más información y qué parte del informe sigue siendo útil.\n\nMiren el antes y el después. El producto no tiene que cambiar por completo; una pregunta mejor formulada ya puede mejorar la reunión. En su práctica conservarán una evidencia concreta del campo visual y del efecto que tuvo en su recomendación.\n\nUna cita automática tampoco garantiza que la fuente sostenga la frase. En nuestra prueba, el modelo citó la imagen junto a datos históricos que venían de F1. Comprobaremos el dato y el documento: V1 describe el cierre de una semana, mientras F1 contiene la serie. Si una hipótesis sobre falta de personal aparece como certeza, la devolveremos a una pregunta por investigar.\n\nVolvamos a lo que dijeron al mirar la imagen. ¿Cambió la prioridad, apareció una duda o sólo se confirmó lo que pensaban? Cualquiera de las tres cosas puede ser un resultado útil. El momento importante es poder explicar qué dato cambió su juicio. Ahora ya pueden repetir el recorrido desde su propia función.",
+        "question": "Abre la guía. Empieza con las dos fuentes iniciales y conserva la primera respuesta.",
+        "narration": "En «Qué hago aquí»: Abre la guía. Empieza con las dos fuentes iniciales y conserva la primera respuesta.\n\nEl docente mostró cómo investigar y reunir fuentes sobre Juan José y Polisplexity. Ahora la actividad propone una posible reunión: necesitamos una oportunidad concreta, evidencia y preguntas. Antes de generar un producto, verifica que cada fuente se importó y que realmente sustenta las afirmaciones. La tabla documental te permite contrastar estados y evitar confundir una propuesta con un proyecto entregado.",
         "steps": [
-          "0–2 min: abrir V1, dar diez segundos de observación y escuchar dos lecturas con su dato.",
-          "2–4 min: explicar multimodalidad y distinguir leer campos de inferir causas.",
-          "4–9 min: adjuntar V1 y ejecutar lectura; comprobar 88 = 36 + 28 + 16 + 8 antes de revisar la recomendación.",
-          "9–13 min: ejecutar revisión del informe, contrastar fuentes y corregir atribuciones.",
-          "13–15 min: volver a las respuestas iniciales y explicar qué cambió; dar paso a la práctica."
+          "Abre la guía. Empieza con las dos fuentes iniciales y conserva la primera respuesta."
         ],
         "sources": [
           {
-            "id": "clip",
-            "title": "Radford et al. (2021) · CLIP",
-            "url": "https://arxiv.org/abs/2103.00020",
-            "focus": "Antecedente de representaciones que relacionan imágenes y lenguaje."
+            "title": "Juan José Gutiérrez Mayorga · Biografía oficial",
+            "url": "https://juanjosegutierrez.com/biografia/",
+            "focus": "Identidad, trayectoria y ámbito de CMI Alimentos. Verifica la fecha de cada dato; no mezcles CMI Alimentos con CMI Capital."
           },
           {
-            "id": "gemini_files",
-            "title": "Google · Subir y analizar archivos en Gemini",
-            "url": "https://support.google.com/gemini/answer/14903178?hl=es",
-            "focus": "Carga de documentos e imágenes; disponibilidad y límites según cuenta."
+            "title": "Polisplexity · Proyectos y estado público",
+            "url": "https://polisplexity.tech/",
+            "focus": "Distingue entregado, propuesta presentada y exploración. Una descripción del proveedor no demuestra impacto independiente."
+          },
+          {
+            "title": "CMI · Canales digitales (24 julio 2024)",
+            "url": "https://somoscmi.com/es/blog/cmi-impulsa-la-transformacion-digital-para-mejorar-el-servicio-al-cliente/",
+            "focus": "Para ampliar: identifica iniciativas ya anunciadas. Digitalización no prueba por sí sola uso de IA."
           }
         ],
-        "work": [
-          "lectura",
-          "visual"
-        ],
-        "materials": [
-          "NEXO_V1.png",
-          "PLANTILLA_A.md"
-        ],
-        "extra": " Primero adjunta V1 y pide una lectura simple. Si la carga falla, vuelve a adjuntarla en ese mismo mensaje. Sólo después de verificar los números solicita la revisión del informe. Si la herramienta sigue sin verla, usa la transcripción explícita como contingencia y registra que no se completó la prueba multimodal.",
-        "image": "assets/c1-09.png",
+        "work": [],
+        "materials": [],
+        "extra": "La actividad vigente está en la guía Comité NotebookLM.",
+        "image": "assets/comite-lamina-10.svg",
         "runbook": {
-          "title": "Observa cómo leemos una imagen",
-          "text": "Mira V1 y escucha la demostración. Primero comprobamos lo que dice la imagen; después revisamos si cambia la recomendación.",
+          "title": "De las fuentes a la propuesta",
+          "text": "Abre la guía. Empieza con las dos fuentes iniciales y conserva la primera respuesta.",
           "actions": [
             {
-              "kind": "image",
-              "label": "Ver imagen V1",
-              "file": "NEXO_V1.png"
-            },
-            {
-              "kind": "listen",
-              "label": "Escuchar explicación"
+              "kind": "link",
+              "label": "Abrir actividad A · Comité NotebookLM",
+              "url": "comite/"
             }
           ],
-          "moreTitle": "Ver cómo hacerlo en Gemini",
-          "moreIntro": "Usa el mismo chat que ya contiene F1, F2 y F3:",
-          "items": [
-            {
-              "text": "Descarga V1 y adjúntala en Gemini. Espera a ver la miniatura, pega el encargo de lectura y envíalo.",
-              "actions": [
-                {
-                  "kind": "download",
-                  "label": "Descargar V1",
-                  "file": "NEXO_V1.png"
-                },
-                {
-                  "kind": "link",
-                  "label": "Abrir Gemini",
-                  "url": "https://gemini.google.com/app"
-                },
-                {
-                  "kind": "prompt",
-                  "label": "Copiar encargo de lectura",
-                  "key": "lectura"
-                }
-              ]
-            },
-            {
-              "text": "Comprueba los números con la imagen: 36 + 28 + 16 + 8 = 88. Son solicitudes abiertas; eso no demuestra por sí solo la causa de la demora.",
-              "actions": []
-            },
-            {
-              "text": "Vuelve a adjuntar V1 en ese chat y envía el encargo de revisión. Guarda el informe y señala qué cambió.",
-              "actions": [
-                {
-                  "kind": "prompt",
-                  "label": "Copiar encargo de revisión",
-                  "key": "visual"
-                }
-              ]
-            }
-          ],
-          "intro": "En «Qué hago aquí»: Mira V1 y escucha la demostración. Primero comprobamos lo que dice la imagen; después revisamos si cambia la recomendación."
+          "items": [],
+          "intro": "Abre la guía. Empieza con las dos fuentes iniciales y conserva la primera respuesta."
         }
       },
       {
         "numero": 11,
-        "titulo": "Un expediente, distintas decisiones",
+        "titulo": "Cooperar para proponer mejor",
         "minutes": 30,
-        "tipo": "PRÁCTICA",
+        "tipo": "Actividad A",
         "horario": "19:40–20:10",
-        "question": "¿Qué necesita tu función para llevar una propuesta al comité?",
-        "narration": "En «Qué hago aquí»: Ahora te toca. Elige tu perspectiva y prepara tu informe con la plantilla A. Si ya hiciste la demostración con esa misma perspectiva y modelo, usa tus respuestas guardadas.\n\nAhora trabajan ustedes. Elijan una perspectiva en la mesa de trabajo: dirección, operaciones, finanzas y control, o tecnología y conocimiento. Dentro de esta última pueden enfocar documentación, formación, datos o seguridad. Son formas de mirar el mismo expediente; pueden elegir por interés, sin quedar asignados por su cargo.\n\nEl botón sin fuentes ya incluye el encargo de esa perspectiva. Péguenlo en una conversación nueva. Guarden la salida. En otra conversación con el mismo modelo, peguen el botón con expediente. Comparen qué cambió. Después adjunten V1 a esa segunda conversación y utilicen el prompt visual.\n\nEl producto es un informe de una página para una decisión propia de su función. Anoten una capacidad que ayudó, un fragmento que mejoró con fuentes y un campo comprobado de la imagen. Si trabajan juntos, cada persona debe explicar su propia conclusión.\n\nQuienes terminen antes pueden probar qué ocurre al cambiar una condición o pedir una salida estructurada, sin mezclar esa extensión con la comparación principal. Yo voy a acompañar dudas sobre las fuentes y la interpretación; no buscamos una respuesta idéntica a la del profesor.",
+        "question": "Sigue los pasos 1 a 4 de la actividad; registra las fuentes y las contribuciones.",
+        "narration": "En «Qué hago aquí»: Sigue los pasos 1 a 4 de la actividad; registra las fuentes y las contribuciones.\n\nCada persona construye su propio cuaderno, amplía las fuentes y repite el mismo encargo. Compara dos cambios y comprueba un dato de una tabla, gráfico o imagen. Comparte con dos compañeros: aporta una fuente y una objeción útil a cada uno. Puedes adoptar lo que otro encontró si reconoces el aporte. El objetivo es mejorar el razonamiento y conservar una decisión propia.",
         "steps": [
-          "0–3 min: elegir perspectiva y ubicar los tres botones.",
-          "3–10 min: ejecutar sin y con fuentes en chats separados; conservar ambas respuestas.",
-          "10–18 min: adjuntar V1, comprobar un campo y revisar informe.",
-          "18–25 min: decidir qué aceptar y qué falta investigar.",
-          "25–30 min: compartir un hallazgo breve y completar evidencia individual."
+          "Sigue los pasos 1 a 4 de la actividad; registra las fuentes y las contribuciones."
         ],
-        "sources": [],
-        "work": [
-          "sin",
-          "con",
-          "lectura",
-          "visual"
+        "sources": [
+          {
+            "title": "Juan José Gutiérrez Mayorga · Biografía oficial",
+            "url": "https://juanjosegutierrez.com/biografia/",
+            "focus": "Identidad, trayectoria y ámbito de CMI Alimentos. Verifica la fecha de cada dato; no mezcles CMI Alimentos con CMI Capital."
+          },
+          {
+            "title": "Polisplexity · Proyectos y estado público",
+            "url": "https://polisplexity.tech/",
+            "focus": "Distingue entregado, propuesta presentada y exploración. Una descripción del proveedor no demuestra impacto independiente."
+          },
+          {
+            "title": "CMI · Canales digitales (24 julio 2024)",
+            "url": "https://somoscmi.com/es/blog/cmi-impulsa-la-transformacion-digital-para-mejorar-el-servicio-al-cliente/",
+            "focus": "Para ampliar: identifica iniciativas ya anunciadas. Digitalización no prueba por sí sola uso de IA."
+          }
         ],
-        "materials": [
-          "CASO_NEXO.md",
-          "NEXO_V1.png",
-          "PLANTILLA_A.md"
-        ],
-        "extra": "Profundización opcional: pedir la salida en una tabla de hallazgo/fuente/hipótesis/acción, o modificar una entrada en una tercera prueba y documentar qué cambió. No suma puntos por complejidad.",
-        "image": "assets/c1-10.png",
+        "work": [],
+        "materials": [],
+        "extra": "La actividad vigente está en la guía Comité NotebookLM.",
+        "image": "assets/comite-lamina-11.svg",
         "runbook": {
-          "title": "Practica en Gemini",
-          "text": "Ahora te toca. Elige tu perspectiva y prepara tu informe con la plantilla A. Si ya hiciste la demostración con esa misma perspectiva y modelo, usa tus respuestas guardadas.",
-          "actions": [],
-          "roleSelection": true,
-          "items": [
+          "title": "Cooperar para proponer mejor",
+          "text": "Sigue los pasos 1 a 4 de la actividad; registra las fuentes y las contribuciones.",
+          "actions": [
             {
-              "text": "Copia la plantilla en tu documento de trabajo. Si aún no tienes uno, créalo; usarás el mismo para toda la práctica.",
-              "actions": [
-                {
-                  "kind": "copyFile",
-                  "label": "Copiar plantilla A",
-                  "file": "PLANTILLA_A.md"
-                },
-                {
-                  "kind": "link",
-                  "label": "Crear documento",
-                  "url": "https://docs.google.com/document/create"
-                }
-              ]
-            },
-            {
-              "text": "En un chat nuevo, envía el encargo sin fuentes y guarda la respuesta.",
-              "actions": [
-                {
-                  "kind": "link",
-                  "label": "Abrir Gemini",
-                  "url": "https://gemini.google.com/app"
-                },
-                {
-                  "kind": "prompt",
-                  "label": "Copiar encargo sin fuentes",
-                  "key": "sin"
-                }
-              ]
-            },
-            {
-              "text": "En otro chat y con el mismo modelo, envía el encargo con fuentes. Guarda la respuesta y señala dos diferencias.",
-              "actions": [
-                {
-                  "kind": "prompt",
-                  "label": "Copiar encargo con fuentes",
-                  "key": "con"
-                },
-                {
-                  "kind": "file",
-                  "label": "Ver expediente",
-                  "file": "CASO_NEXO.md"
-                }
-              ]
-            },
-            {
-              "text": "En el chat con fuentes, adjunta V1 y envía el encargo de lectura. Comprueba sus cifras; después adjunta V1 otra vez y envía el de revisión.",
-              "actions": [
-                {
-                  "kind": "download",
-                  "label": "Descargar V1",
-                  "file": "NEXO_V1.png"
-                },
-                {
-                  "kind": "image",
-                  "label": "Ver imagen V1",
-                  "file": "NEXO_V1.png"
-                },
-                {
-                  "kind": "prompt",
-                  "label": "Copiar encargo de lectura",
-                  "key": "lectura"
-                },
-                {
-                  "kind": "prompt",
-                  "label": "Copiar encargo de revisión",
-                  "key": "visual"
-                }
-              ]
-            },
-            {
-              "text": "Completa el informe y la bitácora con tus conclusiones, un dato de V1 y un cálculo comprobado. Guarda tu documento.",
-              "actions": [
-                {
-                  "kind": "file",
-                  "label": "Ver plantilla A",
-                  "file": "PLANTILLA_A.md"
-                }
-              ]
+              "kind": "link",
+              "label": "Abrir actividad A · Comité NotebookLM",
+              "url": "comite/"
             }
           ],
-          "intro": "En «Qué hago aquí»: Ahora te toca. Elige tu perspectiva y prepara tu informe con la plantilla A. Si ya hiciste la demostración con esa misma perspectiva y modelo, usa tus respuestas guardadas."
+          "items": [],
+          "intro": "Sigue los pasos 1 a 4 de la actividad; registra las fuentes y las contribuciones."
         }
       },
       {
         "numero": 12,
-        "titulo": "Tu decisión tiene que poder explicarse",
+        "titulo": "Una entrega, veinte puntos",
         "minutes": 15,
-        "tipo": "ENTREGA",
+        "tipo": "Entrega individual",
         "horario": "20:10–20:25",
-        "question": "¿Otra persona puede reconstruir tu razonamiento?",
-        "narration": "En «Qué hago aquí»: Abre tu informe y su bitácora. Comprueba que explican qué cambió con las fuentes, qué aportó la imagen y qué verificaste tú.\n\nVamos a organizar lo que ya hicieron. Entrega A conserva veinte puntos y cuatro criterios: relacionar necesidad con capacidad; comparar las respuestas; integrar fuentes; y comprobar el resultado y sus límites.\n\nRegistren cinco cosas: perspectiva y decisión buscada; encargo, modelo y condiciones; comparación sin y con fuentes; campo visual y su efecto; decisión propia y siguiente paso. Pueden acompañar el informe de una página con una bitácora breve y fragmentos de las salidas. No vuelvan a producir el trabajo desde cero.\n\nUna conclusión distinta de la mía puede estar mejor sustentada. Lo que necesitamos ver es cómo llegaron a ella. Revisen especialmente si una causa está demostrada o es una hipótesis, y si un recurso que proponen tiene un costo conocido o pendiente. Escucharemos dos propuestas para comparar qué información necesita cada función.",
+        "question": "Revisa los pasos 5 y 6 y entrega en Moodle con la plantilla nueva.",
+        "narration": "En «Qué hago aquí»: Revisa los pasos 5 y 6 y entrega en Moodle con la plantilla nueva.\n\nElige un producto: reporte, deck, infografía o video. Los cuatro comunican oportunidad, evidencia, propuesta, límites y siguiente paso. Entrega el enlace de tu cuaderno, el producto final y la nota breve con tus comprobaciones. Se mantienen cuatro criterios de cinco puntos. No se premia pagar una licencia ni ganar la competencia. Todos pueden obtener veinte con evidencia suficiente.",
         "steps": [
-          "0–5 min: completar los cinco campos con evidencia recogida.",
-          "5–10 min: revisar los cuatro criterios de A, cinco puntos cada uno.",
-          "10–15 min: escuchar dos recomendaciones y una pregunta pendiente de cada una."
+          "Revisa los pasos 5 y 6 y entrega en Moodle con la plantilla nueva."
         ],
-        "sources": [],
+        "sources": [
+          {
+            "title": "Juan José Gutiérrez Mayorga · Biografía oficial",
+            "url": "https://juanjosegutierrez.com/biografia/",
+            "focus": "Identidad, trayectoria y ámbito de CMI Alimentos. Verifica la fecha de cada dato; no mezcles CMI Alimentos con CMI Capital."
+          },
+          {
+            "title": "Polisplexity · Proyectos y estado público",
+            "url": "https://polisplexity.tech/",
+            "focus": "Distingue entregado, propuesta presentada y exploración. Una descripción del proveedor no demuestra impacto independiente."
+          },
+          {
+            "title": "CMI · Canales digitales (24 julio 2024)",
+            "url": "https://somoscmi.com/es/blog/cmi-impulsa-la-transformacion-digital-para-mejorar-el-servicio-al-cliente/",
+            "focus": "Para ampliar: identifica iniciativas ya anunciadas. Digitalización no prueba por sí sola uso de IA."
+          }
+        ],
         "work": [],
-        "materials": [
-          "GUIA_1.md"
-        ],
-        "extra": "",
-        "image": "assets/c1-11.png",
+        "materials": [],
+        "extra": "La actividad vigente está en la guía Comité NotebookLM.",
+        "image": "assets/comite-lamina-12.svg",
         "runbook": {
-          "title": "Revisa y guarda tu entrega",
-          "text": "Abre tu informe y su bitácora. Comprueba que explican qué cambió con las fuentes, qué aportó la imagen y qué verificaste tú.",
+          "title": "Una entrega, veinte puntos",
+          "text": "Revisa los pasos 5 y 6 y entrega en Moodle con la plantilla nueva.",
           "actions": [
             {
-              "kind": "file",
-              "label": "Ver plantilla A",
-              "file": "PLANTILLA_A.md"
-            },
-            {
-              "kind": "file",
-              "label": "Ver criterios",
-              "file": "GUIA_1.md"
+              "kind": "link",
+              "label": "Abrir actividad A · Comité NotebookLM",
+              "url": "comite/"
             }
           ],
-          "items": [
-            {
-              "text": "Revisa los cuatro criterios: necesidad y capacidad, comparación, texto e imagen, comprobación y límites. Cada uno vale 5 puntos; total: 20.",
-              "actions": []
-            },
-            {
-              "text": "Corrige lo que falte y guarda el archivo con tu nombre y perspectiva. Si cursas en PBS, entrégalo por el canal y en la fecha del aula. Si estudias por tu cuenta, consérvalo.",
-              "actions": []
-            }
-          ],
-          "intro": "En «Qué hago aquí»: Abre tu informe y su bitácora. Comprueba que explican qué cambió con las fuentes, qué aportó la imagen y qué verificaste tú."
+          "items": [],
+          "intro": "Revisa los pasos 5 y 6 y entrega en Moodle con la plantilla nueva."
         }
       },
       {
@@ -1357,7 +1179,7 @@
         "tipo": "CIERRE",
         "horario": "20:25–20:30",
         "question": "¿Cómo convertimos una capacidad de IA en un asistente dentro de un proceso?",
-        "narration": "En «Qué hago aquí»: Vuelve al mapa y conecta lo que aprendimos con un proceso de trabajo. Ése es el puente hacia la siguiente clase. Conserva tu entrega A.\n\n¿Se acuerdan de su maestría de inteligencia artificial, cortesía del Dr. Valdés? Volvamos al mismo mapa. Al principio lo miramos para descubrir capacidades y oportunidades de negocio. Ahora vamos a ver la IA desde otra perspectiva: cómo una capacidad llega a formar parte del trabajo de una organización.\n\nHoy ustedes prepararon una decisión con un modelo ya entrenado. Le dieron contexto, incorporaron una imagen y comprobaron el resultado. ¿Qué parte de ese trabajo conservarían si tuvieran que repetirlo mañana? Escuchemos dos respuestas. Una puede ser organizar información, otra preparar un borrador o revisar si falta algo. Cada respuesta empieza a dibujar un proceso.\n\nMiren las aplicaciones del mapa. Detectar riesgo de abandono sirve cuando alguien sabe qué hacer con esa señal. Un pronóstico sirve cuando influye en una compra o una programación. Una recomendación sirve cuando llega a la persona correcta y podemos evaluar su efecto. Entre la capacidad técnica y el valor de negocio hacen falta datos, responsables, reglas de actuación y seguimiento. Ésa será nuestra siguiente perspectiva.\n\nLa barra lateral ahora organiza otro tipo de relaciones. Datos más contexto: qué necesita saber el sistema. Modelo más herramientas: qué puede preparar y, cuando exista una integración autorizada, qué puede ejecutar. Reglas más personas: qué decisiones necesitan revisión y quién responde por ellas. Pruebas más seguimiento: cómo comprobamos que funciona y detectamos si empieza a fallar. Estas capas se combinan con distintas capacidades del mapa; no corresponden una a una con los colores del aprendizaje.\n\nEn la próxima clase pasaremos de obtener un resultado a diseñar una forma de repetir trabajo con un asistente: qué recibe, qué instrucciones conserva, qué herramientas necesita, qué puede hacer por sí mismo y cuándo debe pedir revisión. Probaremos su comportamiento con ejemplos. Llamarlo agente no significa que lo entrenemos por refuerzo; muchas soluciones combinan modelos existentes, instrucciones y flujos definidos.\n\nAntes de cerrar: cuando agregamos el expediente, ¿aportamos contexto o demostramos entrenamiento? Y con la imagen, ¿qué dato pudimos observar y qué explicación seguía siendo una hipótesis? Recuperemos esas dos distinciones. Conserven su entrega y elijan un paso repetible de su trabajo. Hoy aprendimos a preparar una decisión; la próxima vez diseñaremos cómo apoyar ese paso de forma consistente. Ahora el mapa también les sirve para conversar con quienes van a construirlo.",
+        "narration": "En «Qué hago aquí»: Vuelve al mapa y conecta lo que aprendimos con un proceso de trabajo. Ése es el puente hacia la siguiente clase. Conserva tu entrega A.\n\n¿Se acuerdan de su maestría de inteligencia artificial, cortesía del Dr. Valdés? Volvamos al mismo mapa. Al principio lo miramos para descubrir capacidades y oportunidades de negocio. Ahora vamos a ver la IA desde otra perspectiva: cómo una capacidad llega a formar parte del trabajo de una organización.\n\nHoy observamos cómo cambia una respuesta con el contexto. La actividad A permite practicarlo individualmente: aportar fuentes, contrastar información y preparar una propuesta. ¿Qué parte de ese trabajo conservarían si tuvieran que repetirlo mañana? Escuchemos dos respuestas. Una puede ser organizar información, otra preparar un borrador o revisar si falta algo. Cada respuesta empieza a dibujar un proceso.\n\nMiren las aplicaciones del mapa. Detectar riesgo de abandono sirve cuando alguien sabe qué hacer con esa señal. Un pronóstico sirve cuando influye en una compra o una programación. Una recomendación sirve cuando llega a la persona correcta y podemos evaluar su efecto. Entre la capacidad técnica y el valor de negocio hacen falta datos, responsables, reglas de actuación y seguimiento. Ésa será nuestra siguiente perspectiva.\n\nLa barra lateral ahora organiza otro tipo de relaciones. Datos más contexto: qué necesita saber el sistema. Modelo más herramientas: qué puede preparar y, cuando exista una integración autorizada, qué puede ejecutar. Reglas más personas: qué decisiones necesitan revisión y quién responde por ellas. Pruebas más seguimiento: cómo comprobamos que funciona y detectamos si empieza a fallar. Estas capas se combinan con distintas capacidades del mapa; no corresponden una a una con los colores del aprendizaje.\n\nEn la próxima clase pasaremos de obtener un resultado a diseñar una forma de repetir trabajo con un asistente: qué recibe, qué instrucciones conserva, qué herramientas necesita, qué puede hacer por sí mismo y cuándo debe pedir revisión. Probaremos su comportamiento con ejemplos. Llamarlo agente no significa que lo entrenemos por refuerzo; muchas soluciones combinan modelos existentes, instrucciones y flujos definidos.\n\nAntes de cerrar: cuando agregamos el expediente, ¿aportamos contexto o demostramos entrenamiento? Al contrastar fuentes, ¿qué dato podemos comprobar y qué explicación sigue siendo una hipótesis? Recuperemos esas dos distinciones. Conserven su entrega y elijan un paso repetible de su trabajo. Hoy aprendimos a preparar una decisión; la próxima vez diseñaremos cómo apoyar ese paso de forma consistente. Ahora el mapa también les sirve para conversar con quienes van a construirlo.",
         "steps": [
           "0–1 min: recuperar la frase de la maestría y mostrar el mismo mapa desde la perspectiva del proceso.",
           "1–2 min: escuchar dos partes del trabajo que el grupo querría repetir mañana.",
@@ -1946,7 +1768,7 @@
               "label": "Leer explicación"
             }
           ],
-          "intro": "En «Qué hago aquí»: Vuelve al mapa y conecta lo que aprendimos con un proceso de trabajo. Ése es el puente hacia la siguiente clase. Conserva tu entrega A."
+          "intro": "Vuelve al mapa y conecta lo que aprendimos con un proceso de trabajo. Ése es el puente hacia la siguiente clase. Conserva tu entrega A."
         }
       }
     ]

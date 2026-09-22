@@ -1,0 +1,1 @@
+Empieza por GUIA_COMITE.md. Carga 01_JUAN_JOSE.txt y 02_POLISPLEXITY.txt como fuentes iniciales. Después añade fuentes originales y la tabla. Los ENCARGO son instrucciones para pegar en el chat, no fuentes. La PLANTILLA es tu registro de entrega.
