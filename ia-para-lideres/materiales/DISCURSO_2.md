@@ -1,287 +1,261 @@
-# Clase 2 · Diseñar un asistente y su operación
+# Clase 2 · Automatización, copilotos y agentes
 
-Guion del expositor · Hadox Talks · Nueva edición para revisión
+Versión de ensayo · 25 septiembre 2026 · Edgar Valdés
 
-## 1. Del resultado al asistente
+## 1. De una oportunidad a trabajo organizado
 
-18:00–18:05 · APERTURA · 5 minutos
+18:00–18:03 · TEORÍA 1
 
-Pregunta: ¿Qué parte del informe puede convertirse en trabajo repetible?
+La clase pasada vimos cómo cambia una respuesta cuando la herramienta dispone de contexto. Después propusimos investigar, compartir fuentes y preparar una oportunidad para Nexo. Hoy vamos a mirar qué trabajo hay entre encontrar una idea y llegar a una reunión bien preparada.
 
-### Discurso
+Imaginen que diez personas del comité encuentran oportunidades. Una llega por mensaje, otra está en un documento y una tercera queda dentro de un chat. Alguien debe reunirlas, conservar su origen y preparar el material para decidir. Ése es nuestro punto de partida: organizar trabajo que ya entendemos.
 
-La clase pasada preparamos una decisión. Hoy escogeremos una pieza del trabajo de Nexo: clasificar una solicitud y preparar una respuesta con el catálogo. El responsable seguirá revisando la comunicación. El objetivo es que el comportamiento pueda describirse, probarse y discutirse con TI.
+Vamos a alternar explicación y demostración. Yo haré los recorridos y les mostraré tanto la configuración como el resultado. Ustedes observarán qué ocurre y podrán preguntar. Después repetirán las demostraciones como tarea y las adaptarán a una oportunidad diferente. Aprenderemos primero a usar las herramientas y después a decidir dónde tendrían sentido en una empresa.
 
-Vamos a distinguir copilot, flujo y agente; configurar o simular un asistente; revisar diez solicitudes; y terminar con un encargo de implementación. La salida de hoy alimentará el piloto de la siguiente clase. Recuperen una acción propuesta en su informe: ¿qué entrada recibiría y qué producto tendría que entregar?
+## 2. Automatizar es acordar un recorrido
 
-### Conducción
+18:03–18:08 · TEORÍA 1
 
-0–2 min: recuperar A y definir continuidad.
+Automatizar significa que un sistema ejecuta un recorrido definido cuando sucede algo. Un disparador inicia el trabajo: llega una respuesta a un formulario o aparece una fila nueva. La entrada es la información que recibe. Las reglas describen condiciones, las acciones hacen el trabajo y la salida es lo que otra persona necesita.
 
-2–5 min: dos ejemplos de entrada y salida; fijar la tarea común.
+Un ejemplo cotidiano es registrar una oportunidad comercial. El formulario recoge la nota, su fuente y quién la encontró. La automatización toma esos campos y los coloca en una tabla. No necesita comprender el negocio para hacer esa primera transferencia.
 
-## 2. Tres formas de delegar
+Conviene separar la tarea del proceso. Copiar una nota es una tarea. Investigar, registrar, revisar, priorizar y preparar una reunión forman un proceso. Podemos automatizar una parte y dejar otras en personas. Como líderes, debemos saber dónde termina la responsabilidad del sistema y quién recibe su resultado.
 
-18:05–18:15 · EXPLICACIÓN · 10 minutos
+Pensemos en su trabajo: ¿qué información vuelve a copiar alguien cada semana? Escuchemos un ejemplo. Para describirlo necesitamos un inicio, una entrada y una salida que podamos reconocer, incluso antes de elegir software.
 
-Pregunta: ¿Quién elige los pasos y quién ejecuta las acciones?
+## 3. Elegir una tarea que valga la pena
 
-### Discurso
+18:08–18:12 · TEORÍA 1
 
-Usaremos tres distinciones prácticas. Un copilot apoya a una persona que conduce el trabajo. Un flujo sigue pasos definidos: recibir, clasificar, preparar y revisar. En un sistema con agentes, el modelo puede seleccionar pasos y herramientas según el objetivo y lo que encuentra. Los nombres comerciales no bastan para saber qué hace un producto.
+La primera decisión de un líder es elegir un trabajo que merezca el esfuerzo. Una tarea frecuente, con datos accesibles y una salida clara, suele ser un buen punto de partida para aprender. Si nadie sabe qué debe pasar, automatizar sólo vuelve más rápida la confusión.
 
-La autonomía se observa en acciones y permisos. Un asistente puede redactar una solicitud de cambio sin tener permiso para ejecutarla. Otro sistema puede consultar información mediante herramientas y necesitar aprobación antes de escribir en un registro.
+En Nexo queremos que una oportunidad llegue al comité sin perder la fuente ni quedarse en la cuenta de una persona. Podemos observar cuántos pasos manuales exige registrarla y si la información queda completa. Todavía no estamos demostrando ventas, ahorro o retorno: estamos comprobando una mejora concreta del trabajo.
 
-Pensemos en Nexo. Preparar un borrador desde un catálogo puede resolverse con instrucciones y contexto. Consultar un estado vivo requiere una conexión. Actualizarlo requiere además autoridad. ¿Qué nivel necesitamos para la primera prueba y cuál añade costo o complejidad? Ésa es una decisión de diseño que el negocio debe compartir con TI.
+También debemos mirar el paso siguiente. Si la tabla crece pero nadie revisa las oportunidades, habremos producido una nueva cola. Por eso asignamos a alguien del comité la revisión y definimos qué significa una fila útil. Hoy pediremos conservar identificador, nota y fuente, sin mezclar oportunidades.
 
-### Conducción
+Veamos el recorrido funcionando. Voy a empezar con una transferencia sencilla para que podamos reconocer qué hace cada pieza.
 
-0–4 min: explicar los tres mecanismos.
+## 4. Make: conectar una entrada con una salida
 
-4–7 min: ubicar lectura, propuesta y escritura en Nexo.
+18:12–18:20 · DEMOSTRACIÓN
 
-7–10 min: pedir una elección de alcance y su razón.
+Voy a abrir dos pestañas: nuestra hoja y el escenario de Make. La hoja tiene una pestaña de entrada y otra de registro. El formulario alimenta la entrada; para ensayar también podemos añadir una fila directamente. La segunda pestaña es donde veremos el resultado de la automatización.
 
-La distinción de flujos y agentes sigue el marco práctico de Anthropic de 2024. El artículo avisa que las herramientas han evolucionado; usamos la distinción conceptual, no sus versiones de producto como receta actual.
+En Make añado Google Sheets y el módulo que observa filas nuevas. Elijo la hoja de entrada, señalo que tiene encabezados y selecciono desde dónde comenzar. Ésta es una consulta por sondeo: el sistema revisa cuando ejecutamos el escenario o cuando llega su horario; no significa que el formulario dispare una reacción instantánea.
 
-### Referencias
+Ahora agrego la acción de añadir una fila en la pestaña de registro. Relaciono cada campo de entrada con su columna de destino. Esto se llama mapear: decir de dónde sale cada valor. Todavía no interviene ningún modelo de IA. La conexión permite que Make acceda a la hoja y la configuración define qué operación hará con ella.
 
-- [Anthropic (2024) · Building effective agents](https://www.anthropic.com/engineering/building-effective-agents): Diferencia entre flujos predefinidos y selección dinámica de pasos por el modelo.
+Guardo el escenario y miro el recorrido completo. Antes de ejecutarlo, ¿en qué pestaña esperan ver aparecer la nueva fila?
 
-- [Google AI for Developers · Function calling](https://ai.google.dev/gemini-api/docs/function-calling): El modelo propone una llamada y la aplicación ejecuta la función autorizada.
+## 5. Ejecutar, mirar y volver a ejecutar
 
-## 3. Dónde entra el asistente
+18:20–18:30 · DEMOSTRACIÓN
 
-18:15–18:25 · EXPLICACIÓN · 10 minutos
+Introduzco la primera nota y ejecuto Run once. Abrimos la salida del primer módulo: ésta es la información que Make recibió. Después abrimos el módulo que escribe. Finalmente miramos la hoja. Las tres observaciones nos permiten seguir el mismo dato, desde que entra hasta que queda registrado.
 
-Pregunta: ¿Qué cambia en el proceso y qué sigue haciendo una persona?
+Una ejecución verde indica que los módulos terminaron, pero no nos dice si la información quedó en la columna correcta. Por eso comparo el identificador y la fuente con la entrada. Si el autor apareció donde iba la organización, la conexión funciona y el mapeo está mal. Corregimos esa relación y ensayamos con una fila nueva.
 
-### Discurso
+Ahora envío una segunda oportunidad. Queremos comprobar que el recorrido vuelve a funcionar sin reconstruirlo. Un disparador que recuerda las filas procesadas puede no recuperar la misma fila otra vez. Para una nueva prueba añadimos otro registro o cambiamos deliberadamente el punto de inicio; no pulsamos ejecutar sin saber qué estamos reprocesando.
 
-Dibujemos el recorrido de una solicitud: llega, se clasifica, se prepara una respuesta, alguien la revisa y finalmente se registra lo autorizado. El asistente de hoy trabajará en clasificación y preparación. Esa frontera permite medir si realmente ayuda.
+Como líderes, lo relevante es que podamos describir qué se hizo y mostrar una salida útil. Ya tenemos automatización. En el siguiente bloque veremos qué cambia cuando la entrada necesita interpretación.
 
-Necesitamos especificar la entrada mínima, el producto y el siguiente responsable. Si la solicitud no tiene ID, pedirlo es parte del trabajo. Si exige una compensación, hay que llevar la decisión al responsable. Un procedimiento puede mejorar incluso sin IA, por ejemplo aclarando un formulario o manteniendo un catálogo actualizado.
+## 6. Una regla mueve datos; la IA interpreta
 
-Desde su perspectiva, señalen dónde se pierde información o se repite una actividad. Tecnología puede necesitar campos y accesos; operación necesita reglas para derivar; formación necesita que las personas entiendan el nuevo procedimiento. Esa conversación define la función del asistente antes de elegir la integración.
+18:30–18:36 · TEORÍA 2
 
-### Conducción
+Nuestra automatización ya funciona, pero la nota sigue siendo un párrafo. Para preparar el comité queremos una síntesis: qué idea apareció, con qué servicio podría relacionarse y qué debemos preguntar. Aquí interviene una capacidad de interpretación.
 
-0–4 min: recorrer el proceso y marcar alcance del asistente.
+Una regla puede comprobar si existe un campo. Un modelo puede leer frases redactadas de maneras diferentes y proponer una síntesis. La combinación resulta útil: conservamos identificador y fuente con un mapeo fijo, y pedimos al modelo que trabaje sobre el contenido de la nota. Así sabemos qué datos llegaron y qué texto fue generado.
 
-4–7 min: cada perspectiva identifica una necesidad.
+El resultado de la IA no debe reemplazar la nota original. Guardamos ambos porque cumplen funciones distintas. El hallazgo es el material recibido; la síntesis ayuda a revisarlo. Si cambia la síntesis, necesitamos poder volver a su origen.
 
-7–10 min: separar mejora de proceso y capacidad de IA.
+Como líderes, decidimos dónde merece la pena incorporar interpretación y qué evidencia necesitaremos para aceptarla. No estamos obligados a añadir IA en todos los pasos: elegimos el paso donde mejora el trabajo.
 
-## 4. Un encargo que puede reutilizarse
+## 7. Un encargo que otra herramienta puede ejecutar
 
-18:25–18:35 · EXPLICACIÓN · 10 minutos
+18:36–18:42 · TEORÍA 2
 
-Pregunta: ¿Qué instrucción debe permanecer aunque cambie la solicitud?
+Un encargo útil describe el resultado y la información disponible. En nuestro caso, el modelo recibe el catálogo de Nexo y una nota. Le pedimos una oportunidad resumida, un posible encaje, preguntas y un siguiente paso. Si no hay evidencia suficiente, queremos que lo haga visible.
 
-### Discurso
+Antes de conectarlo definimos dos pruebas. Una nota completa debe producir una ficha coherente. Una nota vaga debe conservar lo que sabemos y formular preguntas, sin convertir una posibilidad en una necesidad confirmada. El criterio se establece antes de leer la respuesta. Una prueba de aceptación expresa qué tendría que ocurrir para que el resultado sirva.
 
-Una configuración reutilizable tiene un propósito, fuentes autorizadas, formato de salida y una conducta cuando falta información. El catálogo de Nexo distingue consultas de estado, revisión documental y consultas técnicas. No necesitamos inventar un departamento nuevo para definir esta primera pieza.
+También distinguimos las vías de acceso. Usar Gemini, ChatGPT o Claude en el navegador es una experiencia de usuario. Una API permite que otro programa solicite trabajo a un modelo. Un conector facilita ese intercambio. Sus permisos, cuotas y cobros pueden ser diferentes de los de una suscripción de chat.
 
-Le pediremos conservar el ID, identificar la regla aplicada y preparar un borrador breve. Si falta catálogo o un dato necesario, debe pedirlo. Si hay contradicción o una petición fuera de autoridad, debe escalar. Estas instrucciones permanecen mientras cambian las solicitudes.
+Vamos a probar el encargo en las aplicaciones y luego lo incorporaremos al recorrido. Primero entendemos el comportamiento que buscamos; después lo conectamos.
 
-Un Gem, cuando la cuenta lo permite, puede guardar instrucciones reutilizables. También podemos probar la lógica en una conversación nueva pegando la configuración completa. Esa alternativa demuestra comportamiento conversacional; no demuestra persistencia empresarial ni una conexión a sistemas. Primero comprobaremos la función y después discutiremos la forma de operarla.
+## 8. El mismo trabajo en tres aplicaciones
 
-### Conducción
+18:42–18:50 · DEMOSTRACIÓN
 
-0–4 min: explicar las cuatro partes de la configuración.
+Tengo preparadas las tres aplicaciones. Voy a usar el mismo encargo y los mismos documentos, empezando en conversaciones nuevas. Primero muestro dónde se adjunta el contexto o cómo se pega el texto cuando una cuenta no permite adjuntar. Después envío el encargo y observamos la salida.
 
-4–7 min: leer dos reglas de F3 y su efecto en una salida.
+No buscamos proclamar un ganador por tres respuestas. Queremos reconocer el trabajo que debe hacer un usuario: proporcionar información, pedir una salida, leerla y corregirla. Si una herramienta añade un servicio que Nexo no tiene, le pedimos separar esa idea como una capacidad por desarrollar. Si omite una fuente, volvemos al material original.
 
-7–10 min: mostrar la alternativa de Gem o chat de configuración.
+Conservo una respuesta por aplicación y anoto qué tuve que aclarar. En Gemini podemos mostrar brevemente dónde se guardan instrucciones reutilizables con un Gem, si está disponible. Eso ayuda a repetir un encargo; no le concede por sí solo herramientas para actuar en otros sistemas.
 
-### Referencias
+En la tarea podrán repetir esta comparación con sus cuentas. Si aparece un límite de uso, documentarán cuál y continuarán con otra opción disponible.
 
-- [Google · Cómo usar Gems](https://support.google.com/gemini/answer/15236405?hl=en): Instrucciones reutilizables; confirmar disponibilidad en la cuenta usada.
+## 9. Añadir interpretación al flujo
 
-- [Google · Crear y gestionar Gems](https://support.google.com/gemini/answer/15146780?hl=en-IN): Configuración, vista previa y archivos de conocimiento.
+18:50–19:00 · DEMOSTRACIÓN
 
-## 5. Construimos el asistente Nexo
+Regresamos al escenario. Entre la entrada y el registro añado Make AI Toolkit con Simple Text Prompt. Usaremos el proveedor integrado disponible en la cuenta, por lo que esta demostración no depende de configurar tres claves de API.
 
-18:35–18:55 · DEMOSTRACIÓN · 20 minutos
+En el texto del encargo incluyo el catálogo breve y relaciono el campo de la nota con el dato recibido. Esta parte es importante: escribir el nombre de una columna no siempre inserta su contenido. Selecciono el valor de salida del módulo anterior usando el panel de mapeo.
 
-Pregunta: ¿La configuración produce el comportamiento que necesitamos?
+Conservo las columnas originales y llevo la respuesta del modelo a la columna Síntesis_IA. Registro también qué versión de instrucción usé. Ejecuto una nueva entrada y miro el resultado. El recorrido está definido por nosotros; la interpretación ocurre dentro de uno de sus pasos.
 
-### Discurso
+Observen lo que hemos conseguido: la misma información entra una vez, se conserva y recibe un primer tratamiento. El comité sigue decidiendo qué oportunidad merece atención. El tiempo total, la utilidad del resumen y la revisión necesaria serán mejores medidas que contar cuántas palabras produjo el modelo.
 
-Voy a abrir una conversación nueva y pegar la configuración completa, incluido el catálogo. Si usamos un Gem, estas instrucciones van en su configuración y las fuentes en el lugar que habilite la cuenta. En ambos casos registraré cómo lo hice.
+## 10. Una entrada incompleta también tiene salida
 
-Primero enviaré T01, una solicitud de estado con ID y fuente disponible. Miraremos si prepara el borrador sin inventar acceso al sistema. Después T02, donde falta el ID. Compararemos qué conserva y qué pide. La capacidad útil está en preparar el siguiente paso adecuado para cada entrada.
+19:00–19:05 · DEMOSTRACIÓN
 
-Si el asistente se sale del alcance, ajustaremos una instrucción concreta y conservaremos qué cambió. Una mejora en dos ejemplos no demuestra funcionamiento general. Por eso viene una batería pequeña de diez solicitudes con condiciones diferentes. Ustedes podrán configurar el asistente o analizar la ejecución observada y dejarlo declarado.
+Voy a enviar una nota deliberadamente vaga. La automatización puede funcionar desde el punto de vista técnico y aun así producir una ficha poco útil. Observemos si la respuesta reconoce qué información falta o inventa una oportunidad específica.
 
-### Conducción
+La corrección consiste en mejorar el encargo y repetir con una nueva fila. Si el problema es que la nota nunca llegó al modelo, no necesitamos un prompt más largo: necesitamos corregir el mapeo. Si la fuente está vacía, la revisión debe pedirla. Si la conexión falla, tenemos que recuperar el acceso y volver a ejecutar de forma controlada.
 
-0–5 min: chat nuevo o Gem, configuración completa y catálogo.
+Aquí aparece una responsabilidad de liderazgo: definir qué resultado permite continuar y cuál debe esperar. Esa decisión se puede traducir después a una regla o una aprobación. Pasar estas pruebas nos permite seguir aprendiendo; todavía no demuestra que el proceso esté listo para cualquier entrada.
 
-5–10 min: ejecutar T01; revisar ID, estado y borrador.
+## 11. El nombre del producto no explica su autonomía
 
-10–15 min: ejecutar T02; comprobar petición de ID.
+19:05–19:10 · TEORÍA 3
 
-15–20 min: explicar una corrección si hace falta y registrar configuración usada.
+Encontrarán la palabra copiloto en muchas propuestas comerciales. Sirve para describir una experiencia de asistencia, pero no nos dice cómo está construido el sistema. Una misma aplicación puede conversar, ejecutar un flujo y poner en marcha agentes.
 
-### Referencias
+La distinción que nos ayuda a diseñar es quién decide el siguiente paso. En Make elegimos primero leer, después resumir y finalmente registrar. Aunque un módulo use IA, el recorrido sigue definido. En un agente, el modelo puede decidir que necesita abrir un archivo, buscar otro dato, crear una tabla o revisar lo que acaba de producir.
 
-- [Google · Crear y gestionar Gems](https://support.google.com/gemini/answer/15146780?hl=en-IN): Configuración, vista previa y archivos de conocimiento.
+Son capacidades que pueden combinarse. Un flujo puede llamar a un agente para resolver una parte variable y después continuar con reglas. Un agente puede utilizar una automatización como herramienta. No existe una obligación de pasar de uno a otro por madurez.
 
-## 6. Diez solicitudes, una prueba visible
+Como líderes, conviene pedir una descripción del comportamiento: qué recibe, qué decisiones toma y qué hace cuando no puede terminar. Esa explicación resulta más útil que aceptar una etiqueta comercial.
 
-18:55–19:15 · PRÁCTICA · 20 minutos
+## 12. Un agente trabaja en un ciclo
 
-Pregunta: ¿Qué pasa cuando la entrada cambia?
+19:10–19:15 · TEORÍA 3
 
-### Discurso
+Un agente necesita un objetivo y medios para trabajar. Puede decidir una acción, utilizar una herramienta y observar lo que devolvió. Con esa observación decide cómo continuar. El recorrido se construye durante la ejecución dentro del alcance que le damos.
 
-La mesa de trabajo contiene diez solicitudes. Hay entradas normales, incompletas, contradictorias y fuera de alcance. Pueden enviarlas como lote para practicar la lectura comparada, conservando una fila por ID. En una solución real también habría que comprobar aislamiento entre conversaciones y repetir pruebas.
+Por ejemplo, al preparar una reunión podría leer el catálogo y descubrir que una idea requiere una capacidad que Nexo no tiene. Entonces puede separar lo disponible de lo que necesitaría un aliado y reformular la propuesta. Esa adaptación es parte del valor que queremos observar.
 
-Revisen el resultado frente a la referencia. Marquen cumple, corregir o escalar, y señalen el fragmento que justifica su evaluación. No basta con que la salida use la palabra escalar: importa que no revele otro expediente ni prometa una resolución que no puede asegurar.
+Autonomía y autoridad son diferentes. Un agente puede elegir cómo ordenar los documentos y seguir necesitando autorización para enviar una propuesta. También puede preguntar cuando falta una decisión de negocio. La pregunta oportuna no implica que falló: puede ser la forma correcta de avanzar.
 
-Cada persona conserva la tabla de diez pruebas y elige dos para explicar con detalle, una normal y otra excepcional. Si la cuenta limita la ejecución, pueden analizar las respuestas observadas en la demostración, indicándolo. Después del descanso veremos qué cambiaría al conectar herramientas y asignar permisos.
+Después del descanso veremos un encargo completo sobre una carpeta. Miraremos acciones y archivos producidos; lo que la interfaz muestra es un registro de trabajo, no una ventana directa a todo el razonamiento interno del modelo.
 
-### Conducción
+## 13. Descanso
 
-0–3 min: revisar entradas y referencia de evaluación.
+19:15–19:25 · DESCANSO
 
-3–10 min: ejecutar o analizar las diez solicitudes.
+Hacemos una pausa de diez minutos. Regresamos a las 19:25. No hay una actividad que completar durante el descanso.
 
-10–17 min: marcar resultados y seleccionar dos ejemplos explicados.
+## 14. Codex: del encargo a los archivos
 
-17–20 min: recoger un fallo o duda y conservar evidencia.
+19:25–19:37 · DEMOSTRACIÓN
 
-Profundización: ejecutar T05 y T08 en conversaciones aisladas y comparar. El conjunto de diez casos no certifica seguridad ni permite estimar una tasa de error estable. En la prueba docente de Flash del 21/09 se observó que pidió el catálogo interno al cliente y afirmó una canalización no ejecutada. Úsalos como ejemplos de revisión, no como fallos que necesariamente aparecerán en cada cuenta. El botón de corrección permite repetir cinco solicitudes.
+Ahora voy a dar un objetivo completo. Abro la carpeta del ensayo en Codex o en la experiencia de trabajo disponible en ChatGPT. Allí están el contexto de Nexo, las notas y el encargo. Los archivos de salida irán a una subcarpeta para distinguir lo recibido de lo producido.
 
-## 7. Descanso
+Pido tres materiales: una propuesta breve, una agenda de preguntas y una lista de asuntos pendientes. Describo para quién es el resultado, el contexto disponible y qué debe conservar como hipótesis. No voy a indicarle cada clic. Quiero observar cómo organiza la tarea usando sus herramientas.
 
-19:15–19:25 · DESCANSO · 10 minutos
+Mientras trabaja, señalo las acciones visibles. Leer el catálogo, crear un archivo o revisar una tabla son acciones diferentes de escribir una respuesta en el chat. Si pide una decisión que corresponde al comité, la respondo. Si una herramienta no está disponible, lo explicamos y ajustamos el alcance.
 
-Pregunta: ¿Qué le permitirías hacer sin aprobación?
+Al terminar abrimos los archivos. Comparamos lo solicitado con lo entregado: ¿está la propuesta?, ¿la agenda sirve para una reunión?, ¿los pendientes son concretos? Una respuesta que afirma haber creado archivos necesita archivos que podamos abrir. Ésta es la comprobación que hacemos como usuarios y como responsables del trabajo.
 
-### Discurso
+## 15. Cambiar una condición y comparar
 
-Tenemos diez minutos de descanso. Regresamos a las siete veinticinco. Conserven configuración y resultados. Al volver conectaremos la prueba con accesos, herramientas y responsabilidades.
+19:37–19:45 · DEMOSTRACIÓN
 
-### Conducción
+El trabajo empresarial cambia durante su preparación. Voy a introducir una condición: la primera conversación durará veinte minutos y sólo abordará formación. El agente debe revisar la propuesta y la agenda sin inventar que el interlocutor ya aceptó esa condición. En el ejercicio es una restricción del comité para preparar su propia reunión.
 
-Descanso de 19:15 a 19:25.
+Le pido conservar la versión inicial y explicar los cambios. Después abrimos el nuevo material. Queremos ver si ajustó la duración y el alcance, si retiró lo que ya no corresponde y si conservó la información válida.
 
-## 8. Conectar también es dar autoridad
+Ahora muestro brevemente el mismo encargo en Claude Cowork, si está habilitado en la cuenta del profesor. Seleccionamos la carpeta de ensayo y damos el mismo objetivo. No repetiremos toda la ejecución: compararemos cómo se concede contexto, qué acciones aparecen y dónde queda el resultado.
 
-19:25–19:40 · EXPLICACIÓN · 15 minutos
+Cowork requiere un plan compatible. Quienes no tengan acceso pueden repetir el trabajo de archivos con Codex si su cuenta lo permite. Un chat que devuelve texto es una alternativa de preparación de contenido, pero debe identificarse como tal: no demuestra ejecución sobre la carpeta.
 
-Pregunta: ¿Qué cambia entre consultar, proponer y ejecutar?
+## 16. Las piezas que permiten trabajar al agente
 
-### Discurso
+19:45–19:49 · TEORÍA 4
 
-Una API permite que programas interactúen. El modelo puede proponer una llamada a una herramienta; la aplicación valida y ejecuta lo permitido, y devuelve el resultado. Esas piezas necesitan identidad, permisos, manejo de fallos y registros. Escribir en el chat «ya lo registré» no prueba que haya ocurrido.
+La interfaz puede parecer una conversación, pero el agente reúne varias piezas. El modelo aporta capacidades de interpretación; las instrucciones orientan el trabajo; el contexto contiene la información disponible; las herramientas permiten operar; el entorno determina dónde ocurren esas acciones.
 
-En Nexo podemos diseñar tres niveles: consultar estado, proponer una actualización y ejecutar un cambio autorizado. Hoy simularemos el registro en una tabla; no conectaremos sistemas reales. Eso deja visible dónde hace falta aprobación.
+Memoria no significa que todo se recuerde siempre ni que cargar un archivo entrene el modelo. Puede consistir en instrucciones persistentes, notas o información guardada que el sistema recupera. Necesitamos saber qué conserva y poder corregirlo cuando cambia.
 
-Si una herramienta falla, la salida debe explicar qué quedó sin ejecutar. Si falta permiso, el flujo debe detener esa acción. La pregunta ejecutiva es concreta: ¿qué acción tiene valor suficiente para justificar una conexión y cómo sabemos que se realizó? Comparen una solución en navegador con un flujo conectado y nombren una condición adicional de operación.
+Como usuarios configuramos un objetivo y aportamos material. Como líderes decidimos qué información debe estar disponible, quién la mantiene y qué accesos corresponde conceder. Una instrucción escrita no sustituye un permiso técnico. Pedir que guarde archivos necesita una herramienta de escritura; pedir que envíe correos exige acceso a un servicio adicional.
 
-### Conducción
+## 17. Comprar, configurar o desarrollar
 
-0–5 min: explicar el ciclo de llamada y ejecución.
+19:49–19:53 · TEORÍA 4
 
-5–10 min: simular una propuesta de actualización y su aprobación en una tabla.
+La elección tecnológica depende del trabajo que necesitamos sostener. Comprar una solución puede cubrir un proceso ya resuelto. Configurar permite adaptar herramientas existentes. Desarrollar se justifica cuando hay requisitos que las opciones disponibles no cubren suficientemente. Las tres rutas pueden convivir.
 
-10–15 min: discutir fallo de herramienta y permiso de escritura.
+Hoy configuramos un flujo y utilizamos agentes existentes. Eso no demuestra que tengamos una plataforma empresarial lista para todos los usuarios. Hay que considerar cuentas, accesos, continuidad, soporte y cambios. Una herramienta gratuita puede requerir tiempo de preparación y consumo de modelos de pago.
 
-MCP es una forma de conectar aplicaciones con herramientas y recursos; no sustituye autorización ni concede acceso automáticamente. Es lectura opcional para perfiles técnicos.
+Para comparar opciones, describamos el mismo resultado y preguntemos cuánto trabajo queda en nuestro equipo. ¿Quién prepara los datos? ¿Quién revisa? ¿Qué ocurre si cambia una conexión? ¿Podemos recuperar nuestros archivos? La decisión se toma con requisitos y evidencia, no por la cantidad de funciones que muestra una página de venta.
 
-### Referencias
+## 18. Un encargo que el equipo puede implementar
 
-- [Google AI for Developers · Function calling](https://ai.google.dev/gemini-api/docs/function-calling): El modelo propone una llamada y la aplicación ejecuta la función autorizada.
+19:53–19:57 · TEORÍA 4
 
-- [Model Context Protocol · Arquitectura](https://modelcontextprotocol.io/docs/learn/architecture): Host, cliente y servidor para conectar aplicaciones con herramientas y recursos.
+No necesitamos crear un departamento antes de hacer una prueba, pero sí distribuir responsabilidades. El dueño del proceso define para qué sirve el resultado. El responsable de datos mantiene las fuentes. Tecnología habilita las conexiones. El revisor decide si la propuesta está lista para usarse. Una persona puede cubrir varias funciones si queda claro que las asume.
 
-## 9. Quién se hace cargo
+Un pedido concreto podría decir: queremos recibir notas del comité, conservar su fuente, preparar una ficha y guardarla para revisión. La prueba debe incluir una nota completa y otra que requiera aclaración. Necesitamos saber quién mantendrá el catálogo y cómo detener el flujo si empieza a escribir mal.
 
-19:40–19:55 · EXPLICACIÓN · 15 minutos
+Esto convierte lo aprendido como usuarios en una conversación de implementación. Ya podemos mostrar una entrada, una salida y una excepción. TI o un proveedor podrá discutir con nosotros el alcance y estimar el trabajo. Veamos ahora otra forma de configurar estas piezas: OpenClaw.
 
-Pregunta: ¿Qué funciones deben existir aunque todavía no haya un departamento de IA?
+## 19. OpenClaw: ver la configuración detrás del agente
 
-### Discurso
+19:57–20:05 · DEMOSTRACIÓN
 
-Antes de crear puestos, asignemos responsabilidades. Negocio define el resultado y decide si sirve. Operación revisa las salidas y resuelve excepciones. TI habilita acceso e integración. Quienes administran datos y seguridad definen fuentes, permisos y condiciones de uso. Una persona puede asumir varias funciones en una organización pequeña.
+OpenClaw nos permite observar con más claridad cómo se configura un agente. Ya lo instalé y probé antes de la sesión. Voy a mostrar qué proveedor de modelos utiliza, en qué espacio trabaja y cuáles son las herramientas disponibles para este ejercicio. No necesitamos conectar un servicio de mensajería para empezar con el panel.
 
-Para crecer, puede convenir una coordinación compartida que mantenga estándares y apoye a las áreas, con responsables de cada proceso. La estructura se justifica por necesidades y volumen; hoy no tenemos datos para recomendar un organigrama universal.
+La instalación y el acceso al modelo son cosas distintas. Podemos tener el programa funcionando y necesitar una clave o una cuenta compatible para generar respuestas. La guía del curso enlaza las rutas oficiales por sistema operativo y explica esa separación.
 
-En nuestro caso, escriban quién mantiene el catálogo, quién aprueba el borrador y quién responde si aparece otro expediente. Después identifiquen qué capacitación necesita el usuario para interpretar la salida. Esa asignación convierte una demostración en una propuesta operativa discutible.
+Para esta demostración usaremos los mismos documentos del caso en un espacio de ensayo. El objetivo será leerlos y preparar un archivo de preguntas para la reunión. Así podemos comparar con lo que acabamos de hacer en Codex y Cowork, manteniendo reconocible el trabajo.
 
-### Conducción
+No vamos a dedicar estos minutos a descargar dependencias. Quien quiera repetirlo tendrá la guía de preparación y deberá comprobar la primera respuesta antes de empezar el encargo. Ahora enfoquémonos en las piezas que hacen posible la ejecución.
 
-0–5 min: explicar responsabilidades y posibles acumulaciones de roles.
+## 20. OpenClaw: ejecutar y ajustar el objetivo
 
-5–10 min: asignarlas por función en Nexo.
+20:05–20:13 · DEMOSTRACIÓN
 
-10–15 min: discutir mantenimiento del catálogo y capacitación.
+Envío el encargo. El agente debe leer el contexto de Nexo y la nota de oportunidad para crear un archivo de preguntas. Miramos qué acciones ejecuta y después abrimos el archivo. Si sólo responde en el chat, comprobamos si tenía herramienta y permiso de escritura; no damos por hecha la creación del documento.
 
-### Referencias
+Ahora cambiamos el foco a formación. Le pedimos conservar el original y preparar una segunda versión con preguntas más adecuadas. El valor no está en que escriba mucho, sino en que utilice el catálogo, conserve los límites del caso y ajuste el material a la nueva condición.
 
-- [NIST · AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework): Marco voluntario de gestión de riesgos; no es una certificación del curso.
+Comparemos con el flujo de Make. Allí nosotros definimos los módulos y sus relaciones. Aquí encargamos un producto y el sistema organiza parte de los pasos. Ambos pueden ser útiles. Una automatización puede reunir entradas de manera regular y un agente puede elaborar un expediente cuando el comité lo solicita.
 
-## 10. Diseña la operación de tu asistente
+Como líderes, necesitamos saber dónde conviene cada forma de trabajo y qué resultado vamos a revisar. La demostración nos da una primera evidencia para discutirlo.
 
-19:55–20:15 · PRÁCTICA · 20 minutos
+## 21. Combinar capacidades sin perder el proceso
 
-Pregunta: ¿Configurar, comprar o desarrollar, y por qué?
+20:13–20:17 · DEMOSTRACIÓN
 
-### Discurso
+Abrimos juntos la tabla y el expediente. Ésta es la cadena que hemos construido como experiencia de trabajo. En la demostración trasladamos los materiales entre herramientas de forma manual; no hemos conectado automáticamente Make con OpenClaw o Codex.
 
-Ahora preparen el diseño desde su perspectiva. Mantengan la tarea que probamos: clasificar y preparar una respuesta. Describan entrada, salida, acción permitida, excepción, responsable y prueba para aceptar el producto. Pueden señalar qué parte adaptarían a su trabajo, sin cambiar silenciosamente los resultados de las diez pruebas.
+Ese paso manual puede ser suficiente para aprender y para un proceso de poco volumen. Si queremos integrarlo, debemos especificar qué archivo o dato se transfiere, cómo se autentican los sistemas y qué evento inicia al agente. La flecha de un diagrama no crea una conexión.
 
-Comparen tres caminos: configurar una aplicación disponible, adquirir una solución para el proceso o desarrollar una integración. La elección depende de requisitos, sistemas existentes, datos y capacidad de mantenerla. Registren qué costo o función necesitan investigar antes de comprometerse.
+Ahora sí podemos elegir. Mantendríamos fijo el registro de la información y delegaríamos la preparación variable del expediente. La revisión comercial seguiría en el comité. Otra organización podría escoger una distribución distinta. Lo importante es explicar la elección con el trabajo que vimos, no con la marca que más nos gustó.
 
-El resultado es un encargo de implementación de una página. Una persona de TI debería poder responder qué puede habilitar, qué falta definir y qué debe probar. Quienes tengan más experiencia pueden añadir un esquema de campos y un ejemplo de fallo de conexión.
+## 22. Tu tarea: repetir y después transformar
 
-### Conducción
+20:17–20:25 · TAREA
 
-0–5 min: describir el proceso y su autoridad.
+La tarea comienza repitiendo lo que yo hice. Tendrán el contexto, las notas, las instrucciones y la guía de construcción. Primero ejecutarán la automatización y conservarán una evidencia del registro. Después repetirán el encargo en las aplicaciones disponibles y realizarán una ejecución de agente que produzca archivos.
 
-5–12 min: comparar tres caminos y justificar una elección provisional.
+El desafío consiste en elegir otra oportunidad para Nexo y cambiar una condición del trabajo. Puede ser una primera reunión más breve, otro público o una restricción de alcance. Tendrán que adaptar un paso del flujo y el encargo del agente, mostrando qué cambió y por qué.
 
-12–17 min: definir accesos, responsables y prueba de aceptación.
+Compartan con un compañero una técnica que les sirvió o un problema que pudieron resolver. Pueden incorporar ideas con crédito. La entrega es individual: resultado, evidencia breve y una decisión ejecutiva sobre qué pondrían a funcionar, quién lo mantendría y qué revisarían.
 
-17–20 min: revisar si un colega entiende el encargo.
+No se evalúa pagar una herramienta. Cowork se puede sustituir por una ejecución equivalente en Codex u OpenClaw. Si ninguna ruta de agente está disponible, documenten el bloqueo y soliciten una repetición acompañada o en pareja; un texto producido por chat no se presenta como ejecución de archivos. Esta versión de la tarea está en revisión para el ensayo del docente; la fecha oficial se comunicará en Moodle.
 
-## 11. El pedido que TI puede evaluar
+## 23. Ahora puedes pedir y dirigir ese trabajo
 
-20:15–20:25 · ENTREGA · 10 minutos
+20:25–20:30 · CIERRE
 
-Pregunta: ¿Tu propuesta une proceso, pruebas, tecnología y responsables?
+Hoy empezamos con algo sencillo: llevar información de un lugar a otro. Después añadimos interpretación y finalmente delegamos un trabajo de varios pasos. Vimos que una aplicación, un flujo y un agente pueden participar en el mismo proceso con funciones distintas.
 
-### Discurso
+Como usuarios, ahora tienen un recorrido para configurar, ejecutar y revisar. Como líderes, pueden formular un encargo más preciso: qué resultado quieren, qué datos hacen falta, qué autoridad conceden y quién se hace cargo. No necesitan convertirse en programadores para hacer esas preguntas, pero usar las herramientas les permite comprender mejor las respuestas.
 
-Entrega B reúne el proceso diseñado, la tabla de diez pruebas y el encargo a TI. Conserva cuatro criterios de cinco puntos: proceso y autoridad, pruebas, decisión tecnológica y responsables con encargo. Identifiquen si configuraron, ejecutaron u observaron la demostración.
+Antes de cerrar, pensemos en un proceso de su organización. ¿Qué parte dejarían fija? ¿En cuál ayudaría interpretar información? ¿Qué resultado pedirían a un agente? Escuchemos dos respuestas breves.
 
-Revisen que la elección tecnológica responda a una necesidad concreta. Si sólo hace falta preparar un borrador, expliquen por qué proponen una integración o por qué prefieren posponerla. Si hubo un fallo, dejarlo documentado con una medida y otra prueba es más útil que ocultarlo.
-
-El encargo debe permitir decidir el siguiente paso y quién lo llevará a cabo. En la próxima sesión usaremos datos ficticios de costos y un piloto simulado para revisar si conviene avanzar.
-
-### Conducción
-
-0–5 min: completar B con configuración, pruebas y encargo.
-
-5–10 min: revisar los cuatro criterios y una decisión tecnológica.
-
-## 12. Repetir una prueba no demuestra retorno
-
-20:25–20:30 · CIERRE · 5 minutos
-
-Pregunta: ¿Qué tendríamos que medir para decidir si vale la pena?
-
-### Discurso
-
-Hoy definimos una forma de trabajo, probamos condiciones distintas y asignamos responsabilidades. Todavía necesitamos observar cuánto tiempo requiere, qué calidad produce y cuánto cuesta mantenerlo.
-
-La siguiente clase comparará una mejora de proceso sin IA, asistencia en navegador e integración. Conservamos los resultados de B como evidencia de comportamiento. Los datos del piloto docente serán un conjunto separado y claramente identificado. Antes de salir, nombren un indicador de valor y una condición que impediría ampliar el uso.
-
-### Conducción
-
-0–3 min: escuchar un indicador de valor y una condición de detención.
-
-3–5 min: explicar continuidad hacia C y el memo final.
+La próxima clase nos concentrará en otra pregunta: cómo utilizar datos y evidencia para decidir si una aplicación merece continuar. Conserven los resultados y las dificultades de la tarea; serán material útil para esa conversación.

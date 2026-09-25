@@ -1,0 +1,8 @@
+Trabaja con CONTEXTO_NEXO_C2.md y CASOS_CLASE_2.md de esta carpeta. Prepara un expediente de reunión simulada sobre NEXO-01 / D1. Organiza los pasos y utiliza las herramientas de archivos disponibles.
+
+Crea la subcarpeta Salida y estos tres archivos:
+- PROPUESTA.md: hasta 600 palabras con oportunidad, encaje con el catálogo, propuesta de alcance, evidencia del caso e hipótesis y siguiente paso.
+- AGENDA.md: agenda de 30 minutos con preguntas concretas, incluyendo qué falta conocer.
+- PENDIENTES.md: información o decisiones faltantes, con función responsable propuesta, sin inventar personas.
+
+Cita archivo y ficha para cada afirmación central. Grupo Horizonte es ficticio. No hagas búsquedas externas para completar ese caso ni contactes a personas. Conserva intactos los archivos de entrada. Si falta una decisión imprescindible, pregúntame. Al terminar, abre o indica la ruta de cada archivo y comprueba que existe. Si no tienes herramientas de archivos, dilo antes de presentar texto como archivo creado.

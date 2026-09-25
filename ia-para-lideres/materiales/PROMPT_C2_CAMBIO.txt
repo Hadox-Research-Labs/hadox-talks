@@ -1,0 +1,1 @@
+Nueva condición interna del comité: prepararemos una conversación de 20 minutos enfocada sólo en formación. Conserva intacta la primera versión. Crea Salida/v2 con PROPUESTA.md, AGENDA.md y PENDIENTES.md ajustados. Añade CAMBIOS.md explicando qué modificaste y por qué. Mantén separadas las hipótesis y los datos ficticios del caso. Comprueba que la agenda suma 20 minutos.
