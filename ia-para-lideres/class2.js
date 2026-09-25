@@ -1,14 +1,8 @@
-'use strict';
-function class2Visual(s){
- const e=escapeHTML,v=s.visual;
- const content=v.body.map((item,i)=>{
-  const parts=item.split('|');
-  if(v.layout==='opening')return `<p class="opening-line opening-${i}">${e(item)}</p>`;
-  if(v.layout==='quote')return `<p class="quote-line quote-${i}">${e(item)}</p>`;
-  if(v.layout==='compare')return `<section><h3>${e(parts[0])}</h3>${parts.slice(1).map(t=>`<p>${e(t)}</p>`).join('')}</section>`;
-  return `<div class="v-item"><span class="v-number">${String(i+1).padStart(2,'0')}</span><div><h3>${e(parts[0])}</h3><p>${e(parts.slice(1).join(' · '))}</p></div></div>`;
- }).join('');
- return `<article class="lesson-visual ${v.dark?'is-dark':''} layout-${e(v.layout)}"><div class="v-top"><span>IA PARA LÍDERES / CLASE 2</span><span>${e(s.tipo)}</span></div><h2>${e(s.titulo)}</h2><div class="v-body">${content}</div><div class="v-foot"><span>Edgar Valdés · Nexo, caso ficticio</span><span>${String(s.numero).padStart(2,'0')} / 23</span></div></article>`;
+"use strict";
+function class2Visual(s,base=''){
+ const n=String(s.numero).padStart(2,'0');
+ const description=s.titulo+'. '+s.visual.body.map(t=>t.replaceAll('|',': ')).join('. ');
+ return `<article class="lesson-visual image-slide"><img src="${base}assets/class2-v2/c2-${n}.webp" width="1672" height="941" alt="${escapeHTML(description)}"></article>`;
 }
 function renderClass2Work(s){
  $('#role').closest('label').hidden=true;$('#roleDetail').hidden=true;
