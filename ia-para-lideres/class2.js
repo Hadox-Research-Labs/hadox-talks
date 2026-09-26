@@ -1,8 +1,8 @@
 "use strict";
 function class2Visual(s,base=''){
- const n=String(s.numero).padStart(2,'0');
+ if(s.divider)return `<article class="lesson-visual section-slide"><p class="section-kicker">CLASE 02 <span>CAPÍTULO ${String(s.block).padStart(2,'0')} / 04</span></p><div class="section-heading"><span class="section-number">${String(s.block).padStart(2,'0')}</span><div><h2>${escapeHTML(s.titulo)}</h2><p>${escapeHTML(s.subtitle)}</p></div></div><div class="section-outcomes">${s.outcomes.map(t=>`<p>${escapeHTML(t)}</p>`).join('')}</div><footer>HADOX TALKS · IA PARA LÍDERES <span>TEORÍA → DEMOSTRACIÓN</span></footer></article>`;
  const description=s.titulo+'. '+s.visual.body.map(t=>t.replaceAll('|',': ')).join('. ');
- return `<article class="lesson-visual image-slide"><img src="${base}assets/class2-v2/c2-${n}.webp" width="1672" height="941" alt="${escapeHTML(description)}"></article>`;
+ return `<article class="lesson-visual image-slide"><img src="${base}assets/class2-v3/${s.art}" width="1672" height="941" alt="${escapeHTML(description)}"></article>`;
 }
 function renderClass2Work(s){
  $('#role').closest('label').hidden=true;$('#roleDetail').hidden=true;

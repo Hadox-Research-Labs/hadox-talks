@@ -1,14 +1,20 @@
 # Clase 2 · Guía de ensayo
 
 Automatización, copilotos y agentes · 28 septiembre · 18:00–20:30.
-Versión de revisión del 25 septiembre 2026. Primero teoría, después demostración del profesor. Los alumnos repiten el recorrido como tarea con un desafío.
+Versión de revisión del 26 septiembre 2026. Primero teoría, después demostración del profesor. Los alumnos repiten el recorrido como tarea con un desafío.
+
+## Presentación y documentos
+
+16 láminas, incluidas cuatro transiciones de contexto. Separadores en las láminas 2, 5, 8 y 12. Make ocupa dos momentos de demostración (4 y 7); Codex está en la 11 y OpenClaw en la 14. Los clics y las pruebas se consultan en los manuales, sin convertirlos en láminas adicionales. La tarea está en la lámina 15.
+
+Guía de instalación visible y descargable: https://hadox-research-labs.github.io/hadox-talks/ia-para-lideres/clase-2/instalacion.html
 
 ## Recorrido
 
-- 18:00–18:12 · Teoría: automatización, procesos y elección de tareas.
-- 18:12–18:30 · Demostración: formulario/hoja → Make → registro.
-- 18:30–18:42 · Teoría: interpretación con IA, contexto, conexiones y aceptación.
-- 18:42–19:05 · Demostración: tres aplicaciones, IA en Make y excepción.
+- 18:00–18:14 · Teoría: automatización, procesos y elección de tareas.
+- 18:14–18:30 · Demostración: formulario/hoja → Make → registro.
+- 18:30–18:41 · Teoría: interpretación con IA, contexto, conexiones y aceptación.
+- 18:41–19:05 · Demostración: tres aplicaciones, IA en Make y excepción.
 - 19:05–19:15 · Teoría: copilotos, flujos y agentes.
 - 19:15–19:25 · Descanso.
 - 19:25–19:45 · Demostración: Codex/ChatGPT y contraste con Cowork.

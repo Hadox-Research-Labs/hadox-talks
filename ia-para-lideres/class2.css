@@ -40,3 +40,36 @@
 #slideZoom{display:inline-flex;align-items:center;min-height:44px;font-size:14px;margin-top:6px}
 .print-sheet{aspect-ratio:1672/941}
 @media print{.print-sheet,.print-sheet .lesson-visual.image-slide{height:100vh;width:100vw}.print-sheet img{object-fit:contain}}
+
+/* Chapter transitions: real slides, deliberately quieter than demonstrations. */
+#nativeSlide{container-type:inline-size}
+#screen .lesson-visual.section-slide,.print-sheet .lesson-visual.section-slide{box-sizing:border-box;padding:4.5cqw 5.5cqw;height:100%;min-height:0;aspect-ratio:1672/941;display:flex;flex-direction:column;background:#082638;color:#f5f3ed;gap:0;overflow:hidden}
+.section-kicker{margin:0;display:flex;justify-content:space-between;font-size:1.2cqw;letter-spacing:.16em;color:#d1e2e5}
+.section-heading{display:flex;align-items:center;gap:4cqw;flex:1}
+.section-number{font-size:14cqw;line-height:1;font-weight:700;color:#22c8cc;letter-spacing:-.08em}
+#screen .section-heading h2,.print-sheet .section-heading h2{font-size:5.7cqw;line-height:1.04;letter-spacing:-.035em;color:inherit;margin:0 0 1.7cqw;max-width:68cqw}
+.section-heading p{font-size:2cqw;line-height:1.35;margin:0;max-width:65cqw;color:#e3eced}
+.section-outcomes{display:flex;gap:4cqw;padding:2.5cqw 0;border-top:1px solid #49707a}
+.section-outcomes p{font-size:1.7cqw;line-height:1.45;width:50%;margin:0}
+.section-slide footer{margin:0;padding:0;border:0;display:flex;justify-content:space-between;font-size:1cqw;letter-spacing:.1em;color:#c4d5db}
+.section-nav{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0}
+.section-nav button{min-height:48px;border:1px solid #aac3c9;border-radius:3px;background:#fff;color:#123344;padding:10px 14px;font-weight:600;text-align:left}
+.section-nav button span{color:#137b82;margin-right:6px}
+.section-nav button[aria-current="true"]{background:#082638;color:#fff;border-color:#082638}
+.section-nav button[aria-current="true"] span{color:#5fe2df}
+#outline .outline-divider button{background:#e6f1f1;border-top:2px solid #16858a;font-weight:700}
+#outline .outline-divider button[aria-current="true"]{background:#082638;color:#fff}
+#installationGuide{font-weight:700;text-decoration-thickness:2px}
+[hidden]{display:none!important}
+#screen:not(:fullscreen) .lesson-visual.section-slide .section-kicker{font-size:1.2cqw;line-height:1.4}
+#screen:not(:fullscreen) .lesson-visual.section-slide .section-heading p{font-size:2cqw;line-height:1.35}
+#screen:not(:fullscreen) .lesson-visual.section-slide .section-outcomes p{font-size:1.7cqw;line-height:1.45}
+.print-sheet{container-type:inline-size}
+.installation-page{max-width:1000px;margin:auto;padding:40px 24px}
+.installation-page h1{font-size:clamp(36px,6vw,64px);line-height:1.05;max-width:850px}
+.installation-page .c2-document{padding:24px 0;min-width:0}
+.installation-page .c2-document a{overflow-wrap:anywhere}
+.installation-summary{display:grid;grid-template-columns:1fr 1fr;gap:32px;border-top:2px solid #147f86;border-bottom:1px solid #b9ced0;margin:32px 0;padding:24px 0}
+.installation-summary h2{margin:0 0 12px;font-size:24px}
+.installation-summary p{margin:0;line-height:1.65}
+@media(max-width:600px){.section-nav{display:grid;grid-template-columns:1fr 1fr}.section-nav button{font-size:13px}.installation-summary{grid-template-columns:1fr}.section-slide footer{display:flex}}

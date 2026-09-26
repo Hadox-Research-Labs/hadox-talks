@@ -1,10 +1,10 @@
-# Clase 2 · Automatización, copilotos y agentes
+# Clase 2 · Discurso y transiciones
 
-Versión de ensayo · 25 septiembre 2026 · Edgar Valdés
+16 láminas · 4 bloques · 150 minutos.
 
-## 1. De una oportunidad a trabajo organizado
+## 01 · De una oportunidad a trabajo organizado
 
-18:00–18:03 · TEORÍA 1
+18:00–18:03 · 3 min
 
 La clase pasada vimos cómo cambia una respuesta cuando la herramienta dispone de contexto. Después propusimos investigar, compartir fuentes y preparar una oportunidad para Nexo. Hoy vamos a mirar qué trabajo hay entre encontrar una idea y llegar a una reunión bien preparada.
 
@@ -12,9 +12,19 @@ Imaginen que diez personas del comité encuentran oportunidades. Una llega por m
 
 Vamos a alternar explicación y demostración. Yo haré los recorridos y les mostraré tanto la configuración como el resultado. Ustedes observarán qué ocurre y podrán preguntar. Después repetirán las demostraciones como tarea y las adaptarán a una oportunidad diferente. Aprenderemos primero a usar las herramientas y después a decidir dónde tendrían sentido en una empresa.
 
-## 2. Automatizar es acordar un recorrido
+## 02 · Automatización
 
-18:03–18:08 · TEORÍA 1
+18:03–18:04 · 1 min
+
+Ahora entramos al bloque 1: Automatización. Del trabajo repetitivo a un recorrido claro.
+
+Verás: una entrada que llega a su registro. Decidirás: qué tarea vale la pena automatizar. Primero explico la idea y después la muestro en la herramienta.
+
+## 03 · Automatizar es acordar un recorrido
+
+18:04–18:14 · 10 min
+
+Automatizar es acordar un recorrido.
 
 Automatizar significa que un sistema ejecuta un recorrido definido cuando sucede algo. Un disparador inicia el trabajo: llega una respuesta a un formulario o aparece una fila nueva. La entrada es la información que recibe. Las reglas describen condiciones, las acciones hacen el trabajo y la salida es lo que otra persona necesita.
 
@@ -24,9 +34,7 @@ Conviene separar la tarea del proceso. Copiar una nota es una tarea. Investigar,
 
 Pensemos en su trabajo: ¿qué información vuelve a copiar alguien cada semana? Escuchemos un ejemplo. Para describirlo necesitamos un inicio, una entrada y una salida que podamos reconocer, incluso antes de elegir software.
 
-## 3. Elegir una tarea que valga la pena
-
-18:08–18:12 · TEORÍA 1
+Elegir una tarea que valga la pena.
 
 La primera decisión de un líder es elegir un trabajo que merezca el esfuerzo. Una tarea frecuente, con datos accesibles y una salida clara, suele ser un buen punto de partida para aprender. Si nadie sabe qué debe pasar, automatizar sólo vuelve más rápida la confusión.
 
@@ -36,9 +44,11 @@ También debemos mirar el paso siguiente. Si la tabla crece pero nadie revisa la
 
 Veamos el recorrido funcionando. Voy a empezar con una transferencia sencilla para que podamos reconocer qué hace cada pieza.
 
-## 4. Make: conectar una entrada con una salida
+## 04 · Make: conectar, ejecutar y comprobar
 
-18:12–18:20 · DEMOSTRACIÓN
+18:14–18:30 · 16 min
+
+Make: conectar una entrada con una salida.
 
 Voy a abrir dos pestañas: nuestra hoja y el escenario de Make. La hoja tiene una pestaña de entrada y otra de registro. El formulario alimenta la entrada; para ensayar también podemos añadir una fila directamente. La segunda pestaña es donde veremos el resultado de la automatización.
 
@@ -48,9 +58,7 @@ Ahora agrego la acción de añadir una fila en la pestaña de registro. Relacion
 
 Guardo el escenario y miro el recorrido completo. Antes de ejecutarlo, ¿en qué pestaña esperan ver aparecer la nueva fila?
 
-## 5. Ejecutar, mirar y volver a ejecutar
-
-18:20–18:30 · DEMOSTRACIÓN
+Ejecutar, mirar y volver a ejecutar.
 
 Introduzco la primera nota y ejecuto Run once. Abrimos la salida del primer módulo: ésta es la información que Make recibió. Después abrimos el módulo que escribe. Finalmente miramos la hoja. Las tres observaciones nos permiten seguir el mismo dato, desde que entra hasta que queda registrado.
 
@@ -60,9 +68,19 @@ Ahora envío una segunda oportunidad. Queremos comprobar que el recorrido vuelve
 
 Como líderes, lo relevante es que podamos describir qué se hizo y mostrar una salida útil. Ya tenemos automatización. En el siguiente bloque veremos qué cambia cuando la entrada necesita interpretación.
 
-## 6. Una regla mueve datos; la IA interpreta
+## 05 · IA en el flujo
 
-18:30–18:36 · TEORÍA 2
+18:30–18:31 · 1 min
+
+Ahora entramos al bloque 2: IA en el flujo. Cuando mover datos ya no es suficiente.
+
+Verás: tres chats y una interpretación dentro de Make. Decidirás: qué debe cumplir una respuesta útil. Primero explico la idea y después la muestro en la herramienta.
+
+## 06 · Una regla mueve datos; la IA interpreta
+
+18:31–18:41 · 10 min
+
+Una regla mueve datos; la IA interpreta.
 
 Nuestra automatización ya funciona, pero la nota sigue siendo un párrafo. Para preparar el comité queremos una síntesis: qué idea apareció, con qué servicio podría relacionarse y qué debemos preguntar. Aquí interviene una capacidad de interpretación.
 
@@ -72,9 +90,7 @@ El resultado de la IA no debe reemplazar la nota original. Guardamos ambos porqu
 
 Como líderes, decidimos dónde merece la pena incorporar interpretación y qué evidencia necesitaremos para aceptarla. No estamos obligados a añadir IA en todos los pasos: elegimos el paso donde mejora el trabajo.
 
-## 7. Un encargo que otra herramienta puede ejecutar
-
-18:36–18:42 · TEORÍA 2
+Un encargo que otra herramienta puede ejecutar.
 
 Un encargo útil describe el resultado y la información disponible. En nuestro caso, el modelo recibe el catálogo de Nexo y una nota. Le pedimos una oportunidad resumida, un posible encaje, preguntas y un siguiente paso. Si no hay evidencia suficiente, queremos que lo haga visible.
 
@@ -84,9 +100,11 @@ También distinguimos las vías de acceso. Usar Gemini, ChatGPT o Claude en el n
 
 Vamos a probar el encargo en las aplicaciones y luego lo incorporaremos al recorrido. Primero entendemos el comportamiento que buscamos; después lo conectamos.
 
-## 8. El mismo trabajo en tres aplicaciones
+## 07 · Tres chats → IA en Make → prueba de excepción
 
-18:42–18:50 · DEMOSTRACIÓN
+18:41–19:05 · 24 min
+
+El mismo trabajo en tres aplicaciones.
 
 Tengo preparadas las tres aplicaciones. Voy a usar el mismo encargo y los mismos documentos, empezando en conversaciones nuevas. Primero muestro dónde se adjunta el contexto o cómo se pega el texto cuando una cuenta no permite adjuntar. Después envío el encargo y observamos la salida.
 
@@ -96,9 +114,7 @@ Conservo una respuesta por aplicación y anoto qué tuve que aclarar. En Gemini 
 
 En la tarea podrán repetir esta comparación con sus cuentas. Si aparece un límite de uso, documentarán cuál y continuarán con otra opción disponible.
 
-## 9. Añadir interpretación al flujo
-
-18:50–19:00 · DEMOSTRACIÓN
+Añadir interpretación al flujo.
 
 Regresamos al escenario. Entre la entrada y el registro añado Make AI Toolkit con Simple Text Prompt. Usaremos el proveedor integrado disponible en la cuenta, por lo que esta demostración no depende de configurar tres claves de API.
 
@@ -108,9 +124,7 @@ Conservo las columnas originales y llevo la respuesta del modelo a la columna S�
 
 Observen lo que hemos conseguido: la misma información entra una vez, se conserva y recibe un primer tratamiento. El comité sigue decidiendo qué oportunidad merece atención. El tiempo total, la utilidad del resumen y la revisión necesaria serán mejores medidas que contar cuántas palabras produjo el modelo.
 
-## 10. Una entrada incompleta también tiene salida
-
-19:00–19:05 · DEMOSTRACIÓN
+Una entrada incompleta también tiene salida.
 
 Voy a enviar una nota deliberadamente vaga. La automatización puede funcionar desde el punto de vista técnico y aun así producir una ficha poco útil. Observemos si la respuesta reconoce qué información falta o inventa una oportunidad específica.
 
@@ -118,9 +132,19 @@ La corrección consiste en mejorar el encargo y repetir con una nueva fila. Si e
 
 Aquí aparece una responsabilidad de liderazgo: definir qué resultado permite continuar y cuál debe esperar. Esa decisión se puede traducir después a una regla o una aprobación. Pasar estas pruebas nos permite seguir aprendiendo; todavía no demuestra que el proceso esté listo para cualquier entrada.
 
-## 11. El nombre del producto no explica su autonomía
+## 08 · Copilotos y agentes
 
-19:05–19:10 · TEORÍA 3
+19:05–19:06 · 1 min
+
+Ahora entramos al bloque 3: Copilotos y agentes. De pedir una respuesta a delegar un trabajo.
+
+Verás: un agente que crea y revisa archivos. Decidirás: cuánto puede hacer y cuándo consultar. Primero explico la idea y después la muestro en la herramienta.
+
+## 09 · Copilotos y agentes: quién decide el siguiente paso
+
+19:06–19:15 · 9 min
+
+El nombre del producto no explica su autonomía.
 
 Encontrarán la palabra copiloto en muchas propuestas comerciales. Sirve para describir una experiencia de asistencia, pero no nos dice cómo está construido el sistema. Una misma aplicación puede conversar, ejecutar un flujo y poner en marcha agentes.
 
@@ -130,9 +154,7 @@ Son capacidades que pueden combinarse. Un flujo puede llamar a un agente para re
 
 Como líderes, conviene pedir una descripción del comportamiento: qué recibe, qué decisiones toma y qué hace cuando no puede terminar. Esa explicación resulta más útil que aceptar una etiqueta comercial.
 
-## 12. Un agente trabaja en un ciclo
-
-19:10–19:15 · TEORÍA 3
+Un agente trabaja en un ciclo.
 
 Un agente necesita un objetivo y medios para trabajar. Puede decidir una acción, utilizar una herramienta y observar lo que devolvió. Con esa observación decide cómo continuar. El recorrido se construye durante la ejecución dentro del alcance que le damos.
 
@@ -142,15 +164,17 @@ Autonomía y autoridad son diferentes. Un agente puede elegir cómo ordenar los 
 
 Después del descanso veremos un encargo completo sobre una carpeta. Miraremos acciones y archivos producidos; lo que la interfaz muestra es un registro de trabajo, no una ventana directa a todo el razonamiento interno del modelo.
 
-## 13. Descanso
+## 10 · Descanso
 
-19:15–19:25 · DESCANSO
+19:15–19:25 · 10 min
 
 Hacemos una pausa de diez minutos. Regresamos a las 19:25. No hay una actividad que completar durante el descanso.
 
-## 14. Codex: del encargo a los archivos
+## 11 · Codex: crear archivos y cambiar una condición
 
-19:25–19:37 · DEMOSTRACIÓN
+19:25–19:45 · 20 min
+
+Codex: del encargo a los archivos.
 
 Ahora voy a dar un objetivo completo. Abro la carpeta del ensayo en Codex o en la experiencia de trabajo disponible en ChatGPT. Allí están el contexto de Nexo, las notas y el encargo. Los archivos de salida irán a una subcarpeta para distinguir lo recibido de lo producido.
 
@@ -160,9 +184,7 @@ Mientras trabaja, señalo las acciones visibles. Leer el catálogo, crear un arc
 
 Al terminar abrimos los archivos. Comparamos lo solicitado con lo entregado: ¿está la propuesta?, ¿la agenda sirve para una reunión?, ¿los pendientes son concretos? Una respuesta que afirma haber creado archivos necesita archivos que podamos abrir. Ésta es la comprobación que hacemos como usuarios y como responsables del trabajo.
 
-## 15. Cambiar una condición y comparar
-
-19:37–19:45 · DEMOSTRACIÓN
+Cambiar una condición y comparar.
 
 El trabajo empresarial cambia durante su preparación. Voy a introducir una condición: la primera conversación durará veinte minutos y sólo abordará formación. El agente debe revisar la propuesta y la agenda sin inventar que el interlocutor ya aceptó esa condición. En el ejercicio es una restricción del comité para preparar su propia reunión.
 
@@ -172,9 +194,19 @@ Ahora muestro brevemente el mismo encargo en Claude Cowork, si está habilitado 
 
 Cowork requiere un plan compatible. Quienes no tengan acceso pueden repetir el trabajo de archivos con Codex si su cuenta lo permite. Un chat que devuelve texto es una alternativa de preparación de contenido, pero debe identificarse como tal: no demuestra ejecución sobre la carpeta.
 
-## 16. Las piezas que permiten trabajar al agente
+## 12 · OpenClaw e implementación
 
-19:45–19:49 · TEORÍA 4
+19:45–19:46 · 1 min
+
+Ahora entramos al bloque 4: OpenClaw e implementación. Hacerlo funcionar. Saber cómo sostenerlo.
+
+Verás: configuración, ejecución y cambio de objetivo. Decidirás: herramientas, permisos y responsables. Primero explico la idea y después la muestro en la herramienta.
+
+## 13 · Piezas, implementación y responsables
+
+19:46–19:57 · 11 min
+
+Las piezas que permiten trabajar al agente.
 
 La interfaz puede parecer una conversación, pero el agente reúne varias piezas. El modelo aporta capacidades de interpretación; las instrucciones orientan el trabajo; el contexto contiene la información disponible; las herramientas permiten operar; el entorno determina dónde ocurren esas acciones.
 
@@ -182,9 +214,7 @@ Memoria no significa que todo se recuerde siempre ni que cargar un archivo entre
 
 Como usuarios configuramos un objetivo y aportamos material. Como líderes decidimos qué información debe estar disponible, quién la mantiene y qué accesos corresponde conceder. Una instrucción escrita no sustituye un permiso técnico. Pedir que guarde archivos necesita una herramienta de escritura; pedir que envíe correos exige acceso a un servicio adicional.
 
-## 17. Comprar, configurar o desarrollar
-
-19:49–19:53 · TEORÍA 4
+Comprar, configurar o desarrollar.
 
 La elección tecnológica depende del trabajo que necesitamos sostener. Comprar una solución puede cubrir un proceso ya resuelto. Configurar permite adaptar herramientas existentes. Desarrollar se justifica cuando hay requisitos que las opciones disponibles no cubren suficientemente. Las tres rutas pueden convivir.
 
@@ -192,9 +222,7 @@ Hoy configuramos un flujo y utilizamos agentes existentes. Eso no demuestra que 
 
 Para comparar opciones, describamos el mismo resultado y preguntemos cuánto trabajo queda en nuestro equipo. ¿Quién prepara los datos? ¿Quién revisa? ¿Qué ocurre si cambia una conexión? ¿Podemos recuperar nuestros archivos? La decisión se toma con requisitos y evidencia, no por la cantidad de funciones que muestra una página de venta.
 
-## 18. Un encargo que el equipo puede implementar
-
-19:53–19:57 · TEORÍA 4
+Un encargo que el equipo puede implementar.
 
 No necesitamos crear un departamento antes de hacer una prueba, pero sí distribuir responsabilidades. El dueño del proceso define para qué sirve el resultado. El responsable de datos mantiene las fuentes. Tecnología habilita las conexiones. El revisor decide si la propuesta está lista para usarse. Una persona puede cubrir varias funciones si queda claro que las asume.
 
@@ -202,9 +230,11 @@ Un pedido concreto podría decir: queremos recibir notas del comité, conservar 
 
 Esto convierte lo aprendido como usuarios en una conversación de implementación. Ya podemos mostrar una entrada, una salida y una excepción. TI o un proveedor podrá discutir con nosotros el alcance y estimar el trabajo. Veamos ahora otra forma de configurar estas piezas: OpenClaw.
 
-## 19. OpenClaw: ver la configuración detrás del agente
+## 14 · OpenClaw: configurar, ejecutar y ajustar
 
-19:57–20:05 · DEMOSTRACIÓN
+19:57–20:17 · 20 min
+
+OpenClaw: ver la configuración detrás del agente.
 
 OpenClaw nos permite observar con más claridad cómo se configura un agente. Ya lo instalé y probé antes de la sesión. Voy a mostrar qué proveedor de modelos utiliza, en qué espacio trabaja y cuáles son las herramientas disponibles para este ejercicio. No necesitamos conectar un servicio de mensajería para empezar con el panel.
 
@@ -214,9 +244,7 @@ Para esta demostración usaremos los mismos documentos del caso en un espacio de
 
 No vamos a dedicar estos minutos a descargar dependencias. Quien quiera repetirlo tendrá la guía de preparación y deberá comprobar la primera respuesta antes de empezar el encargo. Ahora enfoquémonos en las piezas que hacen posible la ejecución.
 
-## 20. OpenClaw: ejecutar y ajustar el objetivo
-
-20:05–20:13 · DEMOSTRACIÓN
+OpenClaw: ejecutar y ajustar el objetivo.
 
 Envío el encargo. El agente debe leer el contexto de Nexo y la nota de oportunidad para crear un archivo de preguntas. Miramos qué acciones ejecuta y después abrimos el archivo. Si sólo responde en el chat, comprobamos si tenía herramienta y permiso de escritura; no damos por hecha la creación del documento.
 
@@ -226,9 +254,7 @@ Comparemos con el flujo de Make. Allí nosotros definimos los módulos y sus rel
 
 Como líderes, necesitamos saber dónde conviene cada forma de trabajo y qué resultado vamos a revisar. La demostración nos da una primera evidencia para discutirlo.
 
-## 21. Combinar capacidades sin perder el proceso
-
-20:13–20:17 · DEMOSTRACIÓN
+Combinar capacidades sin perder el proceso.
 
 Abrimos juntos la tabla y el expediente. Ésta es la cadena que hemos construido como experiencia de trabajo. En la demostración trasladamos los materiales entre herramientas de forma manual; no hemos conectado automáticamente Make con OpenClaw o Codex.
 
@@ -236,9 +262,9 @@ Ese paso manual puede ser suficiente para aprender y para un proceso de poco vol
 
 Ahora sí podemos elegir. Mantendríamos fijo el registro de la información y delegaríamos la preparación variable del expediente. La revisión comercial seguiría en el comité. Otra organización podría escoger una distribución distinta. Lo importante es explicar la elección con el trabajo que vimos, no con la marca que más nos gustó.
 
-## 22. Tu tarea: repetir y después transformar
+## 15 · Tu tarea: repetir y después transformar
 
-20:17–20:25 · TAREA
+20:17–20:25 · 8 min
 
 La tarea comienza repitiendo lo que yo hice. Tendrán el contexto, las notas, las instrucciones y la guía de construcción. Primero ejecutarán la automatización y conservarán una evidencia del registro. Después repetirán el encargo en las aplicaciones disponibles y realizarán una ejecución de agente que produzca archivos.
 
@@ -248,9 +274,9 @@ Compartan con un compañero una técnica que les sirvió o un problema que pudie
 
 No se evalúa pagar una herramienta. Cowork se puede sustituir por una ejecución equivalente en Codex u OpenClaw. Si ninguna ruta de agente está disponible, documenten el bloqueo y soliciten una repetición acompañada o en pareja; un texto producido por chat no se presenta como ejecución de archivos. Esta versión de la tarea está en revisión para el ensayo del docente; la fecha oficial se comunicará en Moodle.
 
-## 23. Ahora puedes pedir y dirigir ese trabajo
+## 16 · Ahora puedes pedir y dirigir ese trabajo
 
-20:25–20:30 · CIERRE
+20:25–20:30 · 5 min
 
 Hoy empezamos con algo sencillo: llevar información de un lugar a otro. Después añadimos interpretación y finalmente delegamos un trabajo de varios pasos. Vimos que una aplicación, un flujo y un agente pueden participar en el mismo proceso con funciones distintas.
 
