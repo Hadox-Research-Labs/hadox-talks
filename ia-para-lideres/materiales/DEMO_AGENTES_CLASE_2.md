@@ -1,6 +1,6 @@
 # Guía de ensayo · exploración y propuesta con agentes
 
-La lámina 13 abre la demo 3 completa (25 minutos). El profesor explica durante la ejecución y abre los resultados. Las escenas ilustradas son ejemplos docentes, no registros de OpenClaw.
+La lámina 15 abre la demo 3 completa (25 minutos). El profesor explica durante la ejecución y abre los resultados. Las escenas ilustradas son ejemplos docentes, no registros de OpenClaw.
 
 ## Antes de abrir el agente
 1. Completa la prueba de lectura y escritura de PREPARACION_CLASE_2.

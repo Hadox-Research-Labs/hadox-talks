@@ -1,5 +1,6 @@
 "use strict";
 function class2Visual(s,base=''){
+ if(s.studio)return studioVisual(s,base);
  if(s.aula)return aulaVisual(s,base);
  if(s.red)return redVisual(s,base);
  if(s.divider)return `<article class="lesson-visual section-slide"><p class="section-kicker">CLASE 02 <span>CAPÍTULO ${String(s.block).padStart(2,'0')} / 04</span></p><div class="section-heading"><span class="section-number">${String(s.block).padStart(2,'0')}</span><div><h2>${escapeHTML(s.titulo)}</h2><p>${escapeHTML(s.subtitle)}</p></div></div><div class="section-outcomes">${s.outcomes.map(t=>`<p>${escapeHTML(t)}</p>`).join('')}</div><footer>HADOX TALKS · IA PARA LÍDERES <span>TEORÍA → DEMOSTRACIÓN</span></footer></article>`;

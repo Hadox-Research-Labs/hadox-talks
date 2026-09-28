@@ -1,133 +1,159 @@
-# Clase 2 · Discurso
+# Conocernos para construir juntos · Discurso
 
-## 1. Nuestro ejercicio: descubrir qué podemos hacer juntos
+## 1. Conocernos para construir juntos
 
-Hoy construiremos un sistema para conocernos mejor dentro del grupo y preparar mejores propuestas. El resultado concreto será un documento breve: qué queremos proponer al interlocutor que investigamos en la clase anterior, qué compañeros podrían contribuir, qué aportamos nosotros y qué falta confirmar.
+En la primera clase investigamos a una persona para preparar una conversación con fundamento. Hoy vamos a investigar otra parte del problema: nosotros mismos. ¿Qué capacidades hay en este grupo? ¿Qué queremos hacer con ellas? ¿Qué oportunidades aparecen cuando combinamos lo que sabemos?
 
-El sistema empieza con información de ustedes: experiencia, intereses actuales y condiciones para colaborar. Una automatización prepara fichas comparables. Cada persona revisa la suya antes de compartirla. Después cada integrante consulta el mismo directorio con un objetivo diferente. Finalmente un agente trabaja con esas fichas, el objetivo y la investigación del interlocutor para preparar una propuesta.
+La automatización nos ayudará a organizar información que llega dispersa. Los agentes nos permitirán delegar parte de la exploración y de la preparación de una propuesta. La conversación entre ustedes pondrá a prueba lo que la máquina haya interpretado. Vamos a estudiar los principios y después los veremos operar en tres demostraciones. La tarea será repetir ese recorrido con un interés propio y un cambio que obligue a reconsiderar el resultado.
 
-La conversación entre compañeros es parte del ejercicio: alguien puede corregir lo que su ficha parecía sugerir. Esa corrección debe cambiar el resultado. No basta con que la IA escriba una propuesta convincente.
+## 2. El resultado que vamos a construir
 
-Yo haré tres demostraciones completas. Ustedes repetirán ese recorrido como tarea con su información y un desafío: cambiar una condición relevante y explicar qué cambió en su propuesta. Durante el ensayo usaré perfiles ficticios. Ana será la persona que busca colaborar: sabe diseñar materiales de aprendizaje y quiere trabajar con un problema operativo. Cada compañero aparecerá cuando necesitemos su información.
+Pongamos primero el destino. Al terminar tendremos una propuesta breve para conversar con el interlocutor investigado en la clase anterior. No es un mensaje enviado ni una venta cerrada. Debe explicar un problema posible, una aportación que podemos sostener, las personas que podrían contribuir y las preguntas pendientes.
 
-## 2. Automatizar las fichas
+Para llegar ahí construiremos un directorio con fichas que cada persona revisa. Cada integrante lo consultará con su propio objetivo. Por ejemplo: quiero desarrollar una guía para un equipo operativo; puedo diseñar materiales, pero necesito entender el proceso que debería explicar. La IA puede ayudarme a localizar experiencia pertinente y a formular una invitación recíproca. La otra persona puede decirme que el problema es diferente o que no dispone del tiempo que imaginé.
 
-Primero resolveremos un problema de información y de proceso. Los documentos llegan con formatos distintos y no contienen todo lo que necesitamos saber. Tenemos que decidir qué conservar y qué preguntar. Después diseñaremos qué ocurre cada vez que entra un documento. Esta separación es fundamental: un buen flujo puede repetir miles de veces una mala representación. Antes de acelerar el trabajo, definimos qué significará un resultado correcto.
+Esa respuesta cambia la propuesta. Así entra la realidad en el sistema. El ejercicio tiene una parte automática, una parte de razonamiento delegado y una parte de conversación humana. Ninguna sustituye a las otras.
 
-## 3. Una ficha es una representación
+En las demostraciones usaré perfiles ficticios y la organización Nexo del caso. En su tarea ustedes compartirán fichas propias, revisadas, con el grupo; no necesitan publicar sus CV completos. Recuperarán la investigación real de clase 1 y conservarán la diferencia entre una oportunidad posible y una necesidad confirmada.
 
-Representar consiste en conservar ciertos aspectos de algo para poder trabajar con ellos. Un mapa conserva relaciones espaciales y omite muchísimos detalles del territorio. Nuestra ficha hace algo parecido con una trayectoria profesional. La pregunta relevante es qué debe conservar para el uso que le daremos.
+## 3. Automatización
 
-Si queremos encontrar colaboradores, no basta con extraer nombre, puesto y empresa. Debemos preguntar qué puede aportar la persona, qué quiere construir y qué necesita de otros. Esas variables determinan qué conexiones podrá encontrar después el sistema. Elegirlas ya es una decisión de dirección, aunque todavía no hayamos abierto ninguna herramienta.
+Antes de elegir una herramienta necesitamos responder dos preguntas distintas. Qué información conviene conservar y qué procedimiento seguirá esa información. La primera define nuestra representación. La segunda define el proceso. Si el esquema omite lo que importa, un flujo perfectamente ejecutado puede producir fichas inútiles. Empezaremos por el significado y después construiremos la repetición.
 
-Podemos escribirlo como una transformación: la ficha es una función del documento y del esquema que elegimos. Dos esquemas producen dos representaciones distintas del mismo documento. Además, un CV suele describir el pasado y puede decir poco sobre las intenciones actuales. Por eso añadimos información propia, declarada por la persona.
+## 4. Representar información es elegir qué conservar
 
-Toda selección pierde información. La solución práctica es conservar la fuente y permitir volver a ella. La ficha facilita una primera comparación; la evidencia original permite comprobarla. Antes de automatizar, preguntémonos qué decisión sería imposible con los campos que elegimos.
+Un modelo de información reduce la complejidad para permitir una operación. Un mapa conserva unas relaciones del territorio y descarta otras. Una ficha profesional hace lo mismo: selecciona variables para que podamos comparar, buscar y decidir. La reducción es útil precisamente porque no conserva todo. El problema es perder lo que necesitaremos después.
 
-Aquí entra otra distinción: extracción, inferencia y pregunta. Si Ana dice que diseñó materiales y facilitó talleres, podemos extraer esas actividades. Decir que dirigió un departamento añade un cargo sin respaldo. Proponer que podría ayudar con una inducción es una hipótesis que debemos consultar. Si no declara disponibilidad, dejamos el campo pendiente.
+Podemos escribir la representación como R igual a f de D y E: documento y esquema. El mismo documento produce representaciones distintas si cambia el esquema. Un directorio de cargos sirve para unas preguntas; un directorio de aportaciones, intereses y condiciones sirve para otras. Elegir las variables ya es una decisión de dirección.
 
-Podemos pensar la ficha como R igual a una transformación del documento y del esquema elegido. El esquema determina lo que el sistema podrá distinguir. Si omitimos intereses, personas con la misma experiencia parecerán intercambiables aunque quieran proyectos distintos. Si confundimos ausencia con cero, descartaremos personas por información que nunca solicitamos. Por eso conservamos fuentes, faltantes y posibilidad de corrección.
+Un CV describe principalmente experiencia pasada. No nos dice necesariamente qué quiere construir alguien hoy, qué está dispuesto a compartir o cuánto tiempo puede dedicar. Por eso añadimos una declaración de intención y condiciones. No le pedimos al modelo que adivine esas variables.
 
-## 4. Automatizar es definir qué ocurre después
+Aquí hay tres estados epistemológicos diferentes. Declarado: la fuente dice que diseñó materiales de inducción. Inferido: podría contribuir a una guía. No disponible: no sabemos su tiempo. Convertir la inferencia en un cargo o el faltante en disponibilidad produce una certeza falsa. El sistema debe conservar esas diferencias.
 
-Una automatización relaciona un evento con acciones y condiciones. Llega un archivo, obtenemos su contenido, transformamos ese contenido y registramos un resultado. El proceso puede incluir un modelo de lenguaje, pero la secuencia de pasos la hemos definido nosotros.
+La fuente original permite comprobar y corregir la reducción. En el ejercicio, cada persona revisa su ficha antes de compartirla. La calidad no consiste en que todas las casillas estén llenas: consiste en que podamos distinguir lo que sabemos, lo que suponemos y lo que necesitamos preguntar.
 
-Conviene distinguir evento, estado y regla. El evento es que llegó un documento. El estado puede ser recibido, borrador, pendiente o vigente. La regla indica qué transición permitimos: por ejemplo, un borrador pasa a vigente después de la revisión de su propietario. Publicar automáticamente todo lo que produce el modelo sería otra regla, con consecuencias distintas.
+## 5. Un flujo es una regla de transición
 
-La extracción puede fallar porque el archivo es ilegible. También puede funcionar técnicamente y producir una interpretación incorrecta. Son problemas diferentes. El primero requiere recuperar una entrada legible; el segundo exige revisar el contenido. Si no definimos esas rutas, el caso excepcional termina convertido en trabajo invisible para alguien.
+Una automatización relaciona eventos, estados y acciones. Un evento sucede: llega un archivo. El sistema tiene un estado: recibido, borrador, pendiente o vigente. Una regla decide qué puede ocurrir después. La fórmula del diagrama es conceptual: el estado siguiente depende del estado actual y del evento que observamos.
 
-La lámina describe el proceso completo que queremos dirigir. En la demostración, Make preparará el borrador y la publicación seguirá siendo una decisión humana. Esa frontera es parte del diseño: tener un paso manual no impide automatizar el resto.
+En nuestro caso, recibir un archivo inicia extracción y organización. El resultado es un borrador. Para convertirlo en una ficha compartida exigimos revisión. Esa transición tiene un responsable. El sistema no debería tratar borrador y vigente como equivalentes.
 
-El modelo de lenguaje puede producir una extracción diferente al repetir la misma entrada. El flujo sigue siendo predefinido aunque una de sus transformaciones sea probabilística. No debemos confundir orden de ejecución con exactitud del contenido.
+Puede haber IA dentro de una secuencia predefinida. El hecho de que un modelo redacte una ficha no vuelve agente al conjunto. Tampoco vuelve correcta la ficha. El flujo puede terminar técnicamente y conservar una afirmación falsa. Por eso distinguimos éxito de ejecución y aceptación del contenido.
 
-También necesitamos memoria del proceso: identidad del documento, versión y estado. Si el archivo se recibe dos veces, no queremos dos personas nuevas. Si alguien actualiza su perfil, queremos una versión vigente. Reintentar una operación debe evitar duplicar sus efectos; esta propiedad se llama idempotencia. En nuestro prototipo, la revisión y publicación manual mantienen ese control. Una implementación posterior tendría que convertirlo en reglas y registro persistente.
+Ahora imaginemos una interrupción. Reintentamos y llega el mismo documento otra vez. Queremos repetir la operación sin duplicar a la persona: ésa es la idea de idempotencia. Si llega una corrección, debemos reconocer la identidad, conservar la trazabilidad y publicar la versión vigente. En el prototipo resolveremos parte de ese control con revisión humana explícita; automatizarlo completamente exige reglas y almacenamiento adicionales.
 
-La decisión de liderazgo es identificar quién responde por cada transición y qué ocurre cuando falla. Un archivo ilegible queda pendiente; una ficha sin autorización no se publica. Automatizar incluye esas rutas, además del caso que funciona.
+Un archivo ilegible debe tomar una ruta de excepción. Dejarlo pendiente, registrar el motivo y pedir otra fuente es un resultado controlado. El trabajo de dirección consiste en definir esos resultados y quién responde por ellos, además de describir el camino ideal.
 
-## 5. Demo 1 · construir el directorio
+## 6. Demo 1 · del documento al directorio
 
-Ahora salgo a Make. Tomaré un perfil ficticio y su intención actual, ejecutaré el flujo y abriré el borrador generado. Compararé lo que dice con el documento original, corregiré una afirmación si hace falta y mostraré cómo se publica la ficha revisada en el directorio. También mostraré qué ocurre con un faltante o un archivo repetido. Esta es la primera parte que repetirán con su propia información. El directorio compartido será la entrada de la siguiente demostración.
+Voy a salir de las láminas y construir este recorrido en Make. El perfil de ensayo es de Ana: ha diseñado materiales de inducción y quiere colaborar en un problema operativo. Su documento aparecerá en pantalla antes de pedirle a la IA que lo interprete.
 
-## 6. Encontrar colaboradores
+Mostraré la entrada, la ficha generada y la comparación con la fuente. Revisaré un faltante y explicaré la publicación de la ficha. Después mostraré cómo tratamos una repetición o corrección. La salida que vamos a conservar es el directorio revisado. Será la entrada de la siguiente demostración. Ustedes repetirán esta parte con su información y compartirán sólo lo que hayan autorizado.
 
-Ahora ya tenemos información comparable. Pero un directorio no sabe por sí mismo qué conexión nos conviene. La recomendación depende de una pregunta y de condiciones concretas. Vamos a distinguir semejanza, complementariedad y posibilidad real de colaborar. Después usaremos exactamente las mismas fuentes y el mismo objetivo en tres herramientas para poder discutir sus diferencias.
+## 7. Conexiones
 
-## 7. Una conexión depende del objetivo
+Ya tenemos un directorio, pero todavía no una colaboración. La relación entre dos personas depende de lo que buscan construir. Cambiaremos de pregunta sin cambiar los perfiles, para observar esa dependencia. Después veremos por qué una recomendación necesita una conversación antes de convertirse en un compromiso.
 
-Una conexión útil es una relación entre personas y un objetivo, no una propiedad fija de una persona. Con los mismos perfiles podemos obtener recomendaciones distintas cuando cambia lo que buscamos.
+## 8. La conexión depende de la pregunta
 
-Ana diseña materiales de aprendizaje. Si busca discutir cómo evaluar un taller, Clara puede ser pertinente porque tiene experiencia en evaluación. Eso es afinidad. Si Ana busca entender un relevo operativo para preparar una guía, Bruno aporta conocimiento que ella no tiene. Eso es complementariedad. Ninguna relación demuestra todavía que puedan trabajar juntos: necesitan interés, tiempo y autorización para usar la información.
+Una red no es solamente una lista de personas: incluye relaciones. Y una relación de colaboración no significa lo mismo bajo cualquier objetivo. En el dibujo mantenemos a las mismas personas y cambiamos la pregunta. Las conexiones relevantes cambian aunque nadie haya modificado su trayectoria.
 
-Podemos expresar la recomendación como una función de los perfiles, el objetivo y las restricciones. Antes de ordenar candidatos, conviene aplicar condiciones de viabilidad: por ejemplo, si el trabajo debe ser remoto. Después comparamos aportaciones. No necesitamos inventar porcentajes de compatibilidad; necesitamos una justificación que podamos discutir y una pregunta que resuelva lo desconocido.
+Para diseñar y evaluar un taller puede servir la afinidad entre aprendizaje y evaluación. Para explicar un proceso, quien diseña materiales necesita a alguien que conoce la operación. Esa complementariedad combina aportaciones distintas. Ninguna de las dos garantiza por sí misma que exista un proyecto viable.
 
-El criterio de Ana será: quiero preparar una guía breve para equipos de operación; busco experiencia en procesos y puedo aportar diseño de materiales. Pediremos evidencia, un aporte recíproco y una pregunta pendiente para cada conexión. Cuando hable con Bruno podrá descubrir que primero hace falta documentar el proceso. La conversación modifica el problema, no sólo confirma un nombre.
+La recomendación depende de perfiles, objetivo y restricciones. Conviene separar condiciones indispensables de preferencias. Si el proyecto requiere trabajo remoto y una persona sólo puede participar presencialmente, la restricción pesa antes de cualquier semejanza temática. Si la disponibilidad no está declarada, la salida es una pregunta; no una exclusión automática ni un tiempo inventado.
 
-## 8. Demo 2 · encontrar con quién colaborar
+También hay una dimensión recíproca. ¿Por qué le interesaría a la otra persona colaborar conmigo? La consulta debe describir lo que busco y lo que ofrezco. El resultado útil incluye una razón respaldada y una pregunta concreta que abra conversación.
 
-Usaré el mismo directorio y el mismo criterio en las tres herramientas. No elegiré por lo elegante de la redacción: buscaré qué fuente respalda la conexión, qué supone y qué pregunta propone. Después mostraré cómo repetir esa consulta mediante el segundo flujo de Make cuando entra un nuevo criterio.
+En la práctica compararemos Gemini, ChatGPT y Claude con los mismos datos y criterio. Observaremos las razones, los faltantes y las diferencias. No atribuiremos calidad a una marca por una sola respuesta. Finalmente cambiaremos el criterio: el sistema tiene que poder explicar por qué su recomendación cambia o se mantiene.
 
-El resultado será una nota que pueda usar para iniciar una conversación: me interesa este problema, vi que tienes esta experiencia, yo podría aportar esto y quisiera preguntarte aquello. Mostraré una respuesta ficticia de Bruno, identificada como tal, para enseñar cómo incorporar una corrección. En la tarea ustedes conversarán con personas reales del grupo. Finalmente cambiaré una condición y compararé ambas recomendaciones.
+## 9. Demo 2 · una búsqueda con propósito propio
 
-## 9. Descanso
+Ahora consultaré el directorio como alguien que quiere preparar una guía para equipos operativos y puede aportar diseño de materiales. Abriré los perfiles relevantes al leer sus nombres: Bruno conoce procesos; Clara ha trabajado en evaluación de talleres. Nadie será un personaje que tengamos que recordar de una historia anterior.
 
-Tomamos diez minutos. Piensen en un objetivo propio: qué les gustaría construir, qué pueden aportar y qué necesitan de otra persona. Esa formulación será la entrada de su tarea. Al volver veremos qué cambia cuando el sistema puede elegir sus siguientes acciones para alcanzar un objetivo.
+Enviaré la misma consulta a Gemini, ChatGPT y Claude. Compararé qué fuente citan, qué suponen y qué preguntan. Después ejecutaré el segundo flujo de Make para repetir esa consulta a partir de un criterio recibido.
 
-## 10. Delegar una propuesta
+Con una recomendación prepararé una pregunta recíproca. Mostraré una respuesta ficticia de ensayo: antes de capacitar hace falta documentar el proceso. Esa información obliga a revisar el objetivo. En su tarea la respuesta vendrá de sus compañeros reales. Cambiaré una condición y conservaré ambas salidas para que podamos observar la diferencia.
 
-Hasta ahora definimos el recorrido: recibir, extraer, consultar y registrar. Ahora delegaremos un objetivo y permitiremos que el sistema elija parte de los pasos. Esa es la distinción que nos interesa estudiar.
+## 10. Descanso
 
-Copiloto describe una relación de asistencia: la persona conduce el trabajo y solicita ayuda. Una automatización sigue transiciones que diseñamos de antemano. Un agente puede seleccionar acciones según lo que observa, revisar resultados y decidir cómo continuar. Las herramientas actuales pueden combinar estas formas de trabajo; no son tres categorías fijas de productos.
+Tomamos diez minutos. Quédense con estas dos preguntas: qué quieren construir y qué pueden aportar. Al volver delegaremos al agente la preparación de una propuesta, usando los perfiles, el objetivo y la investigación de clase 1.
 
-La pregunta útil es quién decide el siguiente paso, con qué información y bajo qué límites. Al delegar más decisiones tenemos que definir mejor la meta, las condiciones de aceptación y la autoridad.
+## 11. Agentes
 
-## 11. El ciclo del agente
+En los flujos anteriores definimos el recorrido de antemano. Ahora permitiremos que el sistema elija parte de sus acciones para alcanzar una meta. Para dirigir ese trabajo tenemos que entender qué observa, cómo decide, qué puede hacer y cómo sabe cuándo detenerse.
 
-Un agente trabaja en un ciclo. Observa información del entorno, elige una acción, usa una herramienta y vuelve a observar el resultado. Su siguiente paso puede depender de lo que acaba de ocurrir. Esa retroalimentación es la diferencia que nos interesa estudiar.
+## 12. Tres formas de organizar el trabajo
 
-Imaginemos que prepara una colaboración para Ana y encuentra que Clara tiene experiencia pertinente, pero no declaró disponibilidad. Puede consultar otro archivo autorizado. Si tampoco encuentra la respuesta, puede registrar la pregunta pendiente. La falta de información no se resuelve repitiendo indefinidamente la misma consulta ni inventando una condición conveniente.
+Copiloto es una manera de describir una relación de asistencia: la persona mantiene la conducción y pide ayuda en momentos concretos. No necesitamos imaginar una categoría de productos que sólo haga eso. Una misma herramienta puede responder una pregunta, participar en un flujo o ejecutar un trabajo con mayor autonomía.
 
-En términos de sistemas, el estado cambia después de cada acción y la decisión siguiente depende del estado observado. Pero el agente no observa todo el mundo: sólo aquello que sus herramientas y permisos hacen accesible. Por eso un razonamiento aparentemente completo puede estar apoyado en una observación incompleta.
+En un flujo, las transiciones relevantes fueron diseñadas previamente. Puede haber condiciones, ramas y modelos de lenguaje; no tiene por qué ser una línea simple. La distinción es que el procedimiento determina cómo avanzar.
 
-Necesitamos definir cuándo termina: por haber producido el resultado aceptable, por agotar un presupuesto de trabajo o por encontrar un bloqueo que requiere una persona. La lámina es un ejemplo conceptual. En la demostración veremos qué acciones ejecuta realmente la herramienta y abriremos los archivos que produzca.
+En un agente, el sistema selecciona acciones en función de un objetivo y de lo que observa. Puede decidir qué documento leer después, qué herramienta invocar o qué alternativa revisar. Esa selección no le concede autoridad ilimitada.
 
-Las instrucciones definen la tarea y las restricciones. El contexto aporta los perfiles y la investigación. Las herramientas permiten leer documentos o escribir archivos. El registro conserva qué hizo y con qué resultado. La evaluación compara ese resultado con la meta; sin ella podemos tener actividad que nunca converge.
+Pensemos en el mismo objetivo: preparar una propuesta. Con asistencia, yo llevo documentos y pido operaciones una por una. Con un flujo, defino etapas que se repiten. Con un agente, doy una meta, fuentes y herramientas, y permito que el sistema elija una parte del recorrido. En la práctica podemos combinarlos: un flujo prepara los datos, un agente explora y una persona autoriza el resultado.
 
-La retroalimentación no garantiza corrección. Si el agente usa la misma suposición equivocada para producir y evaluar, puede reforzar su error. Por eso pedimos comprobaciones externas: volver al perfil, señalar la fuente y consultar a la persona. También definimos condiciones de parada: información indispensable ausente, acción fuera de permiso o propuesta lista para revisión.
+La decisión depende de la variabilidad de la tarea y del control que necesitamos. Delegar más no es automáticamente mejor: puede introducir costo, dificultad para diagnosticar errores y acciones innecesarias. Primero definimos qué decisión merece delegarse.
 
-En nuestro caso el agente puede leer fichas, plantear equipos, escribir una propuesta y revisarla. Si Clara no declaró disponibilidad, el ciclo debe producir una pregunta pendiente. No debe inventar el dato para poder terminar. La incertidumbre es un resultado legítimo cuando queda localizada y explicada.
+## 13. El agente necesita un ciclo de evaluación
 
-## 12. Autoridad y pruebas de aceptación
+El agente funciona mediante un ciclo. Observa información, decide una acción, la ejecuta y comprueba el efecto. El resultado cambia lo que puede observar en la siguiente vuelta. La retroalimentación permite adaptar el recorrido; también puede propagar un error si la comprobación es deficiente.
 
-Autonomía es cuánto puede decidir durante el trabajo. Autoridad es qué consecuencias tiene permiso de producir. Un agente puede tener autonomía para explorar documentos sin autoridad para invitar a alguien, enviar un correo o comprometer recursos. Esa separación debe aparecer en las herramientas disponibles y en el encargo, además del texto del prompt.
+Las instrucciones describen meta y restricciones. El contexto contiene perfiles, criterio e investigación. Las herramientas determinan qué acciones son posibles: leer archivos, escribir borradores o consultar una fuente. El registro permite reconstruir qué se hizo. El modelo, por sí solo, no equivale a todo ese sistema.
 
-La aceptación observa conducta. No basta con leer una respuesta bien redactada. Quitaremos un dato para comprobar que mantiene el faltante; cambiaremos la disponibilidad para ver si revisa la propuesta; pediremos una acción no autorizada para ver si respeta la frontera. También debemos tratar las instrucciones incrustadas en documentos como contenido, no como órdenes que sustituyan el encargo.
+Debemos definir qué significa avanzar. Una propuesta más larga no necesariamente está mejor sustentada. Si faltaba disponibilidad y el agente produjo un párrafo adicional, no resolvió el problema. Una comprobación útil vuelve a la fuente, detecta el faltante y solicita aclaración.
 
-Una prueba registra entrada, comportamiento esperado, resultado observado y corrección. El material incluye diez casos para la prueba funcional PBS y una suma de disponibilidad para comprobar unidades. Los recorreré dentro de la demostración con entradas preparadas; no serán diez ejercicios nuevos. Para ustedes será la misma batería sobre su ejecución.
+Hay condiciones de parada distintas: tarea aceptable, evidencia insuficiente, acción fuera de permiso o límite de recursos. Detenerse con una pregunta localizada puede ser mejor resultado que seguir generando texto.
 
-Como líderes, decidimos quién revisa, quién autoriza y quién atiende excepciones. La calidad del sistema incluye ese reparto de responsabilidades.
+La analogía con un sistema de control ayuda: hay una meta, observaciones, acciones y una comparación. Pero la observación puede ser incompleta y la evaluación también puede equivocarse. Por eso incorporamos comprobaciones externas y revisión humana. En nuestro ejercicio, la respuesta de un compañero es nueva información que obliga a revisar la propuesta; es una realimentación desde el mundo y no sólo desde otro texto del modelo.
 
-## 13. Demo 3 · preparar y revisar una propuesta
+## 14. Autonomía, autoridad y aceptación
 
-Ahora entrego al agente una carpeta con el directorio revisado, el criterio de Ana y las fuentes de la investigación de clase 1. Usaremos también el catálogo ficticio de Nexo como límite de lo que la organización del ensayo puede ofrecer. Le pediré dos alternativas de colaboración y una propuesta breve para conversar con el interlocutor.
+Autonomía y autoridad responden a preguntas distintas. Autonomía: cuánto puede elegir el sistema durante su trabajo. Autoridad: qué consecuencias tiene permiso de producir. Podemos darle libertad para explorar alternativas sin darle permiso para comprometer a nadie ni enviar documentos.
 
-Observaré los documentos que consulta y comprobaré los archivos que guarda. Después incorporaré la respuesta ficticia de Bruno: antes de una capacitación necesita documentar el proceso. La propuesta deberá cambiar hacia una guía o un trabajo previo de documentación. No vamos a inventar una demanda de Juan José ni un compromiso de Bruno.
+Esa frontera debe aparecer en el encargo y en los accesos disponibles. Si una tarea sólo requiere leer perfiles y escribir borradores, no necesita herramientas de mensajería. Una carpeta seleccionada no equivale por sí misma a una barrera de seguridad; hay que revisar los permisos reales de la herramienta.
 
-Cambiaré una restricción, ejecutaré los casos de aceptación preparados y mostraré el contraste con Codex sobre la misma carpeta. Al final veremos una propuesta inicial, una revisada y las razones de la revisión. Éste es el resultado que repetirán con sus conversaciones reales. Si una fuente indispensable falta, la salida correcta debe identificarla y proponer la pregunta necesaria; no completar el hueco con una historia.
+La prueba de aceptación traduce expectativas en conducta observable. Preparamos una entrada, definimos qué esperamos, ejecutamos y comparamos. Quitamos un dato: debe conservar el faltante. Cambiamos el criterio: debe revisar la propuesta. Introducimos una instrucción dentro de un documento: debe tratarla como contenido de la fuente, no como una orden que sustituye el encargo.
 
-## 14. Cómo dirigir su implementación
+Los diez casos del material son una batería funcional del mismo sistema, no diez proyectos nuevos. Incluyen excepciones y un cálculo sencillo de disponibilidad que verificaremos con unidades. Una salida bien escrita no demuestra que se leyó una fuente, se guardó un archivo o se respetó un permiso. Abriremos las evidencias.
 
-Ya vimos funcionar el recorrido. Ahora podemos formular un encargo que otra persona pueda implementar. Debe identificar entrada, salida, reglas, excepciones, herramientas, cuentas, permisos y responsables. Decir queremos un agente para conectar personas no basta: necesitamos explicar qué información recibe y cómo sabremos que el resultado sirve.
+La pregunta de liderazgo es quién acepta el resultado y quién atiende los fallos. Sin esos responsables, la autonomía sólo desplaza el trabajo de revisión hacia alguien que no fue identificado.
 
-Comprar una solución existente puede reducir tiempo de puesta en marcha, pero debemos comprobar que admite nuestros datos y permisos. Configurar herramientas nos permite combinar componentes, a cambio de mantener las conexiones. Desarrollar tiene sentido cuando una necesidad relevante no está cubierta y podemos sostener su operación. La decisión depende del caso y sus restricciones; no de cuál opción suena más avanzada.
+## 15. Demo 3 · una propuesta que puede corregirse
 
-Nuestro prototipo tiene fronteras visibles: la persona revisa su ficha y se publica una versión; el traspaso hacia la carpeta del agente puede ser manual. Para convertirlo en un servicio continuo habría que resolver identidad, acceso, actualizaciones y atención a fallos. No debemos presentar un demo como si ya tuviera esa operación.
+Abriré OpenClaw con la carpeta del caso y un encargo claro. El agente podrá consultar perfiles, comparar aportaciones y escribir borradores. Recuperaremos la investigación verificada del interlocutor de clase 1 y el catálogo ficticio de Nexo, que limita lo que podemos ofrecer dentro del ensayo.
 
-El encargo de la tarea será breve, ligado al sistema que acabamos de construir. Al cambiar de interlocutor podemos conservar la estructura, pero debemos reemplazar y verificar su investigación. La siguiente clase preguntará si esa propuesta es viable: recursos, costos, capacidad y escenarios.
+Mostraré las fuentes y los archivos de salida. Elegiremos una alternativa y revisaremos si cada afirmación tiene respaldo. Después incorporaré la respuesta ficticia del compañero y cambiaré una condición. Abriremos las dos versiones para ver qué cambió y por qué.
 
-## 15. Tu tarea: repetir el sistema con tu grupo
+Haré un contraste con Codex sobre una copia de las mismas fuentes y recorreré la batería funcional preparada, incluyendo el cálculo. No necesitamos que todas las herramientas respondan igual; necesitamos observar su comportamiento frente al mismo encargo.
 
-La tarea consiste en repetir el sistema que acabo de demostrar con su información y un interés propio. Cada persona comparte una ficha revisada. Lee al menos dos fichas del grupo, obtiene recomendaciones con su criterio y conversa con esos compañeros, ofreciendo también algo concreto. Si no recibe una respuesta, registra que está pendiente.
+En la tarea, ustedes reemplazarán los perfiles de ensayo por las fichas autorizadas del grupo y la conversación ficticia por sus intercambios reales. El producto será una propuesta para revisar, no un envío automático al interlocutor.
 
-Con el agente prepara una propuesta para el interlocutor de clase 1 y la corrige con lo aprendido en las conversaciones. El desafío es cambiar una condición: el objetivo, la disponibilidad o la modalidad. Conserva ambas versiones y explica por qué cambió la propuesta. Cambiar sólo el nombre no cumple el desafío.
+## 16. Convertir el prototipo en un encargo
 
-La entrega será un documento breve con anexos de ejecución: ficha, conexiones, conversaciones y propuesta antes y después. Incluye la misma batería funcional y el cálculo que mostramos, más un encargo breve con decisión tecnológica y responsables. La guía organiza todo como un solo recorrido, con veinte puntos de evaluación. No se pide contactar al interlocutor externo. Si mañana lo sustituyéramos por otra persona, tendríamos que investigar de nuevo su contexto antes de reutilizar el método.
+Después de la demostración podemos distinguir un prototipo de un sistema en operación. El prototipo muestra que un recorrido es posible bajo ciertas condiciones. La operación debe sostenerlo cuando cambian usuarios, archivos, permisos y versiones.
+
+Comprar, configurar y desarrollar son alternativas con costos de operación diferentes. Comprar puede reducir el tiempo de inicio, pero debemos comprobar acceso, portabilidad y adecuación al proceso. Configurar permite combinar componentes, a cambio de mantener conexiones y excepciones. Desarrollar permite resolver requisitos propios y también crea responsabilidad de mantenimiento. La comparación empieza por una necesidad concreta, no por una preferencia por herramientas.
+
+Nuestro encargo describe el mismo sistema del grupo. Entradas: documentos e intención. Salidas: ficha, conexiones y propuesta revisada. Incluye cuentas, quién autoriza los datos, dónde se conserva la versión vigente y cómo pasa la información al agente. Si ese paso es manual, lo escribimos como manual. No prometemos una integración que no mostramos.
+
+Asignamos responsabilidades: cada integrante revisa su ficha; alguien administra el espacio compartido; una persona atiende fallos del flujo; quien presenta la propuesta verifica fuentes y compromisos. Definimos aceptación mediante los casos observados.
+
+Para justificar la inversión todavía faltan recursos, costos y escenarios. Ésa será la tercera clase. Hoy la decisión es si sabemos formular un trabajo suficientemente preciso como para implementarlo y verificarlo. El encargo de una página obliga a hacer explícitas las condiciones que el entusiasmo por el demo suele ocultar.
+
+## 17. La tarea: construir la red del grupo
+
+La tarea repite lo que yo he demostrado. Cada persona prepara su ficha y comparte una versión revisada. Consulta el directorio con su propio objetivo y conversa con al menos dos compañeros. La conversación debe ser recíproca: qué me interesa, qué puedo ofrecer y qué necesito preguntar. También respondemos a quienes se acerquen a nosotros.
+
+El agente prepara una propuesta con esas fichas y la investigación de clase 1. Ustedes verifican lo que afirma e incorporan lo aprendido al conversar. Si una respuesta sigue pendiente, así debe aparecer.
+
+El desafío consiste en cambiar una condición que importe: objetivo, disponibilidad o modalidad. Conservan la propuesta inicial y la revisada y explican la diferencia. Una variación de redacción o cambiar sólo el nombre no demuestra adaptación.
+
+La entrega reúne el recorrido en un documento con anexos: ficha, conexiones, conversación, propuestas, batería funcional y cálculo, más el encargo de implementación. La rúbrica conserva los cuatro criterios PBS: proceso y autoridad, pruebas, decisión tecnológica, responsables y encargo. Son veinte puntos. La participación y sus correcciones son evidencia del proceso y de las pruebas. Las cuentas y las instrucciones de instalación están en el material de preparación.
+
+## 18. ¿Y si cambiamos de interlocutor?
+
+Hoy organizamos información, encontramos conexiones y delegamos la preparación de una propuesta. El valor está en que podemos explicar cómo llegamos a ella y qué tendría que cambiar si aparece información nueva.
+
+Si sustituimos al interlocutor de clase 1 por otra persona, podemos conservar el directorio y buena parte del procedimiento. Pero debemos volver a investigar su contexto, revisar la pertinencia de nuestra aportación y comprobar los supuestos. Reutilizar el método no significa reciclar una promesa cambiando el nombre.
+
+La siguiente pregunta es económica y operativa: cuánto tiempo exige, qué recursos consume, qué beneficio esperamos y bajo qué escenario deja de convenir. En la tercera clase construiremos esa evaluación. Por ahora, el grupo tiene una tarea concreta: convertir lo que sabe de sus propios integrantes en una propuesta que se pueda discutir y corregir.

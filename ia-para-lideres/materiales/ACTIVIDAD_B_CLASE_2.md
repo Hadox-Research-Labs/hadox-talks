@@ -1,27 +1,29 @@
-# Actividad B · conocer al grupo y preparar una propuesta
+# Actividad B · construir la red del grupo
 
-Individual · 20 puntos. Repite las tres demostraciones del profesor con tu información. PBS comunica fecha y espacio de entrega.
+Individual · 20 puntos. El profesor demuestra y tú repites el mismo recorrido con un objetivo propio. PBS comunica fecha y espacio de entrega.
 
-## El ejercicio
-1. Prepara tu CV o semblanza y añade qué buscas, qué aportas y tus condiciones actuales. Repite Make A, revisa la ficha y comparte sólo la versión que autorizas. No es necesario publicar el CV original.
-2. Lee las fichas de dos compañeros. Consulta el directorio con un objetivo propio, compara Gemini, ChatGPT y Claude y repite Make B. Conserva evidencia, hipótesis y preguntas pendientes.
-3. Conversa con ambos compañeros: explica qué te interesa, qué puedes aportar y qué necesitas preguntar. Responde también a las consultas recibidas. Incorpora sus correcciones; no inventes respuestas pendientes.
-4. Repite el trabajo del agente con perfiles revisados, tu criterio y las fuentes de clase 1. Prepara una propuesta para ese interlocutor, indicando aportaciones posibles y aspectos por confirmar. Usa el catálogo Nexo como límite de la oferta del caso.
+## Repetir la práctica
+1. Prepara tu CV o semblanza y añade intención actual, aportación y condiciones. Ejecuta Make A, comprueba el borrador y comparte una ficha revisada. No es necesario publicar el CV original.
+2. Consulta el directorio con lo que buscas y lo que ofreces. Compara Gemini, ChatGPT y Claude con las mismas fuentes y repite Make B. Conserva razones, supuestos y faltantes.
+3. Lee las fichas de dos compañeros. Propón a cada uno una aportación recíproca y una pregunta concreta. Responde a quienes te consulten. Incorpora correcciones reales o registra respuesta pendiente.
+4. Usa el agente con perfiles revisados, criterio e investigación de clase 1. Prepara una propuesta para ese interlocutor dentro de las capacidades del caso Nexo. Distingue aportación posible, compromiso confirmado y pregunta pendiente.
 
-## El desafío
-Cambia una condición importante: objetivo, disponibilidad o modalidad. Obtén una segunda versión y explica qué decisión cambió, con qué evidencia y por qué. Cambiar sólo un nombre no basta. No se pide enviar la propuesta al interlocutor externo.
+## Desafío
+Cambia objetivo, disponibilidad o modalidad. Conserva las propuestas inicial y revisada y explica qué decisión cambió y con qué evidencia. No basta cambiar un nombre o pedir otra redacción. No se solicita contactar al interlocutor externo.
 
-## Una entrega, con anexos
-Entrega un documento breve que permita seguir el recorrido: tu objetivo y ficha; conexiones elegidas y conversaciones; propuesta inicial y revisada con explicación del cambio. Anexa evidencia de las tres demos repetidas, la batería de diez casos de PRUEBAS_RED y el cálculo de disponibilidad mostrados por el profesor. Identifica entrada, resultado esperado, observado y corrección; las referencias docentes no cuentan como ejecución propia.
+## Entrega
+Un documento breve que explique tu objetivo y el recorrido, con anexos verificables: ficha, consultas, conversaciones y propuestas antes/después. Incluye la batería de diez casos de PRUEBAS_RED y el cálculo de disponibilidad demostrados por el profesor. Para cada prueba registra entrada, resultado esperado, resultado observado y corrección.
 
-Cierra con un encargo de implementación de una página: qué comprarías, configurarías o desarrollarías y por qué; entradas, salidas, cuentas, datos, permisos, integración, excepciones, aceptación y responsables. Debe describir este mismo sistema.
+Cierra con un encargo de implementación de una página: entrada, salida, reglas, excepciones, cuentas, datos, permisos, integración, responsables y aceptación. Justifica comprar, configurar o desarrollar para este mismo sistema.
 
-## Rúbrica
-| Criterio | Máximo | Evidencia para obtenerlo |
-|---|---|---|
-| Automatización y calidad de información | 5 | Entrada, extracción, ficha revisada, registro y manejo de excepciones comprobables. |
-| Conexiones y participación | 5 | Criterio propio, comparación de herramientas, dos conversaciones recíprocas y correcciones o pendientes identificados. |
-| Agente, pruebas y desafío | 5 | Propuestas antes/después justificadas, diez casos, cálculo y autoridad respetada. |
-| Dirección e implementación | 5 | Decisión tecnológica razonada y encargo con cuentas, permisos, integración, responsables y aceptación. |
+Identifica herramienta y tarea delegada; no presentes salidas de referencia como ejecuciones propias. Si una cuenta o instalación bloquea una parte, registra el problema para resolver con el profesor cómo completarla.
 
-Por criterio: 5 completo y respaldado; 3 útil con omisión relevante; 1 descripción sin evidencia suficiente; 0 ausente. Si falta acceso a una herramienta, registra el bloqueo para acordar con el profesor cómo completar esa parte. No presentes salidas ajenas como propias.
+## Rúbrica PBS
+| Criterio | 5 puntos | 3 puntos | 1 punto | 0 puntos |
+|---|---|---|---|---|
+| Proceso y autoridad | Recorrido comprobable, revisión de ficha, conversación incorporada y límites de decisión claros | Recorrido útil con omisión relevante | Descripción sin evidencia suficiente | Ausente |
+| Pruebas | Diez casos, cálculo verificado y cambio de condición con explicación respaldada | Prueba parcial o corrección sin respaldo suficiente | Sólo salida normal sin contraste | Ausente |
+| Decisión tecnológica | Elección y alternativa justificadas por necesidad, cuentas, datos e integración | Elección razonada con condiciones incompletas | Preferencia de marca sin justificar | Ausente |
+| Responsables y encargo | Encargo ejecutable con responsables, permisos, aceptación y propuesta trazable | Encargo útil con responsabilidad pendiente | Propósito sin especificación operativa | Ausente |
+
+Cada criterio vale hasta cinco puntos. La conversación entre compañeros se observa en proceso y pruebas; no añade una actividad separada ni cambia la ponderación institucional.

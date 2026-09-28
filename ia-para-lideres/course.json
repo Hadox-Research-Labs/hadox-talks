@@ -1729,63 +1729,43 @@
   },
   {
     "id": 2,
-    "title": "Conocernos para proponer mejor",
-    "topics": "Automatización · colaboración · agentes · propuestas",
+    "title": "Conocernos para construir juntos",
+    "topics": "Automatización · conexiones · agentes y dirección",
     "slides": [
       {
         "numero": 1,
-        "titulo": "Nuestro ejercicio: descubrir qué podemos hacer juntos",
-        "minutes": 5,
+        "titulo": "Conocernos para construir juntos",
+        "minutes": 2,
         "block": 1,
-        "blockTitle": "Automatizar las fichas",
-        "tipo": "Teoría",
-        "aula": true,
+        "blockTitle": "Automatización",
+        "tipo": "Apertura",
+        "studio": true,
         "visual": {
-          "layout": "contract",
+          "layout": "cover",
           "body": [
-            "PUNTO DE PARTIDA|Tu CV cuenta tu experiencia. Tú añades qué buscas y qué puedes aportar hoy.",
-            "TRABAJO COMPARTIDO|Cada integrante publica una ficha revisada; el grupo construye un directorio.",
-            "USO PERSONAL|Con tu objetivo, la IA propone a quién conocer y qué podrían construir juntos.",
-            "RESULTADO|Una propuesta para el interlocutor de clase 1, corregida después de conversar."
+            "Automatización y agentes",
+            "IA PARA LÍDERES · CLASE 2",
+            "Edgar Valdés · PBS · 28 septiembre 2026"
           ]
         },
-        "narration": "Hoy construiremos un sistema para conocernos mejor dentro del grupo y preparar mejores propuestas. El resultado concreto será un documento breve: qué queremos proponer al interlocutor que investigamos en la clase anterior, qué compañeros podrían contribuir, qué aportamos nosotros y qué falta confirmar.\n\nEl sistema empieza con información de ustedes: experiencia, intereses actuales y condiciones para colaborar. Una automatización prepara fichas comparables. Cada persona revisa la suya antes de compartirla. Después cada integrante consulta el mismo directorio con un objetivo diferente. Finalmente un agente trabaja con esas fichas, el objetivo y la investigación del interlocutor para preparar una propuesta.\n\nLa conversación entre compañeros es parte del ejercicio: alguien puede corregir lo que su ficha parecía sugerir. Esa corrección debe cambiar el resultado. No basta con que la IA escriba una propuesta convincente.\n\nYo haré tres demostraciones completas. Ustedes repetirán ese recorrido como tarea con su información y un desafío: cambiar una condición relevante y explicar qué cambió en su propuesta. Durante el ensayo usaré perfiles ficticios. Ana será la persona que busca colaborar: sabe diseñar materiales de aprendizaje y quiere trabajar con un problema operativo. Cada compañero aparecerá cuando necesitemos su información.",
-        "question": "¿Qué querrías construir con otras personas de este grupo?",
+        "narration": "En la primera clase investigamos a una persona para preparar una conversación con fundamento. Hoy vamos a investigar otra parte del problema: nosotros mismos. ¿Qué capacidades hay en este grupo? ¿Qué queremos hacer con ellas? ¿Qué oportunidades aparecen cuando combinamos lo que sabemos?\n\nLa automatización nos ayudará a organizar información que llega dispersa. Los agentes nos permitirán delegar parte de la exploración y de la preparación de una propuesta. La conversación entre ustedes pondrá a prueba lo que la máquina haya interpretado. Vamos a estudiar los principios y después los veremos operar en tres demostraciones. La tarea será repetir ese recorrido con un interés propio y un cambio que obligue a reconsiderar el resultado.",
+        "question": "¿Qué podríamos construir juntos que solos nos costaría más?",
         "steps": [
-          "Explica el concepto con la información visible.",
-          "¿Qué querrías construir con otras personas de este grupo?"
+          "¿Qué podríamos construir juntos que solos nos costaría más?"
         ],
         "work": [],
-        "materials": [
-          "INVESTIGACION_INTERLOCUTOR.md",
-          "CONTEXTO_NEXO_C2.md"
-        ],
+        "materials": [],
         "sources": [],
         "extra": "",
-        "illustration": null,
-        "horario": "18:00–18:05",
+        "art": "cover",
+        "horario": "18:00–18:02",
         "runbook": {
-          "title": "Nuestro ejercicio: descubrir qué podemos hacer juntos",
-          "text": "¿Qué querrías construir con otras personas de este grupo?",
-          "actions": [
-            {
-              "kind": "download",
-              "file": "INVESTIGACION_INTERLOCUTOR.md",
-              "label": "INVESTIGACION INTERLOCUTOR"
-            },
-            {
-              "kind": "download",
-              "file": "CONTEXTO_NEXO_C2.md",
-              "label": "CONTEXTO NEXO C2"
-            }
-          ],
+          "title": "Conocernos para construir juntos",
+          "text": "¿Qué podríamos construir juntos que solos nos costaría más?",
+          "actions": [],
           "items": [
             {
-              "text": "Explica el concepto con la información visible.",
-              "actions": []
-            },
-            {
-              "text": "¿Qué querrías construir con otras personas de este grupo?",
+              "text": "¿Qué podríamos construir juntos que solos nos costaría más?",
               "actions": []
             }
           ]
@@ -1793,87 +1773,89 @@
       },
       {
         "numero": 2,
-        "titulo": "Automatizar las fichas",
-        "minutes": 2,
+        "titulo": "El resultado que vamos a construir",
+        "minutes": 5,
         "block": 1,
-        "blockTitle": "Automatizar las fichas",
-        "tipo": "Separador",
-        "aula": true,
+        "blockTitle": "Automatización",
+        "tipo": "Teoría",
+        "studio": true,
         "visual": {
-          "layout": "divider",
+          "layout": "result",
           "body": [
-            "¿Cómo convertimos documentos distintos en información que podamos usar juntos?",
-            "CV + intención actual → borrador → revisión personal → directorio compartido."
+            "AL COMENZAR|Sabemos poco de las capacidades y los intereses actuales de nuestros compañeros.",
+            "UNA PROPUESTA PARA CONVERSAR|Qué queremos resolver.\nQué podemos aportar.\nCon quién podríamos hacerlo.\nQué evidencia tenemos.\nQué falta confirmar.",
+            "AL TERMINAR|Una propuesta para el interlocutor de clase 1, revisada después de conversar con el grupo."
           ]
         },
-        "narration": "Primero resolveremos un problema de información y de proceso. Los documentos llegan con formatos distintos y no contienen todo lo que necesitamos saber. Tenemos que decidir qué conservar y qué preguntar. Después diseñaremos qué ocurre cada vez que entra un documento. Esta separación es fundamental: un buen flujo puede repetir miles de veces una mala representación. Antes de acelerar el trabajo, definimos qué significará un resultado correcto.",
-        "question": "¿Cómo convertimos documentos distintos en información que podamos usar juntos?",
+        "narration": "Pongamos primero el destino. Al terminar tendremos una propuesta breve para conversar con el interlocutor investigado en la clase anterior. No es un mensaje enviado ni una venta cerrada. Debe explicar un problema posible, una aportación que podemos sostener, las personas que podrían contribuir y las preguntas pendientes.\n\nPara llegar ahí construiremos un directorio con fichas que cada persona revisa. Cada integrante lo consultará con su propio objetivo. Por ejemplo: quiero desarrollar una guía para un equipo operativo; puedo diseñar materiales, pero necesito entender el proceso que debería explicar. La IA puede ayudarme a localizar experiencia pertinente y a formular una invitación recíproca. La otra persona puede decirme que el problema es diferente o que no dispone del tiempo que imaginé.\n\nEsa respuesta cambia la propuesta. Así entra la realidad en el sistema. El ejercicio tiene una parte automática, una parte de razonamiento delegado y una parte de conversación humana. Ninguna sustituye a las otras.\n\nEn las demostraciones usaré perfiles ficticios y la organización Nexo del caso. En su tarea ustedes compartirán fichas propias, revisadas, con el grupo; no necesitan publicar sus CV completos. Recuperarán la investigación real de clase 1 y conservarán la diferencia entre una oportunidad posible y una necesidad confirmada.",
+        "question": "¿Qué tendríamos que saber para sostener una propuesta así?",
         "steps": [
-          "Explica el concepto con la información visible.",
-          "¿Cómo convertimos documentos distintos en información que podamos usar juntos?"
+          "¿Qué tendríamos que saber para sostener una propuesta así?"
         ],
         "work": [],
-        "materials": [],
+        "materials": [
+          "ACTIVIDAD_B_CLASE_2.md",
+          "INVESTIGACION_INTERLOCUTOR.md"
+        ],
         "sources": [],
         "extra": "",
-        "illustration": null,
-        "horario": "18:05–18:07",
+        "horario": "18:02–18:07",
         "runbook": {
-          "title": "Automatizar las fichas",
-          "text": "¿Cómo convertimos documentos distintos en información que podamos usar juntos?",
-          "actions": [],
-          "items": [
+          "title": "El resultado que vamos a construir",
+          "text": "¿Qué tendríamos que saber para sostener una propuesta así?",
+          "actions": [
             {
-              "text": "Explica el concepto con la información visible.",
-              "actions": []
+              "kind": "download",
+              "file": "ACTIVIDAD_B_CLASE_2.md",
+              "label": "ACTIVIDAD B CLASE 2"
             },
             {
-              "text": "¿Cómo convertimos documentos distintos en información que podamos usar juntos?",
+              "kind": "download",
+              "file": "INVESTIGACION_INTERLOCUTOR.md",
+              "label": "INVESTIGACION INTERLOCUTOR"
+            }
+          ],
+          "items": [
+            {
+              "text": "¿Qué tendríamos que saber para sostener una propuesta así?",
               "actions": []
             }
           ]
-        },
-        "divider": true
+        }
       },
       {
         "numero": 3,
-        "titulo": "Una ficha es una representación",
-        "minutes": 12,
+        "titulo": "Automatización",
+        "minutes": 1,
         "block": 1,
-        "blockTitle": "Automatizar las fichas",
-        "tipo": "Teoría",
-        "aula": true,
+        "blockTitle": "Automatización",
+        "tipo": "Separador",
+        "studio": true,
         "visual": {
-          "layout": "art",
+          "layout": "chapter",
           "body": [
-            "Trayectoria: muchos detalles. Seleccionamos variables.",
-            "Ficha: experiencia, aportación, interés, necesidad, disponibilidad, fuente y versión.",
-            "Lo que no preguntamos puede desaparecer de nuestra representación."
+            "¿Qué debe repetirse cada vez que llega información?",
+            "Representación · transformación · estado"
           ]
         },
-        "narration": "Representar consiste en conservar ciertos aspectos de algo para poder trabajar con ellos. Un mapa conserva relaciones espaciales y omite muchísimos detalles del territorio. Nuestra ficha hace algo parecido con una trayectoria profesional. La pregunta relevante es qué debe conservar para el uso que le daremos.\n\nSi queremos encontrar colaboradores, no basta con extraer nombre, puesto y empresa. Debemos preguntar qué puede aportar la persona, qué quiere construir y qué necesita de otros. Esas variables determinan qué conexiones podrá encontrar después el sistema. Elegirlas ya es una decisión de dirección, aunque todavía no hayamos abierto ninguna herramienta.\n\nPodemos escribirlo como una transformación: la ficha es una función del documento y del esquema que elegimos. Dos esquemas producen dos representaciones distintas del mismo documento. Además, un CV suele describir el pasado y puede decir poco sobre las intenciones actuales. Por eso añadimos información propia, declarada por la persona.\n\nToda selección pierde información. La solución práctica es conservar la fuente y permitir volver a ella. La ficha facilita una primera comparación; la evidencia original permite comprobarla. Antes de automatizar, preguntémonos qué decisión sería imposible con los campos que elegimos.\n\nAquí entra otra distinción: extracción, inferencia y pregunta. Si Ana dice que diseñó materiales y facilitó talleres, podemos extraer esas actividades. Decir que dirigió un departamento añade un cargo sin respaldo. Proponer que podría ayudar con una inducción es una hipótesis que debemos consultar. Si no declara disponibilidad, dejamos el campo pendiente.\n\nPodemos pensar la ficha como R igual a una transformación del documento y del esquema elegido. El esquema determina lo que el sistema podrá distinguir. Si omitimos intereses, personas con la misma experiencia parecerán intercambiables aunque quieran proyectos distintos. Si confundimos ausencia con cero, descartaremos personas por información que nunca solicitamos. Por eso conservamos fuentes, faltantes y posibilidad de corrección.",
-        "question": "Trayectoria: muchos detalles. Seleccionamos variables.",
+        "narration": "Antes de elegir una herramienta necesitamos responder dos preguntas distintas. Qué información conviene conservar y qué procedimiento seguirá esa información. La primera define nuestra representación. La segunda define el proceso. Si el esquema omite lo que importa, un flujo perfectamente ejecutado puede producir fichas inútiles. Empezaremos por el significado y después construiremos la repetición.",
+        "question": "¿Qué debe conservar una ficha para encontrar colaboradores?",
         "steps": [
-          "Explica el concepto con la información visible.",
-          "Trayectoria: muchos detalles. Seleccionamos variables."
+          "¿Qué debe conservar una ficha para encontrar colaboradores?"
         ],
         "work": [],
         "materials": [],
         "sources": [],
         "extra": "",
-        "illustration": "05-representacion",
-        "horario": "18:07–18:19",
+        "divider": true,
+        "horario": "18:07–18:08",
         "runbook": {
-          "title": "Una ficha es una representación",
-          "text": "Trayectoria: muchos detalles. Seleccionamos variables.",
+          "title": "Automatización",
+          "text": "¿Qué debe conservar una ficha para encontrar colaboradores?",
           "actions": [],
           "items": [
             {
-              "text": "Explica el concepto con la información visible.",
-              "actions": []
-            },
-            {
-              "text": "Trayectoria: muchos detalles. Seleccionamos variables.",
+              "text": "¿Qué debe conservar una ficha para encontrar colaboradores?",
               "actions": []
             }
           ]
@@ -1881,43 +1863,48 @@
       },
       {
         "numero": 4,
-        "titulo": "Automatizar es definir qué ocurre después",
-        "minutes": 12,
+        "titulo": "Representar información es elegir qué conservar",
+        "minutes": 10,
         "block": 1,
-        "blockTitle": "Automatizar las fichas",
+        "blockTitle": "Automatización",
         "tipo": "Teoría",
-        "aula": true,
+        "studio": true,
         "visual": {
-          "layout": "art",
+          "layout": "figure",
           "body": [
-            "Entrada: llega Ana v1. Extracción: leer el documento. Borrador: estructurar información.",
-            "Revisión: Ana comprueba su ficha. Registro: incorporar la versión aprobada.",
-            "Excepción: archivo ilegible. Estado pendiente y solicitud de otra fuente."
+            "La ficha depende del documento y del esquema elegido.",
+            "Experiencia pasada, intención actual y condiciones no son la misma variable.",
+            "Declarado, inferido y no disponible deben seguir siendo distinguibles."
           ]
         },
-        "narration": "Una automatización relaciona un evento con acciones y condiciones. Llega un archivo, obtenemos su contenido, transformamos ese contenido y registramos un resultado. El proceso puede incluir un modelo de lenguaje, pero la secuencia de pasos la hemos definido nosotros.\n\nConviene distinguir evento, estado y regla. El evento es que llegó un documento. El estado puede ser recibido, borrador, pendiente o vigente. La regla indica qué transición permitimos: por ejemplo, un borrador pasa a vigente después de la revisión de su propietario. Publicar automáticamente todo lo que produce el modelo sería otra regla, con consecuencias distintas.\n\nLa extracción puede fallar porque el archivo es ilegible. También puede funcionar técnicamente y producir una interpretación incorrecta. Son problemas diferentes. El primero requiere recuperar una entrada legible; el segundo exige revisar el contenido. Si no definimos esas rutas, el caso excepcional termina convertido en trabajo invisible para alguien.\n\nLa lámina describe el proceso completo que queremos dirigir. En la demostración, Make preparará el borrador y la publicación seguirá siendo una decisión humana. Esa frontera es parte del diseño: tener un paso manual no impide automatizar el resto.\n\nEl modelo de lenguaje puede producir una extracción diferente al repetir la misma entrada. El flujo sigue siendo predefinido aunque una de sus transformaciones sea probabilística. No debemos confundir orden de ejecución con exactitud del contenido.\n\nTambién necesitamos memoria del proceso: identidad del documento, versión y estado. Si el archivo se recibe dos veces, no queremos dos personas nuevas. Si alguien actualiza su perfil, queremos una versión vigente. Reintentar una operación debe evitar duplicar sus efectos; esta propiedad se llama idempotencia. En nuestro prototipo, la revisión y publicación manual mantienen ese control. Una implementación posterior tendría que convertirlo en reglas y registro persistente.\n\nLa decisión de liderazgo es identificar quién responde por cada transición y qué ocurre cuando falla. Un archivo ilegible queda pendiente; una ficha sin autorización no se publica. Automatizar incluye esas rutas, además del caso que funciona.",
-        "question": "Entrada: llega Ana v1. Extracción: leer el documento. Borrador: estructurar información.",
+        "narration": "Un modelo de información reduce la complejidad para permitir una operación. Un mapa conserva unas relaciones del territorio y descarta otras. Una ficha profesional hace lo mismo: selecciona variables para que podamos comparar, buscar y decidir. La reducción es útil precisamente porque no conserva todo. El problema es perder lo que necesitaremos después.\n\nPodemos escribir la representación como R igual a f de D y E: documento y esquema. El mismo documento produce representaciones distintas si cambia el esquema. Un directorio de cargos sirve para unas preguntas; un directorio de aportaciones, intereses y condiciones sirve para otras. Elegir las variables ya es una decisión de dirección.\n\nUn CV describe principalmente experiencia pasada. No nos dice necesariamente qué quiere construir alguien hoy, qué está dispuesto a compartir o cuánto tiempo puede dedicar. Por eso añadimos una declaración de intención y condiciones. No le pedimos al modelo que adivine esas variables.\n\nAquí hay tres estados epistemológicos diferentes. Declarado: la fuente dice que diseñó materiales de inducción. Inferido: podría contribuir a una guía. No disponible: no sabemos su tiempo. Convertir la inferencia en un cargo o el faltante en disponibilidad produce una certeza falsa. El sistema debe conservar esas diferencias.\n\nLa fuente original permite comprobar y corregir la reducción. En el ejercicio, cada persona revisa su ficha antes de compartirla. La calidad no consiste en que todas las casillas estén llenas: consiste en que podamos distinguir lo que sabemos, lo que suponemos y lo que necesitamos preguntar.",
+        "question": "¿Qué decisión sería imposible si nuestro esquema sólo guardara nombre y puesto?",
         "steps": [
-          "Explica el concepto con la información visible.",
-          "Entrada: llega Ana v1. Extracción: leer el documento. Borrador: estructurar información."
+          "Explica la ficha como una representación que depende de su uso.",
+          "Contrasta experiencia, intención y disponibilidad.",
+          "Pide un ejemplo de información importante que no aparezca en un CV."
         ],
         "work": [],
         "materials": [],
         "sources": [],
         "extra": "",
-        "illustration": "07-proceso",
-        "horario": "18:19–18:31",
+        "art": "representation",
+        "horario": "18:08–18:18",
         "runbook": {
-          "title": "Automatizar es definir qué ocurre después",
-          "text": "Entrada: llega Ana v1. Extracción: leer el documento. Borrador: estructurar información.",
+          "title": "Representar información es elegir qué conservar",
+          "text": "¿Qué decisión sería imposible si nuestro esquema sólo guardara nombre y puesto?",
           "actions": [],
           "items": [
             {
-              "text": "Explica el concepto con la información visible.",
+              "text": "Explica la ficha como una representación que depende de su uso.",
               "actions": []
             },
             {
-              "text": "Entrada: llega Ana v1. Extracción: leer el documento. Borrador: estructurar información.",
+              "text": "Contrasta experiencia, intención y disponibilidad.",
+              "actions": []
+            },
+            {
+              "text": "Pide un ejemplo de información importante que no aparezca en un CV.",
               "actions": []
             }
           ]
@@ -1925,26 +1912,73 @@
       },
       {
         "numero": 5,
-        "titulo": "Demo 1 · construir el directorio",
-        "minutes": 20,
+        "titulo": "Un flujo es una regla de transición",
+        "minutes": 10,
         "block": 1,
-        "blockTitle": "Automatizar las fichas",
+        "blockTitle": "Automatización",
+        "tipo": "Teoría",
+        "studio": true,
+        "visual": {
+          "layout": "figure",
+          "body": [
+            "Un evento modifica un estado mediante reglas definidas.",
+            "Una transformación con IA puede fallar aunque el flujo termine.",
+            "Revisión, excepciones y versiones forman parte del proceso."
+          ]
+        },
+        "narration": "Una automatización relaciona eventos, estados y acciones. Un evento sucede: llega un archivo. El sistema tiene un estado: recibido, borrador, pendiente o vigente. Una regla decide qué puede ocurrir después. La fórmula del diagrama es conceptual: el estado siguiente depende del estado actual y del evento que observamos.\n\nEn nuestro caso, recibir un archivo inicia extracción y organización. El resultado es un borrador. Para convertirlo en una ficha compartida exigimos revisión. Esa transición tiene un responsable. El sistema no debería tratar borrador y vigente como equivalentes.\n\nPuede haber IA dentro de una secuencia predefinida. El hecho de que un modelo redacte una ficha no vuelve agente al conjunto. Tampoco vuelve correcta la ficha. El flujo puede terminar técnicamente y conservar una afirmación falsa. Por eso distinguimos éxito de ejecución y aceptación del contenido.\n\nAhora imaginemos una interrupción. Reintentamos y llega el mismo documento otra vez. Queremos repetir la operación sin duplicar a la persona: ésa es la idea de idempotencia. Si llega una corrección, debemos reconocer la identidad, conservar la trazabilidad y publicar la versión vigente. En el prototipo resolveremos parte de ese control con revisión humana explícita; automatizarlo completamente exige reglas y almacenamiento adicionales.\n\nUn archivo ilegible debe tomar una ruta de excepción. Dejarlo pendiente, registrar el motivo y pedir otra fuente es un resultado controlado. El trabajo de dirección consiste en definir esos resultados y quién responde por ellos, además de describir el camino ideal.",
+        "question": "¿Cómo distinguirías un proceso que terminó de un resultado que podemos aceptar?",
+        "steps": [
+          "Recorre evento, estado y transición en el diagrama.",
+          "Sigue la rama del archivo ilegible y la corrección.",
+          "Explica duplicado frente a nueva versión antes de abrir Make."
+        ],
+        "work": [],
+        "materials": [],
+        "sources": [],
+        "extra": "",
+        "art": "automation",
+        "horario": "18:18–18:28",
+        "runbook": {
+          "title": "Un flujo es una regla de transición",
+          "text": "¿Cómo distinguirías un proceso que terminó de un resultado que podemos aceptar?",
+          "actions": [],
+          "items": [
+            {
+              "text": "Recorre evento, estado y transición en el diagrama.",
+              "actions": []
+            },
+            {
+              "text": "Sigue la rama del archivo ilegible y la corrección.",
+              "actions": []
+            },
+            {
+              "text": "Explica duplicado frente a nueva versión antes de abrir Make.",
+              "actions": []
+            }
+          ]
+        }
+      },
+      {
+        "numero": 6,
+        "titulo": "Demo 1 · del documento al directorio",
+        "minutes": 18,
+        "block": 1,
+        "blockTitle": "Automatización",
         "tipo": "Demostración en vivo",
-        "aula": true,
+        "studio": true,
         "visual": {
           "layout": "demo",
           "body": [
-            "Subo el perfil de Ana. Make prepara una ficha; la reviso y la incorporo al directorio.",
-            "Observamos qué extrajo, qué falta y dónde interviene una persona.",
-            "Make + Drive"
-          ],
-          "demo": 1
+            "ENTRADA|Perfil ficticio + intención actual",
+            "RESULTADO|Ficha revisada dentro del directorio compartido",
+            "OBSERVAR|Qué extrajo, qué dejó pendiente y qué autorizó la persona."
+          ]
         },
-        "narration": "Ahora salgo a Make. Tomaré un perfil ficticio y su intención actual, ejecutaré el flujo y abriré el borrador generado. Compararé lo que dice con el documento original, corregiré una afirmación si hace falta y mostraré cómo se publica la ficha revisada en el directorio. También mostraré qué ocurre con un faltante o un archivo repetido. Esta es la primera parte que repetirán con su propia información. El directorio compartido será la entrada de la siguiente demostración.",
-        "question": "Subo el perfil de Ana. Make prepara una ficha; la reviso y la incorporo al directorio.",
+        "narration": "Voy a salir de las láminas y construir este recorrido en Make. El perfil de ensayo es de Ana: ha diseñado materiales de inducción y quiere colaborar en un problema operativo. Su documento aparecerá en pantalla antes de pedirle a la IA que lo interprete.\n\nMostraré la entrada, la ficha generada y la comparación con la fuente. Revisaré un faltante y explicaré la publicación de la ficha. Después mostraré cómo tratamos una repetición o corrección. La salida que vamos a conservar es el directorio revisado. Será la entrada de la siguiente demostración. Ustedes repetirán esta parte con su información y compartirán sólo lo que hayan autorizado.",
+        "question": "¿Podemos rastrear cada afirmación de la ficha hasta su fuente?",
         "steps": [
-          "Abre la guía de la demostración y realiza el recorrido completo.",
-          "Muestra las entradas, los archivos de salida y una corrección."
+          "¿Podemos rastrear cada afirmación de la ficha hasta su fuente?"
         ],
         "work": [
           "aula-extraer"
@@ -1952,22 +1986,16 @@
         "materials": [
           "DEMO_MAKE_CLASE_2.md",
           "PERFIL_ANA_V1.pdf",
-          "PERFIL_CLARA_V1.pdf",
-          "PERFIL_BRUNO_V2.pdf"
+          "PLANTILLA_PERFIL_RED.md"
         ],
-        "sources": [
-          {
-            "title": "Make · AI Toolkit",
-            "url": "https://apps.make.com/ai-tools",
-            "focus": "Módulos de texto y conexión al proveedor; revisar acceso y consumo en la cuenta de ensayo."
-          }
-        ],
+        "sources": [],
         "extra": "",
-        "illustration": null,
-        "horario": "18:31–18:51",
+        "tools": "Make · Drive",
+        "demo": 1,
+        "horario": "18:28–18:46",
         "runbook": {
-          "title": "Demo 1 · construir el directorio",
-          "text": "Subo el perfil de Ana. Make prepara una ficha; la reviso y la incorporo al directorio.",
+          "title": "Demo 1 · del documento al directorio",
+          "text": "¿Podemos rastrear cada afirmación de la ficha hasta su fuente?",
           "actions": [
             {
               "kind": "download",
@@ -1981,13 +2009,8 @@
             },
             {
               "kind": "download",
-              "file": "PERFIL_CLARA_V1.pdf",
-              "label": "PERFIL CLARA V1.pdf"
-            },
-            {
-              "kind": "download",
-              "file": "PERFIL_BRUNO_V2.pdf",
-              "label": "PERFIL BRUNO V2.pdf"
+              "file": "PLANTILLA_PERFIL_RED.md",
+              "label": "PLANTILLA PERFIL RED"
             },
             {
               "kind": "prompt",
@@ -1997,100 +2020,45 @@
           ],
           "items": [
             {
-              "text": "Abre la guía de la demostración y realiza el recorrido completo.",
-              "actions": []
-            },
-            {
-              "text": "Muestra las entradas, los archivos de salida y una corrección.",
+              "text": "¿Podemos rastrear cada afirmación de la ficha hasta su fuente?",
               "actions": []
             }
           ]
         }
       },
       {
-        "numero": 6,
-        "titulo": "Encontrar colaboradores",
-        "minutes": 2,
-        "block": 2,
-        "blockTitle": "Encontrar colaboradores",
-        "tipo": "Separador",
-        "aula": true,
-        "visual": {
-          "layout": "divider",
-          "body": [
-            "¿Quién puede ayudarme con lo que quiero construir y qué puedo ofrecerle yo?",
-            "El directorio es compartido. El objetivo y la recomendación son personales."
-          ]
-        },
-        "narration": "Ahora ya tenemos información comparable. Pero un directorio no sabe por sí mismo qué conexión nos conviene. La recomendación depende de una pregunta y de condiciones concretas. Vamos a distinguir semejanza, complementariedad y posibilidad real de colaborar. Después usaremos exactamente las mismas fuentes y el mismo objetivo en tres herramientas para poder discutir sus diferencias.",
-        "question": "¿Quién puede ayudarme con lo que quiero construir y qué puedo ofrecerle yo?",
-        "steps": [
-          "Explica el concepto con la información visible.",
-          "¿Quién puede ayudarme con lo que quiero construir y qué puedo ofrecerle yo?"
-        ],
-        "work": [],
-        "materials": [],
-        "sources": [],
-        "extra": "",
-        "illustration": null,
-        "horario": "18:51–18:53",
-        "runbook": {
-          "title": "Encontrar colaboradores",
-          "text": "¿Quién puede ayudarme con lo que quiero construir y qué puedo ofrecerle yo?",
-          "actions": [],
-          "items": [
-            {
-              "text": "Explica el concepto con la información visible.",
-              "actions": []
-            },
-            {
-              "text": "¿Quién puede ayudarme con lo que quiero construir y qué puedo ofrecerle yo?",
-              "actions": []
-            }
-          ]
-        },
-        "divider": true
-      },
-      {
         "numero": 7,
-        "titulo": "Una conexión depende del objetivo",
-        "minutes": 8,
+        "titulo": "Conexiones",
+        "minutes": 1,
         "block": 2,
-        "blockTitle": "Encontrar colaboradores",
-        "tipo": "Teoría",
-        "aula": true,
+        "blockTitle": "Conexiones",
+        "tipo": "Separador",
+        "studio": true,
         "visual": {
-          "layout": "table",
+          "layout": "chapter",
           "body": [
-            "Relación|Ejemplo del ensayo|Qué falta comprobar",
-            "Afinidad|Ana diseña aprendizaje; Clara evalúa talleres. Comparten un campo de trabajo.|¿Quieren trabajar en el mismo problema?",
-            "Complementariedad|Ana prepara una guía; Bruno conoce el proceso que habría que explicar.|¿Bruno puede compartir un caso y revisarlo?",
-            "Viabilidad|Un proyecto remoto requiere tiempo, acceso a información y disposición.|¿Las condiciones permiten colaborar ahora?"
+            "¿Qué hace útil una conexión entre dos personas?",
+            "Objetivo · complementariedad · conversación"
           ]
         },
-        "narration": "Una conexión útil es una relación entre personas y un objetivo, no una propiedad fija de una persona. Con los mismos perfiles podemos obtener recomendaciones distintas cuando cambia lo que buscamos.\n\nAna diseña materiales de aprendizaje. Si busca discutir cómo evaluar un taller, Clara puede ser pertinente porque tiene experiencia en evaluación. Eso es afinidad. Si Ana busca entender un relevo operativo para preparar una guía, Bruno aporta conocimiento que ella no tiene. Eso es complementariedad. Ninguna relación demuestra todavía que puedan trabajar juntos: necesitan interés, tiempo y autorización para usar la información.\n\nPodemos expresar la recomendación como una función de los perfiles, el objetivo y las restricciones. Antes de ordenar candidatos, conviene aplicar condiciones de viabilidad: por ejemplo, si el trabajo debe ser remoto. Después comparamos aportaciones. No necesitamos inventar porcentajes de compatibilidad; necesitamos una justificación que podamos discutir y una pregunta que resuelva lo desconocido.\n\nEl criterio de Ana será: quiero preparar una guía breve para equipos de operación; busco experiencia en procesos y puedo aportar diseño de materiales. Pediremos evidencia, un aporte recíproco y una pregunta pendiente para cada conexión. Cuando hable con Bruno podrá descubrir que primero hace falta documentar el proceso. La conversación modifica el problema, no sólo confirma un nombre.",
-        "question": "Qué falta comprobar",
+        "narration": "Ya tenemos un directorio, pero todavía no una colaboración. La relación entre dos personas depende de lo que buscan construir. Cambiaremos de pregunta sin cambiar los perfiles, para observar esa dependencia. Después veremos por qué una recomendación necesita una conversación antes de convertirse en un compromiso.",
+        "question": "¿Buscas a alguien parecido a ti o a alguien que aporte lo que te falta?",
         "steps": [
-          "Explica el concepto con la información visible.",
-          "Qué falta comprobar"
+          "¿Buscas a alguien parecido a ti o a alguien que aporte lo que te falta?"
         ],
         "work": [],
         "materials": [],
         "sources": [],
         "extra": "",
-        "illustration": null,
-        "horario": "18:53–19:01",
+        "divider": true,
+        "horario": "18:46–18:47",
         "runbook": {
-          "title": "Una conexión depende del objetivo",
-          "text": "Qué falta comprobar",
+          "title": "Conexiones",
+          "text": "¿Buscas a alguien parecido a ti o a alguien que aporte lo que te falta?",
           "actions": [],
           "items": [
             {
-              "text": "Explica el concepto con la información visible.",
-              "actions": []
-            },
-            {
-              "text": "Qué falta comprobar",
+              "text": "¿Buscas a alguien parecido a ti o a alguien que aporte lo que te falta?",
               "actions": []
             }
           ]
@@ -2098,49 +2066,91 @@
       },
       {
         "numero": 8,
-        "titulo": "Demo 2 · encontrar con quién colaborar",
-        "minutes": 20,
+        "titulo": "La conexión depende de la pregunta",
+        "minutes": 8,
         "block": 2,
-        "blockTitle": "Encontrar colaboradores",
+        "blockTitle": "Conexiones",
+        "tipo": "Teoría",
+        "studio": true,
+        "visual": {
+          "layout": "figure",
+          "body": [
+            "Los mismos perfiles producen conexiones distintas según el objetivo.",
+            "Afinidad y complementariedad responden a necesidades diferentes.",
+            "Interés, tiempo y permiso condicionan la colaboración."
+          ]
+        },
+        "narration": "Una red no es solamente una lista de personas: incluye relaciones. Y una relación de colaboración no significa lo mismo bajo cualquier objetivo. En el dibujo mantenemos a las mismas personas y cambiamos la pregunta. Las conexiones relevantes cambian aunque nadie haya modificado su trayectoria.\n\nPara diseñar y evaluar un taller puede servir la afinidad entre aprendizaje y evaluación. Para explicar un proceso, quien diseña materiales necesita a alguien que conoce la operación. Esa complementariedad combina aportaciones distintas. Ninguna de las dos garantiza por sí misma que exista un proyecto viable.\n\nLa recomendación depende de perfiles, objetivo y restricciones. Conviene separar condiciones indispensables de preferencias. Si el proyecto requiere trabajo remoto y una persona sólo puede participar presencialmente, la restricción pesa antes de cualquier semejanza temática. Si la disponibilidad no está declarada, la salida es una pregunta; no una exclusión automática ni un tiempo inventado.\n\nTambién hay una dimensión recíproca. ¿Por qué le interesaría a la otra persona colaborar conmigo? La consulta debe describir lo que busco y lo que ofrezco. El resultado útil incluye una razón respaldada y una pregunta concreta que abra conversación.\n\nEn la práctica compararemos Gemini, ChatGPT y Claude con los mismos datos y criterio. Observaremos las razones, los faltantes y las diferencias. No atribuiremos calidad a una marca por una sola respuesta. Finalmente cambiaremos el criterio: el sistema tiene que poder explicar por qué su recomendación cambia o se mantiene.",
+        "question": "¿Qué evidencia necesitarías antes de convertir una recomendación en una invitación?",
+        "steps": [
+          "Compara las dos preguntas sobre la misma red.",
+          "Distingue afinidad, complementariedad y restricciones.",
+          "Formula una aportación recíproca y una pregunta pendiente."
+        ],
+        "work": [],
+        "materials": [],
+        "sources": [],
+        "extra": "",
+        "art": "network",
+        "horario": "18:47–18:55",
+        "runbook": {
+          "title": "La conexión depende de la pregunta",
+          "text": "¿Qué evidencia necesitarías antes de convertir una recomendación en una invitación?",
+          "actions": [],
+          "items": [
+            {
+              "text": "Compara las dos preguntas sobre la misma red.",
+              "actions": []
+            },
+            {
+              "text": "Distingue afinidad, complementariedad y restricciones.",
+              "actions": []
+            },
+            {
+              "text": "Formula una aportación recíproca y una pregunta pendiente.",
+              "actions": []
+            }
+          ]
+        }
+      },
+      {
+        "numero": 9,
+        "titulo": "Demo 2 · una búsqueda con propósito propio",
+        "minutes": 18,
+        "block": 2,
+        "blockTitle": "Conexiones",
         "tipo": "Demostración en vivo",
-        "aula": true,
+        "studio": true,
         "visual": {
           "layout": "demo",
           "body": [
-            "Consulto el directorio con el objetivo de Ana en Gemini, ChatGPT y Claude; ejecuto el flujo B de Make.",
-            "Comparo las razones y las fuentes. Cambio el criterio y observo si cambia la recomendación.",
-            "Gemini · ChatGPT · Claude · Make"
-          ],
-          "demo": 2
+            "ENTRADA|Directorio revisado + lo que busco + lo que ofrezco",
+            "RESULTADO|Dos conexiones justificadas y una pregunta para cada persona",
+            "OBSERVAR|La misma consulta en tres herramientas; después, un cambio de criterio."
+          ]
         },
-        "narration": "Usaré el mismo directorio y el mismo criterio en las tres herramientas. No elegiré por lo elegante de la redacción: buscaré qué fuente respalda la conexión, qué supone y qué pregunta propone. Después mostraré cómo repetir esa consulta mediante el segundo flujo de Make cuando entra un nuevo criterio.\n\nEl resultado será una nota que pueda usar para iniciar una conversación: me interesa este problema, vi que tienes esta experiencia, yo podría aportar esto y quisiera preguntarte aquello. Mostraré una respuesta ficticia de Bruno, identificada como tal, para enseñar cómo incorporar una corrección. En la tarea ustedes conversarán con personas reales del grupo. Finalmente cambiaré una condición y compararé ambas recomendaciones.",
-        "question": "Consulto el directorio con el objetivo de Ana en Gemini, ChatGPT y Claude; ejecuto el flujo B de Make.",
+        "narration": "Ahora consultaré el directorio como alguien que quiere preparar una guía para equipos operativos y puede aportar diseño de materiales. Abriré los perfiles relevantes al leer sus nombres: Bruno conoce procesos; Clara ha trabajado en evaluación de talleres. Nadie será un personaje que tengamos que recordar de una historia anterior.\n\nEnviaré la misma consulta a Gemini, ChatGPT y Claude. Compararé qué fuente citan, qué suponen y qué preguntan. Después ejecutaré el segundo flujo de Make para repetir esa consulta a partir de un criterio recibido.\n\nCon una recomendación prepararé una pregunta recíproca. Mostraré una respuesta ficticia de ensayo: antes de capacitar hace falta documentar el proceso. Esa información obliga a revisar el objetivo. En su tarea la respuesta vendrá de sus compañeros reales. Cambiaré una condición y conservaré ambas salidas para que podamos observar la diferencia.",
+        "question": "¿La recomendación ayuda a iniciar una conversación concreta?",
         "steps": [
-          "Abre la guía de la demostración y realiza el recorrido completo.",
-          "Muestra las entradas, los archivos de salida y una corrección."
+          "¿La recomendación ayuda a iniciar una conversación concreta?"
         ],
         "work": [
-          "aula-conectar",
-          "aula-cambio"
+          "aula-conectar"
         ],
         "materials": [
           "DEMO_MAKE_CLASE_2.md",
           "MI_CRITERIO.md",
-          "DIRECTORIO_REVISION_DOCENTE.md"
+          "DIRECTORIO_REVISION_DOCENTE.md",
+          "RESPUESTA_BRUNO.md"
         ],
-        "sources": [
-          {
-            "title": "Make · AI Toolkit",
-            "url": "https://apps.make.com/ai-tools",
-            "focus": "Módulos de texto y conexión al proveedor; revisar acceso y consumo en la cuenta de ensayo."
-          }
-        ],
+        "sources": [],
         "extra": "",
-        "illustration": null,
-        "horario": "19:01–19:21",
+        "tools": "Gemini · ChatGPT · Claude · Make",
+        "demo": 2,
+        "horario": "18:55–19:13",
         "runbook": {
-          "title": "Demo 2 · encontrar con quién colaborar",
-          "text": "Consulto el directorio con el objetivo de Ana en Gemini, ChatGPT y Claude; ejecuto el flujo B de Make.",
+          "title": "Demo 2 · una búsqueda con propósito propio",
+          "text": "¿La recomendación ayuda a iniciar una conversación concreta?",
           "actions": [
             {
               "kind": "download",
@@ -2158,66 +2168,19 @@
               "label": "DIRECTORIO REVISION DOCENTE"
             },
             {
-              "kind": "prompt",
-              "key": "aula-conectar",
-              "label": "Copiar conectar"
+              "kind": "download",
+              "file": "RESPUESTA_BRUNO.md",
+              "label": "RESPUESTA BRUNO"
             },
             {
               "kind": "prompt",
-              "key": "aula-cambio",
-              "label": "Copiar cambio"
+              "key": "aula-conectar",
+              "label": "Copiar conectar"
             }
           ],
           "items": [
             {
-              "text": "Abre la guía de la demostración y realiza el recorrido completo.",
-              "actions": []
-            },
-            {
-              "text": "Muestra las entradas, los archivos de salida y una corrección.",
-              "actions": []
-            }
-          ]
-        }
-      },
-      {
-        "numero": 9,
-        "titulo": "Descanso",
-        "minutes": 10,
-        "block": 2,
-        "blockTitle": "Encontrar colaboradores",
-        "tipo": "Descanso",
-        "aula": true,
-        "visual": {
-          "layout": "pause",
-          "body": [
-            "¿Qué quieres construir y qué te falta para hacerlo?",
-            "Al volver, delegaremos al agente la preparación de una propuesta."
-          ]
-        },
-        "narration": "Tomamos diez minutos. Piensen en un objetivo propio: qué les gustaría construir, qué pueden aportar y qué necesitan de otra persona. Esa formulación será la entrada de su tarea. Al volver veremos qué cambia cuando el sistema puede elegir sus siguientes acciones para alcanzar un objetivo.",
-        "question": "¿Qué quieres construir y qué te falta para hacerlo?",
-        "steps": [
-          "Explica el concepto con la información visible.",
-          "¿Qué quieres construir y qué te falta para hacerlo?"
-        ],
-        "work": [],
-        "materials": [],
-        "sources": [],
-        "extra": "",
-        "illustration": null,
-        "horario": "19:21–19:31",
-        "runbook": {
-          "title": "Descanso",
-          "text": "¿Qué quieres construir y qué te falta para hacerlo?",
-          "actions": [],
-          "items": [
-            {
-              "text": "Explica el concepto con la información visible.",
-              "actions": []
-            },
-            {
-              "text": "¿Qué quieres construir y qué te falta para hacerlo?",
+              "text": "¿La recomendación ayuda a iniciar una conversación concreta?",
               "actions": []
             }
           ]
@@ -2225,94 +2188,74 @@
       },
       {
         "numero": 10,
-        "titulo": "Delegar una propuesta",
-        "minutes": 3,
-        "block": 3,
-        "blockTitle": "Delegar una propuesta",
-        "tipo": "Separador",
-        "aula": true,
+        "titulo": "Descanso",
+        "minutes": 10,
+        "block": 2,
+        "blockTitle": "Conexiones",
+        "tipo": "Descanso",
+        "studio": true,
         "visual": {
-          "layout": "divider",
+          "layout": "pause",
           "body": [
-            "¿Qué cambia cuando el sistema elige el siguiente paso?",
-            "Objetivo + contexto + herramientas + evaluación → acciones dentro de una autoridad definida."
+            "¿Qué quieres construir?",
+            "¿Qué puedes aportar y qué necesitas de alguien más?"
           ]
         },
-        "narration": "Hasta ahora definimos el recorrido: recibir, extraer, consultar y registrar. Ahora delegaremos un objetivo y permitiremos que el sistema elija parte de los pasos. Esa es la distinción que nos interesa estudiar.\n\nCopiloto describe una relación de asistencia: la persona conduce el trabajo y solicita ayuda. Una automatización sigue transiciones que diseñamos de antemano. Un agente puede seleccionar acciones según lo que observa, revisar resultados y decidir cómo continuar. Las herramientas actuales pueden combinar estas formas de trabajo; no son tres categorías fijas de productos.\n\nLa pregunta útil es quién decide el siguiente paso, con qué información y bajo qué límites. Al delegar más decisiones tenemos que definir mejor la meta, las condiciones de aceptación y la autoridad.",
-        "question": "¿Qué cambia cuando el sistema elige el siguiente paso?",
+        "narration": "Tomamos diez minutos. Quédense con estas dos preguntas: qué quieren construir y qué pueden aportar. Al volver delegaremos al agente la preparación de una propuesta, usando los perfiles, el objetivo y la investigación de clase 1.",
+        "question": "¿Qué objetivo propio usarás al repetir la práctica?",
         "steps": [
-          "Explica el concepto con la información visible.",
-          "¿Qué cambia cuando el sistema elige el siguiente paso?"
+          "¿Qué objetivo propio usarás al repetir la práctica?"
         ],
         "work": [],
         "materials": [],
         "sources": [],
         "extra": "",
-        "illustration": null,
-        "horario": "19:31–19:34",
+        "horario": "19:13–19:23",
         "runbook": {
-          "title": "Delegar una propuesta",
-          "text": "¿Qué cambia cuando el sistema elige el siguiente paso?",
+          "title": "Descanso",
+          "text": "¿Qué objetivo propio usarás al repetir la práctica?",
           "actions": [],
           "items": [
             {
-              "text": "Explica el concepto con la información visible.",
-              "actions": []
-            },
-            {
-              "text": "¿Qué cambia cuando el sistema elige el siguiente paso?",
+              "text": "¿Qué objetivo propio usarás al repetir la práctica?",
               "actions": []
             }
           ]
-        },
-        "divider": true
+        }
       },
       {
         "numero": 11,
-        "titulo": "El ciclo del agente",
-        "minutes": 8,
+        "titulo": "Agentes",
+        "minutes": 1,
         "block": 3,
-        "blockTitle": "Delegar una propuesta",
-        "tipo": "Teoría",
-        "aula": true,
+        "blockTitle": "Agentes y dirección",
+        "tipo": "Separador",
+        "studio": true,
         "visual": {
-          "layout": "art",
+          "layout": "chapter",
           "body": [
-            "Meta: preparar una colaboración viable para Ana.",
-            "Observar: leer perfiles. Decidir: falta conocer disponibilidad.",
-            "Actuar: registrar una pregunta. Comprobar: sigue pendiente.",
-            "Detenerse: entregar borrador y pendientes sin inventar respuestas."
+            "¿Qué decisiones podemos delegar y cuáles conservamos?",
+            "Objetivo · retroalimentación · autoridad"
           ]
         },
-        "narration": "Un agente trabaja en un ciclo. Observa información del entorno, elige una acción, usa una herramienta y vuelve a observar el resultado. Su siguiente paso puede depender de lo que acaba de ocurrir. Esa retroalimentación es la diferencia que nos interesa estudiar.\n\nImaginemos que prepara una colaboración para Ana y encuentra que Clara tiene experiencia pertinente, pero no declaró disponibilidad. Puede consultar otro archivo autorizado. Si tampoco encuentra la respuesta, puede registrar la pregunta pendiente. La falta de información no se resuelve repitiendo indefinidamente la misma consulta ni inventando una condición conveniente.\n\nEn términos de sistemas, el estado cambia después de cada acción y la decisión siguiente depende del estado observado. Pero el agente no observa todo el mundo: sólo aquello que sus herramientas y permisos hacen accesible. Por eso un razonamiento aparentemente completo puede estar apoyado en una observación incompleta.\n\nNecesitamos definir cuándo termina: por haber producido el resultado aceptable, por agotar un presupuesto de trabajo o por encontrar un bloqueo que requiere una persona. La lámina es un ejemplo conceptual. En la demostración veremos qué acciones ejecuta realmente la herramienta y abriremos los archivos que produzca.\n\nLas instrucciones definen la tarea y las restricciones. El contexto aporta los perfiles y la investigación. Las herramientas permiten leer documentos o escribir archivos. El registro conserva qué hizo y con qué resultado. La evaluación compara ese resultado con la meta; sin ella podemos tener actividad que nunca converge.\n\nLa retroalimentación no garantiza corrección. Si el agente usa la misma suposición equivocada para producir y evaluar, puede reforzar su error. Por eso pedimos comprobaciones externas: volver al perfil, señalar la fuente y consultar a la persona. También definimos condiciones de parada: información indispensable ausente, acción fuera de permiso o propuesta lista para revisión.\n\nEn nuestro caso el agente puede leer fichas, plantear equipos, escribir una propuesta y revisarla. Si Clara no declaró disponibilidad, el ciclo debe producir una pregunta pendiente. No debe inventar el dato para poder terminar. La incertidumbre es un resultado legítimo cuando queda localizada y explicada.",
-        "question": "Meta: preparar una colaboración viable para Ana.",
+        "narration": "En los flujos anteriores definimos el recorrido de antemano. Ahora permitiremos que el sistema elija parte de sus acciones para alcanzar una meta. Para dirigir ese trabajo tenemos que entender qué observa, cómo decide, qué puede hacer y cómo sabe cuándo detenerse.",
+        "question": "¿Quién debe elegir el siguiente paso?",
         "steps": [
-          "Explica el concepto con la información visible.",
-          "Meta: preparar una colaboración viable para Ana."
+          "¿Quién debe elegir el siguiente paso?"
         ],
         "work": [],
         "materials": [],
-        "sources": [
-          {
-            "title": "Anthropic · Building Effective AI Agents",
-            "url": "https://www.anthropic.com/engineering/building-effective-agents",
-            "focus": "Distinción entre recorridos predefinidos y selección dinámica de acciones. Los personajes y ejemplos son desarrollos docentes."
-          }
-        ],
+        "sources": [],
         "extra": "",
-        "illustration": "18-ciclo",
-        "horario": "19:34–19:42",
+        "divider": true,
+        "horario": "19:23–19:24",
         "runbook": {
-          "title": "El ciclo del agente",
-          "text": "Meta: preparar una colaboración viable para Ana.",
+          "title": "Agentes",
+          "text": "¿Quién debe elegir el siguiente paso?",
           "actions": [],
           "items": [
             {
-              "text": "Explica el concepto con la información visible.",
-              "actions": []
-            },
-            {
-              "text": "Meta: preparar una colaboración viable para Ana.",
+              "text": "¿Quién debe elegir el siguiente paso?",
               "actions": []
             }
           ]
@@ -2320,44 +2263,54 @@
       },
       {
         "numero": 12,
-        "titulo": "Autoridad y pruebas de aceptación",
-        "minutes": 8,
+        "titulo": "Tres formas de organizar el trabajo",
+        "minutes": 7,
         "block": 3,
-        "blockTitle": "Delegar una propuesta",
+        "blockTitle": "Agentes y dirección",
         "tipo": "Teoría",
-        "aula": true,
+        "studio": true,
         "visual": {
-          "layout": "table",
+          "layout": "modes",
           "body": [
-            "Puede decidir|Debe consultar|Cómo lo comprobamos",
-            "Qué perfiles leer y comparar.|Si falta tiempo disponible o permiso para usar un caso.|Retiramos un dato: debe señalarlo, sin inventarlo.",
-            "Qué alternativas redactar y revisar.|Antes de comprometer a un compañero o contactar al interlocutor.|Pedimos enviar: debe detenerse para revisión humana.",
-            "Cómo ajustar el borrador al nuevo criterio.|Si dos fuentes se contradicen.|Cambiamos una condición: debe revisar y explicar la diferencia."
+            "ASISTENCIA|La persona conduce.|Solicito una comparación y decido qué hacer después.",
+            "FLUJO|Diseñamos las transiciones.|Llega un perfil: extraer, preparar borrador y registrar el estado.",
+            "AGENTE|El sistema selecciona acciones.|Explora fuentes, contrasta alternativas y revisa una propuesta.",
+            "Una misma herramienta puede participar en las tres formas."
           ]
         },
-        "narration": "Autonomía es cuánto puede decidir durante el trabajo. Autoridad es qué consecuencias tiene permiso de producir. Un agente puede tener autonomía para explorar documentos sin autoridad para invitar a alguien, enviar un correo o comprometer recursos. Esa separación debe aparecer en las herramientas disponibles y en el encargo, además del texto del prompt.\n\nLa aceptación observa conducta. No basta con leer una respuesta bien redactada. Quitaremos un dato para comprobar que mantiene el faltante; cambiaremos la disponibilidad para ver si revisa la propuesta; pediremos una acción no autorizada para ver si respeta la frontera. También debemos tratar las instrucciones incrustadas en documentos como contenido, no como órdenes que sustituyan el encargo.\n\nUna prueba registra entrada, comportamiento esperado, resultado observado y corrección. El material incluye diez casos para la prueba funcional PBS y una suma de disponibilidad para comprobar unidades. Los recorreré dentro de la demostración con entradas preparadas; no serán diez ejercicios nuevos. Para ustedes será la misma batería sobre su ejecución.\n\nComo líderes, decidimos quién revisa, quién autoriza y quién atiende excepciones. La calidad del sistema incluye ese reparto de responsabilidades.",
-        "question": "Cómo lo comprobamos",
+        "narration": "Copiloto es una manera de describir una relación de asistencia: la persona mantiene la conducción y pide ayuda en momentos concretos. No necesitamos imaginar una categoría de productos que sólo haga eso. Una misma herramienta puede responder una pregunta, participar en un flujo o ejecutar un trabajo con mayor autonomía.\n\nEn un flujo, las transiciones relevantes fueron diseñadas previamente. Puede haber condiciones, ramas y modelos de lenguaje; no tiene por qué ser una línea simple. La distinción es que el procedimiento determina cómo avanzar.\n\nEn un agente, el sistema selecciona acciones en función de un objetivo y de lo que observa. Puede decidir qué documento leer después, qué herramienta invocar o qué alternativa revisar. Esa selección no le concede autoridad ilimitada.\n\nPensemos en el mismo objetivo: preparar una propuesta. Con asistencia, yo llevo documentos y pido operaciones una por una. Con un flujo, defino etapas que se repiten. Con un agente, doy una meta, fuentes y herramientas, y permito que el sistema elija una parte del recorrido. En la práctica podemos combinarlos: un flujo prepara los datos, un agente explora y una persona autoriza el resultado.\n\nLa decisión depende de la variabilidad de la tarea y del control que necesitamos. Delegar más no es automáticamente mejor: puede introducir costo, dificultad para diagnosticar errores y acciones innecesarias. Primero definimos qué decisión merece delegarse.",
+        "question": "¿Qué parte de nuestro ejercicio requiere realmente elegir acciones?",
         "steps": [
-          "Explica el concepto con la información visible.",
-          "Cómo lo comprobamos"
+          "Compara quién conduce en los tres renglones.",
+          "Usa la misma tarea de preparar una propuesta para distinguirlos.",
+          "Pide un caso donde un flujo predefinido sea suficiente."
         ],
         "work": [],
         "materials": [],
-        "sources": [],
+        "sources": [
+          {
+            "title": "Anthropic · Building effective agents",
+            "url": "https://www.anthropic.com/engineering/building-effective-agents",
+            "focus": "Distinción entre flujos predefinidos y agentes que seleccionan acciones."
+          }
+        ],
         "extra": "",
-        "illustration": null,
-        "horario": "19:42–19:50",
+        "horario": "19:24–19:31",
         "runbook": {
-          "title": "Autoridad y pruebas de aceptación",
-          "text": "Cómo lo comprobamos",
+          "title": "Tres formas de organizar el trabajo",
+          "text": "¿Qué parte de nuestro ejercicio requiere realmente elegir acciones?",
           "actions": [],
           "items": [
             {
-              "text": "Explica el concepto con la información visible.",
+              "text": "Compara quién conduce en los tres renglones.",
               "actions": []
             },
             {
-              "text": "Cómo lo comprobamos",
+              "text": "Usa la misma tarea de preparar una propuesta para distinguirlos.",
+              "actions": []
+            },
+            {
+              "text": "Pide un caso donde un flujo predefinido sea suficiente.",
               "actions": []
             }
           ]
@@ -2365,57 +2318,157 @@
       },
       {
         "numero": 13,
-        "titulo": "Demo 3 · preparar y revisar una propuesta",
+        "titulo": "El agente necesita un ciclo de evaluación",
+        "minutes": 9,
+        "block": 3,
+        "blockTitle": "Agentes y dirección",
+        "tipo": "Teoría",
+        "studio": true,
+        "visual": {
+          "layout": "figure",
+          "body": [
+            "Instrucciones y contexto definen el problema; las herramientas permiten actuar.",
+            "El resultado de una acción modifica lo que el agente puede observar.",
+            "La evaluación necesita evidencia y condiciones de parada."
+          ]
+        },
+        "narration": "El agente funciona mediante un ciclo. Observa información, decide una acción, la ejecuta y comprueba el efecto. El resultado cambia lo que puede observar en la siguiente vuelta. La retroalimentación permite adaptar el recorrido; también puede propagar un error si la comprobación es deficiente.\n\nLas instrucciones describen meta y restricciones. El contexto contiene perfiles, criterio e investigación. Las herramientas determinan qué acciones son posibles: leer archivos, escribir borradores o consultar una fuente. El registro permite reconstruir qué se hizo. El modelo, por sí solo, no equivale a todo ese sistema.\n\nDebemos definir qué significa avanzar. Una propuesta más larga no necesariamente está mejor sustentada. Si faltaba disponibilidad y el agente produjo un párrafo adicional, no resolvió el problema. Una comprobación útil vuelve a la fuente, detecta el faltante y solicita aclaración.\n\nHay condiciones de parada distintas: tarea aceptable, evidencia insuficiente, acción fuera de permiso o límite de recursos. Detenerse con una pregunta localizada puede ser mejor resultado que seguir generando texto.\n\nLa analogía con un sistema de control ayuda: hay una meta, observaciones, acciones y una comparación. Pero la observación puede ser incompleta y la evaluación también puede equivocarse. Por eso incorporamos comprobaciones externas y revisión humana. En nuestro ejercicio, la respuesta de un compañero es nueva información que obliga a revisar la propuesta; es una realimentación desde el mundo y no sólo desde otro texto del modelo.",
+        "question": "¿Qué información externa permitiría detectar que el agente está equivocado?",
+        "steps": [
+          "Recorre una vuelta completa del ciclo con una ficha incompleta.",
+          "Separa modelo, herramientas y registro.",
+          "Define un criterio de avance y una condición de parada."
+        ],
+        "work": [],
+        "materials": [],
+        "sources": [
+          {
+            "title": "Anthropic · Building effective agents",
+            "url": "https://www.anthropic.com/engineering/building-effective-agents",
+            "focus": "Uso de herramientas, retroalimentación del entorno y condiciones de parada."
+          }
+        ],
+        "extra": "",
+        "art": "agent",
+        "horario": "19:31–19:40",
+        "runbook": {
+          "title": "El agente necesita un ciclo de evaluación",
+          "text": "¿Qué información externa permitiría detectar que el agente está equivocado?",
+          "actions": [],
+          "items": [
+            {
+              "text": "Recorre una vuelta completa del ciclo con una ficha incompleta.",
+              "actions": []
+            },
+            {
+              "text": "Separa modelo, herramientas y registro.",
+              "actions": []
+            },
+            {
+              "text": "Define un criterio de avance y una condición de parada.",
+              "actions": []
+            }
+          ]
+        }
+      },
+      {
+        "numero": 14,
+        "titulo": "Autonomía, autoridad y aceptación",
+        "minutes": 7,
+        "block": 3,
+        "blockTitle": "Agentes y dirección",
+        "tipo": "Teoría",
+        "studio": true,
+        "visual": {
+          "layout": "authority",
+          "body": [
+            "LEER Y PROPONER|Puede explorar fichas y escribir alternativas dentro de la carpeta autorizada.",
+            "COMPROMETER Y ENVIAR|La persona decide antes de atribuir compromisos o contactar al interlocutor.",
+            "PRUEBA|Si retiramos disponibilidad, debe preguntar. Si cambiamos el objetivo, debe revisar. Si pedimos enviar, debe respetar su límite."
+          ]
+        },
+        "narration": "Autonomía y autoridad responden a preguntas distintas. Autonomía: cuánto puede elegir el sistema durante su trabajo. Autoridad: qué consecuencias tiene permiso de producir. Podemos darle libertad para explorar alternativas sin darle permiso para comprometer a nadie ni enviar documentos.\n\nEsa frontera debe aparecer en el encargo y en los accesos disponibles. Si una tarea sólo requiere leer perfiles y escribir borradores, no necesita herramientas de mensajería. Una carpeta seleccionada no equivale por sí misma a una barrera de seguridad; hay que revisar los permisos reales de la herramienta.\n\nLa prueba de aceptación traduce expectativas en conducta observable. Preparamos una entrada, definimos qué esperamos, ejecutamos y comparamos. Quitamos un dato: debe conservar el faltante. Cambiamos el criterio: debe revisar la propuesta. Introducimos una instrucción dentro de un documento: debe tratarla como contenido de la fuente, no como una orden que sustituye el encargo.\n\nLos diez casos del material son una batería funcional del mismo sistema, no diez proyectos nuevos. Incluyen excepciones y un cálculo sencillo de disponibilidad que verificaremos con unidades. Una salida bien escrita no demuestra que se leyó una fuente, se guardó un archivo o se respetó un permiso. Abriremos las evidencias.\n\nLa pregunta de liderazgo es quién acepta el resultado y quién atiende los fallos. Sin esos responsables, la autonomía sólo desplaza el trabajo de revisión hacia alguien que no fue identificado.",
+        "question": "¿Qué resultado observarías para aceptar o rechazar el sistema?",
+        "steps": [
+          "Distingue seleccionar una acción de tener permiso para sus consecuencias.",
+          "Define resultado esperado antes de ejecutar cada prueba.",
+          "Muestra el registro de diez casos preparado para la demo."
+        ],
+        "work": [],
+        "materials": [
+          "PRUEBAS_RED.md"
+        ],
+        "sources": [],
+        "extra": "",
+        "horario": "19:40–19:47",
+        "runbook": {
+          "title": "Autonomía, autoridad y aceptación",
+          "text": "¿Qué resultado observarías para aceptar o rechazar el sistema?",
+          "actions": [
+            {
+              "kind": "download",
+              "file": "PRUEBAS_RED.md",
+              "label": "PRUEBAS RED"
+            }
+          ],
+          "items": [
+            {
+              "text": "Distingue seleccionar una acción de tener permiso para sus consecuencias.",
+              "actions": []
+            },
+            {
+              "text": "Define resultado esperado antes de ejecutar cada prueba.",
+              "actions": []
+            },
+            {
+              "text": "Muestra el registro de diez casos preparado para la demo.",
+              "actions": []
+            }
+          ]
+        }
+      },
+      {
+        "numero": 15,
+        "titulo": "Demo 3 · una propuesta que puede corregirse",
         "minutes": 25,
         "block": 3,
-        "blockTitle": "Delegar una propuesta",
+        "blockTitle": "Agentes y dirección",
         "tipo": "Demostración en vivo",
-        "aula": true,
+        "studio": true,
         "visual": {
           "layout": "demo",
           "body": [
-            "El agente combina perfiles, objetivo e investigación de clase 1. Guarda una propuesta y sus preguntas pendientes.",
-            "Incorporo la respuesta de un compañero, cambio una condición y comparo las versiones.",
-            "OpenClaw · contraste con Codex"
-          ],
-          "demo": 3
+            "ENTRADA|Perfiles + criterio + investigación de clase 1",
+            "RESULTADO|Propuesta inicial, respuesta del compañero y versión revisada",
+            "OBSERVAR|Qué consulta, qué hace, qué comprueba y dónde se detiene."
+          ]
         },
-        "narration": "Ahora entrego al agente una carpeta con el directorio revisado, el criterio de Ana y las fuentes de la investigación de clase 1. Usaremos también el catálogo ficticio de Nexo como límite de lo que la organización del ensayo puede ofrecer. Le pediré dos alternativas de colaboración y una propuesta breve para conversar con el interlocutor.\n\nObservaré los documentos que consulta y comprobaré los archivos que guarda. Después incorporaré la respuesta ficticia de Bruno: antes de una capacitación necesita documentar el proceso. La propuesta deberá cambiar hacia una guía o un trabajo previo de documentación. No vamos a inventar una demanda de Juan José ni un compromiso de Bruno.\n\nCambiaré una restricción, ejecutaré los casos de aceptación preparados y mostraré el contraste con Codex sobre la misma carpeta. Al final veremos una propuesta inicial, una revisada y las razones de la revisión. Éste es el resultado que repetirán con sus conversaciones reales. Si una fuente indispensable falta, la salida correcta debe identificarla y proponer la pregunta necesaria; no completar el hueco con una historia.",
-        "question": "El agente combina perfiles, objetivo e investigación de clase 1. Guarda una propuesta y sus preguntas pendientes.",
+        "narration": "Abriré OpenClaw con la carpeta del caso y un encargo claro. El agente podrá consultar perfiles, comparar aportaciones y escribir borradores. Recuperaremos la investigación verificada del interlocutor de clase 1 y el catálogo ficticio de Nexo, que limita lo que podemos ofrecer dentro del ensayo.\n\nMostraré las fuentes y los archivos de salida. Elegiremos una alternativa y revisaremos si cada afirmación tiene respaldo. Después incorporaré la respuesta ficticia del compañero y cambiaré una condición. Abriremos las dos versiones para ver qué cambió y por qué.\n\nHaré un contraste con Codex sobre una copia de las mismas fuentes y recorreré la batería funcional preparada, incluyendo el cálculo. No necesitamos que todas las herramientas respondan igual; necesitamos observar su comportamiento frente al mismo encargo.\n\nEn la tarea, ustedes reemplazarán los perfiles de ensayo por las fichas autorizadas del grupo y la conversación ficticia por sus intercambios reales. El producto será una propuesta para revisar, no un envío automático al interlocutor.",
+        "question": "¿La segunda versión responde a información nueva o sólo cambia la redacción?",
         "steps": [
-          "Abre la guía de la demostración y realiza el recorrido completo.",
-          "Muestra las entradas, los archivos de salida y una corrección."
+          "¿La segunda versión responde a información nueva o sólo cambia la redacción?"
         ],
         "work": [
           "aula-agente",
-          "aula-cambio",
           "aula-proponer",
+          "aula-cambio",
           "aula-revisar"
         ],
         "materials": [
           "DEMO_AGENTES_CLASE_2.md",
           "PRUEBAS_RED.md",
+          "CONTEXTO_NEXO_C2.md",
           "INVESTIGACION_INTERLOCUTOR.md",
-          "CONTEXTO_NEXO_C2.md"
+          "RESPUESTA_BRUNO.md"
         ],
-        "sources": [
-          {
-            "title": "OpenClaw · Inicio",
-            "url": "https://docs.openclaw.ai/start/getting-started",
-            "focus": "Instalación y primera sesión; el resultado del ejercicio requiere una prueba real sobre archivos."
-          },
-          {
-            "title": "OpenAI · Guía de inicio",
-            "url": "https://learn.chatgpt.com/docs/quickstart",
-            "focus": "Acceso a la aplicación y proyectos locales para el contraste con Codex."
-          }
-        ],
+        "sources": [],
         "extra": "",
-        "illustration": null,
-        "horario": "19:50–20:15",
+        "tools": "OpenClaw · contraste con Codex",
+        "demo": 3,
+        "horario": "19:47–20:12",
         "runbook": {
-          "title": "Demo 3 · preparar y revisar una propuesta",
-          "text": "El agente combina perfiles, objetivo e investigación de clase 1. Guarda una propuesta y sus preguntas pendientes.",
+          "title": "Demo 3 · una propuesta que puede corregirse",
+          "text": "¿La segunda versión responde a información nueva o sólo cambia la redacción?",
           "actions": [
             {
               "kind": "download",
@@ -2429,13 +2482,18 @@
             },
             {
               "kind": "download",
+              "file": "CONTEXTO_NEXO_C2.md",
+              "label": "CONTEXTO NEXO C2"
+            },
+            {
+              "kind": "download",
               "file": "INVESTIGACION_INTERLOCUTOR.md",
               "label": "INVESTIGACION INTERLOCUTOR"
             },
             {
               "kind": "download",
-              "file": "CONTEXTO_NEXO_C2.md",
-              "label": "CONTEXTO NEXO C2"
+              "file": "RESPUESTA_BRUNO.md",
+              "label": "RESPUESTA BRUNO"
             },
             {
               "kind": "prompt",
@@ -2444,13 +2502,13 @@
             },
             {
               "kind": "prompt",
-              "key": "aula-cambio",
-              "label": "Copiar cambio"
+              "key": "aula-proponer",
+              "label": "Copiar proponer"
             },
             {
               "kind": "prompt",
-              "key": "aula-proponer",
-              "label": "Copiar proponer"
+              "key": "aula-cambio",
+              "label": "Copiar cambio"
             },
             {
               "kind": "prompt",
@@ -2460,97 +2518,103 @@
           ],
           "items": [
             {
-              "text": "Abre la guía de la demostración y realiza el recorrido completo.",
-              "actions": []
-            },
-            {
-              "text": "Muestra las entradas, los archivos de salida y una corrección.",
+              "text": "¿La segunda versión responde a información nueva o sólo cambia la redacción?",
               "actions": []
             }
           ]
         }
       },
       {
-        "numero": 14,
-        "titulo": "Cómo dirigir su implementación",
+        "numero": 16,
+        "titulo": "Convertir el prototipo en un encargo",
         "minutes": 10,
         "block": 3,
-        "blockTitle": "Delegar una propuesta",
+        "blockTitle": "Agentes y dirección",
         "tipo": "Teoría",
-        "aula": true,
+        "studio": true,
         "visual": {
-          "layout": "table",
+          "layout": "implementation",
           "body": [
-            "Decisión|Qué exige el sistema del grupo|Responsable y aceptación",
-            "Comprar, configurar o desarrollar|Probar con herramientas existentes; justificar desarrollo sólo por una necesidad no cubierta.|Líder: valor, costo y condiciones de uso.",
-            "Datos, cuentas e integración|Carpeta, fichas autorizadas, versiones y acceso del agente; identificar pasos manuales.|Dueño del dato y operador: entrada y salida comprobables.",
-            "Operación y revisión|Atender ilegibles, duplicados, faltantes y solicitudes de contacto.|Revisor: pruebas aprobadas y permisos respetados."
+            "COMPRAR|Cuando una solución existente cubre la necesidad y sus condiciones de uso.",
+            "CONFIGURAR|Cuando podemos componer herramientas y sostener sus conexiones.",
+            "DESARROLLAR|Cuando una necesidad relevante no está cubierta y podemos mantenerla.",
+            "ENCARGO|Entrada y salida · cuentas y permisos · integración · excepciones · responsables · aceptación"
           ]
         },
-        "narration": "Ya vimos funcionar el recorrido. Ahora podemos formular un encargo que otra persona pueda implementar. Debe identificar entrada, salida, reglas, excepciones, herramientas, cuentas, permisos y responsables. Decir queremos un agente para conectar personas no basta: necesitamos explicar qué información recibe y cómo sabremos que el resultado sirve.\n\nComprar una solución existente puede reducir tiempo de puesta en marcha, pero debemos comprobar que admite nuestros datos y permisos. Configurar herramientas nos permite combinar componentes, a cambio de mantener las conexiones. Desarrollar tiene sentido cuando una necesidad relevante no está cubierta y podemos sostener su operación. La decisión depende del caso y sus restricciones; no de cuál opción suena más avanzada.\n\nNuestro prototipo tiene fronteras visibles: la persona revisa su ficha y se publica una versión; el traspaso hacia la carpeta del agente puede ser manual. Para convertirlo en un servicio continuo habría que resolver identidad, acceso, actualizaciones y atención a fallos. No debemos presentar un demo como si ya tuviera esa operación.\n\nEl encargo de la tarea será breve, ligado al sistema que acabamos de construir. Al cambiar de interlocutor podemos conservar la estructura, pero debemos reemplazar y verificar su investigación. La siguiente clase preguntará si esa propuesta es viable: recursos, costos, capacidad y escenarios.",
-        "question": "Responsable y aceptación",
+        "narration": "Después de la demostración podemos distinguir un prototipo de un sistema en operación. El prototipo muestra que un recorrido es posible bajo ciertas condiciones. La operación debe sostenerlo cuando cambian usuarios, archivos, permisos y versiones.\n\nComprar, configurar y desarrollar son alternativas con costos de operación diferentes. Comprar puede reducir el tiempo de inicio, pero debemos comprobar acceso, portabilidad y adecuación al proceso. Configurar permite combinar componentes, a cambio de mantener conexiones y excepciones. Desarrollar permite resolver requisitos propios y también crea responsabilidad de mantenimiento. La comparación empieza por una necesidad concreta, no por una preferencia por herramientas.\n\nNuestro encargo describe el mismo sistema del grupo. Entradas: documentos e intención. Salidas: ficha, conexiones y propuesta revisada. Incluye cuentas, quién autoriza los datos, dónde se conserva la versión vigente y cómo pasa la información al agente. Si ese paso es manual, lo escribimos como manual. No prometemos una integración que no mostramos.\n\nAsignamos responsabilidades: cada integrante revisa su ficha; alguien administra el espacio compartido; una persona atiende fallos del flujo; quien presenta la propuesta verifica fuentes y compromisos. Definimos aceptación mediante los casos observados.\n\nPara justificar la inversión todavía faltan recursos, costos y escenarios. Ésa será la tercera clase. Hoy la decisión es si sabemos formular un trabajo suficientemente preciso como para implementarlo y verificarlo. El encargo de una página obliga a hacer explícitas las condiciones que el entusiasmo por el demo suele ocultar.",
+        "question": "¿Qué tendría que saber otra persona para operar este sistema sin depender de ti?",
         "steps": [
-          "Explica el concepto con la información visible.",
-          "Responsable y aceptación"
+          "Compara las tres alternativas para este sistema concreto.",
+          "Identifica un paso manual y una cuenta necesaria.",
+          "Asigna responsables y una condición verificable de aceptación."
         ],
         "work": [],
-        "materials": [],
+        "materials": [
+          "ACTIVIDAD_B_CLASE_2.md"
+        ],
         "sources": [],
         "extra": "",
-        "illustration": null,
-        "horario": "20:15–20:25",
+        "horario": "20:12–20:22",
         "runbook": {
-          "title": "Cómo dirigir su implementación",
-          "text": "Responsable y aceptación",
-          "actions": [],
+          "title": "Convertir el prototipo en un encargo",
+          "text": "¿Qué tendría que saber otra persona para operar este sistema sin depender de ti?",
+          "actions": [
+            {
+              "kind": "download",
+              "file": "ACTIVIDAD_B_CLASE_2.md",
+              "label": "ACTIVIDAD B CLASE 2"
+            }
+          ],
           "items": [
             {
-              "text": "Explica el concepto con la información visible.",
+              "text": "Compara las tres alternativas para este sistema concreto.",
               "actions": []
             },
             {
-              "text": "Responsable y aceptación",
+              "text": "Identifica un paso manual y una cuenta necesaria.",
+              "actions": []
+            },
+            {
+              "text": "Asigna responsables y una condición verificable de aceptación.",
               "actions": []
             }
           ]
         }
       },
       {
-        "numero": 15,
-        "titulo": "Tu tarea: repetir el sistema con tu grupo",
+        "numero": 17,
+        "titulo": "La tarea: construir la red del grupo",
         "minutes": 5,
         "block": 3,
-        "blockTitle": "Delegar una propuesta",
+        "blockTitle": "Agentes y dirección",
         "tipo": "Teoría",
-        "aula": true,
+        "studio": true,
         "visual": {
-          "layout": "assignment",
+          "layout": "task",
           "body": [
-            "REPETIR|CV + intención propia → ficha revisada. Comparte la ficha y consulta las de dos compañeros.",
-            "CONECTARSE|Ejecuta la recomendación con tu criterio. Ofrece una aportación y conversa con ambos compañeros.",
-            "PROPONER|El agente prepara una propuesta para el interlocutor de clase 1. Incorpora las respuestas reales.",
-            "DESAFÍO|Cambia objetivo, disponibilidad o modalidad. Entrega las dos versiones y explica qué cambió."
+            "01 · REPETIR|Tu CV y tu intención → ficha revisada y compartida.",
+            "02 · CONVERSAR|Consulta dos fichas, ofrece una aportación y pregunta. Incorpora respuestas reales.",
+            "03 · PROPONER|El agente prepara una propuesta para el interlocutor de clase 1; tú la verificas.",
+            "DESAFÍO|Cambia una condición y explica por qué cambia la propuesta. Conserva ambas versiones."
           ]
         },
-        "narration": "La tarea consiste en repetir el sistema que acabo de demostrar con su información y un interés propio. Cada persona comparte una ficha revisada. Lee al menos dos fichas del grupo, obtiene recomendaciones con su criterio y conversa con esos compañeros, ofreciendo también algo concreto. Si no recibe una respuesta, registra que está pendiente.\n\nCon el agente prepara una propuesta para el interlocutor de clase 1 y la corrige con lo aprendido en las conversaciones. El desafío es cambiar una condición: el objetivo, la disponibilidad o la modalidad. Conserva ambas versiones y explica por qué cambió la propuesta. Cambiar sólo el nombre no cumple el desafío.\n\nLa entrega será un documento breve con anexos de ejecución: ficha, conexiones, conversaciones y propuesta antes y después. Incluye la misma batería funcional y el cálculo que mostramos, más un encargo breve con decisión tecnológica y responsables. La guía organiza todo como un solo recorrido, con veinte puntos de evaluación. No se pide contactar al interlocutor externo. Si mañana lo sustituyéramos por otra persona, tendríamos que investigar de nuevo su contexto antes de reutilizar el método.",
-        "question": "CV + intención propia → ficha revisada. Comparte la ficha y consulta las de dos compañeros.",
+        "narration": "La tarea repite lo que yo he demostrado. Cada persona prepara su ficha y comparte una versión revisada. Consulta el directorio con su propio objetivo y conversa con al menos dos compañeros. La conversación debe ser recíproca: qué me interesa, qué puedo ofrecer y qué necesito preguntar. También respondemos a quienes se acerquen a nosotros.\n\nEl agente prepara una propuesta con esas fichas y la investigación de clase 1. Ustedes verifican lo que afirma e incorporan lo aprendido al conversar. Si una respuesta sigue pendiente, así debe aparecer.\n\nEl desafío consiste en cambiar una condición que importe: objetivo, disponibilidad o modalidad. Conservan la propuesta inicial y la revisada y explican la diferencia. Una variación de redacción o cambiar sólo el nombre no demuestra adaptación.\n\nLa entrega reúne el recorrido en un documento con anexos: ficha, conexiones, conversación, propuestas, batería funcional y cálculo, más el encargo de implementación. La rúbrica conserva los cuatro criterios PBS: proceso y autoridad, pruebas, decisión tecnológica, responsables y encargo. Son veinte puntos. La participación y sus correcciones son evidencia del proceso y de las pruebas. Las cuentas y las instrucciones de instalación están en el material de preparación.",
+        "question": "¿Qué condición cambiarás para poner a prueba tu propuesta?",
         "steps": [
-          "Explica el concepto con la información visible.",
-          "CV + intención propia → ficha revisada. Comparte la ficha y consulta las de dos compañeros."
+          "¿Qué condición cambiarás para poner a prueba tu propuesta?"
         ],
         "work": [],
         "materials": [
           "ACTIVIDAD_B_CLASE_2.md",
           "FORO_RED_CLASE_2.md",
-          "PRUEBAS_RED.md"
+          "PREPARACION_CLASE_2.md"
         ],
         "sources": [],
         "extra": "",
-        "illustration": null,
-        "horario": "20:25–20:30",
+        "horario": "20:22–20:27",
         "runbook": {
-          "title": "Tu tarea: repetir el sistema con tu grupo",
-          "text": "CV + intención propia → ficha revisada. Comparte la ficha y consulta las de dos compañeros.",
+          "title": "La tarea: construir la red del grupo",
+          "text": "¿Qué condición cambiarás para poner a prueba tu propuesta?",
           "actions": [
             {
               "kind": "download",
@@ -2564,17 +2628,51 @@
             },
             {
               "kind": "download",
-              "file": "PRUEBAS_RED.md",
-              "label": "PRUEBAS RED"
+              "file": "PREPARACION_CLASE_2.md",
+              "label": "PREPARACION CLASE 2"
             }
           ],
           "items": [
             {
-              "text": "Explica el concepto con la información visible.",
+              "text": "¿Qué condición cambiarás para poner a prueba tu propuesta?",
               "actions": []
-            },
+            }
+          ]
+        }
+      },
+      {
+        "numero": 18,
+        "titulo": "¿Y si cambiamos de interlocutor?",
+        "minutes": 3,
+        "block": 3,
+        "blockTitle": "Agentes y dirección",
+        "tipo": "Cierre",
+        "studio": true,
+        "visual": {
+          "layout": "closing",
+          "body": [
+            "Podemos conservar el método.",
+            "Debemos investigar de nuevo el contexto y comprobar la propuesta.",
+            "CLASE 3 · ¿Qué recursos exige y cuándo vale la pena?"
+          ]
+        },
+        "narration": "Hoy organizamos información, encontramos conexiones y delegamos la preparación de una propuesta. El valor está en que podemos explicar cómo llegamos a ella y qué tendría que cambiar si aparece información nueva.\n\nSi sustituimos al interlocutor de clase 1 por otra persona, podemos conservar el directorio y buena parte del procedimiento. Pero debemos volver a investigar su contexto, revisar la pertinencia de nuestra aportación y comprobar los supuestos. Reutilizar el método no significa reciclar una promesa cambiando el nombre.\n\nLa siguiente pregunta es económica y operativa: cuánto tiempo exige, qué recursos consume, qué beneficio esperamos y bajo qué escenario deja de convenir. En la tercera clase construiremos esa evaluación. Por ahora, el grupo tiene una tarea concreta: convertir lo que sabe de sus propios integrantes en una propuesta que se pueda discutir y corregir.",
+        "question": "¿Qué conservarías y qué tendrías que investigar otra vez?",
+        "steps": [
+          "¿Qué conservarías y qué tendrías que investigar otra vez?"
+        ],
+        "work": [],
+        "materials": [],
+        "sources": [],
+        "extra": "",
+        "horario": "20:27–20:30",
+        "runbook": {
+          "title": "¿Y si cambiamos de interlocutor?",
+          "text": "¿Qué conservarías y qué tendrías que investigar otra vez?",
+          "actions": [],
+          "items": [
             {
-              "text": "CV + intención propia → ficha revisada. Comparte la ficha y consulta las de dos compañeros.",
+              "text": "¿Qué conservarías y qué tendrías que investigar otra vez?",
               "actions": []
             }
           ]
