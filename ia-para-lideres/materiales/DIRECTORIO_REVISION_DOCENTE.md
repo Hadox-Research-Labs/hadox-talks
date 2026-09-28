@@ -1,51 +1,41 @@
-# Directorio de ensayo · versión 1
+# Directorio ficticio · referencia docente
 
-Cuatro personas ficticias. Referencia esperada para ensayar, no extracción ejecutada. Úsalo como instantánea inicial de DIRECTORIO_VIGENTE. Para la actualización sustituye únicamente BRUNO V1 por la ficha revisada V2; conserva V1 en Historial.
+Este documento fue preparado para revisar el ejercicio. No es una salida ejecutada de Make, Gemini, ChatGPT, Claude u OpenClaw. En el ensayo puede usarse como directorio inicial claramente identificado. En la tarea, el directorio contiene únicamente fichas revisadas por sus propietarios.
 
-## ANA · Ana Torres · versión 1
-Estado: REVISADO DE REFERENCIA DOCENTE (persona ficticia). Fuente: PERFIL_ANA_V1.pdf.
-Trayectoria: Diseñó materiales de inducción para un equipo de atención. Facilitó talleres internos; no declaró dirección de un área.
-Capacidad declarada: Diseño de aprendizaje y guías de trabajo.
-Evidencia: apartado «Capacidades declaradas», texto «Diseño de aprendizaje y guías de trabajo.».
-Interés: Quiero desarrollar formación para equipos de operaciones distribuidas.
-Ofrece: Diseño de materiales y facilitación.
-Busca: Conocimiento de procesos operativos y medición de resultados.
-Disponibilidad: Dos horas semanales a distancia para explorar una propuesta.
-Faltantes: ninguno para el esquema mínimo; no se ha confirmado una colaboración.
-Revisor: referencia preparada por el docente para contrastar salidas; no es resultado de una ejecución de IA.
+## ANA · v1
+- Experiencia: materiales de inducción y facilitación de talleres. Evidencia: “Diseñé materiales de inducción y facilité talleres internos”.
+- Ofrece: diseño de materiales y actividades de aprendizaje.
+- Busca: aprendizaje para equipos de operación.
+- Necesita: conocimiento del proceso y evaluación de resultados.
+- Disponibilidad: 2 horas, a distancia. No equivale a compromiso con un proyecto.
+- Fuente: PERFIL_ANA_V1.md. Estado: referencia docente del caso ficticio.
 
-## BRUNO · Bruno Salas · versión 1
-Estado: REVISADO DE REFERENCIA DOCENTE (persona ficticia). Fuente: PERFIL_BRUNO_V1.pdf.
-Trayectoria: Coordinó un proceso de recepción y despacho. Documentó incidencias y participó en capacitación de personal.
-Capacidad declarada: Mapeo de procesos logísticos y documentación de incidencias.
-Evidencia: apartado «Capacidades declaradas», texto «Mapeo de procesos logísticos y documentación de incidencias.».
-Interés: Quiero reducir errores de traspaso entre turnos.
-Ofrece: Descripción del proceso y revisión de ejemplos operativos ficticios.
-Busca: Diseño de formación y evaluación de comprensión.
-Disponibilidad: Una conversación remota de treinta minutos.
-Faltantes: ninguno para el esquema mínimo; no se ha confirmado una colaboración.
-Revisor: referencia preparada por el docente para contrastar salidas; no es resultado de una ejecución de IA.
+## BRUNO · v1
+- Experiencia: coordinación de recepción y despacho, documentación de incidencias y participación en capacitación.
+- Evidencia: “Coordiné recepción y despacho, documenté incidencias”.
+- Ofrece: explicar un proceso y sus fricciones.
+- Busca: reducir errores en cambios de turno.
+- Necesita: convertir el caso en aprendizaje y evaluar su utilidad.
+- Disponibilidad: 30 minutos a distancia. Caso sujeto a autorización.
+- Fuente: PERFIL_BRUNO_V1.md. Estado: referencia docente del caso ficticio.
 
-## CLARA · Clara Ríos · versión 1
-Estado: REVISADO DE REFERENCIA DOCENTE (persona ficticia). Fuente: PERFIL_CLARA_V1.pdf.
-Trayectoria: Elaboró encuestas y revisó resultados de talleres internos. Participó en el diseño de actividades de aprendizaje.
-Capacidad declarada: Evaluación de aprendizaje y diseño de encuestas.
-Evidencia: apartado «Capacidades declaradas», texto «Evaluación de aprendizaje y diseño de encuestas.».
-Interés: Quiero mejorar cómo se comprueba la aplicación de una capacitación.
-Ofrece: Revisión de objetivos y preguntas de evaluación.
-Busca: Casos operativos y contraste de métricas.
-Disponibilidad: No declarada.
-Faltantes: disponibilidad; no se ha confirmado una colaboración.
-Revisor: referencia preparada por el docente para contrastar salidas; no es resultado de una ejecución de IA.
+## CLARA · v1
+- Experiencia: encuestas, evaluaciones de talleres y participación en diseño de aprendizaje.
+- Evidencia: “Preparé encuestas y evaluaciones de talleres”.
+- Ofrece: formular objetivos y preguntas de evaluación.
+- Busca: comprobar aplicación del aprendizaje al trabajo.
+- Necesita: caso operativo y registros para comprobar resultados.
+- Disponibilidad: NO DECLARADA. Preguntar antes de planificar.
+- Fuente: PERFIL_CLARA_V1.md. Estado: referencia docente del caso ficticio.
 
-## DIEGO · Diego Méndez · versión 1
-Estado: REVISADO DE REFERENCIA DOCENTE (persona ficticia). Fuente: PERFIL_DIEGO_V1.pdf.
-Trayectoria: Preparó análisis de costos y reportes con registros de operaciones. No se declara acceso a datos de una empresa para este ejercicio.
-Capacidad declarada: Análisis de datos y costos; definición de indicadores.
-Evidencia: apartado «Capacidades declaradas», texto «Análisis de datos y costos; definición de indicadores.».
-Interés: Quiero evaluar resultados de una intervención con datos existentes.
-Ofrece: Diseño de una medición y revisión de supuestos de costos.
-Busca: Una descripción del proceso y registros autorizados.
-Disponibilidad: Dos horas a distancia para revisar un planteamiento.
-Faltantes: ninguno para el esquema mínimo; no se ha confirmado una colaboración.
-Revisor: referencia preparada por el docente para contrastar salidas; no es resultado de una ejecución de IA.
+## DIEGO · v1
+- Experiencia: análisis de costos y reportes con registros de operación.
+- Evidencia: “He elaborado análisis de costos y reportes con registros de operación”.
+- Ofrece: métricas, escenarios y supuestos explícitos.
+- Busca: medir resultados con información existente.
+- Necesita: proceso definido y registros autorizados.
+- Disponibilidad: 2 horas a distancia. No declara acceso a datos de otras empresas.
+- Fuente: PERFIL_DIEGO_V1.md. Estado: referencia docente del caso ficticio.
+
+## Actualización para la segunda ejecución
+Sustituir BRUNO v1 por BRUNO v2 sólo cuando se introduzca su actualización. Nueva prioridad: documentar el proceso antes de capacitar. Mantiene 30 minutos a distancia. Conservar v1 en el historial y anotar el cambio en el registro. La versión vigente no contiene dos Brunos.

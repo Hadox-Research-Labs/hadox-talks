@@ -1,21 +1,14 @@
-# Investigación del interlocutor · continuidad de la clase 1
+# Investigación del interlocutor · completar con clase 1
 
-ESTADO: SIN_EVIDENCIA. Esta es una plantilla, no una investigación terminada.
-Interlocutor de partida: Juan José Gutiérrez Mayorga. Negocio u organización elegida: completar con la investigación de clase 1. No hay reunión ni relación comercial confirmadas.
+Estado inicial: SIN_EVIDENCIA. Esta plantilla no contiene una investigación ejecutada.
 
-## Evidencia verificada
-Por cada hallazgo conserva: ID de fuente, título, URL original, fecha de consulta, afirmación comprobada y fragmento o localizador. Distingue información del interlocutor de información de una organización de su entorno. No infieras necesidades internas a partir de un cargo o una noticia general.
+Interlocutor de continuidad: Juan José Gutiérrez Mayorga. Recupera las fuentes que comprobaste en la clase 1. No atribuyas necesidades internas, presupuesto, interés comercial ni una reunión confirmada.
 
-## Oportunidad por explorar
-Hipótesis:
-Evidencia que la motiva:
-Qué podría desmentirla:
-Pregunta que tendríamos que hacer:
+## Hechos que podemos sostener
+Para cada hecho anota afirmación, fuente original, URL, fecha, fragmento y motivo de pertinencia. Distingue información sobre la persona de información sobre una organización de su entorno.
 
-## Enlace con el grupo
-Ficha y versión de cada aportación posible:
-Nota de conversación que confirma, corrige o limita la aportación:
-Pendientes y personas responsables:
+## Hipótesis para conversar
+Qué relación podría existir entre esos hechos y la oferta de Nexo. Qué pregunta permitiría comprobarla. Qué evidencia la haría poco pertinente.
 
-## Antes de pedir la propuesta
-Completa las secciones, comprueba fuentes y cambia el estado a REVISADO POR EL AUTOR con fecha. No sustituyas los vacíos por invenciones. El agente debe detenerse si encuentra SIN_EVIDENCIA o faltan los hallazgos.
+## Límite actual
+Lo que aún no sabemos. Si esta sección sigue vacía o no hay fuentes, la propuesta debe quedar pendiente de investigación.

@@ -1,36 +1,31 @@
-# Actividad B · Conocernos para proponer mejor
+# Actividad B · repetir la práctica con un desafío propio
 
-Entrega individual · 20 puntos propuestos · Repetir la demostración del profesor con un desafío propio. La fecha y la entrega formal las comunica PBS en Moodle. Esta web sirve para preparación y revisión.
+Individual · 20 puntos. El profesor realiza las demostraciones en clase. Tú repites el recorrido, conversas con compañeros y conservas evidencia de lo que cambió. PBS comunica la fecha y el espacio formal de entrega.
 
-## 1. Repite el recorrido
-Reproduce la extracción de un perfil con Make; comprueba el documento y marca el borrador. Publica sólo tu ficha revisada en el espacio que indique el docente. Puedes usar una semblanza profesional creada para el curso y decidir qué información compartir; no es obligatorio publicar un CV completo.
-Compara el mismo encargo y las mismas fichas en Gemini, ChatGPT y Claude. Anota una diferencia relevante de evidencia o inferencia. Después reproduce el recorrido B de Make y una ejecución de agente que lea fuentes y escriba resultados.
+## 1. Repetir el recorrido observado
+- Prepara una ficha a partir de tu información profesional y revisa cada capacidad contra la fuente. Puedes comenzar con Ana para comprobar la herramienta antes de usar datos propios.
+- Repite el flujo A y registra entrada, borrador y revisión. Distingue las acciones automáticas de la publicación humana.
+- Compara un mismo criterio y directorio en Gemini, ChatGPT y Claude. Anota evidencia, hipótesis, faltantes y diferencias. Si falta acceso a uno, identifica la salida del profesor usada como referencia y deja pendiente tu ejecución.
+- Repite B y la exploración del agente con fuentes revisadas. Conserva CONEXIONES y PENDIENTES y comprueba que los archivos existen.
 
-## 2. Conecta con el grupo
-Usa FORO_RED_CLASE_2.md. Explora al menos dos compañeros: una afinidad y una complementariedad. Publica dos respuestas concretas con aportación recíproca y pregunta. Registra cómo la conversación confirma, corrige o limita lo sugerido por IA. Responde también a quienes te consulten. No publiques el CV de otro ni lo uses fuera del alcance acordado.
+## 2. Conversar con el grupo
+Sigue FORO_RED_CLASE_2: comparte tu ficha autorizada, lee dos compañeros, plantea un aporte recíproco y una pregunta a cada uno. Responde también a las consultas recibidas. Incorpora correcciones reales o registra la respuesta pendiente.
 
-## 3. Introduce tu desafío
-Define un interés profesional propio. Cambia al menos un criterio (por ejemplo problema, tipo de contribución, trabajo remoto o datos disponibles) y compara las conexiones antes y después. Modifica el encargo que alimenta la automatización y la tarea del agente; no basta cambiar un nombre en el texto final.
-Recupera la investigación de la actividad A sobre Juan José Gutiérrez Mayorga y un negocio documentado de su entorno. Combina evidencia del interlocutor, catálogo Nexo y aportaciones posibles del grupo para preparar una propuesta de hasta dos páginas. Si falta evidencia o acuerdo, conserva el pendiente. No envíes la propuesta al interlocutor.
+## 3. Resolver el desafío
+Cambia una condición que importe: objetivo, prioridad, modalidad o disponibilidad. Conserva la recomendación inicial y la revisada. Explica la evidencia y el criterio que justifican el cambio. Recupera la investigación de clase 1 y prepara una propuesta individual con el catálogo Nexo y las aportaciones posibles. No presentes una hipótesis como demanda confirmada ni un aporte posible como compromiso.
 
-## 4. Entrega un expediente breve y revisable
-- Propuesta individual: oportunidad como hipótesis, sustento, aportaciones, primer paso y preguntas pendientes.
-- Ficha propia revisada y notas de los dos intercambios. Da crédito a compañeros y distingue lo confirmado de lo supuesto.
-- Una evidencia del recorrido Make y otra del agente; conserva entradas y salidas con versiones. Incluye la comparación de las tres herramientas y del cambio de criterio.
-- Registro de las diez pruebas de PRUEBAS_RED.md: puedes ejecutar casos con perfiles ficticios para no alterar datos de compañeros.
-- Encargo de implementación de una página: qué comprarías/configurarías/desarrollarías, dueño del proceso, responsable de datos, soporte técnico, revisor, accesos, costo por comprobar, mantenimiento y criterio para aceptar el piloto.
+## 4. Comprobar y dirigir
+Registra las diez pruebas de PRUEBAS_RED y verifica el cálculo de disponibilidad con unidades. Justifica comprar, configurar o desarrollar para tu caso. Redacta un encargo de implementación con entradas, salidas, cuentas, datos, permisos, integración, responsables, excepciones y aceptación.
 
-## Rúbrica · cuatro criterios de cinco puntos
-| Criterio | Para obtener 5 puntos |
-|---|---|
-| Proceso y autoridad | Distingue evento, estados y revisión; define lo que el agente decide y lo que requiere una persona. La ficha compartida tiene alcance y responsable. |
-| Pruebas y revisión | Registra las diez pruebas con evidencia y correcciones; compara versiones y muestra cómo los intercambios corrigieron o delimitaron la propuesta. |
-| Decisión tecnológica | Justifica automatización y agente, contrasta herramientas con el mismo contexto y defiende comprar/configurar/desarrollar para su caso. |
-| Responsables y encargo | Define responsables, insumos, accesos y aceptación; convierte capacidades del grupo en una hipótesis de colaboración con crédito y pendientes explícitos. |
+## Qué entregar
+Un documento de evidencia con: descripción del proceso y su frontera humana; resultados y correcciones de pruebas; comparación de herramientas; participación y cambio de criterio; propuesta v1/v2; decisión tecnológica; encargo con responsables. Adjunta o enlaza las entradas y salidas necesarias para comprobarlo, omitiendo credenciales e información que tus compañeros no autorizaron compartir. Puedes organizar anexos en una carpeta.
 
-Por criterio: 5 = completo y sustentado; 3 = razonable con una omisión material; 1 = genérico o débilmente sustentado; 0 = ausente. Los puntos intermedios requieren justificación del docente.
+## Rúbrica
+| Criterio | 5 puntos | 3 puntos | 1 punto | 0 puntos |
+|---|---|---|---|---|
+| Proceso y autoridad | Explica entrada, extracción, registro, excepción y frontera de decisiones con evidencia | Recorrido comprensible con una omisión relevante | Descripción genérica sin frontera clara | Ausente |
+| Pruebas y revisión | Diez pruebas, cálculo comprobado y revisión por fuentes y conversación | Pruebas parciales o una corrección sin evidencia suficiente | Sólo salida normal sin contraste | Ausente |
+| Decisión tecnológica | Justifica ruta y alternativa considerando cuentas, datos e integración | Elección razonada con condiciones incompletas | Preferencia de marca sin justificar | Ausente |
+| Responsables y encargo | Encargo ejecutable con responsables, permisos, aceptación y propuesta trazable | Encargo útil con responsabilidades pendientes | Propósito general sin especificación | Ausente |
 
-## Acceso y alternativas
-No contrates un plan sólo para resolver una restricción sin revisar primero la ruta disponible. Si una aplicación bloquea adjuntos, pega las fichas de texto que tienes permiso de usar. Si no permite herramientas, puedes analizar el encargo en chat y declarar esa limitación; el docente puede facilitar una ejecución compartida para acreditar el paso con agente. Ante una cuota de Make agotada, conserva escenario, mapeo y prueba pendiente y coordina una ejecución de ensayo. No presentes un análisis manual como integración ejecutada. La elección de una alternativa debe quedar documentada para evaluación.
-
-La información profesional puede ser mínima. Si prefieres, comparte una ficha de intereses y aportaciones para este ejercicio sin datos biográficos. El objetivo es una conexión útil y revisada, no recopilar información personal.
+Si una instalación o cuenta te impide ejecutar, registra el bloqueo y solicita al profesor la ruta para completar esa parte. Puedes analizar las salidas docentes identificadas como tales; no las presentes como ejecución propia. Los puntos intermedios requieren justificación docente.

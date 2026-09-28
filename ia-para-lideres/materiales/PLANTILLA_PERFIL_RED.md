@@ -1,23 +1,18 @@
-# Mi ficha para colaborar
+# Mi ficha para compartir con el grupo
 
-ID (seudónimo o identificador acordado):
-Nombre que quiero compartir:
-Versión y fecha:
-Estado: BORRADOR / REVISADO POR SU PROPIETARIO.
-Fuente: nombre del documento, versión y apartado.
+Comparte únicamente información profesional que elijas hacer visible. Puedes escribir esta ficha directamente y conservar tu CV original en privado. No hace falta publicar domicilios, teléfonos personales, identificaciones ni datos de clientes.
 
-## Trayectoria y capacidades
-Para cada capacidad: afirmación fiel, fragmento de evidencia y apartado de origen. Indica si es una declaración propia. Una revisión de redacción no certifica experiencia.
+- Nombre o identificador:
+- Versión y fecha:
+- Experiencia que puedo demostrar:
+- Fragmento o ejemplo que respalda esa experiencia:
+- Qué puedo aportar en una colaboración breve:
+- Qué me interesa construir ahora:
+- Qué necesito de otras personas:
+- Disponibilidad y modalidad que puedo explorar:
+- Restricciones o permisos pendientes:
+- Qué información todavía falta:
+- Revisión: qué corrigió la persona frente al borrador de IA:
+- Autorización del propietario para compartir esta versión en el grupo:
 
-## Mi intención presente
-- Me interesa desarrollar:
-- Puedo aportar:
-- Busco apoyo en:
-- Disponibilidad o restricciones que deseo compartir:
-- Información que falta y no debe inferirse:
-
-## Revisión y alcance
-Revisado por / fecha:
-Correcciones respecto del borrador:
-Autorizo compartir esta ficha en el grupo indicado por el docente. Mi CV original se conserva por separado; sólo incluyo información profesional que elegí compartir.
-Una capacidad declarada no equivale a una promesa de colaboración.
+Una disponibilidad orientativa permite conversar. El compromiso con una actividad específica se acuerda después.

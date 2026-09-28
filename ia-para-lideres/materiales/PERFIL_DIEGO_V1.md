@@ -1,24 +1,11 @@
-# Diego Méndez · Semblanza e intención
+# Diego · documento profesional de ensayo
 
-PERSONA FICTICIA PARA ENSAYO. ID: DIEGO. Versión: 1. Fecha: 27 septiembre 2026.
+Persona ficticia. ID: DIEGO. Versión: v1. Fecha del ejercicio: 27 septiembre 2026.
 
-## Trayectoria
-Preparó análisis de costos y reportes con registros de operaciones. No se declara acceso a datos de una empresa para este ejercicio.
+## Experiencia e interés declarados
 
-## Capacidades declaradas
-Análisis de datos y costos; definición de indicadores.
+He elaborado análisis de costos y reportes con registros de operación. Me interesa medir resultados usando información que ya exista. Puedo ayudar a definir métricas, comparar escenarios y explicitar supuestos. Necesito conocer el proceso y contar con registros autorizados. Dispongo de dos horas para esta exploración, a distancia. Mi experiencia no implica que tenga acceso a datos de otras empresas.
 
-## Interés actual
-Quiero evaluar resultados de una intervención con datos existentes.
+## Uso en el ejercicio
 
-## Puedo aportar
-Diseño de una medición y revisión de supuestos de costos.
-
-## Busco
-Una descripción del proceso y registros autorizados.
-
-## Disponibilidad declarada
-Dos horas a distancia para revisar un planteamiento.
-
-## Alcance
-Este perfil ficticio se puede compartir para el ensayo. No representa a un alumno ni acredita experiencia real. No contiene datos de contacto. Las aportaciones no son compromisos.
+Este documento sirve como entrada. La IA prepara un borrador y una persona lo contrasta con estas palabras. Ninguna capacidad adicional se presume a partir del cargo o de la forma de redactar.

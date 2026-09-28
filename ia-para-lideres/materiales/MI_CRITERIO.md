@@ -1,9 +1,11 @@
-# Encargo de Ana · versión 1 · ensayo ficticio
+# Criterio de Ana · ensayo inicial
 
-Soy Ana Torres (ANA). Quiero preparar formación para equipos de operaciones distribuidas. Puedo diseñar materiales; me falta conocimiento operativo y una forma de evaluar resultados.
-Busca una afinidad y una complementariedad entre los otros tres perfiles. Explica qué evidencia sostiene cada relación y qué falta confirmar. No me recomiendes mi propio perfil.
-Prioriza una aportación concreta y recíproca. No presupongas disponibilidad ni acceso a datos reales.
-Entrega dos hipótesis de colaboración, una alternativa descartada con razón, y una pregunta que pueda hacer a cada compañero antes de proponer algo juntos.
+ID del encargo: ANA-C1. Versión: v1.
 
-## Cambio para la segunda ejecución
-Ahora la prioridad es medir resultados con datos existentes y todo el trabajo debe poder hacerse a distancia. Revisa las conexiones anteriores. Si falta confirmar disponibilidad o acceso a datos, dilo. El cambio de criterio no actualiza por sí solo los perfiles.
+Quiero diseñar una experiencia de aprendizaje para equipos de operación. Puedo aportar materiales y actividades. Busco una persona con afinidad y otra con capacidad complementaria. Necesito identificar qué podríamos construir, qué aportaría yo a cambio y qué habría que preguntar. No doy por confirmada la participación de nadie.
+
+## Cambio para otra entrada
+Crear otro archivo ANA-C1-v2 que mantenga lo anterior y añada: debe poder explorarse a distancia y comenzar por documentar un proceso antes de diseñar una capacitación. No mezclar ambas versiones en el primer PDF.
+
+## Para mi propio criterio
+Sustituye el objetivo y la aportación de Ana por los tuyos. Declara modalidad, disponibilidad y una condición que pueda cambiar la recomendación. Conserva v1 y v2.

@@ -1,40 +1,44 @@
-# Preparación e instalación · clase 2
+# Preparación e instalación · empezar aquí
 
-Revisión documental: 27 septiembre 2026. Las interfaces, planes y cuotas pueden cambiar. Antes de la clase, prueba acceso, lectura de una fuente y creación de una salida en las cuentas que realmente usarás. Esta guía no afirma instalaciones ni integraciones ejecutadas por el profesor.
+Edición de aula, 27 septiembre 2026. Prepara el acceso antes de la clase: durante las demos observamos el recorrido y después lo repetimos como tarea. Este kit es material docente, no una certificación de que las conexiones ya funcionen en tu cuenta.
 
-## Gemini, ChatGPT y Claude · navegador
-Abre https://gemini.google.com/app, https://chatgpt.com y https://claude.ai. Inicia sesión en cada cuenta disponible. Crea una conversación nueva, adjunta el directorio ficticio y el criterio inicial; si no hay adjuntos, pega el texto. Usa red-conectar y guarda la respuesta. Las tres pruebas deben recibir el mismo contexto.
-No necesitas instalar las tres aplicaciones de escritorio para esta comparación. Comprueba los límites de archivos y mensajes de tu cuenta; no se garantiza acceso ilimitado ni gratuito a todas las funciones. Tener una suscripción de chat no equivale a tener créditos o credenciales de API.
+## Qué necesita cada parte
+| Parte | Dónde se usa | Prueba mínima |
+|---|---|---|
+| Gemini, ChatGPT y Claude | Navegador | Pegar una fuente y recibir una respuesta |
+| Google Drive y Docs | Navegador | Subir un PDF y crear un documento |
+| Make | Navegador | Conectar Drive/Docs y ejecutar una entrada ficticia |
+| OpenClaw | Instalación local y panel web | Leer una fuente y guardar un borrador |
+| Codex | Aplicación de escritorio con proyecto local | Abrir carpeta y comprobar un archivo creado |
 
-## Google Drive y Docs
-Usa una cuenta de ensayo, crea PBS_RED con las seis carpetas de DEMO_MAKE_CLASE_2.md y verifica que puedes subir un PDF y crear un documento. Conserva CV originales por separado. Comparte con el grupo únicamente las fichas que cada propietario revisó y autorizó.
+## 1. Preparar la carpeta del caso
+Descarga KIT_CLASE_2.zip y extrae su contenido en una carpeta nueva. Abre PERFIL_ANA_V1.pdf y su versión de texto. Deben describir materiales de inducción y talleres. Conserva los documentos reales de tus compañeros fuera del ensayo ficticio.
 
-## Make · navegador
-Abre https://www.make.com y crea o usa tu cuenta. No requiere instalar un servidor local. Desde un escenario añade Google Drive y Google Docs, crea sus conexiones siguiendo la autorización que muestra Google y prueba un archivo ficticio.
-Comprueba que tu cuenta permite los módulos de Make AI Content Extractor y AI Toolkit y revisa consumo antes de ejecutar. La ruta propuesta usa el proveedor integrado cuando esté disponible; no obliga a obtener tres API keys. Si usas proveedor propio, esa conexión y su facturación son independientes de las suscripciones de chat.
-Construye los dos escenarios con DEMO_MAKE_CLASE_2.md y ensáyalos completos. Exporta tu blueprint después de validarlo; cada alumno recreará sus conexiones. El kit incluye instrucciones, no un escenario probado en tu cuenta.
-Documentación: https://apps.make.com/google-drive-modules · https://apps.make.com/make-ai-extractors · https://apps.make.com/ai-tools · https://apps.make.com/google-docs-modules
+## 2. Entrar a las tres conversaciones
+Abre https://gemini.google.com/app, https://chatgpt.com y https://claude.ai. Inicia sesión y crea una conversación nueva en cada una. Pega el mismo DIRECTORIO_REVISION_DOCENTE y el criterio inicial. También puedes adjuntar los archivos cuando tu cuenta lo permita. Guarda el nombre del modelo que muestre cada aplicación, la fecha y su respuesta.
 
-## OpenClaw · instalación del agente
-1. Abre la guía oficial: https://docs.openclaw.ai/start/getting-started. Revisa requisitos y el apartado de tu sistema antes de ejecutar comandos.
-2. La ruta rápida documentada usa npx openclaw@latest en una terminal con Node compatible. Sigue el asistente de configuración, elige proveedor disponible en tu cuenta y un workspace dedicado al ensayo. Usa la guía oficial vigente para requisitos de Node y opciones de instalación persistente.
-3. En Windows consulta https://docs.openclaw.ai/platforms/windows. Sigue la ruta nativa o WSL que corresponda a tu entorno y a las funciones elegidas; no supongas que las rutas de archivos son iguales entre ambos.
-4. Comprueba el Gateway con openclaw gateway status y abre la interfaz con openclaw dashboard, según el método instalado. Si el ejecutable global no existe, sigue la forma de invocación que indique tu instalación; no mezcles rutas de distintas instalaciones.
-5. Configura proveedor y credenciales por el mecanismo oficial. No pongas claves en las fichas, prompts, capturas o kit. Comprueba consumo y acceso antes de clase.
-6. Revisa herramientas y permisos efectivos: https://docs.openclaw.ai/tools. Para este ensayo basta leer fuentes y crear borradores en el workspace. No conectes mensajería para realizar la práctica.
-7. Pide leer un archivo ficticio y escribir una nota. Abre la nota tú mismo. Después sigue DEMO_AGENTES_CLASE_2.md.
+La comparación básica funciona con texto; no exige instalar tres aplicaciones. Los límites dependen de la cuenta. Una suscripción de chat y el consumo de una API son servicios distintos. Si no tienes acceso a una herramienta, registra cuál falta y compara con las salidas que el profesor muestre, identificando su procedencia.
 
-## Codex · contraste de trabajo sobre archivos
-Consulta la instalación oficial en https://learn.chatgpt.com/docs/app y comprueba el acceso de tu cuenta. Abre una carpeta de ensayo como proyecto local. Trabaja en modo Local cuando esa sea la ruta disponible en tu aplicación; revisa qué puede leer y escribir antes de repetir red-agente. Documentación del entorno: https://learn.chatgpt.com/docs/environments/modes.
-ChatGPT en navegador permite el contraste de respuestas, pero no se debe presentar como la misma ejecución sobre una carpeta local. Usa el agente con herramientas para esa parte y verifica los archivos creados.
+## 3. Preparar Google y Make
+Usa una cuenta de ensayo. En Drive crea PBS_RED y las carpetas Entradas, Borradores, Revisados, Encargos, Conexiones e Historial. Crea el documento DIRECTORIO_VIGENTE con la referencia docente y anota que es una preparación manual del caso ficticio.
 
-## Ensayo mínimo del profesor
-- Descargar el kit y abrir todos los archivos de entrada.
-- Ejecutar A con ANA, CLARA y actualización BRUNO; comprobar estado y versiones.
-- Ejecutar B con los dos criterios y directorio vigente.
-- Comparar las tres conversaciones con contexto idéntico.
-- Confirmar lectura y escritura en OpenClaw y el contraste en Codex.
-- Completar la investigación del interlocutor con fuentes de clase 1 antes de generar la propuesta.
-- Abrir la presentación, probar pantalla completa, separadores y «Escuchar de corrido».
+En https://www.make.com abre un escenario y conecta Google Drive y Google Docs siguiendo la autorización de Google. La guía DEMO_MAKE_CLASE_2 detalla los dos recorridos. Make AI Toolkit permite usar su proveedor integrado; el uso consume créditos según la cuenta y configuración. Comprueba acceso al extractor y al módulo de texto antes de ensayar. Fuente: https://apps.make.com/ai-tools
 
-Si una ruta no está disponible, registra qué parte se pudo probar y cuál queda pendiente. La referencia docente sirve para revisar resultados, no para simular una ejecución exitosa.
+## 4. Instalar OpenClaw
+La guía oficial vigente ofrece una ruta rápida con **npx openclaw@latest**. Antes, comprueba **node --version**: la documentación consultada requiere Node 24.16+ o 26.1+. El asistente configura acceso al proveedor y abre el panel. La terminal mantiene el Gateway activo durante esta ruta de prueba. Fuente y pasos actualizados: https://docs.openclaw.ai/start/getting-started
+
+En Windows puedes elegir la aplicación nativa Windows Hub o la ruta de PowerShell documentada. Si utilizas WSL, los archivos y rutas pertenecen a ese entorno. Elige una sola ruta y sigue sus instrucciones: https://docs.openclaw.ai/platforms/windows
+
+Crea un workspace dedicado al caso. Revisa las herramientas y permisos efectivos para leer las fuentes y escribir borradores. La carpeta indicada en un prompt por sí sola no establece aislamiento. No hace falta conectar mensajería para el ejercicio. Consulta configuración de herramientas: https://docs.openclaw.ai/tools
+
+Prueba primero con un archivo ficticio: pide leerlo y crear PRUEBA.md con una frase que cite su contenido. Abre PRUEBA.md por tu cuenta. Si sólo aparece una respuesta de chat, todavía no has comprobado escritura en archivos. Con instalación persistente, los comandos de diagnóstico incluyen **openclaw --version**, **openclaw doctor** y **openclaw gateway status**. Sigue la forma de invocación de tu instalación.
+
+## 5. Preparar Codex para el contraste
+Sigue la instalación oficial de la aplicación de escritorio y abre la carpeta del ensayo como proyecto local. Comprueba acceso de tu cuenta y el modo de trabajo sobre archivos. La documentación actual reúne la aplicación y Codex en la misma guía de inicio: https://learn.chatgpt.com/docs/quickstart
+
+No necesitas un repositorio para este contraste: el resultado esperado son archivos de texto del caso. Revisa permisos y abre el archivo producido. Una conversación de ChatGPT que entrega texto no demuestra por sí misma que se escribió en tu carpeta.
+
+## 6. Ensayar antes de exponer
+Ejecuta A con Ana, Clara y Bruno v2. Ejecuta B con dos criterios. Comprueba las tres conversaciones y una lectura/escritura del agente. Completa la investigación real del interlocutor. Conserva capturas o salidas de tus ejecuciones y exporta el blueprint de Make sólo después de comprobarlo. No incluyas credenciales en el kit que compartas.
+
+Si falla una ruta, anota la herramienta, el paso, el mensaje y lo que sí pudiste comprobar. Una revisión manual del caso puede apoyar la explicación, pero debe identificarse como revisión manual. El profesor acordará cómo completar una evidencia pendiente de acceso.

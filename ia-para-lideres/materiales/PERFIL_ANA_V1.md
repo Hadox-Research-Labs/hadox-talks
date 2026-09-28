@@ -1,24 +1,11 @@
-# Ana Torres · Semblanza e intención
+# Ana · documento profesional de ensayo
 
-PERSONA FICTICIA PARA ENSAYO. ID: ANA. Versión: 1. Fecha: 27 septiembre 2026.
+Persona ficticia. ID: ANA. Versión: v1. Fecha del ejercicio: 27 septiembre 2026.
 
-## Trayectoria
-Diseñó materiales de inducción para un equipo de atención. Facilitó talleres internos; no declaró dirección de un área.
+## Experiencia e interés declarados
 
-## Capacidades declaradas
-Diseño de aprendizaje y guías de trabajo.
+Diseñé materiales de inducción y facilité talleres internos. Quiero desarrollar aprendizaje para equipos de operación. Puedo aportar diseño de materiales y actividades. Necesito conocer un proceso concreto y cómo evaluar sus resultados. Dispongo de dos horas para esta exploración y puedo trabajar a distancia.
 
-## Interés actual
-Quiero desarrollar formación para equipos de operaciones distribuidas.
+## Uso en el ejercicio
 
-## Puedo aportar
-Diseño de materiales y facilitación.
-
-## Busco
-Conocimiento de procesos operativos y medición de resultados.
-
-## Disponibilidad declarada
-Dos horas semanales a distancia para explorar una propuesta.
-
-## Alcance
-Este perfil ficticio se puede compartir para el ensayo. No representa a un alumno ni acredita experiencia real. No contiene datos de contacto. Las aportaciones no son compromisos.
+Este documento sirve como entrada. La IA prepara un borrador y una persona lo contrasta con estas palabras. Ninguna capacidad adicional se presume a partir del cargo o de la forma de redactar.

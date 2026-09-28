@@ -1,24 +1,11 @@
-# Bruno Salas · Semblanza e intención
+# Bruno · documento profesional de ensayo
 
-PERSONA FICTICIA PARA ENSAYO. ID: BRUNO. Versión: 2. Fecha: 27 septiembre 2026.
+Persona ficticia. ID: BRUNO. Versión: v2. Fecha del ejercicio: 27 septiembre 2026.
 
-## Trayectoria
-Coordinó un proceso de recepción y despacho. Documentó incidencias y participó en capacitación de personal.
+## Experiencia e interés declarados
 
-## Capacidades declaradas
-Mapeo de procesos logísticos y documentación de incidencias.
+Coordiné recepción y despacho, documenté incidencias y participé en actividades de capacitación. Actualizo mi prioridad: primero necesito documentar el proceso de relevo; la capacitación vendría después. Sólo puedo reunirme a distancia durante treinta minutos. Puedo aportar una descripción del proceso, sujeta a autorización para compartir el caso. Necesito una guía breve que podamos revisar antes de pensar en un taller.
 
-## Interés actual
-Ahora quiero documentar el proceso antes de proponer capacitación.
+## Uso en el ejercicio
 
-## Puedo aportar
-Descripción del proceso y revisión de ejemplos operativos ficticios.
-
-## Busco
-Apoyo para organizar procedimientos; formación sólo en una etapa posterior.
-
-## Disponibilidad declarada
-Una conversación remota de treinta minutos; no puedo participar presencialmente.
-
-## Alcance
-Este perfil ficticio se puede compartir para el ensayo. No representa a un alumno ni acredita experiencia real. No contiene datos de contacto. Las aportaciones no son compromisos.
+Este documento sirve como entrada. La IA prepara un borrador y una persona lo contrasta con estas palabras. Ninguna capacidad adicional se presume a partir del cargo o de la forma de redactar.

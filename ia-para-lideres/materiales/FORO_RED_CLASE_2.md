@@ -1,16 +1,19 @@
-# Conocernos para proponer · participación del grupo
+# Conversación en grupos · una red que se actualiza
 
-Estas son las instrucciones para el espacio de grupo que indique el docente. No se ha creado ni modificado un foro en Moodle desde esta página. Sugerencia de organización: equipos de tres o cuatro, con lectura de otros equipos cuando sus autores autoricen compartir.
+El profesor indica el espacio institucional y organiza grupos sugeridos de tres o cuatro personas. La preparación puede hacerse con los perfiles ficticios. La participación se realiza con fichas profesionales revisadas que cada compañero elige compartir.
 
-## Primera publicación · mi ficha
-Comparte PLANTILLA_PERFIL_RED.md ya revisada y un párrafo: «Quiero explorar… Puedo aportar… Busco…». Publica la ficha elegida, no todo tu CV. Indica versión y alcance de uso dentro del curso.
+## Primera participación: hacer visible una aportación
+Publica tu ficha con interés actual, aporte posible, necesidad y condiciones. Añade una pregunta: “Me gustaría construir ___; puedo aportar ___ y necesito entender ___”. No publiques el CV original si prefieres conservarlo privado.
 
-## Dos respuestas que abran una conversación
-Lee las fichas de al menos dos compañeros. A uno acércate por afinidad y a otro por complementariedad. Explica qué leíste, qué podrían hacer juntos, qué aportas tú y qué necesitas preguntarle. Ejemplo: «Veo que documentaste procesos de despacho. Yo puedo diseñar materiales de aprendizaje. ¿Tendría sentido explorar una guía de traspaso entre turnos? ¿Qué parte de tu experiencia estoy interpretando mal?».
-La IA puede preparar la sugerencia; tú decides qué escribir y lo publicas. Evita respuestas genéricas que sólo felicitan o repiten la ficha.
+## Segunda participación: encontrar dos conversaciones
+Lee al menos dos fichas. Busca una conexión por afinidad y otra por complementariedad. Puedes usar la IA para proponerlas; tú compruebas las fuentes y redactas el mensaje. Para cada compañero explica qué frase de su ficha te llamó la atención, qué ofrecerías a cambio y qué pregunta podría cambiar la propuesta.
 
-## Cerrar el intercambio
-Responde las preguntas que recibas. Corrige o delimita la interpretación. Quien propuso la conexión guarda una nota: hipótesis inicial, respuesta del compañero y cambio que hizo a su propuesta. Si no hay interés o tiempo, conserva esa respuesta y busca otra vía; no atribuyas un acuerdo.
+Ejemplo: “Bruno, mencionas que documentaste incidencias. Yo puedo preparar una guía de aprendizaje. ¿Tu prioridad es capacitar o primero describir el proceso? ¿Qué caso podrías compartir con autorización?”.
 
-## Incorporación individual
-Cada participante entrega su propuesta, cita qué aportación del compañero incorporó y distingue posibilidad de compromiso. Si nadie responde antes de la entrega, documenta las dos invitaciones y conserva las preguntas abiertas; la evaluación valora tu proceso, no una respuesta que no depende de ti.
+## Tercera participación: corregir la representación
+Responde a quien te contacte. Confirma, limita o corrige lo que entendió de tu ficha. Puede bastar una aclaración concreta: “esa experiencia fue como participante”, “por ahora sólo puedo revisar un borrador” o “primero debemos documentar el proceso”. Actualiza tu ficha si corresponde.
+
+## Cierre individual
+Registra la idea inicial, la respuesta recibida y la modificación de tu propuesta. Da crédito a las aportaciones. Si alguien no responde, marca pendiente y plantea qué harías para continuar sin atribuirle aceptación. No inventes una conversación con IA para sustituirlo.
+
+La participación se refleja en pruebas y revisión, y en la claridad del encargo final de la actividad B. El trabajo final sigue siendo individual.
