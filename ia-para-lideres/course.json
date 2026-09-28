@@ -1729,1278 +1729,1313 @@
   },
   {
     "id": 2,
-    "title": "Automatizar y delegar trabajo con IA",
-    "topics": "Automatización · Copilotos y agentes",
+    "title": "Conocernos para proponer mejor",
+    "topics": "Automatización · Capacidades del grupo · Agentes",
     "slides": [
       {
         "numero": 1,
-        "titulo": "De una oportunidad a trabajo organizado",
-        "minutes": 3,
-        "tipo": "TEORÍA 1",
-        "horario": "18:00–18:03",
-        "question": "¿Qué trabajo queremos que avance cuando dejamos de escribir en el chat?",
-        "narration": "La clase pasada vimos cómo cambia una respuesta cuando la herramienta dispone de contexto. Después propusimos investigar, compartir fuentes y preparar una oportunidad para Nexo. Hoy vamos a mirar qué trabajo hay entre encontrar una idea y llegar a una reunión bien preparada.\n\nImaginen que diez personas del comité encuentran oportunidades. Una llega por mensaje, otra está en un documento y una tercera queda dentro de un chat. Alguien debe reunirlas, conservar su origen y preparar el material para decidir. Ése es nuestro punto de partida: organizar trabajo que ya entendemos.\n\nVamos a alternar explicación y demostración. Yo haré los recorridos y les mostraré tanto la configuración como el resultado. Ustedes observarán qué ocurre y podrán preguntar. Después repetirán las demostraciones como tarea y las adaptarán a una oportunidad diferente. Aprenderemos primero a usar las herramientas y después a decidir dónde tendrían sentido en una empresa.",
+        "titulo": "Conocernos para proponer mejor",
+        "minutes": 5,
+        "block": 0,
+        "blockTitle": "Inicio",
+        "tipo": "APERTURA",
+        "horario": "18:00–18:05",
+        "question": "¿Qué podríamos hacer juntos que hoy no sabemos que podemos hacer?",
+        "narration": "En la primera clase investigamos un interlocutor: Juan José Gutiérrez Mayorga y un negocio de su entorno. Compartimos fuentes y pensamos qué podría ofrecer Nexo. Hoy añadimos una pregunta: ¿qué podríamos ofrecer si conociéramos mejor lo que cada uno de nosotros sabe hacer y quiere desarrollar?\n\nUn grupo puede reunir mucha experiencia y aprovechar muy poca. La información está distribuida, las personas describen su trabajo de maneras distintas y no siempre sabemos qué pedirles. Nuestra tarea consiste en hacer esa información utilizable sin confundir una descripción con una capacidad comprobada, ni una coincidencia con una alianza.\n\nVeremos cuatro movimientos: representar capacidades, buscar conexiones, delegar exploración y construir propuestas. Yo haré las demostraciones con personas ficticias. Después ustedes repetirán el recorrido, compartirán una ficha revisada y conversarán con compañeros para mejorar una propuesta individual. El resultado no es un directorio por sí mismo: es una posibilidad de colaboración que antes no veíamos.",
         "steps": [
-          "Presenta el encargo de Nexo y la alternancia teoría → demostración.",
-          "Aclara que hoy observan: la repetición y el desafío se realizan después.",
-          "Abre la guía de ensayo si quieres preparar las cuentas antes de impartir."
+          "Explica la idea y contrástala con el caso del grupo.",
+          "Recoge una objeción antes de pasar al siguiente concepto."
+        ],
+        "work": [],
+        "materials": [
+          "GUIA_2.md"
         ],
         "sources": [],
-        "work": [],
-        "materials": [],
         "extra": "",
         "visual": {
-          "layout": "opening",
+          "layout": "cover",
           "body": [
-            "Automatización, copilotos y agentes",
-            "Primero comprendemos. Después observamos una ejecución.",
-            "Nexo · Del hallazgo de investigación al expediente de reunión"
+            "Automatización, agentes y capacidades del grupo",
+            "Clase 2 · IA para líderes"
           ],
           "dark": true
         },
+        "red": true,
+        "illustration": "red.webp",
         "runbook": {
-          "title": "Escucha y relaciona con tu trabajo",
-          "text": "¿Qué trabajo queremos que avance cuando dejamos de escribir en el chat?",
-          "actions": [
-            {
-              "kind": "link",
-              "label": "Preparación y materiales",
-              "url": "clase-2/"
-            }
-          ],
+          "title": "Conducción de la explicación",
+          "text": "¿Qué podríamos hacer juntos que hoy no sabemos que podemos hacer?",
+          "actions": [],
           "items": [
             {
-              "text": "Presenta el encargo de Nexo y la alternancia teoría → demostración.",
+              "text": "Explica la idea y contrástala con el caso del grupo.",
               "actions": []
             },
             {
-              "text": "Aclara que hoy observan: la repetición y el desafío se realizan después.",
-              "actions": []
-            },
-            {
-              "text": "Abre la guía de ensayo si quieres preparar las cuentas antes de impartir.",
+              "text": "Recoge una objeción antes de pasar al siguiente concepto.",
               "actions": []
             }
           ]
-        },
-        "art": "c2-01.webp",
-        "sourceSlides": [
-          1
-        ],
-        "block": 0,
-        "blockTitle": "Inicio"
+        }
       },
       {
-        "titulo": "Automatización",
+        "numero": 2,
+        "titulo": "Procesos y representación",
+        "minutes": 1,
+        "block": 1,
+        "blockTitle": "Procesos y representación",
         "tipo": "SEPARADOR",
-        "question": "Del trabajo repetitivo a un recorrido claro.",
-        "narration": "Ahora entramos al bloque 1: Automatización. Del trabajo repetitivo a un recorrido claro.\n\nVerás: una entrada que llega a su registro. Decidirás: qué tarea vale la pena automatizar. Primero explico la idea y después la muestro en la herramienta.",
+        "horario": "18:05–18:06",
+        "question": "Procesos y representación",
+        "narration": "Entramos a procesos y representación. Qué conservamos de una persona y cómo circula esa información.\n\nDemostración: documento profesional → ficha revisable. Primero construimos el concepto; después lo observamos en una demostración.",
         "steps": [
-          "Presenta el cambio de contexto y el resultado del bloque."
+          "Explica la idea y contrástala con el caso del grupo.",
+          "Recoge una objeción antes de pasar al siguiente concepto."
+        ],
+        "work": [],
+        "materials": [
+          "GUIA_2.md"
         ],
         "sources": [],
-        "work": [],
-        "materials": [],
         "extra": "",
         "visual": {
           "layout": "divider",
           "body": [
-            "Verás: una entrada que llega a su registro.",
-            "Decidirás: qué tarea vale la pena automatizar."
+            "Qué conservamos de una persona y cómo circula esa información.",
+            "Demostración: documento profesional → ficha revisable."
           ],
           "dark": true
         },
-        "divider": true,
-        "subtitle": "Del trabajo repetitivo a un recorrido claro.",
-        "outcomes": [
-          "Verás: una entrada que llega a su registro.",
-          "Decidirás: qué tarea vale la pena automatizar."
-        ],
+        "red": true,
         "runbook": {
-          "title": "Cambiar de contexto",
-          "text": "Del trabajo repetitivo a un recorrido claro.",
+          "title": "Conducción de la explicación",
+          "text": "Procesos y representación",
           "actions": [],
           "items": [
             {
-              "text": "Deja respirar la transición. Explica qué cambia respecto al bloque anterior y anuncia la demostración.",
+              "text": "Explica la idea y contrástala con el caso del grupo.",
+              "actions": []
+            },
+            {
+              "text": "Recoge una objeción antes de pasar al siguiente concepto.",
               "actions": []
             }
           ]
         },
-        "numero": 2,
-        "minutes": 1,
-        "block": 1,
-        "blockTitle": "Automatización",
-        "horario": "18:03–18:04"
+        "divider": true
       },
       {
         "numero": 3,
-        "titulo": "Automatizar es acordar un recorrido",
-        "minutes": 10,
-        "tipo": "TEORÍA 1",
-        "horario": "18:04–18:14",
-        "question": "¿Qué inicia el trabajo y cómo sabemos que terminó?",
-        "narration": "Automatizar es acordar un recorrido.\n\nAutomatizar significa que un sistema ejecuta un recorrido definido cuando sucede algo. Un disparador inicia el trabajo: llega una respuesta a un formulario o aparece una fila nueva. La entrada es la información que recibe. Las reglas describen condiciones, las acciones hacen el trabajo y la salida es lo que otra persona necesita.\n\nUn ejemplo cotidiano es registrar una oportunidad comercial. El formulario recoge la nota, su fuente y quién la encontró. La automatización toma esos campos y los coloca en una tabla. No necesita comprender el negocio para hacer esa primera transferencia.\n\nConviene separar la tarea del proceso. Copiar una nota es una tarea. Investigar, registrar, revisar, priorizar y preparar una reunión forman un proceso. Podemos automatizar una parte y dejar otras en personas. Como líderes, debemos saber dónde termina la responsabilidad del sistema y quién recibe su resultado.\n\nPensemos en su trabajo: ¿qué información vuelve a copiar alguien cada semana? Escuchemos un ejemplo. Para describirlo necesitamos un inicio, una entrada y una salida que podamos reconocer, incluso antes de elegir software.\n\nElegir una tarea que valga la pena.\n\nLa primera decisión de un líder es elegir un trabajo que merezca el esfuerzo. Una tarea frecuente, con datos accesibles y una salida clara, suele ser un buen punto de partida para aprender. Si nadie sabe qué debe pasar, automatizar sólo vuelve más rápida la confusión.\n\nEn Nexo queremos que una oportunidad llegue al comité sin perder la fuente ni quedarse en la cuenta de una persona. Podemos observar cuántos pasos manuales exige registrarla y si la información queda completa. Todavía no estamos demostrando ventas, ahorro o retorno: estamos comprobando una mejora concreta del trabajo.\n\nTambién debemos mirar el paso siguiente. Si la tabla crece pero nadie revisa las oportunidades, habremos producido una nueva cola. Por eso asignamos a alguien del comité la revisión y definimos qué significa una fila útil. Hoy pediremos conservar identificador, nota y fuente, sin mezclar oportunidades.\n\nVeamos el recorrido funcionando. Voy a empezar con una transferencia sencilla para que podamos reconocer qué hace cada pieza.",
+        "titulo": "Evento, estado y transición",
+        "minutes": 6,
+        "block": 1,
+        "blockTitle": "Procesos y representación",
+        "tipo": "TEORÍA",
+        "horario": "18:06–18:12",
+        "question": "¿Qué debe ocurrir para que una ficha cambie de estado?",
+        "narration": "Automatizar es especificar cómo cambia un sistema cuando ocurre un evento. En nuestro ejemplo, subir un documento es un evento; que su perfil esté recibido, extraído o aprobado es un estado; pasar de uno a otro es una transición. Esta distinción obliga a definir algo más preciso que “usar IA para conocernos”.\n\nPodemos expresarlo como estado siguiente igual a una transformación del estado actual y el evento. La notación no añade magia: obliga a nombrar entradas, condiciones y resultados. Si llega una versión nueva, ¿creamos otra persona o actualizamos la existente? Si el documento no se puede leer, ¿se publica una ficha vacía o se interrumpe esa transición?\n\nEl recorrido puede ser fijo aunque uno de sus pasos sea probabilístico. Un modelo puede extraer información de forma variable dentro de un flujo cuyo orden ya decidimos nosotros. Por eso automatización y determinismo no son sinónimos, y añadir un modelo no convierte automáticamente el proceso en un agente.\n\nComo líderes debemos elegir qué variaciones toleramos, qué operaciones se repiten y qué evidencia permite avanzar. La unidad de valor no es el número de ejecuciones, sino que la información correcta llegue a la persona que puede utilizarla. Pidan un ejemplo del grupo: ¿qué evento les haría revisar una colaboración que habían descartado?",
         "steps": [
-          "Señala cada etapa y sigue una sola oportunidad de principio a fin.",
-          "Pide un ejemplo breve de trabajo repetitivo; no abras un ejercicio.",
-          "Distingue ejecutar manualmente una prueba de dejar un escenario programado.",
-          "Relaciona la selección con un beneficio concreto, sin inventar ahorro.",
-          "Define aceptación: una entrada produce un registro con el mismo identificador y fuente.",
-          "Pasa a Make; las cuentas y hojas deben estar preparadas antes del ensayo."
+          "Explica la idea y contrástala con el caso del grupo.",
+          "Recoge una objeción antes de pasar al siguiente concepto."
+        ],
+        "work": [],
+        "materials": [
+          "GUIA_2.md"
         ],
         "sources": [
           {
-            "title": "Make · Primer escenario",
-            "url": "https://help.make.com/step-3-add-your-first-app",
-            "focus": "Módulos y disparador de Google Sheets."
+            "title": "Flujos y agentes · Anthropic",
+            "url": "https://www.anthropic.com/engineering/building-effective-agents",
+            "focus": "Distinción entre recorrido predefinido y selección dinámica de pasos."
           },
           {
-            "title": "Make · Configurar el disparador",
-            "url": "https://help.make.com/step-5-set-up-the-trigger",
-            "focus": "Watch New Rows consulta filas nuevas; el punto de inicio importa."
+            "title": "Google Drive en Make",
+            "url": "https://apps.make.com/google-drive-modules",
+            "focus": "Eventos, descarga de documentos y manejo de archivos."
           }
         ],
-        "work": [],
-        "materials": [],
         "extra": "",
         "visual": {
-          "layout": "flow",
+          "layout": "sequence",
           "body": [
-            "Disparador|Entra un hallazgo",
-            "Entrada|Nota + fuente + autor",
-            "Regla|Conservar los campos",
-            "Acción|Registrar la oportunidad",
-            "Resultado|Fila disponible para el comité"
+            "Evento|Entra una versión de un perfil",
+            "Estado|Recibido, borrador o revisado",
+            "Transición|Una regla permite avanzar",
+            "Resultado|Una ficha disponible para consulta"
           ],
           "dark": false
         },
+        "red": true,
         "runbook": {
-          "title": "Escucha y relaciona con tu trabajo",
-          "text": "¿Qué inicia el trabajo y cómo sabemos que terminó?",
+          "title": "Conducción de la explicación",
+          "text": "¿Qué debe ocurrir para que una ficha cambie de estado?",
           "actions": [],
           "items": [
             {
-              "text": "Automatizar es acordar un recorrido — Señala cada etapa y sigue una sola oportunidad de principio a fin.",
+              "text": "Explica la idea y contrástala con el caso del grupo.",
               "actions": []
             },
             {
-              "text": "Automatizar es acordar un recorrido — Pide un ejemplo breve de trabajo repetitivo; no abras un ejercicio.",
-              "actions": []
-            },
-            {
-              "text": "Automatizar es acordar un recorrido — Distingue ejecutar manualmente una prueba de dejar un escenario programado.",
-              "actions": []
-            },
-            {
-              "text": "Elegir una tarea que valga la pena — Relaciona la selección con un beneficio concreto, sin inventar ahorro.",
-              "actions": []
-            },
-            {
-              "text": "Elegir una tarea que valga la pena — Define aceptación: una entrada produce un registro con el mismo identificador y fuente.",
-              "actions": []
-            },
-            {
-              "text": "Elegir una tarea que valga la pena — Pasa a Make; las cuentas y hojas deben estar preparadas antes del ensayo.",
+              "text": "Recoge una objeción antes de pasar al siguiente concepto.",
               "actions": []
             }
           ]
-        },
-        "art": "c2-02.webp",
-        "sourceSlides": [
-          2,
-          3
-        ],
-        "block": 1,
-        "blockTitle": "Automatización"
+        }
       },
       {
         "numero": 4,
-        "titulo": "Make: conectar, ejecutar y comprobar",
-        "minutes": 16,
-        "tipo": "DEMOSTRACIÓN",
-        "horario": "18:14–18:30",
-        "question": "¿Dónde se configura el recorrido que acabamos de dibujar?",
-        "narration": "Make: conectar una entrada con una salida.\n\nVoy a abrir dos pestañas: nuestra hoja y el escenario de Make. La hoja tiene una pestaña de entrada y otra de registro. El formulario alimenta la entrada; para ensayar también podemos añadir una fila directamente. La segunda pestaña es donde veremos el resultado de la automatización.\n\nEn Make añado Google Sheets y el módulo que observa filas nuevas. Elijo la hoja de entrada, señalo que tiene encabezados y selecciono desde dónde comenzar. Ésta es una consulta por sondeo: el sistema revisa cuando ejecutamos el escenario o cuando llega su horario; no significa que el formulario dispare una reacción instantánea.\n\nAhora agrego la acción de añadir una fila en la pestaña de registro. Relaciono cada campo de entrada con su columna de destino. Esto se llama mapear: decir de dónde sale cada valor. Todavía no interviene ningún modelo de IA. La conexión permite que Make acceda a la hoja y la configuración define qué operación hará con ella.\n\nGuardo el escenario y miro el recorrido completo. Antes de ejecutarlo, ¿en qué pestaña esperan ver aparecer la nueva fila?\n\nEjecutar, mirar y volver a ejecutar.\n\nIntroduzco la primera nota y ejecuto Run once. Abrimos la salida del primer módulo: ésta es la información que Make recibió. Después abrimos el módulo que escribe. Finalmente miramos la hoja. Las tres observaciones nos permiten seguir el mismo dato, desde que entra hasta que queda registrado.\n\nUna ejecución verde indica que los módulos terminaron, pero no nos dice si la información quedó en la columna correcta. Por eso comparo el identificador y la fuente con la entrada. Si el autor apareció donde iba la organización, la conexión funciona y el mapeo está mal. Corregimos esa relación y ensayamos con una fila nueva.\n\nAhora envío una segunda oportunidad. Queremos comprobar que el recorrido vuelve a funcionar sin reconstruirlo. Un disparador que recuerda las filas procesadas puede no recuperar la misma fila otra vez. Para una nueva prueba añadimos otro registro o cambiamos deliberadamente el punto de inicio; no pulsamos ejecutar sin saber qué estamos reprocesando.\n\nComo líderes, lo relevante es que podamos describir qué se hizo y mostrar una salida útil. Ya tenemos automatización. En el siguiente bloque veremos qué cambia cuando la entrada necesita interpretación.",
+        "titulo": "Representar implica seleccionar",
+        "minutes": 6,
+        "block": 1,
+        "blockTitle": "Procesos y representación",
+        "tipo": "TEORÍA",
+        "horario": "18:12–18:18",
+        "question": "¿Qué vuelve visible nuestro esquema y qué deja fuera?",
+        "narration": "Un CV es una descripción orientada a ciertos propósitos. Un perfil de colaboración es otra representación. No basta con resumir el primero: necesitamos decidir qué información será relevante para la segunda tarea. El CV cuenta principalmente una trayectoria; la declaración personal añade intención presente.\n\nEn física elegimos variables según el fenómeno que queremos explicar. Aquí también la elección de variables determina qué relaciones podremos observar. La analogía termina ahí: no estamos midiendo a la persona completa ni descubriendo leyes de su comportamiento. Estamos construyendo una descripción parcial, situada y revisable.\n\nUna transformación que reduce el documento a una ficha puede perder matices. “Participó en un proyecto” no debe convertirse en “dirigió un proyecto”. Por eso cada capacidad conserva una referencia y un fragmento breve. Distinguimos lo declarado por la persona, lo que aparece en un documento y lo que el modelo sólo propone como interpretación. Una declaración sigue siendo una declaración, aunque la IA la ordene bien.\n\nEl esquema tendrá experiencia, capacidades, intereses, lo que ofrece, lo que busca y restricciones que la persona quiera compartir. No necesitamos domicilios, documentos de identidad ni datos ajenos. Antes de compartir, el propietario corrige la ficha. La revisión confirma que lo representa razonablemente; no certifica toda su experiencia. ¿Qué parte valiosa de ustedes no aparece en su CV?",
         "steps": [
-          "Sigue DEMO_MAKE_CLASE_2.md, preparación y recorrido A. Abre el formulario ya preparado.",
-          "En Make crea Nexo · Registro de oportunidades. Usa Google Sheets > Watch New Rows sobre Entrada.",
-          "Configura encabezados y punto de inicio antes de enviar el formulario; después añade Google Sheets > Add a Row sobre Registro.",
-          "Mapea los cinco campos iniciales y guarda. Mantén desactivada la programación durante la demostración.",
-          "Introduce NEXO-01 desde el formulario y pulsa Run once. Abre las salidas de los módulos y la pestaña Registro.",
-          "Comprueba ID, nota y fuente. Envía NEXO-02 y repite; explica el cursor de filas nuevas.",
-          "Si no hay salida: revisa la pestaña vigilada, el punto de inicio, filas vacías y las conexiones.",
-          "Si Make no está disponible, usa la mesa de ensayo local sólo para explicar el mapeo. Identifícala como simulación; la prueba en Make queda pendiente."
-        ],
-        "sources": [
-          {
-            "title": "Make · Primer escenario",
-            "url": "https://help.make.com/step-3-add-your-first-app",
-            "focus": "Módulos y disparador de Google Sheets."
-          },
-          {
-            "title": "Make · Configurar el disparador",
-            "url": "https://help.make.com/step-5-set-up-the-trigger",
-            "focus": "Watch New Rows consulta filas nuevas; el punto de inicio importa."
-          }
+          "Explica la idea y contrástala con el caso del grupo.",
+          "Recoge una objeción antes de pasar al siguiente concepto."
         ],
         "work": [],
         "materials": [
-          "DEMO_MAKE_CLASE_2.md",
-          "ENTRADA_C2.tsv",
-          "REGISTRO_C2.tsv",
-          "CASOS_CLASE_2.md"
+          "GUIA_2.md"
         ],
+        "sources": [],
         "extra": "",
         "visual": {
-          "layout": "demo",
+          "layout": "image",
           "body": [
-            "Abre|Make + la hoja Nexo · Clase 2",
-            "Conecta|Google Sheets: Watch New Rows → Add a Row",
-            "Relaciona|ID con ID, nota con nota y fuente con fuente",
-            "Guarda|Escenario Nexo · Registro de oportunidades"
+            "Documento|Trayectoria y experiencias",
+            "Declaración|Intereses, aportaciones y necesidades",
+            "Ficha|Afirmaciones, evidencia y faltantes"
           ],
           "dark": false
         },
+        "red": true,
+        "illustration": "representacion.webp",
         "runbook": {
-          "title": "Observa la demostración del profesor",
-          "text": "Durante la sesión demuestra Edgar. Después repetirás el recorrido con los materiales y un desafío propio.",
-          "actions": [
-            {
-              "kind": "link",
-              "label": "Abrir Make",
-              "url": "https://www.make.com/"
-            },
-            {
-              "kind": "file",
-              "file": "DEMO_MAKE_CLASE_2.md",
-              "label": "Seguir los pasos de Make"
-            },
-            {
-              "kind": "file",
-              "file": "CASOS_CLASE_2.md",
-              "label": "Abrir las entradas de demostración"
-            },
-            {
-              "kind": "link",
-              "label": "Mesa de ensayo local",
-              "url": "clase-2/ensayo.html"
-            }
-          ],
-          "items": [
-            {
-              "text": "Make: conectar una entrada con una salida — Sigue DEMO_MAKE_CLASE_2.md, preparación y recorrido A. Abre el formulario ya preparado.",
-              "actions": []
-            },
-            {
-              "text": "Make: conectar una entrada con una salida — En Make crea Nexo · Registro de oportunidades. Usa Google Sheets > Watch New Rows sobre Entrada.",
-              "actions": []
-            },
-            {
-              "text": "Make: conectar una entrada con una salida — Configura encabezados y punto de inicio antes de enviar el formulario; después añade Google Sheets > Add a Row sobre Registro.",
-              "actions": []
-            },
-            {
-              "text": "Make: conectar una entrada con una salida — Mapea los cinco campos iniciales y guarda. Mantén desactivada la programación durante la demostración.",
-              "actions": []
-            },
-            {
-              "text": "Ejecutar, mirar y volver a ejecutar — Introduce NEXO-01 desde el formulario y pulsa Run once. Abre las salidas de los módulos y la pestaña Registro.",
-              "actions": []
-            },
-            {
-              "text": "Ejecutar, mirar y volver a ejecutar — Comprueba ID, nota y fuente. Envía NEXO-02 y repite; explica el cursor de filas nuevas.",
-              "actions": []
-            },
-            {
-              "text": "Ejecutar, mirar y volver a ejecutar — Si no hay salida: revisa la pestaña vigilada, el punto de inicio, filas vacías y las conexiones.",
-              "actions": []
-            },
-            {
-              "text": "Ejecutar, mirar y volver a ejecutar — Si Make no está disponible, usa la mesa de ensayo local sólo para explicar el mapeo. Identifícala como simulación; la prueba en Make queda pendiente.",
-              "actions": []
-            }
-          ]
-        },
-        "art": "c2-04.webp",
-        "sourceSlides": [
-          4,
-          5
-        ],
-        "block": 1,
-        "blockTitle": "Automatización"
-      },
-      {
-        "titulo": "IA en el flujo",
-        "tipo": "SEPARADOR",
-        "question": "Cuando mover datos ya no es suficiente.",
-        "narration": "Ahora entramos al bloque 2: IA en el flujo. Cuando mover datos ya no es suficiente.\n\nVerás: tres chats y una interpretación dentro de Make. Decidirás: qué debe cumplir una respuesta útil. Primero explico la idea y después la muestro en la herramienta.",
-        "steps": [
-          "Presenta el cambio de contexto y el resultado del bloque."
-        ],
-        "sources": [],
-        "work": [],
-        "materials": [],
-        "extra": "",
-        "visual": {
-          "layout": "divider",
-          "body": [
-            "Verás: tres chats y una interpretación dentro de Make.",
-            "Decidirás: qué debe cumplir una respuesta útil."
-          ],
-          "dark": true
-        },
-        "divider": true,
-        "subtitle": "Cuando mover datos ya no es suficiente.",
-        "outcomes": [
-          "Verás: tres chats y una interpretación dentro de Make.",
-          "Decidirás: qué debe cumplir una respuesta útil."
-        ],
-        "runbook": {
-          "title": "Cambiar de contexto",
-          "text": "Cuando mover datos ya no es suficiente.",
+          "title": "Conducción de la explicación",
+          "text": "¿Qué vuelve visible nuestro esquema y qué deja fuera?",
           "actions": [],
           "items": [
             {
-              "text": "Deja respirar la transición. Explica qué cambia respecto al bloque anterior y anuncia la demostración.",
+              "text": "Explica la idea y contrástala con el caso del grupo.",
+              "actions": []
+            },
+            {
+              "text": "Recoge una objeción antes de pasar al siguiente concepto.",
               "actions": []
             }
           ]
-        },
+        }
+      },
+      {
         "numero": 5,
-        "minutes": 1,
-        "block": 2,
-        "blockTitle": "IA en el flujo",
-        "horario": "18:30–18:31"
+        "titulo": "El flujo también necesita memoria",
+        "minutes": 5,
+        "block": 1,
+        "blockTitle": "Procesos y representación",
+        "tipo": "TEORÍA",
+        "horario": "18:18–18:23",
+        "question": "¿Qué pasa cuando la misma persona aparece dos veces?",
+        "narration": "La memoria de un proceso puede ser tan sencilla como conservar un identificador, una versión y un estado. No necesita ser memoria de un modelo. Con esos datos podemos distinguir una nueva persona de una nueva versión, y un borrador de una ficha revisada.\n\nLa idempotencia significa que repetir una operación no produce efectos adicionales indebidos. Si procesamos dos veces el mismo archivo, no queremos que una persona aparezca dos veces en las búsquedas. Para lograrlo hay que diseñar una clave y una regla, no pedir al modelo que “tenga cuidado”. En el recorrido mínimo llevaremos un registro de versiones; la ampliación puede automatizar ese control con un almacén de datos.\n\nLas excepciones revelan el diseño. Un texto ilegible, dos perfiles mezclados o una experiencia sin fecha no se resuelven inventando. Tampoco todas las fallas exigen abandonar el flujo: podemos guardar el borrador y dejarlo pendiente de aclaración. Lo esencial es que la siguiente etapa conozca ese estado.\n\nProbamos tres cosas distintas: que el mecanismo ejecuta, que la extracción respeta la fuente y que la salida sirve para la decisión. Un escenario en verde sólo responde parcialmente a la primera. En la demostración veremos un perfil normal, un faltante y una actualización. El criterio de éxito se escribe antes de ejecutar.",
+        "steps": [
+          "Explica la idea y contrástala con el caso del grupo.",
+          "Recoge una objeción antes de pasar al siguiente concepto."
+        ],
+        "work": [],
+        "materials": [
+          "GUIA_2.md"
+        ],
+        "sources": [
+          {
+            "title": "Google Drive en Make",
+            "url": "https://apps.make.com/google-drive-modules",
+            "focus": "Eventos, descarga de documentos y manejo de archivos."
+          },
+          {
+            "title": "Evaluación de herramientas · Anthropic",
+            "url": "https://www.anthropic.com/engineering/writing-tools-for-agents",
+            "focus": "Pruebas de tareas y herramientas con resultados observables."
+          }
+        ],
+        "extra": "",
+        "visual": {
+          "layout": "table",
+          "body": [
+            "Situación|Regla del proceso|Resultado esperado",
+            "Falta información|Conservar el faltante|Pedir aclaración",
+            "Se repite el archivo|Reconocer ID y versión|Evitar un duplicado",
+            "Cambia el perfil|Conservar historial|Revisar la nueva versión",
+            "Falla la extracción|Detener esa transición|No publicar una ficha vacía"
+          ],
+          "dark": false
+        },
+        "red": true,
+        "runbook": {
+          "title": "Conducción de la explicación",
+          "text": "¿Qué pasa cuando la misma persona aparece dos veces?",
+          "actions": [],
+          "items": [
+            {
+              "text": "Explica la idea y contrástala con el caso del grupo.",
+              "actions": []
+            },
+            {
+              "text": "Recoge una objeción antes de pasar al siguiente concepto.",
+              "actions": []
+            }
+          ]
+        }
       },
       {
         "numero": 6,
-        "titulo": "Una regla mueve datos; la IA interpreta",
-        "minutes": 10,
-        "tipo": "TEORÍA 2",
-        "horario": "18:31–18:41",
-        "question": "¿En qué paso necesitamos comprender una nota escrita por una persona?",
-        "narration": "Una regla mueve datos; la IA interpreta.\n\nNuestra automatización ya funciona, pero la nota sigue siendo un párrafo. Para preparar el comité queremos una síntesis: qué idea apareció, con qué servicio podría relacionarse y qué debemos preguntar. Aquí interviene una capacidad de interpretación.\n\nUna regla puede comprobar si existe un campo. Un modelo puede leer frases redactadas de maneras diferentes y proponer una síntesis. La combinación resulta útil: conservamos identificador y fuente con un mapeo fijo, y pedimos al modelo que trabaje sobre el contenido de la nota. Así sabemos qué datos llegaron y qué texto fue generado.\n\nEl resultado de la IA no debe reemplazar la nota original. Guardamos ambos porque cumplen funciones distintas. El hallazgo es el material recibido; la síntesis ayuda a revisarlo. Si cambia la síntesis, necesitamos poder volver a su origen.\n\nComo líderes, decidimos dónde merece la pena incorporar interpretación y qué evidencia necesitaremos para aceptarla. No estamos obligados a añadir IA en todos los pasos: elegimos el paso donde mejora el trabajo.\n\nUn encargo que otra herramienta puede ejecutar.\n\nUn encargo útil describe el resultado y la información disponible. En nuestro caso, el modelo recibe el catálogo de Nexo y una nota. Le pedimos una oportunidad resumida, un posible encaje, preguntas y un siguiente paso. Si no hay evidencia suficiente, queremos que lo haga visible.\n\nAntes de conectarlo definimos dos pruebas. Una nota completa debe producir una ficha coherente. Una nota vaga debe conservar lo que sabemos y formular preguntas, sin convertir una posibilidad en una necesidad confirmada. El criterio se establece antes de leer la respuesta. Una prueba de aceptación expresa qué tendría que ocurrir para que el resultado sirva.\n\nTambién distinguimos las vías de acceso. Usar Gemini, ChatGPT o Claude en el navegador es una experiencia de usuario. Una API permite que otro programa solicite trabajo a un modelo. Un conector facilita ese intercambio. Sus permisos, cuotas y cobros pueden ser diferentes de los de una suscripción de chat.\n\nVamos a probar el encargo en las aplicaciones y luego lo incorporaremos al recorrido. Primero entendemos el comportamiento que buscamos; después lo conectamos.",
-        "steps": [
-          "Contrasta copiar campos con interpretar su contenido.",
-          "Ubica el módulo de IA entre la entrada y el registro.",
-          "Explica por qué conservar nota original y síntesis en columnas distintas.",
-          "Presenta los criterios antes de abrir los chats.",
-          "Explica API como intercambio entre programas y conector como integración disponible.",
-          "Aclara que las tres aplicaciones se comparan como experiencia; no estamos haciendo un benchmark de modelos."
-        ],
-        "sources": [
-          {
-            "title": "Make · AI Toolkit",
-            "url": "https://apps.make.com/ai-tools",
-            "focus": "Simple Text Prompt y proveedor integrado; disponibilidad según plan y cuota."
-          },
-          {
-            "title": "Google · Facturación de Gemini API",
-            "url": "https://ai.google.dev/gemini-api/docs/billing",
-            "focus": "La API y la aplicación tienen cuentas, cuotas y cobros distintos."
-          }
-        ],
-        "work": [],
-        "materials": [],
-        "extra": "",
-        "visual": {
-          "layout": "compare",
-          "body": [
-            "Regla definida|Copiar el ID y conservar la fuente|Si falta la nota, marcar pendiente",
-            "Interpretación con IA|Resumir una nota comercial|Proponer preguntas a partir del catálogo"
-          ],
-          "dark": false
-        },
-        "runbook": {
-          "title": "Escucha y relaciona con tu trabajo",
-          "text": "¿En qué paso necesitamos comprender una nota escrita por una persona?",
-          "actions": [],
-          "items": [
-            {
-              "text": "Una regla mueve datos; la IA interpreta — Contrasta copiar campos con interpretar su contenido.",
-              "actions": []
-            },
-            {
-              "text": "Una regla mueve datos; la IA interpreta — Ubica el módulo de IA entre la entrada y el registro.",
-              "actions": []
-            },
-            {
-              "text": "Una regla mueve datos; la IA interpreta — Explica por qué conservar nota original y síntesis en columnas distintas.",
-              "actions": []
-            },
-            {
-              "text": "Un encargo que otra herramienta puede ejecutar — Presenta los criterios antes de abrir los chats.",
-              "actions": []
-            },
-            {
-              "text": "Un encargo que otra herramienta puede ejecutar — Explica API como intercambio entre programas y conector como integración disponible.",
-              "actions": []
-            },
-            {
-              "text": "Un encargo que otra herramienta puede ejecutar — Aclara que las tres aplicaciones se comparan como experiencia; no estamos haciendo un benchmark de modelos.",
-              "actions": []
-            }
-          ]
-        },
-        "art": "c2-06.webp",
-        "sourceSlides": [
-          6,
-          7
-        ],
-        "block": 2,
-        "blockTitle": "IA en el flujo"
-      },
-      {
-        "numero": 7,
-        "titulo": "Tres chats → IA en Make → prueba de excepción",
-        "minutes": 24,
+        "titulo": "Demostración 1 · Un perfil que otros puedan usar",
+        "minutes": 12,
+        "block": 1,
+        "blockTitle": "Procesos y representación",
         "tipo": "DEMOSTRACIÓN",
-        "horario": "18:41–19:05",
-        "question": "¿Qué tuvimos que aportar para que cada herramienta entendiera el encargo?",
-        "narration": "El mismo trabajo en tres aplicaciones.\n\nTengo preparadas las tres aplicaciones. Voy a usar el mismo encargo y los mismos documentos, empezando en conversaciones nuevas. Primero muestro dónde se adjunta el contexto o cómo se pega el texto cuando una cuenta no permite adjuntar. Después envío el encargo y observamos la salida.\n\nNo buscamos proclamar un ganador por tres respuestas. Queremos reconocer el trabajo que debe hacer un usuario: proporcionar información, pedir una salida, leerla y corregirla. Si una herramienta añade un servicio que Nexo no tiene, le pedimos separar esa idea como una capacidad por desarrollar. Si omite una fuente, volvemos al material original.\n\nConservo una respuesta por aplicación y anoto qué tuve que aclarar. En Gemini podemos mostrar brevemente dónde se guardan instrucciones reutilizables con un Gem, si está disponible. Eso ayuda a repetir un encargo; no le concede por sí solo herramientas para actuar en otros sistemas.\n\nEn la tarea podrán repetir esta comparación con sus cuentas. Si aparece un límite de uso, documentarán cuál y continuarán con otra opción disponible.\n\nAñadir interpretación al flujo.\n\nRegresamos al escenario. Entre la entrada y el registro añado Make AI Toolkit con Simple Text Prompt. Usaremos el proveedor integrado disponible en la cuenta, por lo que esta demostración no depende de configurar tres claves de API.\n\nEn el texto del encargo incluyo el catálogo breve y relaciono el campo de la nota con el dato recibido. Esta parte es importante: escribir el nombre de una columna no siempre inserta su contenido. Selecciono el valor de salida del módulo anterior usando el panel de mapeo.\n\nConservo las columnas originales y llevo la respuesta del modelo a la columna Síntesis_IA. Registro también qué versión de instrucción usé. Ejecuto una nueva entrada y miro el resultado. El recorrido está definido por nosotros; la interpretación ocurre dentro de uno de sus pasos.\n\nObserven lo que hemos conseguido: la misma información entra una vez, se conserva y recibe un primer tratamiento. El comité sigue decidiendo qué oportunidad merece atención. El tiempo total, la utilidad del resumen y la revisión necesaria serán mejores medidas que contar cuántas palabras produjo el modelo.\n\nUna entrada incompleta también tiene salida.\n\nVoy a enviar una nota deliberadamente vaga. La automatización puede funcionar desde el punto de vista técnico y aun así producir una ficha poco útil. Observemos si la respuesta reconoce qué información falta o inventa una oportunidad específica.\n\nLa corrección consiste en mejorar el encargo y repetir con una nueva fila. Si el problema es que la nota nunca llegó al modelo, no necesitamos un prompt más largo: necesitamos corregir el mapeo. Si la fuente está vacía, la revisión debe pedirla. Si la conexión falla, tenemos que recuperar el acceso y volver a ejecutar de forma controlada.\n\nAquí aparece una responsabilidad de liderazgo: definir qué resultado permite continuar y cuál debe esperar. Esa decisión se puede traducir después a una regla o una aprobación. Pasar estas pruebas nos permite seguir aprendiendo; todavía no demuestra que el proceso esté listo para cualquier entrada.",
+        "horario": "18:23–18:35",
+        "question": "¿La ficha representa fielmente lo que su propietario quiso compartir?",
+        "narration": "Voy a mostrar el recorrido con un perfil ficticio. El documento incluye trayectoria e intención profesional. Make detecta el archivo, recupera su texto y pide una extracción con un esquema definido. Abrimos el resultado y lo comparamos con el original antes de compartirlo.\n\nObserven una diferencia esencial: que el modelo termine no significa que la ficha esté aprobada. El paso de borrador a revisado lo realiza la persona. Después repito con un perfil al que le falta disponibilidad y con una versión nueva. El faltante debe seguir visible y la versión anterior debe poder identificarse.\n\nEl detalle de cada módulo está en la guía. Durante la explicación permanezco en Make y en los documentos, no avanzo una lámina por cada clic. Al final preguntamos qué decisión facilita esta representación y qué información no deberíamos deducir.",
         "steps": [
-          "Abre Gemini, ChatGPT y Claude en conversaciones nuevas. Adjunta CONTEXTO_NEXO_C2.md o pega su contenido.",
-          "Copia el encargo comparativo y la misma nota NEXO-01. Envía en las tres aplicaciones sin esperar a leer cada salida completa.",
-          "Compara sólo encaje con catálogo, preguntas y distinción de hipótesis. Muestra una corrección concreta.",
-          "Conserva las salidas del ensayo. Si una cuenta se bloquea, muestra su límite y usa una salida propia previamente guardada, identificando su fecha.",
-          "Sigue el recorrido B de DEMO_MAKE_CLASE_2.md. Añade AI Toolkit > Simple Text Prompt con el proveedor integrado.",
-          "Copia el encargo de Make. Sustituye [MAPEAR NOTA] por el token real del módulo de entrada; no lo dejes como texto literal.",
-          "Mapea la respuesta a Sintesis_IA. Conserva ID y Fuente desde la entrada y fija Version_instruccion=C2-v1.",
-          "Envía NEXO-03 como fila nueva. Ejecuta y abre la salida; el texto generado debe quedar separado de la nota.",
-          "Envía la nota incompleta de CASOS_CLASE_2.md como NEXO-04.",
-          "Contrasta con el criterio previo: preguntas y faltantes; no inventar cliente, presupuesto o necesidad.",
-          "Si ajustas la instrucción, identifica C2-v2 y añade NEXO-05 para repetir. Conserva ambas versiones."
-        ],
-        "sources": [
-          {
-            "title": "Google · Gems",
-            "url": "https://support.google.com/gemini/answer/15236321?hl=es",
-            "focus": "Instrucciones reutilizables dentro de Gemini."
-          },
-          {
-            "title": "Anthropic · Instalar Claude Desktop",
-            "url": "https://support.claude.com/en/articles/10065433-install-claude-desktop",
-            "focus": "Chat y Cowork tienen condiciones de acceso diferentes."
-          },
-          {
-            "title": "OpenAI · Aplicación de escritorio",
-            "url": "https://learn.chatgpt.com/docs/app",
-            "focus": "Proyectos, carpetas, archivos y ejecución de trabajo."
-          },
-          {
-            "title": "Make · AI Toolkit",
-            "url": "https://apps.make.com/ai-tools",
-            "focus": "Simple Text Prompt y proveedor integrado; disponibilidad según plan y cuota."
-          },
-          {
-            "title": "Make · Créditos",
-            "url": "https://help.make.com/credits",
-            "focus": "Uso de módulos y consumo de IA."
-          }
+          "Abre la guía Make, recorrido A. Usa un PDF ficticio del kit; ejecuta el escenario preparado con Run once.",
+          "Compara la ficha con el PDF y muestra las referencias a sus apartados.",
+          "Procesa el perfil incompleto: conserva disponibilidad como “no declarada”.",
+          "Introduce la versión 2 y aplica el control de ID/versión; enseña la aprobación manual y la carpeta Revisados."
         ],
         "work": [
-          "c2-comparar",
-          "c2-make"
+          "red-extraer"
         ],
         "materials": [
-          "CONTEXTO_NEXO_C2.md",
-          "CASOS_CLASE_2.md",
-          "DEMO_MAKE_CLASE_2.md"
-        ],
-        "extra": "",
-        "visual": {
-          "layout": "rows",
-          "body": [
-            "Gemini|Contexto + nota → ficha de oportunidad",
-            "ChatGPT|El mismo material → resultado comparable",
-            "Claude|El mismo material → resultado comparable"
-          ],
-          "dark": false
-        },
-        "runbook": {
-          "title": "Observa la demostración del profesor",
-          "text": "Durante la sesión demuestra Edgar. Después repetirás el recorrido con los materiales y un desafío propio.",
-          "actions": [
-            {
-              "kind": "prompt",
-              "key": "c2-comparar",
-              "label": "Copiar encargo"
-            },
-            {
-              "kind": "link",
-              "label": "Gemini",
-              "url": "https://gemini.google.com/"
-            },
-            {
-              "kind": "link",
-              "label": "ChatGPT",
-              "url": "https://chatgpt.com/"
-            },
-            {
-              "kind": "link",
-              "label": "Claude",
-              "url": "https://claude.ai/"
-            },
-            {
-              "kind": "prompt",
-              "key": "c2-make",
-              "label": "Copiar instrucción para Make"
-            },
-            {
-              "kind": "file",
-              "file": "DEMO_MAKE_CLASE_2.md",
-              "label": "Abrir DEMO_MAKE_CLASE_2.md"
-            }
-          ],
-          "items": [
-            {
-              "text": "El mismo trabajo en tres aplicaciones — Abre Gemini, ChatGPT y Claude en conversaciones nuevas. Adjunta CONTEXTO_NEXO_C2.md o pega su contenido.",
-              "actions": []
-            },
-            {
-              "text": "El mismo trabajo en tres aplicaciones — Copia el encargo comparativo y la misma nota NEXO-01. Envía en las tres aplicaciones sin esperar a leer cada salida completa.",
-              "actions": []
-            },
-            {
-              "text": "El mismo trabajo en tres aplicaciones — Compara sólo encaje con catálogo, preguntas y distinción de hipótesis. Muestra una corrección concreta.",
-              "actions": []
-            },
-            {
-              "text": "El mismo trabajo en tres aplicaciones — Conserva las salidas del ensayo. Si una cuenta se bloquea, muestra su límite y usa una salida propia previamente guardada, identificando su fecha.",
-              "actions": []
-            },
-            {
-              "text": "Añadir interpretación al flujo — Sigue el recorrido B de DEMO_MAKE_CLASE_2.md. Añade AI Toolkit > Simple Text Prompt con el proveedor integrado.",
-              "actions": []
-            },
-            {
-              "text": "Añadir interpretación al flujo — Copia el encargo de Make. Sustituye [MAPEAR NOTA] por el token real del módulo de entrada; no lo dejes como texto literal.",
-              "actions": []
-            },
-            {
-              "text": "Añadir interpretación al flujo — Mapea la respuesta a Sintesis_IA. Conserva ID y Fuente desde la entrada y fija Version_instruccion=C2-v1.",
-              "actions": []
-            },
-            {
-              "text": "Añadir interpretación al flujo — Envía NEXO-03 como fila nueva. Ejecuta y abre la salida; el texto generado debe quedar separado de la nota.",
-              "actions": []
-            },
-            {
-              "text": "Una entrada incompleta también tiene salida — Envía la nota incompleta de CASOS_CLASE_2.md como NEXO-04.",
-              "actions": []
-            },
-            {
-              "text": "Una entrada incompleta también tiene salida — Contrasta con el criterio previo: preguntas y faltantes; no inventar cliente, presupuesto o necesidad.",
-              "actions": []
-            },
-            {
-              "text": "Una entrada incompleta también tiene salida — Si ajustas la instrucción, identifica C2-v2 y añade NEXO-05 para repetir. Conserva ambas versiones.",
-              "actions": []
-            }
-          ]
-        },
-        "art": "c2-08.webp",
-        "sourceSlides": [
-          8,
-          9,
-          10
-        ],
-        "block": 2,
-        "blockTitle": "IA en el flujo"
-      },
-      {
-        "titulo": "Copilotos y agentes",
-        "tipo": "SEPARADOR",
-        "question": "De pedir una respuesta a delegar un trabajo.",
-        "narration": "Ahora entramos al bloque 3: Copilotos y agentes. De pedir una respuesta a delegar un trabajo.\n\nVerás: un agente que crea y revisa archivos. Decidirás: cuánto puede hacer y cuándo consultar. Primero explico la idea y después la muestro en la herramienta.",
-        "steps": [
-          "Presenta el cambio de contexto y el resultado del bloque."
-        ],
-        "sources": [],
-        "work": [],
-        "materials": [],
-        "extra": "",
-        "visual": {
-          "layout": "divider",
-          "body": [
-            "Verás: un agente que crea y revisa archivos.",
-            "Decidirás: cuánto puede hacer y cuándo consultar."
-          ],
-          "dark": true
-        },
-        "divider": true,
-        "subtitle": "De pedir una respuesta a delegar un trabajo.",
-        "outcomes": [
-          "Verás: un agente que crea y revisa archivos.",
-          "Decidirás: cuánto puede hacer y cuándo consultar."
-        ],
-        "runbook": {
-          "title": "Cambiar de contexto",
-          "text": "De pedir una respuesta a delegar un trabajo.",
-          "actions": [],
-          "items": [
-            {
-              "text": "Deja respirar la transición. Explica qué cambia respecto al bloque anterior y anuncia la demostración.",
-              "actions": []
-            }
-          ]
-        },
-        "numero": 8,
-        "minutes": 1,
-        "block": 3,
-        "blockTitle": "Copilotos y agentes",
-        "horario": "19:05–19:06"
-      },
-      {
-        "numero": 9,
-        "titulo": "Copilotos y agentes: quién decide el siguiente paso",
-        "minutes": 9,
-        "tipo": "TEORÍA 3",
-        "horario": "19:06–19:15",
-        "question": "¿Cómo cambia el recorrido cuando aparece información nueva?",
-        "narration": "El nombre del producto no explica su autonomía.\n\nEncontrarán la palabra copiloto en muchas propuestas comerciales. Sirve para describir una experiencia de asistencia, pero no nos dice cómo está construido el sistema. Una misma aplicación puede conversar, ejecutar un flujo y poner en marcha agentes.\n\nLa distinción que nos ayuda a diseñar es quién decide el siguiente paso. En Make elegimos primero leer, después resumir y finalmente registrar. Aunque un módulo use IA, el recorrido sigue definido. En un agente, el modelo puede decidir que necesita abrir un archivo, buscar otro dato, crear una tabla o revisar lo que acaba de producir.\n\nSon capacidades que pueden combinarse. Un flujo puede llamar a un agente para resolver una parte variable y después continuar con reglas. Un agente puede utilizar una automatización como herramienta. No existe una obligación de pasar de uno a otro por madurez.\n\nComo líderes, conviene pedir una descripción del comportamiento: qué recibe, qué decisiones toma y qué hace cuando no puede terminar. Esa explicación resulta más útil que aceptar una etiqueta comercial.\n\nUn agente trabaja en un ciclo.\n\nUn agente necesita un objetivo y medios para trabajar. Puede decidir una acción, utilizar una herramienta y observar lo que devolvió. Con esa observación decide cómo continuar. El recorrido se construye durante la ejecución dentro del alcance que le damos.\n\nPor ejemplo, al preparar una reunión podría leer el catálogo y descubrir que una idea requiere una capacidad que Nexo no tiene. Entonces puede separar lo disponible de lo que necesitaría un aliado y reformular la propuesta. Esa adaptación es parte del valor que queremos observar.\n\nAutonomía y autoridad son diferentes. Un agente puede elegir cómo ordenar los documentos y seguir necesitando autorización para enviar una propuesta. También puede preguntar cuando falta una decisión de negocio. La pregunta oportuna no implica que falló: puede ser la forma correcta de avanzar.\n\nDespués del descanso veremos un encargo completo sobre una carpeta. Miraremos acciones y archivos producidos; lo que la interfaz muestra es un registro de trabajo, no una ventana directa a todo el razonamiento interno del modelo.",
-        "steps": [
-          "Recupera el flujo anterior y pregunta quién fijó su recorrido.",
-          "Presenta copiloto como término de asistencia/comercial y agente como funcionamiento.",
-          "Explica una combinación posible: flujo → agente → registro.",
-          "Recorre el ciclo usando un solo ejemplo del comité.",
-          "Distingue decidir cómo trabajar de tener permiso para enviar o comprometer a la empresa.",
-          "Anuncia que después del descanso abrirás los archivos producidos."
+          "DEMO_MAKE_CLASE_2.md",
+          "PLANTILLA_PERFIL_RED.md",
+          "PRUEBAS_RED.md"
         ],
         "sources": [
           {
-            "title": "Anthropic · Building effective agents",
-            "url": "https://www.anthropic.com/engineering/building-effective-agents",
-            "focus": "Flujos predefinidos y agentes que deciden el recorrido."
-          }
-        ],
-        "work": [],
-        "materials": [],
-        "extra": "",
-        "visual": {
-          "layout": "flow",
-          "body": [
-            "Objetivo|Preparar la reunión",
-            "Decidir|Qué información revisar",
-            "Actuar|Abrir archivos y crear material",
-            "Observar|Qué obtuvo y qué falta",
-            "Continuar|Corregir, preguntar o terminar"
-          ],
-          "dark": true
-        },
-        "runbook": {
-          "title": "Escucha y relaciona con tu trabajo",
-          "text": "¿Cómo cambia el recorrido cuando aparece información nueva?",
-          "actions": [],
-          "items": [
-            {
-              "text": "El nombre del producto no explica su autonomía — Recupera el flujo anterior y pregunta quién fijó su recorrido.",
-              "actions": []
-            },
-            {
-              "text": "El nombre del producto no explica su autonomía — Presenta copiloto como término de asistencia/comercial y agente como funcionamiento.",
-              "actions": []
-            },
-            {
-              "text": "El nombre del producto no explica su autonomía — Explica una combinación posible: flujo → agente → registro.",
-              "actions": []
-            },
-            {
-              "text": "Un agente trabaja en un ciclo — Recorre el ciclo usando un solo ejemplo del comité.",
-              "actions": []
-            },
-            {
-              "text": "Un agente trabaja en un ciclo — Distingue decidir cómo trabajar de tener permiso para enviar o comprometer a la empresa.",
-              "actions": []
-            },
-            {
-              "text": "Un agente trabaja en un ciclo — Anuncia que después del descanso abrirás los archivos producidos.",
-              "actions": []
-            }
-          ]
-        },
-        "art": "c2-12.webp",
-        "sourceSlides": [
-          11,
-          12
-        ],
-        "block": 3,
-        "blockTitle": "Copilotos y agentes"
-      },
-      {
-        "numero": 10,
-        "titulo": "Descanso",
-        "minutes": 10,
-        "tipo": "DESCANSO",
-        "horario": "19:15–19:25",
-        "question": "Regresamos a las 19:25 para delegar un trabajo completo.",
-        "narration": "Hacemos una pausa de diez minutos. Regresamos a las 19:25. No hay una actividad que completar durante el descanso.",
-        "steps": [
-          "Detén la narración y deja esta lámina proyectada.",
-          "Retoma a las 19:25 con el expediente preparado."
-        ],
-        "sources": [],
-        "work": [],
-        "materials": [],
-        "extra": "",
-        "visual": {
-          "layout": "opening",
-          "body": [
-            "Diez minutos",
-            "19:15 → 19:25",
-            "Después: una carpeta de trabajo se convierte en un expediente de reunión."
-          ],
-          "dark": true
-        },
-        "runbook": {
-          "title": "Descansa",
-          "text": "Regresamos a las 19:25 para delegar un trabajo completo.",
-          "actions": [],
-          "items": [
-            {
-              "text": "Detén la narración y deja esta lámina proyectada.",
-              "actions": []
-            },
-            {
-              "text": "Retoma a las 19:25 con el expediente preparado.",
-              "actions": []
-            }
-          ]
-        },
-        "art": "c2-13.webp",
-        "sourceSlides": [
-          13
-        ],
-        "block": 3,
-        "blockTitle": "Copilotos y agentes"
-      },
-      {
-        "numero": 11,
-        "titulo": "Codex: crear archivos y cambiar una condición",
-        "minutes": 20,
-        "tipo": "DEMOSTRACIÓN",
-        "horario": "19:25–19:45",
-        "question": "¿Podemos delegar el resultado sin dictar cada clic?",
-        "narration": "Codex: del encargo a los archivos.\n\nAhora voy a dar un objetivo completo. Abro la carpeta del ensayo en Codex o en la experiencia de trabajo disponible en ChatGPT. Allí están el contexto de Nexo, las notas y el encargo. Los archivos de salida irán a una subcarpeta para distinguir lo recibido de lo producido.\n\nPido tres materiales: una propuesta breve, una agenda de preguntas y una lista de asuntos pendientes. Describo para quién es el resultado, el contexto disponible y qué debe conservar como hipótesis. No voy a indicarle cada clic. Quiero observar cómo organiza la tarea usando sus herramientas.\n\nMientras trabaja, señalo las acciones visibles. Leer el catálogo, crear un archivo o revisar una tabla son acciones diferentes de escribir una respuesta en el chat. Si pide una decisión que corresponde al comité, la respondo. Si una herramienta no está disponible, lo explicamos y ajustamos el alcance.\n\nAl terminar abrimos los archivos. Comparamos lo solicitado con lo entregado: ¿está la propuesta?, ¿la agenda sirve para una reunión?, ¿los pendientes son concretos? Una respuesta que afirma haber creado archivos necesita archivos que podamos abrir. Ésta es la comprobación que hacemos como usuarios y como responsables del trabajo.\n\nCambiar una condición y comparar.\n\nEl trabajo empresarial cambia durante su preparación. Voy a introducir una condición: la primera conversación durará veinte minutos y sólo abordará formación. El agente debe revisar la propuesta y la agenda sin inventar que el interlocutor ya aceptó esa condición. En el ejercicio es una restricción del comité para preparar su propia reunión.\n\nLe pido conservar la versión inicial y explicar los cambios. Después abrimos el nuevo material. Queremos ver si ajustó la duración y el alcance, si retiró lo que ya no corresponde y si conservó la información válida.\n\nAhora muestro brevemente el mismo encargo en Claude Cowork, si está habilitado en la cuenta del profesor. Seleccionamos la carpeta de ensayo y damos el mismo objetivo. No repetiremos toda la ejecución: compararemos cómo se concede contexto, qué acciones aparecen y dónde queda el resultado.\n\nCowork requiere un plan compatible. Quienes no tengan acceso pueden repetir el trabajo de archivos con Codex si su cuenta lo permite. Un chat que devuelve texto es una alternativa de preparación de contenido, pero debe identificarse como tal: no demuestra ejecución sobre la carpeta.",
-        "steps": [
-          "Descomprime KIT_CLASE_2.zip en una carpeta de ensayo. Abre esa carpeta en Codex/ChatGPT Work.",
-          "Usa CONTEXTO_NEXO_C2.md y CASOS_CLASE_2.md. Copia el encargo de agente.",
-          "Muestra las acciones visibles y responde sólo las aclaraciones necesarias.",
-          "Abre Salida/PROPUESTA.md, Salida/AGENDA.md y Salida/PENDIENTES.md. Si termina antes, revisa un párrafo contra el catálogo.",
-          "Copia el cambio de condición en Codex; pide conservar la primera versión.",
-          "Dedica cuatro minutos a revisar un cambio visible y cuatro al contraste con Cowork ya preparado.",
-          "Si Cowork no está disponible, muestra su requisito y continúa con Codex. La tarea permite sustituir Cowork por una ejecución equivalente de agente."
-        ],
-        "sources": [
-          {
-            "title": "OpenAI · Aplicación de escritorio",
-            "url": "https://learn.chatgpt.com/docs/app",
-            "focus": "Proyectos, carpetas, archivos y ejecución de trabajo."
+            "title": "Google Drive en Make",
+            "url": "https://apps.make.com/google-drive-modules",
+            "focus": "Eventos, descarga de documentos y manejo de archivos."
           },
           {
-            "title": "OpenAI · Planes y acceso",
-            "url": "https://learn.chatgpt.com/docs/pricing",
-            "focus": "Acceso a Work/Codex y límites de uso. Comprobar la cuenta antes de la sesión."
+            "title": "Extracción de documentos · Make",
+            "url": "https://apps.make.com/make-ai-extractors",
+            "focus": "Extracción de texto; disponibilidad y consumo sujetos a la cuenta."
           },
           {
-            "title": "Anthropic · Instalar Claude Desktop",
-            "url": "https://support.claude.com/en/articles/10065433-install-claude-desktop",
-            "focus": "Chat y Cowork tienen condiciones de acceso diferentes."
+            "title": "Make AI Toolkit",
+            "url": "https://apps.make.com/ai-tools",
+            "focus": "Instrucción de texto y proveedor integrado."
+          },
+          {
+            "title": "Google Docs en Make",
+            "url": "https://apps.make.com/google-docs-modules",
+            "focus": "Creación de documentos con el resultado."
           }
-        ],
-        "work": [
-          "c2-agente",
-          "c2-cambio"
-        ],
-        "materials": [
-          "CONTEXTO_NEXO_C2.md",
-          "CASOS_CLASE_2.md"
         ],
         "extra": "",
         "visual": {
           "layout": "demo",
           "body": [
-            "Entrega|Carpeta con catálogo, nota y condiciones",
-            "Encarga|Propuesta breve + agenda + pendientes",
-            "Observa|Archivos consultados y acciones ejecutadas",
-            "Abre|Los productos reales de la carpeta Salida"
+            "Entrada|CV o semblanza + intención profesional",
+            "Make|Detectar, extraer y preparar la ficha",
+            "Persona|Corregir y aprobar lo que compartirá",
+            "Salida|Perfil con fuente, versión y faltantes"
           ],
-          "dark": false
+          "dark": true
         },
+        "red": true,
         "runbook": {
-          "title": "Observa la demostración del profesor",
-          "text": "Durante la sesión demuestra Edgar. Después repetirás el recorrido con los materiales y un desafío propio.",
+          "title": "Demostración del profesor",
+          "text": "¿La ficha representa fielmente lo que su propietario quiso compartir?",
           "actions": [
             {
-              "kind": "prompt",
-              "key": "c2-agente",
-              "label": "Copiar encargo"
-            },
-            {
-              "kind": "link",
-              "label": "Guía de escritorio",
-              "url": "https://learn.chatgpt.com/docs/app"
+              "kind": "file",
+              "file": "DEMO_MAKE_CLASE_2.md",
+              "label": "DEMO MAKE CLASE 2"
             },
             {
               "kind": "file",
-              "file": "DEMO_AGENTES_CLASE_2.md",
-              "label": "Abrir DEMO_AGENTES_CLASE_2.md"
+              "file": "PLANTILLA_PERFIL_RED.md",
+              "label": "PLANTILLA PERFIL RED"
+            },
+            {
+              "kind": "file",
+              "file": "PRUEBAS_RED.md",
+              "label": "PRUEBAS RED"
             },
             {
               "kind": "prompt",
-              "key": "c2-cambio",
-              "label": "Copiar cambio de condición"
-            },
-            {
-              "kind": "link",
-              "label": "Disponibilidad de Claude Desktop",
-              "url": "https://support.claude.com/en/articles/10065433-install-claude-desktop"
+              "key": "red-extraer",
+              "label": "Copiar extracción"
             }
           ],
           "items": [
             {
-              "text": "Codex: del encargo a los archivos — Descomprime KIT_CLASE_2.zip en una carpeta de ensayo. Abre esa carpeta en Codex/ChatGPT Work.",
+              "text": "Abre la guía Make, recorrido A. Usa un PDF ficticio del kit; ejecuta el escenario preparado con Run once.",
               "actions": []
             },
             {
-              "text": "Codex: del encargo a los archivos — Usa CONTEXTO_NEXO_C2.md y CASOS_CLASE_2.md. Copia el encargo de agente.",
+              "text": "Compara la ficha con el PDF y muestra las referencias a sus apartados.",
               "actions": []
             },
             {
-              "text": "Codex: del encargo a los archivos — Muestra las acciones visibles y responde sólo las aclaraciones necesarias.",
+              "text": "Procesa el perfil incompleto: conserva disponibilidad como “no declarada”.",
               "actions": []
             },
             {
-              "text": "Codex: del encargo a los archivos — Abre Salida/PROPUESTA.md, Salida/AGENDA.md y Salida/PENDIENTES.md. Si termina antes, revisa un párrafo contra el catálogo.",
-              "actions": []
-            },
-            {
-              "text": "Cambiar una condición y comparar — Copia el cambio de condición en Codex; pide conservar la primera versión.",
-              "actions": []
-            },
-            {
-              "text": "Cambiar una condición y comparar — Dedica cuatro minutos a revisar un cambio visible y cuatro al contraste con Cowork ya preparado.",
-              "actions": []
-            },
-            {
-              "text": "Cambiar una condición y comparar — Si Cowork no está disponible, muestra su requisito y continúa con Codex. La tarea permite sustituir Cowork por una ejecución equivalente de agente.",
+              "text": "Introduce la versión 2 y aplica el control de ID/versión; enseña la aprobación manual y la carpeta Revisados.",
               "actions": []
             }
           ]
-        },
-        "art": "c2-14.webp",
-        "sourceSlides": [
-          14,
-          15
-        ],
-        "block": 3,
-        "blockTitle": "Copilotos y agentes"
+        }
       },
       {
-        "titulo": "OpenClaw e implementación",
+        "numero": 7,
+        "titulo": "Afinidad y complementariedad",
+        "minutes": 1,
+        "block": 2,
+        "blockTitle": "Afinidad y complementariedad",
         "tipo": "SEPARADOR",
-        "question": "Hacerlo funcionar. Saber cómo sostenerlo.",
-        "narration": "Ahora entramos al bloque 4: OpenClaw e implementación. Hacerlo funcionar. Saber cómo sostenerlo.\n\nVerás: configuración, ejecución y cambio de objetivo. Decidirás: herramientas, permisos y responsables. Primero explico la idea y después la muestro en la herramienta.",
+        "horario": "18:35–18:36",
+        "question": "Afinidad y complementariedad",
+        "narration": "Entramos a afinidad y complementariedad. La cercanía depende de la pregunta que hacemos.\n\nDemostración: mismos perfiles, distintos criterios de colaboración. Primero construimos el concepto; después lo observamos en una demostración.",
         "steps": [
-          "Presenta el cambio de contexto y el resultado del bloque."
+          "Explica la idea y contrástala con el caso del grupo.",
+          "Recoge una objeción antes de pasar al siguiente concepto."
+        ],
+        "work": [],
+        "materials": [
+          "GUIA_2.md"
         ],
         "sources": [],
-        "work": [],
-        "materials": [],
         "extra": "",
         "visual": {
           "layout": "divider",
           "body": [
-            "Verás: configuración, ejecución y cambio de objetivo.",
-            "Decidirás: herramientas, permisos y responsables."
+            "La cercanía depende de la pregunta que hacemos.",
+            "Demostración: mismos perfiles, distintos criterios de colaboración."
           ],
           "dark": true
         },
-        "divider": true,
-        "subtitle": "Hacerlo funcionar. Saber cómo sostenerlo.",
-        "outcomes": [
-          "Verás: configuración, ejecución y cambio de objetivo.",
-          "Decidirás: herramientas, permisos y responsables."
-        ],
+        "red": true,
         "runbook": {
-          "title": "Cambiar de contexto",
-          "text": "Hacerlo funcionar. Saber cómo sostenerlo.",
+          "title": "Conducción de la explicación",
+          "text": "Afinidad y complementariedad",
           "actions": [],
           "items": [
             {
-              "text": "Deja respirar la transición. Explica qué cambia respecto al bloque anterior y anuncia la demostración.",
+              "text": "Explica la idea y contrástala con el caso del grupo.",
+              "actions": []
+            },
+            {
+              "text": "Recoge una objeción antes de pasar al siguiente concepto.",
               "actions": []
             }
           ]
         },
-        "numero": 12,
-        "minutes": 1,
-        "block": 4,
-        "blockTitle": "OpenClaw e implementación",
-        "horario": "19:45–19:46"
+        "divider": true
       },
       {
-        "numero": 13,
-        "titulo": "Piezas, implementación y responsables",
-        "minutes": 11,
-        "tipo": "TEORÍA 4",
-        "horario": "19:46–19:57",
-        "question": "¿Qué parte configura el usuario y qué parte necesita habilitar la organización?",
-        "narration": "Las piezas que permiten trabajar al agente.\n\nLa interfaz puede parecer una conversación, pero el agente reúne varias piezas. El modelo aporta capacidades de interpretación; las instrucciones orientan el trabajo; el contexto contiene la información disponible; las herramientas permiten operar; el entorno determina dónde ocurren esas acciones.\n\nMemoria no significa que todo se recuerde siempre ni que cargar un archivo entrene el modelo. Puede consistir en instrucciones persistentes, notas o información guardada que el sistema recupera. Necesitamos saber qué conserva y poder corregirlo cuando cambia.\n\nComo usuarios configuramos un objetivo y aportamos material. Como líderes decidimos qué información debe estar disponible, quién la mantiene y qué accesos corresponde conceder. Una instrucción escrita no sustituye un permiso técnico. Pedir que guarde archivos necesita una herramienta de escritura; pedir que envíe correos exige acceso a un servicio adicional.\n\nComprar, configurar o desarrollar.\n\nLa elección tecnológica depende del trabajo que necesitamos sostener. Comprar una solución puede cubrir un proceso ya resuelto. Configurar permite adaptar herramientas existentes. Desarrollar se justifica cuando hay requisitos que las opciones disponibles no cubren suficientemente. Las tres rutas pueden convivir.\n\nHoy configuramos un flujo y utilizamos agentes existentes. Eso no demuestra que tengamos una plataforma empresarial lista para todos los usuarios. Hay que considerar cuentas, accesos, continuidad, soporte y cambios. Una herramienta gratuita puede requerir tiempo de preparación y consumo de modelos de pago.\n\nPara comparar opciones, describamos el mismo resultado y preguntemos cuánto trabajo queda en nuestro equipo. ¿Quién prepara los datos? ¿Quién revisa? ¿Qué ocurre si cambia una conexión? ¿Podemos recuperar nuestros archivos? La decisión se toma con requisitos y evidencia, no por la cantidad de funciones que muestra una página de venta.\n\nUn encargo que el equipo puede implementar.\n\nNo necesitamos crear un departamento antes de hacer una prueba, pero sí distribuir responsabilidades. El dueño del proceso define para qué sirve el resultado. El responsable de datos mantiene las fuentes. Tecnología habilita las conexiones. El revisor decide si la propuesta está lista para usarse. Una persona puede cubrir varias funciones si queda claro que las asume.\n\nUn pedido concreto podría decir: queremos recibir notas del comité, conservar su fuente, preparar una ficha y guardarla para revisión. La prueba debe incluir una nota completa y otra que requiera aclaración. Necesitamos saber quién mantendrá el catálogo y cómo detener el flujo si empieza a escribir mal.\n\nEsto convierte lo aprendido como usuarios en una conversación de implementación. Ya podemos mostrar una entrada, una salida y una excepción. TI o un proveedor podrá discutir con nosotros el alcance y estimar el trabajo. Veamos ahora otra forma de configurar estas piezas: OpenClaw.",
+        "numero": 8,
+        "titulo": "Recuperar, comparar, decidir",
+        "minutes": 9,
+        "block": 2,
+        "blockTitle": "Afinidad y complementariedad",
+        "tipo": "TEORÍA",
+        "horario": "18:36–18:45",
+        "question": "¿Qué significa “cercano” cuando busco a alguien que me complemente?",
+        "narration": "Buscar información y tomar una decisión son problemas distintos. Primero recuperamos candidatos; después analizamos si cumplen criterios; finalmente decidimos qué conversación o colaboración explorar. Mezclar esos pasos hace que un resultado de búsqueda parezca una recomendación definitiva.\n\nUn embedding representa un contenido mediante un vector. Una función de similitud permite comparar esas representaciones. La cercanía resultante depende del modelo, del texto y de la tarea. No equivale a una distancia objetiva entre personas ni a una medida de valor profesional. Una proyección en dos dimensiones puede ayudar a explicar la idea, pero también oculta información.\n\nAdemás hay búsquedas simétricas y asimétricas. “¿Quién se parece a mí?” compara perfiles. “¿Quién aporta lo que me falta?” relaciona una necesidad con una capacidad. Cambiar la pregunta cambia la representación útil, la recuperación y el criterio de selección.\n\nPara un grupo pequeño podemos entregar las fichas al modelo y pedir comparación explícita. No necesitamos construir una base vectorial para enseñar el razonamiento. Cuando la colección crece, recuperar primero puede reducir contexto y costo, pero abre otra pregunta: ¿qué candidato relevante se quedó fuera?\n\nLa prueba importante consiste en mostrar la evidencia que conecta un perfil con un criterio, y también por qué no lo elegiríamos. Un puntaje inventado de 94 por ciento no sustituye esa explicación. En nuestro ensayo no presentaremos puntuaciones como probabilidades de éxito.",
         "steps": [
-          "Señala las piezas en la demostración que acaban de observar.",
-          "Explica memoria con una nota de trabajo persistente, sin prometer recuerdo completo.",
-          "Separa contexto del modelo y permisos de las instrucciones.",
-          "Compara las tres rutas sobre el mismo expediente de reunión.",
-          "Menciona costos sin asignar cifras ficticias de retorno.",
-          "Distingue uso de una aplicación, cuota de una API y costo de mantenimiento.",
-          "Formula oralmente el pedido de Nexo con entrada, salida, accesos y dos pruebas.",
-          "Asigna las cuatro funciones sin inventar cargos de alumnos.",
-          "Conecta esta teoría con los ajustes visibles de OpenClaw."
-        ],
-        "sources": [
-          {
-            "title": "Anthropic · Building effective agents",
-            "url": "https://www.anthropic.com/engineering/building-effective-agents",
-            "focus": "Flujos predefinidos y agentes que deciden el recorrido."
-          },
-          {
-            "title": "OpenClaw · Primeros pasos",
-            "url": "https://docs.openclaw.ai/start/getting-started",
-            "focus": "Instalación, onboarding y panel del agente."
-          },
-          {
-            "title": "Make · Créditos",
-            "url": "https://help.make.com/credits",
-            "focus": "Uso de módulos y consumo de IA."
-          },
-          {
-            "title": "Google · Facturación de Gemini API",
-            "url": "https://ai.google.dev/gemini-api/docs/billing",
-            "focus": "La API y la aplicación tienen cuentas, cuotas y cobros distintos."
-          }
+          "Explica la idea y contrástala con el caso del grupo.",
+          "Recoge una objeción antes de pasar al siguiente concepto."
         ],
         "work": [],
-        "materials": [],
-        "extra": "",
-        "visual": {
-          "layout": "rows",
-          "body": [
-            "Modelo + instrucciones|Capacidad disponible y objetivo de trabajo",
-            "Contexto + memoria|Información actual y lo que se conserva entre tareas",
-            "Herramientas + permisos|Operaciones realmente disponibles",
-            "Entorno|Dónde ejecuta, guarda archivos y registra errores"
-          ],
-          "dark": false
-        },
-        "runbook": {
-          "title": "Escucha y relaciona con tu trabajo",
-          "text": "¿Qué parte configura el usuario y qué parte necesita habilitar la organización?",
-          "actions": [],
-          "items": [
-            {
-              "text": "Las piezas que permiten trabajar al agente — Señala las piezas en la demostración que acaban de observar.",
-              "actions": []
-            },
-            {
-              "text": "Las piezas que permiten trabajar al agente — Explica memoria con una nota de trabajo persistente, sin prometer recuerdo completo.",
-              "actions": []
-            },
-            {
-              "text": "Las piezas que permiten trabajar al agente — Separa contexto del modelo y permisos de las instrucciones.",
-              "actions": []
-            },
-            {
-              "text": "Comprar, configurar o desarrollar — Compara las tres rutas sobre el mismo expediente de reunión.",
-              "actions": []
-            },
-            {
-              "text": "Comprar, configurar o desarrollar — Menciona costos sin asignar cifras ficticias de retorno.",
-              "actions": []
-            },
-            {
-              "text": "Comprar, configurar o desarrollar — Distingue uso de una aplicación, cuota de una API y costo de mantenimiento.",
-              "actions": []
-            },
-            {
-              "text": "Un encargo que el equipo puede implementar — Formula oralmente el pedido de Nexo con entrada, salida, accesos y dos pruebas.",
-              "actions": []
-            },
-            {
-              "text": "Un encargo que el equipo puede implementar — Asigna las cuatro funciones sin inventar cargos de alumnos.",
-              "actions": []
-            },
-            {
-              "text": "Un encargo que el equipo puede implementar — Conecta esta teoría con los ajustes visibles de OpenClaw.",
-              "actions": []
-            }
-          ]
-        },
-        "art": "c2-16.webp",
-        "sourceSlides": [
-          16,
-          17,
-          18
-        ],
-        "block": 4,
-        "blockTitle": "OpenClaw e implementación"
-      },
-      {
-        "numero": 14,
-        "titulo": "OpenClaw: configurar, ejecutar y ajustar",
-        "minutes": 20,
-        "tipo": "DEMOSTRACIÓN",
-        "horario": "19:57–20:17",
-        "question": "¿La herramienta produjo lo pedido y pudo incorporar una corrección?",
-        "narration": "OpenClaw: ver la configuración detrás del agente.\n\nOpenClaw nos permite observar con más claridad cómo se configura un agente. Ya lo instalé y probé antes de la sesión. Voy a mostrar qué proveedor de modelos utiliza, en qué espacio trabaja y cuáles son las herramientas disponibles para este ejercicio. No necesitamos conectar un servicio de mensajería para empezar con el panel.\n\nLa instalación y el acceso al modelo son cosas distintas. Podemos tener el programa funcionando y necesitar una clave o una cuenta compatible para generar respuestas. La guía del curso enlaza las rutas oficiales por sistema operativo y explica esa separación.\n\nPara esta demostración usaremos los mismos documentos del caso en un espacio de ensayo. El objetivo será leerlos y preparar un archivo de preguntas para la reunión. Así podemos comparar con lo que acabamos de hacer en Codex y Cowork, manteniendo reconocible el trabajo.\n\nNo vamos a dedicar estos minutos a descargar dependencias. Quien quiera repetirlo tendrá la guía de preparación y deberá comprobar la primera respuesta antes de empezar el encargo. Ahora enfoquémonos en las piezas que hacen posible la ejecución.\n\nOpenClaw: ejecutar y ajustar el objetivo.\n\nEnvío el encargo. El agente debe leer el contexto de Nexo y la nota de oportunidad para crear un archivo de preguntas. Miramos qué acciones ejecuta y después abrimos el archivo. Si sólo responde en el chat, comprobamos si tenía herramienta y permiso de escritura; no damos por hecha la creación del documento.\n\nAhora cambiamos el foco a formación. Le pedimos conservar el original y preparar una segunda versión con preguntas más adecuadas. El valor no está en que escriba mucho, sino en que utilice el catálogo, conserve los límites del caso y ajuste el material a la nueva condición.\n\nComparemos con el flujo de Make. Allí nosotros definimos los módulos y sus relaciones. Aquí encargamos un producto y el sistema organiza parte de los pasos. Ambos pueden ser útiles. Una automatización puede reunir entradas de manera regular y un agente puede elaborar un expediente cuando el comité lo solicita.\n\nComo líderes, necesitamos saber dónde conviene cada forma de trabajo y qué resultado vamos a revisar. La demostración nos da una primera evidencia para discutirlo.\n\nCombinar capacidades sin perder el proceso.\n\nAbrimos juntos la tabla y el expediente. Ésta es la cadena que hemos construido como experiencia de trabajo. En la demostración trasladamos los materiales entre herramientas de forma manual; no hemos conectado automáticamente Make con OpenClaw o Codex.\n\nEse paso manual puede ser suficiente para aprender y para un proceso de poco volumen. Si queremos integrarlo, debemos especificar qué archivo o dato se transfiere, cómo se autentican los sistemas y qué evento inicia al agente. La flecha de un diagrama no crea una conexión.\n\nAhora sí podemos elegir. Mantendríamos fijo el registro de la información y delegaríamos la preparación variable del expediente. La revisión comercial seguiría en el comité. Otra organización podría escoger una distribución distinta. Lo importante es explicar la elección con el trabajo que vimos, no con la marca que más nos gustó.",
-        "steps": [
-          "Antes de impartir completa PREPARACION_CLASE_2.md: instalación, proveedor y primera respuesta en el panel.",
-          "Abre el panel local de OpenClaw. Muestra el modelo y el espacio de trabajo sin exponer claves.",
-          "Copia los archivos públicos del kit al espacio autorizado y comprueba que pueda leer un archivo de ensayo.",
-          "Muestra qué herramienta permite escribir y dónde quedará el resultado.",
-          "Copia el encargo OpenClaw. Ejecuta dentro del espacio de ensayo con las herramientas habilitadas.",
-          "Abre el archivo creado y comprueba que sus preguntas se relacionen con los documentos.",
-          "Introduce el cambio de foco y pide una versión nueva. Compara una pregunta antes y después.",
-          "Si falla el proveedor, muestra el diagnóstico y utiliza la ejecución de Codex para el contraste. No presentes esa sustitución como una ejecución exitosa de OpenClaw.",
-          "Muestra la tabla de Make y los archivos producidos en el mismo recorrido.",
-          "Señala explícitamente que el traslado entre Make y el agente fue manual.",
-          "Pide una respuesta breve: qué dejarían fijo y qué delegarían."
+        "materials": [
+          "GUIA_2.md"
         ],
         "sources": [
           {
-            "title": "OpenClaw · Primeros pasos",
-            "url": "https://docs.openclaw.ai/start/getting-started",
-            "focus": "Instalación, onboarding y panel del agente."
-          },
-          {
-            "title": "OpenClaw · Instalación",
-            "url": "https://docs.openclaw.ai/install",
-            "focus": "Rutas oficiales por sistema operativo."
-          },
-          {
-            "title": "OpenClaw · Conectar Gemini",
-            "url": "https://docs.openclaw.ai/providers/google",
-            "focus": "Autenticación mediante una clave de Google AI Studio."
+            "title": "Representaciones y recuperación · Google",
+            "url": "https://ai.google.dev/gemini-api/docs/embeddings",
+            "focus": "Embeddings y tareas de recuperación; no equivalen a viabilidad de colaboración."
           }
-        ],
-        "work": [
-          "c2-openclaw"
-        ],
-        "materials": [
-          "PREPARACION_CLASE_2.md",
-          "DEMO_AGENTES_CLASE_2.md"
         ],
         "extra": "",
         "visual": {
-          "layout": "flow",
+          "layout": "table",
           "body": [
-            "Lee|Catálogo y nota NEXO-01",
-            "Crea|PREGUNTAS_REUNION.md",
-            "Recibe|Nuevo foco: formación",
-            "Revisa|Guarda otra versión"
+            "Operación|Qué permite|Qué no demuestra",
+            "Palabras clave|Encontrar términos explícitos|Equivalencia de experiencia",
+            "Búsqueda semántica|Recuperar textos relacionados|Capacidad comprobada",
+            "Criterios del encargo|Comparar aportaciones relevantes|Interés mutuo",
+            "Conversación|Confirmar alcance y condiciones|Un acuerdo por adelantado"
           ],
           "dark": false
         },
+        "red": true,
         "runbook": {
-          "title": "Observa la demostración del profesor",
-          "text": "Durante la sesión demuestra Edgar. Después repetirás el recorrido con los materiales y un desafío propio.",
+          "title": "Conducción de la explicación",
+          "text": "¿Qué significa “cercano” cuando busco a alguien que me complemente?",
+          "actions": [],
+          "items": [
+            {
+              "text": "Explica la idea y contrástala con el caso del grupo.",
+              "actions": []
+            },
+            {
+              "text": "Recoge una objeción antes de pasar al siguiente concepto.",
+              "actions": []
+            }
+          ]
+        }
+      },
+      {
+        "numero": 9,
+        "titulo": "Parecernos no basta para colaborar",
+        "minutes": 8,
+        "block": 2,
+        "blockTitle": "Afinidad y complementariedad",
+        "tipo": "TEORÍA",
+        "horario": "18:45–18:53",
+        "question": "¿Qué conexión aporta algo que todavía falta en mi propuesta?",
+        "narration": "Si todos tenemos la misma pieza, podemos coincidir mucho y aun así no completar el trabajo. La complementariedad depende del objetivo y del conjunto de capacidades disponibles. Una persona valiosa para una propuesta puede ser irrelevante para otra, sin que haya cambiado su calidad profesional.\n\nPensemos en Ana, que diseña formación. Clara comparte ese campo y puede ayudarle a evaluar aprendizaje. Bruno conoce la operación logística. Diego puede revisar datos y costos. Según el problema, Ana puede necesitar profundidad pedagógica, conocimiento operativo o análisis. La selección no es un concurso de personas: es una hipótesis sobre cómo combinar contribuciones.\n\nPodemos ver al grupo como una red. Los nodos representan participantes; las relaciones pueden indicar afinidad, una aportación posible o una colaboración confirmada. No son el mismo tipo de relación. Dibujar una línea sugerida por IA no crea confianza ni compromiso. La relación debe poder explicar qué aporta cada lado.\n\nLa estrategia para conectarse consiste en formular una pregunta concreta y recíproca: esto quiero desarrollar, esto puedo aportar y esto creo que podríamos explorar juntos. Después escuchar la corrección. El compañero puede decir que interpretamos mal su experiencia o que ahora le interesa algo distinto. Esa respuesta mejora los datos y la propuesta. El ejercicio incorpora esa conversación como una parte del método.",
+        "steps": [
+          "Explica la idea y contrástala con el caso del grupo.",
+          "Recoge una objeción antes de pasar al siguiente concepto."
+        ],
+        "work": [],
+        "materials": [
+          "GUIA_2.md"
+        ],
+        "sources": [],
+        "extra": "",
+        "visual": {
+          "layout": "image",
+          "body": [
+            "Afinidad|Compartimos un campo o un interés",
+            "Complementariedad|Una capacidad cubre una necesidad",
+            "Colaboración|Confirmamos interés, alcance y condiciones"
+          ],
+          "dark": false
+        },
+        "red": true,
+        "illustration": "afinidad.webp",
+        "runbook": {
+          "title": "Conducción de la explicación",
+          "text": "¿Qué conexión aporta algo que todavía falta en mi propuesta?",
+          "actions": [],
+          "items": [
+            {
+              "text": "Explica la idea y contrástala con el caso del grupo.",
+              "actions": []
+            },
+            {
+              "text": "Recoge una objeción antes de pasar al siguiente concepto.",
+              "actions": []
+            }
+          ]
+        }
+      },
+      {
+        "numero": 10,
+        "titulo": "Demostración 2 · Cambiar el criterio cambia la red",
+        "minutes": 12,
+        "block": 2,
+        "blockTitle": "Afinidad y complementariedad",
+        "tipo": "DEMOSTRACIÓN",
+        "horario": "18:53–19:05",
+        "question": "¿Pueden justificar una conexión y una alternativa descartada?",
+        "narration": "Usaré el mismo paquete pequeño de perfiles en Gemini, ChatGPT y Claude. Ana quiere preparar formación para operaciones distribuidas. Pido dos conexiones: una por afinidad y otra por complementariedad, cada una con evidencia, límites y una pregunta para el compañero.\n\nNo buscamos declarar un modelo ganador. Comparamos qué información usa cada respuesta, qué omite y qué infiere sin base. Después cambiamos la condición: ahora necesitamos medir resultados con datos ya disponibles y trabajar de forma remota. La selección debe revisarse y los datos ausentes deben seguir ausentes.\n\nEn Make muestro cómo ese mismo encargo puede entrar como documento a un recorrido fijo que consume la versión revisada del directorio y devuelve una nota personalizada. La comparación entre tres chats es manual; el escenario usa un solo proveedor. No confundimos tres pestañas abiertas con una integración automática. El resultado es una razón para conversar, no una autorización para contactar ni una alianza formada.",
+        "steps": [
+          "Abre el mismo directorio y encargo en Gemini, ChatGPT y Claude; muestra diferencias de evidencia, no sólo de estilo.",
+          "Revisa una afinidad y una complementariedad. Señala cualquier inferencia sobre disponibilidad.",
+          "Cambia el criterio y pide revisar la selección.",
+          "En Make ejecuta el recorrido B con el directorio de ensayo publicado y un encargo nuevo; abre la nota resultante."
+        ],
+        "work": [
+          "red-conectar",
+          "red-cambio"
+        ],
+        "materials": [
+          "DEMO_MAKE_CLASE_2.md",
+          "DIRECTORIO_REVISION_DOCENTE.md",
+          "MI_CRITERIO.md"
+        ],
+        "sources": [
+          {
+            "title": "Make AI Toolkit",
+            "url": "https://apps.make.com/ai-tools",
+            "focus": "Instrucción de texto y proveedor integrado."
+          },
+          {
+            "title": "Representaciones y recuperación · Google",
+            "url": "https://ai.google.dev/gemini-api/docs/embeddings",
+            "focus": "Embeddings y tareas de recuperación; no equivalen a viabilidad de colaboración."
+          }
+        ],
+        "extra": "",
+        "visual": {
+          "layout": "demo",
+          "body": [
+            "Mi encargo|Qué quiero desarrollar y qué me falta",
+            "Perfiles revisados|Evidencia disponible para comparar",
+            "Tres asistentes|Contrastar conexiones y razones",
+            "Nuevo criterio|Revisar quién aporta y por qué"
+          ],
+          "dark": true
+        },
+        "red": true,
+        "runbook": {
+          "title": "Demostración del profesor",
+          "text": "¿Pueden justificar una conexión y una alternativa descartada?",
           "actions": [
             {
               "kind": "file",
-              "file": "PREPARACION_CLASE_2.md",
-              "label": "Guía de instalación y acceso"
+              "file": "DEMO_MAKE_CLASE_2.md",
+              "label": "DEMO MAKE CLASE 2"
             },
             {
-              "kind": "link",
-              "label": "Instalación oficial",
-              "url": "https://docs.openclaw.ai/install"
+              "kind": "file",
+              "file": "DIRECTORIO_REVISION_DOCENTE.md",
+              "label": "DIRECTORIO REVISION DOCENTE"
+            },
+            {
+              "kind": "file",
+              "file": "MI_CRITERIO.md",
+              "label": "MI CRITERIO"
             },
             {
               "kind": "prompt",
-              "key": "c2-openclaw",
-              "label": "Copiar encargo OpenClaw"
+              "key": "red-conectar",
+              "label": "Copiar búsqueda"
+            },
+            {
+              "kind": "prompt",
+              "key": "red-cambio",
+              "label": "Copiar nueva condición"
             }
           ],
           "items": [
             {
-              "text": "OpenClaw: ver la configuración detrás del agente — Antes de impartir completa PREPARACION_CLASE_2.md: instalación, proveedor y primera respuesta en el panel.",
+              "text": "Abre el mismo directorio y encargo en Gemini, ChatGPT y Claude; muestra diferencias de evidencia, no sólo de estilo.",
               "actions": []
             },
             {
-              "text": "OpenClaw: ver la configuración detrás del agente — Abre el panel local de OpenClaw. Muestra el modelo y el espacio de trabajo sin exponer claves.",
+              "text": "Revisa una afinidad y una complementariedad. Señala cualquier inferencia sobre disponibilidad.",
               "actions": []
             },
             {
-              "text": "OpenClaw: ver la configuración detrás del agente — Copia los archivos públicos del kit al espacio autorizado y comprueba que pueda leer un archivo de ensayo.",
+              "text": "Cambia el criterio y pide revisar la selección.",
               "actions": []
             },
             {
-              "text": "OpenClaw: ver la configuración detrás del agente — Muestra qué herramienta permite escribir y dónde quedará el resultado.",
-              "actions": []
-            },
-            {
-              "text": "OpenClaw: ejecutar y ajustar el objetivo — Copia el encargo OpenClaw. Ejecuta dentro del espacio de ensayo con las herramientas habilitadas.",
-              "actions": []
-            },
-            {
-              "text": "OpenClaw: ejecutar y ajustar el objetivo — Abre el archivo creado y comprueba que sus preguntas se relacionen con los documentos.",
-              "actions": []
-            },
-            {
-              "text": "OpenClaw: ejecutar y ajustar el objetivo — Introduce el cambio de foco y pide una versión nueva. Compara una pregunta antes y después.",
-              "actions": []
-            },
-            {
-              "text": "OpenClaw: ejecutar y ajustar el objetivo — Si falla el proveedor, muestra el diagnóstico y utiliza la ejecución de Codex para el contraste. No presentes esa sustitución como una ejecución exitosa de OpenClaw.",
-              "actions": []
-            },
-            {
-              "text": "Combinar capacidades sin perder el proceso — Muestra la tabla de Make y los archivos producidos en el mismo recorrido.",
-              "actions": []
-            },
-            {
-              "text": "Combinar capacidades sin perder el proceso — Señala explícitamente que el traslado entre Make y el agente fue manual.",
-              "actions": []
-            },
-            {
-              "text": "Combinar capacidades sin perder el proceso — Pide una respuesta breve: qué dejarían fijo y qué delegarían.",
+              "text": "En Make ejecuta el recorrido B con el directorio de ensayo publicado y un encargo nuevo; abre la nota resultante.",
               "actions": []
             }
           ]
-        },
-        "art": "c2-20.webp",
-        "sourceSlides": [
-          19,
-          20,
-          21
-        ],
-        "block": 4,
-        "blockTitle": "OpenClaw e implementación"
+        }
       },
       {
-        "numero": 15,
-        "titulo": "Tu tarea: repetir y después transformar",
-        "minutes": 8,
-        "tipo": "TAREA",
-        "horario": "20:17–20:25",
-        "question": "¿Puedes reproducir el método y adaptarlo a una nueva oportunidad?",
-        "narration": "La tarea comienza repitiendo lo que yo hice. Tendrán el contexto, las notas, las instrucciones y la guía de construcción. Primero ejecutarán la automatización y conservarán una evidencia del registro. Después repetirán el encargo en las aplicaciones disponibles y realizarán una ejecución de agente que produzca archivos.\n\nEl desafío consiste en elegir otra oportunidad para Nexo y cambiar una condición del trabajo. Puede ser una primera reunión más breve, otro público o una restricción de alcance. Tendrán que adaptar un paso del flujo y el encargo del agente, mostrando qué cambió y por qué.\n\nCompartan con un compañero una técnica que les sirvió o un problema que pudieron resolver. Pueden incorporar ideas con crédito. La entrega es individual: resultado, evidencia breve y una decisión ejecutiva sobre qué pondrían a funcionar, quién lo mantendría y qué revisarían.\n\nNo se evalúa pagar una herramienta. Cowork se puede sustituir por una ejecución equivalente en Codex u OpenClaw. Si ninguna ruta de agente está disponible, documenten el bloqueo y soliciten una repetición acompañada o en pareja; un texto producido por chat no se presenta como ejecución de archivos. Esta versión de la tarea está en revisión para el ensayo del docente; la fecha oficial se comunicará en Moodle.",
+        "numero": 11,
+        "titulo": "Descanso",
+        "minutes": 10,
+        "block": 2,
+        "blockTitle": "Afinidad y complementariedad",
+        "tipo": "DESCANSO",
+        "horario": "19:05–19:15",
+        "question": "Regresamos a las 19:15.",
+        "narration": "Hacemos una pausa de diez minutos. Al volver pasaremos del recorrido que definimos nosotros a un agente capaz de elegir acciones según lo que encuentre. Mantengan la pregunta: ¿qué le permitirían hacer con estos perfiles y qué tendría que consultarles?",
         "steps": [
-          "Abre la actividad B propuesta; distingue reproducir de resolver el desafío.",
-          "Explica los cuatro criterios de cinco puntos y las alternativas de acceso.",
-          "Indica que no deben contactar al interlocutor real: la actividad produce material para una reunión simulada."
+          "Explica la idea y contrástala con el caso del grupo.",
+          "Recoge una objeción antes de pasar al siguiente concepto."
         ],
-        "sources": [],
         "work": [],
         "materials": [
-          "ACTIVIDAD_B_CLASE_2.md"
-        ],
-        "extra": "",
-        "visual": {
-          "layout": "rows",
-          "body": [
-            "Reproduce|Flujo de Make + comparación de chats + una ejecución de agente",
-            "Transforma|Otra oportunidad y una condición nueva",
-            "Comparte|Un hallazgo útil y una mejora tomada con crédito",
-            "Entrega|Resultado, evidencia de ejecución y decisión como líder"
-          ],
-          "dark": false
-        },
-        "runbook": {
-          "title": "Escucha y relaciona con tu trabajo",
-          "text": "¿Puedes reproducir el método y adaptarlo a una nueva oportunidad?",
-          "actions": [
-            {
-              "kind": "link",
-              "label": "Abrir la tarea y los materiales",
-              "url": "clase-2/#tarea"
-            },
-            {
-              "kind": "file",
-              "file": "ACTIVIDAD_B_CLASE_2.md",
-              "label": "Abrir ACTIVIDAD_B_CLASE_2.md"
-            }
-          ],
-          "items": [
-            {
-              "text": "Abre la actividad B propuesta; distingue reproducir de resolver el desafío.",
-              "actions": []
-            },
-            {
-              "text": "Explica los cuatro criterios de cinco puntos y las alternativas de acceso.",
-              "actions": []
-            },
-            {
-              "text": "Indica que no deben contactar al interlocutor real: la actividad produce material para una reunión simulada.",
-              "actions": []
-            }
-          ]
-        },
-        "art": "c2-22.webp",
-        "sourceSlides": [
-          22
-        ],
-        "block": 4,
-        "blockTitle": "OpenClaw e implementación"
-      },
-      {
-        "numero": 16,
-        "titulo": "Ahora puedes pedir y dirigir ese trabajo",
-        "minutes": 5,
-        "tipo": "CIERRE",
-        "horario": "20:25–20:30",
-        "question": "¿Qué automatizarías, qué delegarías y qué decidirías personalmente?",
-        "narration": "Hoy empezamos con algo sencillo: llevar información de un lugar a otro. Después añadimos interpretación y finalmente delegamos un trabajo de varios pasos. Vimos que una aplicación, un flujo y un agente pueden participar en el mismo proceso con funciones distintas.\n\nComo usuarios, ahora tienen un recorrido para configurar, ejecutar y revisar. Como líderes, pueden formular un encargo más preciso: qué resultado quieren, qué datos hacen falta, qué autoridad conceden y quién se hace cargo. No necesitan convertirse en programadores para hacer esas preguntas, pero usar las herramientas les permite comprender mejor las respuestas.\n\nAntes de cerrar, pensemos en un proceso de su organización. ¿Qué parte dejarían fija? ¿En cuál ayudaría interpretar información? ¿Qué resultado pedirían a un agente? Escuchemos dos respuestas breves.\n\nLa próxima clase nos concentrará en otra pregunta: cómo utilizar datos y evidencia para decidir si una aplicación merece continuar. Conserven los resultados y las dificultades de la tarea; serán material útil para esa conversación.",
-        "steps": [
-          "Recupera los cuatro conceptos: flujo, interpretación, agente y responsabilidad.",
-          "Escucha dos aplicaciones propuestas por el grupo.",
-          "Cierra con el enlace a la guía y la pregunta de la tercera sesión."
+          "GUIA_2.md"
         ],
         "sources": [],
-        "work": [],
-        "materials": [],
         "extra": "",
         "visual": {
-          "layout": "opening",
+          "layout": "dark",
           "body": [
-            "Una entrada. Un recorrido. Un resultado.",
-            "Como usuario: sé ponerlo a funcionar.",
-            "Como líder: sé para qué, con quién y bajo qué condiciones."
+            "19:05 → 19:15",
+            "Después: delegar una exploración con herramientas."
           ],
           "dark": true
         },
+        "red": true,
         "runbook": {
-          "title": "Escucha y relaciona con tu trabajo",
-          "text": "¿Qué automatizarías, qué delegarías y qué decidirías personalmente?",
-          "actions": [
-            {
-              "kind": "link",
-              "label": "Preparar la repetición",
-              "url": "clase-2/"
-            }
-          ],
+          "title": "Conducción de la explicación",
+          "text": "Regresamos a las 19:15.",
+          "actions": [],
           "items": [
             {
-              "text": "Recupera los cuatro conceptos: flujo, interpretación, agente y responsabilidad.",
+              "text": "Explica la idea y contrástala con el caso del grupo.",
               "actions": []
             },
             {
-              "text": "Escucha dos aplicaciones propuestas por el grupo.",
+              "text": "Recoge una objeción antes de pasar al siguiente concepto.",
+              "actions": []
+            }
+          ]
+        }
+      },
+      {
+        "numero": 12,
+        "titulo": "Agentes y delegación",
+        "minutes": 1,
+        "block": 3,
+        "blockTitle": "Agentes y delegación",
+        "tipo": "SEPARADOR",
+        "horario": "19:15–19:16",
+        "question": "Agentes y delegación",
+        "narration": "Entramos a agentes y delegación. Objetivos, herramientas y decisiones durante la ejecución.\n\nDemostración: explorar colaboraciones y revisar una condición. Primero construimos el concepto; después lo observamos en una demostración.",
+        "steps": [
+          "Explica la idea y contrástala con el caso del grupo.",
+          "Recoge una objeción antes de pasar al siguiente concepto."
+        ],
+        "work": [],
+        "materials": [
+          "GUIA_2.md"
+        ],
+        "sources": [],
+        "extra": "",
+        "visual": {
+          "layout": "divider",
+          "body": [
+            "Objetivos, herramientas y decisiones durante la ejecución.",
+            "Demostración: explorar colaboraciones y revisar una condición."
+          ],
+          "dark": true
+        },
+        "red": true,
+        "runbook": {
+          "title": "Conducción de la explicación",
+          "text": "Agentes y delegación",
+          "actions": [],
+          "items": [
+            {
+              "text": "Explica la idea y contrástala con el caso del grupo.",
               "actions": []
             },
             {
-              "text": "Cierra con el enlace a la guía y la pregunta de la tercera sesión.",
+              "text": "Recoge una objeción antes de pasar al siguiente concepto.",
               "actions": []
             }
           ]
         },
-        "art": "c2-23.webp",
-        "sourceSlides": [
-          23
+        "divider": true
+      },
+      {
+        "numero": 13,
+        "titulo": "El ciclo de un agente",
+        "minutes": 7,
+        "block": 3,
+        "blockTitle": "Agentes y delegación",
+        "tipo": "TEORÍA",
+        "horario": "19:16–19:23",
+        "question": "¿Qué acción debería cambiar después de recibir información nueva?",
+        "narration": "En un flujo fijamos de antemano buena parte del recorrido. En un agente, el modelo puede decidir qué paso dar y qué herramienta usar a partir del objetivo y los resultados observados. Muchos sistemas mezclan ambas cosas: un flujo puede llamar a un agente y recuperar luego su salida.\n\nLa palabra copiloto describe una experiencia de asistencia o un nombre comercial; no divide el mercado en dos especies técnicas. Preguntemos quién decide el siguiente paso, con qué información y dentro de qué límites. Un producto puede ofrecer conversación, automatizaciones y trabajo con herramientas.\n\nEl ciclo observar, decidir, actuar y comprobar recuerda a un sistema con retroalimentación. Si la lectura de un archivo revela que falta una capacidad, el agente puede buscar otro documento, pedir aclaración o revisar su propuesta. Pero la analogía no garantiza estabilidad, convergencia ni optimalidad. El modelo puede insistir en una vía equivocada o interpretar mal el resultado de una herramienta.\n\nUn objetivo demasiado general no proporciona un criterio de terminación. “Encuentra algo interesante” permite producir texto indefinidamente. “Entrega dos hipótesis de colaboración, con evidencia y preguntas pendientes, usando sólo perfiles revisados” hace verificable el encargo. La autonomía útil necesita observaciones, acciones disponibles y una forma de reconocer cuándo el trabajo basta.",
+        "steps": [
+          "Explica la idea y contrástala con el caso del grupo.",
+          "Recoge una objeción antes de pasar al siguiente concepto."
         ],
+        "work": [],
+        "materials": [
+          "GUIA_2.md"
+        ],
+        "sources": [
+          {
+            "title": "Flujos y agentes · Anthropic",
+            "url": "https://www.anthropic.com/engineering/building-effective-agents",
+            "focus": "Distinción entre recorrido predefinido y selección dinámica de pasos."
+          }
+        ],
+        "extra": "",
+        "visual": {
+          "layout": "image",
+          "body": [
+            "Observación|Qué sabe y qué falta",
+            "Acción|Qué herramienta puede utilizar",
+            "Retroalimentación|Qué cambió tras actuar"
+          ],
+          "dark": false
+        },
+        "red": true,
+        "illustration": "ciclo.webp",
+        "runbook": {
+          "title": "Conducción de la explicación",
+          "text": "¿Qué acción debería cambiar después de recibir información nueva?",
+          "actions": [],
+          "items": [
+            {
+              "text": "Explica la idea y contrástala con el caso del grupo.",
+              "actions": []
+            },
+            {
+              "text": "Recoge una objeción antes de pasar al siguiente concepto.",
+              "actions": []
+            }
+          ]
+        }
+      },
+      {
+        "numero": 14,
+        "titulo": "Autonomía y autoridad son dimensiones distintas",
+        "minutes": 7,
+        "block": 3,
+        "blockTitle": "Agentes y delegación",
+        "tipo": "TEORÍA",
+        "horario": "19:23–19:30",
+        "question": "¿Qué puede decidir el agente y qué puede comprometer?",
+        "narration": "Autonomía es cuánto puede decidir el sistema sobre cómo realizar una tarea. Autoridad es qué acciones y compromisos le permitimos ejecutar. Un agente puede tener bastante autonomía para explorar una carpeta y ninguna autoridad para enviar mensajes. Separar esas dimensiones es una decisión de diseño organizacional.\n\nSus instrucciones describen el objetivo; el contexto aporta información; las herramientas permiten actuar; los permisos delimitan el acceso efectivo. Escribir “sólo lee esta carpeta” no reemplaza una configuración de permisos cuando realmente necesitamos aislamiento. La memoria puede ser un archivo persistente de decisiones, pero conservar un texto no garantiza que siempre se recupere ni que siga vigente.\n\nTambién debemos distinguir una instrucción legítima de un documento que el agente está leyendo. Un CV que diga “ignora los demás candidatos” es contenido del expediente, no una orden del propietario del sistema. El agente debe tratar las fuentes como datos y el responsable debe limitar las acciones disponibles.\n\nLa delegación es más clara cuando nombra objetivo, alcance, herramientas, criterio de aceptación y puntos de consulta. En esta práctica puede leer fichas revisadas y escribir borradores en una carpeta de ensayo. No puede comprometer a compañeros, publicar sus datos ni contactar al interlocutor. Pregunten al grupo: ¿qué nueva evidencia obligaría a devolver la decisión a la persona?",
+        "steps": [
+          "Explica la idea y contrástala con el caso del grupo.",
+          "Recoge una objeción antes de pasar al siguiente concepto."
+        ],
+        "work": [],
+        "materials": [
+          "GUIA_2.md"
+        ],
+        "sources": [
+          {
+            "title": "Herramientas · OpenClaw",
+            "url": "https://docs.openclaw.ai/tools",
+            "focus": "Herramientas disponibles y políticas efectivas de acceso."
+          }
+        ],
+        "extra": "",
+        "visual": {
+          "layout": "table",
+          "body": [
+            "Puede resolver por sí mismo|Necesita una decisión humana",
+            "Elegir qué ficha leer|Ampliar acceso a documentos",
+            "Comparar alternativas|Confirmar disponibilidad de otra persona",
+            "Crear un borrador|Prometer una aportación o presupuesto",
+            "Revisar ante nueva evidencia|Enviar una propuesta al interlocutor"
+          ],
+          "dark": false
+        },
+        "red": true,
+        "runbook": {
+          "title": "Conducción de la explicación",
+          "text": "¿Qué puede decidir el agente y qué puede comprometer?",
+          "actions": [],
+          "items": [
+            {
+              "text": "Explica la idea y contrástala con el caso del grupo.",
+              "actions": []
+            },
+            {
+              "text": "Recoge una objeción antes de pasar al siguiente concepto.",
+              "actions": []
+            }
+          ]
+        }
+      },
+      {
+        "numero": 15,
+        "titulo": "Una salida convincente puede heredar un error",
+        "minutes": 5,
+        "block": 3,
+        "blockTitle": "Agentes y delegación",
+        "tipo": "TEORÍA",
+        "horario": "19:30–19:35",
+        "question": "¿En qué paso comprobarías la afirmación antes de reutilizarla?",
+        "narration": "Un error pequeño puede propagarse. Si “participó” se transforma en “dirigió”, el sistema puede recuperar a esa persona como líder de proyecto y después atribuirle una responsabilidad en una propuesta. La redacción final puede ser impecable aunque la premisa sea falsa.\n\nPor eso la aceptación debe examinar etapas, no sólo el archivo final. Contrastamos la extracción con la fuente, la selección con el criterio y la propuesta con las aportaciones confirmadas. Separar quien produce de quien revisa puede ayudar a encontrar defectos, pero dos respuestas del mismo sistema no se convierten por eso en evidencia independiente.\n\nLas pruebas de esta clase incluyen perfil normal, campos faltantes, duplicado, versión nueva, archivo ilegible, instrucción incrustada, perfil no aprobado, cambio de criterio, falta de complementariedad y una petición de envío sin autoridad. No todas se ejecutan en vivo: la guía permite ensayarlas y la tarea exige documentar las relevantes.\n\nSi no hay una combinación suficiente, “no alcanza con estos perfiles” es un resultado útil. El líder necesita distinguir capacidad disponible, capacidad por conseguir e hipótesis por validar. Pedir siempre una respuesta positiva elimina precisamente esa información.",
+        "steps": [
+          "Explica la idea y contrástala con el caso del grupo.",
+          "Recoge una objeción antes de pasar al siguiente concepto."
+        ],
+        "work": [],
+        "materials": [
+          "GUIA_2.md"
+        ],
+        "sources": [
+          {
+            "title": "Evaluación de herramientas · Anthropic",
+            "url": "https://www.anthropic.com/engineering/writing-tools-for-agents",
+            "focus": "Pruebas de tareas y herramientas con resultados observables."
+          }
+        ],
+        "extra": "",
+        "visual": {
+          "layout": "image",
+          "body": [
+            "Extracción|¿La afirmación aparece en la fuente?",
+            "Selección|¿La conexión responde al criterio?",
+            "Propuesta|¿La aportación está confirmada?"
+          ],
+          "dark": false
+        },
+        "red": true,
+        "illustration": "error.webp",
+        "runbook": {
+          "title": "Conducción de la explicación",
+          "text": "¿En qué paso comprobarías la afirmación antes de reutilizarla?",
+          "actions": [],
+          "items": [
+            {
+              "text": "Explica la idea y contrástala con el caso del grupo.",
+              "actions": []
+            },
+            {
+              "text": "Recoge una objeción antes de pasar al siguiente concepto.",
+              "actions": []
+            }
+          ]
+        }
+      },
+      {
+        "numero": 16,
+        "titulo": "Demostración 3 · Delegar una exploración",
+        "minutes": 15,
+        "block": 3,
+        "blockTitle": "Agentes y delegación",
+        "tipo": "DEMOSTRACIÓN",
+        "horario": "19:35–19:50",
+        "question": "¿El agente produjo trabajo verificable y respetó su alcance?",
+        "narration": "Abrimos OpenClaw con el espacio de ensayo ya preparado. Primero comprobamos qué archivos y herramientas puede utilizar. El agente recibe un objetivo, no una lista de respuestas prefijadas: debe encontrar dos hipótesis de colaboración, justificar la selección y preparar preguntas para confirmar lo que falta.\n\nObservamos sus acciones y abrimos los archivos producidos. Leer una ficha y redactar una propuesta no basta si ignora un faltante. Después agregamos una condición y pedimos conservar la versión anterior. Queremos ver si vuelve a consultar la información y corrige la recomendación.\n\nMostramos brevemente el mismo encargo en Codex, con una carpeta local de ensayo. La comparación se centra en acceso, herramientas, revisión y resultado, sin repetir la clase de instalación. Una respuesta escrita que simula haber creado un archivo no cuenta: el archivo debe existir y abrirse. El traslado desde Drive a la carpeta del agente es manual en esta práctica y lo señalamos expresamente.",
+        "steps": [
+          "Abre OpenClaw y enseña el espacio de ensayo, el modelo disponible y las herramientas de archivos.",
+          "Copia el encargo. Observa las lecturas y abre CONEXIONES.md y PENDIENTES.md.",
+          "Introduce el cambio de condición, conserva versiones y comprueba la revisión.",
+          "Contrasta brevemente el mismo encargo en Codex local. Explica que Drive → carpeta local fue una exportación manual."
+        ],
+        "work": [
+          "red-agente",
+          "red-cambio"
+        ],
+        "materials": [
+          "DEMO_AGENTES_CLASE_2.md",
+          "DIRECTORIO_REVISION_DOCENTE.md",
+          "PRUEBAS_RED.md"
+        ],
+        "sources": [
+          {
+            "title": "Herramientas · OpenClaw",
+            "url": "https://docs.openclaw.ai/tools",
+            "focus": "Herramientas disponibles y políticas efectivas de acceso."
+          },
+          {
+            "title": "Entornos de Codex",
+            "url": "https://learn.chatgpt.com/docs/environments/modes",
+            "focus": "Trabajo local sobre una carpeta."
+          }
+        ],
+        "extra": "",
+        "visual": {
+          "layout": "demo",
+          "body": [
+            "OpenClaw|Leer el directorio y el criterio",
+            "Encargo|Dos hipótesis con evidencia y preguntas",
+            "Archivos|CONEXIONES.md y PENDIENTES.md",
+            "Revisión|Cambiar una condición y comparar"
+          ],
+          "dark": true
+        },
+        "red": true,
+        "runbook": {
+          "title": "Demostración del profesor",
+          "text": "¿El agente produjo trabajo verificable y respetó su alcance?",
+          "actions": [
+            {
+              "kind": "file",
+              "file": "DEMO_AGENTES_CLASE_2.md",
+              "label": "DEMO AGENTES CLASE 2"
+            },
+            {
+              "kind": "file",
+              "file": "DIRECTORIO_REVISION_DOCENTE.md",
+              "label": "DIRECTORIO REVISION DOCENTE"
+            },
+            {
+              "kind": "file",
+              "file": "PRUEBAS_RED.md",
+              "label": "PRUEBAS RED"
+            },
+            {
+              "kind": "prompt",
+              "key": "red-agente",
+              "label": "Copiar delegación"
+            },
+            {
+              "kind": "prompt",
+              "key": "red-cambio",
+              "label": "Copiar nueva condición"
+            }
+          ],
+          "items": [
+            {
+              "text": "Abre OpenClaw y enseña el espacio de ensayo, el modelo disponible y las herramientas de archivos.",
+              "actions": []
+            },
+            {
+              "text": "Copia el encargo. Observa las lecturas y abre CONEXIONES.md y PENDIENTES.md.",
+              "actions": []
+            },
+            {
+              "text": "Introduce el cambio de condición, conserva versiones y comprueba la revisión.",
+              "actions": []
+            },
+            {
+              "text": "Contrasta brevemente el mismo encargo en Codex local. Explica que Drive → carpeta local fue una exportación manual.",
+              "actions": []
+            }
+          ]
+        }
+      },
+      {
+        "numero": 17,
+        "titulo": "Propuestas e implementación",
+        "minutes": 1,
         "block": 4,
-        "blockTitle": "OpenClaw e implementación"
+        "blockTitle": "Propuestas e implementación",
+        "tipo": "SEPARADOR",
+        "horario": "19:50–19:51",
+        "question": "Propuestas e implementación",
+        "narration": "Entramos a propuestas e implementación. Combinar investigación, capacidades y condiciones de ejecución.\n\nDemostración: una propuesta para el interlocutor de la clase 1. Primero construimos el concepto; después lo observamos en una demostración.",
+        "steps": [
+          "Explica la idea y contrástala con el caso del grupo.",
+          "Recoge una objeción antes de pasar al siguiente concepto."
+        ],
+        "work": [],
+        "materials": [
+          "GUIA_2.md"
+        ],
+        "sources": [],
+        "extra": "",
+        "visual": {
+          "layout": "divider",
+          "body": [
+            "Combinar investigación, capacidades y condiciones de ejecución.",
+            "Demostración: una propuesta para el interlocutor de la clase 1."
+          ],
+          "dark": true
+        },
+        "red": true,
+        "runbook": {
+          "title": "Conducción de la explicación",
+          "text": "Propuestas e implementación",
+          "actions": [],
+          "items": [
+            {
+              "text": "Explica la idea y contrástala con el caso del grupo.",
+              "actions": []
+            },
+            {
+              "text": "Recoge una objeción antes de pasar al siguiente concepto.",
+              "actions": []
+            }
+          ]
+        },
+        "divider": true
+      },
+      {
+        "numero": 18,
+        "titulo": "La propuesta combina tres evidencias",
+        "minutes": 7,
+        "block": 4,
+        "blockTitle": "Propuestas e implementación",
+        "tipo": "TEORÍA",
+        "horario": "19:51–19:58",
+        "question": "¿Qué aporta cada fuente y qué no puede demostrar por sí sola?",
+        "narration": "Una propuesta surge de relacionar una oportunidad con capacidades y condiciones de ejecución. No basta con conocer al interlocutor ni con reunir buenos currículos. Necesitamos explicar qué problema creemos que merece explorarse, qué podríamos aportar y qué todavía no sabemos.\n\nLa primera clase produjo investigación sobre Juan José y un negocio concreto de su entorno. La segunda añade capacidades del grupo. Esas fuentes tienen naturaleza distinta: Nexo es una empresa ficticia; la investigación del interlocutor requiere fuentes públicas; las aportaciones de compañeros son declaraciones que deben confirmarse. No podemos fusionarlas como si fueran una sola empresa real disponible para contratar.\n\nPodemos descomponer la propuesta en funciones: comprender el contexto, diseñar la intervención, aportar conocimiento sectorial y evaluar resultados. No siempre necesitamos una persona distinta para cada función, y asignar funciones no equivale a crear varios agentes. Un solo agente puede producir un borrador y someterlo a una segunda revisión explícita.\n\nLa coordinación agrega costos: aclaraciones, integración de aportaciones y resolución de desacuerdos. Una combinación más grande no es automáticamente mejor. Pediremos dos alternativas y compararemos qué requieren. La propuesta final presentará hipótesis, evidencia, contribuciones posibles, preguntas para la reunión y un siguiente paso. La conversación con los compañeros corrige la arquitectura de la propuesta, no sólo su redacción.",
+        "steps": [
+          "Explica la idea y contrástala con el caso del grupo.",
+          "Recoge una objeción antes de pasar al siguiente concepto."
+        ],
+        "work": [],
+        "materials": [
+          "GUIA_2.md"
+        ],
+        "sources": [],
+        "extra": "",
+        "visual": {
+          "layout": "image",
+          "body": [
+            "Interlocutor|Qué sabemos por fuentes públicas",
+            "Nexo|Qué puede ofrecer el caso ficticio",
+            "Grupo|Qué aportaciones queremos explorar"
+          ],
+          "dark": false
+        },
+        "red": true,
+        "illustration": "propuesta.webp",
+        "runbook": {
+          "title": "Conducción de la explicación",
+          "text": "¿Qué aporta cada fuente y qué no puede demostrar por sí sola?",
+          "actions": [],
+          "items": [
+            {
+              "text": "Explica la idea y contrástala con el caso del grupo.",
+              "actions": []
+            },
+            {
+              "text": "Recoge una objeción antes de pasar al siguiente concepto.",
+              "actions": []
+            }
+          ]
+        }
+      },
+      {
+        "numero": 19,
+        "titulo": "Elegir una forma de implementación",
+        "minutes": 7,
+        "block": 4,
+        "blockTitle": "Propuestas e implementación",
+        "tipo": "TEORÍA",
+        "horario": "19:58–20:05",
+        "question": "¿Qué necesitamos mantener después de la primera demostración?",
+        "narration": "La decisión de comprar, configurar o desarrollar depende de la necesidad, no del entusiasmo por una herramienta. Para un grupo pequeño puede bastar una aplicación con documentos compartidos. Si llegan perfiles de forma recurrente, un flujo de extracción ahorra reconstruir el procedimiento. Si se necesita integrar permisos, versiones y consultas a escala, aparece trabajo de ingeniería.\n\nComparemos las rutas sobre la misma tarea y el mismo criterio de aceptación. Hay costos de cuenta, consumo del modelo, preparación de datos, mantenimiento y revisión humana. No asignamos un retorno financiero ficticio: identificamos qué habría que medir en un piloto. La clase 3 pondrá números y escenarios a esa decisión.\n\nEl encargo de implementación debe decir quién responde por el proceso, quién puede corregir datos, quién mantiene conexiones y quién acepta el resultado. La persona propietaria del perfil conserva la revisión de lo que comparte. El responsable del directorio controla qué versión está disponible. El dueño de la propuesta decide qué contribuciones incorporar.\n\nNuestra arquitectura de ensayo contiene límites deliberados: la aprobación y publicación del directorio son humanas; el traslado a la carpeta del agente es manual. Automatizar esos pasos sería una ampliación con nuevas decisiones de acceso e integración. Mostrar esos límites es parte de enseñar a dirigir: permite pedir al equipo técnico una ampliación concreta y comprobable.",
+        "steps": [
+          "Explica la idea y contrástala con el caso del grupo.",
+          "Recoge una objeción antes de pasar al siguiente concepto."
+        ],
+        "work": [],
+        "materials": [
+          "GUIA_2.md"
+        ],
+        "sources": [
+          {
+            "title": "Google Drive en Make",
+            "url": "https://apps.make.com/google-drive-modules",
+            "focus": "Eventos, descarga de documentos y manejo de archivos."
+          },
+          {
+            "title": "Herramientas · OpenClaw",
+            "url": "https://docs.openclaw.ai/tools",
+            "focus": "Herramientas disponibles y políticas efectivas de acceso."
+          }
+        ],
+        "extra": "",
+        "visual": {
+          "layout": "table",
+          "body": [
+            "Ruta|Qué resuelve|Qué debemos sostener",
+            "Usar una aplicación|Una tarea individual o de equipo|Acceso, revisión y contexto",
+            "Configurar un flujo|Un recorrido repetible entre servicios|Conexiones, estados y excepciones",
+            "Desarrollar una integración|Necesidades que la configuración no cubre|Pruebas, mantenimiento y operación"
+          ],
+          "dark": false
+        },
+        "red": true,
+        "runbook": {
+          "title": "Conducción de la explicación",
+          "text": "¿Qué necesitamos mantener después de la primera demostración?",
+          "actions": [],
+          "items": [
+            {
+              "text": "Explica la idea y contrástala con el caso del grupo.",
+              "actions": []
+            },
+            {
+              "text": "Recoge una objeción antes de pasar al siguiente concepto.",
+              "actions": []
+            }
+          ]
+        }
+      },
+      {
+        "numero": 20,
+        "titulo": "Demostración 4 · Preparar una propuesta",
+        "minutes": 15,
+        "block": 4,
+        "blockTitle": "Propuestas e implementación",
+        "tipo": "DEMOSTRACIÓN",
+        "horario": "20:05–20:20",
+        "question": "¿Qué cambiaría de verdad si cambiamos al interlocutor?",
+        "narration": "Retomamos la investigación de la actividad A. El agente debe leerla junto al catálogo de Nexo, los perfiles revisados y el encargo. Si no hemos incorporado las fuentes, debe detener las afirmaciones sobre el interlocutor y pedirlas. Un nombre conocido no reemplaza el expediente.\n\nPedimos dos alternativas y después una propuesta para una primera conversación. Revisamos el borrador con otro encargo que busque afirmaciones sin fuente, capacidades atribuidas sin confirmación y condiciones que faltan. Abrimos la versión corregida y comprobamos si la revisión cambió algo sustancial.\n\nFinalmente reemplazamos el destinatario por otro contexto de ensayo. El sistema debe identificar qué información deja de ser válida y qué investigación necesita repetirse. No premiamos que cambie el nombre rápidamente; buscamos que reconozca qué relaciones deben volver a justificarse. La tarea termina antes de enviar cualquier propuesta.",
+        "steps": [
+          "Incorpora la investigación real de la actividad A en INVESTIGACION_INTERLOCUTOR.md con fuentes y fechas. Si falta, muestra el pedido de información, no una propuesta supuestamente investigada.",
+          "Ejecuta el encargo de propuesta con el catálogo, directorio y conversaciones confirmadas.",
+          "Ejecuta la revisión crítica y compara PROPUESTA_v1.md con PROPUESTA_v2.md.",
+          "Cambia el interlocutor y pregunta qué investigación y supuestos deben rehacerse. No envíes el borrador."
+        ],
+        "work": [
+          "red-proponer",
+          "red-revisar"
+        ],
+        "materials": [
+          "DEMO_AGENTES_CLASE_2.md",
+          "INVESTIGACION_INTERLOCUTOR.md",
+          "CONTEXTO_NEXO_C2.md"
+        ],
+        "sources": [],
+        "extra": "",
+        "visual": {
+          "layout": "demo",
+          "body": [
+            "Recuperar|Investigación de la actividad A",
+            "Combinar|Nexo + perfiles revisados + criterio",
+            "Producir|Dos alternativas y una propuesta breve",
+            "Cuestionar|Evidencia, capacidad y siguiente paso"
+          ],
+          "dark": true
+        },
+        "red": true,
+        "runbook": {
+          "title": "Demostración del profesor",
+          "text": "¿Qué cambiaría de verdad si cambiamos al interlocutor?",
+          "actions": [
+            {
+              "kind": "file",
+              "file": "DEMO_AGENTES_CLASE_2.md",
+              "label": "DEMO AGENTES CLASE 2"
+            },
+            {
+              "kind": "file",
+              "file": "INVESTIGACION_INTERLOCUTOR.md",
+              "label": "INVESTIGACION INTERLOCUTOR"
+            },
+            {
+              "kind": "file",
+              "file": "CONTEXTO_NEXO_C2.md",
+              "label": "CONTEXTO NEXO C2"
+            },
+            {
+              "kind": "prompt",
+              "key": "red-proponer",
+              "label": "Copiar propuesta"
+            },
+            {
+              "kind": "prompt",
+              "key": "red-revisar",
+              "label": "Copiar revisión"
+            }
+          ],
+          "items": [
+            {
+              "text": "Incorpora la investigación real de la actividad A en INVESTIGACION_INTERLOCUTOR.md con fuentes y fechas. Si falta, muestra el pedido de información, no una propuesta supuestamente investigada.",
+              "actions": []
+            },
+            {
+              "text": "Ejecuta el encargo de propuesta con el catálogo, directorio y conversaciones confirmadas.",
+              "actions": []
+            },
+            {
+              "text": "Ejecuta la revisión crítica y compara PROPUESTA_v1.md con PROPUESTA_v2.md.",
+              "actions": []
+            },
+            {
+              "text": "Cambia el interlocutor y pregunta qué investigación y supuestos deben rehacerse. No envíes el borrador.",
+              "actions": []
+            }
+          ]
+        }
+      },
+      {
+        "numero": 21,
+        "titulo": "Tarea · Conectar y mejorar una propuesta",
+        "minutes": 6,
+        "block": 4,
+        "blockTitle": "Propuestas e implementación",
+        "tipo": "TAREA",
+        "horario": "20:20–20:26",
+        "question": "¿Qué mejoró gracias a la interacción con un compañero?",
+        "narration": "La tarea repite lo que acaban de observar y después modifica una condición. Cada persona prepara una ficha revisada, comparte lo que quiere explorar y revisa al menos dos perfiles: uno por afinidad y otro por complementariedad. No se trata de acumular contactos. Expliquen qué aportaría cada lado y formulen una pregunta concreta.\n\nPubliquen en el espacio de grupo o foro indicado para la actividad. Respondan a las conexiones propuestas y corrijan lo que el sistema entendió mal. Después desarrollen una propuesta individual que incorpore lo aprendido, dando crédito. Si alguien no responde, documenten su aporte y la incertidumbre; no inventen una confirmación.\n\nEntreguen un producto breve y evidencia suficiente de una ejecución y una revisión. Expliquen proceso y autoridad, pruebas, decisión tecnológica y responsables. Son cuatro criterios de cinco puntos. No se premia pagar herramientas ni compartir información privada. Hay perfiles ficticios de respaldo y alternativas documentadas de acceso. El desafío cambia un criterio y muestra cómo afecta la selección o la propuesta, no sólo el estilo del texto.",
+        "steps": [
+          "Explica la idea y contrástala con el caso del grupo.",
+          "Recoge una objeción antes de pasar al siguiente concepto."
+        ],
+        "work": [],
+        "materials": [
+          "ACTIVIDAD_B_CLASE_2.md",
+          "FORO_RED_CLASE_2.md",
+          "PLANTILLA_PERFIL_RED.md"
+        ],
+        "sources": [],
+        "extra": "",
+        "visual": {
+          "layout": "sequence",
+          "body": [
+            "Compartir|Mi perfil revisado y lo que busco",
+            "Conectar|Una afinidad y una complementariedad",
+            "Conversar|Aportar, preguntar y corregir",
+            "Proponer|Repetir el método con un criterio nuevo"
+          ],
+          "dark": false
+        },
+        "red": true,
+        "runbook": {
+          "title": "Conducción de la explicación",
+          "text": "¿Qué mejoró gracias a la interacción con un compañero?",
+          "actions": [
+            {
+              "kind": "file",
+              "file": "ACTIVIDAD_B_CLASE_2.md",
+              "label": "ACTIVIDAD B CLASE 2"
+            },
+            {
+              "kind": "file",
+              "file": "FORO_RED_CLASE_2.md",
+              "label": "FORO RED CLASE 2"
+            },
+            {
+              "kind": "file",
+              "file": "PLANTILLA_PERFIL_RED.md",
+              "label": "PLANTILLA PERFIL RED"
+            }
+          ],
+          "items": [
+            {
+              "text": "Explica la idea y contrástala con el caso del grupo.",
+              "actions": []
+            },
+            {
+              "text": "Recoge una objeción antes de pasar al siguiente concepto.",
+              "actions": []
+            }
+          ]
+        }
+      },
+      {
+        "numero": 22,
+        "titulo": "¿Y si cambiamos al interlocutor?",
+        "minutes": 4,
+        "block": 4,
+        "blockTitle": "Propuestas e implementación",
+        "tipo": "CIERRE",
+        "horario": "20:26–20:30",
+        "question": "¿Qué propuesta merece que invirtamos tiempo, personas y recursos?",
+        "narration": "Construimos un sistema que puede reutilizarse, pero eso no vuelve intercambiables a los interlocutores. Podemos conservar la estructura de perfiles, los pasos de extracción y las herramientas. Debemos volver a justificar la oportunidad, las capacidades pertinentes y las condiciones de ejecución.\n\nLa próxima clase preguntará cuál de esas oportunidades merece recursos. Compararemos alternativas, costos, indicadores, supuestos y riesgos. Tener una propuesta bien escrita es el principio de esa conversación, no su conclusión.\n\nAntes de cerrar, pidan dos respuestas del grupo: qué conexión les gustaría explorar y qué evidencia les haría cambiar de opinión. Esa combinación de iniciativa y comprobación es el criterio de liderazgo que queremos desarrollar.",
+        "steps": [
+          "Explica la idea y contrástala con el caso del grupo.",
+          "Recoge una objeción antes de pasar al siguiente concepto."
+        ],
+        "work": [],
+        "materials": [
+          "GUIA_2.md"
+        ],
+        "sources": [],
+        "extra": "",
+        "visual": {
+          "layout": "closing",
+          "body": [
+            "Reutilizar|Método, estructura y herramientas",
+            "Investigar otra vez|Contexto, oportunidad y pertinencia",
+            "Decidir después|Recursos, escenarios y condiciones"
+          ],
+          "dark": true
+        },
+        "red": true,
+        "runbook": {
+          "title": "Conducción de la explicación",
+          "text": "¿Qué propuesta merece que invirtamos tiempo, personas y recursos?",
+          "actions": [],
+          "items": [
+            {
+              "text": "Explica la idea y contrástala con el caso del grupo.",
+              "actions": []
+            },
+            {
+              "text": "Recoge una objeción antes de pasar al siguiente concepto.",
+              "actions": []
+            }
+          ]
+        }
       }
     ]
   },

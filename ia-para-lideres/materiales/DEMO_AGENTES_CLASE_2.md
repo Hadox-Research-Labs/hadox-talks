@@ -1,45 +1,32 @@
-# Demostraciones con agentes · Ensayo y repetición
+# Agentes · Explorar, comprobar y proponer
 
-Versión de revisión · 25 septiembre 2026. Se comprueba el trabajo con archivos, no la apariencia de una respuesta. Disponibilidad según cuenta y sistema. Este material no afirma que se hayan ejecutado las tres plataformas en las cuentas de los alumnos.
+La demostración principal usa OpenClaw con herramientas de archivos. Codex permite repetir el mismo encargo en una carpeta local y comparar la experiencia. Las guías describen rutas; las ejecuciones en tus cuentas deben ensayarse antes de impartir.
 
 ## Preparar la carpeta
+1. Descomprime el kit en una carpeta nueva de ensayo. Conserva fuentes separadas de resultados. Para la primera ejecución basta DIRECTORIO_REVISION_DOCENTE.md y MI_CRITERIO.md; usa únicamente el criterio inicial.
+2. Configura un espacio de trabajo dedicado en OpenClaw y verifica en la configuración efectiva qué rutas y herramientas puede utilizar. Habilita sólo las herramientas necesarias para leer y escribir los documentos del ensayo. Una frase en el prompt no crea aislamiento de archivos.
+3. Comprueba que puede leer un archivo de prueba y crear una nota. Inspecciona los archivos tú mismo. Ver texto que dice «guardado» no basta para acreditar que existe.
+4. El traslado desde Drive a la carpeta local se hace descargando los documentos revisados. Esta guía no configura un conector automático Drive–OpenClaw.
 
-Descomprime KIT_CLASE_2.zip en una carpeta nueva llamada «Nexo ensayo». Comprueba que CONTEXTO_NEXO_C2.md y CASOS_CLASE_2.md estén en su raíz. Los agentes deben conservar las entradas y producir archivos en Salida. Es una carpeta del caso ficticio; no necesita documentos privados de tu empresa.
+## Demostración 3 · Delegación y nueva condición
+1. Abre la interfaz de OpenClaw, confirma el workspace y pega red-agente de ENCARGOS_RED.md. Indica la ruta real de tu carpeta.
+2. Observa qué archivos lee y las decisiones que toma. Revisa CONEXIONES.md y PENDIENTES.md: deben citar ID, versión y apartados. La selección puede variar; no deben variar los hechos de las fuentes.
+3. Pega red-cambio. Comprueba que conserva el resultado anterior y genera versiones nuevas. La restricción remota no autoriza inventar disponibilidad de CLARA ni datos a los que DIEGO no ha declarado acceso.
+4. Añade BRUNO V2 sólo después de revisar y actualizar el directorio vigente. Pide distinguir el efecto de esa evidencia del cambio de criterio.
+5. En Codex, abre la misma carpeta como proyecto local de ensayo y repite red-agente en una conversación nueva. Verifica herramientas y resultados. Compara trazabilidad, control de acceso y facilidad de revisión; no el número de palabras. Una respuesta en un chat sin herramientas no acredita ejecución de agente sobre archivos.
 
-## Codex / ChatGPT Work
+## Demostración 4 · Regresar al interlocutor de la clase 1
+1. Completa INVESTIGACION_INTERLOCUTOR.md con fuentes y comprobaciones de tu investigación de clase 1. Añade CONTEXTO_NEXO_C2.md y las notas de conversación, reales o explícitamente ficticias de ensayo. No inventes opiniones de compañeros.
+2. Primero muestra el caso SIN_EVIDENCIA: red-proponer debe pedir los insumos faltantes. Luego trabaja con la investigación que tú hayas completado y comprobado. Sin esa investigación no hay una propuesta real lista para presentar.
+3. Ejecuta red-proponer. Abre PROPUESTA_v1.md y REVISION_PROPUESTA.md. Distingue hechos del destinatario, capacidades del catálogo e hipótesis de colaboración del grupo.
+4. Ejecuta red-revisar y verifica tú mismo las referencias. Acepta o corrige sus observaciones y pide guardar PROPUESTA_v2.md sin borrar V1. Una segunda respuesta de IA no reemplaza la comprobación humana.
+5. Cierra cambiando solamente el nombre del destinatario en un borrador de prueba. Explica por qué el documento deja de estar sustentado: la estructura se reutiliza, pero la pertinencia exige nueva investigación. Guarda este contraste para la clase 3.
 
-1. Instala o abre la aplicación oficial y entra con tu cuenta. Comprueba el acceso al trabajo de agente antes de clase. No confundas la conversación normal con una tarea que puede operar en archivos.
-2. Abre un proyecto o carpeta local y selecciona «Nexo ensayo». Comprueba que puedas añadir su contexto. Describe el resultado con PROMPT_C2_AGENTE.txt.
-3. Observa las acciones visibles. Si solicita una aclaración de negocio, responde con una condición del ejercicio. Si necesita una autorización de herramientas, revisa que corresponda a la carpeta de ensayo y al trabajo pedido.
-4. Abre los tres archivos de Salida. Comprueba un vínculo con el catálogo y una afirmación contra D1. En la agenda, suma sus minutos.
-5. Envía PROMPT_C2_CAMBIO.txt. Abre Salida/v2 y compara con la versión inicial. Conserva CAMBIOS.md.
+## Qué debe quedar al ensayar
+Una evidencia de lectura y escritura real, dos versiones de conexiones, pendientes, propuesta y revisión, más el registro de pruebas. No envíes ni publiques la propuesta como parte de esta práctica.
+Si no hay acceso a herramientas, trabaja las mismas fuentes en un chat y guarda su texto como análisis manual. Identifica la limitación; para acreditar lectura y escritura con agente usa después una cuenta compatible o una sesión compartida con el docente.
 
-## Claude Cowork · Contraste
-
-1. Instala Claude Desktop oficial y verifica que tu plan habilite Cowork. La aplicación de chat gratuita no implica acceso a Cowork.
-2. Selecciona Cowork y concede acceso a una copia de la carpeta de ensayo. Da el mismo encargo de agente. No apuntes dos herramientas al mismo directorio Salida simultáneamente: usa una copia por plataforma.
-3. Observa sus acciones y abre el resultado. En clase bastan el arranque y un contraste breve con una salida previamente ensayada; identifica lo que estás mostrando en vivo y lo que guardaste antes.
-4. Sin Cowork: usa Codex u OpenClaw para acreditar ejecución de agente. Puedes comparar redacción con Claude Chat, indicando que esa parte fue conversación y no escritura autónoma de archivos.
-
-## OpenClaw
-
-1. Completa la preparación oficial enlazada en PREPARACION_CLASE_2.md. El panel debe responder antes de impartir.
-2. Localiza el espacio de trabajo configurado para el agente y copia allí sólo los archivos del caso. Confirma qué herramientas de lectura/escritura están disponibles; una instalación que sólo conversa no basta para este encargo.
-3. Envía PROMPT_C2_OPENCLAW.txt. Abre Salida/PREGUNTAS_REUNION.md en el espacio configurado y revisa sus seis preguntas.
-4. Envía: «Conserva el archivo inicial. Crea Salida/PREGUNTAS_REUNION_V2.md para una reunión de veinte minutos enfocada sólo en formación. Explica brevemente qué preguntas cambiaste y por qué».
-5. Si no crea archivos, identifica si faltan ruta, herramienta, autorización o proveedor. Conserva el diagnóstico. Una respuesta conversacional no se presenta como archivo creado.
-
-## Comparación como líder
-
-Describe qué contexto recibió cada sistema, qué herramientas tuvo, qué trabajo produjo y dónde necesitó intervención. La comparación no es un ranking de modelos: cambiaron interfaz, herramientas y posiblemente modelo y plan.
-
-## Registro mínimo
-
-Herramienta y modalidad; archivos de entrada; objetivo; acciones observadas; rutas de los resultados; una comprobación; corrección; limitación de acceso si hubo.
-
-## Fuentes
-
-- Escritorio OpenAI: https://learn.chatgpt.com/docs/app
-- Planes OpenAI: https://learn.chatgpt.com/docs/pricing
-- Claude Desktop: https://support.claude.com/en/articles/10065433-install-claude-desktop
-- Primeros pasos OpenClaw: https://docs.openclaw.ai/start/getting-started
+## Referencias
+https://docs.openclaw.ai/start/getting-started
+https://docs.openclaw.ai/tools
+https://learn.chatgpt.com/docs/environments/modes

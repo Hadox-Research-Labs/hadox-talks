@@ -1,41 +1,53 @@
-# Clase 2 · Guía de ensayo
+# Clase 2 · Conocernos para proponer mejor
 
-Automatización, copilotos y agentes · 28 septiembre · 18:00–20:30.
-Versión de revisión del 26 septiembre 2026. Primero teoría, después demostración del profesor. Los alumnos repiten el recorrido como tarea con un desafío.
+28 septiembre 2026 · 18:00–20:30, hora Guatemala · versión para ensayo del 27 septiembre.
+22 láminas, cuatro separadores (2, 7, 12, 17), cuatro demostraciones (6, 10, 16, 20). Tarea en la 21. Descanso 19:05–19:15. El profesor demuestra y los participantes repiten después con un desafío.
 
-## Presentación y documentos
-
-16 láminas, incluidas cuatro transiciones de contexto. Separadores en las láminas 2, 5, 8 y 12. Make ocupa dos momentos de demostración (4 y 7); Codex está en la 11 y OpenClaw en la 14. Los clics y las pruebas se consultan en los manuales, sin convertirlos en láminas adicionales. La tarea está en la lámina 15.
-
-Guía de instalación visible y descargable: https://hadox-research-labs.github.io/hadox-talks/ia-para-lideres/clase-2/instalacion.html
+## Conducción
+La teoría tiene un desarrollo propio en DISCURSO_2.md; las láminas sólo presentan las ideas que conviene proyectar. Las preguntas permiten objeciones, analogías y contraste. Los minutos incluyen conversación y observación; no corresponden a lectura continua del texto. La voz del sitio recorre el discurso sin esperar los doce o quince minutos de cada práctica.
+La demostración usa personas ficticias. La tarea sustituye esas fichas por información profesional que los compañeros eligen compartir. El valor se observa cuando una conversación corrige una inferencia y mejora una propuesta.
 
 ## Recorrido
+| Horario | Lámina | Contenido |
+|---|---|---|
+| 18:00–18:05 | 1 | Conocernos para proponer mejor |
+| 18:05–18:06 | 2 | Procesos y representación |
+| 18:06–18:12 | 3 | Evento, estado y transición |
+| 18:12–18:18 | 4 | Representar implica seleccionar |
+| 18:18–18:23 | 5 | El flujo también necesita memoria |
+| 18:23–18:35 | 6 | Demostración 1 · Un perfil que otros puedan usar |
+| 18:35–18:36 | 7 | Afinidad y complementariedad |
+| 18:36–18:45 | 8 | Recuperar, comparar, decidir |
+| 18:45–18:53 | 9 | Parecernos no basta para colaborar |
+| 18:53–19:05 | 10 | Demostración 2 · Cambiar el criterio cambia la red |
+| 19:05–19:15 | 11 | Descanso |
+| 19:15–19:16 | 12 | Agentes y delegación |
+| 19:16–19:23 | 13 | El ciclo de un agente |
+| 19:23–19:30 | 14 | Autonomía y autoridad son dimensiones distintas |
+| 19:30–19:35 | 15 | Una salida convincente puede heredar un error |
+| 19:35–19:50 | 16 | Demostración 3 · Delegar una exploración |
+| 19:50–19:51 | 17 | Propuestas e implementación |
+| 19:51–19:58 | 18 | La propuesta combina tres evidencias |
+| 19:58–20:05 | 19 | Elegir una forma de implementación |
+| 20:05–20:20 | 20 | Demostración 4 · Preparar una propuesta |
+| 20:20–20:26 | 21 | Tarea · Conectar y mejorar una propuesta |
+| 20:26–20:30 | 22 | ¿Y si cambiamos al interlocutor? |
 
-- 18:00–18:14 · Teoría: automatización, procesos y elección de tareas.
-- 18:14–18:30 · Demostración: formulario/hoja → Make → registro.
-- 18:30–18:41 · Teoría: interpretación con IA, contexto, conexiones y aceptación.
-- 18:41–19:05 · Demostración: tres aplicaciones, IA en Make y excepción.
-- 19:05–19:15 · Teoría: copilotos, flujos y agentes.
-- 19:15–19:25 · Descanso.
-- 19:25–19:45 · Demostración: Codex/ChatGPT y contraste con Cowork.
-- 19:45–19:57 · Teoría: piezas, implementación y equipo.
-- 19:57–20:17 · Demostración: OpenClaw y articulación del proceso.
-- 20:17–20:30 · Tarea y cierre.
+## Cobertura del programa PBS · sesión 2
+| Tema del syllabus | Dónde se desarrolla | Evidencia |
+|---|---|---|
+| Automatización: entrada, extracción, registro y excepciones | Láminas 3–6; guía Make A | Fuente, borrador, revisión y versiones |
+| Instrucciones y contexto | Láminas 8–10 y 13–16 | Mismo encargo y criterios explícitos |
+| Herramientas, autonomía y autoridad | Láminas 13–16 | Lectura/escritura, límites y preguntas pendientes |
+| Pruebas de aceptación | Láminas 5, 15–16; PRUEBAS_RED | Diez pruebas con evidencia y correcciones |
+| Comprar/configurar/desarrollar | Lámina 19 | Decisión justificada para el proceso |
+| Cuentas, datos, permisos e integración | Láminas 14 y 19; preparación y guías | Mapeos, acceso efectivo y revisión humana |
+| Organización del equipo | Láminas 19–21; actividad B | Dueño del proceso, datos, tecnología y revisión |
 
-## Orden de preparación
+El programa base proponía diez solicitudes ficticias y un flujo de registro. Esta adaptación conserva diez pruebas, objetivo y cuatro criterios de 5 puntos; cambia el caso a perfiles y propuestas, y desplaza la repetición a tarea según la dinámica pedida por el docente. La redacción institucional y Moodle no se modifican en esta edición de ensayo. La comprobación de cálculos de costos se desarrolla en la sesión 3; aquí no se inventan presupuestos para rellenar la propuesta.
 
-1. Leer PREPARACION_CLASE_2.md y comprobar cuentas y equipo.
-2. Descomprimir el kit; revisar contexto y notas ficticias.
-3. Ejecutar DEMO_MAKE_CLASE_2.md y DEMO_AGENTES_CLASE_2.md en las cuentas que se usarán.
-4. Ensayar el discurso con las láminas. Las pausas de observación, interacción y ejecución forman parte de los minutos asignados; el texto no llena cada minuto con lectura.
-5. Revisar ACTIVIDAD_B_CLASE_2.md y registrar ajustes antes de publicar en Moodle.
+## Preparación
+Lee PREPARACION_CLASE_2.md, ensaya ambas guías, completa INVESTIGACION_INTERLOCUTOR.md con tu trabajo de clase 1 y revisa la actividad individual. Las rutas están documentadas; falta validarlas en las cuentas que se usarán en clase. El kit no contiene un blueprint ejecutado.
 
-## Cobertura de la segunda sesión del syllabus
-
-- Copilots y agentes: instrucciones, contexto, herramientas, autonomía y autoridad.
-- Pruebas de aceptación: criterios antes de ejecutar y contraste normal/excepción.
-- Automatización: entrada, extracción, registro y manejo de excepciones.
-- Implementación: comprar/configurar/desarrollar, cuentas, datos, permisos e integración.
-- Organización: dueño del proceso, datos, tecnología, revisión y mantenimiento.
-
-La clase 3 mantiene analítica aumentada y el desarrollo de límites, riesgos y oportunidades por industria. Esta reconstrucción no modifica Moodle ni sus fechas.
+## Puente a clase 3
+Cambiar interlocutor obliga a revisar evidencia y pertinencia. Después evaluaremos recursos, costos, escenarios y condiciones para decidir si conviene avanzar. Una propuesta interesante todavía no demuestra viabilidad económica.

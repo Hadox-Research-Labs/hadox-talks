@@ -1,50 +1,36 @@
-# Actividad B · Repite el recorrido y resuelve una nueva oportunidad
+# Actividad B · Conocernos para proponer mejor
 
-Propuesta para revisión del docente · 20 puntos · Entrega individual con colaboración.
-Esta edición se ensaya en GitHub Pages. Fecha, instrucciones definitivas y entrega formal se publicarán después en Moodle. No hay que enviar trabajo ni datos personales a este sitio.
+Entrega individual · 20 puntos propuestos · Repetir la demostración del profesor con un desafío propio. La fecha y la entrega formal las comunica PBS en Moodle. Esta web sirve para preparación y revisión.
 
-## 1. Reproduce la demostración
+## 1. Repite el recorrido
+Reproduce la extracción de un perfil con Make; comprueba el documento y marca el borrador. Publica sólo tu ficha revisada en el espacio que indique el docente. Puedes usar una semblanza profesional creada para el curso y decidir qué información compartir; no es obligatorio publicar un CV completo.
+Compara el mismo encargo y las mismas fichas en Gemini, ChatGPT y Claude. Anota una diferencia relevante de evidencia o inferencia. Después reproduce el recorrido B de Make y una ejecución de agente que lea fuentes y escriba resultados.
 
-Con el mismo kit del profesor:
-- Construye el flujo de Make y registra una entrada normal. Añade el paso de IA y comprueba la síntesis. Ensaya una entrada incompleta y conserva qué sucedió.
-- Repite el encargo comparativo en Gemini, ChatGPT y Claude según el acceso de tus cuentas. Conserva una observación útil por herramienta, sin copiar conversaciones completas.
-- Ejecuta el encargo sobre archivos en al menos una herramienta de agente: Codex/ChatGPT Work, Cowork u OpenClaw. Comprueba que los archivos existen y se pueden abrir. Repite el cambio de condición.
+## 2. Conecta con el grupo
+Usa FORO_RED_CLASE_2.md. Explora al menos dos compañeros: una afinidad y una complementariedad. Publica dos respuestas concretas con aportación recíproca y pregunta. Registra cómo la conversación confirma, corrige o limita lo sugerido por IA. Responde también a quienes te consulten. No publiques el CV de otro ni lo uses fuera del alcance acordado.
 
-## 2. Desafío: cambia la oportunidad y una condición
+## 3. Introduce tu desafío
+Define un interés profesional propio. Cambia al menos un criterio (por ejemplo problema, tipo de contribución, trabajo remoto o datos disponibles) y compara las conexiones antes y después. Modifica el encargo que alimenta la automatización y la tarea del agente; no basta cambiar un nombre en el texto final.
+Recupera la investigación de la actividad A sobre Juan José Gutiérrez Mayorga y un negocio documentado de su entorno. Combina evidencia del interlocutor, catálogo Nexo y aportaciones posibles del grupo para preparar una propuesta de hasta dos páginas. Si falta evidencia o acuerdo, conserva el pendiente. No envíes la propuesta al interlocutor.
 
-Recupera una oportunidad de tu investigación para Nexo de la actividad A. Sustituye las notas ficticias por fuentes públicas que hayas revisado; la información pública permite formular una hipótesis de colaboración, no afirmar que conoces necesidades internas del interlocutor.
+## 4. Entrega un expediente breve y revisable
+- Propuesta individual: oportunidad como hipótesis, sustento, aportaciones, primer paso y preguntas pendientes.
+- Ficha propia revisada y notas de los dos intercambios. Da crédito a compañeros y distingue lo confirmado de lo supuesto.
+- Una evidencia del recorrido Make y otra del agente; conserva entradas y salidas con versiones. Incluye la comparación de las tres herramientas y del cambio de criterio.
+- Registro de las diez pruebas de PRUEBAS_RED.md: puedes ejecutar casos con perfiles ficticios para no alterar datos de compañeros.
+- Encargo de implementación de una página: qué comprarías/configurarías/desarrollarías, dueño del proceso, responsable de datos, soporte técnico, revisor, accesos, costo por comprobar, mantenimiento y criterio para aceptar el piloto.
 
-Adapta al menos un elemento funcional de la automatización: un campo, una regla, el encargo de IA o la forma de registrar el resultado. Después adapta el objetivo del agente. Elige una condición adicional: reunión más breve, público diferente, servicio limitado a una parte del catálogo o una fuente nueva que obligue a revisar la idea.
-
-El resultado debe mostrar qué cambió y por qué. No es necesario contactar a Juan José ni a las empresas investigadas. La propuesta de Nexo puede ofrecer servicios de su catálogo; no tiene que vender IA.
-
-## 3. Colabora
-
-Comparte con un compañero una fuente, una instrucción que funcionó o la solución a un problema de configuración. Incorpora una sugerencia útil dando crédito. Si no recibes respuesta, conserva tu intento y explica qué aportaste. Cada persona conserva su propia decisión final.
-
-## Entrega propuesta
-
-1. Un expediente breve con propuesta, agenda y pendientes; puede reunirse en un solo documento o carpeta accesible.
-2. Evidencia concisa: captura del flujo y de su resultado, y rutas o capturas de los archivos del agente. Una grabación corta puede sustituir varias capturas. Oculta claves y datos personales.
-3. Nota de hasta una página: herramientas/modalidades usadas; qué repetiste y qué adaptaste; una corrección; aporte compartido; qué pondrías a operar, quién sería responsable y qué revisarías.
-
-La nota integra la decisión de implementación: configurar, comprar o desarrollar; datos y accesos necesarios; funciones responsables; prueba de aceptación; costo que falta averiguar. No se requiere una cotización ni diseñar un departamento.
-
-## Evaluación · Cuatro criterios de 5 puntos
-
-| Criterio | Evidencia |
+## Rúbrica · cuatro criterios de cinco puntos
+| Criterio | Para obtener 5 puntos |
 |---|---|
-| Proceso y autoridad | Explica entrada, salida, parte automatizada y decisión que conserva la persona. |
-| Pruebas y revisión | Muestra ejecución, entrada incompleta y ajuste con resultado observado. |
-| Decisión tecnológica | Compara opciones pertinentes y justifica configurar, comprar o desarrollar con una condición real. |
-| Responsables y encargo | Define quién mantiene datos/operación y formula una solicitud implementable. Integra lo aprendido y la colaboración. |
+| Proceso y autoridad | Distingue evento, estados y revisión; define lo que el agente decide y lo que requiere una persona. La ficha compartida tiene alcance y responsable. |
+| Pruebas y revisión | Registra las diez pruebas con evidencia y correcciones; compara versiones y muestra cómo los intercambios corrigieron o delimitaron la propuesta. |
+| Decisión tecnológica | Justifica automatización y agente, contrasta herramientas con el mismo contexto y defiende comprar/configurar/desarrollar para su caso. |
+| Responsables y encargo | Define responsables, insumos, accesos y aceptación; convierte capacidades del grupo en una hipótesis de colaboración con crédito y pendientes explícitos. |
 
-Por criterio: 5 concreto y sustentado; 3 parcial; 1 genérico; 0 sin evidencia. Las puntuaciones 2 y 4 requieren justificar el grado de cumplimiento. No se premia una suscripción, más archivos ni efectos visuales.
+Por criterio: 5 = completo y sustentado; 3 = razonable con una omisión material; 1 = genérico o débilmente sustentado; 0 = ausente. Los puntos intermedios requieren justificación del docente.
 
-## Si una función no está disponible
+## Acceso y alternativas
+No contrates un plan sólo para resolver una restricción sin revisar primero la ruta disponible. Si una aplicación bloquea adjuntos, pega las fichas de texto que tienes permiso de usar. Si no permite herramientas, puedes analizar el encargo en chat y declarar esa limitación; el docente puede facilitar una ejecución compartida para acreditar el paso con agente. Ante una cuota de Make agotada, conserva escenario, mapeo y prueba pendiente y coordina una ejecución de ensayo. No presentes un análisis manual como integración ejecutada. La elección de una alternativa debe quedar documentada para evaluación.
 
-- Claude Chat puede cubrir la comparación de contenido; para ejecución de archivos usa Codex u OpenClaw si tienes acceso. Cowork no es obligatorio.
-- Si falla una de las tres cuentas de chat, muestra el límite observado y compara con las disponibles. No atribuyas una ejecución a una herramienta que no utilizaste.
-- Si falta cuota de IA en Make, termina el registro y conserva el bloqueo. Analizar la nota en un chat es una contingencia de contenido; la conexión queda pendiente de repetir con una cuenta habilitada.
-- Si ninguna herramienta de agente está disponible, realiza esa parte en pareja o mediante repetición acompañada y distingue qué ejecutaste y qué observaste. La simulación local no acredita una ejecución de Make ni de agente.
-- La entrega final y el tratamiento de un bloqueo de acceso se acuerdan con el docente. No se exige pagar para participar.
+La información profesional puede ser mínima. Si prefieres, comparte una ficha de intereses y aportaciones para este ejercicio sin datos biográficos. El objetivo es una conexión útil y revisada, no recopilar información personal.

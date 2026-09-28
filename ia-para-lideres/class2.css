@@ -84,3 +84,81 @@
 .listen-controls button:disabled{opacity:.45;cursor:default}
 #voiceStatus{font-size:14px;margin:12px 0 0;min-height:21px;color:#315b65}
 .listen-controls :focus-visible{outline:3px solid #147f86;outline-offset:3px}
+
+/* Class 2 · native type and original conceptual illustrations */
+#screen.native-screen:not(:fullscreen){aspect-ratio:16/9}
+.red-slide{box-sizing:border-box;width:100%;height:100%;aspect-ratio:16/9;background:#f5f6f2;color:#102c3d;padding:3.2cqw 4.4cqw;display:flex;flex-direction:column;overflow:hidden;font-family:Arial,Helvetica,sans-serif;text-align:left}
+.red-slide *{box-sizing:border-box}
+.red-slide.red-dark{background:#082638;color:#f5f6f2}
+.red-slide .red-top,.red-slide .red-foot{display:flex;justify-content:space-between;gap:2cqw;font-size:1cqw;line-height:1.3;letter-spacing:.11em;margin:0;color:#41616a;flex-shrink:0}
+.red-dark .red-top,.red-dark .red-foot{color:#b5d8db}
+.red-slide .red-foot{padding-top:1.8cqw;border-top:.09cqw solid #92b4b7;margin-top:auto}
+.red-slide h2{font-size:4cqw;line-height:1.08;letter-spacing:-.035em;margin:2.8cqw 0 2cqw;max-width:88cqw;color:inherit;font-weight:700}
+.red-slide h3{font-size:2.15cqw;line-height:1.15;margin:0 0 .9cqw;color:inherit}
+.red-slide p{font-size:1.8cqw;line-height:1.38;margin:0;color:inherit}
+.red-slide .red-label{font-size:1.05cqw;letter-spacing:.12em;color:#68e4dd;margin-top:2.7cqw}
+.red-content{flex:1;min-height:0;padding-bottom:2cqw}
+.red-slide table{width:100%;border-collapse:collapse;table-layout:fixed;margin:0;font-size:1.75cqw;line-height:1.3}
+.red-slide th{background:#0c4b57;color:#fff;text-align:left;font-size:1.5cqw;letter-spacing:.01em;font-weight:600}
+.red-slide th,.red-slide td{padding:1.35cqw 1.45cqw;border:0;border-bottom:.1cqw solid #b1c7c8;vertical-align:top}
+.red-slide td:first-child{font-weight:700;color:#0f666d}
+.red-illustrated{display:grid;grid-template-columns:53% 1fr;gap:3.8cqw;align-items:center}
+.red-art{display:block;width:100%;height:100%;object-fit:contain;min-height:0;max-height:32cqw}
+#screen:fullscreen .red-art{width:100%;height:100%;object-fit:contain}
+.red-illustrated section{padding:1.25cqw 0;border-bottom:.1cqw solid #b1c7c8}
+.red-illustrated section:first-child{padding-top:0}
+.red-illustrated h3{color:#116b73}
+.red-sequence{display:grid;grid-template-columns:repeat(4,1fr);gap:2.3cqw;align-content:center}
+.red-sequence section{border-top:.35cqw solid #158b91;padding-top:1.8cqw}
+.red-sequence span{display:block;font-size:4.5cqw;font-weight:700;color:#16777f;margin-bottom:2cqw;line-height:1}
+.red-sequence h3{font-size:2.3cqw}
+.red-demo{display:grid;grid-template-columns:1fr 1fr;column-gap:4cqw;row-gap:1cqw;align-content:center}
+.red-demo section{display:flex;gap:1.7cqw;padding:1.6cqw 0;border-top:.1cqw solid #42727e}
+.red-demo section>span{font-size:2.5cqw;color:#64dcd5;line-height:1}
+.red-demo p{color:#d5e3e5}
+.red-demo h2{margin-top:1cqw}
+.red-slide .red-transition{font-size:1.4cqw;color:#b8dadc;margin-bottom:2cqw}
+.red-divider{display:flex;gap:4cqw;align-items:center;flex:1}
+.red-chapter{font-size:14cqw;color:#43c9c6;font-weight:700;letter-spacing:-.08em;line-height:1}
+.red-divider h2{font-size:5.6cqw;margin:0 0 2cqw}
+.red-divider p{font-size:2.05cqw;max-width:61cqw}
+.red-divider+.red-transition{border-top:.1cqw solid #42727e;padding-top:2cqw;font-size:1.6cqw}
+.red-cover{display:grid;grid-template-columns:49% 51%;align-items:center;flex:1;min-height:0;gap:0}
+.red-cover h2{font-size:5.6cqw;margin:2cqw 0;max-width:43cqw}
+.red-cover p{max-width:40cqw;font-size:2cqw}
+.red-cover .red-art{max-height:37cqw;object-fit:cover;object-position:right}
+.red-closing{flex:1;display:flex;flex-direction:column;justify-content:center}
+.red-closing h2{font-size:5.4cqw;margin-top:2cqw;max-width:80cqw}
+.red-closing p{font-size:2.05cqw;margin-bottom:1.5cqw;max-width:80cqw}
+.red-dark .red-foot{border-color:#42727e}
+.print-sheet{aspect-ratio:16/9}
+@media print{.print-sheet{height:100vh;width:100vw}.red-slide{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+@media(max-width:600px){#screen:not(:fullscreen) .red-slide{min-height:0}.c2-hub .c2-tools dd{margin-left:0}}
+@media(max-width:600px){
+ #screen.native-screen:not(:fullscreen){aspect-ratio:auto;overflow:visible}
+ #screen:not(:fullscreen) #nativeSlide{height:auto}
+ #screen:not(:fullscreen) .red-slide{height:auto;aspect-ratio:auto;padding:24px 20px;min-height:440px}
+ #screen:not(:fullscreen) .red-top,#screen:not(:fullscreen) .red-foot{font-size:9px;letter-spacing:.06em;gap:12px}
+ #screen:not(:fullscreen) .red-top span:last-child{display:none}
+ #screen:not(:fullscreen) .red-foot{margin-top:24px;padding-top:16px}
+ #screen:not(:fullscreen) .red-slide h2{font-size:29px;margin:24px 0;max-width:none}
+ #screen:not(:fullscreen) .red-slide h3{font-size:19px;margin-bottom:8px}
+ #screen:not(:fullscreen) .red-slide p{font-size:16px;line-height:1.45;max-width:none}
+ #screen:not(:fullscreen) .red-slide .red-label{font-size:10px;margin-top:24px}
+ #screen:not(:fullscreen) .red-content{padding:0}
+ #screen:not(:fullscreen) .red-cover,#screen:not(:fullscreen) .red-illustrated,#screen:not(:fullscreen) .red-sequence,#screen:not(:fullscreen) .red-demo{display:flex;flex-direction:column;gap:18px;align-items:stretch}
+ #screen:not(:fullscreen) .red-art{height:210px;max-height:none;object-fit:contain}
+ #screen:not(:fullscreen) .red-cover .red-art{margin-top:12px}
+ #screen:not(:fullscreen) .red-illustrated section,#screen:not(:fullscreen) .red-demo section{padding:12px 0}
+ #screen:not(:fullscreen) .red-demo section{gap:16px}
+ #screen:not(:fullscreen) .red-demo section>span{font-size:25px}
+ #screen:not(:fullscreen) .red-sequence section{padding:14px 0 0}
+ #screen:not(:fullscreen) .red-sequence span{font-size:28px;margin-bottom:10px}
+ #screen:not(:fullscreen) .red-divider{display:block}
+ #screen:not(:fullscreen) .red-chapter{font-size:74px;display:block;margin-top:32px}
+ #screen:not(:fullscreen) .red-slide .red-transition{font-size:13px;margin:24px 0 0;padding-top:16px}
+ #screen:not(:fullscreen) .red-slide table{font-size:13px;line-height:1.35}
+ #screen:not(:fullscreen) .red-slide th{font-size:12px}
+ #screen:not(:fullscreen) .red-slide td,#screen:not(:fullscreen) .red-slide th{padding:11px 7px;overflow-wrap:break-word}
+ #screen:not(:fullscreen) .red-closing p{margin-bottom:18px}
+}

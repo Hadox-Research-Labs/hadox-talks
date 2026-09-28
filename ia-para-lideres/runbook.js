@@ -39,7 +39,7 @@ async function guideOpenFile(file,image=false){
  const url=`materiales/${encodeURIComponent(file)}`;
  try{
   let body;if(image)body=`<a href="${url}" target="_blank" rel="noopener" aria-label="Ver imagen V1 a tamaño completo"><img src="${url}" alt="Fuente V1 del caso Nexo: distribución de las 88 solicitudes abiertas"></a><p>Pulsa la imagen para verla a tamaño completo.</p>`;
-  else{const response=await fetch(url+'?v=guia-simple-20260921');if(!response.ok)throw Error('No disponible');body=guideMarkdown(await response.text())}
+  else{const response=await fetch(url+'?v=red-20260927');if(!response.ok)throw Error('No disponible');body=guideMarkdown(await response.text())}
   if(!preview.isConnected)return;
   preview.innerHTML=`<div class="guide-preview-head"><b>${escapeHTML(file.replaceAll('_',' '))}</b><button data-guide-action="closePreview">Cerrar material</button></div>${body}<a href="${url}" download>Descargar este archivo ↓</a>`;
   preview.scrollIntoView({block:'start'});

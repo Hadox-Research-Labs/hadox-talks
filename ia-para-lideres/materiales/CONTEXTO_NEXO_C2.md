@@ -1,6 +1,6 @@
 # Nexo · Contexto para la clase 2
 
-Caso ficticio · Material de ensayo · 25 septiembre 2026.
+Caso ficticio · Material de ensayo · 27 septiembre 2026.
 
 Nexo ayuda a organizaciones a ordenar información, hacer claros sus procesos y preparar equipos para ejecutarlos. Puede ofrecer organización documental, elaboración de guías y materiales de formación, análisis de procesos de soporte y coordinación de apoyo técnico. Es una empresa ficticia, sin facturación, certificaciones ni clientes acreditados en este ejercicio.
 
@@ -17,10 +17,12 @@ No se presupone plataforma propia, integración empresarial desplegada, capacida
 
 El comité investiga una posible colaboración para Juan José Gutiérrez Mayorga y un negocio documentado de su entorno. La IA ayuda a investigar y preparar materiales; lo que ofrece Nexo no tiene que ser un producto de IA. No hay reunión ni relación comercial confirmadas. La investigación de alumnos se sustenta en fuentes públicas originales.
 
-## Expediente de demostración
+## El grupo como fuente de aportaciones
 
-Para poder repetir exactamente el procedimiento, las notas D1–D3 de CASOS_CLASE_2.md usan una organización completamente ficticia: Grupo Horizonte. No son noticias ni afirmaciones sobre Juan José, CMI o empresas reales. En el desafío se reemplazan por la investigación propia de la actividad A, manteniendo separadas evidencia e hipótesis.
+Los cuatro perfiles ANA, BRUNO, CLARA y DIEGO son ficticios. Sirven para ensayar la extracción y la búsqueda de conexiones. En la tarea cada participante elige qué ficha profesional compartir y confirma con sus compañeros las interpretaciones de la IA.
+
+Una capacidad de un compañero no se convierte automáticamente en capacidad contratada por Nexo. Una conversación exploratoria tampoco es un compromiso. La propuesta distingue catálogo disponible, aportaciones por explorar y capacidades que todavía habría que conseguir.
 
 ## Resultado
 
-Preparar una propuesta breve, preguntas para una reunión simulada y pendientes de investigación. Conservar referencias por nombre de archivo y ficha. No contactar personas, enviar propuestas, inventar presupuesto ni atribuir necesidades internas a una empresa real.
+Preparar una propuesta breve con evidencia, preguntas para una conversación y pendientes. Usar INVESTIGACION_INTERLOCUTOR.md con investigación real de clase 1; mientras esté incompleta, pedir evidencia. No contactar al interlocutor, inventar presupuesto ni atribuirle necesidades internas.
