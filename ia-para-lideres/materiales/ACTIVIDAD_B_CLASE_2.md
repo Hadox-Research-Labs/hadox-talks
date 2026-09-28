@@ -1,31 +1,27 @@
-# Actividad B · repetir la práctica con un desafío propio
+# Actividad B · conocer al grupo y preparar una propuesta
 
-Individual · 20 puntos. El profesor realiza las demostraciones en clase. Tú repites el recorrido, conversas con compañeros y conservas evidencia de lo que cambió. PBS comunica la fecha y el espacio formal de entrega.
+Individual · 20 puntos. Repite las tres demostraciones del profesor con tu información. PBS comunica fecha y espacio de entrega.
 
-## 1. Repetir el recorrido observado
-- Prepara una ficha a partir de tu información profesional y revisa cada capacidad contra la fuente. Puedes comenzar con Ana para comprobar la herramienta antes de usar datos propios.
-- Repite el flujo A y registra entrada, borrador y revisión. Distingue las acciones automáticas de la publicación humana.
-- Compara un mismo criterio y directorio en Gemini, ChatGPT y Claude. Anota evidencia, hipótesis, faltantes y diferencias. Si falta acceso a uno, identifica la salida del profesor usada como referencia y deja pendiente tu ejecución.
-- Repite B y la exploración del agente con fuentes revisadas. Conserva CONEXIONES y PENDIENTES y comprueba que los archivos existen.
+## El ejercicio
+1. Prepara tu CV o semblanza y añade qué buscas, qué aportas y tus condiciones actuales. Repite Make A, revisa la ficha y comparte sólo la versión que autorizas. No es necesario publicar el CV original.
+2. Lee las fichas de dos compañeros. Consulta el directorio con un objetivo propio, compara Gemini, ChatGPT y Claude y repite Make B. Conserva evidencia, hipótesis y preguntas pendientes.
+3. Conversa con ambos compañeros: explica qué te interesa, qué puedes aportar y qué necesitas preguntar. Responde también a las consultas recibidas. Incorpora sus correcciones; no inventes respuestas pendientes.
+4. Repite el trabajo del agente con perfiles revisados, tu criterio y las fuentes de clase 1. Prepara una propuesta para ese interlocutor, indicando aportaciones posibles y aspectos por confirmar. Usa el catálogo Nexo como límite de la oferta del caso.
 
-## 2. Conversar con el grupo
-Sigue FORO_RED_CLASE_2: comparte tu ficha autorizada, lee dos compañeros, plantea un aporte recíproco y una pregunta a cada uno. Responde también a las consultas recibidas. Incorpora correcciones reales o registra la respuesta pendiente.
+## El desafío
+Cambia una condición importante: objetivo, disponibilidad o modalidad. Obtén una segunda versión y explica qué decisión cambió, con qué evidencia y por qué. Cambiar sólo un nombre no basta. No se pide enviar la propuesta al interlocutor externo.
 
-## 3. Resolver el desafío
-Cambia una condición que importe: objetivo, prioridad, modalidad o disponibilidad. Conserva la recomendación inicial y la revisada. Explica la evidencia y el criterio que justifican el cambio. Recupera la investigación de clase 1 y prepara una propuesta individual con el catálogo Nexo y las aportaciones posibles. No presentes una hipótesis como demanda confirmada ni un aporte posible como compromiso.
+## Una entrega, con anexos
+Entrega un documento breve que permita seguir el recorrido: tu objetivo y ficha; conexiones elegidas y conversaciones; propuesta inicial y revisada con explicación del cambio. Anexa evidencia de las tres demos repetidas, la batería de diez casos de PRUEBAS_RED y el cálculo de disponibilidad mostrados por el profesor. Identifica entrada, resultado esperado, observado y corrección; las referencias docentes no cuentan como ejecución propia.
 
-## 4. Comprobar y dirigir
-Registra las diez pruebas de PRUEBAS_RED y verifica el cálculo de disponibilidad con unidades. Justifica comprar, configurar o desarrollar para tu caso. Redacta un encargo de implementación con entradas, salidas, cuentas, datos, permisos, integración, responsables, excepciones y aceptación.
-
-## Qué entregar
-Un documento de evidencia con: descripción del proceso y su frontera humana; resultados y correcciones de pruebas; comparación de herramientas; participación y cambio de criterio; propuesta v1/v2; decisión tecnológica; encargo con responsables. Adjunta o enlaza las entradas y salidas necesarias para comprobarlo, omitiendo credenciales e información que tus compañeros no autorizaron compartir. Puedes organizar anexos en una carpeta.
+Cierra con un encargo de implementación de una página: qué comprarías, configurarías o desarrollarías y por qué; entradas, salidas, cuentas, datos, permisos, integración, excepciones, aceptación y responsables. Debe describir este mismo sistema.
 
 ## Rúbrica
-| Criterio | 5 puntos | 3 puntos | 1 punto | 0 puntos |
-|---|---|---|---|---|
-| Proceso y autoridad | Explica entrada, extracción, registro, excepción y frontera de decisiones con evidencia | Recorrido comprensible con una omisión relevante | Descripción genérica sin frontera clara | Ausente |
-| Pruebas y revisión | Diez pruebas, cálculo comprobado y revisión por fuentes y conversación | Pruebas parciales o una corrección sin evidencia suficiente | Sólo salida normal sin contraste | Ausente |
-| Decisión tecnológica | Justifica ruta y alternativa considerando cuentas, datos e integración | Elección razonada con condiciones incompletas | Preferencia de marca sin justificar | Ausente |
-| Responsables y encargo | Encargo ejecutable con responsables, permisos, aceptación y propuesta trazable | Encargo útil con responsabilidades pendientes | Propósito general sin especificación | Ausente |
+| Criterio | Máximo | Evidencia para obtenerlo |
+|---|---|---|
+| Automatización y calidad de información | 5 | Entrada, extracción, ficha revisada, registro y manejo de excepciones comprobables. |
+| Conexiones y participación | 5 | Criterio propio, comparación de herramientas, dos conversaciones recíprocas y correcciones o pendientes identificados. |
+| Agente, pruebas y desafío | 5 | Propuestas antes/después justificadas, diez casos, cálculo y autoridad respetada. |
+| Dirección e implementación | 5 | Decisión tecnológica razonada y encargo con cuentas, permisos, integración, responsables y aceptación. |
 
-Si una instalación o cuenta te impide ejecutar, registra el bloqueo y solicita al profesor la ruta para completar esa parte. Puedes analizar las salidas docentes identificadas como tales; no las presentes como ejecución propia. Los puntos intermedios requieren justificación docente.
+Por criterio: 5 completo y respaldado; 3 útil con omisión relevante; 1 descripción sin evidencia suficiente; 0 ausente. Si falta acceso a una herramienta, registra el bloqueo para acordar con el profesor cómo completar esa parte. No presentes salidas ajenas como propias.

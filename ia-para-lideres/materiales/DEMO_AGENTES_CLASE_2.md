@@ -1,6 +1,6 @@
 # Guía de ensayo · exploración y propuesta con agentes
 
-Las láminas 22 y 28 abren las demos. El profesor explica durante la ejecución y abre los resultados. Las escenas ilustradas son ejemplos docentes, no registros de OpenClaw.
+La lámina 13 abre la demo 3 completa (25 minutos). El profesor explica durante la ejecución y abre los resultados. Las escenas ilustradas son ejemplos docentes, no registros de OpenClaw.
 
 ## Antes de abrir el agente
 1. Completa la prueba de lectura y escritura de PREPARACION_CLASE_2.
@@ -8,7 +8,7 @@ Las láminas 22 y 28 abren las demos. El profesor explica durante la ejecución 
 3. Conserva BRUNO v2 y RESPUESTA_BRUNO fuera del contexto inicial; los incorporarás como cambio.
 4. Revisa herramientas y permisos. El ensayo necesita leer fuentes y escribir borradores en la carpeta. No necesita mensajería, correo ni publicación.
 
-## Demo 3 · 14 minutos
+## Primera parte · explorar y comprobar (7 minutos)
 1. Abre OpenClaw en el workspace del caso y pega aula-agente.
 2. Observa los archivos que consulta y las acciones visibles. No confundas una explicación de lo que hará con una acción ejecutada.
 3. Abre CONEXIONES.md, PENDIENTES.md y REGISTRO.md. Contrasta al menos una capacidad con la fuente. La disponibilidad de Clara debe seguir pendiente.
@@ -19,7 +19,7 @@ Las láminas 22 y 28 abren las demos. El profesor explica durante la ejecución 
 ## Preparación de la propuesta
 Completa INVESTIGACION_INTERLOCUTOR con fuentes reales de clase 1. Añade CONTEXTO_NEXO_C2 y RESPUESTA_BRUNO. No sustituyas la investigación faltante por las ilustraciones de la presentación. Las fichas de ensayo son ficticias.
 
-## Demo 4 · 13 minutos
+## Segunda parte · preparar y revisar la propuesta (10 minutos)
 1. Abre las tres fuentes: investigación del interlocutor, catálogo Nexo y directorio del grupo. Señala qué pregunta puede responder cada una.
 2. Pega aula-proponer. Solicita dos alternativas. Si falta evidencia, acepta un resultado pendiente de investigación y muestra el motivo.
 3. Escoge una alternativa y explica la elección. Comprueba que el aporte cabe en el catálogo y que nadie figura como comprometido sin haber aceptado.
@@ -28,3 +28,7 @@ Completa INVESTIGACION_INTERLOCUTOR con fuentes reales de clase 1. Añade CONTEX
 
 ## Qué hacer si falla el ensayo
 Guarda el mensaje y la etapa afectada. Puedes explicar el caso con la referencia docente, identificándola como material preparado. Para acreditar ejecución, vuelve a probar y conserva los archivos reales. Un bloqueo documentado sirve para pedir apoyo, pero no equivale a una integración validada.
+
+
+## Cierre · prueba funcional (8 minutos)
+Lleva preparadas las diez entradas de PRUEBAS_RED. Ejecuta la batería, compara comportamiento esperado y observado, muestra una corrección y comprueba la suma de disponibilidad con unidades. Distingue lo ejecutado de cualquier salida de respaldo preparada.

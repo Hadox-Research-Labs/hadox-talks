@@ -1,6 +1,6 @@
 # Guía de ensayo · las dos automatizaciones
 
-Las láminas 9 y 14 abren las demos. El profesor sale de la presentación y explica mientras opera. Los escenarios se construyen y prueban antes; esta guía no incluye un blueprint ejecutado en la cuenta del profesor.
+Las láminas 5 y 8 abren las demos. El profesor sale de la presentación y explica mientras opera. Los escenarios se construyen y prueban antes; esta guía no incluye un blueprint ejecutado en la cuenta del profesor.
 
 ## Resultado A: una fuente produce un borrador revisable
 Entrada: un PDF profesional en Entradas. Salida: un documento en Borradores. La revisión, publicación y control de versiones son pasos humanos explícitos en esta versión mínima.
@@ -22,7 +22,7 @@ Entrada: un PDF profesional en Entradas. Salida: un documento en Borradores. La 
 ### Revisión y registro A
 La persona propietaria corrige la ficha. El responsable de publicación coloca la versión aprobada en Revisados y actualiza DIRECTORIO_VIGENTE. Conserva la anterior en Historial. Registra ID, versión, fuente, estado, fecha y revisor. Antes de publicar comprueba que no exista ya la misma combinación de ID y versión. A puede crear dos borradores si se repite la entrada; la versión mínima evita duplicar el directorio mediante revisión humana. No atribuyas deduplicación automática a este escenario.
 
-### Ensayo para los 15 minutos de la demo 1
+### Ensayo para los 20 minutos de la demo 1
 - Mostrar Ana: entrada, salida y contraste de una frase.
 - Mostrar Clara: disponibilidad NO DECLARADA.
 - Mostrar Bruno v2: prioridad nueva y publicación humana de la versión vigente.
@@ -40,7 +40,7 @@ Entrada: un PDF con un objetivo personal. Contexto adicional: el documento DIREC
 6. Ejecuta con el criterio inicial. Comprueba afinidad, complementariedad, reciprocidad, una alternativa descartada y preguntas pendientes.
 7. Ejecuta con el criterio v2. Cambia primero el criterio manteniendo el directorio. Después introduce Bruno v2. Así puedes distinguir cambio de objetivo y cambio de evidencia.
 
-### Ensayo para los 12 minutos de la demo 2
+### Ensayo para los 20 minutos de la demo 2
 Ten preparados tres chats con el mismo contexto en Gemini, ChatGPT y Claude. Compara una afirmación con su fuente en cada salida. Ejecuta B una vez y muestra una segunda condición preparada. El objetivo es observar diferencias, no construir todos los módulos durante la sesión.
 
 ## Evidencia que guardamos
