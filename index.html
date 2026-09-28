@@ -116,6 +116,13 @@
       text-decoration: none;
     }
     .pill:hover { border-color: rgba(51, 198, 189, 0.58); }
+    .pill-current { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+    .pill-current:hover { background: #64ded6; border-color: #64ded6; }
+    .course-update { margin: 14px 0 0; color: var(--ink); font-size: 16px; line-height: 1.4; }
+    .course-update span { display: block; color: var(--accent); font-size: 12px; margin-bottom: 4px; }
+    .course-preview { display: block; align-self: start; }
+    .course-preview .thumb { display: block; }
+    a:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
     @media (max-width: 760px) {
       main { width: min(calc(100% - 36px), 640px); padding: 30px 0; }
       header { grid-template-columns: 1fr; align-items: start; }
@@ -135,19 +142,22 @@
     </header>
     <section class="grid" aria-label="Charlas, cursos y talleres">
       <article class="card">
-        <img class="thumb" src="ia-para-lideres/assets/c1-01.png" alt="IA para líderes: modelos fundacionales y multimodalidad">
-        <span class="copy">
-          <span>
+        <a class="course-preview" href="ia-para-lideres/?clase=2#lamina-1" aria-label="Abrir clase 2: Conocernos para proponer mejor"><img class="thumb" src="ia-para-lideres/assets/class2-red/red.webp" alt="Una red de capacidades que se combinan para construir propuestas" width="1536" height="1024" fetchpriority="high"></a>
+        <div class="copy">
+          <div>
             <span class="meta">Curso · 2026 · Español</span>
             <strong>IA para líderes: del uso básico a la ventaja competitiva</strong>
-            <em>Tres clases con láminas, explicación por voz, prácticas y materiales para comprobar resultados, diseñar asistentes y tomar decisiones.</em>
-          </span>
-          <span class="links">
-            <a class="pill" href="ia-para-lideres/">Abrir curso</a>
-            <a class="pill" href="ia-para-lideres/?clase=1#lamina-1">Primera clase</a>
-            <a class="pill" href="ia-para-lideres/materiales/KIT_NEXO.zip">Materiales</a>
-          </span>
-        </span>
+            <em>Investigar con fuentes, conectar las capacidades del grupo y preparar decisiones con evidencia. Tres clases con teoría, demostraciones y materiales.</em>
+            <p class="course-update"><span>Clase 2 actualizada · 27 septiembre 2026</span>Conocernos para proponer mejor</p>
+          </div>
+          <nav class="links" aria-label="Clases y materiales de IA para líderes">
+            <a class="pill" href="ia-para-lideres/?clase=1#lamina-1">Clase 1</a>
+            <a class="pill pill-current" href="ia-para-lideres/?clase=2#lamina-1">Abrir clase 2 →</a>
+            <a class="pill" href="ia-para-lideres/?clase=3#lamina-1">Clase 3</a>
+            <a class="pill" href="ia-para-lideres/comite/">Materiales clase 1</a>
+            <a class="pill" href="ia-para-lideres/clase-2/">Guías y materiales clase 2</a>
+          </nav>
+        </div>
       </article>
       <article class="card">
         <img class="thumb" src="https://hadox-research-labs.github.io/changesprint-encuentro-2026/masterclass-uvg/assets/slides/slide-00.webp" alt="Portada: Imagina un camino más agradable" loading="lazy">
