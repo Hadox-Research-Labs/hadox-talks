@@ -17,7 +17,7 @@ let documentRequest=0;
 async function openDoc(name){
  const version=++documentRequest,el=document.querySelector('#document');el.innerHTML='<p role="status">Abriendo documento…</p>';
  document.querySelectorAll('[data-doc]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.doc===name)));
- try{const url='../materiales/'+encodeURIComponent(name);const r=await fetch(url+'?v=aula-v1');if(!r.ok)throw Error();const t=await r.text();if(version!==documentRequest)return;el.innerHTML=`<a href="${url}" download>Descargar este documento ↓</a>`+md(t)}catch{if(version===documentRequest)el.innerHTML='<p role="alert">No se pudo abrir. Descarga el kit o vuelve a pulsar el documento.</p>'}
+ try{const url='../materiales/'+encodeURIComponent(name);const r=await fetch(url+'?v=aula-v1');if(!r.ok)throw Error();const t=await r.text();if(version!==documentRequest)return;el.innerHTML=`<a href="${url}" download>Descargar este documento ↓</a>`+md(t);el.scrollIntoView({block: 'start'})}catch{if(version===documentRequest)el.innerHTML='<p role="alert">No se pudo abrir. Descarga el kit o vuelve a pulsar el documento.</p>'}
 }
 document.addEventListener('click',ev=>{const b=ev.target.closest('[data-doc]');if(b)openDoc(b.dataset.doc)});
 openDoc('PREPARACION_CLASE_2.md');
