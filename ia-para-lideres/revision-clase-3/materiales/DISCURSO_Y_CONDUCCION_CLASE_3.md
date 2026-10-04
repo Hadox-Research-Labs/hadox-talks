@@ -361,4 +361,3 @@ La recomendación debe permitir actuar: qué alcance probaremos, quién responde
 **Pregunta:** ¿Qué probarías primero y con qué criterio decidirías continuar?
 
 **Fuentes:** [NIST AI RMF Core](https://airc.nist.gov/airmf-resources/airmf/5-sec-core/), [FinOps: Unit Economics](https://www.finops.org/framework/capabilities/unit-economics/)
-
