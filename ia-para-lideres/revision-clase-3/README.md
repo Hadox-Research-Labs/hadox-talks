@@ -1,10 +1,10 @@
 # Clase 3 · Implementación empresarial de IA
 
-Edición para ensayo del 3 de octubre de 2026. Sesión del 5 de octubre, 18:00–21:00 Guatemala: 33 láminas con discurso, conducción, preguntas, encargos y fuentes. Incluye una pausa de 10 minutos.
+Edición para ensayo del 4 de octubre de 2026. Sesión del 5 de octubre, 18:00–21:00 Guatemala: 16 láminas ilustradas con discurso, conducción, preguntas, encargos y fuentes. Incluye una pausa de 10 minutos.
 
 - `index.html`: visor, proyección y lectura del discurso mediante la voz del navegador.
 - `biblioteca.html`: 51 herramientas y diez capacidades; candidatos por industria; 48 aplicaciones propuestas en 12 industrias; simulador económico y checklist de 36 preguntas.
-- `materiales/`: PPTX editable con notas, discurso y clase en Markdown, Excel, plantillas de C y memo y kit de Tableau.
+- `materiales/`: discurso y guion de Tableau en Markdown, Excel, plantillas de C y memo y kit de Tableau.
 
 El filtro sectorial utiliza los candidatos propuestos en las fichas. La matriz conserva evidencia documental, sin convertirla en puntuaciones de calidad o garantías de encaje.
 

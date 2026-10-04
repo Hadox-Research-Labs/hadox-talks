@@ -1,87 +1,69 @@
-# Tableau · Guion de ensayo de la clase 3
+# Demostraciones de Tableau · preparación del docente
 
-Pregunta: **¿qué propuesta podemos llevar adelante, con qué capacidades, qué evidencia y bajo qué condiciones?**
+Las láminas 13 y 14 anuncian las preguntas. El procedimiento se muestra en Tableau. Este documento permite preparar y ensayar el entorno antes de impartirlo.
 
-## Preparación anterior a la sesión
+## Preparación y materiales
 
-1. Revisar Tableau Cloud y su configuración de IA, edición, idioma y permisos. Ensayar Tableau Agent en authoring. La modalidad Q&A de dashboards está en beta y requiere inglés según la documentación consultada. Next necesita su propio entorno compatible.
-2. Descomprimir el kit. Para el ensayo inicial utilizar exclusivamente `demo_ficticia/`. Las fechas, perfiles, fuentes y costos de ese conjunto son ficticios. Sus referencias DEMO no son enlaces ni hechos externos.
-3. Preparar una fuente con las seis tablas y conservar su detalle. Comprobar las relaciones por identificadores: Oportunidades–Evidencia y Oportunidades–Encaje por oportunidad_id; Encaje–Personas por persona_id; Oportunidades–Escenarios por oportunidad_id. Recomendaciones–Personas utiliza propietario_id; el papel de compañero puede necesitar otra instancia de Personas. No forzar relaciones de propuestas cuando faltan o tienen versiones distintas.
-4. Conservar las recomendaciones históricas en una vista propia. Para asociarlas a una oportunidad, comprobar la relación de Encaje C; compartir autor no acredita pertinencia. Las recomendaciones pendientes no se presentan como acuerdos.
-5. Conciliar primero los conteos del LEEME. Crear las cuatro vistas y organizar el dashboard. Agent asiste vistas y cálculos; no se promete que construya automáticamente el tablero completo.
-6. Cuando lleguen las entregas reales, utilizar `plantillas_vacias/` para proponer su síntesis y hacerla revisar por los autores. Conservar los orígenes y fechas disponibles. Usar identificadores o alias y acceso apropiado. La preparación de la fuente sucede antes de la sesión.
+1. Usar una cuenta de Tableau Cloud con Tableau Agent habilitado o una prueba compatible. Verificar inicio de sesión, acceso a autoría web, una hoja conectada y el icono Agent activo. Probar un cálculo y una visualización del caso. La documentación oficial contempla la prueba, pero no acredita que nuestra cuenta esté configurada.
+2. Descomprimir KIT_TABLEAU_A_B_C.zip. Empezar con demo_ficticia para el ensayo. Las seis tablas contienen hechos ficticios y referencias ficticias identificadas como DEMO. No sirven para atribuir resultados a alumnos o clientes.
+3. Preparar los datos de A: oportunidad, servicio del catálogo Nexo, sector, afirmaciones y fuentes. Para B: perfiles autorizados, objetivo 1 y objetivo 2, propuestas y abstenciones. Encaje_C añade la revisión del requisito de la oportunidad contra una capacidad documentada. Escenarios_C añade condiciones y costos propios, indicando el origen de cada supuesto.
+4. Conservar fuentes originales y versiones. Sustituir nombres por alias en cualquier publicación pública. Trabajar con entregas reales únicamente en un entorno autorizado. No convertir el sitio de ensayo en una publicación de CV.
+5. Relacionar Oportunidades_A con Evidencia_A, Encaje_C y Escenarios_C por oportunidad_id. Relacionar Personas_B con Encaje_C por persona_id. Para analizar recomendaciones, usar una hoja o fuente con identidad de propuesta y versión que conserve también las abstenciones sin companero_id. Revisar la granularidad antes de agregar costos. El agente no construye por nosotros el modelo de datos.
 
-## Recorrido en clase · Láminas 22 a 30 · 40 minutos
+## Demo 1 · oportunidades y capacidades · 20 minutos
 
-### Láminas 22–24 · Pregunta, modelo y funciones · 14 minutos
-Recuperar el título de una oportunidad y sus resultados de B. Mostrar el modelo preparado, sus llaves y las brechas. Explicar Agent, Pulse, conversación de dashboards y Next con sus condiciones. Evitar convertir el bloque en una lección de carga de CSV.
+**0–3:** mostrar la fuente preparada, sus IDs y las dos preguntas: qué oportunidad tiene evidencia y qué capacidad necesitamos para prepararla. Recordar A y B con sus productos visibles.
 
-### Lámina 25 · Oportunidades y evidencia · 5 minutos
-Abrir Tableau Agent en el entorno de authoring habilitado. Utilizar el encargo de la lámina para crear o revisar la vista. Seleccionar A01 del ejemplo, mostrar afirmaciones y sus referencias y abrir el cálculo. Esperado: 2 hechos distintos; 1 comprobado; 50%. Dos fuentes de A01-F1 cuentan una afirmación.
+**3–8:** pedir al agente un cálculo primero. Encargo:
 
-Patrón orientativo de cálculo sobre Evidencia A:
+> Crea un cálculo de proporción de afirmaciones factuales comprobadas. Cuenta de forma distinta afirmacion_id cuando naturaleza = HECHO y comprobacion = SI. Divide entre las afirmaciones distintas con naturaleza = HECHO. Si el denominador es cero, conserva NULL. Explica el cálculo.
+
+Revisar los nombres reales de los campos y la fórmula. Referencia determinista del kit: A01 tiene dos afirmaciones factuales distintas y una comprobada, aunque la primera tenga dos fuentes. Resultado 50 %. A03 tiene cero afirmaciones factuales, resultado NULL. No forzar un 0 %.
+
+**8–12:** pedir una vista con titulo de oportunidad, sector y el cálculo. Encargo:
+
+> Muestra las oportunidades por sector y la proporción de afirmaciones comprobadas. Usa oportunidad_id distinto y conserva las oportunidades con evidencia pendiente. No interpretes ese porcentaje como rentabilidad o probabilidad de éxito.
+
+Abrir la fuente de una afirmación. El cálculo lee los estados que registramos: no verifica automáticamente la verdad de los documentos.
+
+**12–16:** en la hoja de Encaje_C, comparar requisitos con capacidades. Encargo:
+
+> Para cada oportunidad muestra los requisito_id distintos y cuáles tienen una persona_id identificada con encaje_revisado = SI. Conserva los requisitos sin candidato. Distingue capacidad potencial de disponibilidad y compromiso.
+
+Referencia A01: tres requisitos, dos con candidato y encaje revisado, cobertura potencial 2/3. No significa equipo comprometido. Mostrar la capacidad y la evidencia correspondiente.
+
+**16–20:** cambiar filtro o pregunta, examinar lo que cambia y guardar ambas hojas. Si mostramos B, mantener propuesta_id, versión y objetivo_prueba. Comparar las recomendaciones de los objetivos 1 y 2 sin contar una nueva versión como otra persona. La abstención conserva su motivo.
+
+## Demo 2 · escenarios · 10 minutos
+
+**0–3:** abrir Escenarios_C. Cálculo revisado:
+
 ```text
-Hechos de la oportunidad =
-{ FIXED [oportunidad_id] : COUNTD(
-  IF [naturaleza] = 'HECHO' THEN [afirmacion_id] END
-) }
-
-Hechos comprobados de la oportunidad =
-{ FIXED [oportunidad_id] : COUNTD(
-  IF [naturaleza] = 'HECHO' AND [comprobacion] = 'SI'
-  THEN [afirmacion_id] END
-) }
-
-Cobertura factual =
-IF [Hechos de la oportunidad] > 0
-THEN [Hechos comprobados de la oportunidad] / [Hechos de la oportunidad]
-END
+Costo mensual = tecnologia_mensual + horas_humanas_mensuales * costo_hora
+Costo del período = costo_inicial + horizonte_meses * Costo mensual
 ```
-Comprobar los nombres de campos de la fuente y el alcance del cálculo. FIXED considera los filtros de contexto; otros filtros de la vista pueden no cambiar su alcance. Si se necesita otro periodo o corte, adaptar y conciliar. El estado de comprobación se revisa por afirmación; no deducirlo sólo del número de fuentes. A03 tiene cobertura nula, sin hechos.
 
-### Lámina 26 · Capacidades y brechas · 5 minutos
-Usar el encargo de la lámina. Seleccionar A01: tiene 3 requisitos distintos, 2 con candidato documentado y encaje SI. Mostrar A01-R3 con persona vacía. Cobertura potencial 66,67%; no significa compromiso. Verificar la referencia del perfil.
+Las cifras del kit son supuestos. Para A01 los tres escenarios a tres meses son USD 2260, 4048 y 5890. Mantener escenario_id y horizonte. Comparar cada registro una sola vez, sin multiplicarlo por sus fuentes o candidatos. Este presupuesto es independiente del ejemplo de costo por propuesta de la lámina 9.
 
-Patrón orientativo sobre Encaje C:
-```text
-Requisitos = { FIXED [oportunidad_id] : COUNTD([requisito_id]) }
-Requisitos con candidato revisado =
-{ FIXED [oportunidad_id] : COUNTD(
-  IF NOT ISNULL([persona_id]) AND LEN(TRIM([persona_id])) > 0
-  AND NOT ISNULL([referencia_capacidad])
-  AND LEN(TRIM([referencia_capacidad])) > 0
-  AND [encaje_revisado] = 'SI'
-  THEN [requisito_id] END
-) }
-```
-Dividir por Requisitos sólo si es mayor que cero. El segundo candidato de A01-R1 no aumenta el conteo. Conservar brechas y confirmar disponibilidad; no sumar horas textuales ni duplicarlas por capacidad.
+**3–6:** pedir una vista de costos por escenario y oportunidad. Revisar campos, agregación y unidades. Encargo:
 
-### Lámina 27 · Objetivo 1 y Objetivo 2 · 5 minutos
-Comparar B01 y B02 del ejemplo por propietario P01. Objetivo 1 recomienda P02; Objetivo 2 se abstiene por falta de evidencia de validación operativa. Mostrar propósito, evidencia, archivo y fecha. Son salidas ficticias, no pruebas del agente real. En todo el conjunto hay 3 recomendaciones y 1 abstención; no hay acuerdos. En datos reales, contar propuesta y versión distintas y explicar qué cambió.
+> Compara el costo del período por escenario para A01. Conserva escenario_id y horizonte_meses. Identifica las entradas como supuestos. No calcules retorno ni ahorro: beneficio_mensual_supuesto no contiene un beneficio cuantificado.
 
-### Lámina 28 · Condiciones del piloto · 5 minutos
-Comparar S01, S02 y S03 en USD a 3 meses. Costo mensual = tecnología_mensual + horas_humanas_mensuales × costo_hora. TCO = costo_inicial + horizonte_meses × costo mensual. Esperado: 2 260, 4 048 y 5 890 USD. Los beneficios no están cuantificados; no calcular ROI. Conservar cada escenario una vez. Estas hipótesis no se mezclan con el ejemplo de 10 000 casos de las láminas 18–21.
+**6–8:** el docente organiza las hojas en un dashboard. Si Tableau Agent en dashboards está habilitado, pedir un resumen y preguntar qué evidencia falta para elegir. Si la función Q&A requiere inglés en el entorno, usar:
 
-### Lámina 29 · Pulse y dashboard · 3 minutos
-Mostrar una definición de «Nuevas oportunidades registradas»: medida, fecha, dimensiones y filtros. Las fechas del kit son ficticias; no atribuirlas al grupo. «Nuevas recomendaciones válidas» requiere criterio de validez y primera aparición del evento. Sin historial real suficiente, explicar la configuración y omitir tendencias o insights que no estén disponibles.
+> Compare the cost scenarios for opportunity A01. These are assumptions, not measured outcomes. What data is missing to assess a financial return?
 
-Si la función de dashboard está habilitada y ensayada, preguntar en inglés: “Which opportunities have factual claims pending verification?” Comprobar respuesta en las vistas y filtros. Si no está disponible, conservar el análisis en authoring y registrar la limitación.
+No pedir al agente que construya el dashboard completo ni simular una ejecución de la función beta si está ausente.
 
-### Lámina 30 · Next y decisión · 3 minutos
-Explicar cómo definiciones semánticas como oportunidad vigente y recomendación válida sustentan preguntas. Next se presenta como arquitectura; el kit no incluye una conexión operativa a n8n. Cerrar con una decisión provisional, capacidad pendiente y supuesto por medir.
+**8–10:** contrastar la explicación con el cálculo y terminar con una decisión provisional: escenario para explorar, responsable, supuesto por medir y condición que haría cambiar la recomendación.
 
-## Ruta cuando no esté habilitada la IA
-Utilizar las vistas y cálculos preparados con BI convencional. Leer los encargos y explicar qué trabajo solicitaríamos a Agent. Identificarlo como recorrido manual y mantener visibles los límites de acceso. Tableau Public ofrece BI web gratuito; su Help Agent es asistencia sobre el producto, no análisis del caso.
+## Ruta si la IA no está disponible
 
-## Comprobaciones para el ensayo docente
-- Reconstruir 3 oportunidades, cobertura A01 50%, cobertura potencial A01 2/3 y 4 salidas históricas.
-- Verificar brecha visible, abstención y ausencia de acuerdos.
-- Conciliar costo una vez por escenario, moneda y horizonte.
-- Revisar fórmulas y filtros antes de aceptar lo que propone Agent.
-- Abrir una referencia original cuando se trabaje con entregas reales; la tabla no acredita revisar todo NotebookLM.
-- Registrar qué función se ejecutó y qué se explicó por falta de cuenta, configuración o historial.
+Mostrar en Tableau la misma fuente, cálculos y vistas preparados manualmente. Identificar ese recorrido como BI y explicación docente. Usar la documentación oficial para explicar qué función de IA falta ensayar. Tableau Public permite la ruta gratuita de visualización, pero no se presenta como acceso gratuito a Tableau Agent para analizar este caso. No obligar al alumno a contratar una cuenta para la clase.
 
-## Fuentes oficiales · consultadas para el diseño del bloque
-[Agent](https://help.tableau.com/current/online/en-us/web_author_einstein_faq.htm) · [Relaciones](https://help.tableau.com/current/pro/desktop/en-us/relate_tables.htm) · [Configuración](https://help.tableau.com/current/online/en-us/setup_tabAI_site_setting.htm) · [Permisos](https://help.tableau.com/current/online/en-us/permissions.htm) · [Pulse](https://help.tableau.com/current/online/en-us/pulse_create_metrics.htm) · [Dashboards](https://help.tableau.com/current/pro/desktop/en-us/dashboard-narratives.htm) · [Idiomas](https://help.tableau.com/current/tableau/en-us/tableau_gai_einstein_trust.htm) · [Next](https://help.salesforce.com/s/articleView?id=analytics.tua_ai.htm&language=en_US&type=5) · [Public](https://help.tableau.com/current/pro/desktop/en-us/public_faq.htm).
+## Referencias
 
-El diseño y el kit están preparados para ensayo. No acreditan un dashboard publicado ni una ejecución real de Tableau Cloud con las entregas del grupo.
+- [Tableau Agent: funciones, prueba y limitaciones](https://help.tableau.com/current/online/en-us/web_author_einstein_faq.htm)
+- [Tableau Agent en dashboards, beta](https://help.tableau.com/current/pro/desktop/en-us/dashboard-narratives.htm)
+- [Tableau Public](https://help.tableau.com/current/pro/desktop/en-us/public_faq.htm)
+- [Relaciones entre tablas](https://help.tableau.com/current/pro/desktop/en-us/relate_tables.htm)
