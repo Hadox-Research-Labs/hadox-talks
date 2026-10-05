@@ -1,6 +1,6 @@
 const $=s=>document.querySelector(s);
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const data=await fetch('course.json?v=20261005-temas').then(r=>{if(!r.ok)throw Error('No se pudo abrir la clase');return r.json()});
+const data=await fetch('course.json?v=20261005-habilidades').then(r=>{if(!r.ok)throw Error('No se pudo abrir la clase');return r.json()});
 const {slides:contentSlides,refs,chapters}=data;
 const middleSlides=contentSlides.flatMap(s=>{
  const chapter=chapters.find(c=>s.number<=c.endSlide)||chapters.at(-1);
@@ -84,3 +84,4 @@ $('#stop').onclick=stop;
 $('#rate').onchange=()=>{narration.playbackRate=Number($('#rate').value);};
 voiceState('Jorge · Narración en español mexicano lista.');
 window.addEventListener('pagehide',stop);render();if(index>0)$('#presentacion').scrollIntoView({block:'start'});
+
