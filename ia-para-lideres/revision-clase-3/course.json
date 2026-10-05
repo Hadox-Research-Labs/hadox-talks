@@ -10,7 +10,9 @@
     "classNumber": 3,
     "duration": 180,
     "author": "Dr. Edgar Valdés",
-    "review": true
+    "review": true,
+    "chapterCount": 6,
+    "presentationCount": 22
   },
   "slides": [
     {
@@ -840,5 +842,61 @@
       "Tableau Agent en dashboards: beta y límites",
       "https://help.tableau.com/current/pro/desktop/en-us/dashboard-narratives.htm"
     ]
-  }
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "beforeSlide": 2,
+      "endSlide": 2,
+      "title": "Analítica aumentada",
+      "question": "¿Qué añade la IA al análisis de una decisión?",
+      "concepts": "Pregunta de negocio · Definición · Comprobación",
+      "speech": "Entramos al primer tema: analítica aumentada. Vamos a seguir una pregunta de negocio para reconocer dónde ayuda la inteligencia artificial y qué debemos comprobar antes de utilizar una respuesta. La pregunta será por qué crecen las ventas mientras cae el margen."
+    },
+    {
+      "chapter": 2,
+      "beforeSlide": 3,
+      "endSlide": 5,
+      "title": "Herramientas e industrias",
+      "question": "¿Qué capacidad necesita nuestro proceso?",
+      "concepts": "Familias de herramientas · Matriz · Aplicaciones por industria",
+      "speech": "Ahora pasamos del análisis a la elección de herramientas. Partiremos de la tarea que necesita la empresa, compararemos capacidades y revisaremos cómo cambia el criterio de aceptación según la industria. Al terminar tendremos candidatas y una prueba concreta para evaluarlas."
+    },
+    {
+      "chapter": 3,
+      "beforeSlide": 6,
+      "endSlide": 9,
+      "title": "Costos y valor",
+      "question": "¿Cuánto cuesta obtener un resultado útil?",
+      "concepts": "Costo completo · Resultado aceptado · Capacidad, margen y caja",
+      "speech": "Ya identificamos aplicaciones y herramientas candidatas. Ahora vamos a evaluar su economía: qué cuesta implementarlas, cuánto trabajo humano necesitan y qué beneficio podrían producir. Compararemos el costo por resultado aceptado y distinguiremos capacidad, margen y caja."
+    },
+    {
+      "chapter": 4,
+      "beforeSlide": 10,
+      "endSlide": 11,
+      "title": "Tableau con IA",
+      "question": "¿Cómo pasamos de una pregunta a una recomendación?",
+      "concepts": "Preparación · Análisis · Seguimiento de métricas",
+      "speech": "Después de la pausa entramos a Tableau con inteligencia artificial. Veremos qué aportan sus funciones en la preparación, el análisis y el seguimiento de indicadores. Luego recorreremos una demostración para comprobar un cálculo, comparar escenarios y delimitar la recomendación que permiten los datos."
+    },
+    {
+      "chapter": 5,
+      "beforeSlide": 12,
+      "endSlide": 14,
+      "title": "Riesgos y evaluación",
+      "question": "¿Qué evidencia necesitamos antes de implementar?",
+      "concepts": "Datos y permisos · Checklist · Piloto",
+      "speech": "El análisis ya nos permite comparar alternativas. Ahora vamos a revisar las condiciones para utilizarlas en una empresa. Estudiaremos riesgos de datos y permisos, pediremos evidencia con un checklist y definiremos cómo medir el trabajo completo de un piloto."
+    },
+    {
+      "chapter": 6,
+      "beforeSlide": 15,
+      "endSlide": 16,
+      "title": "Decisión de implementación",
+      "question": "¿Continuamos, modificamos o detenemos?",
+      "concepts": "Oportunidad · Equipo · Recomendación ejecutiva",
+      "speech": "Llegamos a la decisión de implementación. Recuperaremos la oportunidad y las capacidades de las clases anteriores para unirlas con las herramientas, el costo y las pruebas de hoy. La recomendación deberá explicar qué proponemos, con qué evidencia y qué resultado nos haría cambiar de decisión."
+    }
+  ]
 }

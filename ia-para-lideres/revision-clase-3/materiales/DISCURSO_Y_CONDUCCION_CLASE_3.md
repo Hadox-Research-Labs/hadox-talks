@@ -2,7 +2,7 @@
 
 Dr. Edgar Valdés · PBS · 5 octubre 2026 · 18:00–21:00 Guatemala
 
-Discurso revisado para exposición oral. Conserva las 16 láminas y la agenda. Las transiciones están integradas en el texto que se lee y escucha.
+Discurso revisado para exposición oral. Conserva las 16 láminas ilustradas y añade seis separadores de tema dentro de la misma agenda. Las transiciones están integradas en el texto que se lee y escucha.
 
 ## 1. IA para líderes: analizar, elegir y decidir
 
@@ -26,6 +26,14 @@ Comencemos con una pregunta de negocio: las ventas crecieron, pero el margen cay
 **Pregunta:** ¿Qué análisis necesitas para decidir una inversión o cambiar un proceso?
 
 
+
+## Separador 1. Analítica aumentada
+
+**Pregunta guía:** ¿Qué añade la IA al análisis de una decisión?
+
+Entramos al primer tema: analítica aumentada. Vamos a seguir una pregunta de negocio para reconocer dónde ayuda la inteligencia artificial y qué debemos comprobar antes de utilizar una respuesta. La pregunta será por qué crecen las ventas mientras cae el margen.
+
+**Conducción:** Presentar el cambio de tema antes de la lámina 2, dentro del tiempo de ese bloque.
 
 ## 2. Qué añade la IA al análisis
 
@@ -56,6 +64,14 @@ Ya vimos varias tareas dentro de una sola pregunta. Preparar datos, consultar do
 **Pregunta:** ¿Qué explicación alternativa podría cambiar tu decisión?
 
 **Fuentes:** [Tableau Agent en Prep](https://help.tableau.com/current/prep/en-us/prep_einstein.htm), [Tableau Agent: autoría y limitaciones](https://help.tableau.com/current/online/en-us/web_author_einstein.htm), [Tableau Pulse: plataforma de insights](https://help.tableau.com/current/online/en-us/pulse_insights_platform_insight_types.htm), [IBM: CRISP-DM](https://www.ibm.com/docs/en/spss-modeler/18.6.0?topic=dm-crisp-help-overview)
+
+## Separador 2. Herramientas e industrias
+
+**Pregunta guía:** ¿Qué capacidad necesita nuestro proceso?
+
+Ahora pasamos del análisis a la elección de herramientas. Partiremos de la tarea que necesita la empresa, compararemos capacidades y revisaremos cómo cambia el criterio de aceptación según la industria. Al terminar tendremos candidatas y una prueba concreta para evaluarlas.
+
+**Conducción:** Presentar el cambio de tema antes de la lámina 3, dentro del tiempo de ese bloque.
 
 ## 3. Elegir la familia antes que la marca
 
@@ -151,6 +167,14 @@ Elijan una fila cercana a su trabajo y respondan: ¿qué error tendría una cons
 **Pregunta:** ¿Qué error sería material en tu industria y cómo lo detectarías?
 
 **Fuentes:** [Biblioteca y matriz del curso](https://hadox-research-labs.github.io/hadox-talks/ia-para-lideres/revision-clase-3/biblioteca.html), [Google: forecasting](https://docs.cloud.google.com/vertex-ai/docs/tabular-data/forecasting/overview), [Google: Route Optimization API](https://developers.google.com/maps/documentation/route-optimization/overview), [NIST AI RMF Core](https://airc.nist.gov/airmf-resources/airmf/5-sec-core/)
+
+## Separador 3. Costos y valor
+
+**Pregunta guía:** ¿Cuánto cuesta obtener un resultado útil?
+
+Ya identificamos aplicaciones y herramientas candidatas. Ahora vamos a evaluar su economía: qué cuesta implementarlas, cuánto trabajo humano necesitan y qué beneficio podrían producir. Compararemos el costo por resultado aceptado y distinguiremos capacidad, margen y caja.
+
+**Conducción:** Presentar el cambio de tema antes de la lámina 6, dentro del tiempo de ese bloque.
 
 ## 6. El costo completo de una operación con IA
 
@@ -254,6 +278,14 @@ Hacemos una pausa de diez minutos. Volvemos a las 19:33. Retomaremos la propuest
 
 
 
+## Separador 4. Tableau con IA
+
+**Pregunta guía:** ¿Cómo pasamos de una pregunta a una recomendación?
+
+Después de la pausa entramos a Tableau con inteligencia artificial. Veremos qué aportan sus funciones en la preparación, el análisis y el seguimiento de indicadores. Luego recorreremos una demostración para comprobar un cálculo, comparar escenarios y delimitar la recomendación que permiten los datos.
+
+**Conducción:** Presentar el cambio de tema antes de la lámina 10, dentro del tiempo de ese bloque.
+
 ## 10. Tableau: tres aportes de IA al trabajo
 
 19:33–19:50 · 17 minutos
@@ -327,6 +359,14 @@ Hemos revisado los cálculos. Ahora falta revisar qué información puede consul
 **Pregunta:** ¿Qué conclusión excedería los datos de esta demostración?
 
 **Fuentes:** [Tableau Agent: autoría y limitaciones](https://help.tableau.com/current/online/en-us/web_author_einstein.htm), [Tableau: relaciones entre tablas](https://help.tableau.com/current/pro/desktop/en-us/relate_tables.htm), [Tableau Pulse: plataforma de insights](https://help.tableau.com/current/online/en-us/pulse_insights_platform_insight_types.htm), [FinOps: Unit Economics](https://www.finops.org/framework/capabilities/unit-economics/)
+
+## Separador 5. Riesgos y evaluación
+
+**Pregunta guía:** ¿Qué evidencia necesitamos antes de implementar?
+
+El análisis ya nos permite comparar alternativas. Ahora vamos a revisar las condiciones para utilizarlas en una empresa. Estudiaremos riesgos de datos y permisos, pediremos evidencia con un checklist y definiremos cómo medir el trabajo completo de un piloto.
+
+**Conducción:** Presentar el cambio de tema antes de la lámina 12, dentro del tiempo de ese bloque.
 
 ## 12. Un documento puede contener una orden peligrosa
 
@@ -418,6 +458,14 @@ Ahora tenemos una forma de reunir evidencia para decidir. Vamos a aplicarla a la
 **Pregunta:** ¿Qué conclusión no puedes sostener todavía con esos tiempos?
 
 **Fuentes:** [Generative AI at Work, versión NBER noviembre 2023](https://www.nber.org/papers/w31161), [Dell’Acqua et al., Organization Science, 2026](https://doi.org/10.1287/orsc.2025.21838), [FinOps: Unit Economics](https://www.finops.org/framework/capabilities/unit-economics/)
+
+## Separador 6. Decisión de implementación
+
+**Pregunta guía:** ¿Continuamos, modificamos o detenemos?
+
+Llegamos a la decisión de implementación. Recuperaremos la oportunidad y las capacidades de las clases anteriores para unirlas con las herramientas, el costo y las pruebas de hoy. La recomendación deberá explicar qué proponemos, con qué evidencia y qué resultado nos haría cambiar de decisión.
+
+**Conducción:** Presentar el cambio de tema antes de la lámina 15, dentro del tiempo de ese bloque.
 
 ## 15. La oportunidad y el equipo
 
