@@ -4,360 +4,467 @@ Dr. Edgar Valdés · PBS · 5 octubre 2026 · 18:00–21:00 Guatemala
 
 ## 1. Implementar IA en una empresa
 
-18:00–18:04 · 4 minutos
+18:00–18:03 · 3 minutos
 
 ### Discurso
 
-Hoy vamos a estudiar qué necesita una empresa para convertir una posibilidad de IA en una operación que funcione. En A investigamos oportunidades y preparamos propuestas. En B trabajamos con capacidades del grupo y un agente que recomienda colaboraciones. Recuperaremos los resultados disponibles para comparar herramientas, costos y condiciones de implementación.
+Una empresa puede disponer de una herramienta de IA y seguir sin resolver su problema. Puede recibir respuestas convincentes, producir documentos rápidamente y aun así confirmar pedidos imposibles, interpretar mal un indicador o gastar más en revisar que lo que ahorró al generar.
 
-La ilustración muestra el trabajo que nos espera: documentos que debemos entender, personas que pueden contribuir y un proceso que debemos diseñar y comprobar. La IA participa en varias partes. Cada una exige una prueba distinta.
+Hoy estudiaremos cómo se produce ese resultado y cómo evaluarlo. Empezaremos con una distribuidora que recibe pedidos, prepara mercancía y organiza entregas. Ese proceso nos permitirá distinguir interpretar, predecir, optimizar y ejecutar. Después construiremos indicadores, compararemos aplicaciones por industria y calcularemos el costo de obtener un resultado utilizable.
 
-Terminaremos en Tableau. Vamos a hacer visible cómo cambia una decisión cuando modificamos lo que contamos o un supuesto de costo. Si un ejercicio todavía está en curso, podemos utilizar un resultado parcial o el kit ficticio de ensayo. Lo identificaremos durante el trabajo.
+La última parte será una demostración de Tableau. La herramienta permitirá ver qué ocurre cuando elegimos un denominador equivocado o cambiamos un supuesto. Para llegar a esa demostración necesitamos saber qué estamos midiendo y por qué. Al terminar podremos explicar qué solución merece una prueba, qué debe comprobar esa prueba y bajo qué condiciones conviene continuar.
+
+La ilustración muestra personas, documentos, datos y un proceso. Esos elementos forman parte de la implementación. El modelo participa en ese sistema; la decisión empresarial incluye el sistema completo.
 
 ### Conducción
 
-- Recuperar una oportunidad de A y un resultado disponible de B.
-- Presentar los materiales que se mostrarán, identificando los ficticios.
+- Presentar la pregunta empresarial de la distribuidora.
+- Explicar el recorrido de conceptos, ejemplos, demostración y aplicación.
 
-**Pregunta:** ¿Qué parte de tu propuesta necesitaría funcionar de manera repetida en una empresa?
+**Pregunta:** ¿Qué tendría que ocurrir para considerar resuelto un pedido?
 
-**Fuentes:** [Actividad A vigente](https://campus.panamericanlatam.com/mod/assign/view.php?id=75997), [Actividad B vigente](https://campus.panamericanlatam.com/mod/assign/view.php?id=77506)
 
-## 2. La oportunidad y el equipo
 
-18:04–18:12 · 8 minutos
+## 2. Generar, predecir, optimizar y automatizar
+
+18:03–18:13 · 10 minutos
 
 ### Discurso
 
-En A buscamos una propuesta de colaboración para Juan José Gutiérrez Mayorga y su entorno empresarial. Nexo es nuestra empresa ficticia. Su catálogo y la investigación nos ayudan a formular la oportunidad. La propuesta puede ofrecer un servicio del catálogo, sin consistir en vender IA.
+Leamos el pedido del dibujo: veinte cajas, mañana, antes de las diez. Para cumplirlo hay cuatro trabajos distintos. Interpretar el mensaje identifica producto, cantidad y plazo. Predecir ayuda a estimar demanda futura. Optimizar permite asignar entregas a vehículos respetando restricciones. Automatizar coordina pasos y registra un pedido autorizado.
 
-En B el agente consulta el directorio y relaciona capacidades con un objetivo. Una propuesta de colaboración abre una conversación. Antes de convertirla en recursos para el proyecto debemos comprobar que la capacidad corresponde a un requisito de la oportunidad y que existe disponibilidad.
+La generación produce contenido: texto, imágenes, propuestas de código o una respuesta estructurada. Un modelo puede interpretar lenguaje y proponer campos extraídos. Esa interpretación requiere comprobar si el dato está en la fuente y si conserva su sentido. Una frase como “antes de las diez” no se puede convertir en “durante la mañana” sin cambiar el compromiso.
 
-La parte central del dibujo es el trabajo nuevo de hoy: el encaje. Una persona puede aparecer cerca de otra en la red y aportar poco a esta oportunidad concreta. Otra puede tener la habilidad que falta, aunque nuestro primer objetivo no la haya recomendado. Vamos a revisar un requisito de A contra una evidencia de B.
+La predicción estima una variable o una clase a partir de datos. Puede estimar demanda, probabilidad de abandono o presencia de un defecto. Para evaluar un pronóstico precisamos qué se predice, con qué horizonte y contra qué referencia. Un número plausible escrito por un asistente no acredita un modelo predictivo validado.
 
-Conservaremos la identidad de oportunidad, persona y propuesta. Eso permitirá analizar el vínculo sin confundir autores, capacidades y versiones.
+La optimización busca una solución que mejore un objetivo y cumpla restricciones. En reparto, el objetivo podría ser reducir distancia o costo. Las restricciones incluyen capacidad, horarios y compatibilidad de vehículos. Una ruta corta que incumple el plazo no resuelve el problema. El objetivo y las restricciones deben estar separados.
+
+La automatización ejecuta un proceso. Puede incorporar reglas, un modelo generativo, una predicción o un optimizador. No toda automatización necesita IA. Cuando una condición está definida y se puede comprobar directamente, una regla puede ser suficiente. Introducir un modelo añade una nueva decisión sobre comportamiento y evaluación.
+
+Resolvamos el pedido. El mensaje se convierte en una propuesta de campos. El sistema comprueba catálogo, dirección y existencias. El optimizador examina si hay una entrega factible. La confirmación se emite después de esas comprobaciones. Si el dato de dirección falta, el proceso pide aclaración. Si la ruta no es factible, se ofrece otra condición. La interpretación del mensaje no debe prometer por sí sola una entrega.
+
+Esta separación cambia la compra tecnológica. Podemos necesitar un asistente para documentos y un sistema de pronóstico para inventario. Pueden convivir, pero la buena redacción del primero no demuestra precisión del segundo. La prueba se diseña para cada función.
 
 ### Conducción
 
-- Mostrar una oportunidad disponible y una evidencia de capacidad.
-- Anotar un requisito cubierto y otro pendiente.
+- Explicar las cuatro escenas con el mismo pedido, sin cambiar de caso.
+- Durante dos minutos, pedir al grupo que clasifique redactar una respuesta, estimar demanda, asignar rutas y guardar un pedido.
+- Resolver cada clasificación y señalar qué salida debe comprobarse.
 
-**Pregunta:** ¿Qué requisito puede cubrir esa persona y qué evidencia lo sostiene?
+**Pregunta:** ¿Cuál de las cuatro funciones necesita comprobar factibilidad?
 
-**Fuentes:** [Actividad A vigente](https://campus.panamericanlatam.com/mod/assign/view.php?id=75997), [Actividad B vigente](https://campus.panamericanlatam.com/mod/assign/view.php?id=77506)
+**Fuentes:** [Google: Route Optimization API](https://developers.google.com/maps/documentation/route-optimization/overview), [Google: forecasting](https://docs.cloud.google.com/vertex-ai/docs/tabular-data/forecasting/overview)
 
-## 3. El resultado depende de la tarea
+## 3. El modelo es una parte del sistema
 
-18:12–18:22 · 10 minutos
+18:13–18:20 · 7 minutos
 
 ### Discurso
 
-La escena de la izquierda prepara un borrador. La de la derecha comprueba una conclusión. Parecen partes de un mismo trabajo, pero exigen capacidades y pruebas diferentes.
+Cuando decimos “vamos a implementar IA”, necesitamos saber qué estamos implementando. El dibujo separa seis componentes. El modelo produce una inferencia. La aplicación define la experiencia y cómo se utiliza el resultado. Los datos aportan documentos y registros. La integración permite consultar o modificar otros sistemas. Los permisos determinan las acciones posibles. La operación atiende revisión, excepciones y mantenimiento.
 
-Dell’Acqua y sus colaboradores estudiaron 758 profesionales con asignación aleatoria a condiciones con o sin GPT-4. El artículo publicado en 2026 reporta, en las tareas seleccionadas dentro de su frontera de capacidad, 12,2 por ciento más tareas terminadas y 25,1 por ciento menos tiempo en promedio. En otra tarea, elegida fuera de esa frontera, la asistencia redujo la corrección. Es evidencia del experimento y sus condiciones, no un pronóstico de rendimiento de todas las herramientas actuales.
+Una suscripción puede dar acceso a una aplicación y a modelos. Eso no significa que incluya la integración con inventario, el permiso para confirmar pedidos o un procedimiento para atender errores. Tampoco contratar una API produce por sí solo una aplicación que el equipo pueda utilizar.
 
-En atención al cliente, la versión NBER de noviembre de 2023 de Generative AI at Work reportó una mejora media de 14 por ciento en incidencias resueltas por hora, con efectos diferentes según experiencia. La unidad medida importa: incidencias por hora, tiempo, calidad y ventas son resultados distintos.
+En nuestra distribuidora, la aplicación recibe el pedido. La integración consulta existencias. Los permisos permiten leer inventario y quizá crear un borrador de pedido. La operación define quién revisa una excepción. Si falta un dato, el modelo no debe inventarlo para completar el formato. El sistema debe conservar el estado pendiente y permitir resolverlo.
 
-Para nuestro piloto separaremos tareas. Una redacción convincente puede coexistir con una interpretación equivocada. Necesitamos comprobar qué parte mejora y cuánto esfuerzo consume su revisión.
+Esta arquitectura permite localizar fallos. Si el mensaje se interpreta bien pero el inventario está desactualizado, cambiar el modelo puede no corregir el problema. Si el pedido es válido pero nadie atiende las excepciones, tenemos un problema de operación. Si el asistente puede confirmar entregas sin comprobar factibilidad, debemos examinar integración y autoridad.
+
+También cambia la decisión entre comprar, configurar o desarrollar. Comprar una aplicación reduce ciertas tareas, pero exige comprobar encaje e integración. Configurar puede adaptar un proceso existente. Desarrollar permite mayor control y añade responsabilidades de mantenimiento y evaluación. Compararemos esas alternativas con el mismo alcance y horizonte; tener mayor control no elimina el trabajo que hay que financiar.
+
+Una demostración termina al obtener una salida. La operación debe responder también qué ocurre cuando el proveedor falla, el dato cambia o el resultado no es aceptable. Por eso un diagrama de implementación incluye el recorrido de las excepciones.
 
 ### Conducción
 
-- Mostrar las unidades medidas en los estudios.
-- Separar redacción, comprobación y decisión en una propuesta.
+- Seguir un pedido incompleto por las seis capas.
+- Pedir que localicen el fallo de un inventario desactualizado y resolver por qué no pertenece necesariamente al modelo.
 
-**Pregunta:** ¿Qué parte de tu trabajo medirías por tiempo y cuál por corrección?
+**Pregunta:** ¿Qué componente debe conservar un pedido pendiente de aclaración?
 
-**Fuentes:** [Dell’Acqua et al., Organization Science, 2026](https://doi.org/10.1287/orsc.2025.21838), [Generative AI at Work, versión NBER noviembre 2023](https://www.nber.org/papers/w31161)
+**Fuentes:** [n8n Tools Agent](https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/tools-agent/), [NIST AI RMF Core](https://airc.nist.gov/airmf-resources/airmf/5-sec-core/)
 
-## 4. Herramientas que trabajan juntas
+## 4. Analítica aumentada: de la pregunta a la decisión
 
-18:22–18:34 · 12 minutos
+18:20–18:30 · 10 minutos
 
 ### Discurso
 
-Podemos seguir el trabajo a través de cuatro herramientas. NotebookLM organiza fuentes y permite revisar los pasajes citados. Claude puede ayudar a explorar un archivo o ejecutar código cuando esa función esté disponible. El agente de n8n consulta una herramienta y el flujo guarda una propuesta. Tableau permite construir vistas y cálculos sobre una fuente definida.
+La analítica aumentada incorpora IA para apoyar preparación, consulta, representación o explicación de datos. Puede ayudarnos a escribir un cálculo o proponer una vista. Para aprovecharlo necesitamos transformar una preocupación del negocio en una pregunta que los datos puedan responder.
 
-En nuestro agente hay varias capas: la ficha representa a una persona, leer_directorio devuelve datos, el modelo interpreta el objetivo y el flujo registra el resultado. Si la ficha contiene una habilidad equivocada, el agente puede producir una recomendación coherente con ese error. Debemos poder volver a la fuente.
+“¿Estamos atendiendo mejor?” no define un indicador. Podría referirse al tiempo de primera respuesta, al tiempo de resolución, a satisfacción o a reaperturas. Cada uno mide un fenómeno diferente. Una respuesta rápida puede no resolver la solicitud; un caso cerrado puede reabrirse. La primera decisión analítica consiste en precisar qué entendemos por mejorar.
 
-Un JSON válido comprueba una estructura. La ejecución guardada comprueba una acción. La pertinencia de la colaboración exige examinar evidencia y propósito. Estas comprobaciones responden a preguntas distintas.
+CRISP-DM organiza el trabajo en comprensión del negocio, comprensión de datos, preparación, modelado, evaluación y despliegue. El ciclo permite volver sobre fases anteriores. Lo usamos como una referencia para relacionar el análisis con su propósito. No es un método exclusivo de IA generativa y no exige entrenar un modelo cuando basta un cálculo descriptivo.
 
-La matriz nos ayuda a localizar candidatos y condiciones. Una capacidad documentada por un proveedor identifica lo que podemos probar. Para elegir necesitamos una tarea, una salida aceptable y una comparación con el procedimiento de referencia.
+En comprensión del negocio preguntamos qué decisión cambiará con el resultado. Por ejemplo, si necesitamos ampliar la revisión de respuestas. En comprensión de datos examinamos qué representa cada registro y cómo se captura. En preparación corregimos estructura, identificamos duplicados y documentamos faltantes. En modelado construimos el cálculo o modelo pertinente. En evaluación comprobamos el resultado y su utilidad. En despliegue establecemos quién lo utiliza, cuándo se actualiza y cómo se supervisa.
+
+Supongamos que el equipo afirma que su servicio mejoró porque bajó el tiempo medio. Antes de aceptar esa conclusión examinamos si cambió la mezcla de solicitudes. Si ahora llegan más casos fáciles, el promedio puede bajar aunque el proceso no mejore. Si los casos difíciles quedaron fuera del registro, el indicador omite precisamente parte del problema.
+
+Un gráfico representa los datos que le entregamos. Una explicación generada interpreta esa representación con sus supuestos. Ninguno demuestra automáticamente causalidad. Observar un cambio después de introducir IA no permite atribuirle todo el cambio. Debemos diseñar una comparación y examinar otras causas posibles.
+
+El resultado de esta etapa será una ficha de indicador: pregunta, población, periodo, unidad de observación, numerador, denominador y tratamiento de faltantes. Esa ficha nos permite formular una solicitud específica al asistente y comprobar si el cálculo responde a la pregunta empresarial.
 
 ### Conducción
 
-- Seguir la consulta, evidencia y registro de una ejecución disponible.
-- Si falta la ejecución, identificar la prueba pendiente.
+- Explicar el ciclo con la pregunta de calidad del servicio.
+- Dar tres minutos para definir un indicador de resolución, incluyendo periodo y denominador.
+- Contrastar una definición concreta con “mejor atención” y corregir lo que aún no se puede medir.
 
-**Pregunta:** ¿En qué capa localizarías una recomendación basada en una habilidad incorrecta?
+**Pregunta:** ¿Qué decisión cambiaría al conocer ese indicador?
 
-**Fuentes:** [Google: fuentes y citas](https://support.google.com/gemininotebook/answer/16179559?hl=en), [Claude: funciones y tarifas](https://claude.com/pricing), [n8n Tools Agent](https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/tools-agent/), [Tableau Agent: autoría y limitaciones](https://help.tableau.com/current/online/en-us/web_author_einstein.htm), [Actividad B vigente](https://campus.panamericanlatam.com/mod/assign/view.php?id=77506), [Biblioteca y matriz del curso](https://hadox-research-labs.github.io/hadox-talks/ia-para-lideres/revision-clase-3/biblioteca.html)
+**Fuentes:** [IBM: CRISP-DM](https://www.ibm.com/docs/en/spss-modeler/18.6.0?topic=dm-crisp-help-overview)
 
-## 5. Cada industria necesita una prueba distinta
+## 5. Qué estamos contando
 
-18:34–18:49 · 15 minutos
+18:30–18:40 · 10 minutos
 
 ### Discurso
 
-El dibujo reúne las tres aplicaciones que señala nuestro temario: distribución, atención al cliente y movilidad. En distribución podemos pronosticar demanda por producto y periodo. Para evaluar una predicción reservamos periodos posteriores y la comparamos con una referencia sencilla. Después examinamos la decisión de inventario: faltantes, exceso y margen. Las ventas observadas pueden estar limitadas por existencias.
+Antes de pedir un porcentaje tenemos que decidir qué estamos contando. El ejemplo ficticio tiene dos afirmaciones factuales. La primera está comprobada y tiene dos referencias; la segunda tiene una referencia y permanece pendiente. Si cada fila representa una referencia, hay tres filas. Si cada unidad representa una afirmación, hay dos.
 
-En atención, una respuesta puede utilizar un manual y después pasar a revisión o escalamiento. Podemos medir resolución aceptada, tiempo total, reaperturas y correcciones, separados por tipo de solicitud. El estudio de soporte ofrece un antecedente, pero nuestro piloto debe producir su propia evidencia.
+Contar las referencias asociadas a la afirmación comprobada produce dos de tres: 66,7 por ciento. Contar las afirmaciones comprobadas produce una de dos: 50 por ciento. Las dos divisiones son correctas, pero responden a preguntas diferentes. Si queremos saber qué proporción de afirmaciones factuales está comprobada, corresponde 50 por ciento.
 
-En movilidad, una herramienta de optimización recibe vehículos, paradas y restricciones como capacidad y horarios. Una ruta corta puede ser inviable si incumple una entrega. Google Route Optimization es un ejemplo documentado de ese mecanismo. Lo distinguimos de un asistente generativo que podría interpretar el pedido.
+En datos empresariales esto ocurre constantemente. Un pedido puede tener varias líneas. Un caso puede tener varias interacciones. Una persona puede tener varias versiones de perfil. Al relacionar tablas podemos repetir una unidad y luego contarla como si fueran varias. Por eso definimos la granularidad: qué representa una fila en cada tabla.
 
-La matriz por industria debe recoger esta diferencia. Escribimos la decisión, los datos, la función que necesitamos y la prueba. Luego comprobamos qué parte cubre el producto y qué integración falta.
+También importa qué incluimos en la población. Si mezclamos hechos, hipótesis y recomendaciones en el denominador, dejamos de medir comprobación de hechos. Una hipótesis puede ser legítima y seguir pendiente de prueba. Clasificar su naturaleza evita darle apariencia de verificación a una idea propuesta.
+
+Consideremos un tercer caso con cero afirmaciones factuales. Dividir entre cero no permite calcular esa proporción. Lo conservaremos sin valor, en vez de asignar cero por ciento. Cero por ciento indica que existe una población de hechos y ninguno está comprobado. Ausencia de denominador indica otra situación.
+
+Ahora traslademos el razonamiento a soporte: dos reclamaciones, una resuelta con dos interacciones y otra pendiente con una. Por filas, dos de tres; por reclamaciones, una de dos. El principio es el mismo. Al revisar una vista, debemos poder señalar el identificador de la unidad, el filtro y el denominador.
+
+La IA puede construir rápidamente una fórmula sobre el campo equivocado. La rapidez no elimina este razonamiento. En Tableau revisaremos la fórmula y contrastaremos el resultado con estas unidades conocidas.
 
 ### Conducción
 
-- Abrir una industria adicional en la matriz y comparar su prueba con una de estas escenas.
-- Completar una fila: decisión, datos, candidato e indicador.
+- Resolver a mano referencias y afirmaciones.
+- Durante dos minutos, pedir una explicación del caso con cero hechos.
+- Resolver por qué ausencia de valor no equivale a 0 %.
 
-**Pregunta:** ¿Qué resultado podría mejorar y qué restricción debe cumplir siempre?
+**Pregunta:** ¿Qué identificador debes contar de forma distinta?
+
+**Fuentes:** [Tableau: relaciones entre tablas](https://help.tableau.com/current/pro/desktop/en-us/relate_tables.htm), [Tableau Agent: autoría y limitaciones](https://help.tableau.com/current/online/en-us/web_author_einstein.htm)
+
+## 6. Cada industria necesita una prueba distinta
+
+18:40–19:00 · 20 minutos
+
+### Discurso
+
+La industria cambia la decisión, los datos y la consecuencia de equivocarse. Por eso una matriz de herramientas debe ayudar a identificar candidatos y pruebas. Una marca de capacidad documentada no constituye una nota de rendimiento. El proveedor describe una función; nuestra evaluación debe determinar si sirve para una tarea y unas condiciones concretas.
+
+En distribución, podemos pronosticar demanda por producto y periodo. Para evaluar el pronóstico reservamos periodos posteriores y comparamos con una referencia sencilla, como una predicción basada en periodos equivalentes. Utilizar información del futuro durante la preparación daría una evaluación engañosa. Después examinamos consecuencias: faltantes, exceso de inventario y recursos comprometidos.
+
+El dato requiere interpretación. Si un producto vendió cero durante un faltante, no sabemos que su demanda fuera cero. Las ventas observadas están limitadas por disponibilidad. Un modelo entrenado sin identificar esa situación puede aprender una señal equivocada. También debemos mirar resultados por producto: un promedio favorable puede ocultar fallos en artículos importantes.
+
+En atención al cliente, un asistente puede consultar documentación y preparar una respuesta. El indicador debe incluir resolución revisada, tiempo total, reaperturas y escalamiento por tipo de solicitud. Un texto cortés que omite una condición puede aumentar correcciones. Un antecedente de productividad en otro entorno no sustituye nuestra prueba.
+
+En movilidad, el mecanismo es distinto. Un optimizador recibe paradas, vehículos y restricciones. Una solución se evalúa primero por factibilidad y después por el objetivo que mejora. Cumplir horarios y capacidad puede ser una condición obligatoria. La distancia menor no compensa una entrega imposible.
+
+En manufactura, una clasificación de defectos necesita distinguir falsos aceptados y falsos rechazados. Aceptar una pieza defectuosa y rechazar una correcta tienen costos distintos. La precisión global no expresa por sí sola esa diferencia. La prueba debe incluir defectos y condiciones relevantes de producción.
+
+En servicios profesionales, documentos, investigación y borradores requieren medir omisiones, afirmaciones no sustentadas y tiempo hasta aceptación. En turismo, una respuesta necesita corresponder con disponibilidad y condiciones. En educación, la retroalimentación se evalúa por corrección y utilidad pedagógica. En salud y finanzas, el uso concreto determina qué revisión especializada y restricciones corresponden; una prueba administrativa no acredita otro uso de mayores consecuencias.
+
+Abriremos ahora la biblioteca. Sus diez capacidades separan investigación, documentos, análisis tabular, BI y SQL, modelos predictivos, flujos y agentes, medios, desarrollo, especialización sectorial y evaluación. Esa clasificación permite buscar una función. Las fichas aportan entradas, condiciones, factores de costo y una fuente documental. Debemos leer esos campos juntos.
+
+Construyamos una fila para nuestra distribuidora: decidir reposición; histórico por producto y periodo; predicción; herramienta candidata; prueba temporal contra referencia; restricciones de abastecimiento; responsable de inventario. Construyamos otra para soporte: decidir respuesta o escalamiento; documentación y solicitud; generación con fuentes; prueba de resolución y excepciones; responsable de servicio. La diferencia queda visible sin convertir una lista de productos en una competición universal.
+
+La herramienta puede cubrir sólo una parte del recorrido. Un asistente documental no necesariamente pronostica inventario y un sistema de BI no organiza por sí solo toda la operación. El encaje se demuestra al conectar la función con la decisión y su prueba.
+
+### Conducción
+
+- Dedicar diez minutos a explicar los tres sectores del temario y contrastar manufactura.
+- Abrir la matriz y enseñar una ficha completa: entrada, capacidad, condición, costo y fuente.
+- Durante seis minutos, construir dos filas con el grupo y resolver la pertinencia de las pruebas.
+
+**Pregunta:** ¿Qué error sería más costoso en esa aplicación?
 
 **Fuentes:** [Google: forecasting](https://docs.cloud.google.com/vertex-ai/docs/tabular-data/forecasting/overview), [Google: Route Optimization API](https://developers.google.com/maps/documentation/route-optimization/overview), [Generative AI at Work, versión NBER noviembre 2023](https://www.nber.org/papers/w31161), [Biblioteca y matriz del curso](https://hadox-research-labs.github.io/hadox-talks/ia-para-lideres/revision-clase-3/biblioteca.html)
 
-## 6. Una comparación sobre la misma tarea
+## 7. El costo completo de una operación con IA
 
-18:49–19:01 · 12 minutos
-
-### Discurso
-
-Vamos a comparar dos formas de analizar la misma información. Un asistente general como Claude puede explorar el archivo, ayudar a preparar datos o producir código para una comprobación. Tableau trabaja con una fuente analítica y permite mantener cálculos y vistas que otros pueden volver a consultar. Las funciones y condiciones de acceso deben comprobarse en la cuenta que utilizamos.
-
-La comparación empieza con una pregunta concreta. Por ejemplo: cuántas oportunidades tienen una afirmación factual pendiente y qué capacidades necesitamos para prepararlas. Una explicación libre y una vista calculada pueden aportar cosas diferentes. Vamos a revisar qué datos utilizó cada resultado y qué procedimiento podemos reproducir.
-
-Abriré las filas correspondientes de la matriz y sus fuentes. Nos interesa el trabajo completo: preparación, comprobación, forma de compartir y mantenimiento. También consideraremos el procedimiento actual como alternativa.
-
-Cerraremos la comparación con una prueba de aceptación. La propuesta debe decir qué pregunta resuelve, qué resultado esperamos y cómo verificaremos ese resultado.
-
-### Conducción
-
-- Abrir dos candidatos de la matriz sobre la misma tarea.
-- Identificar función, condiciones de acceso y comprobación.
-
-**Pregunta:** ¿Qué necesitarías conservar para repetir este análisis el próximo mes?
-
-**Fuentes:** [Claude: funciones y tarifas](https://claude.com/pricing), [Tableau Agent: autoría y limitaciones](https://help.tableau.com/current/online/en-us/web_author_einstein.htm), [Biblioteca y matriz del curso](https://hadox-research-labs.github.io/hadox-talks/ia-para-lideres/revision-clase-3/biblioteca.html)
-
-## 7. Una instrucción escondida en los datos
-
-19:01–19:13 · 12 minutos
+19:00–19:10 · 10 minutos
 
 ### Discurso
 
-Vamos a resolver un incidente simulado. La ficha ficticia contiene una capacidad legítima y, en el texto, una orden para copiar todos los perfiles. El agente recibió ese documento como información para su tarea. Debemos distinguir los datos de las instrucciones que intentan cambiar su objetivo.
+Los sistemas sin IA ya tienen costos variables: nube, almacenamiento, transacciones y soporte. Por tanto, no vamos a enseñar que todo sistema tradicional tiene costo fijo. La IA añade o vuelve especialmente relevantes unidades de consumo y tareas de control que necesitamos observar.
 
-Primero observamos las acciones que tiene disponibles. Si su encargo consiste en consultar el directorio y generar una propuesta, una función para exportar todo a otro destino excedería ese alcance. La autorización debe hacerse cumplir también en herramientas y sistemas, además de orientar al modelo.
+El recorrido del dibujo separa inversión inicial, operación, consumo y revisión. La inversión inicial puede incluir integración, preparación de datos, configuración y formación. La operación recurrente puede incluir licencias, mantenimiento y supervisión. El consumo varía con llamadas, contexto, salida y herramientas utilizadas. La revisión y las correcciones también consumen recursos.
 
-OWASP describe agencia excesiva cuando sobran funciones, permisos o autonomía. Un prompt que pide respetar reglas ayuda al comportamiento, pero no acredita que los permisos estén restringidos. Vamos a examinar la configuración y el registro de la prueba.
+En una llamada generativa, la cantidad de contexto y la longitud de salida pueden afectar el cargo. En un agente, una tarea puede recorrer varias llamadas y reintentos. No siempre una solicitud equivale a una inferencia. Una tarifa por unidad técnica sólo describe una parte del costo de terminar el trabajo.
 
-El responsable debe precisar qué ejecución se afectó, qué acciones ocurrieron y qué prueba permitirá continuar. Trabajaremos con material ficticio sin enviar datos a otro destino ni modificar el sistema compartido.
+El presupuesto necesita el proceso completo. Si una persona revisa la respuesta y corrige omisiones, ese tiempo forma parte de obtener el resultado aceptado. Si los fallos se envían a otro equipo, debemos incluir ese tratamiento. Si el sistema exige evaluación periódica y actualización de documentos, debe tener un responsable y recursos.
+
+Para comparar comprar, configurar o desarrollar fijamos el mismo horizonte, volumen y alcance. Una alternativa puede requerir más inversión inicial y menos trabajo recurrente; otra puede empezar rápido y consumir más revisión. También debemos distinguir un costo realmente incremental de un recurso existente que se reasigna. No contamos dos veces consumo incluido en una licencia y la misma unidad como un cargo adicional.
+
+Una expresión de presupuesto útil es costo del periodo igual a inversión inicial más operación durante el horizonte más consumo y trabajo humano del periodo. Cada término necesita su supuesto y origen. Si el uso aumenta, examinamos qué partidas crecen y cuáles cambian por escalones de capacidad.
+
+FinOps relaciona gasto tecnológico con unidades técnicas y resultados de negocio. Podemos observar costo por llamada y por token para localizar consumo. Para decidir sobre la operación necesitamos además saber cuánto cuesta un caso resuelto o una tarea aceptada. El denominador vuelve a ser decisivo.
 
 ### Conducción
 
-- Identificar la orden incrustada y la acción que intenta provocar.
-- Examinar herramientas y permisos sobre el esquema del agente.
-- Resolver contención, responsable y prueba de reanudación.
+- Descomponer un presupuesto en cuatro partidas.
+- Cambiar volumen y reintentos durante dos minutos; identificar qué término cambia.
+- Explicar los costos que quedarían fuera si sólo miramos la suscripción.
 
-**Pregunta:** ¿Qué permiso permitiría que este error se convirtiera en una acción material?
+**Pregunta:** ¿Qué partida aumenta cuando la salida necesita más revisión?
 
-**Fuentes:** [OWASP: agencia excesiva, versión 2025](https://genai.owasp.org/llmrisk/llm062025-excessive-agency/), [n8n Tools Agent](https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/tools-agent/), [Actividad B vigente](https://campus.panamericanlatam.com/mod/assign/view.php?id=77506)
+**Fuentes:** [FinOps: Unit Economics](https://www.finops.org/framework/capabilities/unit-economics/), [FinOps para IA](https://www.finops.org/framework/technology-categories/ai/)
 
-## 8. Cómo gestionamos el riesgo
+## 8. Costo por resultado aceptado
 
-19:13–19:23 · 10 minutos
+19:10–19:18 · 8 minutos
 
 ### Discurso
 
-NIST organiza la gestión del riesgo con cuatro funciones complementarias. GOVERN reúne responsabilidades y decisiones de gobierno. MAP caracteriza tarea, contexto e impactos. MEASURE aporta pruebas y evidencia. MANAGE trata el riesgo y orienta las acciones. El dibujo las conecta porque se revisan durante el ciclo del sistema, no como cuatro autorizaciones consecutivas.
+Dos configuraciones reciben cien solicitudes comparables. X consume diez dólares de tecnología y noventa de revisión. Ochenta resultados cumplen el criterio de aceptación. Y consume veinticinco de tecnología y cuarenta y cinco de revisión. Noventa cumplen. Todas son cifras ficticias para enseñar el cálculo.
 
-Volvamos al incidente. Necesitamos un responsable con autoridad para intervenir, una descripción de los datos y acciones expuestos, el resultado observado y una corrección cuya eficacia podamos volver a comprobar.
+Si miramos sólo tecnología, X parece más económica. Sumemos el trabajo incluido. X cuesta cien dólares; Y, setenta. Dividamos por los resultados aceptados: cien entre ochenta es 1,25. Setenta entre noventa es aproximadamente 0,78. Y tiene mayor gasto tecnológico y menor costo por resultado aceptado en este ejemplo.
 
-El checklist docente traduce esto en preguntas con evidencia. Una respuesta favorable debe tener una configuración, una fuente o una prueba que la sostenga. Una condición crítica pendiente no desaparece porque muchas otras respuestas sean favorables.
+Esta conclusión depende de comparar alcance y criterios. Si X se utilizó en casos más difíciles, no podemos atribuir toda la diferencia a la configuración. Si Y excluyó fallos de sus registros, el denominador y los costos están incompletos. Necesitamos tareas comparables y la misma definición de aceptación.
 
-Estas preguntas son una adaptación para evaluar herramientas en nuestro caso. El marco de NIST no es una certificación del producto ni una checklist que aprobamos por promedio.
+Tampoco significa que las cien solicitudes hayan sido resueltas. Quedan veinte en X y diez en Y pendientes o rechazadas. Sus intentos ya están incluidos en el gasto observado, pero resolverlas puede exigir recursos adicionales. Si el compromiso es atender todas, presupuestamos también esa continuidad.
 
-### Conducción
+El criterio de aceptación debe establecerse antes de medir. Puede incluir exactitud de campos, correspondencia con fuentes, cumplimiento de una restricción y revisión responsable. Un formato válido no acredita todas esas condiciones. Si cambian los requisitos, el porcentaje de aceptación puede cambiar sin que haya cambiado el modelo.
 
-- Completar una condición crítica del checklist con evidencia, responsable y estado.
-- Relacionarla con el incidente.
-
-**Pregunta:** ¿Qué evidencia te permitiría dar por atendida esa condición?
-
-**Fuentes:** [NIST AI RMF Core](https://airc.nist.gov/airmf-resources/airmf/5-sec-core/), [OWASP: agencia excesiva, versión 2025](https://genai.owasp.org/llmrisk/llm062025-excessive-agency/)
-
-## 9. Cuánto cuesta terminar una tarea
-
-19:23–19:37 · 14 minutos
-
-### Discurso
-
-La ejecución consume contexto, llamadas y herramientas. Si necesita reintentos, el consumo puede crecer. Al terminar, una persona revisa si la propuesta corresponde al objetivo y se apoya en evidencia. Para presupuestar necesitamos todo ese recorrido.
-
-La tarifa estándar documentada de Sonnet 5.5, consultada el 3 de octubre, es de dos dólares por millón de tokens de entrada y diez por millón de salida. Usamos una llamada hipotética con cuatro mil de entrada y mil de salida, sin caché ni otras modalidades. La cuenta es ocho milésimas más diez milésimas de dólar: 0,018 dólares de inferencia. Ese tamaño es un supuesto, no un registro de nuestro agente.
-
-Si revisar tarda cuatro minutos y valoramos la hora en 18 dólares, la revisión representa 1,20 dólares de trabajo. La comparación muestra por qué necesitamos observar tiempo humano además de tarifa. Licencias, integración y operación añaden partidas.
-
-FinOps relaciona consumo con resultados útiles. Si diez propuestas cuestan doce dólares en conjunto y seis cumplen el criterio, son dos dólares asignados por propuesta aceptada. Los intentos rechazados también consumieron recursos. Además debemos resolver los casos pendientes.
+La lección es económica y operativa: un precio por llamada menor no determina el costo menor por trabajo útil. La tasa de aceptación, los reintentos, la revisión y los casos pendientes forman parte de la comparación.
 
 ### Conducción
 
-- Comprobar las dos cuentas.
-- Variar llamadas y tiempo de revisión.
-- Definir qué cuenta como propuesta aceptada.
+- Resolver ambos totales y divisiones antes de mostrar la conclusión.
+- Pedir al grupo que identifique los casos pendientes y qué costo falta para atenderlos.
 
-**Pregunta:** ¿Qué parte del costo cambia cuando una propuesta requiere corrección?
-
-**Fuentes:** [Claude: funciones y tarifas](https://claude.com/pricing), [FinOps: Unit Economics](https://www.finops.org/framework/capabilities/unit-economics/), [n8n Tools Agent](https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/tools-agent/)
-
-## 10. Capacidad, margen y caja
-
-19:37–19:50 · 13 minutos
-
-### Discurso
-
-Las tres escenas muestran lecturas que necesitamos distinguir. Capacidad es tiempo disponible. Margen es la contribución de un servicio después de los costos pertinentes. Caja recoge los pagos y cobros que cambian y cuándo ocurren.
-
-Supongamos que una mejora libera diez horas y un servicio adicional requiere dos. Tendríamos capacidad teórica para cinco servicios. En la escena central, un servicio factura mil dólares y tiene cuatrocientos de costo directo: aporta seiscientos de contribución, el sesenta por ciento de su ingreso. Si ese mismo servicio utiliza las dos horas y sus costos incrementales están incluidos, cinco servicios aportarían tres mil dólares de contribución potencial. Para realizarlos necesitamos demanda y los otros recursos. Tener tiempo no acredita ventas.
-
-Si la nómina permanece igual, esas horas no reducen automáticamente un pago. El proyecto puede añadir tecnología y aumentar desembolsos mientras libera capacidad. El calendario de cobro también importa: un servicio rentable puede necesitar recursos antes de que el cliente pague.
-
-Debemos evitar contar dos veces el beneficio de las mismas horas. Si las usamos para generar contribución, no sumaremos sin justificación su valoración completa como otro ahorro independiente. La decisión requiere un escenario coherente con la operación y sus recursos.
-
-### Conducción
-
-- Asignar cada beneficio supuesto a capacidad, contribución o caja.
-- Examinar un supuesto de demanda y uno de plazo de cobro.
-
-**Pregunta:** ¿Qué tendría que ocurrir para que esas horas disponibles produjeran un cobro?
+**Pregunta:** ¿Qué conclusión cambiaría si las solicitudes no fueran comparables?
 
 **Fuentes:** [FinOps: Unit Economics](https://www.finops.org/framework/capabilities/unit-economics/)
 
-## 11. Descanso
+## 9. Capacidad, margen y caja
 
-19:50–20:00 · 10 minutos
+19:18–19:25 · 7 minutos
 
 ### Discurso
 
-Volvemos a las veinte horas. Al regresar usaremos Tableau para comprobar qué contamos y comparar escenarios.
+El dibujo distingue tres fenómenos. Capacidad es disponibilidad de recursos para trabajar. Contribución es ingreso menos costos pertinentes de un servicio. Caja incorpora desembolsos y cobros, y cuándo ocurren. Una mejora puede afectar uno sin producir automáticamente los otros.
+
+La escena central muestra un servicio con mil dólares de ingreso y cuatrocientos de costo directo. Su contribución es seiscientos: el sesenta por ciento del ingreso. Antes de atribuir esa contribución a IA debemos establecer qué ingreso y costos son incrementales y qué parte procede de la mejora.
+
+Supongamos que una operación libera veinte horas. Si la nómina y los pagos permanecen iguales, no aparece automáticamente un ahorro de caja. Esa capacidad podría atender más demanda, disminuir espera o permitir otro trabajo. Para valorar ingresos adicionales necesitamos demanda y los demás recursos; las horas por sí solas no acreditan ventas.
+
+Otro ejemplo: mil dólares iniciales, trescientos mensuales de costo incremental y quinientos mensuales de contribución incremental antes de esos trescientos. El saldo mensual del proyecto sería doscientos. La recuperación simple del desembolso inicial sería cinco meses, si la contribución se realiza y los cobros y pagos siguen ese supuesto. Es una cuenta docente simplificada, no un resultado observado ni una valoración descontada.
+
+Si el cliente paga más tarde, la caja puede necesitar financiación aunque el servicio aporte contribución. Si la demanda no aparece, el beneficio supuesto queda pendiente y los desembolsos pueden continuar. Al comparar escenarios separamos capacidad disponible, contribución realizable y calendario de caja.
+
+También evitamos doble conteo. Si las mismas horas se utilizan para producir servicios adicionales, no sumamos su valoración completa como un ahorro independiente sin justificar que ambas consecuencias puedan ocurrir. La decisión exige un escenario coherente.
+
+### Conducción
+
+- Resolver el ingreso, costo y contribución de la imagen.
+- Explicar qué falta para convertir horas disponibles en cobros.
+
+**Pregunta:** ¿Qué beneficio permanece como capacidad si la demanda no aumenta?
+
+**Fuentes:** [FinOps: Unit Economics](https://www.finops.org/framework/capabilities/unit-economics/)
+
+## 10. Descanso
+
+19:25–19:35 · 10 minutos
+
+### Discurso
+
+Volvemos a las diecinueve treinta y cinco. Después del descanso examinaremos permisos, evaluación ejecutiva y evidencia de un piloto.
 
 ### Conducción
 
 - Pausa de diez minutos.
 
-**Pregunta:** ¿Qué número necesitas comprobar en tu propuesta?
+**Pregunta:** ¿Qué indicador necesitas definir antes de una prueba?
 
 
 
-## 12. Qué estamos contando
+## 11. Un documento puede contener una orden peligrosa
 
-20:00–20:14 · 14 minutos
-
-### Discurso
-
-El ejemplo ficticio tiene dos afirmaciones factuales. Una está comprobada y tiene dos referencias. La otra tiene una referencia y sigue pendiente. Si contamos referencias, observamos dos de tres asociadas a la afirmación comprobada: 66,7 por ciento. Si contamos afirmaciones distintas, observamos una de dos: 50 por ciento.
-
-Son unidades diferentes. Si nuestro indicador se llama proporción de afirmaciones comprobadas, su denominador son afirmaciones. Tener más referencias para una de ellas no cambia cuántas afirmaciones diferentes hemos comprobado.
-
-Este problema reaparece cuando relacionamos oportunidades, fuentes, personas y escenarios. Cada oportunidad puede tener varias fuentes y candidatos. Una unión que repite filas puede multiplicar costos. Debemos conservar IDs y el significado de cada registro antes de agregar.
-
-El cálculo lee estados que hemos registrado. No verifica por sí mismo la verdad de las fuentes ni mide rentabilidad. Si una oportunidad carece de afirmaciones factuales, su proporción queda sin denominador y conservamos NULL. Un cero transmitiría otra cosa.
-
-### Conducción
-
-- Contar físicamente las dos afirmaciones y sus tres referencias.
-- Comprobar el resultado en los CSV ficticios y luego en una vista preparada.
-
-**Pregunta:** ¿Qué unidad responde a la pregunta que estamos haciendo?
-
-**Fuentes:** [Tableau: relaciones entre tablas](https://help.tableau.com/current/pro/desktop/en-us/relate_tables.htm), [Tableau Agent: autoría y limitaciones](https://help.tableau.com/current/online/en-us/web_author_einstein.htm)
-
-## 13. Tableau y los resultados de A y B
-
-20:14–20:34 · 20 minutos
+19:35–19:45 · 10 minutos
 
 ### Discurso
 
-Abriremos la fuente preparada con oportunidades y evidencia de A, capacidades y recomendaciones de B, y los requisitos que evaluamos durante C. La relación entre ellos conserva oportunidad_id, persona_id y requisito_id. El docente prepara y comprueba esas relaciones antes del demo.
+El asistente recibió un contrato ficticio para resumirlo. Dentro del texto aparece una orden para copiar todos los documentos a otro destino. Esa orden es parte del material recibido; no debería adquirir la autoridad de una instrucción del usuario ni conceder nuevos permisos.
 
-Primero pedimos al Agent un cálculo de afirmaciones factuales comprobadas sobre afirmaciones factuales distintas. Especificamos los campos y conservamos NULL cuando no exista denominador. Revisamos la fórmula antes de utilizarla. Después pedimos la vista para A01 y comprobamos el 50 por ciento del kit ficticio.
+Este incidente permite distinguir comportamiento del modelo y control del sistema. Pedir al modelo que trate el documento como datos orienta su interpretación. Limitar las herramientas y credenciales determina qué acciones puede ejecutar. Si el asistente sólo necesita leer y resumir, una función para exportar todos los documentos excede ese alcance.
 
-En otra hoja miraremos los requisitos. A01 tiene tres y dos cuentan con un candidato cuyo encaje está revisado. La cobertura potencial es dos tercios. Dos candidatos para el mismo requisito no crean dos requisitos cubiertos. El requisito pendiente debe seguir visible, y disponibilidad y compromiso se confirman aparte.
+OWASP describe agencia excesiva mediante exceso de funciones, permisos o autonomía. Una función innecesaria aumenta las acciones posibles. Un permiso amplio aumenta lo que esa función puede afectar. La autonomía determina qué se puede ejecutar sin intervención. Las tres dimensiones deben corresponder al encargo.
 
-Tableau Agent ayuda en vistas y cálculos de una fuente seleccionada. Su documentación indica que no crea joins ni relaciones y necesita solicitudes analíticas específicas. La función de dashboards tiene condiciones propias y figura como beta. Trabajaremos sólo con las funciones que hayamos podido ensayar en la cuenta.
+En la simulación, la barrera de permisos impide el envío. Eso no significa que todo intento de instrucción incrustada se detecte automáticamente o que cualquier herramienta tenga configurada esa barrera. La prueba debe examinar la configuración real y el registro. Una intención escrita en un prompt no acredita un control efectivo.
+
+Si el incidente ocurre en operación, el responsable necesita identificar qué ejecución fue afectada y qué acciones ocurrieron. Puede ser necesario detener la ejecución, limitar accesos, conservar registros y evaluar el impacto. La reanudación requiere una corrección y una prueba; no basta con que el siguiente ejemplo salga bien.
+
+Resolvamos el caso del dibujo. La tarea legítima es resumir el contrato. La orden incrustada intenta ampliar el alcance. El permiso de envío debe estar fuera de la autorización de ese asistente. El registro permite comprobar si hubo un intento y qué ocurrió. El responsable de la operación decide cuándo puede continuar con el uso autorizado.
+
+Trabajamos sobre una simulación ficticia, sin ejecutar envíos ni intervenir en los sistemas compartidos. El conocimiento transferible es relacionar tarea, función, permiso y consecuencia.
 
 ### Conducción
 
-- Ejecutar el cálculo y la vista del guion de Tableau.
-- Comprobar fórmula, filtros y denominador.
-- Examinar requisito pendiente y evidencia de capacidad.
+- Dar dos minutos para identificar tarea legítima, orden incrustada y permiso excesivo.
+- Resolver contención, evidencia y condición de reanudación.
 
-**Pregunta:** ¿Qué oportunidad tiene una brecha que cambia el siguiente paso?
+**Pregunta:** ¿Qué permiso convierte una respuesta equivocada en una acción material?
 
-**Fuentes:** [Tableau Agent: autoría y limitaciones](https://help.tableau.com/current/online/en-us/web_author_einstein.htm), [Tableau Agent: funciones y prueba](https://help.tableau.com/current/online/en-us/web_author_einstein_faq.htm), [Tableau: relaciones entre tablas](https://help.tableau.com/current/pro/desktop/en-us/relate_tables.htm), [Actividad A vigente](https://campus.panamericanlatam.com/mod/assign/view.php?id=75997), [Actividad B vigente](https://campus.panamericanlatam.com/mod/assign/view.php?id=77506)
+**Fuentes:** [OWASP: agencia excesiva, versión 2025](https://genai.owasp.org/llmrisk/llm062025-excessive-agency/), [NIST AI RMF Core](https://airc.nist.gov/airmf-resources/airmf/5-sec-core/)
 
-## 14. Tres alternativas de implementación
+## 12. Cómo gestionamos el riesgo
 
-20:34–20:44 · 10 minutos
+19:45–19:55 · 10 minutos
 
 ### Discurso
 
-El kit ficticio incluye tres alternativas para A01 a tres meses. Software existente: mil dólares iniciales, ciento cincuenta de tecnología mensual y quince horas humanas mensuales a dieciocho dólares. El costo del periodo es 2.260 dólares.
+NIST AI RMF organiza la gestión del riesgo mediante cuatro funciones complementarias. GOVERN establece responsabilidades y decisiones de gobierno. MAP caracteriza contexto, uso e impactos. MEASURE obtiene evidencia mediante medición y evaluación. MANAGE orienta el tratamiento del riesgo. El dibujo las conecta porque el trabajo continúa durante el ciclo del sistema; no son cuatro sellos que certifican al proveedor.
 
-La solución especializada supone 2.500 iniciales, trescientos mensuales y doce horas a dieciocho dólares. El total es 4.048. La integración propia supone cuatro mil iniciales, cuatrocientos cincuenta mensuales y diez horas, para un total de 5.890.
+En el incidente del contrato, GOVERN permite saber quién autoriza el uso y quién puede detenerlo. MAP describe documentos, destinatarios y acciones expuestas. MEASURE incluye las pruebas de permisos y el examen de registros. MANAGE aplica la corrección y establece las condiciones para continuar. La prueba puede revelar que debemos cambiar el alcance o la responsabilidad.
 
-Son supuestos de costos, no cotizaciones ni resultados del grupo. El campo de beneficio está vacío. Podemos comparar cuánto cuesta cada escenario bajo estas condiciones, pero necesitamos evaluar resultado y capacidad para decidir cuál conviene. No podemos calcular retorno con un beneficio desconocido.
+La evaluación ejecutiva convierte esas preguntas en evidencia. Para los datos necesitamos flujo, configuración y condiciones de tratamiento. Para las acciones, herramientas y permisos efectivos. Para los fallos, casos de prueba y resultados. Para continuidad, responsable y procedimiento. Para costos, medición y límites. Para salida, exportación y recuperación comprobadas.
 
-Pediremos una vista por escenario_id y conservaremos el horizonte. Contrastaremos cada valor con la cuenta y luego cambiaremos un supuesto. El costo de preparar y mantener la integración debe permanecer en la comparación.
+Una respuesta “sí, tiene seguridad” no resuelve estas preguntas. Preguntamos qué protección se configuró para ese uso y qué prueba la demuestra. Una descripción comercial puede ayudarnos a iniciar la búsqueda, pero no muestra que nuestro entorno tenga activado el control.
+
+El checklist del curso es una adaptación docente apoyada en esas funciones y en el análisis de incidentes. Registra condición, evidencia, responsable y estado. No lo utilizamos como una certificación de NIST ni como una media de respuestas favorables. Si una condición crítica del uso sigue pendiente, muchas condiciones menos importantes atendidas no la compensan.
+
+Consideremos una aplicación que responde con documentos internos. Podemos tener una interfaz excelente y un costo favorable, pero si no sabemos quién puede consultar la información, la decisión sigue necesitando esa comprobación. Podemos limitar el piloto a documentos autorizados mientras resolvemos el acceso más amplio. El alcance del piloto y el alcance del despliegue deben estar explícitos.
+
+Abramos una condición del checklist y resolvamos cómo se acreditaría. “Permisos adecuados” se convierte en lista de acciones autorizadas, configuración observada, prueba de acción permitida y prueba de acción no permitida, con responsable. Esa transformación produce información para decidir.
 
 ### Conducción
 
-- Mostrar la vista preparada y comprobar los tres valores.
-- Cambiar un supuesto en una copia de ensayo.
+- Enseñar las cuatro funciones con el incidente ya resuelto.
+- Durante tres minutos, completar una condición del checklist con evidencia y responsable.
+- Resolver por qué no basta una respuesta favorable sin prueba.
 
-**Pregunta:** ¿Qué dato material falta para elegir entre estas alternativas?
+**Pregunta:** ¿Qué evidencia acreditaría el permiso que afirmas tener?
 
-**Fuentes:** [Tableau Agent: autoría y limitaciones](https://help.tableau.com/current/online/en-us/web_author_einstein.htm), [FinOps: Unit Economics](https://www.finops.org/framework/capabilities/unit-economics/)
+**Fuentes:** [NIST AI RMF Core](https://airc.nist.gov/airmf-resources/airmf/5-sec-core/), [OWASP: agencia excesiva, versión 2025](https://genai.owasp.org/llmrisk/llm062025-excessive-agency/), [Biblioteca y matriz del curso](https://hadox-research-labs.github.io/hadox-talks/ia-para-lideres/revision-clase-3/biblioteca.html)
 
-## 15. El comité compara una propuesta
+## 13. Medir el trabajo completo del piloto
 
-20:44–20:56 · 12 minutos
+19:55–20:10 · 15 minutos
 
 ### Discurso
 
-Cada uno volverá a una oportunidad de A y a una capacidad pertinente de B. Durante la conversación pueden recibir objeciones y ayuda. La recomendación final es individual.
+Un piloto necesita producir información sobre una decisión. Antes de empezar delimitamos tarea, población, referencia, duración, indicadores y condiciones para continuar, modificar o detener. Un criterio de corte debe justificarse para ese uso; no existe un porcentaje universal que convierta cualquier piloto en éxito.
 
-Elijan alternativas que atiendan el mismo resultado. Incorporen un cálculo comprobado y una condición de riesgo con evidencia, responsable y control. Identifiquen la oportunidad sectorial y qué necesitan para ejecutar el piloto. Si un dato material sigue pendiente, escriban cómo lo obtendrán y qué decisión depende de él.
+La referencia describe el procedimiento actual. La comparación utiliza casos equivalentes y observa el trabajo completo. En el ejemplo ficticio, redactar manualmente tarda doce minutos y revisar, dos: catorce en total. Con IA, generar tarda cuatro y revisar, nueve: trece en total.
 
-C evalúa cálculos, límites y riesgos, oportunidad sectorial y condiciones de ejecución, cinco puntos por criterio. El memo de hasta dos páginas integra A, B y C. Evalúa decisión y alternativa, integración crítica de evidencia, coherencia entre valor y recursos, y defensa con condiciones de revisión.
+Si comparamos sólo cuatro con doce, anunciamos ocho minutos de reducción. Si comparamos el recorrido completo, la diferencia es un minuto. Eso equivale aproximadamente a 7,1 por ciento del tiempo original. Todavía debemos comprobar calidad, costo y casos pendientes. El ejemplo no afirma que la IA siempre aumente revisión; muestra por qué hay que medirla.
 
-Ahora escucharemos una recomendación y la condición que puede cambiarla. Así podremos comprobar si la evidencia sostiene la decisión o si todavía necesitamos una prueba.
+La calidad puede cambiar la interpretación de ese minuto. Si los resultados asistidos cumplen mejor el criterio, existe otra dimensión favorable que necesitamos documentar. Si omiten condiciones, el tiempo menor puede no ser útil. Una media tampoco revela si las excepciones empeoraron; separamos tipos de tarea y conservamos ejemplos de fallos.
+
+La población debe representar el trabajo que esperamos atender. Probar únicamente los casos más fáciles limita la conclusión. Una muestra pequeña produce información preliminar y puede justificar ampliar la prueba, pero no permite afirmar desempeño estable en toda la operación.
+
+Si queremos atribuir un efecto a la asistencia, diseñamos la comparación para reducir otras explicaciones. La mezcla de casos, experiencia de las personas, volumen y cambios del proceso pueden influir. Una comparación aleatoria puede ser útil cuando sea viable. Un antes y después necesita examinar esos cambios y explicitar sus limitaciones.
+
+También registramos adopción. Si una herramienta tiene buenos resultados cuando se utiliza, pero el equipo casi no la usa, la operación puede no producir el beneficio esperado. Investigar causas de uso y abandono forma parte de la implementación. La aceptación debe medirse con el criterio definido, no sólo con que alguien haya pulsado un botón.
+
+Para decidir, escribimos tres salidas posibles. Continuar con alcance delimitado cuando la evidencia sostenga calidad, costo y control; corregir cuando exista un fallo identificado que se pueda probar de nuevo; detener o cambiar de alternativa cuando las condiciones no se sostengan. Cada salida lleva responsable y evidencia pendiente.
+
+Resolvamos la comparación del dibujo. Sabemos el tiempo observado de dos recorridos hipotéticos. No sabemos todavía el resultado de calidad ni la representatividad. La recomendación razonable es medir esas dimensiones antes de prometer un ahorro amplio. La pregunta de Dirección debe ser qué aprendió el piloto y qué decisión permite sostener.
 
 ### Conducción
 
-- Trabajo con compañeros y recomendación individual.
-- Revisar un cálculo y una condición de ejecución.
+- Resolver ambos tiempos completos y la diferencia.
+- Durante cinco minutos, completar una ficha de piloto con referencia, resultado aceptable y condición de revisión.
+- Resolver una recomendación acotada sin extrapolar la muestra.
 
-**Pregunta:** ¿Qué supuesto podría cambiar tu decisión?
+**Pregunta:** ¿Qué conclusión no puedes sostener todavía con esos tiempos?
 
-**Fuentes:** [Actividad A vigente](https://campus.panamericanlatam.com/mod/assign/view.php?id=75997), [Actividad B vigente](https://campus.panamericanlatam.com/mod/assign/view.php?id=77506), [FinOps: Unit Economics](https://www.finops.org/framework/capabilities/unit-economics/), [NIST AI RMF Core](https://airc.nist.gov/airmf-resources/airmf/5-sec-core/)
+**Fuentes:** [Generative AI at Work, versión NBER noviembre 2023](https://www.nber.org/papers/w31161), [Dell’Acqua et al., Organization Science, 2026](https://doi.org/10.1287/orsc.2025.21838), [FinOps: Unit Economics](https://www.finops.org/framework/capabilities/unit-economics/)
 
-## 16. Un piloto que permite decidir
+## 14. Una comparación sobre la misma tarea
 
-20:56–21:00 · 4 minutos
+20:10–20:20 · 10 minutos
 
 ### Discurso
 
-Un piloto compara el trabajo con una referencia y observa resultados bajo condiciones definidas. Debe dejar evidencia de calidad, esfuerzo, costos y fallos. A partir de ella podemos continuar, cambiar el diseño o detener esa aplicación.
+Un asistente general y una herramienta de BI pueden ayudar a analizar información, pero ocupan lugares distintos en el trabajo. Un asistente como Claude puede explorar un archivo, ayudar a preparar datos y producir código cuando esas funciones estén disponibles. En Tableau organizamos una fuente analítica, cálculos y vistas que podemos conservar y volver a consultar.
 
-Hoy relacionamos una investigación con capacidades del grupo, distinguimos funciones de herramientas y revisamos cómo una prueba cambia según la tarea. Examinamos un incidente, contamos el costo de obtener un resultado aceptable y usamos Tableau para comprobar datos y escenarios.
+Para una exploración inicial puede ser útil preguntar por registros faltantes o pedir una comprobación. Para un indicador que debe repetirse cada mes necesitamos preservar la definición, la fuente, los filtros y el procedimiento. La elección depende del resultado y de quién tendrá que utilizarlo de forma recurrente.
 
-La recomendación debe permitir actuar: qué alcance probaremos, quién responde y qué resultado nos haría cambiar la decisión. Una prueba pequeña, bien definida y registrada permite aprender sin atribuirle resultados que todavía no hemos observado.
+En Tableau, una dimensión organiza categorías, como sector o escenario. Una medida representa cantidades, como costo u horas. La agregación determina cómo se combinan registros. Un costo por escenario puede repetirse si lo relacionamos indebidamente con varias fuentes o personas. No debemos sumarlo repetidas veces como si fueran nuevos costos.
+
+Un campo calculado implementa una definición. La visualización muestra el resultado de esa definición bajo filtros y niveles de detalle. Por eso comprobar una vista requiere leer también el cálculo y el modelo de datos. Una barra bien dibujada puede representar una suma equivocada.
+
+Tableau Agent puede ayudar a generar cálculos y visualizaciones sobre una fuente seleccionada. La documentación de autoría delimita sus funciones y señala que no elige ni construye joins o relaciones por nosotros. La experiencia de dashboards tiene condiciones propias y figura como beta. No debemos presentar esas funciones como intercambiables.
+
+El acceso depende de entorno y funciones habilitadas. Una prueba compatible de Agent y Tableau Public no son el mismo servicio. Antes del demo necesitamos una cuenta con la función preparada. Si se utiliza la ruta de BI sin IA, la identificamos como tal, sin simular que el agente ejecutó la tarea.
+
+La comparación se resuelve preguntando qué procedimiento conservará el análisis. El asistente puede acelerar una parte. Tableau puede organizar el cálculo y la consulta. El responsable debe comprobar que ambos utilicen las mismas unidades y permitan revisar el resultado.
 
 ### Conducción
 
-- Escuchar una decisión y su condición de revisión.
-- Cerrar a las 21:00.
+- Explicar dimensión, medida, agregación y cálculo con escenario y costo.
+- Comparar exploración inicial y análisis recurrente sobre la misma tarea.
 
-**Pregunta:** ¿Qué probarías primero y con qué criterio decidirías continuar?
+**Pregunta:** ¿Qué debes conservar para repetir el indicador el próximo mes?
 
-**Fuentes:** [NIST AI RMF Core](https://airc.nist.gov/airmf-resources/airmf/5-sec-core/), [FinOps: Unit Economics](https://www.finops.org/framework/capabilities/unit-economics/)
+**Fuentes:** [Claude: funciones y tarifas](https://claude.com/pricing), [Tableau Agent: autoría y limitaciones](https://help.tableau.com/current/online/en-us/web_author_einstein.htm), [Tableau Agent: funciones y prueba](https://help.tableau.com/current/online/en-us/web_author_einstein_faq.htm), [Tableau: relaciones entre tablas](https://help.tableau.com/current/pro/desktop/en-us/relate_tables.htm)
+
+## 15. Tableau: calcular, visualizar y comprobar
+
+20:20–20:40 · 20 minutos
+
+### Discurso
+
+Vamos a recorrer tres pasos: definir un cálculo, construir una vista y comprobar la interpretación. Utilizaremos datos ficticios preparados. En la aplicación posterior podremos sustituirlos por investigación y capacidades documentadas de las clases anteriores, con acceso apropiado. El ejemplo no representa resultados de los participantes.
+
+Primero observemos la tabla de afirmaciones y fuentes. Una afirmación puede tener varias referencias. Identificamos afirmacion_id para contar afirmaciones distintas y distinguimos hechos de hipótesis. El caso A01 del kit tiene dos afirmaciones factuales distintas; una está comprobada. El resultado esperado es 50 por ciento. El caso A03 no tiene afirmaciones factuales; conservamos ausencia de valor.
+
+Pedimos al Agent un cálculo que cuente afirmaciones factuales distintas comprobadas y las divida por afirmaciones factuales distintas. Especificamos los valores HECHO y SI y la condición de denominador cero. Antes de construir la vista leemos la fórmula. Comprobamos que el identificador y las condiciones respondan a la definición que acabamos de enseñar.
+
+Después pedimos una vista por oportunidad y sector. Volvemos a la tabla para contrastar un resultado conocido. Cambiar filtro o nivel de detalle puede cambiar la población; si cambia el porcentaje debemos poder explicar por qué. El estado de comprobación es un dato registrado: Tableau no verifica por sí solo la verdad de los documentos.
+
+Ahora examinamos escenarios. El costo mensual es tecnología mensual más horas humanas mensuales por costo de la hora. El costo del periodo es costo inicial más horizonte en meses por costo mensual. Conservamos escenario_id y sumamos cada escenario una sola vez.
+
+En el caso ficticio hay tres alternativas a tres meses. La primera: mil iniciales más tres veces ciento cincuenta de tecnología y quince horas a dieciocho dólares; total 2.260. La segunda: 2.500 iniciales más tres veces trescientos y doce horas a dieciocho; total 4.048. La tercera: cuatro mil iniciales más tres veces cuatrocientos cincuenta y diez horas a dieciocho; total 5.890.
+
+Esos importes son supuestos docentes de alternativas, no precios cotizados de proveedores. Una vista puede compararlos, pero todavía no tenemos un beneficio cuantificado para calcular retorno. La alternativa más barata no queda automáticamente elegida: necesitamos saber qué alcance, calidad y control entrega cada una.
+
+Terminamos modificando un supuesto y explicando la decisión. Si aumenta la revisión, aumenta el término de trabajo humano. Si cambia el horizonte, cambia la acumulación recurrente. Si no existe evidencia de beneficio, conservamos esa ausencia. Una buena explicación distingue dato observado, entrada supuesta y conclusión pendiente.
+
+La IA ayuda a producir el cálculo y la vista. El aprendizaje que acabamos de aplicar es formular la pregunta, conservar las unidades, comprobar el resultado y limitar la conclusión a lo que los datos sostienen.
+
+### Conducción
+
+- Usar GUIA_DEMOS_TABLEAU: seis minutos para indicador, cuatro para vista y comprobación, siete para escenarios y tres para interpretar.
+- Leer la fórmula y contrastarla con el cálculo manual.
+- Si Agent no está disponible, mostrar la ruta BI preparada e identificar la función de IA pendiente de ensayo.
+
+**Pregunta:** ¿Qué dato falta para calcular un retorno financiero?
+
+**Fuentes:** [Tableau Agent: autoría y limitaciones](https://help.tableau.com/current/online/en-us/web_author_einstein.htm), [Tableau Agent: funciones y prueba](https://help.tableau.com/current/online/en-us/web_author_einstein_faq.htm), [Tableau: relaciones entre tablas](https://help.tableau.com/current/pro/desktop/en-us/relate_tables.htm)
+
+## 16. El comité compara una propuesta
+
+20:40–21:00 · 20 minutos
+
+### Discurso
+
+Ahora recuperaremos los trabajos anteriores para aplicar estos conceptos. La primera clase produjo investigación y una propuesta comercial. La segunda documentó capacidades y recomendaciones de colaboración. La investigación ayuda a caracterizar una oportunidad; las capacidades permiten examinar quién podría contribuir. El vínculo exige contrastar requisitos, evidencia y disponibilidad.
+
+Una persona recomendada por un agente no constituye automáticamente un equipo comprometido. La capacidad documentada puede cubrir un requisito y aun así necesitar confirmar disponibilidad. También puede faltar una capacidad que el proyecto requiere. Conservamos oportunidad_id, persona_id y requisito_id para examinar ese vínculo.
+
+La propuesta empresarial no tiene que consistir en vender IA. Puede ofrecer un servicio cuyo trabajo interno se beneficia de asistencia, analítica o automatización. La elección de herramienta responde al proceso que hemos identificado. No convertimos el catálogo de servicios en una promesa tecnológica sin evidencia.
+
+En la mesa compararemos tres alternativas sobre el mismo problema: aprovechar una solución existente, configurar una herramienta especializada o desarrollar una solución propia. La referencia puede ser conservar el procedimiento actual si todavía no hay evidencia suficiente para cambiar. Cada alternativa necesita alcance, datos, integración, costo, revisión y responsable.
+
+El análisis debe distinguir lo que sabemos, lo que suponemos y lo que necesitamos probar. Una fuente respalda una afirmación concreta. Una tarifa o un tiempo estimado alimenta un escenario, no un beneficio observado. Un resultado parcial puede justificar una prueba delimitada en vez de un despliegue completo.
+
+El memo expresa la decisión y una alternativa, integra evidencia críticamente, relaciona valor con recursos y establece condiciones de revisión. Puede recomendar continuar un piloto, modificar su alcance o elegir otra ruta. La recomendación se sostiene explicando qué cambiaría nuestra conclusión.
+
+La actividad de análisis conserva cuatro dimensiones: cálculos, límites y riesgos, oportunidad sectorial y condiciones de ejecución. Las etiquetas de evaluación sirven para registrar la entrega; el razonamiento utiliza los conceptos que hemos aprendido hoy.
+
+Durante el trabajo, revisaré primero una cuenta y una condición crítica. Si la cuenta usa un denominador distinto al propósito, la corregimos. Si el beneficio se presenta como ahorro de caja sin cambiar pagos, lo reformulamos. Si una acción necesita un permiso que no está definido, delimitamos el piloto. Esas correcciones hacen que la recomendación sea concreta.
+
+Cerraremos con dos defensas breves. Cada participante explicará su alternativa, la evidencia principal y una condición que haría revisarla. El resultado será una decisión que otro responsable pueda comprender y evaluar, con sus límites visibles.
+
+### Conducción
+
+- Dos minutos para recuperar una propuesta y una capacidad pertinente.
+- Doce minutos para resolver alternativa, indicador, costo y condición crítica; acompañar una cuenta y una evidencia.
+- Cuatro minutos para dos defensas y dos para cerrar el memo y las condiciones de revisión.
+
+**Pregunta:** ¿Qué evidencia te haría cambiar de alternativa?
+
+**Fuentes:** [Actividad A vigente](https://campus.panamericanlatam.com/mod/assign/view.php?id=75997), [Actividad B vigente](https://campus.panamericanlatam.com/mod/assign/view.php?id=77506), [NIST AI RMF Core](https://airc.nist.gov/airmf-resources/airmf/5-sec-core/), [FinOps: Unit Economics](https://www.finops.org/framework/capabilities/unit-economics/)
+

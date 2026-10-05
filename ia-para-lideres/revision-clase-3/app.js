@@ -1,6 +1,6 @@
 const $=s=>document.querySelector(s);
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const data=await fetch('course.json?v=20261004-visual').then(r=>{if(!r.ok)throw Error('No se pudo abrir la clase');return r.json()});
+const data=await fetch('course.json?v=20261004-academica').then(r=>{if(!r.ok)throw Error('No se pudo abrir la clase');return r.json()});
 const {slides,refs}=data;
 let index=Math.max(0,Math.min(slides.length-1,(Number(location.hash.match(/lamina-(\d+)/)?.[1])||1)-1));
 let mode='idle',generation=0,queue=[],part=0,paused=false;
@@ -16,7 +16,7 @@ function visualText(v){
 }
 function render(){
  const s=slides[index];
- $('#slideImage').src=`laminas/c3-${String(s.number).padStart(2,'0')}.png?v=20261004-visual`;
+ $('#slideImage').src=`laminas/c3-${String(s.number).padStart(2,'0')}.png?v=20261004-academica`;
  $('#slideImage').alt=`Lámina ${s.number}. ${s.title}. ${s.question}`;
  $('#slideText').innerHTML=visualText(s.visual);
  $('#slideMeta').textContent=`${s.start}–${s.end} · ${s.minutes} min · ${s.kind}`;
@@ -26,7 +26,7 @@ function render(){
  $('#speech').innerHTML=s.speech.split('\n\n').map(p=>`<p>${esc(p)}</p>`).join('');
  $('#action').innerHTML=s.action.map(t=>`<li>${esc(t)}</li>`).join('');
  $('#promptBox').hidden=!s.prompt;$('#prompt').textContent=s.prompt||'';$('#copyStatus').textContent='';
- $('#sources').innerHTML=s.sources.length?s.sources.map(k=>`<a href="${esc(refs[k][1])}" target="_blank" rel="noopener">${esc(refs[k][0])} ↗</a>`).join(''):'<p>Actividad docente y trabajos A y B vigentes. Las cifras y datos de demostración se identifican como supuestos o ficticios.</p>';
+ $('#sources').innerHTML=s.sources.length?s.sources.map(k=>`<a href="${esc(refs[k][1])}" target="_blank" rel="noopener">${esc(refs[k][0])} ↗</a>`).join(''):'<p>Caso y actividad docente. Las cifras y datos de demostración se identifican como supuestos o ficticios.</p>';
  $('#outline').innerHTML=slides.map((x,i)=>`<li><button data-jump="${i}" aria-current="${i===index}"><small>${x.start}–${x.end}</small>${String(x.number).padStart(2,'0')} · ${esc(x.title)}</button></li>`).join('');
  document.querySelectorAll('#blocks button').forEach(b=>b.setAttribute('aria-current',String(slides[+b.dataset.jump].section===s.section)));
  history.replaceState(null,'',`#lamina-${s.number}`);document.title=`Lámina ${s.number} · Clase 3 · ${s.title}`;
