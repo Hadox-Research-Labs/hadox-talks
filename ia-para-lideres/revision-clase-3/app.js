@@ -2,17 +2,18 @@ const $=s=>document.querySelector(s);
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const data=await fetch('course.json?v=20261005-temas').then(r=>{if(!r.ok)throw Error('No se pudo abrir la clase');return r.json()});
 const {slides:contentSlides,refs,chapters}=data;
-const slides=contentSlides.flatMap(s=>{
+const middleSlides=contentSlides.flatMap(s=>{
  const chapter=chapters.find(c=>s.number<=c.endSlide)||chapters.at(-1);
  const content={...s,chapter:chapter.chapter,key:`lamina-${s.number}`,audio:`audio/c3-${String(s.number).padStart(2,'0')}-jorge.mp3`};
  const c=chapters.find(c=>c.beforeSlide===s.number);
  return c?[{...c,divider:true,key:`tema-${c.chapter}`,number:null,minutes:0,start:s.start,end:s.start,kind:'Cambio de tema',section:c.title,action:['Presentar el nuevo tema y su pregunta guía.','Avanzar a la explicación dentro del tiempo del bloque.'],sources:[],prompt:'',visual:{big:c.title,subtitle:c.question,lines:[c.concepts]},audio:`audio/tema-${String(c.chapter).padStart(2,'0')}-jorge.mp3`},content]:[content];
 });
+const slides=[data.opening,...middleSlides,data.closing];
 function hashIndex(){return Math.max(0,slides.findIndex(s=>`#${s.key}`===location.hash));}
 let index=hashIndex();
 let mode='idle',generation=0,queue=[],part=0,paused=false;
 $('#blocks').innerHTML=chapters.map(c=>`<button data-jump="${slides.findIndex(s=>s.divider&&s.chapter===c.chapter)}"><small>${String(c.chapter).padStart(2,'0')}</small>${esc(c.title)}</button>`).join('');
-$('#slideSelect').innerHTML=slides.map((s,i)=>`<option value="${i}">${s.divider?'Tema '+String(s.chapter).padStart(2,'0'):String(s.number).padStart(2,'0')}</option>`).join('');
+$('#slideSelect').innerHTML=slides.map((s,i)=>`<option value="${i}">${s.special?s.kind:s.divider?'Tema '+String(s.chapter).padStart(2,'0'):String(s.number).padStart(2,'0')}</option>`).join('');
 function visualText(v){
  let html=[v.big,v.subtitle,v.lead,v.formula,v.quote].filter(Boolean).map(t=>`<p>${esc(t)}</p>`).join('');
  if(v.headers)html+=`<div class="table-wrap"><table><thead><tr>${v.headers.map(x=>`<th scope="col">${esc(x)}</th>`).join('')}</tr></thead><tbody>${v.rows.map(r=>`<tr>${r.map(c=>`<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
@@ -22,10 +23,10 @@ function visualText(v){
 }
 function render(){
  const s=slides[index];
- $('#slideImage').src=s.divider?`laminas/tema-${String(s.chapter).padStart(2,'0')}.png?v=20261005-temas`:`laminas/c3-${String(s.number).padStart(2,'0')}.png?v=20261004-lideres`;
- $('#slideImage').alt=`${s.divider?'Tema '+s.chapter:'Lámina '+s.number}. ${s.title}. ${s.question}`;
+ $('#slideImage').src=s.special?s.image:s.divider?`laminas/tema-${String(s.chapter).padStart(2,'0')}.png?v=20261005-temas`:`laminas/c3-${String(s.number).padStart(2,'0')}.png?v=20261004-lideres`;
+ $('#slideImage').alt=`${s.special?s.kind:s.divider?'Tema '+s.chapter:'Lámina '+s.number}. ${s.title}. ${s.question}`;
  $('#slideText').innerHTML=visualText(s.visual);
- $('#slideMeta').textContent=s.divider?`Tema ${s.chapter} de ${chapters.length} · Cambio de tema · ${s.start}`:`${s.start}–${s.end} · ${s.minutes} min · ${s.kind}`;
+ $('#slideMeta').textContent=s.special?s.kind:s.divider?`Tema ${s.chapter} de ${chapters.length} · Cambio de tema · ${s.start}`:`${s.start}–${s.end} · ${s.minutes} min · ${s.kind}`;
  $('#counter').textContent=`${index+1} / ${slides.length}`;
  $('#slideSelect').value=String(index);$('#prev').disabled=index===0;$('#next').disabled=index===slides.length-1;
  $('#question').textContent=s.question;$('#speechTitle').textContent=`Qué digo · ${s.title}`;
@@ -33,9 +34,9 @@ function render(){
  $('#action').innerHTML=s.action.map(t=>`<li>${esc(t)}</li>`).join('');
  $('#promptBox').hidden=!s.prompt;$('#prompt').textContent=s.prompt||'';$('#copyStatus').textContent='';
  $('#sources').innerHTML=s.sources.length?s.sources.map(k=>`<a href="${esc(refs[k][1])}" target="_blank" rel="noopener">${esc(refs[k][0])} ↗</a>`).join(''):s.divider?'<p>Separador de tema. El desarrollo y las fuentes aparecen en las láminas siguientes.</p>':'<p>Caso y actividad docente. Las cifras y datos de demostración se identifican como supuestos o ficticios.</p>';
- $('#outline').innerHTML=slides.map((x,i)=>`<li class="${x.divider?'outline-divider':''}"><button data-jump="${i}" aria-current="${i===index}"><small>${x.divider?'CAMBIO DE TEMA':x.start+'–'+x.end}</small>${x.divider?'Tema '+String(x.chapter).padStart(2,'0'):String(x.number).padStart(2,'0')} · ${esc(x.title)}</button></li>`).join('');
+ $('#outline').innerHTML=slides.map((x,i)=>`<li class="${x.divider?'outline-divider':''}"><button data-jump="${i}" aria-current="${i===index}"><small>${x.divider?'CAMBIO DE TEMA':x.start+'–'+x.end}</small>${x.special?x.kind:x.divider?'Tema '+String(x.chapter).padStart(2,'0'):String(x.number).padStart(2,'0')} · ${esc(x.title)}</button></li>`).join('');
  document.querySelectorAll('#blocks button').forEach(b=>b.setAttribute('aria-current',String(slides[+b.dataset.jump].chapter===s.chapter)));
- history.replaceState(null,'',`#${s.key}`);document.title=`${s.divider?'Tema '+s.chapter:'Lámina '+s.number} · Clase 3 · ${s.title}`;
+ history.replaceState(null,'',`#${s.key}`);document.title=`${s.special?s.kind:s.divider?'Tema '+s.chapter:'Lámina '+s.number} · Clase 3 · ${s.title}`;
 }
 function voiceState(message){$('#voiceStatus').textContent=message;$('#pause').disabled=mode==='idle';$('#stop').disabled=mode==='idle';$('#pause').textContent=paused?'Reanudar':'Pausar';$('#listenOne').setAttribute('aria-pressed',String(mode==='one'));$('#listenAll').setAttribute('aria-pressed',String(mode==='all'));}
 const narration=new Audio();

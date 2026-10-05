@@ -12,7 +12,7 @@
     "author": "Dr. Edgar Valdés",
     "review": true,
     "chapterCount": 6,
-    "presentationCount": 22
+    "presentationCount": 24
   },
   "slides": [
     {
@@ -898,5 +898,75 @@
       "concepts": "Oportunidad · Equipo · Recomendación ejecutiva",
       "speech": "Llegamos a la decisión de implementación. Recuperaremos la oportunidad y las capacidades de las clases anteriores para unirlas con las herramientas, el costo y las pruebas de hoy. La recomendación deberá explicar qué proponemos, con qué evidencia y qué resultado nos haría cambiar de decisión."
     }
-  ]
+  ],
+  "opening": {
+    "key": "recuento",
+    "title": "Lo que ya sabemos hacer",
+    "image": "laminas/recuento.png",
+    "speech": "Antes de entrar en la tercera sesión, recuperemos lo que ya hemos construido. En la primera aprendimos a distinguir capacidades: qué herramienta sirve para una tarea, qué contexto necesita y con qué fuentes podemos contrastar su respuesta. Una respuesta convincente todavía necesita evidencia.\n\nEn la segunda pasamos de una respuesta aislada a un proceso. Vimos que estructurar información implica decidir qué conservar; que un flujo necesita reglas para pasar de una etapa a otra; y que delegar en un agente exige definir herramientas, límites de autoridad y criterios de aceptación. El ejemplo del documento convertido en directorio nos permitió observar estas decisiones de manera concreta.\n\nHoy vamos a añadir la mirada del líder: cómo interpretar un análisis, comprobar sus cálculos y decidir si una oportunidad merece una implementación. Usaremos lo aprendido para comparar herramientas, revisar costos y riesgos y sostener una decisión empresarial. La pregunta que conecta las tres sesiones es: ¿qué valor podemos demostrar y bajo qué condiciones podemos confiar en el resultado?",
+    "lines": [
+      "Elegir capacidades y trabajar con fuentes",
+      "Estructurar información, conectar capacidades y delegar con límites",
+      "Hoy: medir el valor y decidir cómo implementar"
+    ],
+    "audio": "audio/recuento-jorge.mp3",
+    "special": true,
+    "chapter": 0,
+    "start": "",
+    "end": "",
+    "minutes": 0,
+    "kind": "Recuento de sesiones 1 y 2",
+    "question": "¿Cómo conectamos lo aprendido con una decisión empresarial?",
+    "action": [
+      "Presentar las habilidades y conectarlas con el temario."
+    ],
+    "sources": [],
+    "prompt": "",
+    "visual": {
+      "big": "Lo que ya sabemos hacer",
+      "lines": [
+        "Elegir capacidades y trabajar con fuentes",
+        "Estructurar información, conectar capacidades y delegar con límites",
+        "Hoy: medir el valor y decidir cómo implementar"
+      ]
+    }
+  },
+  "closing": {
+    "key": "habilidades",
+    "title": "Lo que ahora puedes hacer con IA",
+    "image": "laminas/habilidades.png",
+    "speech": "Para cerrar, volvamos a las habilidades que propone el temario. Ahora tenemos una ruta para comparar capacidades de IA con una tarea empresarial, trabajar con contexto y fuentes, y distinguir una asistencia puntual de un flujo que ejecuta acciones.\n\nTambién tenemos criterios para revisar un análisis: comprobar datos, cálculos y supuestos antes de aceptar una conclusión. Tableau nos permite explorar y comunicar información; el juicio del líder sigue siendo necesario para decidir qué significa esa información en su empresa.\n\nLa evaluación de valor y riesgos completa esa ruta. Una implementación necesita considerar beneficios, costo de uso y supervisión, permisos, integración, responsables y condiciones de operación. El checklist y la matriz ayudan a documentar esa evaluación; la decisión debe apoyarse en evidencia del caso.\n\nEsto conecta con el objetivo final del curso: justificar una oportunidad de IA para una industria y explicar sus beneficios, límites, riesgos y condiciones de ejecución. Para comprobar lo aprendido, cada uno debería poder plantear un caso y responder: qué tarea mejoraría, con qué capacidad, cómo verificaría el resultado y qué tendría que cumplirse para llevarlo a operación. Esa es la habilidad que buscamos llevarnos: una decisión empresarial que podamos defender con evidencia, recursos y condiciones.",
+    "lines": [
+      "Comparar capacidades",
+      "Trabajar con evidencia",
+      "Diseñar asistencia y flujos",
+      "Analizar y comprobar",
+      "Evaluar valor y riesgos",
+      "Justificar una implementación"
+    ],
+    "audio": "audio/habilidades-jorge.mp3",
+    "special": true,
+    "chapter": 7,
+    "start": "",
+    "end": "",
+    "minutes": 0,
+    "kind": "Cierre del curso",
+    "question": "¿Qué decisión de implementación puedes justificar?",
+    "action": [
+      "Presentar las habilidades y conectarlas con el temario."
+    ],
+    "sources": [],
+    "prompt": "",
+    "visual": {
+      "big": "Lo que ahora puedes hacer con IA",
+      "lines": [
+        "Comparar capacidades",
+        "Trabajar con evidencia",
+        "Diseñar asistencia y flujos",
+        "Analizar y comprobar",
+        "Evaluar valor y riesgos",
+        "Justificar una implementación"
+      ]
+    }
+  }
 }
