@@ -5,4 +5,5 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
 @media print{header,.block-nav,.controls,aside,.voice-controls,.downloads,.select-slide{display:none}main{padding:0}.intro{padding-top:0}.classroom,.desk{display:block}.conduct{page-break-before:always}.slide-text{display:none}.rehearsal{border:0}.presentation{break-inside:avoid}}
 
-.outline-divider button{background:#123b43;color:#fff}.outline-divider small{color:#a6dddd}.outline-divider button[aria-current="true"]{background:#06636d;color:#fff}
+#outline .outline-divider button{background:#123b43;color:#fff}#outline .outline-divider small{color:#a6dddd}#outline .outline-divider button[aria-current="true"]{background:#06636d;color:#fff}
+#slideSelect{min-width:110px}
