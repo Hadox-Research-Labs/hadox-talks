@@ -1,6 +1,6 @@
 const $=s=>document.querySelector(s);
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const data=await fetch('course.json?v=20261004-lideres').then(r=>{if(!r.ok)throw Error('No se pudo abrir la clase');return r.json()});
+const data=await fetch('course.json?v=20261005-discurso').then(r=>{if(!r.ok)throw Error('No se pudo abrir la clase');return r.json()});
 const {slides,refs}=data;
 let index=Math.max(0,Math.min(slides.length-1,(Number(location.hash.match(/lamina-(\d+)/)?.[1])||1)-1));
 let mode='idle',generation=0,queue=[],part=0,paused=false;
