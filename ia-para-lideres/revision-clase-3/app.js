@@ -32,17 +32,31 @@ function render(){
  history.replaceState(null,'',`#lamina-${s.number}`);document.title=`Lámina ${s.number} · Clase 3 · ${s.title}`;
 }
 function voiceState(message){$('#voiceStatus').textContent=message;$('#pause').disabled=mode==='idle';$('#stop').disabled=mode==='idle';$('#pause').textContent=paused?'Reanudar':'Pausar';$('#listenOne').setAttribute('aria-pressed',String(mode==='one'));$('#listenAll').setAttribute('aria-pressed',String(mode==='all'));}
-function stop(){generation++;mode='idle';paused=false;queue=[];if('speechSynthesis'in window)speechSynthesis.cancel();voiceState('Lectura detenida.');}
-function chunks(text){return text.split(/(?<=[.!?])\s+/).flatMap(p=>{if(p.length<230)return[p];const words=p.split(' '),result=[];let current='';for(const w of words){if((current+' '+w).length>210){result.push(current);current=w;}else current+=(current?' ':'')+w;}if(current)result.push(current);return result;});}
-function readNext(token){
- if(token!==generation||mode==='idle')return;
- if(part>=queue.length){if(mode==='all'&&index<slides.length-1){index++;render();queue=chunks(slides[index].speech);part=0;}else{mode='idle';voiceState('Lectura terminada.');return;}}
- const u=new SpeechSynthesisUtterance(queue[part++]);u.lang='es-MX';u.rate=Number($('#rate').value);
- const voices=speechSynthesis.getVoices();u.voice=voices.find(v=>/^es[-_]MX/i.test(v.lang))||voices.find(v=>/^es/i.test(v.lang))||null;
- u.onend=()=>readNext(token);u.onerror=e=>{if(token===generation&&e.error!=='canceled'&&e.error!=='interrupted'){mode='idle';voiceState('La voz se interrumpió. Puedes volver a iniciar la lectura o leer el discurso.');}};
- speechSynthesis.speak(u);voiceState(`Leyendo lámina ${slides[index].number}: ${slides[index].title}`);
+const narration=new Audio();
+narration.preload='none';
+function stop(){
+ generation++;mode='idle';paused=false;narration.onended=null;narration.onerror=null;
+ narration.pause();narration.removeAttribute('src');narration.load();
+ voiceState('Reproducción detenida.');
 }
-function startVoice(continuous){stop();mode=continuous?'all':'one';queue=chunks(slides[index].speech);part=0;readNext(generation);}
+function playbackFailure(token){
+ if(token!==generation)return;
+ mode='idle';paused=false;voiceState('No se pudo reproducir el audio. Reintenta Escuchar esta lámina; el discurso escrito sigue disponible.');
+}
+function playNarration(token){
+ if(token!==generation||mode==='idle')return;
+ const slide=slides[index];
+ narration.src=`audio/c3-${String(slide.number).padStart(2,'0')}-jorge.mp3?v=20261005-jorge`;
+ narration.playbackRate=Number($('#rate').value);
+ narration.onended=()=>{
+  if(token!==generation||mode==='idle')return;
+  if(mode==='all'&&index<slides.length-1){index++;render();playNarration(token);}
+  else{mode='idle';paused=false;voiceState('Narración terminada.');}
+ };
+ narration.onerror=()=>playbackFailure(token);
+ narration.play().then(()=>{if(token===generation)voiceState(`Jorge · Lámina ${slide.number}: ${slide.title}`);}).catch(()=>playbackFailure(token));
+}
+function startVoice(continuous){stop();mode=continuous?'all':'one';playNarration(generation);}
 function go(n){stop();index=Math.max(0,Math.min(slides.length-1,n));render();$('#presentacion').scrollIntoView({block:'start'});}
 document.addEventListener('click',e=>{const b=e.target.closest('[data-jump]');if(b)go(Number(b.dataset.jump));});
 $('#prev').onclick=()=>go(index-1);$('#next').onclick=()=>go(index+1);$('#slideSelect').onchange=e=>go(Number(e.target.value));
@@ -51,5 +65,15 @@ $('#exitFull').onclick=()=>document.exitFullscreen();document.addEventListener('
 document.addEventListener('keydown',e=>{if(e.target.closest('input,select,textarea')||e.ctrlKey||e.altKey||e.metaKey)return;if(e.key==='ArrowRight'){go(index+1);e.preventDefault();}if(e.key==='ArrowLeft'){go(index-1);e.preventDefault();}});
 window.addEventListener('hashchange',()=>{const n=Number(location.hash.match(/lamina-(\d+)/)?.[1]);if(n&&n!==index+1)go(n-1);});
 $('#copyPrompt').onclick=async()=>{try{await navigator.clipboard.writeText(slides[index].prompt);$('#copyStatus').textContent=' Encargo copiado.';}catch{$('#copyStatus').textContent=' Selecciona y copia el texto visible.';}};
-if('speechSynthesis'in window){$('#listenOne').onclick=()=>startVoice(false);$('#listenAll').onclick=()=>startVoice(true);$('#pause').onclick=()=>{paused=!paused;if(paused)speechSynthesis.pause();else speechSynthesis.resume();voiceState(paused?'Lectura en pausa.':`Leyendo lámina ${index+1}.`);};$('#stop').onclick=stop;voiceState('Lectura lista. Voz según el navegador.');}else{['#listenOne','#listenAll','#pause','#stop'].forEach(k=>$(k).disabled=true);voiceState('La voz no está disponible en este navegador. El discurso escrito está completo.');}
+$('#listenOne').onclick=()=>startVoice(false);
+$('#listenAll').onclick=()=>startVoice(true);
+$('#pause').onclick=()=>{
+ if(mode==='idle')return;
+ paused=!paused;
+ if(paused){narration.pause();voiceState('Narración en pausa.');}
+ else{const token=generation;narration.play().then(()=>{if(token===generation)voiceState(`Jorge · Lámina ${index+1}.`);}).catch(()=>playbackFailure(token));}
+};
+$('#stop').onclick=stop;
+$('#rate').onchange=()=>{narration.playbackRate=Number($('#rate').value);};
+voiceState('Jorge · Narración en español mexicano lista.');
 window.addEventListener('pagehide',stop);render();if(index>0)$('#presentacion').scrollIntoView({block:'start'});
