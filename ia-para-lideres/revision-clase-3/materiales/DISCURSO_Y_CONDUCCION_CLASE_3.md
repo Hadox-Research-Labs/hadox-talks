@@ -2,7 +2,15 @@
 
 Dr. Edgar Valdés · PBS · 5 octubre 2026 · 18:00–21:00 Guatemala
 
-Discurso revisado para exposición oral. Conserva las 16 láminas ilustradas y añade seis separadores de tema dentro de la misma agenda. Las transiciones están integradas en el texto que se lee y escucha.
+Discurso revisado para exposición oral. Incluye 18 láminas ilustradas y seis separadores de tema, con recuento inicial y cierre de habilidades según el temario. Las transiciones están integradas en el texto que se lee y escucha.
+
+## Apertura · Lo que ya sabemos hacer
+
+Antes de entrar en la tercera sesión, recuperemos lo que ya hemos construido. En la primera aprendimos a distinguir capacidades: qué herramienta sirve para una tarea, qué contexto necesita y con qué fuentes podemos contrastar su respuesta. Una respuesta convincente todavía necesita evidencia.
+
+En la segunda pasamos de una respuesta aislada a un proceso. Vimos que estructurar información implica decidir qué conservar; que un flujo necesita reglas para pasar de una etapa a otra; y que delegar en un agente exige definir herramientas, límites de autoridad y criterios de aceptación. El ejemplo del documento convertido en directorio nos permitió observar estas decisiones de manera concreta.
+
+Hoy vamos a añadir la mirada del líder: cómo interpretar un análisis, comprobar sus cálculos y decidir si una oportunidad merece una implementación. Usaremos lo aprendido para comparar herramientas, revisar costos y riesgos y sostener una decisión empresarial. La pregunta que conecta las tres sesiones es: ¿qué valor podemos demostrar y bajo qué condiciones podemos confiar en el resultado?
 
 ## 1. IA para líderes: analizar, elegir y decidir
 
@@ -521,3 +529,14 @@ La clase nos deja un recorrido que podemos utilizar en la empresa: partir de una
 
 **Fuentes:** [NIST AI RMF Core](https://airc.nist.gov/airmf-resources/airmf/5-sec-core/), [FinOps: Unit Economics](https://www.finops.org/framework/capabilities/unit-economics/), [Biblioteca y matriz del curso](https://hadox-research-labs.github.io/hadox-talks/ia-para-lideres/revision-clase-3/biblioteca.html)
 
+
+
+## Cierre · Lo que ahora puedes hacer con IA
+
+Para cerrar, volvamos a las habilidades que propone el temario. Ahora tenemos una ruta para comparar capacidades de IA con una tarea empresarial, trabajar con contexto y fuentes, y distinguir una asistencia puntual de un flujo que ejecuta acciones.
+
+También tenemos criterios para revisar un análisis: comprobar datos, cálculos y supuestos antes de aceptar una conclusión. Tableau nos permite explorar y comunicar información; el juicio del líder sigue siendo necesario para decidir qué significa esa información en su empresa.
+
+La evaluación de valor y riesgos completa esa ruta. Una implementación necesita considerar beneficios, costo de uso y supervisión, permisos, integración, responsables y condiciones de operación. El checklist y la matriz ayudan a documentar esa evaluación; la decisión debe apoyarse en evidencia del caso.
+
+Esto conecta con el objetivo final del curso: justificar una oportunidad de IA para una industria y explicar sus beneficios, límites, riesgos y condiciones de ejecución. Para comprobar lo aprendido, cada uno debería poder plantear un caso y responder: qué tarea mejoraría, con qué capacidad, cómo verificaría el resultado y qué tendría que cumplirse para llevarlo a operación. Esa es la habilidad que buscamos llevarnos: una decisión empresarial que podamos defender con evidencia, recursos y condiciones.
