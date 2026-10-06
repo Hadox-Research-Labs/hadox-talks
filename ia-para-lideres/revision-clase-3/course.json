@@ -12,7 +12,7 @@
     "author": "Dr. Edgar Valdés",
     "review": true,
     "chapterCount": 6,
-    "presentationCount": 24
+    "presentationCount": 25
   },
   "slides": [
     {
@@ -966,6 +966,34 @@
         "Analizar y comprobar",
         "Evaluar valor y riesgos",
         "Justificar una implementación"
+      ]
+    }
+  },
+  "contact": {
+    "key": "contacto",
+    "title": "Dr. Edgar Valdés · Sigamos en contacto",
+    "image": "laminas/contacto.png",
+    "special": true,
+    "chapter": 8,
+    "start": "",
+    "end": "",
+    "minutes": 0,
+    "kind": "Contacto del docente",
+    "question": "Para dudas de la tarea: incluye tu nombre, actividad y paso donde te detuviste.",
+    "speech": "Para dudas del curso, escriban a contacto.hadox@gmail.com e incluyan su nombre, la actividad y el paso donde se detuvieron. Mi correo profesional es edgar@hadox.org. También pueden contactarme por WhatsApp al +52 55 7695 1072 y consultar hadox.org.",
+    "action": [
+      "Mostrar los datos para que los alumnos puedan guardarlos."
+    ],
+    "sources": [],
+    "prompt": "",
+    "visual": {
+      "big": "Dr. Edgar Valdés",
+      "lines": [
+        "Hadox Research Labs",
+        "Correo profesional: edgar@hadox.org",
+        "Dudas del curso: contacto.hadox@gmail.com",
+        "WhatsApp: +52 55 7695 1072",
+        "Web: hadox.org"
       ]
     }
   }

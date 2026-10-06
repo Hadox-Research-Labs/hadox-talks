@@ -1,6 +1,6 @@
 const $=s=>document.querySelector(s);
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const data=await fetch('course.json?v=20261005-habilidades').then(r=>{if(!r.ok)throw Error('No se pudo abrir la clase');return r.json()});
+const data=await fetch('course.json?v=20261005-contacto').then(r=>{if(!r.ok)throw Error('No se pudo abrir la clase');return r.json()});
 const {slides:contentSlides,refs,chapters}=data;
 const middleSlides=contentSlides.flatMap(s=>{
  const chapter=chapters.find(c=>s.number<=c.endSlide)||chapters.at(-1);
@@ -8,7 +8,7 @@ const middleSlides=contentSlides.flatMap(s=>{
  const c=chapters.find(c=>c.beforeSlide===s.number);
  return c?[{...c,divider:true,key:`tema-${c.chapter}`,number:null,minutes:0,start:s.start,end:s.start,kind:'Cambio de tema',section:c.title,action:['Presentar el nuevo tema y su pregunta guía.','Avanzar a la explicación dentro del tiempo del bloque.'],sources:[],prompt:'',visual:{big:c.title,subtitle:c.question,lines:[c.concepts]},audio:`audio/tema-${String(c.chapter).padStart(2,'0')}-jorge.mp3`},content]:[content];
 });
-const slides=[data.opening,...middleSlides,data.closing];
+const slides=[data.opening,...middleSlides,data.closing,data.contact];
 function hashIndex(){return Math.max(0,slides.findIndex(s=>`#${s.key}`===location.hash));}
 let index=hashIndex();
 let mode='idle',generation=0,queue=[],part=0,paused=false;
@@ -53,6 +53,7 @@ function playbackFailure(token){
 function playNarration(token){
  if(token!==generation||mode==='idle')return;
  const slide=slides[index];
+ if(!slide.audio){mode='idle';paused=false;voiceState('Datos de contacto. Narración terminada.');return;}
  narration.src=slide.audio+'?v=20261005-jorge';
  narration.playbackRate=Number($('#rate').value);
  narration.onended=()=>{
