@@ -1,0 +1,347 @@
+{
+  "title": "Perspectivas de Agentes de IA en Gemelos Digitales Locales para el análisis de Ciudades",
+  "author": "Edgar Valdés",
+  "event": "iGISc 2026",
+  "eventDate": "2026-11-13",
+  "revisionDate": "2026-11-10",
+  "locale": "es-MX",
+  "edition": "Edición de referencia preparada para iGISc 2026",
+  "slides": [
+    {
+      "folio": 1,
+      "title": "Perspectivas de Agentes de IA en Gemelos Digitales Locales para el análisis de Ciudades",
+      "image": "assets/slides/lamina-01.png",
+      "transcript": "Buenos días. Gracias por la invitación.\n\nHoy quiero recorrer una pregunta que conecta muchas de las conversaciones de este congreso: qué necesitamos para que la inteligencia artificial nos ayude a trabajar sobre una ciudad y podamos revisar lo que hizo.\n\nVamos a empezar por las capacidades de la IA, abrir un agente por dentro y llegar a los gemelos digitales. Después voy a ponerles retos científicos y mostrar trabajo concreto de OLDT, nuestras herramientas y Quetzia.",
+      "optional": false,
+      "sources": [
+        {
+          "label": "Programa oficial iGISc 2026 · versión 0.2 · consulta 10 nov 2026",
+          "url": "https://pretalx.cienciaenmexico.com/igisc-2026/schedule/"
+        }
+      ]
+    },
+    {
+      "folio": 2,
+      "title": "¿Podemos ensayar una decisión urbana antes de vivir sus consecuencias?",
+      "image": "assets/slides/lamina-02.png",
+      "transcript": "¿Podemos ensayar una decisión urbana antes de vivir sus consecuencias?\n\nPensemos en algo que suena muy cercano: dónde abrir un servicio, cómo modificar un espacio público o qué edificios estudiar para una intervención energética.\n\nPara ensayarlo tenemos que recorrer varios niveles. Primero describimos: qué existe, dónde está y de qué fecha es. Después buscamos explicar relaciones. Luego comparamos alternativas. Y finalmente discutimos para quién mejora una decisión y quién responde por ella.\n\nCada paso pide capacidades diferentes. Necesitamos datos, modelos, criterios y personas que puedan revisar el resultado. La IA aporta algunas capacidades; los agentes permiten coordinarlas; un gemelo digital puede relacionarlas con un territorio y su estado.\n\nDurante la charla voy a distinguir lo que hemos probado en un caso, las integraciones técnicas acotadas y lo que estamos proponiendo desarrollar. Eso nos permite hacer preguntas precisas sobre nuestro propio trabajo.\n\nGuardemos la pregunta de arriba. Al final quiero que tengamos una respuesta que podamos cuestionar.\n\nPero para llegar ahí necesitamos entender primero con qué estamos trabajando.",
+      "optional": false,
+      "sources": [
+        {
+          "label": "Polisplexity · Anexo A2 v4 · Evidencia OLDT y EU LDT Toolbox · 18 jul 2026"
+        },
+        {
+          "label": "Polisplexity · Anexo A1 · Arquitectura OTKN y alineación SITU · 18 jul 2026"
+        },
+        {
+          "label": "Urban MCP · Helsinki municipal service inventory · snapshot 20261110T112344Z-500b5c",
+          "url": "https://github.com/polisplexity/urban-mcp/tree/feat/helsinki-municipal-inventory/cases/helsinki-service-inventory"
+        }
+      ]
+    },
+    {
+      "folio": 3,
+      "title": "Los mundos de la IA",
+      "image": "assets/slides/lamina-03.png",
+      "transcript": "Cuando hablamos de inteligencia artificial, hablamos de construir sistemas capaces de aprender, reconocer patrones, generar contenido, explorar soluciones y coordinar acciones.\n\nA mí me gusta recorrer estos mundos porque cada uno nos permite entender una cualidad y después una capacidad. Los nombres que aparecen alrededor empiezan a tener sentido cuando vemos qué problema intentan resolver.\n\nEmpecemos con machine learning, aprendizaje de máquina. Su cualidad central es aprender a partir de datos o experiencia. Ajustamos un modelo y después lo utilizamos con casos nuevos.\n\nLas máquinas pueden aprender de diferentes formas. Aquí vamos a distinguir explícitamente tres: aprendizaje supervisado, aprendizaje no supervisado y aprendizaje reforzado, también llamado aprendizaje por refuerzo.\n\nEn el supervisado mostramos ejemplos acompañados de una respuesta. Estas imágenes tienen vegetación; estas otras tienen construcción. El modelo aprende una relación que después puede aplicar a una imagen nueva.\n\nEsa capacidad permite clasificar. También podemos aprender a estimar una cantidad, como demanda de agua, a partir de registros históricos. Ahí aparecen nombres como SVM, vecinos cercanos o árboles de regresión. Elegimos y evaluamos el método según la tarea y los datos.\n\nAhora quitemos las respuestas conocidas. Queremos explorar qué estructura aparece en los datos. ¿Se forman grupos? ¿Hay zonas con patrones de movilidad parecidos?\n\nEso es aprendizaje no supervisado. Encontramos nombres como k-means, agrupamiento jerárquico o modelos de mezcla. También podemos reducir dimensiones con técnicas como PCA. El procedimiento encuentra una estructura; a nosotros nos corresponde interpretar qué significa y comprobar si resulta útil.\n\nLa tercera forma aprende mediante la interacción. El sistema toma una acción, observa lo que ocurre y recibe una recompensa. Con esa experiencia ajusta su comportamiento para mejorar el resultado acumulado.\n\nPensemos en un semáforo dentro de una simulación. Ensaya decisiones y recibe una señal relacionada con el tiempo de espera. Aquí aparecen nombres como Q-learning.\n\nY ya tenemos una pregunta de diseño: ¿qué estamos recompensando? Si medimos solamente el flujo de automóviles, otras necesidades pueden quedar fuera. Definir qué significa mejorar es parte del problema.\n\nHasta aquí: aprender con respuestas conocidas, encontrar estructura y aprender por las consecuencias de actuar.\n\nAhora me voy hacia abajo. Entre las herramientas del aprendizaje de máquina están las redes neuronales.\n\nEntra información, pasa por unidades conectadas y produce una salida. Durante el entrenamiento ajustamos sus conexiones. En una red feed-forward la información avanza desde la entrada hacia la salida.\n\nPodemos trabajar con una capa oculta o utilizar varias capas de transformación. Cuando profundizamos esa construcción entramos al deep learning: aprendemos representaciones más elaboradas a partir de otras más sencillas.\n\nEntonces podemos especializar arquitecturas para distintos retos.\n\nUna CNN, una red convolucional, aprovecha patrones locales. Bordes, texturas y formas nos ayudan, por ejemplo, a reconocer elementos en imágenes aéreas.\n\nCuando importa una secuencia aparecen las redes recurrentes, las RNN. Podemos trabajar con señales o series temporales. Las LSTM incorporan mecanismos para aprender qué información conservar y actualizar a lo largo de esa secuencia.\n\nEn los Transformers entra la atención: aprender a ponderar qué partes de la información resultan relevantes para relacionarlas con otras. Eso permitió desarrollar modelos de lenguaje de gran alcance.\n\nFíjense cómo vamos hilando: aparece un reto, necesitamos una capacidad y construimos una arquitectura para abordarlo. Cada nombre del borde nos empieza a contar cómo trabaja esa herramienta.\n\nY aquí viene el salto.\n\n¿Qué pasa si usamos lo aprendido para producir algo nuevo?\n\nPiensen en miles de pequeños pincelitos. Uno aprendió algo sencillo: poner una mancha oscura. Otro, marcar una línea. Después combinamos curvas, bordes y texturas, hasta llegar a una forma, una mirada, los ojitos de un gatito.\n\nEsa imagen nos ayuda a imaginar cómo se combinan regularidades aprendidas. Ahora queremos utilizar esa capacidad para generar una imagen a partir de lo que el modelo aprendió y de lo que estamos pidiendo.\n\nAhí entramos a las generativas.\n\nEn las GAN entrenamos un generador junto con un discriminador que aprende a distinguir las muestras generadas de los ejemplos reales. En difusión aprendemos a eliminar ruido y utilizamos ese proceso para construir imágenes. En los modelos de lenguaje, la generación puede avanzar prediciendo el siguiente fragmento de texto condicionado por el contexto.\n\nAparecen capacidades para producir texto, imagen, audio y código. Y enseguida aparece otra pregunta: ¿cómo vamos a utilizar ese contenido dentro de un trabajo que exige comprobar algo?\n\nAhora recorramos otro mundo. Hay problemas donde necesitamos explorar muchísimas alternativas y encontrar una buena solución bajo restricciones.\n\nAquí aprovechamos adaptación y búsqueda.\n\nEn un algoritmo genético generamos una población de soluciones, evaluamos, combinamos características e introducimos variaciones. Repetimos el proceso para buscar alternativas mejores.\n\nEn los enjambres, varios exploradores intercambian información y orientan la búsqueda. Por eso aparecen optimización por enjambre de partículas, colonias de hormigas y otros métodos inspirados en comportamientos colectivos.\n\nTenemos además otras metaheurísticas. Lo que comparten en esta explicación es una manera de explorar un espacio de soluciones.\n\n¿Para qué sirve? Para buscar rutas, distribuir recursos o explorar localizaciones de equipamientos cuando existen muchas combinaciones posibles. Necesitamos definir restricciones y un criterio con el que comparar.\n\nAhora añadamos otro reto: varios sistemas tienen información, capacidades o responsabilidades diferentes y deben interactuar.\n\nEntramos a los sistemas multiagente. Un agente observa parte de su entorno, decide y actúa. Cuando hay varios, diseñamos cómo cooperan, negocian y reparten tareas.\n\nDe ahí vienen juegos cooperativos, formación de coaliciones o diseño de mercados. Podemos tener una meta compartida o intereses diferentes que requieren coordinación.\n\nPensemos en un agente que consulta datos geográficos, otro que prepara información y otro que utiliza un modelo. Tenemos que definir qué hace cada uno y cómo intercambian resultados.\n\nAquí incorporamos las capacidades de los modelos de lenguaje. Damos un objetivo y herramientas. El sistema puede seleccionar una operación, ejecutarla, observar su resultado y elegir cómo continuar.\n\nAhora la pregunta se pone muy buena: ¿qué pasa cuando conectamos interpretar y generar con consultar datos, utilizar modelos y coordinar acciones?\n\nVamos a abrir ese ciclo para ver qué tiene, qué necesita y cómo comprobamos lo que consiguió.",
+      "optional": false,
+      "sources": []
+    },
+    {
+      "folio": 4,
+      "title": "Anatomía de un agente",
+      "image": "assets/slides/lamina-04.png",
+      "transcript": "Vamos a abrir el agente por dentro.\n\nEn clase suelo plantearlo con una pregunta: ¿quién elige el siguiente paso? En este agente, el modelo de lenguaje participa en elegir qué hacer. Alrededor construimos el software que convierte esa elección en trabajo.\n\nAquí vemos dos piezas grandes: modelo y arnés. Ese marco representa el software de ejecución.\n\nPara este agente con herramientas distinguimos cuatro componentes mínimos: modelo, instrucciones, herramientas disponibles y un bucle que ejecuta acciones y devuelve resultados.\n\nEl modelo interpreta la información. Las instrucciones definen el encargo. Las herramientas ofrecen operaciones concretas. El bucle permite que un resultado influya en la siguiente decisión.\n\nLlega una petición: consulta los servicios de este distrito.\n\nEl arnés prepara las instrucciones, la entrada y el estado de la tarea. Incluye las herramientas disponibles y los resultados relevantes de lo que ya ocurrió. Ese contexto se envía al modelo.\n\nEl modelo puede devolver una respuesta final o una solicitud estructurada de herramienta: un nombre y unos argumentos.\n\nPor ejemplo, pedir un inventario por distrito. En nuestro caso de Helsinki existe inventory_by_district. El argumento service_ids recibe una lista; el identificador de bibliotecas públicas es ochocientos trece.\n\nEl despachador interpreta la salida y la conduce al componente correspondiente. Una solicitud de herramienta pasa al ejecutor. Una respuesta final puede entregarse como salida.\n\nFíjense dónde ocurre el cálculo. El ejecutor comprueba la solicitud y hace la llamada. La herramienta consulta la base o realiza una operación definida. Después devuelve un resultado o un error.\n\nEso vuelve al contexto. En la siguiente llamada el modelo puede pedir otra operación, corregir una solicitud o terminar.\n\nEste ciclo hace posible trabajar en varios pasos. También requiere condiciones para detenerse.\n\nCuando queremos operar de manera sostenida añadimos controles: qué puede ejecutar, cuánto tiempo o cuántos pasos puede consumir y cómo se recupera de un fallo.\n\nConservamos llamadas, argumentos y resultados. Así podemos reconstruir la secuencia de operaciones que produjo un archivo o una afirmación.\n\nUna llamada que termina sin error nos dice algo sobre la ejecución. La comprobación del resultado tiene que examinar además las propiedades que exige nuestra tarea.\n\nDespués ampliamos capacidades según el problema. Memoria persistente para recuperar información entre ejecuciones. RAG para recuperar fuentes. Skills para empaquetar procedimientos y recursos. Varios agentes para repartir funciones.\n\nEl estado de esta ejecución ya aparece en Contexto. La memoria duradera añade otra capacidad. Podemos empezar con un agente pequeño y crecer cuando el trabajo lo justifique.\n\nAquí entran nuestras herramientas.\n\nUna ruta utiliza MCP. Este protocolo permite descubrir capacidades y pedir su ejecución mediante una interfaz común. Por eso aparecen tools/list y tools/call.\n\nOLDT documenta su MCP para operaciones territoriales. Urban MCP expone funciones sobre herramientas como GDAL y GeoPandas.\n\nLa otra ruta puede utilizar una API o un contrato local. En Quetzia el asistente trabaja con herramientas internas del motor y de los servicios.\n\nSon dos rutas desde el ejecutor. La articulación completa entre productos es un trabajo que debemos implementar y probar.\n\nPodemos reconocer estos componentes en los entornos de la lámina: OpenClaw, Codex, Hermes y las configuraciones de AI Agent en n8n. En nuestros materiales de clase también examinamos quién selecciona el siguiente paso y quién lo ejecuta.\n\nAhora podemos mirar una demostración y preguntar por sus piezas: modelo, contexto, herramientas, ejecución y resultado.\n\nLo siguiente es darles un objeto de trabajo. Para nuestra charla, ese objeto será un territorio representado mediante un gemelo digital.",
+      "optional": false,
+      "sources": []
+    },
+    {
+      "folio": 5,
+      "title": "Gemelos digitales: tipos y tecnologías",
+      "image": "assets/slides/lamina-05.png",
+      "transcript": "En industria empezamos con preguntas muy concretas. ¿Esta pieza resiste? ¿La máquina funciona? ¿El controlador ejecuta bien la secuencia? ¿La línea produce lo que esperamos?\n\nPara responder fuimos construyendo capacidades de ingeniería virtual: diseñar, simular, probar automatización y conectar información de la operación.\n\nEse es el hilo con el que quiero contar los gemelos digitales: diseño virtual, puesta en marcha virtual y operación conectada.\n\nAhora, ¿qué estamos gemelando? La respuesta cambia las preguntas y la tecnología.\n\nEstas familias nos sirven para explicar objetos y usos que pueden combinarse a lo largo del ciclo de vida.\n\nPrimero, un producto o componente: una válvula, una pieza mecánica o un conjunto. Queremos estudiar su geometría, su comportamiento y sus condiciones de trabajo.\n\nCAD describe la geometría. CAE permite analizar. Los elementos finitos ayudan a estudiar esfuerzos y deformaciones; la dinámica de fluidos computacional, los flujos. PLM conserva definición, configuración y versiones.\n\nLa pregunta de ingeniería y la configuración del producto orientan el ensayo.\n\nAhora la máquina está operando. Queremos conocer su condición.\n\nIncorporamos mediciones de vibración, temperatura o presión, según el activo. Cada medición necesita identidad, tiempo y contexto de operación.\n\nIIoT ayuda a conectar esa información. OPC UA o MQTT permiten intercambios. Los modelos de condición ayudan a interpretar cambios y apoyar una revisión o una decisión de mantenimiento.\n\nYa estamos preguntando cómo se encuentra un activo concreto y qué conviene examinar.\n\nAmpliemos el alcance a una línea o una planta. Interactúan máquinas, materiales, robots y controladores. Importan secuencias, esperas y capacidades.\n\nLa simulación de eventos discretos permite estudiar esos recorridos. La puesta en marcha virtual prueba el control contra una representación de la máquina o planta. SIL y HIL distinguen ensayos con software o hardware dentro del bucle.\n\nMES aporta información de ejecución de producción. Aquí nos interesa cómo funciona el conjunto y qué cambia cuando modificamos una condición.\n\nEn una red aparecen otras relaciones.\n\nPensemos en bombas, depósitos, tuberías y válvulas. Una modificación local puede afectar presiones o caudales en otra parte.\n\nLos grafos describen conexiones. Los modelos físicos representan comportamientos. SCADA aporta supervisión y datos de operación. La optimización ayuda a buscar alternativas bajo restricciones.\n\nLa pregunta es cómo responde el sistema completo.\n\nAl llegar al territorio incorporamos edificios, calles, redes y usos del suelo, pero también personas que se desplazan, organizaciones que operan servicios e instituciones que deciden.\n\nSIG y BIM aportan representaciones complementarias. PostGIS conserva y consulta información espacial. CityGML estructura información de objetos urbanos; 3D Tiles permite distribuir contenido geoespacial tridimensional para visualizarlo.\n\nDespués elegimos modelos según la pregunta: movilidad, agua o simulación de comportamientos mediante agentes.\n\nPodemos estudiar dónde ubicar un servicio, cómo modificar una red o qué alternativas explorar en un espacio público.\n\nEstas familias se relacionan. Una planta contiene activos; una ciudad contiene redes e instalaciones. Sus representaciones pueden acompañar distintos momentos del ciclo de vida.\n\nPara definir el trabajo tenemos que identificar qué seguimos, cómo representamos su estado y tiempo, qué modelos utilizamos y cómo actualizamos la información.\n\nUn visualizador tridimensional aporta una superficie para explorar. Las consultas, los modelos y la relación con el estado del sistema permiten construir las demás capacidades del gemelo.\n\nOLDT conserva una base territorial y sus consultas. Urban MCP hace operables determinadas herramientas y datos. Quetzia permite explorar el entorno y trabajar con propuestas.\n\nLos agentes pueden coordinar operaciones sobre esas capacidades. Cada motor conserva sus métodos, sus unidades y sus requisitos.\n\nAhora aumentemos la dificultad. Cuando pasamos de una máquina a una ciudad, las interacciones incluyen infraestructura, actividad, personas e instituciones. Necesitamos decidir qué relaciones representamos y qué evidencia permitirá sostener una conclusión.",
+      "optional": false,
+      "sources": []
+    },
+    {
+      "folio": 6,
+      "title": "Seis exigencias que una respuesta debe satisfacer",
+      "image": "assets/slides/lamina-06.png",
+      "transcript": "El programa de este encuentro nos pone seis exigencias muy concretas.\n\n¿Qué resuelve el modelo? ¿Con qué dato y escala? ¿Contra qué comparamos? ¿A quién dejamos fuera? ¿Quién corrige el ensayo? ¿Quién lo usa y responde?\n\nCada una cambia algo que debemos construir.\n\nSi preguntamos por el dato, necesitamos catálogo, fecha, coordenadas y exclusiones. Si preguntamos por comparación, necesitamos una referencia y alternativas bajo condiciones comunes. Si preguntamos por corrección, necesitamos conservar versiones y observaciones.\n\nAquí hay una traducción importante: una pregunta científica o social se convierte en una operación técnica y en una evidencia que alguien puede exigir.\n\nEl agente puede ayudar a recorrer ese trabajo. Tenemos que darle herramientas que expongan las operaciones y resultados que permitan revisarlo.\n\nEstas preguntas son nuestra lectura del programa. Más adelante volverán con nombres y ponencias concretas.\n\nAhora tomemos una demanda municipal y veamos cómo se transforma en una prueba.",
+      "optional": false,
+      "sources": [
+        {
+          "label": "Programa oficial iGISc 2026 · versión 0.2 · consulta 10 nov 2026",
+          "url": "https://pretalx.cienciaenmexico.com/igisc-2026/schedule/"
+        }
+      ]
+    },
+    {
+      "folio": 7,
+      "title": "De la demanda municipal a una prueba científica",
+      "image": "assets/slides/lamina-07.png",
+      "transcript": "¿Dónde convendría un nuevo servicio de proximidad?\n\nEsta pregunta puede llegar desde un municipio, una comunidad o un equipo de planeación. Para empezar a trabajar hay que precisar qué significa convendría.\n\n¿A qué población queremos atender? ¿Qué necesidad tiene? ¿Con qué capacidad y horario opera el servicio? ¿Qué restricciones de suelo, presupuesto y operación debemos respetar?\n\nDespués definimos la unidad de análisis. Puede ser una zona de residencia o una celda, pero tiene que corresponder a la pregunta y a los datos disponibles.\n\nLa oferta tampoco se agota en un punto. Una biblioteca o un centro de salud tiene capacidades, horarios y condiciones de acceso.\n\nY el desplazamiento requiere un criterio: distancia, tiempo, modo y red.\n\nEsta expresión es un ejemplo conceptual de acceso potencial. Para cada lugar sumamos una oferta de servicio ponderada por el costo de llegar.\n\nLa S representa oferta o capacidad. La c, costo de desplazamiento. La función de decaimiento define cómo pierde peso una oportunidad cuando aumenta ese costo.\n\nElegir esa función ya es una decisión de modelado. Si incorporamos competencia, congestión o horarios, necesitamos especificaciones adicionales.\n\nAhora se ve por qué distinguimos inventario, proximidad, accesibilidad y evaluación de una intervención.\n\nUn buffer de quinientos metros nos da proximidad euclidiana. Para modelar acceso caminando necesitamos la red, sus barreras y entradas, y condiciones de viaje.\n\nEl inventario permite formular una primera prueba. Después podemos incorporar los datos que exige el siguiente escalón.\n\nLa demanda municipal empieza a convertirse en una pregunta científica cuando podemos identificar qué medimos, con qué supuestos y frente a qué referencia compararemos una alternativa.\n\nY eso nos lleva a la complejidad de la ciudad.",
+      "optional": false,
+      "sources": [
+        {
+          "label": "Urban MCP · Helsinki municipal service inventory · snapshot 20261110T112344Z-500b5c",
+          "url": "https://github.com/polisplexity/urban-mcp/tree/feat/helsinki-municipal-inventory/cases/helsinki-service-inventory"
+        },
+        {
+          "label": "Bettencourt, Introduction to Urban Science (MIT Press, 2021); índice y prefacio",
+          "url": "https://mitpress.mit.edu/9780262046008/introduction-to-urban-science/"
+        }
+      ]
+    },
+    {
+      "folio": 8,
+      "title": "La complejidad cambia lo que debemos modelar",
+      "image": "assets/slides/lamina-08.png",
+      "transcript": "Aquí está el enlace con Santa Fe, Geoffrey West y Luís Bettencourt.\n\nLa ciudad combina redes, diversidad, adaptación y retroalimentación. Una intervención modifica conexiones y encuentra respuestas de personas, organizaciones e infraestructuras.\n\nAl mismo tiempo, podemos investigar regularidades agregadas.\n\nEsta relación expresa un indicador como función del tamaño de una unidad urbana. N es población; Y es un indicador definido; beta es un exponente que debemos estimar y contrastar.\n\nPara comparar necesitamos una definición territorial y mediciones compatibles. Cambiar el límite de la ciudad o el denominador puede cambiar lo que creemos observar.\n\nDespués miramos cuánto se aparta cada lugar de una referencia ajustada. El residual en logaritmos nos ayuda a expresar esa desviación.\n\nInterpretarlo exige contexto. Tenemos que investigar si aparecen diferencias de medición, historia, instituciones o mecanismos que nuestra referencia no representa.\n\nUna regularidad estimada entre ciudades tiene ese nivel de análisis. Si queremos estudiar barrios o individuos debemos formular y comprobar la relación para esas unidades.\n\nEsto tiene consecuencias tecnológicas muy concretas.\n\nLa escala pide versionar límites y denominadores. Una red pide conservar conectividad y costos. La retroalimentación pide escenarios y sensibilidad. La heterogeneidad pide abrir distribuciones. El tiempo pide registrar cambios y rezagos.\n\nAsí utilizamos la complejidad: para decidir qué relaciones modelar y qué controles necesita el resultado.\n\nVeamos ahora cómo el enfoque de Bettencourt puede orientar ese trabajo.",
+      "optional": false,
+      "sources": [
+        {
+          "label": "Bettencourt, Introduction to Urban Science (MIT Press, 2021); índice y prefacio",
+          "url": "https://mitpress.mit.edu/9780262046008/introduction-to-urban-science/"
+        },
+        {
+          "label": "Índice y prefacio del libro",
+          "url": "https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/13909/TOC_preface.pdf?dl=1"
+        },
+        {
+          "label": "Santa Fe Institute · A bridge between the simplicity and complexity of cities",
+          "url": "https://www.santafe.edu/news-center/news/bridge-simplicity-and-complexity-cities"
+        }
+      ]
+    },
+    {
+      "folio": 9,
+      "title": "Bettencourt: de la ciencia urbana al método",
+      "image": "assets/slides/lamina-09.png",
+      "transcript": "Del enfoque de Bettencourt me interesa esta conexión entre evidencia y teoría de la ciudad.\n\nLa definición funcional nos pregunta qué territorio produce las interacciones que estudiamos. Eso nos lleva a límites, flujos y denominadores comparables.\n\nLas redes y el escalamiento nos llevan a construir referencias, estimar relaciones y examinar residuos.\n\nLa variación y la identidad nos hacen preguntar por qué un lugar se aparta de esa referencia. La diversidad nos obliga a mirar actividades y capacidades diferentes.\n\nY al llegar a barrios y desigualdad tenemos que abrir los promedios: quién recibe beneficios y quién asume costos.\n\nLa información también tiene una organización social. Alguien produce el dato, alguien lo interpreta y alguien puede corregirlo o autorizar su publicación.\n\nEn esta lámina traduzco esos ejes a métodos y controles para nuestra charla. Cada fila termina en algo que debe comprobarse: sensibilidad a los límites, incertidumbre, sesgos de clasificación, población omitida o responsabilidad.\n\nUna plataforma territorial puede conservar esas relaciones y versiones. Así el enfoque científico empieza a convertirse en un procedimiento que podemos ejecutar y discutir.",
+      "optional": false,
+      "sources": [
+        {
+          "label": "Bettencourt, Introduction to Urban Science (MIT Press, 2021); índice y prefacio",
+          "url": "https://mitpress.mit.edu/9780262046008/introduction-to-urban-science/"
+        },
+        {
+          "label": "Índice y prefacio del libro",
+          "url": "https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/13909/TOC_preface.pdf?dl=1"
+        }
+      ]
+    },
+    {
+      "folio": 10,
+      "title": "Un ensayo urbano necesita un contrato verificable",
+      "image": "assets/slides/lamina-10.png",
+      "transcript": "Para ejecutar ese procedimiento necesitamos un contrato verificable.\n\nPrimero, la pregunta: qué objetivo tenemos, sobre qué población y para informar qué decisión.\n\nDespués, las entradas. Una fuente necesita fecha, licencia, versión, coordenadas, unidades y exclusiones.\n\nEl modelo necesita algoritmo, versión del motor, parámetros y supuestos. Cuando corresponde, también conservamos semillas u otras condiciones de reproducción.\n\nLos escenarios distinguen referencia e intervención. Dejamos claro qué cambia y qué permanece.\n\nDespués vienen pruebas diferentes. Validamos el esquema y las unidades, contrastamos una referencia, exploramos sensibilidad y revisamos la interpretación con conocimiento disciplinario.\n\nUna ejecución puede satisfacer unas comprobaciones y tener otras pendientes. El expediente tiene que permitir reconocerlo.\n\nLos campos del ejemplo identifican territorio, snapshot, escenario, coordenadas, motor, parámetros y artefactos. Es una propuesta para este reto. En cada caso tenemos que acordar el contrato y utilizar el sistema de referencia adecuado.\n\nEl modelo de lenguaje ayuda a formular y coordinar. La herramienta ejecuta una operación definida. La validación comprueba propiedades declaradas. La persona responsable interpreta y autoriza el uso que corresponda.\n\nEl hash conserva una comprobación de integridad del archivo. La validez científica necesita las pruebas del modelo y del uso que queremos darle.\n\nCon esta separación podemos hablar de un resultado de manera precisa: qué entró, qué se ejecutó, qué salió y qué quedó por revisar.",
+      "optional": false,
+      "sources": [
+        {
+          "label": "Polisplexity · Anexo A2 v4 · Evidencia OLDT y EU LDT Toolbox · 18 jul 2026"
+        },
+        {
+          "label": "Polisplexity · Anexo A1 · Arquitectura OTKN y alineación SITU · 18 jul 2026"
+        },
+        {
+          "label": "Urban MCP · evidencia reproducible · native.json, mcp.json, agents.json"
+        }
+      ]
+    },
+    {
+      "folio": 11,
+      "title": "Europa: requisitos técnicos y lecciones de adopción",
+      "image": "assets/slides/lamina-11.png",
+      "transcript": "En el trabajo europeo aparecen tres necesidades muy reconocibles.\n\nInterconectar gemelos que ya existen. Crear nuevos gemelos a partir de necesidades compartidas. Y ampliar capacidades mediante IA y componentes abiertos.\n\nLa convocatoria LDT4SSC las organiza en estas tres líneas. En todas necesitamos un caso común, datos disponibles, gobernanza, roles y continuidad.\n\nLa experiencia nos obliga a volver concretas esas palabras.\n\nEn el seguimiento municipal de Tallinn, TR-LDT no recibió financiación y se comunicó que PlanBIM continuaría con recursos propios. De ahí sale una pregunta sobre cómo alinear caso de uso, contratación y responsabilidades.\n\nEn la conversación con Forum Virium Helsinki discutimos el alcance de un asistente urbano, las licencias y la disponibilidad del código. ¿Qué trabajo concreto atiende y quién puede mantenerlo?\n\nLos materiales de seguimiento de Tallinn Digital Summit reúnen cribado solar, revisión de planeación y especialización de agentes. Ahí la pregunta es qué caso acotado puede convertirse en implementación.\n\nEstas conversaciones y materiales tienen ese estado de trabajo. Una adjudicación, un contrato o un piloto aceptado necesitan su evidencia correspondiente.\n\nEl marco publicado contemplaba hasta un millón de euros por consorcio, cincuenta por ciento de cofinanciación y dieciocho meses. Cerró en julio.\n\nLo que conecta estas experiencias con nuestro trabajo es una exigencia: construir una capacidad que otra institución pueda comprender, integrar, evaluar y sostener.",
+      "optional": false,
+      "sources": [
+        {
+          "label": "LDT4SSC · Open Call 3 · convocatoria cerrada 13 jul 2026",
+          "url": "https://ldt4ssc.eu/call-three/"
+        },
+        {
+          "label": "Dossier de investigación iGISc · correspondencia de Tallinn (23 oct), reunión Helsinki (2 nov) y seguimiento Tallinn Digital Summit"
+        }
+      ]
+    },
+    {
+      "folio": 12,
+      "title": "OLDT: tres planos para interoperar con evidencia",
+      "image": "assets/slides/lamina-12.png",
+      "transcript": "OLDT conserva un registro territorial en PostgreSQL y PostGIS, con catálogo, procedencia y trabajo analítico.\n\nPara conectarlo con capacidades externas separamos tres planos.\n\nDatos: elegimos una selección y una versión, y producimos una proyección o paquete. NGSI-LD organiza entidades y contexto; DCAT permite describir catálogos y distribuciones; OGC y GeoJSON sirven el acceso geográfico.\n\nControl: elegimos una instancia, su identidad, autenticación, rutas y capacidades. Los perfiles y adaptadores permiten configurar esa conexión y aislar fallas.\n\nEvidencia: conservamos la operación, sus parámetros, estado, resultado, errores y artefactos. También los identificadores externos, recibos y procedencia.\n\nLa ruta documentada del doce de julio publicó entradas, creó escenarios base e intervención y devolvió resultados con identificadores.\n\nLos contratos directos fueron Data Platform y Use Case & Scenarios. Airflow y AI Notebook participaron dentro de esa ruta compuesta.\n\nEsa evidencia permite revisar interoperabilidad: qué se intercambió y qué regresó al registro territorial. El modelo urbano y el efecto de la intervención tienen sus propias pruebas.\n\nVeamos con qué detalle conservamos el alcance por aplicación.",
+      "optional": false,
+      "sources": [
+        {
+          "label": "Polisplexity · Anexo A2 v4 · Evidencia OLDT y EU LDT Toolbox · 18 jul 2026"
+        }
+      ]
+    },
+    {
+      "folio": 13,
+      "title": "EU LDT Toolbox: qué se probó, aplicación por aplicación",
+      "image": "assets/slides/lamina-13.png",
+      "transcript": "Esta tabla es importante porque permite abrir nuestra propia afirmación técnica.\n\nDe las doce aplicaciones documentadas, ocho tienen integraciones aceptadas para operaciones específicas. Una participa en una ruta compuesta acotada. Tres quedaron evaluadas.\n\nEn identidad se ejercitó el ciclo de acceso y sesión. En escenarios se crearon y ejecutaron dos ramas con lectura de regreso. En visualización regresaron fuentes, capas, gráfica, reporte e identificadores.\n\nMarketplace ejercitó publicación y recuperación con dos agentes e integridad de archivos.\n\nLos siete de siete, cinco de cinco, seis de seis u ocho de ocho pertenecen a baterías diferentes. Para interpretar cada cuenta tenemos que leer qué casos incluyó.\n\nData Modeller conserva un matiz que vale la pena mostrar: verificamos rutas de generación e importación, mientras la salud general aparecía como Unhealthy.\n\nEn AI Notebook, el siete de siete corresponde a la ruta compuesta ensayada.\n\nParticipate, Federated Learning e Integrated Environment tienen el estado que ven aquí. El catálogo completo contiene otras clases de soluciones; este anexo cubre las doce aplicaciones.\n\nAsí una persona técnica puede cuestionar una operación concreta y localizar qué se probó, cuándo y con qué resultado.\n\nEsta forma de conservar evidencia también importa cuando pasamos del laboratorio a un sistema territorial institucional.",
+      "optional": false,
+      "sources": [
+        {
+          "label": "Polisplexity · Anexo A2 v4 · Evidencia OLDT y EU LDT Toolbox · 18 jul 2026"
+        }
+      ]
+    },
+    {
+      "folio": 14,
+      "title": "SITU / OTKN: convertir activos en conocimiento gobernado",
+      "image": "assets/slides/lamina-14.png",
+      "transcript": "Con SITU la pregunta se amplía: ¿cómo conservamos un activo territorial para que pueda entenderse, revisarse e intercambiarse?\n\nOTKN, el Nodo Abierto de Conocimiento Territorial, es una propuesta modular de arquitectura. En esta lámina estamos mostrando su diseño y los componentes que deben validarse en una implementación de referencia.\n\nLa especificación núcleo define activos, entidades, versiones, relaciones, autoridad, tiempo y procedencia.\n\nEl perfil OTKN–SITU traduce guías, catálogos y metadatos a esquemas, reglas, ejemplos y pruebas de conformidad.\n\nEl runtime de referencia permite ingresar, catalogar, revisar, publicar y consultar.\n\nLos conectores se encargan del intercambio con repositorios, geoservicios y otros nodos. Necesitan manifiestos, recibos y reintentos.\n\nEl kit de conformidad conserva casos y evidencia. Y el plan operativo aborda identidad, respaldo, observabilidad, continuidad y portabilidad.\n\nAhora sigamos un archivo. Conservamos el original y su huella. Validamos un perfil. Transformamos con procedencia. Relacionamos el activo. Lo revisa un especialista. Una autoridad publica una versión. Después intercambiamos y registramos el acuse.\n\nCada paso debe dejar algo que permita reconstruir lo que ocurrió.\n\nAquí distinguimos tres responsabilidades que se complementan.\n\nLa validación técnica examina estructura, reglas e integridad. La revisión especialista examina significado, calidad y pertinencia. La autoridad institucional determina oficialidad, vigencia y publicación.\n\nUn archivo puede tener una estructura correcta y requerir una revisión de significado. También puede ser útil para investigar y tener otro estado de autoridad.\n\nPor eso distinguimos especificación, implementación de referencia y despliegue conforme. El diseño establece qué necesitamos construir y probar.\n\nAhora quiero mostrar dos casos de OLDT donde esta preocupación por conservar entradas, operaciones y resultados ya se vuelve muy visible.",
+      "optional": false,
+      "sources": [
+        {
+          "label": "Polisplexity · Anexo A1 · Arquitectura OTKN y alineación SITU · 18 jul 2026"
+        }
+      ]
+    },
+    {
+      "folio": 15,
+      "title": "OLDT: dos casos presentados en Europa",
+      "image": "assets/slides/lamina-15.png",
+      "transcript": "Estos son dos casos presentados en contextos europeos. Tallinn y Helsinki son los contextos de presentación; el registro territorial que alimenta las demostraciones es OLDT Medellín.\n\nEn Tallinn el reto es revisar una propuesta antes de dar por satisfactorio un expediente.\n\nPartimos de una selección archivada de sesenta y seis edificios reales, con geometrías e identificadores. Sobre ese contexto trabajamos una propuesta demostrativa.\n\nLa propuesta tiene veintidós metros. La comparamos con un criterio demostrativo de dieciocho y después corregimos a diecisiete.\n\nLa altura satisface esa prueba. La vegetación necesita una clasificación adicional. Corregir la altura deja otras preguntas abiertas que el sistema debe conservar.\n\nEl asistente puede formular una intención acotada. El motor modifica y comprueba geometría. Después obtenemos un IFC que puede abrir un lector independiente.\n\nCada ejecución conserva insumos, reglas, modelo, resultados, informe y registro. Eso permite revisar exactamente qué configuración produjo una salida.\n\nLos criterios y la propuesta son demostrativos. Para una aplicación municipal necesitamos incorporar el proyecto, sus datos y los criterios que correspondan. La prueba documenta el intercambio ensayado.\n\nEn Helsinki el reto es seleccionar edificios para orientar una evaluación energética.\n\nConsultamos OLDT en un radio de un kilómetro y pedimos huellas de al menos mil metros cuadrados. Obtuvimos ciento veintisiete edificios candidatos, con una huella agregada de aproximadamente trescientos treinta y seis mil metros cuadrados.\n\nAhora tenemos candidatos identificables sobre los que hacer preguntas adicionales.\n\nPVGIS aporta una referencia de rendimiento de mil cuatrocientos cuarenta y tres coma treinta y ocho kilovatios hora por kilovatio pico al año. Esa referencia se calculó en el centroide del mayor candidato.\n\nEl cálculo de la lámina utiliza una fracción aprovechable de cincuenta por ciento y una eficiencia de módulo de veinte por ciento como supuestos ilustrativos. Con ellos estimamos potencia y después energía anual.\n\nLa huella del edificio y la cubierta útil son mediciones diferentes. Para avanzar necesitamos sombra, estructura y evaluación por techo.\n\nAquí se ve el patrón que nos interesa: selección territorial versionada, herramienta especializada, resultado identificable y revisión.\n\nEn un caso revisamos una propuesta geométrica. En otro orientamos una siguiente evaluación energética. En ambos conservamos qué sabemos, qué asumimos y qué necesitamos investigar.\n\nAhora abramos una prueba donde el agente efectivamente opera herramientas y podemos comparar sus artefactos con una referencia.",
+      "optional": false,
+      "sources": [
+        {
+          "label": "OLDT · demostrador Tallinn/Medellín · revisión pre-BIM e intercambioIFC"
+        },
+        {
+          "label": "OLDT · cribado solar presentado en Helsinki · datos de Medellín · resumen verificado,1 nov2026"
+        },
+        {
+          "label": "Dossier de investigación iGISc · correspondencia de Tallinn (23 oct), reunión Helsinki (2 nov) y seguimiento Tallinn Digital Summit"
+        },
+        {
+          "label": "OLDT · Agent and Assistant Boundaries · implementación documentada, 8 oct 2026"
+        }
+      ]
+    },
+    {
+      "folio": 16,
+      "title": "Urban MCP: de la llamada de herramienta a la evidencia",
+      "image": "assets/slides/lamina-16.png",
+      "transcript": "Este caso trabaja con servicios de Helsinki. La tarea es obtener inventarios a partir de datos y categorías identificables.\n\nReutilizamos trece funciones geoespaciales y añadimos seis municipales. En total, el servidor expone diecinueve.\n\nHay siete vectoriales, cinco de ráster y una para guardar justificación. Las seis municipales permiten inspeccionar el estado, adquirir fuentes, preparar datos, consultar categorías, calcular inventarios y leer artefactos.\n\nEl trabajo del agente consiste en descubrir esas capacidades y utilizarlas con argumentos que respeten el contrato.\n\nAquí se ve un contrato real. inventory_by_district recibe service_ids como lista. La categoría de bibliotecas públicas utiliza el identificador ochocientos trece. Salud utiliza setecientos tres.\n\nEl nombre de la categoría, sus identificadores y el esquema tienen consecuencias sobre lo que consulta la herramienta.\n\nProbamos tres cosas distintas: dieciocho pruebas de contratos y adquisición; setenta y dos comprobaciones del protocolo MCP, con llamadas a las diecinueve funciones; y sesenta y nueve pruebas del servidor original con la compatibilidad aplicada.\n\nCada batería sostiene una parte diferente de la evidencia.\n\nDespués dimos la tarea a Codex y Hermes desde espacios de trabajo vacíos, sin proporcionar las respuestas esperadas.\n\nLos CSV de ambos fueron idénticos a la referencia nativa para los dos inventarios: cuarenta y seis registros geolocalizados de bibliotecas y veintitrés de salud. Conservamos las huellas de los archivos.\n\nLa cobertura de las diecinueve funciones corresponde a la suite determinista. En las ejecuciones de agentes conservamos sus llamadas y resultados observados.\n\nTambién conservamos los límites de interpretación: contamos registros, con su clasificación y cobertura. La capacidad del servicio y las necesidades de sus usuarios requieren otras fuentes.\n\nEse es un resultado que podemos reconstruir y cuestionar. Ahora veamos cómo llevamos una propuesta a una experiencia participativa.",
+      "optional": false,
+      "sources": [
+        {
+          "label": "Urban MCP · Helsinki municipal service inventory · snapshot 20261110T112344Z-500b5c",
+          "url": "https://github.com/polisplexity/urban-mcp/tree/feat/helsinki-municipal-inventory/cases/helsinki-service-inventory"
+        },
+        {
+          "label": "Urban MCP · evidencia reproducible · native.json, mcp.json, agents.json"
+        },
+        {
+          "label": "Jordan Gunn · gdal-mcp · código reutilizado · commit 418f401c7987e388eaaee6ad13289798a1ff69b6",
+          "url": "https://github.com/JordanGunn/gdal-mcp"
+        }
+      ]
+    },
+    {
+      "folio": 17,
+      "title": "Quetzia: explorar, proponer y revisar en Zapopan",
+      "image": "assets/slides/lamina-17.png",
+      "transcript": "Quetzia tiene aquí un papel muy concreto: conectar la experiencia de una persona en el espacio público con una alternativa que un equipo técnico pueda revisar.\n\nLo estamos pensando para Zapopan. Ya existe una escena navegable del Conjunto Santander, con minimapa y catálogo de intervenciones. El prototipo permite explorar drenaje, vegetación y mobiliario, y variar lluvia con métricas exploratorias.\n\nEl proceso participativo que planteamos tiene cinco momentos: explorar un lugar, proponer una intervención localizada, previsualizarla, revisar alternativas y devolver una explicación.\n\nLa persona puede aceptar o rechazar una propuesta en la experiencia. El equipo técnico necesita después compararla con datos y criterios. La devolución debe conservar qué se propuso y qué quedó en desacuerdo.\n\nAquí también hay ingeniería. La experiencia utiliza three.js y un motor Rust con WASM. El asistente y los servicios tienen contratos internos. Colocar, mover o retirar un elemento son operaciones con entradas, superficies y resultados definidos.\n\nLa conexión con Twin u OLDT y con Participate debe completar el recorrido entre propuesta, revisión y devolución.\n\nEl piloto que proponemos parte de un sitio y una pregunta, compara al menos tres alternativas y evalúa comprensión frente a materiales convencionales. También mide tiempos, dificultades y cambios de opinión.\n\nCada alternativa debe conservar identidad, ubicación, versión y origen.\n\nLa lluvia del prototipo es exploratoria. Para sostener inferencias hidráulicas necesitamos calibración y validación del uso correspondiente.\n\nEl objetivo es que una propuesta pueda localizarse, discutirse y volver como un objeto revisable. Ahora podemos regresar a las preguntas del congreso.",
+      "optional": false,
+      "sources": [
+        {
+          "label": "Polisplexity Quetzia · exploración participativa en Zapopan · expediente InnovaFest,16 oct2026"
+        },
+        {
+          "label": "Quetzia/Vortex · contrato del motor · copia de revisión técnica"
+        },
+        {
+          "label": "Dossier de investigación · Quetzia/Vortex · arquitectura documentada y referencias de demostración"
+        }
+      ]
+    },
+    {
+      "folio": 18,
+      "title": "Conclusiones: lo que el programa nos exige construir",
+      "image": "assets/slides/lamina-18.png",
+      "transcript": "Vuelvo a nuestra pregunta inicial con seis exigencias que conectan esta charla con el programa.\n\nCon la conversación de GeoAI de Milán Janosov, el agente nos lleva a preguntar qué cálculo definimos y cómo comparamos su ejecución.\n\nLos trabajos de Barranco, Sanabria y Mas nos recuerdan que claves, fechas, cobertura y comparabilidad forman parte del resultado.\n\nBautista-Montejano y Fonseca-Soler nos llevan a elegir la representación según el fenómeno: red, superficie o región funcional.\n\nEl trabajo de Gerón Flores y Velázquez Zapata nos exige comparar la complejidad con una referencia sencilla y mirar dónde aparece el error.\n\nLas preguntas de Espejel Trujillo y Ayoola nos llevan a hacer visibles los faltantes y la representatividad.\n\nLos trabajos de Pablo López Ramírez y María del Carmen Reyes Guerrero, y Sigtol con Moisés Bernal Canuto y Migue Angel Martinez Tapía, nos llevan a conservar memoria, responsables y mantenimiento.\n\nLas referencias permiten reconocer de qué ponencias nace cada conexión. Estas frases son nuestra síntesis para discutir; cada trabajo conserva sus resultados y argumentos.\n\n¿Podemos ensayar una decisión urbana? Podemos construir ensayos bajo supuestos explícitos, con evidencia revisable y criterios que permitan refutar una conclusión.\n\nAhora quiero convertir esa respuesta en trabajo que puedan llevarse los estudiantes.",
+      "optional": false,
+      "sources": [
+        {
+          "label": "Programa oficial iGISc 2026 · versión 0.2 · consulta 10 nov 2026",
+          "url": "https://pretalx.cienciaenmexico.com/igisc-2026/schedule/"
+        },
+        {
+          "label": "Cuaderno de62 contribuciones del programa: preguntas editoriales y trabajos propuestos"
+        }
+      ]
+    },
+    {
+      "folio": 19,
+      "title": "Del congreso al laboratorio: seis trabajos para empezar",
+      "image": "assets/slides/lamina-19.png",
+      "transcript": "Les propongo seis trabajos para empezar desde las ponencias.\n\nUno: desde SEVisual MX y el trabajo de Daniela Moctezuma, seguir una observación de campo hasta un resultado revisable.\n\nDos: relacionar los trabajos de Sergio Ivvan Valdez Peña y Arturo Venancio Flores para examinar qué prioridades cambian al mover pesos y restricciones.\n\nTres: desde el trabajo de Joyce Valdovinos, comparar patrones de expansión con igual superficie y distinta fragmentación.\n\nCuatro: retomar las preguntas de Celine Jacquin y Sandra Lucía Hernández Zetina para incorporar una observación que obligue a revisar una alternativa.\n\nCinco: desde la ponencia de Ana Laura Salguero Melgar, estudiar viajes y destinos sin convertir una asociación espacial en causa.\n\nSeis: a partir de la ponencia de grafos de Moctezuma y Valdez Peña, comparar una red relacional con vecindad geométrica.\n\nCada ficha tiene una pregunta, algo que hacer y algo que entregar. En pequeño están los nombres y ponencias de origen. El cuaderno adjunto extiende este estudio a las sesenta y dos contribuciones del programa.\n\nPueden empezar con R, Python o QGIS. Después pueden exponer una operación mediante MCP, pedir a un agente que la ejecute y comparar el artefacto con la ejecución nativa.\n\nUstedes formulan, validan y critican. El agente ayuda a ejecutar.\n\nQuisiera que se llevaran una pregunta: ¿qué observación me haría cambiar de conclusión?\n\nCon eso abro la discusión. ¿Qué supuesto, qué dato o qué mecanismo de lo que mostramos quieren poner a prueba?",
+      "optional": false,
+      "sources": [
+        {
+          "label": "Programa oficial iGISc 2026 · versión 0.2 · consulta 10 nov 2026",
+          "url": "https://pretalx.cienciaenmexico.com/igisc-2026/schedule/"
+        },
+        {
+          "label": "Cuaderno de62 contribuciones del programa: preguntas editoriales y trabajos propuestos"
+        }
+      ]
+    },
+    {
+      "folio": 20,
+      "title": "Fuentes, cortes de evidencia y rutas de reproducción",
+      "image": "assets/slides/lamina-20.png",
+      "transcript": "Aquí están los cortes de evidencia y las rutas de reproducción. En el guion y el cuaderno quedan los enlaces completos. Podemos localizar la afirmación que quieran discutir y revisar su fuente, la operación correspondiente y su alcance.",
+      "optional": true,
+      "sources": [
+        {
+          "label": "Programa oficial iGISc 2026 · versión 0.2 · consulta 10 nov 2026",
+          "url": "https://pretalx.cienciaenmexico.com/igisc-2026/schedule/"
+        },
+        {
+          "label": "Bettencourt, Introduction to Urban Science (MIT Press, 2021); índice y prefacio",
+          "url": "https://mitpress.mit.edu/9780262046008/introduction-to-urban-science/"
+        },
+        {
+          "label": "Índice y prefacio del libro",
+          "url": "https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/13909/TOC_preface.pdf?dl=1"
+        },
+        {
+          "label": "Santa Fe Institute · A bridge between the simplicity and complexity of cities",
+          "url": "https://www.santafe.edu/news-center/news/bridge-simplicity-and-complexity-cities"
+        },
+        {
+          "label": "LDT4SSC · Open Call 3 · convocatoria cerrada 13 jul 2026",
+          "url": "https://ldt4ssc.eu/call-three/"
+        },
+        {
+          "label": "Polisplexity · Anexo A2 v4 · Evidencia OLDT y EU LDT Toolbox · 18 jul 2026"
+        },
+        {
+          "label": "Polisplexity · Anexo A1 · Arquitectura OTKN y alineación SITU · 18 jul 2026"
+        },
+        {
+          "label": "Urban MCP · evidencia reproducible · native.json, mcp.json, agents.json"
+        },
+        {
+          "label": "OLDT · Agent and Assistant Boundaries · implementación documentada, 8 oct 2026"
+        },
+        {
+          "label": "Dossier de investigación · Quetzia/Vortex · arquitectura documentada y referencias de demostración"
+        },
+        {
+          "label": "Dossier de investigación iGISc · correspondencia de Tallinn (23 oct), reunión Helsinki (2 nov) y seguimiento Tallinn Digital Summit"
+        },
+        {
+          "label": "Jordan Gunn · gdal-mcp · código reutilizado · commit 418f401c7987e388eaaee6ad13289798a1ff69b6",
+          "url": "https://github.com/JordanGunn/gdal-mcp"
+        }
+      ]
+    }
+  ]
+}

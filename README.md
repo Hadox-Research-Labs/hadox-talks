@@ -18,6 +18,7 @@ social handoff material for later distribution.
 
 | Talk | Source | Status |
 | --- | --- | --- |
+| `igisc-2026-agentes-ia-gemelos-digitales-locales` | iGISc 2026, approved 20-slide edition, 10 Nov 2026 | Spanish continuous browser narration, full script, downloadable PPTX with notes and PDF, 62-contribution workbook |
 | `elephant-cities-mice-companies` | Historical Google Slides deck, 2021 | Published with original slide images, Spanish narration, English narration, speaker scripts, and social handoff package |
 | `resilient-urban-ai` | Historical Google Slides deck, 2024 | Published with original slide images, Spanish narration, English narration, speaker scripts, phone redaction on final slide, and link-only social handoff package |
 
@@ -108,3 +109,7 @@ https://hadox-research-labs.github.io/hadox-talks/
 
 The build source lives in the Hadox editorial workspace and should regenerate
 this static repository rather than hand-editing generated files.
+
+## iGISc 2026 edition
+
+The iGISc viewer uses native HTML and Web Speech API with chunked continuous narration. Start with **Reproducir ponencia** to read the clean script and advance slides. Slide 20 is a discussion appendix, skipped by continuous narration. Its PPTX preserves the approved raster slides and full speaker notes.
