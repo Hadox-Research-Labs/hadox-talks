@@ -3,9 +3,10 @@
   "author": "Edgar Valdés",
   "event": "iGISc 2026",
   "eventDate": "2026-11-13",
-  "revisionDate": "2026-11-10",
+  "revisionDate": "2026-11-12",
   "locale": "es-MX",
-  "edition": "Edición de referencia preparada para iGISc 2026",
+  "assetVersion": "20261112-2",
+  "edition": "Edición 2 · herramientas, mecanismos y conclusiones",
   "slides": [
     {
       "folio": 1,
@@ -151,9 +152,9 @@
     },
     {
       "folio": 11,
-      "title": "Europa: requisitos técnicos y lecciones de adopción",
+      "title": "Europa: qué necesita una capacidad urbana compartida",
       "image": "assets/slides/lamina-11.png",
-      "transcript": "En el trabajo europeo aparecen tres necesidades muy reconocibles.\n\nInterconectar gemelos que ya existen. Crear nuevos gemelos a partir de necesidades compartidas. Y ampliar capacidades mediante IA y componentes abiertos.\n\nLa convocatoria LDT4SSC las organiza en estas tres líneas. En todas necesitamos un caso común, datos disponibles, gobernanza, roles y continuidad.\n\nLa experiencia nos obliga a volver concretas esas palabras.\n\nEn el seguimiento municipal de Tallinn, TR-LDT no recibió financiación y se comunicó que PlanBIM continuaría con recursos propios. De ahí sale una pregunta sobre cómo alinear caso de uso, contratación y responsabilidades.\n\nEn la conversación con Forum Virium Helsinki discutimos el alcance de un asistente urbano, las licencias y la disponibilidad del código. ¿Qué trabajo concreto atiende y quién puede mantenerlo?\n\nLos materiales de seguimiento de Tallinn Digital Summit reúnen cribado solar, revisión de planeación y especialización de agentes. Ahí la pregunta es qué caso acotado puede convertirse en implementación.\n\nEstas conversaciones y materiales tienen ese estado de trabajo. Una adjudicación, un contrato o un piloto aceptado necesitan su evidencia correspondiente.\n\nEl marco publicado contemplaba hasta un millón de euros por consorcio, cincuenta por ciento de cofinanciación y dieciocho meses. Cerró en julio.\n\nLo que conecta estas experiencias con nuestro trabajo es una exigencia: construir una capacidad que otra institución pueda comprender, integrar, evaluar y sostener.",
+      "transcript": "Cuando trabajamos con otras ciudades aparece una dificultad muy concreta: cada institución ya tiene datos, programas, modelos y personas que saben hacer cosas. ¿Cómo conseguimos que ese trabajo pueda conectarse?\n\nEn el marco europeo de gemelos digitales encontramos tres necesidades. Conectar capacidades existentes. Construir nuevas capacidades alrededor de una pregunta. Y sostenerlas cuando cambia el equipo o termina el proyecto.\n\nInteroperar implica conservar el significado de un dato, la identidad de lo que describe y las condiciones bajo las que puede utilizarse. Compartir un archivo es solo una parte de ese recorrido.\n\nDespués necesitamos una pregunta común. Si comparamos alternativas, tenemos que precisar territorio, período, referencia y resultado esperado. Las mismas palabras pueden esconder mediciones diferentes.\n\nEl trabajo de Tallinn y Helsinki nos ha servido para aterrizar esas exigencias en casos: qué información necesitamos, qué operación aporta valor y quién podría continuarla.\n\nAquí la ciencia y la tecnología se encuentran. La ciencia precisa el fenómeno, el método y sus supuestos. La tecnología permite organizar datos, ejecutar operaciones y conservar los resultados. Las instituciones aportan responsabilidades, reglas y continuidad.\n\nCon esas exigencias podemos explicar mejor qué estamos construyendo con OLDT.",
       "optional": false,
       "sources": [
         {
@@ -167,33 +168,59 @@
     },
     {
       "folio": 12,
-      "title": "OLDT: tres planos para interoperar con evidencia",
+      "title": "Twin / OLDT: una ciudad que podemos consultar",
       "image": "assets/slides/lamina-12.png",
-      "transcript": "OLDT conserva un registro territorial en PostgreSQL y PostGIS, con catálogo, procedencia y trabajo analítico.\n\nPara conectarlo con capacidades externas separamos tres planos.\n\nDatos: elegimos una selección y una versión, y producimos una proyección o paquete. NGSI-LD organiza entidades y contexto; DCAT permite describir catálogos y distribuciones; OGC y GeoJSON sirven el acceso geográfico.\n\nControl: elegimos una instancia, su identidad, autenticación, rutas y capacidades. Los perfiles y adaptadores permiten configurar esa conexión y aislar fallas.\n\nEvidencia: conservamos la operación, sus parámetros, estado, resultado, errores y artefactos. También los identificadores externos, recibos y procedencia.\n\nLa ruta documentada del doce de julio publicó entradas, creó escenarios base e intervención y devolvió resultados con identificadores.\n\nLos contratos directos fueron Data Platform y Use Case & Scenarios. Airflow y AI Notebook participaron dentro de esa ruta compuesta.\n\nEsa evidencia permite revisar interoperabilidad: qué se intercambió y qué regresó al registro territorial. El modelo urbano y el efecto de la intervención tienen sus propias pruebas.\n\nVeamos con qué detalle conservamos el alcance por aplicación.",
+      "transcript": "OLDT significa Open Local Digital Twin. Es una infraestructura para reunir información de una ciudad, relacionarla y trabajar sobre ella con consultas, modelos y distintas formas de exploración. Twin Base Studio es su entorno de operación.\n\nPensemos en la pregunta de arriba: ¿qué edificios cumplen un criterio y dónde están? Para responder necesitamos geometrías, atributos y una definición del territorio sobre el que estamos preguntando.\n\nPostgreSQL y PostGIS conservan ese registro y permiten hacer operaciones espaciales. Builder ayuda a construir una consulta mediante controles; SQL permite expresar una consulta con más detalle.\n\nEl resultado puede verse en el mapa, examinarse en tres dimensiones y conservarse como una selección que otro análisis reutilice. MapLibre y Cesium son parte de esas superficies de exploración.\n\n¿Por qué puede funcionar ese recorrido? Porque las interfaces trabajan sobre un registro común. Una entidad mantiene su identidad, su geometría y su contexto. También necesitamos saber qué versión de los datos utilizamos.\n\nAquí la tecnología hace posible pasar de una pregunta a objetos identificables. Después podemos conectar una herramienta especializada para estudiar esos objetos con el método que corresponda.\n\nEl fragmento permite reconocer la operación: consultar, localizar y acercarse al detalle. El QR lleva a la página pública del producto, con demostraciones y documentación. El entorno operativo tiene su propio acceso.\n\nAhora veamos qué capacidades podemos conectar alrededor de una base como esta.",
       "optional": false,
       "sources": [
         {
-          "label": "Polisplexity · Anexo A2 v4 · Evidencia OLDT y EU LDT Toolbox · 18 jul 2026"
+          "label": "Open Local Digital Twin · producto, capacidades y demostraciones",
+          "url": "https://polisplexity.tech/products/open-local-digital-twin"
+        },
+        {
+          "label": "OLDT · Agent and Assistant Boundaries · implementación documentada, 8 oct 2026"
+        },
+        {
+          "label": "OLDT · consultas y mapa 2D · demostración de interfaz",
+          "url": "https://polisplexity.tech/products/open-local-digital-twin#interfaces"
         }
-      ]
+      ],
+      "resource": {
+        "label": "Ver Twin y sus demos",
+        "url": "https://polisplexity.tech/products/open-local-digital-twin#interfaces"
+      },
+      "video": {
+        "src": "assets/videos/twin-consulta.mp4",
+        "poster": "assets/videos/twin-consulta.png",
+        "title": "Consulta territorial en Twin / OLDT",
+        "caption": "Consultar, localizar y reutilizar una selección. Fragmento de una demostración de interfaz."
+      }
     },
     {
       "folio": 13,
-      "title": "EU LDT Toolbox: qué se probó, aplicación por aplicación",
+      "title": "EU LDT Toolbox: qué aporta cada herramienta",
       "image": "assets/slides/lamina-13.png",
-      "transcript": "Esta tabla es importante porque permite abrir nuestra propia afirmación técnica.\n\nDe las doce aplicaciones documentadas, ocho tienen integraciones aceptadas para operaciones específicas. Una participa en una ruta compuesta acotada. Tres quedaron evaluadas.\n\nEn identidad se ejercitó el ciclo de acceso y sesión. En escenarios se crearon y ejecutaron dos ramas con lectura de regreso. En visualización regresaron fuentes, capas, gráfica, reporte e identificadores.\n\nMarketplace ejercitó publicación y recuperación con dos agentes e integridad de archivos.\n\nLos siete de siete, cinco de cinco, seis de seis u ocho de ocho pertenecen a baterías diferentes. Para interpretar cada cuenta tenemos que leer qué casos incluyó.\n\nData Modeller conserva un matiz que vale la pena mostrar: verificamos rutas de generación e importación, mientras la salud general aparecía como Unhealthy.\n\nEn AI Notebook, el siete de siete corresponde a la ruta compuesta ensayada.\n\nParticipate, Federated Learning e Integrated Environment tienen el estado que ven aquí. El catálogo completo contiene otras clases de soluciones; este anexo cubre las doce aplicaciones.\n\nAsí una persona técnica puede cuestionar una operación concreta y localizar qué se probó, cuándo y con qué resultado.\n\nEsta forma de conservar evidencia también importa cuando pasamos del laboratorio a un sistema territorial institucional.",
+      "transcript": "El EU LDT Toolbox reúne piezas para diferentes partes del trabajo de un gemelo digital. Conviene entender el papel de cada una antes de discutir cómo se conecta a nuestra infraestructura.\n\nEmpecemos por preparar la base. Data Platform permite intercambiar entidades y su contexto. Data Modeller ayuda a estructurar y preparar datos. Uno atiende el intercambio; el otro atiende cómo representamos y preparamos lo que utilizaremos.\n\nAhora queremos ensayar una alternativa. Use Cases and Scenarios organiza una referencia y una intervención. AI Notebook permite incorporar análisis o inferencia dentro de un flujo. Federated Learning aborda el entrenamiento de modelos entre nodos. Son capacidades diferentes y se eligen según el problema.\n\nDespués tenemos que interpretar y colaborar. Play and Visualise permite explorar mapas y resultados. City Innovation Planner relaciona iniciativas con indicadores. Participate organiza aportaciones y deliberación.\n\nPara compartir y operar aparecen otras piezas. Marketplace permite descubrir y ofrecer recursos. Data Space Ready atiende el intercambio bajo condiciones. Identity Management gestiona identidad y permisos. Integrated Environment ofrece una entrada al conjunto de aplicaciones.\n\nSigamos un ejemplo: ¿dónde conviene estudiar un nuevo servicio? Reunimos datos, definimos alternativas, ejecutamos un análisis y mostramos sus resultados para discutirlos. Cada pieza aporta una capacidad a ese recorrido.\n\nLa integración concreta con OLDT depende del caso y del componente. Este mapa explica las funciones del ecosistema; los detalles de cada conexión quedan en la documentación.\n\nLo importante para nuestra pregunta científica es poder elegir y relacionar las capacidades necesarias. Y eso nos lleva a otro asunto: cómo conservar el conocimiento territorial cuando pasa de una herramienta o institución a otra.",
       "optional": false,
       "sources": [
         {
+          "label": "EU Local Digital Twin Toolbox · ecosistema de herramientas",
+          "url": "https://living-in.eu/partnerships/eu-local-digital-twin-ldt-toolbox"
+        },
+        {
           "label": "Polisplexity · Anexo A2 v4 · Evidencia OLDT y EU LDT Toolbox · 18 jul 2026"
+        },
+        {
+          "label": "Open Local Digital Twin · producto, capacidades y demostraciones",
+          "url": "https://polisplexity.tech/products/open-local-digital-twin"
         }
       ]
     },
     {
       "folio": 14,
-      "title": "SITU / OTKN: convertir activos en conocimiento gobernado",
+      "title": "SITU / OTKN: del archivo al conocimiento territorial",
       "image": "assets/slides/lamina-14.png",
-      "transcript": "Con SITU la pregunta se amplía: ¿cómo conservamos un activo territorial para que pueda entenderse, revisarse e intercambiarse?\n\nOTKN, el Nodo Abierto de Conocimiento Territorial, es una propuesta modular de arquitectura. En esta lámina estamos mostrando su diseño y los componentes que deben validarse en una implementación de referencia.\n\nLa especificación núcleo define activos, entidades, versiones, relaciones, autoridad, tiempo y procedencia.\n\nEl perfil OTKN–SITU traduce guías, catálogos y metadatos a esquemas, reglas, ejemplos y pruebas de conformidad.\n\nEl runtime de referencia permite ingresar, catalogar, revisar, publicar y consultar.\n\nLos conectores se encargan del intercambio con repositorios, geoservicios y otros nodos. Necesitan manifiestos, recibos y reintentos.\n\nEl kit de conformidad conserva casos y evidencia. Y el plan operativo aborda identidad, respaldo, observabilidad, continuidad y portabilidad.\n\nAhora sigamos un archivo. Conservamos el original y su huella. Validamos un perfil. Transformamos con procedencia. Relacionamos el activo. Lo revisa un especialista. Una autoridad publica una versión. Después intercambiamos y registramos el acuse.\n\nCada paso debe dejar algo que permita reconstruir lo que ocurrió.\n\nAquí distinguimos tres responsabilidades que se complementan.\n\nLa validación técnica examina estructura, reglas e integridad. La revisión especialista examina significado, calidad y pertinencia. La autoridad institucional determina oficialidad, vigencia y publicación.\n\nUn archivo puede tener una estructura correcta y requerir una revisión de significado. También puede ser útil para investigar y tener otro estado de autoridad.\n\nPor eso distinguimos especificación, implementación de referencia y despliegue conforme. El diseño establece qué necesitamos construir y probar.\n\nAhora quiero mostrar dos casos de OLDT donde esta preocupación por conservar entradas, operaciones y resultados ya se vuelve muy visible.",
+      "transcript": "Imaginemos que recibimos un archivo geográfico. Podemos abrirlo y dibujarlo en un mapa. Para convertirlo en conocimiento útil necesitamos comprender qué representa y bajo qué condiciones podemos utilizarlo.\n\nEn nuestra propuesta OTKN, Nodo Abierto de Conocimiento Territorial, el primer paso es conservar el origen: fuente, fecha, versión y condiciones de uso.\n\nDespués le damos estructura con metadatos y esquemas. Eso permite interpretar sus campos y relacionarlos con entidades, observaciones, lugares y períodos.\n\nLa revisión especialista examina significado, calidad y pertinencia. Una autoridad institucional determina vigencia, acceso y actualización. Después otro equipo puede recuperar ese activo y utilizarlo conservando su contexto.\n\nEste recorrido explica por qué necesitamos catálogos, esquemas, conectores, geoservicios, identidad y permisos. Cada tecnología sostiene una parte del trabajo.\n\nEn la alineación propuesta con SITU distinguimos tres responsabilidades complementarias. La técnica atiende estructura e integridad. La especialista atiende interpretación y calidad. La institucional atiende autoridad y continuidad.\n\nEstamos mostrando una arquitectura propuesta. Su propósito es que el conocimiento pueda acumularse y reutilizarse sin perder las relaciones que permiten entenderlo. Ahora llevemos estas ideas a dos preguntas urbanas concretas.",
       "optional": false,
       "sources": [
         {
@@ -203,52 +230,71 @@
     },
     {
       "folio": 15,
-      "title": "OLDT: dos casos presentados en Europa",
+      "title": "OLDT: dos preguntas urbanas, dos formas de ensayar",
       "image": "assets/slides/lamina-15.png",
-      "transcript": "Estos son dos casos presentados en contextos europeos. Tallinn y Helsinki son los contextos de presentación; el registro territorial que alimenta las demostraciones es OLDT Medellín.\n\nEn Tallinn el reto es revisar una propuesta antes de dar por satisfactorio un expediente.\n\nPartimos de una selección archivada de sesenta y seis edificios reales, con geometrías e identificadores. Sobre ese contexto trabajamos una propuesta demostrativa.\n\nLa propuesta tiene veintidós metros. La comparamos con un criterio demostrativo de dieciocho y después corregimos a diecisiete.\n\nLa altura satisface esa prueba. La vegetación necesita una clasificación adicional. Corregir la altura deja otras preguntas abiertas que el sistema debe conservar.\n\nEl asistente puede formular una intención acotada. El motor modifica y comprueba geometría. Después obtenemos un IFC que puede abrir un lector independiente.\n\nCada ejecución conserva insumos, reglas, modelo, resultados, informe y registro. Eso permite revisar exactamente qué configuración produjo una salida.\n\nLos criterios y la propuesta son demostrativos. Para una aplicación municipal necesitamos incorporar el proyecto, sus datos y los criterios que correspondan. La prueba documenta el intercambio ensayado.\n\nEn Helsinki el reto es seleccionar edificios para orientar una evaluación energética.\n\nConsultamos OLDT en un radio de un kilómetro y pedimos huellas de al menos mil metros cuadrados. Obtuvimos ciento veintisiete edificios candidatos, con una huella agregada de aproximadamente trescientos treinta y seis mil metros cuadrados.\n\nAhora tenemos candidatos identificables sobre los que hacer preguntas adicionales.\n\nPVGIS aporta una referencia de rendimiento de mil cuatrocientos cuarenta y tres coma treinta y ocho kilovatios hora por kilovatio pico al año. Esa referencia se calculó en el centroide del mayor candidato.\n\nEl cálculo de la lámina utiliza una fracción aprovechable de cincuenta por ciento y una eficiencia de módulo de veinte por ciento como supuestos ilustrativos. Con ellos estimamos potencia y después energía anual.\n\nLa huella del edificio y la cubierta útil son mediciones diferentes. Para avanzar necesitamos sombra, estructura y evaluación por techo.\n\nAquí se ve el patrón que nos interesa: selección territorial versionada, herramienta especializada, resultado identificable y revisión.\n\nEn un caso revisamos una propuesta geométrica. En otro orientamos una siguiente evaluación energética. En ambos conservamos qué sabemos, qué asumimos y qué necesitamos investigar.\n\nAhora abramos una prueba donde el agente efectivamente opera herramientas y podemos comparar sus artefactos con una referencia.",
+      "transcript": "Estos casos fueron presentados en los contextos de Tallinn y Helsinki. Los datos territoriales de ambos ejemplos son de Medellín.\n\nEn el primero preguntamos: ¿qué cambia al contrastar una propuesta edificatoria con un criterio explícito?\n\nPartimos de una selección de sesenta y seis edificios reales y una propuesta demostrativa. La propuesta tiene veintidós metros. La contrastamos con un criterio demostrativo de dieciocho y preparamos una alternativa de diecisiete.\n\nLa operación tiene un método definido: comparar geometría y reglas. OLDT aporta la selección territorial; el motor geométrico modifica y comprueba la propuesta; el intercambio IFC permite que otra persona inspeccione el modelo.\n\nLa alternativa satisface ese criterio de altura. La condición de vegetación sigue requiriendo otra revisión. Una modificación responde una parte de la pregunta y puede dejar otras abiertas.\n\nEn el segundo caso preguntamos: ¿qué edificios conviene estudiar primero para aprovechamiento solar?\n\nHacemos una selección espacial con un radio de un kilómetro y huellas de al menos mil metros cuadrados. Obtenemos ciento veintisiete edificios candidatos. PVGIS aporta una referencia de rendimiento solar para orientar el estudio.\n\nEl resultado útil es una selección de candidatos identificables. Para evaluar cada techo necesitamos información adicional: superficie realmente aprovechable, sombra, estructura y condiciones de instalación.\n\nEn los dos casos podemos reconocer el mismo recorrido: una pregunta, datos y método, una operación y un resultado urbano que alguien puede revisar.\n\nEso es lo que queremos hacer visible: cómo la herramienta permite avanzar en un problema concreto, qué resultado produce y qué investigación sigue siendo necesaria. Los criterios y supuestos de estos ejemplos son demostrativos.",
       "optional": false,
       "sources": [
-        {
-          "label": "OLDT · demostrador Tallinn/Medellín · revisión pre-BIM e intercambioIFC"
-        },
         {
           "label": "OLDT · cribado solar presentado en Helsinki · datos de Medellín · resumen verificado,1 nov2026"
         },
         {
-          "label": "Dossier de investigación iGISc · correspondencia de Tallinn (23 oct), reunión Helsinki (2 nov) y seguimiento Tallinn Digital Summit"
-        },
-        {
-          "label": "OLDT · Agent and Assistant Boundaries · implementación documentada, 8 oct 2026"
+          "label": "OLDT · demostrador Tallinn/Medellín · revisión pre-BIM e intercambioIFC"
         }
       ]
     },
     {
       "folio": 16,
-      "title": "Urban MCP: de la llamada de herramienta a la evidencia",
+      "title": "Urban MCP: herramientas urbanas al alcance de un agente",
       "image": "assets/slides/lamina-16.png",
-      "transcript": "Este caso trabaja con servicios de Helsinki. La tarea es obtener inventarios a partir de datos y categorías identificables.\n\nReutilizamos trece funciones geoespaciales y añadimos seis municipales. En total, el servidor expone diecinueve.\n\nHay siete vectoriales, cinco de ráster y una para guardar justificación. Las seis municipales permiten inspeccionar el estado, adquirir fuentes, preparar datos, consultar categorías, calcular inventarios y leer artefactos.\n\nEl trabajo del agente consiste en descubrir esas capacidades y utilizarlas con argumentos que respeten el contrato.\n\nAquí se ve un contrato real. inventory_by_district recibe service_ids como lista. La categoría de bibliotecas públicas utiliza el identificador ochocientos trece. Salud utiliza setecientos tres.\n\nEl nombre de la categoría, sus identificadores y el esquema tienen consecuencias sobre lo que consulta la herramienta.\n\nProbamos tres cosas distintas: dieciocho pruebas de contratos y adquisición; setenta y dos comprobaciones del protocolo MCP, con llamadas a las diecinueve funciones; y sesenta y nueve pruebas del servidor original con la compatibilidad aplicada.\n\nCada batería sostiene una parte diferente de la evidencia.\n\nDespués dimos la tarea a Codex y Hermes desde espacios de trabajo vacíos, sin proporcionar las respuestas esperadas.\n\nLos CSV de ambos fueron idénticos a la referencia nativa para los dos inventarios: cuarenta y seis registros geolocalizados de bibliotecas y veintitrés de salud. Conservamos las huellas de los archivos.\n\nLa cobertura de las diecinueve funciones corresponde a la suite determinista. En las ejecuciones de agentes conservamos sus llamadas y resultados observados.\n\nTambién conservamos los límites de interpretación: contamos registros, con su clasificación y cobertura. La capacidad del servicio y las necesidades de sus usuarios requieren otras fuentes.\n\nEse es un resultado que podemos reconstruir y cuestionar. Ahora veamos cómo llevamos una propuesta a una experiencia participativa.",
+      "transcript": "Un agente necesita herramientas para trabajar sobre una ciudad. Urban MCP reúne capacidades de software urbano con los datos y la preparación que exige cada caso.\n\nMCP, el Protocolo de Contexto de Modelo, permite descubrir capacidades y solicitar su ejecución con argumentos definidos. El agente coordina los pasos. El cálculo lo realiza una herramienta especializada.\n\nSi pedimos un inventario de servicios por distrito, necesitamos registros, geometrías y una unión espacial. GDAL y GeoPandas aportan operaciones para trabajar con esos datos. El resultado puede ser un mapa y una tabla que podamos examinar.\n\nSi preguntamos cómo cambia una ruta al cerrar un enlace, necesitamos una red y un método para calcular caminos. Ahí entran los grafos y las herramientas de recorridos peatonales. La cercanía en línea recta y el recorrido por la red responden preguntas diferentes.\n\nSi estudiamos vegetación, necesitamos interpretar clases de cobertura y resumirlas por zona. Las operaciones sobre ráster deben respetar qué significa cada categoría y de qué fecha proviene.\n\nPara tránsito aparece SUMO, un motor de simulación que permite representar vehículos, redes e intervenciones declaradas. Para drenaje aparece SWMM, con un modelo hidráulico, lluvia y condiciones de la red.\n\nEl protocolo común permite operar esas capacidades desde un agente compatible. El método, los datos y la interpretación siguen dependiendo del problema. Una simulación necesita supuestos y un alcance que podamos explicar.\n\nVolvamos al ejemplo de bibliotecas: localizamos los registros, los relacionamos con distritos, calculamos el inventario y examinamos mapa y tabla. Ese resultado describe lo registrado. Evaluar acceso requiere además recorridos, horarios, capacidad y necesidades.\n\nEl QR lleva al repositorio público, con los casos, la instalación y sus alcances. La demostración de un agente operando OLDT por MCP muestra el patrón de coordinación; Urban MCP y el servicio MCP propio de OLDT son desarrollos distintos.\n\nLa capacidad que nos interesa es que una pregunta pueda activar operaciones concretas y devolver algo que una persona pueda comprender y criticar.",
       "optional": false,
       "sources": [
+        {
+          "label": "Urban MCP · capacidades y casos públicos · consulta 12 nov 2026",
+          "url": "https://github.com/polisplexity/urban-mcp"
+        },
         {
           "label": "Urban MCP · Helsinki municipal service inventory · snapshot 20261110T112344Z-500b5c",
           "url": "https://github.com/polisplexity/urban-mcp/tree/feat/helsinki-municipal-inventory/cases/helsinki-service-inventory"
         },
         {
-          "label": "Urban MCP · evidencia reproducible · native.json, mcp.json, agents.json"
+          "label": "MCP · herramientas, recursos y protocolo",
+          "url": "https://modelcontextprotocol.io/docs/learn/server-concepts"
         },
         {
-          "label": "Jordan Gunn · gdal-mcp · código reutilizado · commit 418f401c7987e388eaaee6ad13289798a1ff69b6",
-          "url": "https://github.com/JordanGunn/gdal-mcp"
+          "label": "Urban MCP · recorridos peatonales Helsinki y Amsterdam",
+          "url": "https://github.com/polisplexity/urban-mcp/tree/main/cases/two-city-walking"
+        },
+        {
+          "label": "Urban MCP · cobertura histórica y estadísticas por zona",
+          "url": "https://github.com/polisplexity/urban-mcp/tree/main/cases/two-city-vegetation"
+        },
+        {
+          "label": "Urban MCP · escenarios históricos de tránsito con SUMO",
+          "url": "https://github.com/polisplexity/urban-mcp/tree/main/cases/two-city-sumo"
+        },
+        {
+          "label": "Urban MCP · modelos históricos de drenaje con SWMM",
+          "url": "https://github.com/polisplexity/urban-mcp/tree/main/cases/two-city-swmm"
         }
-      ]
+      ],
+      "resource": {
+        "label": "Explorar Urban MCP",
+        "url": "https://github.com/polisplexity/urban-mcp"
+      }
     },
     {
       "folio": 17,
-      "title": "Quetzia: explorar, proponer y revisar en Zapopan",
+      "title": "Quetzia: explorar un lugar, proponer un cambio y discutirlo",
       "image": "assets/slides/lamina-17.png",
-      "transcript": "Quetzia tiene aquí un papel muy concreto: conectar la experiencia de una persona en el espacio público con una alternativa que un equipo técnico pueda revisar.\n\nLo estamos pensando para Zapopan. Ya existe una escena navegable del Conjunto Santander, con minimapa y catálogo de intervenciones. El prototipo permite explorar drenaje, vegetación y mobiliario, y variar lluvia con métricas exploratorias.\n\nEl proceso participativo que planteamos tiene cinco momentos: explorar un lugar, proponer una intervención localizada, previsualizarla, revisar alternativas y devolver una explicación.\n\nLa persona puede aceptar o rechazar una propuesta en la experiencia. El equipo técnico necesita después compararla con datos y criterios. La devolución debe conservar qué se propuso y qué quedó en desacuerdo.\n\nAquí también hay ingeniería. La experiencia utiliza three.js y un motor Rust con WASM. El asistente y los servicios tienen contratos internos. Colocar, mover o retirar un elemento son operaciones con entradas, superficies y resultados definidos.\n\nLa conexión con Twin u OLDT y con Participate debe completar el recorrido entre propuesta, revisión y devolución.\n\nEl piloto que proponemos parte de un sitio y una pregunta, compara al menos tres alternativas y evalúa comprensión frente a materiales convencionales. También mide tiempos, dificultades y cambios de opinión.\n\nCada alternativa debe conservar identidad, ubicación, versión y origen.\n\nLa lluvia del prototipo es exploratoria. Para sostener inferencias hidráulicas necesitamos calibración y validación del uso correspondiente.\n\nEl objetivo es que una propuesta pueda localizarse, discutirse y volver como un objeto revisable. Ahora podemos regresar a las preguntas del congreso.",
+      "transcript": "Quetzia conecta una experiencia espacial con la posibilidad de proponer un cambio y discutirlo. La aplicación que planteamos para Zapopan parte de esa idea.\n\nPrimero reconocemos un lugar. Lo recorremos, nos orientamos y localizamos un problema. Después elegimos una intervención y la previsualizamos en el espacio. Finalmente abrimos la revisión: qué se propuso, dónde está y qué observaciones provoca.\n\nEn la captura real podemos ver un ejemplo sencillo. Elegimos vegetación, seleccionamos un fresno, revisamos un lugar sugerido y colocamos el árbol en la escena.\n\nPara que eso ocurra hay tecnología concreta. La escena utiliza three.js. El motor se desarrolla en Rust y WASM. Las herramientas trabajan con comandos definidos para colocar, mover o retirar elementos, con las reglas correspondientes al objeto y a su ubicación.\n\nLa experiencia espacial permite explicar una alternativa de una manera que muchas personas pueden reconocer. Después necesitamos discutirla con criterios, información y conocimiento del lugar.\n\nEl piloto participativo para Zapopan y la conexión completa con Twin y los procesos institucionales son parte de la propuesta de desarrollo. La lluvia exploratoria también necesita validación para sostener un uso hidráulico.\n\nEl QR permite abrir Quetzia y explorar el prototipo. Lo que queremos investigar es cómo una experiencia como esta puede ayudar a formular propuestas más claras y a recibir observaciones que realmente las modifiquen. Con eso ya podemos regresar a la pregunta del inicio.",
       "optional": false,
       "sources": [
+        {
+          "label": "Quetzia · prototipo público",
+          "url": "https://quetzia.polisplexity.tech/"
+        },
         {
           "label": "Polisplexity Quetzia · exploración participativa en Zapopan · expediente InnovaFest,16 oct2026"
         },
@@ -256,15 +302,26 @@
           "label": "Quetzia/Vortex · contrato del motor · copia de revisión técnica"
         },
         {
-          "label": "Dossier de investigación · Quetzia/Vortex · arquitectura documentada y referencias de demostración"
+          "label": "Quetzia · captura real de exploración y colocación de un fresno · 12 nov 2026",
+          "url": "https://quetzia.polisplexity.tech/"
         }
-      ]
+      ],
+      "resource": {
+        "label": "Probar Quetzia",
+        "url": "https://quetzia.polisplexity.tech/"
+      },
+      "video": {
+        "src": "assets/videos/quetzia-intervencion.mp4",
+        "poster": "assets/videos/quetzia-intervencion.png",
+        "title": "Una intervención en Quetzia",
+        "caption": "Captura real: seleccionar un fresno, elegir un lugar sugerido y colocarlo. Se omitieron pausas entre acciones."
+      }
     },
     {
       "folio": 18,
-      "title": "Conclusiones: lo que el programa nos exige construir",
+      "title": "Conclusión: ensayar una decisión y poder discutirla",
       "image": "assets/slides/lamina-18.png",
-      "transcript": "Vuelvo a nuestra pregunta inicial con seis exigencias que conectan esta charla con el programa.\n\nCon la conversación de GeoAI de Milán Janosov, el agente nos lleva a preguntar qué cálculo definimos y cómo comparamos su ejecución.\n\nLos trabajos de Barranco, Sanabria y Mas nos recuerdan que claves, fechas, cobertura y comparabilidad forman parte del resultado.\n\nBautista-Montejano y Fonseca-Soler nos llevan a elegir la representación según el fenómeno: red, superficie o región funcional.\n\nEl trabajo de Gerón Flores y Velázquez Zapata nos exige comparar la complejidad con una referencia sencilla y mirar dónde aparece el error.\n\nLas preguntas de Espejel Trujillo y Ayoola nos llevan a hacer visibles los faltantes y la representatividad.\n\nLos trabajos de Pablo López Ramírez y María del Carmen Reyes Guerrero, y Sigtol con Moisés Bernal Canuto y Migue Angel Martinez Tapía, nos llevan a conservar memoria, responsables y mantenimiento.\n\nLas referencias permiten reconocer de qué ponencias nace cada conexión. Estas frases son nuestra síntesis para discutir; cada trabajo conserva sus resultados y argumentos.\n\n¿Podemos ensayar una decisión urbana? Podemos construir ensayos bajo supuestos explícitos, con evidencia revisable y criterios que permitan refutar una conclusión.\n\nAhora quiero convertir esa respuesta en trabajo que puedan llevarse los estudiantes.",
+      "transcript": "¿Podemos ensayar una decisión urbana antes de vivir sus consecuencias?\n\nPodemos comparar consecuencias posibles bajo datos, métodos y supuestos explícitos, y abrir los resultados a revisión. Cada pieza aporta algo distinto: la IA ayuda a formular y representar; el agente coordina operaciones; un motor calcula con un método; el gemelo relaciona territorio y escenarios; las personas interpretan, deciden y revisan.\n\nLas ponencias del congreso permiten precisar esa respuesta. Con Milán Janosov aparece la exigencia de un cálculo definido. Barranco, Sanabria y Mas nos llevan a mirar comparabilidad y cobertura. Bautista-Montejano y Fonseca-Soler nos hacen revisar qué representación utilizamos.\n\nGerón Flores y Velázquez Zapata recuerdan que la complejidad tiene que compararse con una referencia. Espejel Trujillo y Ayoola nos llevan a reconocer ausencias y representatividad. Los trabajos de López Ramírez, Reyes Guerrero, Bernal Canuto y Martinez Tapía conectan esta tecnología con memoria y capacidad institucional.\n\nEstas son conexiones editoriales de nuestra charla con el programa. Las fuentes permiten discutir cada vínculo.\n\nLa incertidumbre sigue presente. También siguen presentes los fines, las diferencias de interés y el juicio público. La oportunidad tecnológica es hacer más explícito y revisable el recorrido entre una pregunta y una conclusión.",
       "optional": false,
       "sources": [
         {
@@ -273,14 +330,18 @@
         },
         {
           "label": "Cuaderno de62 contribuciones del programa: preguntas editoriales y trabajos propuestos"
+        },
+        {
+          "label": "Bettencourt, Introduction to Urban Science (MIT Press, 2021); índice y prefacio",
+          "url": "https://mitpress.mit.edu/9780262046008/introduction-to-urban-science/"
         }
       ]
     },
     {
       "folio": 19,
-      "title": "Del congreso al laboratorio: seis trabajos para empezar",
+      "title": "Conclusión abierta: seis preguntas para seguir construyendo",
       "image": "assets/slides/lamina-19.png",
-      "transcript": "Les propongo seis trabajos para empezar desde las ponencias.\n\nUno: desde SEVisual MX y el trabajo de Daniela Moctezuma, seguir una observación de campo hasta un resultado revisable.\n\nDos: relacionar los trabajos de Sergio Ivvan Valdez Peña y Arturo Venancio Flores para examinar qué prioridades cambian al mover pesos y restricciones.\n\nTres: desde el trabajo de Joyce Valdovinos, comparar patrones de expansión con igual superficie y distinta fragmentación.\n\nCuatro: retomar las preguntas de Celine Jacquin y Sandra Lucía Hernández Zetina para incorporar una observación que obligue a revisar una alternativa.\n\nCinco: desde la ponencia de Ana Laura Salguero Melgar, estudiar viajes y destinos sin convertir una asociación espacial en causa.\n\nSeis: a partir de la ponencia de grafos de Moctezuma y Valdez Peña, comparar una red relacional con vecindad geométrica.\n\nCada ficha tiene una pregunta, algo que hacer y algo que entregar. En pequeño están los nombres y ponencias de origen. El cuaderno adjunto extiende este estudio a las sesenta y dos contribuciones del programa.\n\nPueden empezar con R, Python o QGIS. Después pueden exponer una operación mediante MCP, pedir a un agente que la ejecute y comparar el artefacto con la ejecución nativa.\n\nUstedes formulan, validan y critican. El agente ayuda a ejecutar.\n\nQuisiera que se llevaran una pregunta: ¿qué observación me haría cambiar de conclusión?\n\nCon eso abro la discusión. ¿Qué supuesto, qué dato o qué mecanismo de lo que mostramos quieren poner a prueba?",
+      "transcript": "Quiero cerrar con seis preguntas que el programa nos deja abiertas y que ahora podemos trabajar con nuevas capacidades.\n\n¿Cómo llega una observación de campo a una decisión? El trabajo de Daniela Moctezuma permite abrir ese recorrido.\n\n¿Qué prioridades cambian cuando movemos los pesos? Las ponencias de Valdez Peña y Venancio Flores nos invitan a examinar sensibilidad y criterios.\n\n¿Igual superficie implica iguales efectos urbanos? Con Valdovinos podemos discutir forma y escala.\n\n¿La participación puede modificar nuestro criterio? Jacquin y Hernández Zetina nos llevan al conocimiento colectivo y a la revisión de las alternativas.\n\n¿Una asociación espacial explica una causa? Salguero Melgar abre la discusión sobre mecanismos e interpretación.\n\n¿Qué relaciones perdemos al usar solo contigüidad? La ponencia de grafos de Moctezuma y Valdez Peña nos invita a elegir mejor la red que representa nuestro problema.\n\nSon líneas para investigar y construir, desde la ciencia geoespacial y con herramientas que podemos operar. En el cuaderno del QR están las sesenta y dos contribuciones, los autores, las preguntas y rutas prácticas para continuar.\n\nConcluyo con una pregunta para discutir lo que acabamos de ver: ¿qué observación nos haría cambiar de conclusión?\n\nLos invito a cuestionar un supuesto, una representación, un dato o una interpretación de nuestra propuesta.",
       "optional": false,
       "sources": [
         {
@@ -290,7 +351,11 @@
         {
           "label": "Cuaderno de62 contribuciones del programa: preguntas editoriales y trabajos propuestos"
         }
-      ]
+      ],
+      "resource": {
+        "label": "Abrir ponencias y materiales",
+        "url": "Cuaderno_ponencias_IGISc_2026.html"
+      }
     },
     {
       "folio": 20,

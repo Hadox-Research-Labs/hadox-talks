@@ -113,3 +113,7 @@ this static repository rather than hand-editing generated files.
 ## iGISc 2026 edition
 
 The iGISc viewer uses native HTML and Web Speech API with chunked continuous narration. Start with **Reproducir ponencia** to read the clean script and advance slides. Slide 20 is a discussion appendix, skipped by continuous narration. Its PPTX preserves the approved raster slides and full speaker notes.
+
+### iGISc editorial revision, 12 November 2026
+
+Slides 11–19 now explain capabilities, methods and urban applications. The closing connects the scientific conclusions to named congress contributions. Four functional QR codes link to Twin/OLDT, Urban MCP, Quetzia and the workbook. The viewer includes two screen demonstrations (OLDT query and Quetzia placement), pauses narration during playback and resumes it when the clip ends. PPTX/PDF and speaker script follow the same edition. Browser reading offers speeds through 2x.
