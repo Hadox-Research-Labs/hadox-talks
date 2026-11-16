@@ -1,0 +1,53 @@
+{
+  "title": "ERP e Inteligencia Artificial",
+  "author": "Edgar Antonio Valdés Porras",
+  "source": "Módulo VII · Facultad de Química, UNAM",
+  "hours": 28,
+  "updated": "2026-11-16",
+  "edition": "20261116-1",
+  "sessions": [
+    {
+      "number": 1,
+      "date": "19/11/2026",
+      "title": "Empresa conectada y preparación de plataformas",
+      "published": true,
+      "url": "sesion-1/"
+    },
+    {
+      "number": 2,
+      "date": "24/11/2026",
+      "title": "Fundamentos y aplicaciones de inteligencia artificial",
+      "published": false
+    },
+    {
+      "number": 3,
+      "date": "25/11/2026",
+      "title": "Anatomía y construcción de agentes",
+      "published": false
+    },
+    {
+      "number": 4,
+      "date": "26/11/2026",
+      "title": "Prompts, contexto, grounding y orquestación",
+      "published": false
+    },
+    {
+      "number": 5,
+      "date": "01/12/2026",
+      "title": "Laboratorio de solución empresarial",
+      "published": false
+    },
+    {
+      "number": 6,
+      "date": "02/12/2026",
+      "title": "Gobierno, evaluación y supervisión",
+      "published": false
+    },
+    {
+      "number": 7,
+      "date": "03/12/2026",
+      "title": "Reto de operación y prueba cruzada",
+      "published": false
+    }
+  ]
+}

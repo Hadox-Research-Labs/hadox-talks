@@ -1,0 +1,189 @@
+{
+  "edition": "20261116-1",
+  "slides": [
+    {
+      "number": 1,
+      "title": "La empresa conectada",
+      "activity": "A1",
+      "image": "laminas/lamina-01.png"
+    },
+    {
+      "number": 2,
+      "title": "La empresa conectada y su transformación con IA",
+      "activity": "A1",
+      "image": "laminas/lamina-02.png"
+    },
+    {
+      "number": 3,
+      "title": "Ecosistema SAP",
+      "activity": "A1",
+      "image": "laminas/lamina-03.png"
+    },
+    {
+      "number": 4,
+      "title": "Una ruta para toda la clase",
+      "activity": "A1",
+      "image": "laminas/lamina-04.png"
+    },
+    {
+      "number": 5,
+      "title": "¿Qué podemos prometer hoy?",
+      "activity": "A1",
+      "image": "laminas/lamina-05.png"
+    },
+    {
+      "number": 6,
+      "title": "Ahora ubica el pedido en la empresa",
+      "activity": "A1",
+      "image": "laminas/lamina-06.png"
+    },
+    {
+      "number": 7,
+      "title": "El ERP conserva el estado de la operación",
+      "activity": "A1",
+      "image": "laminas/lamina-07.png"
+    },
+    {
+      "number": 8,
+      "title": "Integrar exige compartir el significado",
+      "activity": "A1",
+      "image": "laminas/lamina-08.png"
+    },
+    {
+      "number": 9,
+      "title": "Del registro a la acción",
+      "activity": "A1",
+      "image": "laminas/lamina-09.png"
+    },
+    {
+      "number": 10,
+      "title": "Qué añade la IA al trabajo",
+      "activity": "A1",
+      "image": "laminas/lamina-10.png"
+    },
+    {
+      "number": 11,
+      "title": "Prepara tus cuentas y conserva los correos",
+      "activity": "A2",
+      "image": "laminas/lamina-11.png"
+    },
+    {
+      "number": 12,
+      "title": "Una respuesta no prueba una operación",
+      "activity": "A3",
+      "image": "laminas/lamina-12.png"
+    },
+    {
+      "number": 13,
+      "title": "Observa S/4HANA y contrasta Joule",
+      "activity": "A3",
+      "image": "laminas/lamina-13.png"
+    },
+    {
+      "number": 14,
+      "title": "Una gráfica necesita contexto",
+      "activity": "A4",
+      "image": "laminas/lamina-14.png"
+    },
+    {
+      "number": 15,
+      "title": "Pregunta por el margen y compruébalo",
+      "activity": "A4",
+      "image": "laminas/lamina-15.png"
+    },
+    {
+      "number": 16,
+      "title": "Consultar y modificar son operaciones distintas",
+      "activity": "A5",
+      "image": "laminas/lamina-16.png"
+    },
+    {
+      "number": 17,
+      "title": "Consulta una orden desde Build",
+      "activity": "A5",
+      "image": "laminas/lamina-17.png"
+    },
+    {
+      "number": 18,
+      "title": "Una instrucción necesita criterio",
+      "activity": "A6",
+      "image": "laminas/lamina-18.png"
+    },
+    {
+      "number": 19,
+      "title": "Escribe una instrucción que se pueda revisar",
+      "activity": "A6",
+      "image": "laminas/lamina-19.png"
+    },
+    {
+      "number": 20,
+      "title": "Antes de decidir, comprueba",
+      "activity": "A7",
+      "image": "laminas/lamina-20.png"
+    },
+    {
+      "number": 21,
+      "title": "Guarda tu registro y termina el examen",
+      "activity": "A7",
+      "image": "laminas/lamina-21.png"
+    }
+  ],
+  "activities": [
+    {
+      "id": "A1",
+      "hora": "17:00–17:35",
+      "nombre": "El pedido y los sistemas empresariales",
+      "paginas": "2–3",
+      "tipo": "Explicación y ejercicio en el cuaderno",
+      "producto": "Faltante actual y mapa de los datos del pedido"
+    },
+    {
+      "id": "A2",
+      "hora": "17:35–18:05",
+      "nombre": "Preparar las cuentas SAP",
+      "paginas": "4",
+      "tipo": "Sigue la Guía de acceso SAP",
+      "producto": "Estado real de cada acceso y vencimiento"
+    },
+    {
+      "id": "A3",
+      "hora": "18:05–18:40",
+      "nombre": "Leer un material en S/4HANA y contrastar Joule",
+      "paginas": "5–6",
+      "tipo": "Demostración docente y análisis individual",
+      "producto": "Dato, unidad, fecha y alcance de la respuesta"
+    },
+    {
+      "id": "A4",
+      "hora": "18:50–19:25",
+      "nombre": "Consultar Gross Margin en Analytics Cloud",
+      "paginas": "7–10",
+      "tipo": "Práctica individual o análisis de capturas",
+      "producto": "Gráfica, tabla y una conclusión comprobable"
+    },
+    {
+      "id": "A5",
+      "hora": "19:25–20:00",
+      "nombre": "Consultar órdenes de mantenimiento en Build",
+      "paginas": "11–14",
+      "tipo": "Práctica individual o análisis de capturas",
+      "producto": "Código de respuesta, orden, estado y fecha"
+    },
+    {
+      "id": "A6",
+      "hora": "20:10–20:45",
+      "nombre": "Escribir y revisar una instrucción de IA",
+      "paginas": "15",
+      "tipo": "Trabajo escrito; ejecución solo con AI Core habilitado",
+      "producto": "Instrucción, criterio de revisión y pregunta de negocio"
+    },
+    {
+      "id": "A7",
+      "hora": "20:45–21:00",
+      "nombre": "Entregar el registro y responder el examen",
+      "paginas": "16",
+      "tipo": "Moodle",
+      "producto": "Registro guardado e intento del examen finalizado"
+    }
+  ]
+}

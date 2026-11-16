@@ -18,6 +18,7 @@ social handoff material for later distribution.
 
 | Talk | Source | Status |
 | --- | --- | --- |
+| `erp-e-inteligencia-artificial` | Módulo VII, Facultad de Química UNAM, 2026 | Seven-session index; only session 1 published: 21 approved slides, four existing videos/captions, A1–A7, seven learner downloads. Institutional submissions and quiz stay in Moodle. |
 | `igisc-2026-agentes-ia-gemelos-digitales-locales` | iGISc 2026, approved 20-slide edition, 10 Nov 2026 | Spanish continuous browser narration, full script, downloadable PPTX with notes and PDF, 62-contribution workbook |
 | `elephant-cities-mice-companies` | Historical Google Slides deck, 2021 | Published with original slide images, Spanish narration, English narration, speaker scripts, and social handoff package |
 | `resilient-urban-ai` | Historical Google Slides deck, 2024 | Published with original slide images, Spanish narration, English narration, speaker scripts, phone redaction on final slide, and link-only social handoff package |
@@ -117,3 +118,7 @@ The iGISc viewer uses native HTML and Web Speech API with chunked continuous nar
 ### iGISc editorial revision, 12 November 2026
 
 Slides 11–19 now explain capabilities, methods and urban applications. The closing connects the scientific conclusions to named congress contributions. Four functional QR codes link to Twin/OLDT, Urban MCP, Quetzia and the workbook. The viewer includes two screen demonstrations (OLDT query and Quetzia placement), pauses narration during playback and resumes it when the clip ends. PPTX/PDF and speaker script follow the same edition. Browser reading offers speeds through 2x.
+
+## ERP e Inteligencia Artificial
+
+Published 16 November 2026 at `erp-e-inteligencia-artificial/`. Session 1 only; sessions 2–7 have no placeholder links or assets. Public files are copied exclusively from the approved learner deliverables and exact 21-slide renders. Teacher guide, answer keys, correspondence, support cases, identities, credentials and student information are excluded. Source builder: UNAM workspace `hadox_talks/build_publicacion.py`.
