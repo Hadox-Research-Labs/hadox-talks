@@ -1,5 +1,5 @@
 {
-  "edition": "20261116-2",
+  "edition": "20261116-3",
   "slides": [
     {
       "number": 1,
@@ -179,60 +179,40 @@
   ],
   "activities": [
     {
-      "id": "A1",
-      "hora": "17:00–17:35",
-      "nombre": "El pedido y los sistemas empresariales",
-      "paginas": "2–3",
-      "tipo": "Explicación y ejercicio en el cuaderno",
-      "producto": "Faltante actual y mapa de los datos del pedido"
+      "code": "A1",
+      "name": "Ubica el pedido en la empresa",
+      "selfPaced": true
     },
     {
-      "id": "A2",
-      "hora": "17:35–18:05",
-      "nombre": "Preparar las cuentas SAP",
-      "paginas": "4",
-      "tipo": "Sigue la Guía de acceso SAP",
-      "producto": "Estado real de cada acceso y vencimiento"
+      "code": "A2",
+      "name": "Prepara tus cuentas SAP",
+      "selfPaced": true
     },
     {
-      "id": "A3",
-      "hora": "18:05–18:40",
-      "nombre": "Leer un material en S/4HANA y contrastar Joule",
-      "paginas": "5–6",
-      "tipo": "Demostración docente y análisis individual",
-      "producto": "Dato, unidad, fecha y alcance de la respuesta"
+      "code": "A3",
+      "name": "Consulta S/4HANA y contrasta Joule",
+      "selfPaced": true
     },
     {
-      "id": "A4",
-      "hora": "18:50–19:25",
-      "nombre": "Consultar Gross Margin en Analytics Cloud",
-      "paginas": "7–10",
-      "tipo": "Práctica individual o análisis de capturas",
-      "producto": "Gráfica, tabla y una conclusión comprobable"
+      "code": "A4",
+      "name": "Consulta datos en Analytics Cloud",
+      "selfPaced": true
     },
     {
-      "id": "A5",
-      "hora": "19:25–20:00",
-      "nombre": "Consultar órdenes de mantenimiento en Build",
-      "paginas": "11–14",
-      "tipo": "Práctica individual o análisis de capturas",
-      "producto": "Código de respuesta, orden, estado y fecha"
+      "code": "A5",
+      "name": "Consulta una orden en Build",
+      "selfPaced": true
     },
     {
-      "id": "A6",
-      "hora": "20:10–20:45",
-      "nombre": "Escribir y revisar una instrucción de IA",
-      "paginas": "15",
-      "tipo": "Trabajo escrito; ejecución solo con AI Core habilitado",
-      "producto": "Instrucción, criterio de revisión y pregunta de negocio"
+      "code": "A6",
+      "name": "Escribe y corrige una instrucción de IA",
+      "selfPaced": true
     },
     {
-      "id": "A7",
-      "hora": "20:45–21:00",
-      "nombre": "Entregar el registro y responder el examen",
-      "paginas": "16",
-      "tipo": "Moodle",
-      "producto": "Registro guardado e intento del examen finalizado"
+      "code": "A7",
+      "name": "Guarda tu trabajo",
+      "institutionalExamOptional": true
     }
-  ]
+  ],
+  "selfPaced": true
 }

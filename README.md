@@ -18,7 +18,7 @@ social handoff material for later distribution.
 
 | Talk | Source | Status |
 | --- | --- | --- |
-| `erp-e-inteligencia-artificial` | Módulo VII, Facultad de Química UNAM, 2026 | Índice de siete sesiones; sesión 1 con 21 láminas narradas, ejercicios de ensayo, cuatro videos y documentos de estudio. Entregas y examen en Moodle. |
+| `erp-e-inteligencia-artificial` | Módulo VII, Facultad de Química UNAM, 2026 | Índice de siete sesiones; sesión 1 con 21 láminas narradas, prácticas autoguiadas, cuatro videos y cuaderno web. Los accesos a SAP se solicitan individualmente. Entregas y examen en Moodle. |
 | `igisc-2026-agentes-ia-gemelos-digitales-locales` | iGISc 2026, approved 20-slide edition, 10 Nov 2026 | Spanish continuous browser narration, full script, downloadable PPTX with notes and PDF, 62-contribution workbook |
 | `elephant-cities-mice-companies` | Historical Google Slides deck, 2021 | Published with original slide images, Spanish narration, English narration, speaker scripts, and social handoff package |
 | `resilient-urban-ai` | Historical Google Slides deck, 2024 | Published with original slide images, Spanish narration, English narration, speaker scripts, phone redaction on final slide, and link-only social handoff package |

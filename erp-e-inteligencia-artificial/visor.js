@@ -3,7 +3,7 @@
   const $ = id => document.getElementById(id);
   let slides, index = 0, narrator, voiceState = {mode:'idle',paused:false};
   try {
-    const response = await fetch('leccion.json?v=20261116-2');
+    const response = await fetch('leccion.json?v=20261116-3');
     if (!response.ok) throw new Error('No se pudo cargar la lección');
     slides = (await response.json()).slides;
   } catch (_) {
@@ -36,6 +36,7 @@
   $('previous').onclick = () => move(index - 1); $('next').onclick = () => move(index + 1);
   $('slide-select').onchange = e => move(Number(e.target.value));
   $('activity-link').onclick = () => {
+    if (voiceState.mode !== 'idle' && !voiceState.paused) narrator.togglePause();
     const details = document.querySelector($('activity-link').getAttribute('href') + '>details'); if (details) details.open = true;
   };
   $('fullscreen').onclick = async () => {
@@ -51,10 +52,12 @@
     document.querySelectorAll('video').forEach(other => { if (other !== v) other.pause(); });
     if (voiceState.mode !== 'idle' && !voiceState.paused) narrator.togglePause();
   }));
-  document.querySelectorAll('.outline a').forEach(a => a.addEventListener('click', () => {
+  document.querySelectorAll('.outline a,.start a[href^="#a"]').forEach(a => a.addEventListener('click', () => {
+    if (voiceState.mode !== 'idle' && !voiceState.paused) narrator.togglePause();
     const details = document.querySelector(a.getAttribute('href') + '>details'); if (details) details.open = true;
   }));
   window.addEventListener('hashchange', readHash);
+  const initialActivity = /^#a[1-7]$/.test(location.hash) ? location.hash : null;
   const initial = location.hash.match(/^#lamina-(\d+)$/);
   show(initial ? Number(initial[1]) - 1 : 0);
   narrator = window.HadoxLessonNarration.create({audio:$('lesson-audio'),getSlides:() => slides,
@@ -68,6 +71,10 @@
       $('listen-all').textContent = state.mode === 'practice' ? 'Continuar después de la práctica' : 'Ensayar presentación';
     }});
   narrator.select(index);
+  if (initialActivity) {
+    const panel=document.querySelector(initialActivity+'>details');
+    if (panel) { panel.open=true; history.replaceState(null,'',initialActivity); document.querySelector(initialActivity).scrollIntoView(); }
+  }
   function stopVideos() { document.querySelectorAll('video').forEach(v => v.pause()); }
   $('listen-all').onclick = () => { stopVideos(); if (voiceState.mode === 'practice') narrator.continuePractice(); else narrator.start(index,true); };
   $('listen-slide').onclick = () => { stopVideos(); narrator.start(index,false); };
