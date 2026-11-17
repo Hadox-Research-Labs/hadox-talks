@@ -1,6 +1,6 @@
 """Scoped publication gate for the Semana de la Ciencia web edition."""
 from pathlib import Path
-import argparse, hashlib, json, re, sys, zipfile
+import argparse, hashlib, json, re, sys, zipfile, subprocess
 from html.parser import HTMLParser
 from xml.etree import ElementTree as ET
 from pypdf import PdfReader
@@ -63,7 +63,7 @@ def audit(path):
     return [label for label,pattern in PATTERNS.items() if re.search(pattern,text,re.I)]
 
 def files():
-    return sorted([ROOT/'index.html',*(p for p in (ROOT/SLUG).rglob('*') if p.is_file()),*(p for p in CONTROL.iterdir() if p.is_file() and p.name!='review.json')])
+    return sorted([ROOT/'index.html',ROOT/'.gitattributes',*(p for p in (ROOT/SLUG).rglob('*') if p.is_file()),*(p for p in CONTROL.iterdir() if p.is_file() and p.name!='review.json')])
 
 def manifest():
     return {p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in files()}
@@ -85,14 +85,22 @@ def validate():
         if not (ROOT/SLUG/s['image']).is_file():errors.append('Slide image missing')
         if not (ROOT/SLUG/s['audio']).is_file():errors.append('Slide narration missing')
     if errors:raise ValueError('\n'.join(errors))
-    return {'status':'pass','scope':[SLUG+'/**','index.html','_publication/semana-ciencia/*'],'files':len(files()),'reviewer':receipt['reviewer']}
+    return {'status':'pass','scope':[SLUG+'/**','index.html','.gitattributes','_publication/semana-ciencia/*'],'files':len(files()),'reviewer':receipt['reviewer']}
+
+def validate_tree(git='git',ref='HEAD'):
+    for path,expected in manifest().items():
+        raw=subprocess.check_output([git,'-C',str(ROOT),'show',(':' if ref==':' else ref+':')+path])
+        if hashlib.sha256(raw).hexdigest()!=expected:raise ValueError('Git content differs from reviewed bytes: '+path)
+    return {'git_bytes':'pass','ref':ref}
 
 if __name__=='__main__':
-    parser=argparse.ArgumentParser();parser.add_argument('--audit',type=Path);args=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('--audit',type=Path);parser.add_argument('--committed',action='store_true');parser.add_argument('--git',default='git');args=parser.parse_args()
     try:
         if args.audit:
             failures=audit(args.audit)
             if failures:raise ValueError('; '.join(failures))
             print(json.dumps({'status':'pass','file':args.audit.name}))
-        else:print(json.dumps(validate()))
+        else:
+            print(json.dumps(validate()))
+            if args.committed:print(json.dumps(validate_tree(args.git)))
     except Exception as exc:print('PUBLICATION BLOCKED: '+str(exc),file=sys.stderr);sys.exit(1)

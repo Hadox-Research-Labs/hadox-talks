@@ -1,7 +1,7 @@
 {
   "reviewer": "Codex (agent editorial review)",
   "human_review": false,
-  "reviewed_at_utc": "2026-11-17T00:07:09.904967+00:00",
+  "reviewed_at_utc": "2026-11-17T00:12:20.410235+00:00",
   "checks": {
     "full_public_text": true,
     "metadata_and_links": true,
@@ -10,9 +10,10 @@
   },
   "notes": "Approved slide images retained. Public discourse, bibliography, page metadata and downloads reviewed. PDF pages rendered and inspected. Desktop and mobile composition inspected, with mobile CSS width 389px and no horizontal overflow. Audio decoded and measured. Playback, pause and slide selection checked in browser. Four-slide continuous playback, single-slide mode, pause/resume, rate and stop tested with media events. Known-pattern scan is supplementary to editorial review.",
   "sha256": {
-    "_publication/semana-ciencia/editorial_gate.py": "3533c3522c5af82af9cda22e79fb0bcfceedade8b425fdcea8b16b1dc847a2d5",
-    "_publication/semana-ciencia/publish.py": "8e7b4cf294fe15894773d28e41c2e1825012e540775bbc6750441e7c426eca1a",
-    "_publication/semana-ciencia/README.md": "ded1d92e1884057779fd56e7ad53f95430fb58269b07e209c273e7cb4be9509f",
+    ".gitattributes": "b67e2d6cfa814122ba436682da390957ca643fec13a3861506015e69a2bb2b64",
+    "_publication/semana-ciencia/editorial_gate.py": "81616033beea52421ee112fb9836b196afff53549966afcf742bc246aaa35004",
+    "_publication/semana-ciencia/publish.py": "10b6706bf2fdc5df7e1f1b40291a70d0eb8399439e4b57df1024ae4fd255a0cb",
+    "_publication/semana-ciencia/README.md": "ecbb2e0adaf36407058e54a2c2bc21cae456004c9878b30c0bbab59e7e0c4334",
     "de-datos-a-decisiones-2026/assets/audio/lamina-01.mp3": "9d71122dd37b8b1b7113977bf0bc53fe8cc5c9a3e8eaf4cf2b342ff89652d2d8",
     "de-datos-a-decisiones-2026/assets/audio/lamina-02.mp3": "bee09ddee2b8d8d73f3fac75799d637eb63f8d8db2975f0cf28c555f2bb9c7b7",
     "de-datos-a-decisiones-2026/assets/audio/lamina-03.mp3": "f1e73231dce0a5e3e04f6d1e6d8295adf4a03497d89fc15be98a96c35a33cdff",
