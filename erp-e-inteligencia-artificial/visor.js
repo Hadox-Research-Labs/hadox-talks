@@ -3,7 +3,7 @@
   const $ = id => document.getElementById(id);
   let slides, index = 0, narrator, voiceState = {mode:'idle',paused:false};
   try {
-    const response = await fetch('leccion.json?v=20261116-3');
+    const response = await fetch('leccion.json?v=20261116-4');
     if (!response.ok) throw new Error('No se pudo cargar la lección');
     slides = (await response.json()).slides;
   } catch (_) {
@@ -80,5 +80,6 @@
   $('listen-slide').onclick = () => { stopVideos(); narrator.start(index,false); };
   $('pause-voice').onclick = () => narrator.togglePause(); $('stop-voice').onclick = () => narrator.stop();
   $('voice-rate').onchange = () => { $('lesson-audio').playbackRate=Number($('voice-rate').value); };
+  document.addEventListener('workshop:panel', event => { if (event.detail.name !== 'class' && voiceState.mode !== 'idle' && !voiceState.paused) narrator.togglePause(); });
   window.addEventListener('pagehide', () => narrator.stop(''));
 })();

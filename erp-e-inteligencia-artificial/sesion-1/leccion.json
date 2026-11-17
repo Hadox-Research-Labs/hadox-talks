@@ -1,5 +1,5 @@
 {
-  "edition": "20261116-3",
+  "edition": "20261116-4",
   "slides": [
     {
       "number": 1,
@@ -214,5 +214,12 @@
       "institutionalExamOptional": true
     }
   ],
-  "selfPaced": true
+  "selfPaced": true,
+  "tracking": {
+    "required_steps_sap": 43,
+    "required_steps_video": 39,
+    "work_records": 6,
+    "practice_questions": 10,
+    "sharedCompletion": true
+  }
 }

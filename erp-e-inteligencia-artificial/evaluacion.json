@@ -1,0 +1,17 @@
+{
+  "lesson": "erp-ia-s1",
+  "title": "Repaso de la sesión 1",
+  "description": "Diez preguntas de práctica. Puedes corregir tus respuestas y volver a intentarlo. Esta calificación no sustituye el examen del diplomado en Moodle.",
+  "questions": [
+    {"id":"q1","text":"Un pedido requiere 160 unidades. Hay 110 disponibles y se esperan 70 sin recepción confirmada. ¿Cuántas faltan hoy?","options":{"a":"Ninguna; ya hay 180.","b":"50 unidades.","c":"70 unidades."}},
+    {"id":"q2","text":"¿Qué registro permite contar como recibida una llegada prevista?","options":{"a":"Una respuesta de IA que diga que llegará mañana.","b":"La fecha que aparece en la previsión.","c":"La recepción confirmada en el sistema y su evidencia."}},
+    {"id":"q3","text":"¿Qué familia de sistemas se centra en oportunidades comerciales y relación con clientes?","options":{"a":"CRM.","b":"Gestión de mantenimiento de activos.","c":"Gestión de nómina."}},
+    {"id":"q4","text":"Dos áreas comparten la cifra 500. ¿Qué necesitas conservar para interpretarla correctamente?","options":{"a":"Solo el número, para que sea fácil de copiar.","b":"Su unidad, fecha, identificador y estado.","c":"El nombre del modelo de IA que la resumió."}},
+    {"id":"q5","text":"Joule explica un concepto y cita documentación estándar de SAP. ¿Qué demuestra esa respuesta?","options":{"a":"Que consultó el inventario actual de la empresa.","b":"Que autorizó una entrega.","c":"Que elaboró una explicación documental; la consulta del inventario requiere otra evidencia."}},
+    {"id":"q6","text":"En Analytics Cloud consultas Gross Margin. ¿Qué estás comparando?","options":{"a":"Margen bruto.","b":"Número de pedidos.","c":"Ventas totales, siempre."}},
+    {"id":"q7","text":"Una gráfica está expresada en millones de USD, versión Actual. ¿Qué debes revisar antes de compararla con otra?","options":{"a":"Que las dos tengan el mismo color.","b":"Métrica, unidad, versión, periodo y filtros.","c":"Solo cuál barra es más alta."}},
+    {"id":"q8","text":"Get maintenance orders devuelve 200 OK. ¿Cuál es la conclusión respaldada?","options":{"a":"La orden fue modificada y sus fechas ya son actuales.","b":"Se liberó automáticamente el pedido.","c":"La petición de lectura respondió correctamente; todavía debes revisar el contenido y su contexto."}},
+    {"id":"q9","text":"Build muestra el correo del autor de una API. ¿Con qué acceso debes entrar tú al laboratorio?","options":{"a":"Con el usuario que SAP asignó a tu propio trial de Build.","b":"Con el correo del autor mostrado en Overview.","c":"Con cualquier usuario visible en el video."}},
+    {"id":"q10","text":"Quieres que una IA ayude a revisar una entrega con recepción y calidad pendientes. ¿Qué instrucción conserva mejor esas condiciones?","options":{"a":"Promete la fecha más próxima y completa después los documentos.","b":"Calcula el faltante, separa datos confirmados y previstos y pide las evidencias pendientes antes de prometer una fecha.","c":"Suma todo lo previsto al stock y libera la entrega."}}
+  ]
+}
