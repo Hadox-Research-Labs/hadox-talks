@@ -2,8 +2,11 @@
   'use strict';
   const $=id=>document.getElementById(id), key='hadox-erp-ia-s1-progress-v1';
   const API=location.hostname==='127.0.0.1'?'http://127.0.0.1:8136/talks/v1':'https://app.hadox.org/talks/v1';
+  const openProgressOnLoad=location.hash==='#mi-avance';
   const count=(n,word)=>n+' '+word+(n===1?'':'s');
   let state={steps:{},records:{},answers:{},routeA3:'sap'},gradeResult=null,gradeSerial=0,finishersSerial=0,gradeTimer,questions=[];
+  const sharingConsent='20261117-v1';
+  let sharingReady=false,sharingTimer,sharingBusy=false,lastSharedSignature='',shareChain=Promise.resolve();
   try {state={...state,...JSON.parse(localStorage.getItem(key)||'{}')};}catch(_){}
   const forms=[...document.querySelectorAll('form[data-rehearsal]')];
   const checks=[...document.querySelectorAll('input[data-step]')];
@@ -43,6 +46,7 @@
     const ready=done===required.length&&saved.length===6&&gradeResult?.complete&&gradeResult.answered===answered;
     $('register-completion').disabled=!ready;
     $('completion-requirements').textContent=ready?'Ruta y repaso completos. Puedes registrar tu finalización.':'Por completar: '+count(required.length-done,'paso')+', '+count(6-saved.length,'trabajo')+' y '+count(10-answered,'pregunta')+'. La calificación se confirma al revisar el repaso.';
+    scheduleSharedUpdate();
   }
   async function request(path,body){
     const r=await fetch(API+path,{method:body?'POST':'GET',credentials:'omit',headers:body?{'Content-Type':'application/json'}:undefined,body:body?JSON.stringify(body):undefined,signal:AbortSignal.timeout(12000)});
@@ -73,6 +77,46 @@
     }catch(e){if(serial!==finishersSerial)return;$('finishers-status').textContent='No se pudo consultar la lista. Pulsa Actualizar lista para reintentar.';}
   }
   function token(){if(!state.token){state.token=[...crypto.getRandomValues(new Uint8Array(32))].map(n=>n.toString(16).padStart(2,'0')).join('');persist();}return state.token;}
+  function sharedPayload(alias=state.publicAlias){return {lesson:'erp-ia-s1',token:token(),listed:true,alias,consent_version:sharingConsent,answers:{...state.answers},steps:activeSteps(),records:savedCodes(),route_a3:state.routeA3};}
+  function sendShared(payload){const pending=shareChain.catch(()=>{}).then(()=>request('/progress',payload));shareChain=pending;return pending;}
+  function sharedStatus(result){$('sharing-status').textContent='Publicación activa. Última actualización: '+new Date(result.updatedAt).toLocaleTimeString('es-MX',{hour:'2-digit',minute:'2-digit',timeZone:'America/Mexico_City'})+' CDMX. Los cambios se comparten automáticamente.';}
+  function scheduleSharedUpdate(){
+    clearTimeout(sharingTimer);
+    if(sharingReady&&state.publicSharing&&!state.shareRevokePending)sharingTimer=setTimeout(syncSharedProgress,1200);
+  }
+  async function syncSharedProgress(){
+    if(!sharingReady||!state.publicSharing||state.shareRevokePending)return;
+    if(sharingBusy){scheduleSharedUpdate();return;}
+    const payload=sharedPayload(),signature=JSON.stringify(payload);if(signature===lastSharedSignature)return;
+    sharingBusy=true;$('sharing-status').textContent='Actualizando tu registro público…';
+    try{const result=await sendShared(payload);lastSharedSignature=signature;if(state.publicSharing)sharedStatus(result);}
+    catch(_){if(state.publicSharing)$('sharing-status').textContent='Tu registro público no se pudo actualizar. Pulsa Publicar mi avance para reintentar. Tu trabajo sigue en este navegador.';}
+    finally{sharingBusy=false;}
+  }
+  async function stopSharing(){
+    sharingReady=false;state.publicSharing=false;state.shareRevokePending=true;persist();clearTimeout(sharingTimer);
+    $('sharing-consent').checked=false;$('sharing-consent').disabled=true;$('share-progress').disabled=true;$('stop-sharing').disabled=true;$('sharing-status').textContent='Retirando tu avance y nota de la tabla pública…';
+    try{await sendShared({token:token(),listed:false});state.shareRevokePending=false;persist();$('stop-sharing').hidden=true;$('sharing-status').textContent='Tu avance y tu nota ya no aparecen en el seguimiento del grupo. Tu trabajo se conserva en este navegador.';}
+    catch(_){$('stop-sharing').hidden=false;$('sharing-status').textContent='Todavía no se pudo retirar el registro público. Pulsa Dejar de compartir para reintentar. La actualización automática está detenida.';}
+    finally{$('sharing-consent').disabled=false;$('share-progress').disabled=false;$('stop-sharing').disabled=false;}
+  }
+  $('public-sharing-form').addEventListener('submit',async event=>{
+    event.preventDefault();if(!$('public-sharing-form').reportValidity())return;
+    sharingReady=false;clearTimeout(sharingTimer);$('share-progress').disabled=true;$('sharing-consent').disabled=true;$('stop-sharing').disabled=true;
+    const alias=$('sharing-name').value.trim(),payload=sharedPayload(alias);$('sharing-status').textContent='Publicando tu avance y nota…';
+    try{const result=await sendShared(payload);state.publicSharing=true;state.publicAlias=alias;state.publicSharingConsent=sharingConsent;state.shareRevokePending=false;persist();lastSharedSignature=JSON.stringify(payload);sharingReady=true;$('stop-sharing').hidden=false;sharedStatus(result);scheduleSharedUpdate();}
+    catch(e){$('sharing-status').textContent=e.message||'No se pudo publicar. Vuelve a intentarlo.';sharingReady=state.publicSharing===true&&!state.shareRevokePending;}
+    finally{$('share-progress').disabled=false;$('sharing-consent').disabled=false;$('stop-sharing').disabled=false;}
+  });
+  $('stop-sharing').onclick=stopSharing;
+  $('sharing-consent').onchange=()=>{if(!$('sharing-consent').checked&&(state.publicSharing||state.shareRevokePending))stopSharing();};
+  async function restoreSharing(){
+    if(state.shareRevokePending){$('stop-sharing').hidden=false;await stopSharing();return;}
+    if(!state.publicSharing||state.publicSharingConsent!==sharingConsent)return;
+    $('sharing-name').value=state.publicAlias||'';$('sharing-consent').checked=true;$('stop-sharing').hidden=false;
+    try{const result=await request('/progress/me',{token:token()});if(result.shared){state.publicAlias=result.name;$('sharing-name').value=result.name;sharingReady=true;sharedStatus(result);scheduleSharedUpdate();}else{state.publicSharing=false;persist();$('sharing-consent').checked=false;$('stop-sharing').hidden=true;}}
+    catch(_){$('sharing-status').textContent='No se pudo consultar tu publicación anterior. Puedes reintentar con Publicar mi avance o retirarla con Dejar de compartir.';}
+  }
   function showRegistration(result){
     if(!result.registered)return;
     $('completion-status').textContent=result.listed?'Tu finalización quedó registrada y tu nombre aparece en la lista compartida.':'Tu finalización quedó registrada de forma personal. Tu nombre no aparece en la lista.';
@@ -106,7 +150,7 @@
   $('reset-rehearsal').addEventListener('click',()=>{state.records={};persist();renderProgress();});
   route(state.routeA3);
   try{
-    const r=await fetch('../evaluacion.json?v=20261116-4');if(!r.ok)throw new Error();const bank=await r.json();questions=bank.questions;
+    const r=await fetch('../evaluacion.json?v=20261117-1');if(!r.ok)throw new Error();const bank=await r.json();questions=bank.questions;
     for(const [n,q] of questions.entries()){
       const fieldset=document.createElement('fieldset'),legend=document.createElement('legend');legend.textContent=(n+1)+'. '+q.text;fieldset.append(legend);
       for(const [option,text] of Object.entries(q.options)){
@@ -119,4 +163,6 @@
     $('practice-quiz').onsubmit=e=>e.preventDefault();await grade();
   }catch(e){$('quiz-status').textContent='No se pudieron cargar las preguntas. Recarga la página para reintentar.';}
   if(state.registered&&state.token){try{showRegistration(await request('/me',{token:state.token}));}catch(_){}}
+  await restoreSharing();
+  if(openProgressOnLoad)panel('progress');
 })();

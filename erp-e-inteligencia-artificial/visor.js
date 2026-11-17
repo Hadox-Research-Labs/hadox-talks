@@ -3,7 +3,7 @@
   const $ = id => document.getElementById(id);
   let slides, index = 0, narrator, voiceState = {mode:'idle',paused:false};
   try {
-    const response = await fetch('leccion.json?v=20261116-4');
+    const response = await fetch('leccion.json?v=20261117-1');
     if (!response.ok) throw new Error('No se pudo cargar la lección');
     slides = (await response.json()).slides;
   } catch (_) {

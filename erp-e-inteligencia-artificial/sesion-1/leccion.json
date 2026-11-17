@@ -1,5 +1,5 @@
 {
-  "edition": "20261116-4",
+  "edition": "20261117-1",
   "slides": [
     {
       "number": 1,
@@ -220,6 +220,8 @@
     "required_steps_video": 39,
     "work_records": 6,
     "practice_questions": 10,
-    "sharedCompletion": true
+    "sharedCompletion": true,
+    "publicProgress": "../seguimiento/",
+    "publicProgressRequiresConsent": true
   }
 }
