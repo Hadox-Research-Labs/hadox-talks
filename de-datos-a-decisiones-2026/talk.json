@@ -5,7 +5,7 @@
   "eventDate": "2026-11-18",
   "revisionDate": "2026-11-16",
   "locale": "es-MX",
-  "assetVersion": "20261116-1",
+  "assetVersion": "20261118-1",
   "edition": "Edición Hadox Talks · 4 láminas · Discurso de 15 minutos",
   "slides": [
     {
@@ -126,5 +126,10 @@
     "type": "Narración sintética",
     "duration": 847.92,
     "download": "downloads/De_datos_a_decisiones_Audio.mp3"
+  },
+  "cover": {
+    "title": "De datos a decisiones: IA, ciencia y ciudades inteligentes",
+    "image": "assets/slides/portada.png",
+    "alt": "De datos a decisiones: IA, ciencia y ciudades inteligentes · Edgar Valdés · Semana de la Ciencia 2026 · Red Global MX Capítulo España · 18 de noviembre de 2026"
   }
 }

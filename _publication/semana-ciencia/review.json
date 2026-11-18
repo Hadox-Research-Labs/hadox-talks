@@ -1,17 +1,17 @@
 {
   "reviewer": "Codex (agent editorial review)",
   "human_review": false,
-  "reviewed_at_utc": "2026-11-17T00:12:20.410235+00:00",
+  "reviewed_at_utc": "2026-11-18T19:27:37.474739+00:00",
   "checks": {
     "full_public_text": true,
     "metadata_and_links": true,
     "downloads_rendered": true,
     "desktop_and_mobile": true
   },
-  "notes": "Approved slide images retained. Public discourse, bibliography, page metadata and downloads reviewed. PDF pages rendered and inspected. Desktop and mobile composition inspected, with mobile CSS width 389px and no horizontal overflow. Audio decoded and measured. Playback, pause and slide selection checked in browser. Four-slide continuous playback, single-slide mode, pause/resume, rate and stop tested with media events. Known-pattern scan is supplementary to editorial review.",
+  "notes": "Official Capítulo España cover, title, event, presenter and date inspected in the viewer and new PDF cover pages. Existing discourse, bibliography, slide art and audio were retained. Playwright verified cover loading, play from cover, pause, slide selection and direct links at widths 1400 and 389. Original PDF page streams and extracted text were compared to the revised editions.",
   "sha256": {
     ".gitattributes": "b67e2d6cfa814122ba436682da390957ca643fec13a3861506015e69a2bb2b64",
-    "_publication/semana-ciencia/editorial_gate.py": "81616033beea52421ee112fb9836b196afff53549966afcf742bc246aaa35004",
+    "_publication/semana-ciencia/editorial_gate.py": "6951bf61dd1904f153a0b2621a84646489956c4f1a4abd02dd4c64addb154d9e",
     "_publication/semana-ciencia/publish.py": "10b6706bf2fdc5df7e1f1b40291a70d0eb8399439e4b57df1024ae4fd255a0cb",
     "_publication/semana-ciencia/README.md": "ecbb2e0adaf36407058e54a2c2bc21cae456004c9878b30c0bbab59e7e0c4334",
     "de-datos-a-decisiones-2026/assets/audio/lamina-01.mp3": "9d71122dd37b8b1b7113977bf0bc53fe8cc5c9a3e8eaf4cf2b342ff89652d2d8",
@@ -22,14 +22,15 @@
     "de-datos-a-decisiones-2026/assets/slides/lamina-02.png": "70e30c69034ebb7c1fe2bb9a92f7795282e9f4361690c0fe0fd6474e17ed61b7",
     "de-datos-a-decisiones-2026/assets/slides/lamina-03.png": "d58152538d424b246ffb59645c1826d67bb827b7724a93a85842ec975d596937",
     "de-datos-a-decisiones-2026/assets/slides/lamina-04.png": "7c1c8c564fd61cf5452e1947ecd2f80a0c7418819e12d1f2ae236650721c1880",
-    "de-datos-a-decisiones-2026/downloads/De_datos_a_decisiones.pdf": "a3ae9907d4e87cb07b6b3beadac6d9ce5e9abd12daf6fabb3f2e90a02efa7633",
+    "de-datos-a-decisiones-2026/assets/slides/portada.png": "836fec5ae97d9ae58f5dcf062364ea3b8c0f47c3678f920eaac21ac6e3265868",
+    "de-datos-a-decisiones-2026/downloads/De_datos_a_decisiones.pdf": "b13c801a9da4247765c9d8af022dd849dea098603a6bc180a70897394c0bde03",
     "de-datos-a-decisiones-2026/downloads/De_datos_a_decisiones_Audio.mp3": "b9a548452d45db836904db6c7c89c98e386565716618ce24b5ed97b67ab4a66c",
-    "de-datos-a-decisiones-2026/downloads/De_datos_a_decisiones_Discurso.pdf": "aa2b565cc253ca736180f647db23829c3d87ed6168142f2ec9d929c67a61e16d",
-    "de-datos-a-decisiones-2026/index.html": "dce7ff811c66c95bfe23c34dbf22072017c0b1b48f9c0651fede5054954fd182",
-    "de-datos-a-decisiones-2026/script.html": "e232a0f7b210ed7ab771a28ff8341183a9b59988456c2bf39cde653f12061e8f",
+    "de-datos-a-decisiones-2026/downloads/De_datos_a_decisiones_Discurso.pdf": "5f27f79dcbd3ead85ede325ef2489d5eb2305a2caa2c2f0af8bec8963e7f1a4c",
+    "de-datos-a-decisiones-2026/index.html": "f040f8cd897e3fe23f30b28c473786e05300bf423bced146f13674267a610178",
+    "de-datos-a-decisiones-2026/script.html": "12759c77e37af13851be940dd9fb07503fd91abd48d7ffec77be701e9a219953",
     "de-datos-a-decisiones-2026/style.css": "9475fe5f028a788ef3fc1da0a890d816e8b0c7b944ecad40e66e4c8628055590",
-    "de-datos-a-decisiones-2026/talk.json": "32acb70ce69abbb0d4ecdcbf1968c8c23011c0853ce18e581d250266ce15f922",
-    "de-datos-a-decisiones-2026/viewer.js": "1759677f5855631805b45563ca4123cf53328d38228b3686fea286f760efa2b9",
-    "index.html": "d0665347b8071135aad9c7602060bee937594fb7448b96efa878692999b08022"
+    "de-datos-a-decisiones-2026/talk.json": "95d420478bdbd1fb1afd5b51a18868ac1811429210174910a5f7d8af20fa5d9d",
+    "de-datos-a-decisiones-2026/viewer.js": "316d6bb7a39db399fe47ac29ce54c97f6318ada9968a17de9907252e9443b866",
+    "index.html": "fd63be499f6276bd0aa009357c73e3a32caf6d982a418fd23912a953585be502"
   }
 }

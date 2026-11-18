@@ -79,6 +79,11 @@ def validate():
         if p.is_relative_to(CONTROL):continue
         for reason in audit(p):errors.append(f'{p.relative_to(ROOT)}: {reason}')
     talk=json.loads((ROOT/SLUG/'talk.json').read_text(encoding='utf-8'))
+    cover=talk.get('cover',{})
+    if (cover.get('image')!='assets/slides/portada.png'
+            or not (ROOT/SLUG/'assets/slides/portada.png').is_file()
+            or not cover.get('title') or not cover.get('alt')):
+        errors.append('Cover image or description missing')
     if len(talk['slides'])!=4:errors.append('Expected four slides')
     for s in talk['slides']:
         if not s['transcript'].strip() or not s['sources']:errors.append('Transcript or source list missing')
