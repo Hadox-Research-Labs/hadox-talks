@@ -1,52 +1,51 @@
 {
   "title": "ERP e Inteligencia Artificial",
   "author": "Edgar Antonio Valdés Porras",
-  "source": "Módulo VII · Facultad de Química, UNAM",
-  "hours": 28,
+  "source": "Curso independiente de Hadox Research Labs",
+  "edition": "20261119-v5",
   "updated": "2026-11-19",
-  "edition": "20261119-3",
   "sessions": [
     {
       "number": 1,
-      "date": "19/11/2026",
-      "title": "Empresa conectada y preparación de plataformas",
+      "title": "Empresa e IA",
+      "description": "Mapas, caso de disponibilidad, cuenta SAC y primera consulta.",
       "published": true,
       "url": "sesion-1/"
     },
     {
       "number": 2,
-      "date": "24/11/2026",
-      "title": "Fundamentos y aplicaciones de inteligencia artificial",
+      "title": "Fundamentos y aplicaciones de IA",
+      "description": "Mapa de IA, ejemplos de negocio y análisis con tablas/gráficas en SAC.",
       "published": false
     },
     {
       "number": 3,
-      "date": "25/11/2026",
       "title": "Anatomía y construcción de agentes",
+      "description": "Modelo, instrucciones, herramientas y estado; acción y skills en Build.",
       "published": false
     },
     {
       "number": 4,
-      "date": "26/11/2026",
-      "title": "Prompts, contexto, grounding y orquestación",
+      "title": "Contexto, instrucciones y arquitectura",
+      "description": "Configurar el agente, probar el equivalente SAP y revisar sus fuentes/logs.",
       "published": false
     },
     {
       "number": 5,
-      "date": "01/12/2026",
-      "title": "Laboratorio de solución empresarial",
+      "title": "Proceso empresarial",
+      "description": "Construir y ejecutar pedidos con disponibilidad y aprobación en Build.",
       "published": false
     },
     {
       "number": 6,
-      "date": "02/12/2026",
-      "title": "Gobierno, evaluación y supervisión",
+      "title": "Planeación, evaluación y gobierno",
+      "description": "Modelo/escenario SAC; comprobar controles, riesgos, costos y responsables.",
       "published": false
     },
     {
       "number": 7,
-      "date": "03/12/2026",
-      "title": "Reto de operación y prueba cruzada",
+      "title": "Reto y corrección",
+      "description": "Resolver un incidente con lo construido, revisar entre equipos y corregir.",
       "published": false
     }
   ]

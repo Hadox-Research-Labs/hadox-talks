@@ -1,211 +1,129 @@
-# Guion de ensayo · La empresa conectada
+# La empresa conectada y su transformación con IA
 
-## 01 · La empresa conectada
+Curso independiente de Hadox Research Labs. Edgar Antonio Valdés Porras.
 
-Bienvenidas y bienvenidos. Vamos a comenzar con una pregunta que puede aparecer en ventas, en un almacén, en una planta de producción o en un laboratorio: ¿qué debemos comprobar antes de prometer una entrega?
+## 1. La empresa conectada
 
-La respuesta exige reunir información de varias áreas. Necesitamos saber qué pidió el cliente, qué existe realmente, qué material está comprometido y qué condiciones de calidad deben cumplirse. Cada una de esas piezas puede estar en un sistema diferente.
+Bienvenidas y bienvenidos a La empresa conectada y su transformación con inteligencia artificial, un curso independiente de Hadox Research Labs. Empezaremos con una pregunta concreta: ¿qué debemos comprobar antes de prometer una entrega? Para responder, necesitamos reunir datos de ventas, suministro, inventario y calidad.
 
-Durante esta sesión vamos a reconocer ese entorno empresarial y a explorar tres recorridos de SAP. Veremos un registro en el ERP, una consulta analítica y una consulta de órdenes de mantenimiento. En cada caso distinguiremos el dato que observamos, su significado y la decisión que permite preparar.
+No necesitas conocer SAP para comenzar. Primero comprenderemos los sistemas de una empresa con los mapas originales. Después resolveremos un caso de disponibilidad y haremos una consulta en Analytics Cloud. Puedes escuchar cada explicación, volver a una lámina o detenerte cuando necesites practicar. El cuaderno web y el PDF te permiten conservar tus respuestas.
 
-La inteligencia artificial nos ayudará a plantear preguntas, interpretar y organizar el trabajo. También tendremos que revisar sus fuentes y sus límites. Conserven esta pregunta de inicio: la retomaremos al escribir una instrucción y al revisar sus respuestas.
+## 2. Una idea, un ejemplo y una práctica
 
-## 02 · La empresa conectada y su transformación con IA
+Trabajaremos con una idea, un ejemplo y una práctica. Comprender significa reconocer qué problema resuelve cada herramienta. Practicar significa realizar una operación concreta y observar su resultado. Revisar significa explicar qué demuestra ese resultado y qué queda pendiente.
 
-Recorramos la empresa siguiendo un pedido. El cliente expresa una necesidad y el área comercial conserva sus datos y la relación con él. Ahí encontramos al CRM, el sistema de gestión de relaciones con clientes. Cuando la venta se convierte en un pedido, necesitamos relacionarla con materiales, inventarios, producción, entrega y facturación. Ese es uno de los trabajos centrales del ERP.
+Los workbooks de SAP son guías que contienen varias unidades. En esta sesión solo utilizaremos la entrada al sistema y una consulta de margen. Cada actividad tiene un punto de cierre. Si el acceso tarda, registra dónde te quedaste y utiliza la tabla de respaldo para trabajar el análisis. El objetivo es entender lo que haces, además de llegar a una pantalla.
 
-La cadena de suministro añade proveedores, compras, transporte y planeación. Por eso aparece SCM. En una planta, MES acompaña la ejecución de manufactura; un sistema de almacenes, WMS, organiza ubicaciones y movimientos. Un sistema de laboratorio, LIMS, conserva resultados de ensayo; la gestión de calidad relaciona esos resultados con procedimientos, revisiones y decisiones.
+## 3. Una ruta para las siete sesiones
 
-También hay personas, activos, documentos y desarrollo de productos. Recursos humanos, mantenimiento, gestión del ciclo de vida del producto y administración documental forman parte del mismo entorno. BI y analítica reúnen información para compararla y comprender cómo está funcionando el negocio.
+La ruta empieza por los sistemas empresariales y una primera consulta. La segunda sesión desarrolla los fundamentos y aplicaciones de inteligencia artificial. Después estudiaremos la anatomía de los agentes, sus instrucciones, herramientas, contexto y permisos. Más adelante construiremos un proceso y revisaremos planeación, evaluación y gobierno.
 
-Ahora miremos la franja de inteligencia artificial. Puede ayudar a estimar demanda, detectar una anomalía, resumir documentos o coordinar consultas. Para que esa ayuda tenga valor necesita datos con significado, herramientas autorizadas y responsables que revisen la operación. El mapa nos permite preguntar dónde se origina cada dato y qué cambiaría realmente si actuamos sobre él.
+Reutilizaremos lo aprendido en lugar de comenzar con una plataforma nueva cada vez. Los ejercicios de cada sesión tendrán un cierre definido. El acceso a ciertas funciones depende de las condiciones del entorno SAP. En particular, estudiar la arquitectura de un agente no significa que el trial permita desplegar y ejecutar un agente propio. La prueba disponible puede utilizar un equivalente ya desplegado por SAP.
 
-## 03 · Ecosistema SAP
+## 4. Hoy: comprender, entrar y consultar
 
-Este segundo mapa ubica las herramientas de SAP dentro de ese entorno. En la parte superior están las aplicaciones de negocio. S cuatro HANA es el ERP; Ariba se relaciona con compras y proveedores; SuccessFactors con personas; las soluciones de experiencia del cliente acompañan ventas y servicio. También aparecen planeación, almacenes, transporte, producto y manufactura.
+Esta sesión termina con tres resultados. Primero, una decisión justificada para un pedido de envases. Segundo, el estado real de tu acceso a Analytics Cloud. Tercero, una comparación de dos productos con margen bruto, unidad, versión y filtros.
 
-Joule es una forma de interactuar con capacidades disponibles en el entorno. Su alcance depende de las aplicaciones, los permisos y las herramientas que tenga conectadas. Una respuesta de Joule puede proceder de documentación o de una operación sobre datos. Tenemos que comprobar cuál ocurrió.
+Puedes distribuir el trabajo en una sesión de cuatro horas, con pausas, o repartirlo a tu ritmo. Las actividades de plataforma no incluyen completar un workbook entero. En el cierre guardarás un resumen de tres puntos y responderás diez preguntas de repaso. Empezaremos por la teoría y los mapas, antes de abrir el sistema.
 
-SAP Build reúne capacidades para construir extensiones, procesos y automatizaciones. Joule Studio permite configurar capacidades de asistentes y agentes dentro de sus condiciones de acceso. En Analytics Cloud analizamos datos y podemos trabajar con historias y planeación. Datasphere y las ofertas de datos aportan otras piezas de organización y contexto.
+## 5. La empresa conectada
 
-En la capa de inteligencia artificial encontramos AI Core, AI Launchpad y capacidades de generación y orquestación. La integración, las identidades y el gobierno sostienen las conexiones entre estas piezas.
+Sigue el pedido en el mapa. CRM organiza la relación con los clientes y las oportunidades comerciales. SCM ayuda a coordinar el suministro. ERP registra operaciones como pedidos, recepciones, movimientos y facturas. BI permite analizar datos para responder preguntas de negocio. LIMS organiza muestras y resultados de laboratorio.
 
-Hoy vamos a ubicar S cuatro HANA, Analytics Cloud y Build mediante recorridos concretos. El mapa representa una arquitectura de productos. Las capacidades que podemos ejecutar en nuestros laboratorios se comprueban por separado.
+Estas familias se relacionan y pueden superponerse. No son módulos obligatorios de un único producto. En nuestro caso, ventas necesita una respuesta que depende de inventario, recepción y calidad. Recorre esas áreas y pregunta qué dato aporta cada una, en qué estado se encuentra y quién puede confirmarlo. El mapa te permite ubicar una pregunta antes de elegir una herramienta.
 
-## 04 · Una ruta para toda la clase
+## 6. El ERP conserva el estado de la operación
 
-Vamos a utilizar una ruta común para las láminas, el cuaderno y los videos. Cada actividad tiene un código. A uno es el pedido y el mapa empresarial. A dos es la preparación de cuentas. A tres corresponde al recorrido por S cuatro HANA y la revisión de Joule. A cuatro es la consulta de margen en Analytics Cloud. A cinco es la consulta de órdenes en Build. A seis es la escritura y revisión de una instrucción. A siete es el cierre del trabajo.
+ERP es una categoría de sistemas. SAP es un proveedor que desarrolla aplicaciones empresariales. Conviene distinguirlos para no tratar todos los nombres del mapa como si fueran el mismo producto.
 
-Descarguen el cuaderno de prácticas y la guía de acceso SAP desde los dos botones de esta página. El cuaderno sirve para responder; la guía de acceso explica cómo solicitar y abrir los laboratorios.
+Un sistema empresarial conserva datos maestros y transacciones. Un material, un proveedor y una unidad de medida ayudan a identificar qué se mueve. Un pedido, una recepción y una factura registran hechos y cambios de estado. Una llegada prevista sigue siendo una previsión hasta que existe una recepción confirmada con su evidencia. Pregunta siempre quién registró el cambio, cuándo ocurrió y qué documento lo respalda.
 
-Cuando una lámina indique una actividad, abran el panel del mismo código. Ahí encontrarán los pasos, el video cuando corresponde y las páginas que deben completar. Pueden detener la reproducción para trabajar y retomarla después. Las entregas y el examen de quienes cursan el diplomado se realizan en Moodle.
+## 7. Integrar exige compartir el significado
 
-## 05 · ¿Qué podemos prometer hoy?
+La cifra ochenta, por sí sola, no permite decidir. Necesitamos saber ochenta de qué material, en qué unidad, en qué fecha y con qué estado. También importa si esa cantidad está comprometida o si puede utilizarse para una entrega.
 
-Tenemos un pedido que requiere ciento veinte envases. Hoy hay ochenta disponibles. Se esperan cincuenta más mañana, pero esa llegada todavía no está confirmada. Además, falta el documento de calidad que debemos revisar.
+Integrar sistemas exige conservar ese significado. Copiar un número mediante una API no resuelve una diferencia de unidades o identificadores. En calidad, un resultado de ensayo y una decisión de liberación también son cosas distintas. Cuando leas o compartas un dato, conserva su contexto y al responsable de comprobarlo. Esa precaución será necesaria al interpretar la consulta de Analytics.
 
-Empecemos por lo que sí podemos calcular. Ciento veinte menos ochenta son cuarenta. Ese es el faltante respecto a las existencias actuales. Las cincuenta unidades previstas pueden cambiar el escenario cuando su recepción se confirme. Mientras eso no suceda, pertenecen a una expectativa de abastecimiento.
+## 8. Del registro a la acción
 
-Ahora viene la parte empresarial. ¿Dónde está registrado el pedido? ¿En qué ubicación están los ochenta envases? ¿Quién informa que llegarán los cincuenta? ¿Qué evidencia de calidad falta y quién puede revisarla?
+Del registro pasamos al análisis, de ahí a una decisión y, finalmente, a una acción autorizada. Son responsabilidades diferentes. El ERP registra operaciones. Las herramientas analíticas ayudan a ver diferencias y tendencias. Las personas y las herramientas autorizadas deciden y actúan de acuerdo con el proceso.
 
-Si un asistente suma ochenta más cincuenta y responde que tenemos ciento treinta, todavía necesitamos revisar el estado de esas cantidades. La aritmética puede ser correcta y la conclusión operativa equivocada. El trabajo consiste en relacionar números, estados, fechas y responsables antes de prometer una entrega.
+La inteligencia artificial puede ayudar a resumir información, detectar patrones y preparar una recomendación. Esa recomendación no registra una recepción ni libera un lote por sí misma. Para modificar un estado hacen falta la herramienta adecuada, permisos y evidencia de ejecución. Conserva esa distinción mientras resuelves el caso de la siguiente lámina.
 
-## 06 · Ahora ubica el pedido en la empresa
+## 9. ¿Podemos prometer la entrega?
 
-Vamos a trabajar la actividad A uno en las páginas dos y tres del cuaderno. Primero escriban el faltante de hoy. Después separen lo confirmado de lo previsto.
+Detén la presentación para resolver A uno. Un cliente solicita ciento veinte envases. Hay ochenta disponibles al corte. Se esperan cincuenta mañana, pero todavía no existe recepción confirmada. El documento de calidad está pendiente. Es un caso didáctico.
 
-En el mapa de la empresa, localicen qué área o sistema consultarían para el pedido, las existencias, la recepción y el documento de calidad. Una respuesta útil puede indicar el sistema y el responsable que debe confirmar la información.
+Calcula el faltante actual sin sumar la llegada prevista. Después indica dónde consultarías recepción y calidad, quién debe confirmar esos datos y qué responderías al cliente. Escribe la respuesta en el cuaderno web o en la página dos del PDF. Terminas cuando puedes explicar tu cálculo y las comprobaciones pendientes. Continúa a la siguiente lámina después de resolverlo.
 
-Finalmente, propongan una ayuda concreta de inteligencia artificial. Por ejemplo, reunir los datos necesarios para revisar la entrega o resumir la información disponible para el responsable. Añadan qué comprobarían de su respuesta.
+## 10. Una recepción prevista no es disponibilidad actual
 
-Aquí también pueden ensayar el razonamiento: escriban el faltante y decidan si la recepción prevista ya cuenta como disponibilidad. Al revisar encontrarán la explicación del criterio. Detengan la presentación mientras responden y continúen cuando hayan terminado.
+El faltante actual es de cuarenta envases: ciento veinte solicitados menos ochenta disponibles. Los cincuenta previstos para mañana no se suman a la disponibilidad actual, porque la recepción sigue sin confirmar.
 
-## 07 · El ERP conserva el estado de la operación
+Además, el documento de calidad permanece pendiente. Antes de prometer una fecha, necesitas comprobar la recepción, el estado de calidad y las condiciones de disponibilidad. Una respuesta adecuada puede informar lo disponible hoy y explicar qué falta verificar para comprometer el resto. Compara este razonamiento con el que guardaste. Hay varias formas de redactar la respuesta al cliente, siempre que conserven esas condiciones.
 
-El ERP conserva el estado de la operación. Para entenderlo conviene distinguir datos maestros y transacciones. El identificador de un material, su unidad o los datos de un proveedor forman parte de la información que utilizamos repetidamente. Un pedido, una recepción o una factura registran operaciones concretas.
+## 11. El ecosistema SAP
 
-Pensemos en los cincuenta envases previstos. Puede existir una orden de compra y una fecha esperada de entrega. Cuando el material llega y se registra su recepción, aparece otro hecho. Si además se requiere una revisión de calidad, su estado también importa para saber qué se puede utilizar o comprometer.
+Ahora ubica las herramientas de SAP en el segundo mapa. S cuatro HANA registra operaciones empresariales. Analytics Cloud permite analizar información y trabajar escenarios. Build reúne herramientas para construir aplicaciones, automatizaciones y agentes. Joule aporta capacidades de asistencia en los productos y entornos donde se encuentra habilitado.
 
-Un cambio en la operación debe dejar evidencia. Nos interesa quién hizo el registro, cuándo ocurrió, a qué documento corresponde y qué estado resultó. La frase ya llegó puede servir para iniciar una conversación, pero para coordinar el negocio necesitamos identificar la recepción que respalda esa afirmación.
+El mapa muestra funciones y relaciones de arquitectura. No demuestra que los trials separados estén integrados entre sí. Tampoco implica que todas las funciones estén habilitadas para tu usuario. En esta sesión prepararemos únicamente Analytics Cloud. Las demás herramientas nos sirven para comprender el panorama y volveremos a ellas cuando corresponda en el curso.
 
-Por eso, cuando un asistente explica algo, preguntamos qué registro consultó. Y cuando dice que hizo una operación, buscamos la evidencia del cambio.
+## 12. Dos accesos con funciones distintas
 
-## 08 · Integrar exige compartir el significado
+Distingue tu cuenta personal SAP del usuario de laboratorio. Tu correo personal identifica el registro y la solicitud del trial. La bienvenida del producto puede incluir un usuario distinto para entrar al entorno de práctica.
 
-Para integrar sistemas necesitamos compartir el significado de la información. El número ochenta, por sí solo, dice muy poco. ¿Son ochenta envases, ochenta cajas u ochenta kilogramos? ¿Están en el mismo almacén? ¿La cifra corresponde a este momento? ¿Incluye material bloqueado o reservado?
+Si ya tienes cuenta SAP, inicia sesión con ella o recupera la contraseña. Si es tu primera cuenta, utiliza Register y completa tus datos reales. Cada titular revisa las condiciones y realiza sus verificaciones. Conserva la bienvenida de Analytics. Hoy no necesitas solicitar Build, AI Core, BTP ni un trial individual de S cuatro HANA. La práctica de acceso termina al llegar al sistema o al registrar con precisión el bloqueo.
 
-Cuando dos sistemas intercambian datos deben reconocer identificadores, unidades, fechas y estados compatibles. Una conexión técnica puede transportar un mensaje correctamente y aun así dejar una interpretación equivocada. Tener una API disponible es una parte del trabajo. También hay que comprender qué representa su respuesta.
+## 13. Del correo al laboratorio de Analytics
 
-En un entorno químico o de alimentos, el resultado de un ensayo y la decisión sobre un lote están relacionados, pero tienen funciones distintas. El laboratorio aporta resultados; los procedimientos de calidad establecen cómo revisarlos y quién puede decidir.
+Abre el enlace de la prueba de Analytics Cloud que aparece en A dos. Utiliza tu correo para entrar o registrarte. Revisa las condiciones de SAP y confirma únicamente si estás de acuerdo. Una solicitud enviada todavía no equivale a un sistema habilitado.
 
-Para nuestro pedido, intenten completar esta frase: tenemos ochenta de qué, dónde, a qué fecha y bajo qué estado. Esa información es la que permite que otra área utilice el dato con sentido.
+Busca el mensaje de bienvenida de Analytics Cloud, también en Spam. Desde allí abre Start your basic trial y utiliza el acceso que indique esa bienvenida. Si el entorno está en preparación, conserva el mensaje y registra ese estado. No repitas solicitudes para intentar acelerar el proceso. El cuaderno te pide el estado y cualquier incidencia, sin contraseñas, códigos ni enlaces personales de autenticación.
 
-## 09 · Del registro a la acción
+## 14. Una guía te lleva al sistema
 
-Podemos seguir el trabajo empresarial en cuatro movimientos: registrar, analizar, decidir y actuar. Registrar conserva lo ocurrido. Analizar compara información y busca patrones o diferencias. Decidir incorpora objetivos, restricciones y responsabilidad. Actuar cambia algo en la operación mediante herramientas y permisos.
+El catálogo muestra workbooks, es decir, guías. Busca Basic Trial, Introduction to SAP Analytics Cloud. Abre la unidad Log On to SAP Analytics Cloud y la lección Log On and Navigate. El enlace al sistema se encuentra dentro de esa guía.
 
-El mismo producto puede apoyar varios de estos movimientos, y una inteligencia artificial también puede participar en más de uno. Puede buscar un registro, explicar una diferencia o preparar una propuesta. Si dispone de una herramienta autorizada, podría solicitar una operación. Cada paso debe poder revisarse.
+Si el catálogo muestra guías de Build, cierra la sesión del catálogo desde el avatar de SAP y vuelve a entrar desde la bienvenida de Analytics. Abrir otra pestaña puede conservar la misma sesión. Completa A dos hasta abrir el sistema o registrar el último paso logrado. No necesitas recorrer todas las unidades del workbook. Toma una pausa antes de continuar con la teoría de inteligencia artificial.
 
-Un tablero que muestra una caída de margen ayuda a localizar un problema. Para explicar su causa necesitamos más evidencia. Un asistente que recomienda liberar un pedido aporta una propuesta. Para ejecutarla hacen falta las comprobaciones y autorizaciones correspondientes.
+## 15. Qué añade la IA al trabajo
 
-En los recorridos de hoy vamos a preguntar qué movimiento estamos realizando. ¿Estamos leyendo un dato, interpretándolo o cambiando un estado? Esa distinción nos acompañará cuando trabajemos con agentes y automatizaciones.
+La inteligencia artificial puede aportar capacidades diferentes. Predecir utiliza patrones de datos para estimar un resultado, como una posible demora. Generar produce contenido, como una explicación que después debe revisarse. Optimizar busca una asignación dentro de objetivos y restricciones. Un agente puede coordinar consultas y acciones con herramientas y permisos definidos.
 
-## 10 · Qué añade la IA al trabajo
+Una regla explícita, como avisar cuando el inventario baja de un umbral, no equivale por sí sola a aprendizaje automático. En cada ejemplo identifica la tarea, el dato necesario, el resultado esperado y quién lo verifica. La siguiente sesión desarrolla con mayor profundidad el mapa de inteligencia artificial.
 
-La inteligencia artificial añade capacidades diferentes al trabajo empresarial. Una es estimar o clasificar a partir de datos. Podemos estudiar demanda, riesgo o anomalías, siempre con un método y una evaluación apropiados. Otra es generar y extraer información: resumir un documento, redactar una explicación o proponer una estructura para revisar.
+## 16. Una respuesta no prueba una operación
 
-También puede apoyar la exploración de alternativas. Para hablar de optimización tenemos que definir qué buscamos mejorar, qué restricciones debemos respetar y cómo vamos a calcular el resultado. Una propuesta convincente requiere esa definición.
+Una respuesta puede explicar documentación estándar sin haber consultado los datos actuales de una empresa. Por ejemplo, describir cómo funciona una recepción no demuestra que una recepción concreta ya ocurrió.
 
-Los agentes coordinan pasos utilizando instrucciones, modelos, herramientas y controles. Su utilidad depende de lo que pueden consultar y ejecutar, y de cómo se comprueba ese recorrido. En las siguientes clases vamos a abrir esas piezas con más detalle.
+Antes de utilizar una recomendación, comprueba la fuente, la fecha y el alcance de la consulta. Pregunta qué información se recuperó realmente y qué dato falta. La confianza del lenguaje no sustituye esa evidencia. En el caso de envases necesitamos registros de recepción y calidad, además de una explicación del procedimiento. En Analytics también tendremos que distinguir el resultado observado de una interpretación sobre sus causas.
 
-Por ahora, relacionen una capacidad con una tarea de su trabajo. Después añadan la pregunta de revisión: ¿qué dato, prueba o autorización necesitaría para utilizar ese resultado? Ese vínculo entre capacidad y comprobación es lo que nos interesa conservar.
+## 17. Una gráfica necesita contexto
 
-## 11 · Prepara tus cuentas y conserva los correos
+Una gráfica necesita contexto. Debes conocer la métrica, la unidad, la versión y los filtros. También necesitas identificar el periodo cuando esté seleccionado. Comparar dos barras sin esos datos puede llevar a una conclusión equivocada.
 
-Pasamos a preparar las cuentas. Abran la guía de acceso SAP y la página cuatro del cuaderno. Necesitamos distinguir la cuenta personal de SAP y el usuario que asigna cada laboratorio. Build y Analytics Cloud pueden entregar accesos diferentes.
+En nuestra consulta utilizaremos Gross Margin, margen bruto. No debe confundirse con ventas totales ni con utilidad neta. El entorno de muestra puede mostrar la unidad en millones de dólares y la versión Actual. Lee lo que aparece en tu propia sesión. Una diferencia de margen permite describir una comparación; para explicar por qué ocurrió hacen falta más datos. La tabla te ayudará a comprobar los valores exactos.
 
-Sigan un paso de la guía, comprueben la pantalla y continúen. Cuando llegue el correo de un producto, conserven su enlace y sus datos de laboratorio en privado. Solicitar una prueba, abrir su guía y entrar al sistema son estados distintos: registren el que realmente hayan alcanzado.
+## 18. Ejemplo: preguntar y comprobar
 
-El piloto con Gmail permitió activar y utilizar Build y Analytics Cloud. Cada titular debe comprobar su propio acceso y las condiciones que le muestre SAP. AI Core tiene una incidencia de activación; antes de solicitarlo esperen la indicación del profesor.
+El ejemplo utiliza datos de bebidas de muestra, distintos del caso de envases. En Analytics Cloud abre Just Ask. Selecciona el modelo Best Run Juice, Sample Model Planning, cuyo nombre exacto puedes copiar desde la página. Escribe Show gross margin by product y pulsa Ask.
 
-Para ensayar el recorrido aquí, elijan un paso del video y reprodúzcanlo desde ese punto. Después pueden detenerlo y repetir la acción en su cuenta. Si todavía no tienen acceso, revisen la pantalla esperada y anoten la dificultad concreta.
+Observa la gráfica y cambia a Table con el icono de cuadrícula. Comprueba Gross Margin, la unidad, la versión Actual y los filtros visibles. Si no seleccionaste un año, no lo agregues a tu conclusión. Ahora elige dos productos y lee sus valores. La siguiente actividad te pide repetir esa consulta y explicar una comparación con su límite.
 
-## 12 · Una respuesta no prueba una operación
+## 19. Tu primera consulta, con un cierre claro
 
-Antes de entrar a S cuatro HANA, hagamos una distinción. Una respuesta correcta sobre un concepto empresarial puede proceder de documentación estándar. Eso ayuda a comprender el sistema. Para afirmar algo sobre nuestras existencias necesitamos una consulta que llegue al registro correspondiente.
+Detén la presentación para realizar A tres. Repite la pregunta del ejemplo en el mismo modelo y cambia de gráfica a tabla. Registra dos productos y sus valores tal como aparecen en tu sesión. Conserva la métrica, la unidad, la versión y los filtros.
 
-Si preguntamos qué es un pedido y Joule responde con una referencia documental, podemos revisar la definición y la fuente. Si preguntamos cuánto material tenemos disponible, necesitamos saber qué material, planta, unidad, fecha y estado se consultaron.
+Escribe una comparación respaldada por esos valores y un dato que falta para explicar una causa. Guarda una captura sin credenciales. Aquí termina la práctica de plataforma. Si tu acceso sigue bloqueado, registra la incidencia y utiliza la tabla de respaldo, indicando análisis de respaldo. Esa ruta permite practicar la interpretación, pero no acredita una consulta propia al sistema.
 
-La forma de la respuesta puede parecer muy similar. Por eso buscamos la evidencia del recorrido: una referencia a documentación, una tabla de resultados, una herramienta utilizada o un registro que podamos contrastar.
+## 20. Antes de decidir, comprueba
 
-En la demostración vamos a observar por separado un material en el ERP y una respuesta informativa de Joule. Después explicaremos qué permite afirmar cada una. La calidad de la revisión comienza por reconocer de dónde salió la información.
+Antes de decidir, revisa de dónde viene cada dato, su fecha y su estado. Compara tu resultado con el contexto de la consulta. En un entorno compartido los números pueden variar; lo importante es conservar lo que observaste y explicar qué conclusión permite sostener.
 
-## 13 · Observa S/4HANA y contrasta Joule
+Si dos resultados son distintos, revisa primero el modelo, la métrica, la unidad, la versión y los filtros. No inventes una causa para hacerlos coincidir. Conserva una pregunta de negocio que te gustaría investigar en la siguiente sesión. Utiliza este cierre para corregir tu explicación, resolver incidencias y guardar el cuaderno.
 
-En la actividad A tres vamos a leer un material y a contrastar el alcance de Joule. Abran las páginas cinco y seis del cuaderno.
+## 21. Guarda una evidencia breve y termina
 
-La referencia conservada del recorrido muestra el material S G seis mil cien, con existencia de cero kilogramos y un faltante de muestra de mil doscientos kilogramos. Durante una consulta real registren lo que aparezca en ese momento, junto con su fecha y contexto. Los datos del laboratorio pueden cambiar.
+Termina con un resumen breve. Primero, el faltante del caso de envases y una comprobación pendiente. Segundo, el estado real del acceso a Analytics Cloud. Tercero, dos productos con sus márgenes, unidad y versión, una comparación y un límite. Indica si realizaste una consulta propia o un análisis de respaldo.
 
-Después revisen la respuesta documental de Joule y la fuente que cita. Esa explicación nos ayuda a entender una función empresarial; no demuestra por sí sola que se haya consultado el inventario del material.
-
-En el ensayo de esta página pueden practicar la lectura de la muestra del cuaderno: identificar existencia, unidad, faltante y origen de la respuesta. El video permite volver a cada paso. Cuando terminen, expliquen qué dato observaron y qué comprobación faltaría antes de tomar una decisión.
-
-## 14 · Una gráfica necesita contexto
-
-Una gráfica necesita contexto. Antes de interpretar una diferencia entre productos, revisemos qué métrica estamos viendo, en qué unidad se presenta, qué versión de los datos utiliza y qué filtros están activos.
-
-En Analytics Cloud vamos a preguntar por margen bruto por producto. Margen bruto y ventas representan medidas distintas. Si la gráfica muestra millones de dólares, tenemos que conservar esa escala al escribir los valores. También debemos distinguir una versión de datos reales de un pronóstico o de un escenario de planeación.
-
-El lenguaje natural facilita formular una consulta. La interpretación sigue dependiendo del modelo semántico: cómo están definidos los indicadores, las dimensiones y las relaciones de los datos.
-
-Podemos usar una gráfica para localizar una diferencia y una tabla para revisar sus cantidades. Eso prepara una conclusión descriptiva. Para explicar la causa de la diferencia todavía pueden hacer falta precios, costos, volumen, periodo u otros datos. Preguntar bien incluye reconocer ese límite.
-
-## 15 · Pregunta por el margen y compruébalo
-
-Vamos a la actividad A cuatro. Abran las páginas siete a diez del cuaderno y el workbook de introducción a Analytics Cloud. Dentro de Just Ask seleccionen el modelo Best Run Juice de muestra para planeación. La pregunta del recorrido es: show gross margin by product, muestra el margen bruto por producto.
-
-Revisen la gráfica y cambien a tabla. Anoten los valores que observen, su unidad, la versión y los filtros. En la referencia del cuaderno la unidad es millones de dólares y la versión es Actual. Si su consulta devuelve otros valores, conserven su contexto y la evidencia de lo que realmente apareció.
-
-Escriban una conclusión que puedan respaldar con esa tabla y una pregunta que todavía necesite información. Identificar el producto con mayor margen es distinto de explicar por qué lo tiene.
-
-Aquí pueden ensayar esa lectura y volver al paso exacto del video. La revisión de la página utiliza la muestra del cuaderno; la consulta real se realiza dentro de su laboratorio SAP.
-
-## 16 · Consultar y modificar son operaciones distintas
-
-Consultar y modificar son operaciones distintas. En nuestra siguiente práctica vamos a ejecutar una consulta de lectura mediante el método GET. La petición devuelve registros de órdenes de mantenimiento.
-
-Si aparece doscientos OK, sabemos que la petición terminó correctamente desde el punto de vista técnico. Después debemos leer el contenido: qué orden aparece, qué estado tiene y de qué fechas son sus datos. Ese código no demuestra que las existencias sean actuales ni que una recomendación sea adecuada.
-
-Modificar una orden, liberarla o cambiar su estado requiere otra capacidad. Hace falta una herramienta que realice esa operación, permisos para utilizarla y las revisiones que correspondan. Un asistente puede describir el cambio sin haberlo ejecutado.
-
-En el ejercicio de hoy vamos a conservar evidencia de la consulta. Más adelante, cuando trabajemos procesos y aprobaciones, podremos seguir la diferencia entre leer una situación, preparar una propuesta y ejecutar una acción autorizada.
-
-## 17 · Consulta una orden desde Build
-
-En la actividad A cinco vamos a consultar una orden desde Build. Abran las páginas once a catorce del cuaderno. Desde el workbook entren a Test an Action y abran SAP Build Lobby. En Conectores, Acciones, localicen Maintenance Fulfillment Agent API y comprueben el autor oficial que indica el cuaderno.
-
-En la pestaña Actions seleccionen Get maintenance orders. En Test elijan el destino de mantenimiento de muestra y ejecuten la consulta. Si el resultado está plegado, abran Test Preview y revisen Response.
-
-Anoten el código HTTP, el número de una orden, su estado y las fechas. La referencia conservada muestra doscientos OK, la orden cuarenta millones uno, estado OPEN y fechas de septiembre de dos mil veinticinco. Son datos de muestra que pueden variar.
-
-El ensayo de esta página permite revisar qué acredita ese resultado y volver a un paso del video. Al terminar deben poder explicar qué consultaron y qué autorización adicional haría falta para modificar una orden.
-
-## 18 · Una instrucción necesita criterio
-
-Ahora vamos a utilizar el caso inicial para escribir una instrucción que se pueda revisar. Una instrucción útil necesita una tarea, contexto y un criterio de aceptación.
-
-La tarea podría ser identificar el faltante actual y preparar las comprobaciones necesarias antes de prometer la entrega. El contexto incluye ciento veinte envases requeridos, ochenta disponibles, cincuenta previstos sin confirmar y un documento de calidad pendiente.
-
-El criterio de revisión debe decir qué esperamos encontrar en la respuesta. Queremos distinguir cantidades confirmadas y previstas, ver el cálculo y reconocer qué dato o autorización todavía hace falta. También podemos indicar que, si falta información, se formule una pregunta en lugar de inventar una respuesta.
-
-Añadir muchas palabras no garantiza una mejor instrucción. Lo importante es que cada parte ayude a realizar la tarea y a comprobar el resultado. Vamos a ensayar esa relación entre lo que pedimos y la evidencia que aceptaríamos.
-
-## 19 · Escribe una instrucción que se pueda revisar
-
-Trabajen la actividad A seis en la página quince del cuaderno. Escriban su instrucción para el pedido de envases. Después léanla como si fueran la persona que debe revisar la respuesta. ¿Queda claro qué está confirmado, qué sigue previsto y qué debe comprobarse?
-
-En esta página hay dos respuestas redactadas para el ejercicio. La primera suma los ochenta envases actuales y los cincuenta previstos, afirma que tenemos ciento treinta y propone liberar el pedido. La segunda conserva ochenta confirmados, calcula un faltante de cuarenta y pide revisar la recepción y la evidencia de calidad.
-
-Localicen las afirmaciones que necesitan respaldo. Incluso la respuesta mejor fundamentada debe reconocer que todavía no puede asegurar una fecha de entrega.
-
-Para ensayar, escriban aquí su instrucción y utilicen los criterios de revisión. Pueden guardar una copia de su trabajo. Los ejemplos y la comprobación de esta actividad están escritos para el aprendizaje; no son respuestas generadas por una herramienta SAP. AI Core permanece pendiente y hoy la revisión se realiza por escrito.
-
-## 20 · Antes de decidir, comprueba
-
-Antes de decidir, comprueba. Volvamos a las tres preguntas que han acompañado los recorridos. ¿Qué dato tengo? ¿De dónde salió? ¿Qué me permite afirmar?
-
-En el pedido sintético, distinguimos disponibilidad actual y recepción prevista. En el ERP observamos un registro y reconocimos el alcance documental de una respuesta de Joule. En Analytics Cloud conservamos métrica, unidad y versión. En Build distinguimos el éxito de una consulta y una modificación de la operación.
-
-La inteligencia artificial puede reducir el esfuerzo de buscar, organizar o explicar. Para utilizar su resultado necesitamos un criterio que podamos revisar y una relación clara con el proceso empresarial. La responsabilidad y las autorizaciones siguen formando parte de ese proceso.
-
-Conserven una pregunta de negocio para las siguientes clases. Puede ser una pregunta que necesite otra fuente, un dato faltante o una capacidad que todavía no hemos ejecutado. Ese será un buen punto de partida para profundizar en fundamentos, agentes y procesos.
-
-## 21 · Guarda tu trabajo y completa el repaso
-
-Vamos a cerrar la sesión conservando evidencia de lo que pudimos comprobar. Guarden el cuaderno y revisen el estado de sus accesos. Añadan un resultado de Analytics Cloud o Build y la pregunta que prepararon en A seis.
-
-Si están inscritos en el diplomado, entren a la actividad A siete de Moodle. Primero guarden el resumen del registro. Después respondan el examen cuando esté abierto. Revisen el resumen de su intento y confirmen Enviar todo y terminar. El examen de la sesión tiene diez preguntas, quince minutos y dos intentos; abre el diecinueve de noviembre a las veinte cuarenta y cinco, hora de Ciudad de México.
-
-Si están utilizando Hadox Talks para estudiar o ensayar, conserven su cuaderno y pueden descargar las respuestas de práctica que escribieron en esta página. Esa copia les permite repetir el recorrido y reconocer qué criterios dominan y cuáles necesitan revisar.
-
-En la siguiente sesión vamos a desarrollar los fundamentos y aplicaciones de inteligencia artificial, con ejercicios y ejemplos que parten de estas preguntas empresariales.
+Guarda tus respuestas y descarga el cuaderno web para conservar una copia. El guardado automático funciona en este navegador y dispositivo. Después responde las diez preguntas del repaso y utiliza la retroalimentación para corregir. Esta sesión cierra aquí. Puedes repetir voluntariamente la consulta antes de continuar con los fundamentos de inteligencia artificial.

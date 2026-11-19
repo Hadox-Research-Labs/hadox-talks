@@ -1,0 +1,105 @@
+{
+  "title": "Repaso de la sesión 1",
+  "questions": [
+    {
+      "text": "Un pedido requiere 160 unidades. Hay 110 disponibles y se esperan 70 sin recepción confirmada. ¿Cuántas faltan hoy?",
+      "options": [
+        "Ninguna; ya hay 180.",
+        "50 unidades.",
+        "70 unidades."
+      ],
+      "correct": 1,
+      "explanation": "160 − 110 = 50. Una previsión no aumenta la disponibilidad actual."
+    },
+    {
+      "text": "¿Qué permite contar como recibida una llegada prevista?",
+      "options": [
+        "Una explicación de IA.",
+        "La fecha prevista.",
+        "La recepción confirmada y su evidencia."
+      ],
+      "correct": 2,
+      "explanation": "Hace falta un registro de recepción confirmado, además de las condiciones de disponibilidad aplicables."
+    },
+    {
+      "text": "¿Qué familia organiza la relación con los clientes?",
+      "options": [
+        "CRM.",
+        "Gestión de mantenimiento.",
+        "Nómina."
+      ],
+      "correct": 0,
+      "explanation": "CRM se centra en la relación con clientes y las oportunidades comerciales."
+    },
+    {
+      "text": "Dos áreas comparten la cifra 500. ¿Qué debes conservar para interpretarla?",
+      "options": [
+        "Solo el número.",
+        "Unidad, fecha, identificador y estado.",
+        "Solo el modelo de IA utilizado."
+      ],
+      "correct": 1,
+      "explanation": "El significado del dato depende de su contexto."
+    },
+    {
+      "text": "Una IA explica documentación estándar. ¿Qué demuestra esa respuesta?",
+      "options": [
+        "Que consultó el inventario actual.",
+        "Que autorizó una entrega.",
+        "Que produjo una explicación documental; el inventario requiere otra evidencia."
+      ],
+      "correct": 2,
+      "explanation": "Explicar un procedimiento no demuestra que se consultó un registro operativo."
+    },
+    {
+      "text": "La métrica Gross Margin corresponde a…",
+      "options": [
+        "Margen bruto.",
+        "Número de pedidos.",
+        "Ventas totales."
+      ],
+      "correct": 0,
+      "explanation": "Gross Margin es margen bruto; conserva también su unidad y contexto."
+    },
+    {
+      "text": "Antes de comparar dos gráficas, revisas…",
+      "options": [
+        "Sus colores.",
+        "Métrica, unidad, versión, periodo y filtros.",
+        "Solo la barra más alta."
+      ],
+      "correct": 1,
+      "explanation": "La comparación necesita un contexto compatible."
+    },
+    {
+      "text": "SAP confirma que recibió tu solicitud de trial. ¿Qué puedes registrar?",
+      "options": [
+        "Sistema abierto.",
+        "Consulta ejecutada.",
+        "Solicitud enviada; falta comprobar el acceso al sistema."
+      ],
+      "correct": 2,
+      "explanation": "La solicitud y la habilitación del sistema son estados distintos."
+    },
+    {
+      "text": "Tu acceso está bloqueado y analizas la tabla de referencia. ¿Cómo identificas tu resultado?",
+      "options": [
+        "Consulta propia.",
+        "Análisis de respaldo e incidencia de acceso.",
+        "Prueba de que ya se habilitó mi usuario."
+      ],
+      "correct": 1,
+      "explanation": "La tabla permite practicar la interpretación sin atribuirte una ejecución en el sistema."
+    },
+    {
+      "text": "Dos productos muestran márgenes diferentes. ¿Qué conclusión está respaldada?",
+      "options": [
+        "La diferencia prueba por sí sola su causa.",
+        "La IA ya autorizó un cambio de precios.",
+        "Puedes comparar los valores; explicar la causa requiere más información."
+      ],
+      "correct": 2,
+      "explanation": "Una diferencia observada no demuestra una causa ni autoriza una acción."
+    }
+  ]
+}

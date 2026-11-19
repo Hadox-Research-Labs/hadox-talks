@@ -4,24 +4,21 @@ Charlas, cursos y talleres de Edgar Antonio Valdés Porras en Hadox Research Lab
 
 **[Abrir Hadox Talks](https://hadox-research-labs.github.io/hadox-talks/)**
 
-## ERP e Inteligencia Artificial · UNAM
+## ERP e Inteligencia Artificial
 
-Materiales del módulo VII del diplomado de la Facultad de Química, UNAM: siete sesiones, del 19 de noviembre al 3 de diciembre de 2026. La sesión 1 está publicada; los materiales de las sesiones 2–7 se incorporarán durante el curso.
+Curso independiente de Hadox Research Labs, de Edgar Antonio Valdés Porras. La sesión 1 incorpora la secuencia revisada: teoría con mapas, caso de disponibilidad, acceso a Analytics Cloud y una consulta concreta.
 
-- [Curso y calendario de las siete sesiones](https://hadox-research-labs.github.io/hadox-talks/erp-e-inteligencia-artificial/)
-- [Sesión 1: presentación y prácticas](https://hadox-research-labs.github.io/hadox-talks/erp-e-inteligencia-artificial/sesion-1/)
-- [Seguimiento público del grupo](https://hadox-research-labs.github.io/hadox-talks/erp-e-inteligencia-artificial/seguimiento/)
+- [Abrir el curso](https://hadox-research-labs.github.io/hadox-talks/erp-e-inteligencia-artificial/)
+- [Repasar la sesión 1](https://hadox-research-labs.github.io/hadox-talks/erp-e-inteligencia-artificial/sesion-1/)
 - [Guía del curso y sus archivos](erp-e-inteligencia-artificial/README.md)
 
-La primera sesión incluye 21 láminas con narración hasta **2×**, cuatro videos de recorridos SAP, actividades A1–A6 con checks por paso, cuaderno web, un repaso de diez preguntas y registro de finalización. La calificación del repaso es de práctica y es independiente del examen del diplomado en Moodle.
-
-Cada participante puede publicar su nombre o alias, avance, estado de A1–A6 y nota desde **Mi avance y calificación → Publicar mi avance**. La tabla del grupo tiene búsqueda, filtros y actualización cada 30 segundos. La publicación requiere una autorización específica y puede retirarse desde el mismo navegador.
+Incluye 21 láminas narradas, navegación directa, tres partes de trabajo, cuaderno web con descarga, cinco PDF y diez preguntas autocorregibles. La velocidad se cambia en el menú nativo del reproductor. Las respuestas del repaso actual se guardan en el mismo navegador y dispositivo. Los registros compartidos de la edición anterior se conservan por separado.
 
 ## Ediciones en este repositorio
 
 | Presentación o curso | Contenido disponible |
 | --- | --- |
-| [ERP e Inteligencia Artificial](https://hadox-research-labs.github.io/hadox-talks/erp-e-inteligencia-artificial/) | Calendario de siete sesiones; sesión 1 con teoría, prácticas, videos, cuaderno, repaso y seguimiento del grupo. |
+| [ERP e Inteligencia Artificial](https://hadox-research-labs.github.io/hadox-talks/erp-e-inteligencia-artificial/) | Curso independiente; sesión 1 con mapas, caso, acceso, una consulta de Analytics, cuaderno y repaso. |
 | [De datos a decisiones: IA, ciencia y ciudades inteligentes](https://hadox-research-labs.github.io/hadox-talks/de-datos-a-decisiones-2026/) | Semana de la Ciencia 2026, Red Global MX Capítulo España, 18 de noviembre. Portada, cuatro láminas, discurso de 15 minutos, audio y descargas. |
 | [Perspectivas de Agentes de IA en Gemelos Digitales Locales para el análisis de Ciudades](https://hadox-research-labs.github.io/hadox-talks/igisc-2026-agentes-ia-gemelos-digitales-locales/) | iGISc 2026, 13 de noviembre. Presentación narrada, demostraciones, cuaderno de preguntas y trabajos, PPTX y PDF. |
 | [IA para líderes: del uso básico a la ventaja competitiva](https://hadox-research-labs.github.io/hadox-talks/ia-para-lideres/revision-clase-3/#lamina-1) | Tres clases con teoría, demostraciones, guías y materiales. La portada enlaza a cada clase. |

@@ -1,6 +1,2 @@
-﻿producto,workbook,herramienta,estado,resultado_observado,fecha_activacion,fecha_vencimiento,paso_y_error
-Moodle,,,,,,,
-SAP Learning,,,,,,,
-Analytics Cloud,,,,,,,
-Build,,,,,,,
-AI Core,,,,,,,
+producto,estado,ultimo_paso,incidencia_sin_credenciales,activacion_visible,vencimiento_visible
+Analytics Cloud,,,,,
