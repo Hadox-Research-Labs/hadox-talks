@@ -21,11 +21,14 @@
     }
   }
   try {
-    const response = await fetch('leccion.json?v=20261119-2');
+    const response = await fetch('leccion.json?v=20261119-3');
     if (!response.ok) throw new Error('No se pudo cargar la lección');
     slides = (await response.json()).slides;
   } catch (_) {
     $('slide-caption').textContent = 'Descarga el PDF para consultar la presentación completa.';
+    $('voice-status').textContent='No se pudo preparar la presentación. Recarga la página para reintentar o descarga el PDF.';
+    $('listen-all').textContent='Ensayo no disponible';
+    $('viewer').setAttribute('aria-busy','false');
     return;
   }
   function show(i) {
@@ -114,4 +117,7 @@
   $('voice-rate').onchange = () => { $('lesson-audio').playbackRate=Number($('voice-rate').value); };
   document.addEventListener('workshop:panel', event => { if (event.detail.name !== 'class' && voiceState.mode !== 'idle' && !voiceState.paused) narrator.togglePause(); });
   window.addEventListener('pagehide', () => narrator.stop(''));
+  for(const id of ['listen-all','listen-slide','slide-select','fullscreen'])$(id).disabled=false;
+  $('previous').disabled=index===0;$('next').disabled=index===slides.length-1;
+  $('viewer').setAttribute('aria-busy','false');
 })();
