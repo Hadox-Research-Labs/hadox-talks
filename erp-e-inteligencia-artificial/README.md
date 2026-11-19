@@ -28,15 +28,15 @@ Los materiales de las sesiones 2–7 se incorporarán durante el curso. El calen
 6. Completa los pasos, guarda los seis trabajos y responde las diez preguntas para habilitar el registro de finalización.
 7. En A7, prepara y descarga tu cuaderno si quieres conservar una copia.
 
-| Actividad | Trabajo |
-| --- | --- |
-| A1 | Seguir un pedido por la empresa y distinguir datos confirmados y previstos. |
-| A2 | Preparar las cuentas y accesos de SAP Build y SAP Analytics Cloud. |
-| A3 | Consultar un material de S/4HANA y contrastar el alcance de una respuesta de Joule; incluye ruta de análisis grabado. |
-| A4 | Consultar margen bruto por producto en Analytics Cloud y comprobar gráfica, tabla y contexto. |
-| A5 | Leer órdenes de mantenimiento desde Build y comprobar la respuesta de una petición GET. |
-| A6 | Escribir, revisar y corregir una instrucción de IA con los datos del pedido. |
-| A7 | Reunir y descargar el trabajo; consultar las entregas institucionales si cursas el diplomado. |
+| Actividad | Lámina | Trabajo |
+| --- | --- | --- |
+| A1 | 6 | Seguir un pedido por la empresa y distinguir datos confirmados y previstos. |
+| A2 | 11 | Preparar las cuentas y accesos de SAP Build y SAP Analytics Cloud; AI Core no es requisito. |
+| A3 | 13 | Consultar un material de S/4HANA y contrastar el alcance de una respuesta de Joule; incluye ruta de análisis grabado. |
+| A4 | 15 | Consultar margen bruto por producto en Analytics Cloud y comprobar gráfica, tabla y contexto. |
+| A5 | 17 | Leer órdenes de mantenimiento desde Build y comprobar la respuesta de una petición GET. |
+| A6 | 19 | Escribir, revisar y corregir una instrucción de IA con los datos del pedido. |
+| A7 | 21 | Completar el repaso, descargar el trabajo y consultar las entregas institucionales si cursas el diplomado. |
 
 ## Narración y pausas
 
@@ -44,7 +44,7 @@ Los materiales de las sesiones 2–7 se incorporarán durante el curso. El calen
 
 Con **Parar al llegar a una práctica** activado, el ensayo se detiene al terminar las láminas **6 (A1), 11 (A2), 13 (A3), 15 (A4), 17 (A5), 19 (A6) y 21 (A7)**. La portada y las primeras cinco láminas no contienen una pausa de práctica.
 
-El visor indica si estás en teoría y cuál es la próxima práctica. Cuando corresponde una actividad, aparece **Abrir práctica**. Después de trabajar, usa **Volver a la presentación** y continúa con la siguiente lámina. Una pausa del audio por sí sola no significa que haya comenzado un ejercicio.
+El visor indica si estás en teoría y cuál es la próxima práctica. Cada lámina de práctica muestra su código, las páginas del cuaderno y los pasos. Cuando corresponde una actividad, aparece **Abrir práctica**. Después de trabajar, usa **Volver a la presentación** y continúa con la siguiente lámina. Si abres una actividad desde el índice, la continuación queda preparada en su lámina correspondiente. Una pausa del audio por sí sola no significa que haya comenzado un ejercicio.
 
 ## Seguimiento del grupo
 

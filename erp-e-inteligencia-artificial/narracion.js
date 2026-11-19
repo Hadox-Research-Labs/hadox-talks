@@ -26,12 +26,21 @@
       if(index>=getSlides().length-1){stop('Terminó la presentación. Conserva tus respuestas de práctica.');return;}
       index++;mode='continuous';playIndex();
     }
+    function enterPractice(code){
+      const target=getSlides().findIndex(slide=>slide.practice===code);
+      if(target<0)return false;
+      stop('');index=target;mode='practice';paused=true;
+      audio.src=getSlides()[index].audio;audio.load();onSlide(index);
+      emit('Momento de práctica '+code+'. Continúa cuando hayas terminado.');
+      return true;
+    }
     audio.addEventListener('play',()=>{
+      if(audio.paused)return;
       if(mode==='idle'||mode==='practice')mode='single';paused=false;
       emit((mode==='continuous'?'Ensayo continuo':'Solo esta lámina')+' · Lámina '+(index+1)+' de '+getSlides().length);
     });
     audio.addEventListener('pause',()=>{
-      if(mode!=='idle'&&mode!=='practice'&&!audio.ended){paused=true;emit('Audio en pausa. Esta no es una parada de práctica. Pulsa Continuar voz para seguir.');}
+      if(mode!=='idle'&&mode!=='practice'&&audio.paused&&!audio.ended){paused=true;emit('Audio en pausa. Esta no es una parada de práctica. Pulsa Continuar voz para seguir.');}
     });
     audio.addEventListener('ended',()=>{
       if(mode==='idle'||!audio.ended)return;
@@ -47,7 +56,7 @@
       if(mode==='idle')return;
       if(audio.paused)audio.play().catch(()=>stop('Pulsa Escuchar para reintentar.'));else audio.pause();
     }
-    return{start,stop,select,togglePause,continuePractice};
+    return{start,stop,select,togglePause,continuePractice,enterPractice};
   }
   root.HadoxLessonNarration={create};
   if(typeof module!=='undefined')module.exports=root.HadoxLessonNarration;

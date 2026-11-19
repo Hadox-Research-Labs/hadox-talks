@@ -11,7 +11,8 @@
       const section=document.querySelector('#'+practice.toLowerCase());
       const name=section?.querySelector('h3')?.textContent||'';
       $('practice-cue-title').textContent=(state.mode==='practice'?'Pausa para la práctica ':'Práctica ')+practice;
-      $('practice-cue-text').textContent=state.mode==='practice'?'Abre '+practice+' y realiza sus pasos. Cuando termines, continúa con la presentación.':name+'. Al terminar esta explicación puedes abrir la actividad.';
+      const after=index<slides.length-1?'Al terminar, vuelve a la presentación y continúa en la lámina '+(index+2)+'.':'Al terminar, vuelve y pulsa Terminar presentación.';
+      $('practice-cue-text').textContent=state.mode==='practice'?'Abre '+practice+' y realiza sus pasos. '+after:name+'. Al terminar esta explicación puedes abrir la actividad.';
       $('activity-link').href='#'+practice.toLowerCase();
       $('activity-link').textContent='Abrir práctica '+practice+' ↓';
     }else{
@@ -20,7 +21,7 @@
     }
   }
   try {
-    const response = await fetch('leccion.json?v=20261119-1');
+    const response = await fetch('leccion.json?v=20261119-2');
     if (!response.ok) throw new Error('No se pudo cargar la lección');
     slides = (await response.json()).slides;
   } catch (_) {
@@ -46,21 +47,33 @@
     const match = location.hash.match(/^#lamina-(\d+)$/);
     if (match) move(Number(match[1]) - 1);
     else if (/^#a[1-7]$/.test(location.hash)) {
-      const details = document.querySelector(location.hash + '>details'); if (details) details.open = true;
+      openPractice(location.hash.slice(1).toUpperCase());
     }
   }
   $('previous').onclick = () => move(index - 1); $('next').onclick = () => move(index + 1);
   $('slide-select').onchange = e => move(Number(e.target.value));
-  $('activity-link').onclick = () => {
-    if (voiceState.mode !== 'idle' && !voiceState.paused) narrator.togglePause();
-    const details = document.querySelector($('activity-link').getAttribute('href') + '>details'); if (details) details.open = true;
-  };
+  async function openPractice(code) {
+    const section=document.querySelector('#'+code.toLowerCase());
+    if(!section)return;
+    if(document.fullscreenElement){
+      try{await document.exitFullscreen();}
+      catch(_){$('voice-status').textContent='Pulsa Esc para salir de pantalla completa y abrir la práctica.';return;}
+    }
+    stopVideos();
+    if(!narrator.enterPractice(code))return;
+    section.querySelector('details').open=true;
+    history.replaceState(null,'','#'+code.toLowerCase());
+    section.scrollIntoView({block:'start'});
+    section.querySelector('summary').focus({preventScroll:true});
+  }
+  $('activity-link').onclick = event => {event.preventDefault();openPractice(slides[index].practice);};
   $('fullscreen').onclick = async () => {
     try { if (document.fullscreenElement) await document.exitFullscreen(); else await $('viewer').requestFullscreen(); }
     catch (_) { window.open($('image-link').href, '_blank', 'noopener'); }
   };
   document.addEventListener('keydown', e => {
-    if (e.altKey || e.ctrlKey || e.metaKey || /INPUT|TEXTAREA|SELECT|BUTTON|VIDEO/.test(e.target.tagName)) return;
+    if (e.altKey || e.ctrlKey || e.metaKey || e.target.closest('input,textarea,select,button,audio,video,[contenteditable="true"]')) return;
+    if (!e.target.closest('#viewer')) return;
     if (e.key === 'ArrowRight') { e.preventDefault(); move(index + 1); }
     if (e.key === 'ArrowLeft') { e.preventDefault(); move(index - 1); }
   });
@@ -68,9 +81,12 @@
     document.querySelectorAll('video').forEach(other => { if (other !== v) other.pause(); });
     if (voiceState.mode !== 'idle' && !voiceState.paused) narrator.togglePause();
   }));
-  document.querySelectorAll('.outline a,.start a[href^="#a"]').forEach(a => a.addEventListener('click', () => {
-    if (voiceState.mode !== 'idle' && !voiceState.paused) narrator.togglePause();
-    const details = document.querySelector(a.getAttribute('href') + '>details'); if (details) details.open = true;
+  document.querySelectorAll('.outline a,.start a[href^="#a"]').forEach(a => a.addEventListener('click', event => {
+    event.preventDefault();openPractice(a.getAttribute('href').slice(1).toUpperCase());
+  }));
+  document.querySelectorAll('.return-to-class').forEach(a=>a.addEventListener('click',event=>{
+    event.preventDefault();history.replaceState(null,'','#lamina-'+slides[index].number);
+    $('viewer').scrollIntoView({block:'start'});$('listen-all').focus({preventScroll:true});
   }));
   window.addEventListener('hashchange', readHash);
   const initialActivity = /^#a[1-7]$/.test(location.hash) ? location.hash : null;
@@ -89,8 +105,7 @@
     }});
   narrator.select(index);
   if (initialActivity) {
-    const panel=document.querySelector(initialActivity+'>details');
-    if (panel) { panel.open=true; history.replaceState(null,'',initialActivity); document.querySelector(initialActivity).scrollIntoView(); }
+    openPractice(initialActivity.slice(1).toUpperCase());
   }
   function stopVideos() { document.querySelectorAll('video').forEach(v => v.pause()); }
   $('listen-all').onclick = () => { stopVideos(); if (voiceState.mode === 'practice') narrator.continuePractice(); else narrator.start(index,true); };

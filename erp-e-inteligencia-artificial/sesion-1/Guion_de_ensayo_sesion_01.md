@@ -200,7 +200,7 @@ La inteligencia artificial puede reducir el esfuerzo de buscar, organizar o expl
 
 Conserven una pregunta de negocio para las siguientes clases. Puede ser una pregunta que necesite otra fuente, un dato faltante o una capacidad que todavía no hemos ejecutado. Ese será un buen punto de partida para profundizar en fundamentos, agentes y procesos.
 
-## 21 · Guarda tu registro y termina el examen
+## 21 · Guarda tu trabajo y completa el repaso
 
 Vamos a cerrar la sesión conservando evidencia de lo que pudimos comprobar. Guarden el cuaderno y revisen el estado de sus accesos. Añadan un resultado de Analytics Cloud o Build y la pregunta que prepararon en A seis.
 
