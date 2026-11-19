@@ -40,7 +40,7 @@
   document.querySelectorAll('[data-continue]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();continuous=false;show(Number(a.dataset.continue)-1);$('viewer').scrollIntoView({block:'start'});$('next').focus({preventScroll:true});}));
   document.querySelectorAll('[data-return]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();$('viewer').scrollIntoView({block:'start'});$('slide-select').focus({preventScroll:true});}));
   document.querySelectorAll('a[href^="#a"],a[href="#repaso"]').forEach(a=>a.addEventListener('click',()=>{
-    const section=document.querySelector(a.getAttribute('href'));if(!section)return;audio.pause();continuous=false;section.querySelector('details')?.setAttribute('open','');
+    const section=document.querySelector(a.getAttribute('href'));if(!section)return;audio.pause();continuous=false;(section.matches('details')?section:section.querySelector('details'))?.setAttribute('open','');
   }));
   document.addEventListener('keydown',e=>{if(e.altKey||e.ctrlKey||e.metaKey||e.target.closest('input,textarea,select,button,audio,a,[contenteditable]')||!e.target.closest('#viewer'))return;if(['ArrowRight','ArrowLeft'].includes(e.key)){e.preventDefault();continuous=false;show(index+(e.key==='ArrowRight'?1:-1));}});
   document.querySelectorAll('[data-field]').forEach(el=>{if(state.fields[el.dataset.field]!=null)el.value=state.fields[el.dataset.field];el.addEventListener('input',()=>{state.fields[el.dataset.field]=el.value;save();});});
