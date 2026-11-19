@@ -2,8 +2,25 @@
   'use strict';
   const $ = id => document.getElementById(id);
   let slides, index = 0, narrator, voiceState = {mode:'idle',paused:false};
+  function practiceCue(state=voiceState) {
+    const s=slides[index],practice=s.practice;
+    const upcoming=slides.slice(index+1).find(item=>item.practice);
+    $('practice-cue').classList.toggle('is-practice',Boolean(practice));
+    $('activity-link').hidden=!practice;
+    if(practice){
+      const section=document.querySelector('#'+practice.toLowerCase());
+      const name=section?.querySelector('h3')?.textContent||'';
+      $('practice-cue-title').textContent=(state.mode==='practice'?'Pausa para la práctica ':'Práctica ')+practice;
+      $('practice-cue-text').textContent=state.mode==='practice'?'Abre '+practice+' y realiza sus pasos. Cuando termines, continúa con la presentación.':name+'. Al terminar esta explicación puedes abrir la actividad.';
+      $('activity-link').href='#'+practice.toLowerCase();
+      $('activity-link').textContent='Abrir práctica '+practice+' ↓';
+    }else{
+      $('practice-cue-title').textContent='Teoría · continúa la presentación';
+      $('practice-cue-text').textContent=upcoming?'La próxima práctica es '+upcoming.practice+', en la lámina '+upcoming.number+'. Aquí todavía no se realiza el ejercicio.':'Esta lámina no contiene una práctica.';
+    }
+  }
   try {
-    const response = await fetch('leccion.json?v=20261117-1');
+    const response = await fetch('leccion.json?v=20261119-1');
     if (!response.ok) throw new Error('No se pudo cargar la lección');
     slides = (await response.json()).slides;
   } catch (_) {
@@ -17,8 +34,7 @@
     $('image-link').href = s.image; $('slide-select').value = String(index);
     $('previous').disabled = index === 0; $('next').disabled = index === slides.length - 1;
     $('slide-caption').textContent = `Lámina ${s.number} de ${slides.length} · ${s.title}`;
-    $('activity-link').href = '#' + s.activity.toLowerCase();
-    $('activity-link').textContent = `Ir a la actividad ${s.activity} ↓`;
+    practiceCue({mode:'idle'});
     $('slide-transcript-body').replaceChildren(...s.transcript.split(/\n\s*\n/).map(text => {
       const p = document.createElement('p'); p.textContent = text; return p;
     }));
@@ -68,7 +84,8 @@
       $('pause-voice').disabled = state.mode === 'idle' || state.mode === 'practice';
       $('stop-voice').disabled = state.mode === 'idle';
       $('pause-voice').textContent = state.paused ? 'Continuar voz' : 'Pausar';
-      $('listen-all').textContent = state.mode === 'practice' ? 'Continuar después de la práctica' : 'Ensayar presentación';
+      $('listen-all').textContent = state.mode === 'practice' ? (index<slides.length-1?'Continuar con la lámina '+(index+2):'Terminar presentación') : 'Ensayar presentación';
+      practiceCue(state);
     }});
   narrator.select(index);
   if (initialActivity) {

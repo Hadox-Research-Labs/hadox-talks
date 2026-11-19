@@ -1,124 +1,81 @@
 # Hadox Talks
 
-Public talk archive for Hadox Research Labs.
+Charlas, cursos y talleres de Edgar Antonio Valdés Porras en Hadox Research Labs. El catálogo reúne presentaciones, narraciones, guías y prácticas para seguir cada sesión y continuar trabajando.
 
-This repository publishes narrated web editions of talks, slide decks, and
-editorial packages by Edgar Valdes. The archive is designed to preserve the
-original visual artifact while adding public narration, language variants, and
-social handoff material for later distribution.
+**[Abrir Hadox Talks](https://hadox-research-labs.github.io/hadox-talks/)**
 
-## Published Site
+## ERP e Inteligencia Artificial · UNAM
 
-- Archive root: [https://hadox-research-labs.github.io/hadox-talks/](https://hadox-research-labs.github.io/hadox-talks/)
-- Current talk: [Por que las ciudades son como elefantes y las empresas como ratones](https://hadox-research-labs.github.io/hadox-talks/elephant-cities-mice-companies/)
-- English narration: [https://hadox-research-labs.github.io/hadox-talks/elephant-cities-mice-companies/index-en.html](https://hadox-research-labs.github.io/hadox-talks/elephant-cities-mice-companies/index-en.html)
-- Latest talk: [Navigating Complexity: AI for Resilient Urban Systems](https://hadox-research-labs.github.io/hadox-talks/resilient-urban-ai/index-en.html)
+Materiales del módulo VII del diplomado de la Facultad de Química, UNAM: siete sesiones, del 19 de noviembre al 3 de diciembre de 2026. La sesión 1 está publicada; los materiales de las sesiones 2–7 se incorporarán durante el curso.
 
-## Current Talks
+- [Curso y calendario de las siete sesiones](https://hadox-research-labs.github.io/hadox-talks/erp-e-inteligencia-artificial/)
+- [Sesión 1: presentación y prácticas](https://hadox-research-labs.github.io/hadox-talks/erp-e-inteligencia-artificial/sesion-1/)
+- [Seguimiento público del grupo](https://hadox-research-labs.github.io/hadox-talks/erp-e-inteligencia-artificial/seguimiento/)
+- [Guía del curso y sus archivos](erp-e-inteligencia-artificial/README.md)
 
-| Talk | Source | Status |
-| --- | --- | --- |
-| `erp-e-inteligencia-artificial` | Módulo VII, Facultad de Química UNAM, 2026 | Índice de siete sesiones; sesión 1 con 21 láminas narradas, prácticas autoguiadas, cuatro videos y cuaderno web. Los accesos a SAP se solicitan individualmente. Entregas y examen en Moodle. |
-| `igisc-2026-agentes-ia-gemelos-digitales-locales` | iGISc 2026, approved 20-slide edition, 10 Nov 2026 | Spanish continuous browser narration, full script, downloadable PPTX with notes and PDF, 62-contribution workbook |
-| `elephant-cities-mice-companies` | Historical Google Slides deck, 2021 | Published with original slide images, Spanish narration, English narration, speaker scripts, and social handoff package |
-| `resilient-urban-ai` | Historical Google Slides deck, 2024 | Published with original slide images, Spanish narration, English narration, speaker scripts, phone redaction on final slide, and link-only social handoff package |
+La primera sesión incluye 21 láminas con narración hasta **2×**, cuatro videos de recorridos SAP, actividades A1–A6 con checks por paso, cuaderno web, un repaso de diez preguntas y registro de finalización. La calificación del repaso es de práctica y es independiente del examen del diplomado en Moodle.
 
-## Editorial Standard
+Cada participante puede publicar su nombre o alias, avance, estado de A1–A6 y nota desde **Mi avance y calificación → Publicar mi avance**. La tabla del grupo tiene búsqueda, filtros y actualización cada 30 segundos. La publicación requiere una autorización específica y puede retirarse desde el mismo navegador.
 
-Hadox Talks uses a conservative archival model:
+## Ediciones en este repositorio
 
-- Preserve original slides as the primary artifact.
-- Add narration and speaker scripts without rewriting the historical deck.
-- Use a polished Hadox Talks shell around the deck.
-- Keep language variants explicit, normally `index.html` for Spanish and
-  `index-en.html` for English.
-- Keep social copy and Telegram handoff files next to the talk so publication
-  steps are auditable.
-- Review partner marks, institutional references, dates, and public contact
-  information before promoting each talk.
+| Presentación o curso | Contenido disponible |
+| --- | --- |
+| [ERP e Inteligencia Artificial](https://hadox-research-labs.github.io/hadox-talks/erp-e-inteligencia-artificial/) | Calendario de siete sesiones; sesión 1 con teoría, prácticas, videos, cuaderno, repaso y seguimiento del grupo. |
+| [De datos a decisiones: IA, ciencia y ciudades inteligentes](https://hadox-research-labs.github.io/hadox-talks/de-datos-a-decisiones-2026/) | Semana de la Ciencia 2026, Red Global MX Capítulo España, 18 de noviembre. Portada, cuatro láminas, discurso de 15 minutos, audio y descargas. |
+| [Perspectivas de Agentes de IA en Gemelos Digitales Locales para el análisis de Ciudades](https://hadox-research-labs.github.io/hadox-talks/igisc-2026-agentes-ia-gemelos-digitales-locales/) | iGISc 2026, 13 de noviembre. Presentación narrada, demostraciones, cuaderno de preguntas y trabajos, PPTX y PDF. |
+| [IA para líderes: del uso básico a la ventaja competitiva](https://hadox-research-labs.github.io/hadox-talks/ia-para-lideres/revision-clase-3/#lamina-1) | Tres clases con teoría, demostraciones, guías y materiales. La portada enlaza a cada clase. |
+| [Why cities are like elephants and companies are like mice](https://hadox-research-labs.github.io/hadox-talks/elephant-cities-mice-companies/index-en.html) | Presentación de 2021, narración en inglés y español y láminas originales. [Versión en español](https://hadox-research-labs.github.io/hadox-talks/elephant-cities-mice-companies/). |
+| [Navigating Complexity: AI for Resilient Urban Systems](https://hadox-research-labs.github.io/hadox-talks/resilient-urban-ai/index-en.html) | Presentación de 2024, narración en inglés y español y láminas originales. [Versión en español](https://hadox-research-labs.github.io/hadox-talks/resilient-urban-ai/). |
 
-## Repository Structure
+## Otras presentaciones enlazadas en el catálogo
+
+Estas ediciones se alojan en otros repositorios de Hadox Research Labs.
+
+| Presentación | Encuentro o serie |
+| --- | --- |
+| [Imagina un camino más agradable](https://hadox-research-labs.github.io/changesprint-encuentro-2026/masterclass-uvg/) | ChangeSprint · Universidad del Valle de Guatemala. |
+| [IA responsable en lo público](https://hadox-research-labs.github.io/changesprint-encuentro-2026/curso-1-ia-responsable/) | ChangeSprint · Sesión 01. |
+| [De principios a agentes verificables](https://hadox-research-labs.github.io/changesprint-encuentro-2026/curso-2-agentes-verificables/) | ChangeSprint · Sesión 02. |
+| [Mínimo viable para escalar IA con seguridad](https://hadox-research-labs.github.io/guatemala-ai-week-2026/scaling-secure-ai-infrastructure/) | AI Week Guatemala. |
+| [Marco ético de la nueva era digital](https://hadox-research-labs.github.io/guatemala-ai-week-2026/operable-ai-governance/) | AI Week Guatemala. |
+| [Quantum Technologies as Strategic Infrastructure](https://hadox-research-labs.github.io/quantum-technologies-national-strategy/reveal_quantum_strategic_infrastructure/) | Tecnologías cuánticas e infraestructura estratégica. |
+
+## Organización
+
+Cada edición conserva su presentación y ofrece sus propios controles, recursos y descargas. La estructura principal es:
 
 ```text
-.
-|-- index.html
-|-- README.md
-|-- .nojekyll
-|-- elephant-cities-mice-companies/
-    |-- index.html
-    |-- index-en.html
-    |-- deck.js
-    |-- theme.css
-    |-- narration.js
-    |-- speaker_script.md
-    |-- speaker_script_en.md
-    |-- social_pack.json
-    |-- telegram_handoff.md
-    |-- telegram_publish_outbox.json
-    `-- assets/
-        |-- slides/
-        `-- social/
-`-- resilient-urban-ai/
-    |-- index.html
-    |-- index-en.html
-    |-- deck.js
-    |-- theme.css
-    |-- narration.js
-    |-- speaker_script.md
-    |-- speaker_script_en.md
-    |-- social_pack.json
-    |-- telegram_handoff.md
-    |-- telegram_publish_outbox.json
-    `-- assets/
-        |-- slides/
-        `-- social/
+index.html
+README.md
+erp-e-inteligencia-artificial/
+  README.md
+  curso.json
+  sesion-1/
+    index.html
+    leccion.json
+    laminas/
+    audio/
+    videos/
+    materiales/
+  seguimiento/
+de-datos-a-decisiones-2026/
+igisc-2026-agentes-ia-gemelos-digitales-locales/
+ia-para-lideres/
+elephant-cities-mice-companies/
+resilient-urban-ai/
 ```
 
-## Local Preview
+Las narraciones usan audio grabado o lectura del navegador según la edición. Los controles de reproducción y velocidad aparecen en cada presentación; los atajos y opciones pueden variar.
 
-From the repository root:
+## Consulta local y publicación
+
+Para consultar las páginas estáticas desde una copia del repositorio:
 
 ```bash
 python -m http.server 8129 --bind 127.0.0.1
 ```
 
-Open:
+Abre `http://127.0.0.1:8129/`. GitHub Pages publica la raíz de la rama `main` en [Hadox Talks](https://hadox-research-labs.github.io/hadox-talks/).
 
-```text
-http://127.0.0.1:8129/
-```
-
-## Narration Controls
-
-Each deck uses Reveal.js plus the browser Web Speech API.
-
-- `Narrate` or `N`: read the current slide notes.
-- `Auto` or `A`: read from the current slide and advance.
-- `Pause` or `P`: pause or resume.
-- `Stop` or `X`: stop narration.
-- Use the voice selector and rate control for rehearsal.
-
-## Publishing
-
-GitHub Pages serves this repository from the `main` branch root.
-
-Canonical URL:
-
-```text
-https://hadox-research-labs.github.io/hadox-talks/
-```
-
-The build source lives in the Hadox editorial workspace and should regenerate
-this static repository rather than hand-editing generated files.
-
-## iGISc 2026 edition
-
-The iGISc viewer uses native HTML and Web Speech API with chunked continuous narration. Start with **Reproducir ponencia** to read the clean script and advance slides. Slide 20 is a discussion appendix, skipped by continuous narration. Its PPTX preserves the approved raster slides and full speaker notes.
-
-### iGISc editorial revision, 12 November 2026
-
-Slides 11–19 now explain capabilities, methods and urban applications. The closing connects the scientific conclusions to named congress contributions. Four functional QR codes link to Twin/OLDT, Urban MCP, Quetzia and the workbook. The viewer includes two screen demonstrations (OLDT query and Quetzia placement), pauses narration during playback and resumes it when the clip ends. PPTX/PDF and speaker script follow the same edition. Browser reading offers speeds through 2x.
-
-## ERP e Inteligencia Artificial
-
-La primera sesión está disponible en `erp-e-inteligencia-artificial/`: presentación, explicaciones, actividades, cuatro videos y documentos de estudio. Las siguientes sesiones se incorporarán durante el curso. Las entregas y el examen del diplomado se realizan en Moodle.
+El seguimiento del curso utiliza un servicio separado para calcular la nota y compartir los registros autorizados. El cuaderno y el avance personal se conservan en el navegador. Los datos del grupo y el servicio de seguimiento no forman parte de la publicación estática de GitHub Pages.

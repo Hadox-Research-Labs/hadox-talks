@@ -28,14 +28,14 @@
     }
     audio.addEventListener('play',()=>{
       if(mode==='idle'||mode==='practice')mode='single';paused=false;
-      emit('Escuchando · Lámina '+(index+1)+' de '+getSlides().length);
+      emit((mode==='continuous'?'Ensayo continuo':'Solo esta lámina')+' · Lámina '+(index+1)+' de '+getSlides().length);
     });
     audio.addEventListener('pause',()=>{
-      if(mode!=='idle'&&mode!=='practice'&&!audio.ended){paused=true;emit('Lectura en pausa.');}
+      if(mode!=='idle'&&mode!=='practice'&&!audio.ended){paused=true;emit('Audio en pausa. Esta no es una parada de práctica. Pulsa Continuar voz para seguir.');}
     });
     audio.addEventListener('ended',()=>{
       if(mode==='idle'||!audio.ended)return;
-      if(mode==='single'){stop('Terminó la explicación de esta lámina.');return;}
+      if(mode==='single'){stop('Terminó solo esta lámina. Pulsa Ensayar presentación para avanzar automáticamente.');return;}
       const practice=getSlides()[index].practice;
       if(practice&&pauseAtPractices()){mode='practice';paused=true;emit('Momento de práctica '+practice+'. Continúa cuando hayas terminado.');return;}
       if(index>=getSlides().length-1){stop('Terminó la presentación. Puedes repetir una lámina o continuar con los ejercicios.');return;}

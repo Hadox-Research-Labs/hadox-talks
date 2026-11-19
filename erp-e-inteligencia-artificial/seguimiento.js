@@ -150,7 +150,7 @@
   $('reset-rehearsal').addEventListener('click',()=>{state.records={};persist();renderProgress();});
   route(state.routeA3);
   try{
-    const r=await fetch('../evaluacion.json?v=20261117-1');if(!r.ok)throw new Error();const bank=await r.json();questions=bank.questions;
+    const r=await fetch('../evaluacion.json?v=20261119-1');if(!r.ok)throw new Error();const bank=await r.json();questions=bank.questions;
     for(const [n,q] of questions.entries()){
       const fieldset=document.createElement('fieldset'),legend=document.createElement('legend');legend.textContent=(n+1)+'. '+q.text;fieldset.append(legend);
       for(const [option,text] of Object.entries(q.options)){
