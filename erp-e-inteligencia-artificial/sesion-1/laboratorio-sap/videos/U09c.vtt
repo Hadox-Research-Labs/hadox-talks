@@ -1,0 +1,28 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:13.600
+Selecciona la gráfica de salarios. Abre el panel Data del modelo de personal.
+
+00:00:13.600 --> 00:00:26.400
+En Data busca Dimension Input Control y pulsa su botón +.
+
+00:00:26.400 --> 00:00:40.000
+Marca Department, Employment Type y Position. Confirma con OK.
+
+00:00:40.000 --> 00:00:57.000
+En la gráfica quita Position estático. En Add Dimension busca el nuevo control.
+
+00:00:57.000 --> 00:01:25.200
+Selecciona New Dimension Input Control como dimensión de la gráfica. Guarda.
+
+00:01:25.200 --> 00:01:43.000
+Haz doble clic en el título del control. Escribe Select Dimension y confirma con Enter.
+
+00:01:43.000 --> 00:01:59.600
+En Outline selecciona InputControl_2. Arrástralo por su nombre a FIlter_Lane_1; espera un momento antes de soltar.
+
+00:01:59.600 --> 00:02:50.200
+En Styling, Size and Position, acomoda los controles. Para Select Dimension usa Top 4 y Height 9 en Grid.
+
+00:02:50.200 --> 00:03:18.200
+Prueba Employment Type, Position y Department. La gráfica debe mostrar categorías diferentes, conservando Salary.

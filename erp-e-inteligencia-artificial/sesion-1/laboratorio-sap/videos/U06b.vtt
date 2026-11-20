@@ -1,0 +1,25 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:14.000
+Añade una página Canvas con el signo +. Inserta Table para trabajar los comentarios por producto.
+
+00:00:14.000 --> 00:00:36.200
+En Rows usa Product. En Columns usa Gross Margin y Order Date. Expande la jerarquía hasta los productos y los años.
+
+00:00:36.200 --> 00:00:50.200
+En Builder, Table Properties, activa Allow data point comments. Revisa los productos Cola y Soda en 2022.
+
+00:00:50.200 --> 00:01:07.400
+En Cola 2022 abre Add Data Point Comment. Escribe una observación basada en las cifras y pulsa Add Comment. El hilo anterior del entorno está oculto en este video.
+
+00:01:07.400 --> 00:01:26.200
+Escribe un segundo borrador y usa Rephrase. Lee la propuesta antes de publicarla: una diferencia de margen no demuestra por sí sola su causa.
+
+00:01:26.200 --> 00:01:43.600
+Añade el comentario de Soda. En el encabezado 2022 usa Add Client Calculation, Comment, Single para crear una columna de comentarios.
+
+00:01:43.600 --> 00:02:11.800
+En el total Soft Drinks usa Summarize Comments of Descendants. Revisa el alcance: puede incluir comentarios previos. Una tabla de margen no prueba qué producto vende más.
+
+00:02:11.800 --> 00:02:25.800
+Comprueba la columna de comentarios y el resumen terminado. Contrasta las afirmaciones con las cifras antes de conservarlas. Guarda tu historia.

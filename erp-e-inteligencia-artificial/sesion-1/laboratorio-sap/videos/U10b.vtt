@@ -1,0 +1,16 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:17.400
+Cierra Builder y Data si ocultan columnas. Activa la tabla y haz clic derecho en Delta.
+
+00:00:17.400 --> 00:00:34.200
+En Add Threshold elige New Threshold. En el primer rango escribe Min 0; conserva el operador mayor o igual. Añade otro rango.
+
+00:00:34.200 --> 00:00:50.400
+En el selector de estado elige Critical. Escribe Max 0 con operador menor que. OK cubre cero y positivos; Critical cubre negativos.
+
+00:00:50.400 --> 00:01:08.600
+Nombra Critical al rango negativo. Selecciona Delta y abre Styling. Debe mostrar opciones para Data cell.
+
+00:01:08.600 --> 00:01:35.400
+En Styling, Table Properties, Threshold Style, cambia Symbol por Color Values. Comprueba un negativo rojo y un positivo verde. Guarda.

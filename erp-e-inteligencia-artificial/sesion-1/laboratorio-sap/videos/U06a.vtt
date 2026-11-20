@@ -1,0 +1,16 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:13.600
+Inserta Table en el área principal de tu historia y abre Builder.
+
+00:00:13.600 --> 00:00:33.400
+En Rows usa Region y Sales Manager. En Columns usa Gross Margin y Order Date.
+
+00:00:33.400 --> 00:00:49.000
+Expande (all), oculta esa columna y selecciona 2022 y 2023. En el menú contextual busca Add Client Calculation.
+
+00:00:49.000 --> 00:01:02.000
+Elige Subtract y Repeating para repetir la resta en las filas.
+
+00:01:02.000 --> 00:01:22.600
+Comprueba la dirección de la resta: 2023 menos 2022. Aquí es =D2-C2. Renombra Delta y revisa una fila a mano.

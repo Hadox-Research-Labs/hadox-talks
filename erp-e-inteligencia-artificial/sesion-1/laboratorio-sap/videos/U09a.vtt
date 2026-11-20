@@ -1,0 +1,25 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:12.000
+En la barra superior pulsa Link Dimensions. Usa los modelos de finanzas y de personal.
+
+00:00:12.000 --> 00:00:24.200
+Relaciona Sales Manager del modelo financiero con Employee del modelo de personal.
+
+00:00:24.200 --> 00:00:45.000
+En el engrane de cada dimensión elige Link On: ID. Confirma Save y Done. Guarda la historia.
+
+00:00:45.000 --> 00:00:57.800
+Selecciona la tabla. En la interfaz nueva abre Builder, Table Add-Ons, Linked Analysis.
+
+00:00:57.800 --> 00:01:09.800
+Elige Only Selected Widgets. Selecciona los widgets del área Main_Lane_1 para excluir los KPIs del encabezado.
+
+00:01:09.800 --> 00:01:22.200
+Activa Filter on Data Point Selection. En Select Widgets marca Main_Lane_1 y confirma Select y Apply.
+
+00:01:22.200 --> 00:01:48.800
+Selecciona Nancy Miller en la tabla. Comprueba el cambio en salarios y que los dos KPIs generales permanecen iguales.
+
+00:01:48.800 --> 00:02:09.400
+Para quitar la selección de Nancy pulsa el encabezado Sales Manager. Comprueba que regresan todas las categorías de salarios.

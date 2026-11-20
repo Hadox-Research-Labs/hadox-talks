@@ -1,0 +1,34 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:14.200
+Selecciona el área principal e inserta Geo Map desde Insert, Others. En Builder añade la primera capa.
+
+00:00:14.200 --> 00:00:26.600
+Llama Value a la capa. Usa StoreLocation, tipo Choropleth / Drill y estilo Bubble.
+
+00:00:26.600 --> 00:00:41.200
+Crea una cuenta calculada llamada Gross Margin %. Necesitas dividir el margen entre los ingresos y multiplicar por 100.
+
+00:00:41.200 --> 00:01:13.200
+Selecciona las cuentas con el modelo AIN360_ORDER_FINANCE. Usa Gross_Margin / Sales_Revenue por 100. Pulsa Format y comprueba Valid formula.
+
+00:01:13.200 --> 00:01:25.200
+Asigna Gross Margin % a Bubble Color y Gross Margin a Bubble Size. Si aparece Warning sobre rendimiento, pulsa Save. El color representa un porcentaje y el tamaño un importe.
+
+00:01:25.200 --> 00:01:47.800
+Añade Quantity: Choropleth / Drill, estilo Shape, StoreLocation y color Quantity Sold. Coloca Value encima de Quantity.
+
+00:01:47.800 --> 00:02:01.200
+En Value selecciona una paleta de color legible. El mapa base de esta práctica es Transparent Dark Gray.
+
+00:02:01.200 --> 00:02:21.000
+Amplía el mapa para leerlo. Compara las leyendas: valor y cantidad representan medidas diferentes.
+
+00:02:21.000 --> 00:02:40.000
+Selecciona Germany y prueba Drill Down y Zoom In. Revisa qué nivel geográfico está mostrando el mapa.
+
+00:02:40.000 --> 00:02:52.000
+Usa Drill Up para volver al nivel anterior y muestra de nuevo Quantity. El recorrido continúa después del cambio de nivel.
+
+00:02:52.000 --> 00:03:06.000
+Comprueba las dos capas: Value representa margen; Quantity, cantidad. Compara las leyendas y guarda tu historia con Ctrl+S.

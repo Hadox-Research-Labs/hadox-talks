@@ -1,0 +1,13 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:13.600
+En la gráfica de salarios abre Chart Add-Ons, Reference Line. Elige Dynamic y escribe Avg Salary como etiqueta.
+
+00:00:13.600 --> 00:00:42.000
+Selecciona Salary. Conserva Average excl. NULL y confirma Done. Guarda.
+
+00:00:42.000 --> 00:01:14.000
+Selecciona Employment Type. En More Actions de la gráfica usa Sort, Salary, Highest to Lowest.
+
+00:01:14.000 --> 00:01:48.200
+Cambia a Department y vuelve a Employment Type. La línea se actualiza: es el promedio de los totales por categoría, no el sueldo medio por empleado.

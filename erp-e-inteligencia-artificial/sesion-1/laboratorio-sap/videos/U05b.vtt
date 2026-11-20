@@ -1,0 +1,13 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:15.000
+Selecciona el área principal. Inserta Chart desde Assets o desde el botón Chart de la barra superior.
+
+00:00:15.000 --> 00:00:29.800
+En Currently Selected Chart elige Time Series.
+
+00:00:29.800 --> 00:00:48.600
+En Accounts elige Gross Margin y en Time, Order Date. Guarda tu historia con Ctrl+S.
+
+00:00:48.600 --> 00:01:05.600
+Amplía la gráfica y prueba 3M. El intervalo visible es distinto del filtro general de años.

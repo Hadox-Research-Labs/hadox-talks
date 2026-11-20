@@ -1,0 +1,16 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:12.800
+Inserta Chart en el encabezado. En Builder cambia el tipo a Numeric Point.
+
+00:00:12.800 --> 00:00:28.400
+En Primary Values elige Gross Margin. En Filters añade Order Date y selecciona solo 2023.
+
+00:00:28.400 --> 00:00:46.000
+Confirma 2023. En Styling, Number Format, elige Million. Guarda con Ctrl+S y espera la confirmación.
+
+00:00:46.000 --> 00:00:58.600
+En More Actions del indicador abre Copy y Duplicate para crear el segundo KPI.
+
+00:00:58.600 --> 00:01:13.000
+En la copia añade Sales Revenue y quita Gross Margin. Guarda: deben quedar dos indicadores distintos.

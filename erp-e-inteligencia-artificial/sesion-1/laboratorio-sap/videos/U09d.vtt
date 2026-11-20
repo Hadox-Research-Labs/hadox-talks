@@ -1,0 +1,22 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:22.800
+En Builder, Columns, Account, pulsa Add Account y Add Account Input Control. Marca Sales Revenue primero y Gross Margin después. Confirma OK y renombra Select Account.
+
+00:00:22.800 --> 00:00:43.000
+Crea Account Input Control con Sales Revenue primero y Gross Margin después. Llámalo Select Account. Retira el Gross Margin estático de la tabla.
+
+00:00:43.000 --> 00:01:20.200
+En la serie temporal añade Select Account y retira el Gross Margin estático. El control debe servir para los dos widgets.
+
+00:01:20.200 --> 00:01:46.200
+En Outline arrastra InputControl_3 a FIlter_Lane_1 con una pausa al iniciar y antes de soltar.
+
+00:01:46.200 --> 00:02:36.800
+En Styling, Size and Position, coloca Select Account debajo de Select Dimension. Aquí usamos Top 15 y Height 7, en Grid.
+
+00:02:36.800 --> 00:03:08.800
+Cambia entre Gross Margin y Sales Revenue. Revisa el nombre de cuenta y los valores tanto en la tabla como en la serie.
+
+00:03:08.800 --> 00:03:32.400
+Con Sales Revenue, oculta también la columna (all). Conserva 2022, 2023 y Delta. Regresa a Gross Margin y guarda.

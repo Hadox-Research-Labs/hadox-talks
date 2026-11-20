@@ -1,0 +1,37 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:12.000
+Desde tu historia pulsa Just Ask, el icono de bombilla de la barra superior.
+
+00:00:12.000 --> 00:00:24.000
+Abre Select model. Revisa los modelos de sesión antes de escribir una pregunta.
+
+00:00:24.000 --> 00:00:36.000
+Si el modelo de personal no aparece, pulsa Add Another Model to Search.
+
+00:00:36.000 --> 00:00:49.000
+En el buscador escribe HR_Employee_Salary. Selecciona el modelo de muestra AIN360_HR_Employee_Salary.xlsx.
+
+00:00:49.000 --> 00:01:18.200
+Cierra el selector y pregunta: show me salaries by position. Pulsa Enter y espera la respuesta.
+
+00:01:18.200 --> 00:01:47.600
+Cambia la pregunta a: show me salaries by position for the Sales Manager Department. Revisa el filtro aplicado.
+
+00:01:47.600 --> 00:02:00.000
+Cambia a Table y compara al menos dos cifras. En esta muestra los valores están en miles; no asumas una moneda que no aparece.
+
+00:02:00.000 --> 00:02:12.000
+En More Actions elige Analyze Data. El resultado se abre en Data Analyzer, en otra pestaña.
+
+00:02:12.000 --> 00:02:24.000
+Revisa el filtro Sales Managers y los valores. Abre Export para reconocer sus opciones; regresa a Just Ask.
+
+00:02:24.000 --> 00:02:40.600
+Vuelve a Chart. En More Actions elige Copy, espera la confirmación y pulsa Exit Just Ask.
+
+00:02:40.600 --> 00:02:58.000
+En la historia usa Copy and Paste, Paste. Guarda el resultado en tu archivo propio.
+
+00:02:58.000 --> 00:03:10.400
+En Builder comprueba el modelo de personal, Salary y el filtro Department Sales Managers. La respuesta debe conservar su contexto.

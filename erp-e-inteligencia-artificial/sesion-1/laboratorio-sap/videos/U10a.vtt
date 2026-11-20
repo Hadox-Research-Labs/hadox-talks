@@ -1,0 +1,10 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:25.200
+Selecciona el KPI Sales Revenue. En Builder abre Chart Add-Ons y Variance.
+
+00:00:25.200 --> 00:00:45.600
+En COMPARE (A) conserva Dynamic, añade Order Date y Current Time Interval. En TO (B) usa Previous Time Interval. Elige Percentage y Done.
+
+00:00:45.600 --> 00:01:30.200
+Repite la configuración en Gross Margin. En esta muestra el margen aumenta 4.31 % y los ingresos 3.35 % frente a 2022. Guarda.

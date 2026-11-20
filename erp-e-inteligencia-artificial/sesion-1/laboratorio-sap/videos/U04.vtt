@@ -1,0 +1,25 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:13.600
+En Stories selecciona MyStory - Select y pulsa Enter. Debe abrirse New Story: es una historia nueva.
+
+00:00:13.600 --> 00:00:25.800
+Cierra Layouts con Cancel y los paneles que estorben. En Tools pulsa Add New Data.
+
+00:00:25.800 --> 00:00:37.800
+En el menú vuelve a elegir Add New Data. Después selecciona Existing Models.
+
+00:00:37.800 --> 00:00:53.800
+Busca ORDER_FINANCE en el buscador del diálogo. Selecciona AIN360_ORDER_FINANCE, el modelo de muestra de finanzas.
+
+00:00:53.800 --> 00:01:07.400
+En Left Side Panel abre Filters y Add New Filter. Elige Dimensions y Order Date.
+
+00:01:07.400 --> 00:01:20.200
+Selecciona Order Date (Dimension) y Filter by Member para filtrar los años de toda la historia.
+
+00:01:20.200 --> 00:01:33.200
+Marca 2022 y 2023. Confirma OK y comprueba Order Date 2022, 2023 en el panel de filtros. Pulsa Ctrl+S.
+
+00:01:33.200 --> 00:01:54.800
+Elige My Files, escribe un nombre propio y una descripción y pulsa Save. Verifica el nuevo nombre en la barra superior.
