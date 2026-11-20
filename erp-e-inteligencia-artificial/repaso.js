@@ -71,7 +71,7 @@
   let quiz=[];
   function grade(){let correct=0,answered=0;quiz.forEach((q,i)=>{const selected=state.quiz[i];if(selected!==undefined){answered++;if(selected===q.correct)correct++;}const f=$('feedback-'+i);f.hidden=false;f.textContent=(selected===undefined?'Sin responder. ':selected===q.correct?'Correcto. ':'Revisa tu respuesta. ')+q.explanation;f.className='feedback '+(selected===q.correct?'correct':'review');});$('quiz-result').textContent=correct+' de '+quiz.length+' aciertos · '+answered+' preguntas respondidas. Puedes corregir y volver a comprobar.';state.graded=true;save();}
   try{
-    const [lectureResponse,quizResponse]=await Promise.all([fetch('leccion.json?v=20261119-v5'),fetch('evaluacion_repaso.json?v=20261119-v5')]);
+    const [lectureResponse,quizResponse]=await Promise.all([fetch('leccion.json?v=20261119-lab2'),fetch('evaluacion_repaso.json?v=20261119-v5')]);
     if(!lectureResponse.ok||!quizResponse.ok)throw new Error('No disponible');
     slides=(await lectureResponse.json()).slides;quiz=(await quizResponse.json()).questions;
     const select=$('slide-select');select.replaceChildren(...slides.map((s,i)=>{const o=document.createElement('option');o.value=i;o.textContent=String(s.number).padStart(2,'0')+' / '+slides.length+' · '+s.title;return o;}));

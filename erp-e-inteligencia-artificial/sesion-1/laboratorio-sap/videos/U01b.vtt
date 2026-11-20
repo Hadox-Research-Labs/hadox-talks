@@ -1,0 +1,218 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.200
+Abre el menú principal con el icono de tres líneas.
+
+00:00:06.200 --> 00:00:12.400
+En el menú de la izquierda, abre Stories para trabajar con las historias.
+
+00:00:12.400 --> 00:00:21.800
+Este ejercicio utiliza una plantilla de ejemplo. Selecciona la indicada para que
+las posiciones y los pasos coincidan con el recorrido.
+
+00:00:21.800 --> 00:00:27.500
+Selecciona My Analytics Story.
+
+00:00:27.500 --> 00:00:33.800
+Selecciona Close.
+
+00:00:33.800 --> 00:00:42.400
+La plantilla organiza el reporte y conserva su estilo. Puedes reutilizar una
+estructura para mantener formatos consistentes entre historias.
+
+00:00:42.400 --> 00:00:49.400
+Cierra el panel de la izquierda para ganar espacio en el área de la historia.
+
+00:00:49.400 --> 00:00:56.400
+Este espacio contendrá el indicador principal. Selecciónalo antes de configurar
+la medida que quieres mostrar.
+
+00:00:56.400 --> 00:01:02.900
+Selecciona Create a Numeric Point Chart.
+
+00:01:02.900 --> 00:01:10.300
+Selecciona el modelo de ejemplo HandsOn_Concur_Final. Comprueba que el nombre
+coincide con el de la guía.
+
+00:01:10.300 --> 00:01:19.300
+El tipo Numeric Point muestra un indicador numérico. Comprueba el tipo de
+visualización antes de asignar su cuenta o medida.
+
+00:01:19.300 --> 00:01:27.500
+En Primary Values añade la cuenta principal. Pulsa el control que indica que
+falta al menos una cuenta.
+
+00:01:27.500 --> 00:01:33.600
+Selecciona Carbon_Footprint.
+
+00:01:33.600 --> 00:01:43.800
+El indicador ya muestra la medida Carbon Footprint de los datos de muestra. La
+siguiente parte ajusta su presentación para facilitar la lectura.
+
+00:01:43.800 --> 00:01:49.400
+Selecciona Styling.
+
+00:01:49.400 --> 00:01:55.800
+Abre el selector Scale.
+
+00:01:55.800 --> 00:02:02.300
+Selecciona Million.
+
+00:02:02.300 --> 00:02:12.900
+En Scale Format selecciona las abreviaturas de miles, millones y miles de
+millones que muestra la guía. Conserva la unidad al interpretar el resultado.
+
+00:02:12.900 --> 00:02:19.200
+Selecciona More Actions.
+
+00:02:19.200 --> 00:02:25.500
+Selecciona More Options.
+
+00:02:25.500 --> 00:02:31.800
+Selecciona Show/Hide.
+
+00:02:31.800 --> 00:02:37.700
+Selecciona Chart Title.
+
+00:02:37.700 --> 00:02:44.100
+Selecciona el texto del indicador para ajustar su formato.
+
+00:02:44.100 --> 00:02:50.300
+Abre el selector Size.
+
+00:02:50.300 --> 00:02:56.400
+Selecciona 12.
+
+00:02:56.400 --> 00:03:02.500
+Abre de nuevo el selector de tamaño del texto.
+
+00:03:02.500 --> 00:03:08.700
+Selecciona Default.
+
+00:03:08.700 --> 00:03:14.800
+Abre el selector Font Style.
+
+00:03:14.800 --> 00:03:21.100
+Selecciona Bold.
+
+00:03:21.100 --> 00:03:29.700
+El indicador ahora tiene un formato más legible. Revisa escala, tamaño y estilo
+antes de continuar con otra visualización.
+
+00:03:29.700 --> 00:03:36.000
+Selecciona Right Side Panel.
+
+00:03:36.000 --> 00:03:42.100
+Selecciona Insert.
+
+00:03:42.100 --> 00:03:48.300
+Selecciona Others.
+
+00:03:48.300 --> 00:03:54.600
+Selecciona Geo Map.
+
+00:03:54.600 --> 00:04:04.000
+El mapa utiliza capas para representar información geográfica. En los siguientes
+pasos asignarás las ubicaciones y las medidas de cada capa.
+
+00:04:04.000 --> 00:04:10.300
+Abre el selector Base Layer Style.
+
+00:04:10.300 --> 00:04:16.400
+Selecciona Night Time Streets.
+
+00:04:16.400 --> 00:04:22.600
+Selecciona + Add Layer.
+
+00:04:22.600 --> 00:04:28.800
+Selecciona + Location Dimension required.
+
+00:04:28.800 --> 00:04:35.000
+Selecciona OriginLocation.
+
+00:04:35.000 --> 00:04:41.000
+Selecciona Add Dimension/Account.
+
+00:04:41.000 --> 00:04:47.200
+Selecciona Carbon_Footprint.
+
+00:04:47.200 --> 00:04:53.400
+Abre los ajustes de la dimensión para modificar su presentación.
+
+00:04:53.400 --> 00:04:59.500
+Abre el selector de paleta para elegir los colores de la capa.
+
+00:04:59.500 --> 00:05:05.700
+Selecciona dark-to-light blue.
+
+00:05:05.700 --> 00:05:15.100
+Pulsa el icono que invierte el orden de los colores de la paleta. Comprueba cómo
+cambia la lectura de la capa.
+
+00:05:15.100 --> 00:05:21.300
+Selecciona Geo Map Layers.
+
+00:05:21.300 --> 00:05:27.400
+Selecciona + Add Layer.
+
+00:05:27.400 --> 00:05:35.200
+Selecciona el modelo de ejemplo Select Model. Comprueba que el nombre coincide
+con el de la guía.
+
+00:05:35.200 --> 00:05:41.500
+Selecciona OK.
+
+00:05:41.500 --> 00:05:49.700
+Selecciona el modelo de ejemplo Select another model.... Comprueba que el nombre
+coincide con el de la guía.
+
+00:05:49.700 --> 00:05:55.800
+Selecciona HandsOn_SF_Final.
+
+00:05:55.800 --> 00:06:02.100
+Selecciona + Location Dimension required.
+
+00:06:02.100 --> 00:06:08.300
+Selecciona Office_Location.
+
+00:06:08.300 --> 00:06:14.400
+Selecciona Add Dimension/Account.
+
+00:06:14.400 --> 00:06:20.500
+Selecciona Employees.
+
+00:06:20.500 --> 00:06:26.700
+Abre el selector Layer Type para cambiar el tipo de capa del mapa.
+
+00:06:26.700 --> 00:06:32.700
+Selecciona Choropleth / Drill.
+
+00:06:32.700 --> 00:06:39.100
+Selecciona Employees.
+
+00:06:39.100 --> 00:06:45.400
+Abre el selector de paleta para elegir los colores de la capa.
+
+00:06:45.400 --> 00:06:51.500
+Selecciona red-green.
+
+00:06:51.500 --> 00:07:00.900
+Pulsa el icono que invierte el orden de los colores de la paleta. Comprueba cómo
+cambia la lectura de la capa.
+
+00:07:00.900 --> 00:07:07.000
+Selecciona Geo Map Layers.
+
+00:07:07.000 --> 00:07:13.300
+Selecciona Styling.
+
+00:07:13.300 --> 00:07:19.400
+Selecciona Dark.
+
+00:07:19.400 --> 00:07:31.600
+El reporte reúne un indicador de huella de carbono y un mapa con datos de viajes
+y oficinas de personal. Revisa qué aporta cada capa y cada fuente.
+
+00:07:31.600 --> 00:07:41.000
+Llegaste al final de este demo guiado de SAP. Regresa a la lección del workbook
+para continuar con el siguiente apartado.

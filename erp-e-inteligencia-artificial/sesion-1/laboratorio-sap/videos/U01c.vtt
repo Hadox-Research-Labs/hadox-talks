@@ -1,0 +1,307 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.100
+Abre el menú principal con el icono de tres líneas.
+
+00:00:06.100 --> 00:00:12.300
+En el menú de la izquierda, abre Stories para trabajar con las historias.
+
+00:00:12.300 --> 00:00:21.700
+Este ejercicio utiliza una plantilla de ejemplo. Selecciona la indicada para que
+las posiciones y los pasos coincidan con el recorrido.
+
+00:00:21.700 --> 00:00:27.500
+Selecciona My Analytics Story.
+
+00:00:27.500 --> 00:00:34.500
+Cierra el panel de la izquierda para ganar espacio en el área de la historia.
+
+00:00:34.500 --> 00:00:40.600
+Selecciona Create a Line Chart.
+
+00:00:40.600 --> 00:00:48.000
+Selecciona el modelo de ejemplo HandsOn_Concur_Final. Comprueba que el nombre
+coincide con el de la guía.
+
+00:00:48.000 --> 00:00:55.400
+El panel Builder muestra la fuente seleccionada. Comprueba su nombre antes de
+elegir medidas y dimensiones.
+
+00:00:55.400 --> 00:01:02.800
+Esta área contendrá la nueva gráfica. En el panel derecho configurarás su tipo y
+sus datos.
+
+00:01:02.800 --> 00:01:08.900
+Abre el selector Currently Selected Chart.
+
+00:01:08.900 --> 00:01:14.900
+Selecciona Time Series.
+
+00:01:14.900 --> 00:01:21.500
+Añade la cuenta o medida que utilizará esta gráfica desde el panel de
+configuración.
+
+00:01:21.500 --> 00:01:27.700
+Selecciona Ticket_Amount.
+
+00:01:27.700 --> 00:01:33.700
+Añade la dimensión que organizará los datos de la gráfica.
+
+00:01:33.700 --> 00:01:40.000
+Selecciona Travel_Date.
+
+00:01:40.000 --> 00:01:49.400
+La gráfica ya relaciona el gasto de boletos con el tiempo. Revisa sus ejes antes
+de explorar un nivel más detallado.
+
+00:01:49.400 --> 00:01:55.500
+Selecciona Right Side Panel.
+
+00:01:55.500 --> 00:02:03.300
+La jerarquía temporal permite cambiar el nivel de detalle. El siguiente paso
+baja al nivel de meses.
+
+00:02:03.300 --> 00:02:09.700
+Selecciona More Actions.
+
+00:02:09.700 --> 00:02:15.800
+Selecciona Drill.
+
+00:02:15.800 --> 00:02:21.800
+Selecciona Travel_Date.
+
+00:02:21.800 --> 00:02:28.000
+Selecciona Month.
+
+00:02:28.000 --> 00:02:35.800
+La gráfica ya está en el nivel de meses. Ahora añadirás un control para filtrar
+los datos.
+
+00:02:35.800 --> 00:02:41.900
+Selecciona Insert.
+
+00:02:41.900 --> 00:02:48.100
+Selecciona Input Control.
+
+00:02:48.100 --> 00:02:54.200
+Selecciona Dimensions.
+
+00:02:54.200 --> 00:03:00.400
+Selecciona Advance_Purchase_Group.
+
+00:03:00.400 --> 00:03:06.600
+Selecciona Filter by Member.
+
+00:03:06.600 --> 00:03:12.900
+Selecciona All Members.
+
+00:03:12.900 --> 00:03:19.200
+Confirma la selección con el botón OK.
+
+00:03:19.200 --> 00:03:28.600
+Combinar modelos permite comparar medidas de fuentes distintas. Para
+relacionarlas necesitas una dimensión común y un vínculo que conserve su
+significado.
+
+00:03:28.600 --> 00:03:34.900
+Selecciona Create a Bar Chart.
+
+00:03:34.900 --> 00:03:43.500
+Esta gráfica utilizará el modelo de personal de muestra. Cambia la fuente antes
+de asignar sus cuentas y dimensiones.
+
+00:03:43.500 --> 00:03:51.300
+Selecciona el modelo de ejemplo Select Model. Comprueba que el nombre coincide
+con el de la guía.
+
+00:03:51.300 --> 00:03:57.900
+Confirma la selección con el botón OK.
+
+00:03:57.900 --> 00:04:06.100
+Selecciona el modelo de ejemplo Select other model.... Comprueba que el nombre
+coincide con el de la guía.
+
+00:04:06.100 --> 00:04:13.500
+Selecciona el modelo de ejemplo HandsOn_SF_Final. Comprueba que el nombre
+coincide con el de la guía.
+
+00:04:13.500 --> 00:04:20.100
+Añade la cuenta o medida que utilizará esta gráfica desde el panel de
+configuración.
+
+00:04:20.100 --> 00:04:26.400
+Selecciona Employees.
+
+00:04:26.400 --> 00:04:32.600
+Selecciona Add Dimension.
+
+00:04:32.600 --> 00:04:38.800
+Selecciona Org ID.
+
+00:04:38.800 --> 00:04:47.000
+La gráfica muestra empleados por identificador de organización. Comprueba qué
+representa cada categoría antes de explorar el detalle.
+
+00:04:47.000 --> 00:04:53.200
+Selecciona la barra azul de la gráfica para explorar el detalle.
+
+00:04:53.200 --> 00:04:59.300
+Pulsa el icono de detalle para bajar un nivel en la jerarquía.
+
+00:04:59.300 --> 00:05:06.300
+El detalle permite revisar la información por departamento. Conserva el contexto
+de la organización seleccionada.
+
+00:05:06.300 --> 00:05:12.400
+Selecciona Right Side Panel.
+
+00:05:12.400 --> 00:05:18.600
+Selecciona More Actions.
+
+00:05:18.600 --> 00:05:24.700
+Selecciona Sort.
+
+00:05:24.700 --> 00:05:31.100
+Selecciona Employees.
+
+00:05:31.100 --> 00:05:37.400
+Selecciona Highest to Lowest.
+
+00:05:37.400 --> 00:05:45.200
+Las categorías ahora aparecen de mayor a menor número de empleados. El orden
+facilita comparar las magnitudes.
+
+00:05:45.200 --> 00:05:51.300
+Selecciona Right Side Panel.
+
+00:05:51.300 --> 00:05:59.500
+Selecciona el modelo de ejemplo Add Linked Models. Comprueba que el nombre
+coincide con el de la guía.
+
+00:05:59.500 --> 00:06:07.700
+Selecciona el modelo de ejemplo Create Model Link.... Comprueba que el nombre
+coincide con el de la guía.
+
+00:06:07.700 --> 00:06:13.900
+Abre el selector Select a model.
+
+00:06:13.900 --> 00:06:21.700
+Selecciona el modelo de ejemplo Add model.... Comprueba que el nombre coincide
+con el de la guía.
+
+00:06:21.700 --> 00:06:28.000
+Selecciona HandsOn_FG_Final.
+
+00:06:28.000 --> 00:06:34.200
+Selecciona Org ID.
+
+00:06:34.200 --> 00:06:40.500
+Selecciona Org.
+
+00:06:40.500 --> 00:06:46.800
+Selecciona Set.
+
+00:06:46.800 --> 00:06:55.000
+Selecciona el modelo de ejemplo Add Linked Models. Comprueba que el nombre
+coincide con el de la guía.
+
+00:06:55.000 --> 00:07:01.200
+Selecciona HandsOn_FG_Final.
+
+00:07:01.200 --> 00:07:07.500
+Selecciona Add Account.
+
+00:07:07.500 --> 00:07:13.900
+Selecciona HandsOn_FG_Final.
+
+00:07:13.900 --> 00:07:20.000
+Selecciona Contractors.
+
+00:07:20.000 --> 00:07:26.300
+Abre el selector Currently Selected Chart.
+
+00:07:26.300 --> 00:07:32.500
+Selecciona Stacked Bar/Column.
+
+00:07:32.500 --> 00:07:41.100
+La visualización compara contratistas y empleados con barras apiladas. Comprueba
+que ambas medidas aparecen y reconoce las fuentes utilizadas.
+
+00:07:41.100 --> 00:07:47.400
+Selecciona Add Filters.
+
+00:07:47.400 --> 00:07:53.700
+Selecciona HandsOn_FG_Final.
+
+00:07:53.700 --> 00:08:00.000
+Selecciona Employment_Status (Member).
+
+00:08:00.000 --> 00:08:06.300
+Selecciona Active.
+
+00:08:06.300 --> 00:08:12.700
+Confirma la selección con el botón OK.
+
+00:08:12.700 --> 00:08:21.700
+El filtro del estado de empleo ya está aplicado. Revisa ese contexto antes de
+comparar las cifras de la gráfica.
+
+00:08:21.700 --> 00:08:29.900
+Selecciona el modelo de ejemplo Add Linked Models. Comprueba que el nombre
+coincide con el de la guía.
+
+00:08:29.900 --> 00:08:38.100
+Selecciona el modelo de ejemplo Create Model Link.... Comprueba que el nombre
+coincide con el de la guía.
+
+00:08:38.100 --> 00:08:44.600
+Abre el selector Select a model.
+
+00:08:44.600 --> 00:08:51.400
+Selecciona HandsOn_Concur_Final.
+
+00:08:51.400 --> 00:08:57.300
+Selecciona OfficeLocation.
+
+00:08:57.300 --> 00:09:03.500
+Selecciona Home_Office.
+
+00:09:03.500 --> 00:09:09.600
+Selecciona Set.
+
+00:09:09.600 --> 00:09:16.200
+Selecciona Right Side Panel.
+
+00:09:16.200 --> 00:09:22.400
+Selecciona More Actions.
+
+00:09:22.400 --> 00:09:28.700
+Selecciona More Options.
+
+00:09:28.700 --> 00:09:34.800
+Selecciona Linked Analysis.
+
+00:09:34.800 --> 00:09:41.000
+Selecciona Settings.
+
+00:09:41.000 --> 00:09:47.100
+Selecciona Only Selected Widgets.
+
+00:09:47.100 --> 00:09:53.300
+Selecciona Filter on data point selection.
+
+00:09:53.300 --> 00:09:59.600
+Selecciona Apply.
+
+00:09:59.600 --> 00:10:11.400
+Selecciona la barra Development. Si el punto del demo no avanza, utiliza la
+flecha derecha del teclado. El siguiente cuadro permite revisar el efecto del
+análisis vinculado.
+
+00:10:11.400 --> 00:10:20.000
+Observa el resultado del análisis vinculado: las otras gráficas muestran sus
+medidas para la parte de la organización seleccionada.
+
+00:10:20.000 --> 00:10:27.800
+Terminaste los tres recorridos guiados de la primera unidad. Registra tu avance
+y continúa con Unit dos.

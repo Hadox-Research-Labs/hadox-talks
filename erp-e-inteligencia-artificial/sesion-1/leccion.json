@@ -1,5 +1,5 @@
 {
-  "edition": "20261119-v5",
+  "edition": "20261119-lab2",
   "slides": [
     {
       "number": 1,
@@ -12,8 +12,8 @@
       "number": 2,
       "title": "Una idea, un ejemplo y una práctica",
       "image": "laminas/lamina-02.png?v=20261119-v5",
-      "audio": "audio/lamina-02.mp3?v=20261119-v5",
-      "transcript": "Trabajaremos con una idea, un ejemplo y una práctica. Comprender significa reconocer qué problema resuelve cada herramienta. Practicar significa realizar una operación concreta y observar su resultado. Revisar significa explicar qué demuestra ese resultado y qué queda pendiente.\n\nLos workbooks de SAP son guías que contienen varias unidades. En esta sesión solo utilizaremos la entrada al sistema y una consulta de margen. Cada actividad tiene un punto de cierre. Si el acceso tarda, registra dónde te quedaste y utiliza la tabla de respaldo para trabajar el análisis. El objetivo es entender lo que haces, además de llegar a una pantalla."
+      "audio": "audio/lamina-02.mp3?v=20261119-lab2",
+      "transcript": "Trabajaremos con una idea, un ejemplo y una práctica. Comprender significa reconocer qué problema resuelve cada herramienta. Practicar significa realizar una operación concreta y observar su resultado. Revisar significa explicar qué demuestra ese resultado y qué queda pendiente.\n\nLos workbooks de SAP son guías que contienen varias unidades."
     },
     {
       "number": 3,
@@ -24,10 +24,10 @@
     },
     {
       "number": 4,
-      "title": "Hoy: comprender, entrar y consultar",
-      "image": "laminas/lamina-04.png?v=20261119-v5",
-      "audio": "audio/lamina-04.mp3?v=20261119-v5",
-      "transcript": "Esta sesión termina con tres resultados. Primero, una decisión justificada para un pedido de envases. Segundo, el estado real de tu acceso a Analytics Cloud. Tercero, una comparación de dos productos con margen bruto, unidad, versión y filtros.\n\nPuedes distribuir el trabajo en una sesión de cuatro horas, con pausas, o repartirlo a tu ritmo. Las actividades de plataforma no incluyen completar un workbook entero. En el cierre guardarás un resumen de tres puntos y responderás diez preguntas de repaso. Empezaremos por la teoría y los mapas, antes de abrir el sistema."
+      "title": "Hoy: un caso, acceso y un laboratorio",
+      "image": "laminas/lamina-04.png?v=20261119-lab2",
+      "audio": "audio/lamina-04.mp3?v=20261119-lab2",
+      "transcript": "En el cierre guardarás un resumen de tres puntos y responderás diez preguntas de repaso. Empezaremos por la teoría y los mapas, antes de abrir el sistema."
     },
     {
       "number": 5,
@@ -96,9 +96,9 @@
     {
       "number": 14,
       "title": "Una guía te lleva al sistema",
-      "image": "laminas/lamina-14.png?v=20261119-v5",
-      "audio": "audio/lamina-14.mp3?v=20261119-v5",
-      "transcript": "El catálogo muestra workbooks, es decir, guías. Busca Basic Trial, Introduction to SAP Analytics Cloud. Abre la unidad Log On to SAP Analytics Cloud y la lección Log On and Navigate. El enlace al sistema se encuentra dentro de esa guía.\n\nSi el catálogo muestra guías de Build, cierra la sesión del catálogo desde el avatar de SAP y vuelve a entrar desde la bienvenida de Analytics. Abrir otra pestaña puede conservar la misma sesión. Completa A dos hasta abrir el sistema o registrar el último paso logrado. No necesitas recorrer todas las unidades del workbook. Toma una pausa antes de continuar con la teoría de inteligencia artificial.",
+      "image": "laminas/lamina-14.png?v=20261119-lab2",
+      "audio": "audio/lamina-14.mp3?v=20261119-lab2",
+      "transcript": "El catálogo muestra workbooks, es decir, guías. Busca Basic Trial, Introduction to SAP Analytics Cloud. Abre la unidad Log On to SAP Analytics Cloud y la lección Log On and Navigate. El enlace al sistema se encuentra dentro de esa guía.\n\nSi el catálogo muestra guías de Build, cierra la sesión del catálogo desde el avatar de SAP y vuelve a entrar desde la bienvenida de Analytics. Abrir otra pestaña puede conservar la misma sesión. Completa A dos hasta abrir el sistema o registrar el último paso logrado.",
       "practice": "A2"
     },
     {
@@ -126,15 +126,15 @@
       "number": 18,
       "title": "Ejemplo: preguntar y comprobar",
       "image": "laminas/lamina-18.png?v=20261119-v5",
-      "audio": "audio/lamina-18.mp3?v=20261119-v5",
-      "transcript": "El ejemplo utiliza datos de bebidas de muestra, distintos del caso de envases. En Analytics Cloud abre Just Ask. Selecciona el modelo Best Run Juice, Sample Model Planning, cuyo nombre exacto puedes copiar desde la página. Escribe Show gross margin by product y pulsa Ask.\n\nObserva la gráfica y cambia a Table con el icono de cuadrícula. Comprueba Gross Margin, la unidad, la versión Actual y los filtros visibles. Si no seleccionaste un año, no lo agregues a tu conclusión. Ahora elige dos productos y lee sus valores. La siguiente actividad te pide repetir esa consulta y explicar una comparación con su límite."
+      "audio": "audio/lamina-18.mp3?v=20261119-lab2",
+      "transcript": "El ejemplo utiliza datos de bebidas de muestra, distintos del caso de envases. En Analytics Cloud abre Just Ask. Selecciona el modelo Best Run Juice, Sample Model Planning, cuyo nombre exacto puedes copiar desde la página. Escribe Show gross margin by product y pulsa Ask.\n\nObserva la gráfica y cambia a Table con el icono de cuadrícula. Comprueba Gross Margin, la unidad, la versión Actual y los filtros visibles. Si no seleccionaste un año, no lo agregues a tu conclusión. Ahora elige dos productos y lee sus valores."
     },
     {
       "number": 19,
-      "title": "Tu primera consulta, con un cierre claro",
-      "image": "laminas/lamina-19.png?v=20261119-v5",
-      "audio": "audio/lamina-19.mp3?v=20261119-v5",
-      "transcript": "Detén la presentación para realizar A tres. Repite la pregunta del ejemplo en el mismo modelo y cambia de gráfica a tabla. Registra dos productos y sus valores tal como aparecen en tu sesión. Conserva la métrica, la unidad, la versión y los filtros.\n\nEscribe una comparación respaldada por esos valores y un dato que falta para explicar una causa. Guarda una captura sin credenciales. Aquí termina la práctica de plataforma. Si tu acceso sigue bloqueado, registra la incidencia y utiliza la tabla de respaldo, indicando análisis de respaldo. Esa ruta permite practicar la interpretación, pero no acredita una consulta propia al sistema.",
+      "title": "El laboratorio SAP, desde Unit 1",
+      "image": "laminas/lamina-19.png?v=20261119-lab2",
+      "audio": "audio/lamina-19.mp3?v=20261119-lab2",
+      "transcript": "Detén la presentación para realizar A tres.",
       "practice": "A3"
     },
     {
@@ -146,10 +146,10 @@
     },
     {
       "number": 21,
-      "title": "Guarda una evidencia breve y termina",
-      "image": "laminas/lamina-21.png?v=20261119-v5",
-      "audio": "audio/lamina-21.mp3?v=20261119-v5",
-      "transcript": "Termina con un resumen breve. Primero, el faltante del caso de envases y una comprobación pendiente. Segundo, el estado real del acceso a Analytics Cloud. Tercero, dos productos con sus márgenes, unidad y versión, una comparación y un límite. Indica si realizaste una consulta propia o un análisis de respaldo.\n\nGuarda tus respuestas y descarga el cuaderno web para conservar una copia. El guardado automático funciona en este navegador y dispositivo. Después responde las diez preguntas del repaso y utiliza la retroalimentación para corregir. Esta sesión cierra aquí. Puedes repetir voluntariamente la consulta antes de continuar con los fundamentos de inteligencia artificial.",
+      "title": "Conserva tu avance y continúa",
+      "image": "laminas/lamina-21.png?v=20261119-lab2",
+      "audio": "audio/lamina-21.mp3?v=20261119-lab2",
+      "transcript": "Guarda tus respuestas y descarga el cuaderno web para conservar una copia. El guardado automático funciona en este navegador y dispositivo. Después responde las diez preguntas del repaso y utiliza la retroalimentación para corregir. Esta sesión cierra aquí.",
       "practice": "REPASO"
     }
   ]

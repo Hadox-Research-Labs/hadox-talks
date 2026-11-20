@@ -1,7 +1,5 @@
 # La empresa conectada y su transformación con IA
 
-Curso independiente de Hadox Research Labs. Edgar Antonio Valdés Porras.
-
 ## 1. La empresa conectada
 
 Bienvenidas y bienvenidos a La empresa conectada y su transformación con inteligencia artificial, un curso independiente de Hadox Research Labs. Empezaremos con una pregunta concreta: ¿qué debemos comprobar antes de prometer una entrega? Para responder, necesitamos reunir datos de ventas, suministro, inventario y calidad.
@@ -12,7 +10,7 @@ No necesitas conocer SAP para comenzar. Primero comprenderemos los sistemas de u
 
 Trabajaremos con una idea, un ejemplo y una práctica. Comprender significa reconocer qué problema resuelve cada herramienta. Practicar significa realizar una operación concreta y observar su resultado. Revisar significa explicar qué demuestra ese resultado y qué queda pendiente.
 
-Los workbooks de SAP son guías que contienen varias unidades. En esta sesión solo utilizaremos la entrada al sistema y una consulta de margen. Cada actividad tiene un punto de cierre. Si el acceso tarda, registra dónde te quedaste y utiliza la tabla de respaldo para trabajar el análisis. El objetivo es entender lo que haces, además de llegar a una pantalla.
+Los workbooks de SAP son guías que contienen varias unidades.
 
 ## 3. Una ruta para las siete sesiones
 
@@ -20,11 +18,9 @@ La ruta empieza por los sistemas empresariales y una primera consulta. La segund
 
 Reutilizaremos lo aprendido en lugar de comenzar con una plataforma nueva cada vez. Los ejercicios de cada sesión tendrán un cierre definido. El acceso a ciertas funciones depende de las condiciones del entorno SAP. En particular, estudiar la arquitectura de un agente no significa que el trial permita desplegar y ejecutar un agente propio. La prueba disponible puede utilizar un equivalente ya desplegado por SAP.
 
-## 4. Hoy: comprender, entrar y consultar
+## 4. Hoy: un caso, acceso y un laboratorio
 
-Esta sesión termina con tres resultados. Primero, una decisión justificada para un pedido de envases. Segundo, el estado real de tu acceso a Analytics Cloud. Tercero, una comparación de dos productos con margen bruto, unidad, versión y filtros.
-
-Puedes distribuir el trabajo en una sesión de cuatro horas, con pausas, o repartirlo a tu ritmo. Las actividades de plataforma no incluyen completar un workbook entero. En el cierre guardarás un resumen de tres puntos y responderás diez preguntas de repaso. Empezaremos por la teoría y los mapas, antes de abrir el sistema.
+En el cierre guardarás un resumen de tres puntos y responderás diez preguntas de repaso. Empezaremos por la teoría y los mapas, antes de abrir el sistema.
 
 ## 5. La empresa conectada
 
@@ -84,7 +80,7 @@ Busca el mensaje de bienvenida de Analytics Cloud, también en Spam. Desde allí
 
 El catálogo muestra workbooks, es decir, guías. Busca Basic Trial, Introduction to SAP Analytics Cloud. Abre la unidad Log On to SAP Analytics Cloud y la lección Log On and Navigate. El enlace al sistema se encuentra dentro de esa guía.
 
-Si el catálogo muestra guías de Build, cierra la sesión del catálogo desde el avatar de SAP y vuelve a entrar desde la bienvenida de Analytics. Abrir otra pestaña puede conservar la misma sesión. Completa A dos hasta abrir el sistema o registrar el último paso logrado. No necesitas recorrer todas las unidades del workbook. Toma una pausa antes de continuar con la teoría de inteligencia artificial.
+Si el catálogo muestra guías de Build, cierra la sesión del catálogo desde el avatar de SAP y vuelve a entrar desde la bienvenida de Analytics. Abrir otra pestaña puede conservar la misma sesión. Completa A dos hasta abrir el sistema o registrar el último paso logrado.
 
 ## 15. Qué añade la IA al trabajo
 
@@ -108,13 +104,13 @@ En nuestra consulta utilizaremos Gross Margin, margen bruto. No debe confundirse
 
 El ejemplo utiliza datos de bebidas de muestra, distintos del caso de envases. En Analytics Cloud abre Just Ask. Selecciona el modelo Best Run Juice, Sample Model Planning, cuyo nombre exacto puedes copiar desde la página. Escribe Show gross margin by product y pulsa Ask.
 
-Observa la gráfica y cambia a Table con el icono de cuadrícula. Comprueba Gross Margin, la unidad, la versión Actual y los filtros visibles. Si no seleccionaste un año, no lo agregues a tu conclusión. Ahora elige dos productos y lee sus valores. La siguiente actividad te pide repetir esa consulta y explicar una comparación con su límite.
+Observa la gráfica y cambia a Table con el icono de cuadrícula. Comprueba Gross Margin, la unidad, la versión Actual y los filtros visibles. Si no seleccionaste un año, no lo agregues a tu conclusión. Ahora elige dos productos y lee sus valores.
 
-## 19. Tu primera consulta, con un cierre claro
+## 19. El laboratorio SAP, desde Unit 1
 
-Detén la presentación para realizar A tres. Repite la pregunta del ejemplo en el mismo modelo y cambia de gráfica a tabla. Registra dos productos y sus valores tal como aparecen en tu sesión. Conserva la métrica, la unidad, la versión y los filtros.
+Detén la presentación para realizar A tres.
 
-Escribe una comparación respaldada por esos valores y un dato que falta para explicar una causa. Guarda una captura sin credenciales. Aquí termina la práctica de plataforma. Si tu acceso sigue bloqueado, registra la incidencia y utiliza la tabla de respaldo, indicando análisis de respaldo. Esa ruta permite practicar la interpretación, pero no acredita una consulta propia al sistema.
+**Práctica A3:** abre el cuaderno completo y avanza desde Unit 1. Conserva el punto para continuar.
 
 ## 20. Antes de decidir, comprueba
 
@@ -122,8 +118,6 @@ Antes de decidir, revisa de dónde viene cada dato, su fecha y su estado. Compar
 
 Si dos resultados son distintos, revisa primero el modelo, la métrica, la unidad, la versión y los filtros. No inventes una causa para hacerlos coincidir. Conserva una pregunta de negocio que te gustaría investigar en la siguiente sesión. Utiliza este cierre para corregir tu explicación, resolver incidencias y guardar el cuaderno.
 
-## 21. Guarda una evidencia breve y termina
+## 21. Conserva tu avance y continúa
 
-Termina con un resumen breve. Primero, el faltante del caso de envases y una comprobación pendiente. Segundo, el estado real del acceso a Analytics Cloud. Tercero, dos productos con sus márgenes, unidad y versión, una comparación y un límite. Indica si realizaste una consulta propia o un análisis de respaldo.
-
-Guarda tus respuestas y descarga el cuaderno web para conservar una copia. El guardado automático funciona en este navegador y dispositivo. Después responde las diez preguntas del repaso y utiliza la retroalimentación para corregir. Esta sesión cierra aquí. Puedes repetir voluntariamente la consulta antes de continuar con los fundamentos de inteligencia artificial.
+Guarda tus respuestas y descarga el cuaderno web para conservar una copia. El guardado automático funciona en este navegador y dispositivo. Después responde las diez preguntas del repaso y utiliza la retroalimentación para corregir. Esta sesión cierra aquí.
